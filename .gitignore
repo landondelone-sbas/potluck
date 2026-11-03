@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# Expo and build output
+.expo/
+dist/
+web-build/
+ios/
+android/
+*.tsbuildinfo
+
+# environment and secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# logs and coverage
+*.log
+npm-debug.log*
+yarn-error.log*
+coverage/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
