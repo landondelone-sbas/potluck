@@ -1,0 +1,37 @@
+{
+  "id": "cajun",
+  "cuisine": "cajun",
+  "title": "{p} & {v} Cajun Skillet",
+  "minutes": 30,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["sausage", "chicken", "shrimp", "pork", "fish"],
+    "veg": ["pepper", "onion", "tomato", "corn", "greens", "celery"],
+    "spice": ["cajun", "paprika", "chili", "garlic", "smoky", "pepper", "herbs"],
+    "sauce": ["hot", "tomato"],
+    "starch": ["rice", "potato"]
+  },
+  "signature": [
+    {
+      "category": "spice",
+      "tag": "cajun"
+    },
+    {
+      "category": "protein",
+      "tag": "sausage"
+    }
+  ],
+  "defaults": {
+    "protein": "sausage",
+    "veg": "bell peppers",
+    "spice": "cajun seasoning",
+    "sauce": "hot sauce",
+    "starch": "jasmine rice"
+  },
+  "steps": [
+    "Brown the {p} in a wide skillet, then push it aside.",
+    "Cook the {v} with the {spice} until soft and a little charred.",
+    "Stir in the {s} and a splash of {sauce}, cover and simmer until everything melds."
+  ],
+  "tip": "Use less sausage and more peppers and onion to balance the salt."
+}

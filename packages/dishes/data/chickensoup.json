@@ -1,0 +1,32 @@
+{
+  "id": "chickensoup",
+  "cuisine": "comfort",
+  "title": "{p} & {v} Noodle Soup",
+  "minutes": 40,
+  "feel": "Cozy",
+  "wants": {
+    "protein": ["chicken", "turkey", "beans", "sausage"],
+    "veg": ["carrot", "celery", "onion", "greens", "mushroom", "zucchini"],
+    "spice": ["herbs", "pepper", "garlic", "lemon"],
+    "sauce": ["gravy"],
+    "starch": ["noodles", "pasta", "rice", "potato"]
+  },
+  "signature": [
+    { "category": "sauce", "tag": "gravy" },
+    { "category": "starch", "tag": "noodles" }
+  ],
+  "defaults": {
+    "protein": "chicken thighs",
+    "veg": "carrots",
+    "spice": "italian herbs",
+    "sauce": "chicken broth",
+    "starch": "egg noodles"
+  },
+  "steps": [
+    "Soften the {v} with the {spice} in a large pot with a little oil.",
+    "Add the {sauce}, the {p} and enough water to cover, then simmer 20 to 25 minutes, until any meat is at least 165°F / 74°C inside.",
+    "Lift out any whole pieces of meat, shred them and return them to the pot.",
+    "Stir in the {s}, simmer until just tender, and finish with lemon or fresh herbs."
+  ],
+  "tip": "Load it with veg, use plenty of broth and fewer noodles, and keep the salt low."
+}

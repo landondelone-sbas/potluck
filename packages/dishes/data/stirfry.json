@@ -1,0 +1,47 @@
+{
+  "id": "stirfry",
+  "cuisine": "asian",
+  "title": "{p} & {v} Stir-Fry",
+  "minutes": 20,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["chicken", "beef", "pork", "shrimp", "tofu", "egg"],
+    "veg": [
+      "broccoli",
+      "pepper",
+      "carrot",
+      "cabbage",
+      "mushroom",
+      "greens",
+      "greenbeans",
+      "zucchini",
+      "onion"
+    ],
+    "spice": ["garlic", "ginger", "chili", "pepper"],
+    "sauce": ["soy", "teriyaki", "hot", "peanut", "honey"],
+    "starch": ["rice", "noodles"]
+  },
+  "signature": [
+    {
+      "category": "sauce",
+      "tag": "soy"
+    },
+    {
+      "category": "spice",
+      "tag": "ginger"
+    }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "broccoli",
+    "spice": "garlic",
+    "sauce": "soy sauce",
+    "starch": "jasmine rice"
+  },
+  "steps": [
+    "Cook the {s} and keep it warm. Slice the {p} and {v} into bite-size pieces.",
+    "Sear the {p} in a very hot pan, then add the {v} and {spice}. Toss for 3 to 4 minutes.",
+    "Pour in the {sauce}, let it bubble and coat everything, then serve over the {s}."
+  ],
+  "tip": "Load up on the veg and go light on the sauce to keep sodium down."
+}

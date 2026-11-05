@@ -1,0 +1,37 @@
+{
+  "id": "hash",
+  "cuisine": "comfort",
+  "title": "{p} & {v} Skillet Hash",
+  "minutes": 25,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["egg", "sausage", "pork", "chicken", "beef", "beans", "turkey"],
+    "veg": ["onion", "pepper", "broccoli", "mushroom", "greens", "tomato", "carrot", "zucchini"],
+    "spice": ["paprika", "pepper", "garlic", "herbs", "smoky", "cajun"],
+    "sauce": ["ranch", "bbq", "gravy", "hot", "mustard", "cream"],
+    "starch": ["potato", "sweetpotato"]
+  },
+  "signature": [
+    {
+      "category": "starch",
+      "tag": "potato"
+    },
+    {
+      "category": "protein",
+      "tag": "egg"
+    }
+  ],
+  "defaults": {
+    "protein": "eggs",
+    "veg": "bell peppers",
+    "spice": "smoked paprika",
+    "sauce": "hot sauce",
+    "starch": "baby potatoes"
+  },
+  "steps": [
+    "Dice the {s} small and crisp it in a hot skillet for about 10 minutes, stirring rarely.",
+    "Add the {p}, {v} and {spice} and cook until everything is browned.",
+    "Top with the {sauce}, and an egg if you like."
+  ],
+  "tip": "Sweet potato and extra peppers make this lighter and sweeter."
+}

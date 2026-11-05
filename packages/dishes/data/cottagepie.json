@@ -1,0 +1,32 @@
+{
+  "id": "cottagepie",
+  "cuisine": "comfort",
+  "title": "{p} & {v} Potato Pie",
+  "minutes": 60,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["ground", "beans"],
+    "veg": ["carrot", "onion", "greenbeans", "celery", "mushroom", "tomato", "greens"],
+    "spice": ["herbs", "pepper", "garlic", "paprika"],
+    "sauce": ["gravy", "tomato"],
+    "starch": ["potato", "sweetpotato"]
+  },
+  "signature": [
+    { "category": "starch", "tag": "potato" },
+    { "category": "sauce", "tag": "gravy" }
+  ],
+  "defaults": {
+    "protein": "ground beef",
+    "veg": "carrots",
+    "spice": "thyme",
+    "sauce": "gravy",
+    "starch": "baby potatoes"
+  },
+  "steps": [
+    "Heat the oven to 400°F (200°C). Boil the {s} until tender, then drain and mash with a little oil or milk.",
+    "Brown the {p} with the {spice}, then add the {v} and cook until soft.",
+    "Stir in the {sauce} and simmer 10 minutes, then spread in a baking dish and top with the mash.",
+    "Bake 20 to 25 minutes, until golden and bubbling and the filling is at least 165°F / 74°C."
+  ],
+  "tip": "Use lean meat or lentils, lots of veg in the filling, and mash with a little milk instead of butter."
+}

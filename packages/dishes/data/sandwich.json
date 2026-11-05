@@ -1,0 +1,37 @@
+{
+  "id": "sandwich",
+  "cuisine": "comfort",
+  "title": "{p} Sandwich",
+  "minutes": 15,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["chicken", "beef", "pork", "turkey", "fish", "egg", "tofu", "sausage"],
+    "veg": ["tomato", "onion", "greens", "pepper", "avocado", "mushroom", "cucumber"],
+    "spice": ["pepper", "smoky", "paprika", "garlic", "cajun", "herbs"],
+    "sauce": ["bbq", "mustard", "ranch", "hot", "buffalo", "honey"],
+    "starch": ["bread"]
+  },
+  "signature": [
+    {
+      "category": "starch",
+      "tag": "bread"
+    },
+    {
+      "category": "sauce",
+      "tag": "bbq"
+    }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "tomato",
+    "spice": "black pepper",
+    "sauce": "mustard",
+    "starch": "sourdough"
+  },
+  "steps": [
+    "Toast the {s} in a dry pan or the oven.",
+    "Warm the {p} in the pan with the {spice}, then pile on the {v}.",
+    "Spread the {sauce} on the bread, stack it up and slice in half."
+  ],
+  "tip": "Open-face it on one slice and double the veg."
+}

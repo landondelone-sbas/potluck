@@ -1,0 +1,32 @@
+{
+  "id": "quesadilla",
+  "cuisine": "mexican",
+  "title": "{p} Quesadilla",
+  "minutes": 20,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["chicken", "beef", "pork", "shrimp", "beans", "tofu", "turkey"],
+    "veg": ["pepper", "onion", "tomato", "corn", "greens", "mushroom", "avocado"],
+    "spice": ["cumin", "chili", "paprika", "garlic", "smoky"],
+    "sauce": ["cream", "salsa", "hot", "ranch"],
+    "starch": ["tortilla"]
+  },
+  "signature": [
+    { "category": "starch", "tag": "tortilla" },
+    { "category": "sauce", "tag": "cream" }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "bell peppers",
+    "spice": "cumin",
+    "sauce": "shredded cheese",
+    "starch": "flour tortillas"
+  },
+  "steps": [
+    "Cook the {p} with the {spice} until {doneness}, then move to a clean plate.",
+    "Sauté the {v} until soft.",
+    "Fill the {s} with the {p}, the {v} and the {sauce}, fold, and cook in a dry pan 2 to 3 minutes a side, until crisp and melted.",
+    "Cut into wedges and serve with salsa or lime."
+  ],
+  "tip": "Use less cheese, add extra veg, and choose corn tortillas or a whole-wheat wrap."
+}

@@ -1,0 +1,40 @@
+{
+  "id": "thaicurry",
+  "cuisine": "thai",
+  "title": "{p} & {v} Coconut Curry",
+  "minutes": 35,
+  "feel": "Creamy",
+  "wants": {
+    "protein": ["chicken", "shrimp", "tofu", "beef", "pork", "fish", "beans"],
+    "veg": [
+      "pepper",
+      "greenbeans",
+      "zucchini",
+      "carrot",
+      "mushroom",
+      "greens",
+      "onion",
+      "cauliflower"
+    ],
+    "spice": ["curry", "chili", "ginger", "garlic", "lemon"],
+    "sauce": ["coconut", "hot", "soy"],
+    "starch": ["rice", "noodles"]
+  },
+  "signature": [
+    { "category": "sauce", "tag": "coconut" },
+    { "category": "spice", "tag": "curry" }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "bell peppers",
+    "spice": "green curry paste",
+    "sauce": "coconut milk",
+    "starch": "jasmine rice"
+  },
+  "steps": [
+    "Cook the {spice} in a little oil for a minute, until fragrant.",
+    "Add the {p} and {v} and stir for 2 minutes, then pour in the {sauce} and simmer 10 to 15 minutes, until {doneness}.",
+    "Season with soy or fish sauce and lime to taste, and serve over the {s}."
+  ],
+  "tip": "Use more veg than meat, light coconut milk if you have it, and a smaller portion of rice."
+}

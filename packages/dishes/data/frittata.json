@@ -1,0 +1,32 @@
+{
+  "id": "frittata",
+  "cuisine": "italian",
+  "title": "{v} Frittata",
+  "minutes": 25,
+  "feel": "Easy",
+  "wants": {
+    "protein": ["egg"],
+    "veg": ["onion", "pepper", "tomato", "mushroom", "greens", "broccoli", "zucchini", "asparagus"],
+    "spice": ["herbs", "garlic", "pepper"],
+    "sauce": ["cream", "pesto", "tomato"],
+    "starch": ["potato", "bread", "pasta"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "egg" },
+    { "category": "spice", "tag": "herbs" }
+  ],
+  "defaults": {
+    "protein": "eggs",
+    "veg": "spinach",
+    "spice": "italian herbs",
+    "sauce": "parmesan cheese",
+    "starch": "crusty bread"
+  },
+  "steps": [
+    "Heat the oven to 375°F (190°C). Sauté the {v} with the {spice} in an oven-safe pan until soft.",
+    "Whisk the eggs (about 2 to 3 per person) with salt and pepper and pour them over the veg. Dot with the {sauce}.",
+    "Cook on the stove for 2 minutes until the edges set, then bake 12 to 15 minutes, until the center is set and the eggs reach 160°F / 71°C.",
+    "Rest 5 minutes, slice, and serve with the {s}."
+  ],
+  "tip": "More veg and fewer eggs per slice keeps it light, and herbs plus a little sharp cheese carry the flavor."
+}

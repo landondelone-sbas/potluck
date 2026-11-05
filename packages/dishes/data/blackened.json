@@ -1,0 +1,31 @@
+{
+  "id": "blackened",
+  "cuisine": "cajun",
+  "title": "Blackened {p} with {v}",
+  "minutes": 25,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["fish", "chicken", "shrimp", "pork", "turkey"],
+    "veg": ["pepper", "onion", "corn", "greens", "tomato", "zucchini", "greenbeans"],
+    "spice": ["cajun", "paprika", "smoky", "chili", "garlic", "pepper"],
+    "sauce": ["hot", "ranch", "tomato", "mustard"],
+    "starch": ["rice", "potato", "bread"]
+  },
+  "signature": [
+    { "category": "spice", "tag": "cajun" },
+    { "category": "protein", "tag": "fish" }
+  ],
+  "defaults": {
+    "protein": "tilapia",
+    "veg": "corn",
+    "spice": "cajun seasoning",
+    "sauce": "hot sauce",
+    "starch": "long-grain rice"
+  },
+  "steps": [
+    "Pat the {p} dry, coat well with the {spice} and sear in a very hot, oiled pan until {doneness}, turning once.",
+    "Cook the {v} in the same pan until tender and lightly charred.",
+    "Serve with the {s} and the {sauce}."
+  ],
+  "tip": "Fish or shrimp with a pile of veg and a small portion of rice keeps this light, and the seasoning does the work."
+}

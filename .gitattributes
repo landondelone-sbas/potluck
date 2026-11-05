@@ -1,0 +1,10 @@
+# Keep line endings as LF on every machine so Prettier and CI agree.
+* text=auto eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.ttf binary
+*.otf binary

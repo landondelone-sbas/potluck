@@ -1,0 +1,32 @@
+{
+  "id": "shakshuka",
+  "cuisine": "med",
+  "title": "{v} Shakshuka",
+  "minutes": 25,
+  "feel": "Easy",
+  "wants": {
+    "protein": ["egg"],
+    "veg": ["tomato", "pepper", "onion", "greens", "mushroom", "zucchini"],
+    "spice": ["cumin", "paprika", "garlic", "smoky"],
+    "sauce": ["tomato", "hot"],
+    "starch": ["bread", "couscous", "potato"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "egg" },
+    { "category": "sauce", "tag": "tomato" }
+  ],
+  "defaults": {
+    "protein": "eggs",
+    "veg": "bell peppers",
+    "spice": "cumin",
+    "sauce": "crushed tomatoes",
+    "starch": "pita"
+  },
+  "steps": [
+    "Soften the {v} with the {spice} in a wide pan with a little oil.",
+    "Pour in the {sauce} and simmer 10 minutes, until thick.",
+    "Make wells, crack in the eggs, cover and cook 5 to 8 minutes, until the whites are fully set (160°F / 71°C for firm yolks).",
+    "Serve straight from the pan with the {s} for scooping."
+  ],
+  "tip": "Pile in extra veg and scoop with bread instead of adding cheese."
+}

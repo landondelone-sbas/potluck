@@ -1,0 +1,32 @@
+{
+  "id": "minestrone",
+  "cuisine": "italian",
+  "title": "{p} & {v} Soup",
+  "minutes": 40,
+  "feel": "Cozy",
+  "wants": {
+    "protein": ["beans", "sausage", "chicken", "turkey", "beef"],
+    "veg": ["carrot", "celery", "onion", "tomato", "greens", "zucchini", "cabbage", "greenbeans"],
+    "spice": ["herbs", "garlic", "pepper", "chili"],
+    "sauce": ["tomato", "gravy", "pesto"],
+    "starch": ["pasta", "potato", "bread", "rice", "quinoa"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "beans" },
+    { "category": "sauce", "tag": "gravy" }
+  ],
+  "defaults": {
+    "protein": "white beans",
+    "veg": "carrots",
+    "spice": "italian herbs",
+    "sauce": "vegetable broth",
+    "starch": "small pasta"
+  },
+  "steps": [
+    "Brown the {p} in a large pot, then set aside on a clean plate.",
+    "Soften the {v} with the {spice} in the same pot, about 8 minutes.",
+    "Add the {sauce}, the {p} and enough water or stock to cover, then simmer 25 minutes, until everything is cooked through and any meat is at least 165°F / 74°C inside.",
+    "Stir in the {s}, simmer until just tender, and season to taste."
+  ],
+  "tip": "Let beans and veg do the work: skip the cream and go easy on the cheese."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "stuffedpeppers",
+  "cuisine": "med",
+  "title": "Stuffed Peppers with {p}",
+  "minutes": 50,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["ground", "sausage", "beans"],
+    "veg": ["pepper"],
+    "spice": ["herbs", "garlic", "paprika", "cumin", "pepper", "cinnamon"],
+    "sauce": ["tomato", "gravy"],
+    "starch": ["rice", "couscous", "quinoa"]
+  },
+  "signature": [
+    { "category": "veg", "tag": "pepper" },
+    { "category": "sauce", "tag": "tomato" }
+  ],
+  "defaults": {
+    "protein": "ground turkey",
+    "veg": "bell peppers",
+    "spice": "italian herbs",
+    "sauce": "tomato sauce",
+    "starch": "brown rice"
+  },
+  "steps": [
+    "Heat the oven to 375°F (190°C) and cook the {s} until just tender.",
+    "Brown the {p} with the {spice}, then mix in the {s} and half the {sauce}.",
+    "Cut the tops off the {v}, scoop out the seeds and stuff them. Stand them in a dish, spoon over the rest of the {sauce}, cover and bake 35 to 40 minutes, until the filling is at least 165°F / 74°C.",
+    "Rest 5 minutes before serving."
+  ],
+  "tip": "Use lean turkey or beans, plenty of rice or quinoa, and skip the cheese topping."
+}

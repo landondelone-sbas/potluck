@@ -1,0 +1,37 @@
+{
+  "id": "noodles",
+  "cuisine": "asian",
+  "title": "{p} & {v} Noodle Bowl",
+  "minutes": 20,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["chicken", "tofu", "shrimp", "pork", "egg", "beef"],
+    "veg": ["cucumber", "carrot", "cabbage", "pepper", "greens", "broccoli", "greenbeans"],
+    "spice": ["garlic", "ginger", "chili", "lemon"],
+    "sauce": ["peanut", "soy", "hot", "coconut", "honey", "teriyaki"],
+    "starch": ["noodles", "pasta"]
+  },
+  "signature": [
+    {
+      "category": "sauce",
+      "tag": "peanut"
+    },
+    {
+      "category": "starch",
+      "tag": "noodles"
+    }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "cucumber",
+    "spice": "ginger",
+    "sauce": "peanut sauce",
+    "starch": "rice noodles"
+  },
+  "steps": [
+    "Boil the {s} and rinse in cool water. Slice the {v} thin.",
+    "Whisk the {sauce} with a splash of warm water until pourable.",
+    "Toss the {s} with the {sauce}, top with the {p} and {v}, and finish with {spice}."
+  ],
+  "tip": "Use half the sauce and add lime or vinegar for brightness instead of more salt or sugar."
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@potluck/engine",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Potluck matching engine: tag, score, select, build cards. Pure TypeScript.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "jest"
+  }
+}

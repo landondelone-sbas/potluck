@@ -1,0 +1,32 @@
+{
+  "id": "spicynoodles",
+  "cuisine": "korean",
+  "title": "Spicy {p} & {v} Noodles",
+  "minutes": 20,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["chicken", "pork", "tofu", "shrimp", "beef"],
+    "veg": ["cabbage", "carrot", "greens", "onion", "greenbeans", "mushroom", "cucumber"],
+    "spice": ["garlic", "ginger", "chili"],
+    "sauce": ["hot", "soy", "honey"],
+    "starch": ["noodles"]
+  },
+  "signature": [
+    { "category": "sauce", "tag": "hot" },
+    { "category": "starch", "tag": "noodles" }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "kimchi",
+    "spice": "garlic",
+    "sauce": "gochujang",
+    "starch": "udon noodles"
+  },
+  "steps": [
+    "Cook the {s} to the pack time, drain and rinse.",
+    "Stir-fry the {p} until {doneness}, then add the {v} and the {spice} for 2 to 3 minutes.",
+    "Toss with the {sauce} and the {s} until coated and glossy.",
+    "Serve hot, topped with sesame seeds or scallions."
+  ],
+  "tip": "Load it with veg, use a small spoon of the chili paste and add a splash of water to stretch it."
+}

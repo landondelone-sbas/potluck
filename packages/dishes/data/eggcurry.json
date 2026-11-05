@@ -1,0 +1,32 @@
+{
+  "id": "eggcurry",
+  "cuisine": "indian",
+  "title": "Egg Curry with {v}",
+  "minutes": 25,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["egg"],
+    "veg": ["tomato", "onion", "greens", "pepper", "cauliflower", "greenbeans"],
+    "spice": ["curry", "cumin", "ginger", "garlic", "chili", "paprika"],
+    "sauce": ["tomato", "coconut", "cream", "hot"],
+    "starch": ["rice", "potato"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "egg" },
+    { "category": "spice", "tag": "curry" }
+  ],
+  "defaults": {
+    "protein": "eggs",
+    "veg": "tomatoes",
+    "spice": "curry powder",
+    "sauce": "crushed tomatoes",
+    "starch": "basmati rice"
+  },
+  "steps": [
+    "Boil the eggs hard: lower them into boiling water for 10 minutes, then cool in cold water and peel.",
+    "Soften a little garlic in oil, then bloom the {spice} for 30 seconds.",
+    "Add the {v} and the {sauce} and simmer 10 minutes, until the sauce thickens.",
+    "Halve the eggs, slip them into the sauce to warm through, and serve over the {s}."
+  ],
+  "tip": "Eggs are a cheap, filling protein: load the sauce with veg and go easy on the oil."
+}

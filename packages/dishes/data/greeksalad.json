@@ -1,0 +1,32 @@
+{
+  "id": "greeksalad",
+  "cuisine": "med",
+  "title": "Greek Salad with {p}",
+  "minutes": 15,
+  "feel": "Light",
+  "wants": {
+    "protein": ["chicken", "beans", "fish", "shrimp"],
+    "veg": ["cucumber", "tomato", "onion", "pepper", "greens", "avocado"],
+    "spice": ["herbs", "garlic", "pepper", "lemon"],
+    "sauce": ["vinaigrette", "hummus", "mustard"],
+    "starch": ["bread", "couscous", "quinoa", "potato"]
+  },
+  "signature": [
+    { "category": "veg", "tag": "cucumber" },
+    { "category": "sauce", "tag": "vinaigrette" }
+  ],
+  "defaults": {
+    "protein": "chickpeas",
+    "veg": "cucumber",
+    "spice": "oregano",
+    "sauce": "olive oil and lemon",
+    "starch": "pita"
+  },
+  "steps": [
+    "Chop the {v} into bite-size pieces.",
+    "Cook the {p} until {doneness}, or drain canned beans or fish, and let cool a few minutes.",
+    "Toss the {v} with the {sauce} and the {spice}.",
+    "Top with the {p} and serve with the {s}."
+  ],
+  "tip": "Make veg most of the bowl, use a light hand with the oil and cheese, and let beans or fish add protein."
+}

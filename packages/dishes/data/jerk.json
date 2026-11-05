@@ -1,0 +1,32 @@
+{
+  "id": "jerk",
+  "cuisine": "caribbean",
+  "title": "Jerk {p} with {v}",
+  "minutes": 40,
+  "feel": "Bold",
+  "wants": {
+    "protein": ["chicken", "pork", "fish", "shrimp", "tofu"],
+    "veg": ["pepper", "onion", "greens", "zucchini", "corn", "tomato", "carrot"],
+    "spice": ["jerk", "chili", "garlic", "ginger", "smoky", "herbs", "cinnamon"],
+    "sauce": ["hot", "honey", "coconut", "bbq"],
+    "starch": ["rice", "potato", "sweetpotato"]
+  },
+  "signature": [
+    { "category": "spice", "tag": "jerk" },
+    { "category": "sauce", "tag": "hot" }
+  ],
+  "defaults": {
+    "protein": "chicken thighs",
+    "veg": "bell peppers",
+    "spice": "jerk seasoning",
+    "sauce": "hot sauce",
+    "starch": "coconut rice"
+  },
+  "steps": [
+    "Coat the {p} well with the {spice} and leave in the fridge for at least 30 minutes, or overnight.",
+    "Cook the {p} in a 425°F (220°C) oven, on a grill or in a pan, turning now and then, until {doneness}. Chicken pieces take 35 to 45 minutes; shrimp and thin cuts take far less.",
+    "Meanwhile cook the {v} until tender and lightly charred.",
+    "Rest 5 minutes and serve with the {s} and the {sauce}."
+  ],
+  "tip": "Make the veg half the plate, choose skinless chicken or fish and keep the rice portion modest."
+}

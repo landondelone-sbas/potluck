@@ -1,0 +1,32 @@
+{
+  "id": "tagine",
+  "cuisine": "med",
+  "title": "{p} & {v} Tagine",
+  "minutes": 50,
+  "feel": "Slow",
+  "wants": {
+    "protein": ["chicken", "lamb", "beans", "beef", "turkey"],
+    "veg": ["carrot", "onion", "tomato", "zucchini", "cauliflower", "greens", "pepper"],
+    "spice": ["cumin", "cinnamon", "paprika", "ginger", "garlic", "chili"],
+    "sauce": ["tomato", "gravy", "honey"],
+    "starch": ["couscous", "rice", "bread", "quinoa"]
+  },
+  "signature": [
+    { "category": "spice", "tag": "cinnamon" },
+    { "category": "starch", "tag": "couscous" }
+  ],
+  "defaults": {
+    "protein": "chicken thighs",
+    "veg": "carrots",
+    "spice": "cinnamon",
+    "sauce": "chicken broth",
+    "starch": "couscous"
+  },
+  "steps": [
+    "Brown the {p} in a heavy pot, then set aside on a clean plate.",
+    "Soften the {v} with the {spice}, then add the {sauce} and enough water or stock to half-cover.",
+    "Return the {p}, cover and simmer gently 30 to 40 minutes, until tender and any meat is at least 165°F / 74°C inside.",
+    "Serve over the {s}, with something fresh, like lemon or herbs."
+  ],
+  "tip": "Beans can replace half the meat, and the veg and spices carry most of the flavor."
+}

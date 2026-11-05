@@ -1,0 +1,32 @@
+{
+  "id": "piccata",
+  "cuisine": "italian",
+  "title": "{p} Piccata with {v}",
+  "minutes": 25,
+  "feel": "Light",
+  "wants": {
+    "protein": ["chicken", "fish", "turkey", "pork", "shrimp"],
+    "veg": ["asparagus", "greens", "mushroom", "greenbeans", "zucchini", "broccoli"],
+    "spice": ["lemon", "garlic", "herbs", "pepper"],
+    "sauce": ["gravy", "vinaigrette", "cream"],
+    "starch": ["pasta", "potato", "rice", "couscous", "quinoa"]
+  },
+  "signature": [
+    { "category": "spice", "tag": "lemon" },
+    { "category": "sauce", "tag": "gravy" }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "asparagus",
+    "spice": "lemon pepper",
+    "sauce": "chicken stock",
+    "starch": "linguine"
+  },
+  "steps": [
+    "Pat the {p} dry and season with the {spice}. Sear in a hot pan until golden and {doneness}, then set aside on a clean plate.",
+    "Cook the {v} in the same pan until tender-crisp, then set aside with the {p}.",
+    "Pour the {sauce} and a squeeze of lemon into the pan, scrape up the browned bits and simmer until slightly thick.",
+    "Return the {p} and {v} to the pan to coat, and serve over the {s}."
+  ],
+  "tip": "Lemon and stock make the pan sauce, so you need very little butter or cream."
+}

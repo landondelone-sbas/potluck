@@ -1,0 +1,32 @@
+{
+  "id": "gyro",
+  "cuisine": "med",
+  "title": "{p} Pita Wrap",
+  "minutes": 20,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["chicken", "lamb", "beef", "pork", "turkey"],
+    "veg": ["cucumber", "tomato", "onion", "greens", "pepper"],
+    "spice": ["herbs", "garlic", "paprika", "cumin", "lemon", "pepper"],
+    "sauce": ["hummus", "vinaigrette", "mustard"],
+    "starch": ["bread", "tortilla"]
+  },
+  "signature": [
+    { "category": "sauce", "tag": "hummus" },
+    { "category": "starch", "tag": "bread" }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "cucumber",
+    "spice": "oregano",
+    "sauce": "tzatziki",
+    "starch": "pita"
+  },
+  "steps": [
+    "Season the {p} with the {spice} and cook in a hot pan until browned and {doneness}, then slice and keep on a clean plate.",
+    "Chop the {v}.",
+    "Warm the {s}, spread with the {sauce}, and pile on the {p} and {v}.",
+    "Roll or fold and serve right away."
+  ],
+  "tip": "Use extra cucumber and tomato, a thin spread of sauce, and a whole-wheat pita."
+}

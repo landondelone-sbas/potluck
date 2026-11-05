@@ -1,0 +1,32 @@
+{
+  "id": "steakpotato",
+  "cuisine": "comfort",
+  "title": "{p} & Potato Skillet",
+  "minutes": 30,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["steak"],
+    "veg": ["onion", "pepper", "mushroom", "greens", "broccoli", "zucchini"],
+    "spice": ["pepper", "garlic", "herbs", "paprika", "smoky"],
+    "sauce": ["mustard", "gravy", "bbq", "cream", "hot"],
+    "starch": ["potato", "sweetpotato"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "steak" },
+    { "category": "starch", "tag": "potato" }
+  ],
+  "defaults": {
+    "protein": "sirloin steak",
+    "veg": "onions",
+    "spice": "garlic",
+    "sauce": "mustard",
+    "starch": "baby potatoes"
+  },
+  "steps": [
+    "Dice the {s} small and pan-fry in oil for 12 to 15 minutes, until golden and tender, then move to a clean plate.",
+    "Pat the {p} dry, season with the {spice} and salt, and sear 3 to 4 minutes a side. Check the thickest part with a thermometer: the USDA safe minimum for steak is 145°F / 63°C. A lower doneness is your choice and carries more risk.",
+    "Rest the {p} 3 to 5 minutes, then slice, and cook the {v} in the same pan until soft.",
+    "Toss everything together with the {sauce} and serve hot."
+  ],
+  "tip": "Use more veg than potato, slice the steak thin so a little goes a long way, and go light on the sauce."
+}

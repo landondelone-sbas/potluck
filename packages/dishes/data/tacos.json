@@ -1,0 +1,48 @@
+{
+  "id": "tacos",
+  "cuisine": "mexican",
+  "title": "{p} Tacos",
+  "minutes": 20,
+  "feel": "Quick",
+  "wants": {
+    "protein": [
+      "chicken",
+      "beef",
+      "pork",
+      "fish",
+      "shrimp",
+      "beans",
+      "tofu",
+      "egg",
+      "turkey",
+      "sausage"
+    ],
+    "veg": ["onion", "tomato", "cabbage", "pepper", "avocado", "greens", "corn", "cucumber"],
+    "spice": ["chili", "cumin", "paprika", "garlic", "smoky", "lemon"],
+    "sauce": ["salsa", "hot", "ranch"],
+    "starch": ["tortilla"]
+  },
+  "signature": [
+    {
+      "category": "starch",
+      "tag": "tortilla"
+    },
+    {
+      "category": "sauce",
+      "tag": "salsa"
+    }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "red onion",
+    "spice": "cumin",
+    "sauce": "salsa",
+    "starch": "corn tortillas"
+  },
+  "steps": [
+    "Season the {p} with the {spice} and cook it hot and fast.",
+    "Warm the {s} in a dry pan until they blister a little.",
+    "Pile on the {p} and {v}, then spoon over the {sauce}."
+  ],
+  "tip": "Corn tortillas with a cabbage or onion topping add crunch and fiber for few calories."
+}

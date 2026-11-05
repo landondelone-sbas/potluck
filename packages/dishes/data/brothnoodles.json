@@ -1,0 +1,32 @@
+{
+  "id": "brothnoodles",
+  "cuisine": "asian",
+  "title": "{p} & {v} Broth Noodles",
+  "minutes": 25,
+  "feel": "Cozy",
+  "wants": {
+    "protein": ["chicken", "egg", "pork", "tofu", "shrimp", "beef"],
+    "veg": ["greens", "mushroom", "carrot", "cabbage", "onion", "greenbeans"],
+    "spice": ["ginger", "garlic", "chili"],
+    "sauce": ["soy", "gravy", "hot", "teriyaki"],
+    "starch": ["noodles"]
+  },
+  "signature": [
+    { "category": "starch", "tag": "noodles" },
+    { "category": "sauce", "tag": "gravy" }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "bok choy",
+    "spice": "ginger",
+    "sauce": "chicken broth",
+    "starch": "ramen noodles"
+  },
+  "steps": [
+    "Simmer broth or water with the {spice} and the {sauce} for 10 minutes.",
+    "Add the {p} and simmer until {doneness}. Boil any eggs hard, 10 minutes, and peel.",
+    "Cook the {s} separately to the pack time, then drain.",
+    "Add the {v} to the broth for the last 3 minutes, then ladle over the {s} in bowls."
+  ],
+  "tip": "Make the veg half the bowl, use a light hand with the soy and keep the broth the main event."
+}

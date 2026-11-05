@@ -1,0 +1,32 @@
+{
+  "id": "pilaf",
+  "cuisine": "indian",
+  "title": "Spiced {p} & {v} Pilaf",
+  "minutes": 40,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["chicken", "beans", "tofu", "lamb"],
+    "veg": ["onion", "carrot", "greenbeans", "cauliflower", "tomato", "pepper", "greens"],
+    "spice": ["curry", "cumin", "cinnamon", "ginger", "garlic", "chili"],
+    "sauce": ["tomato", "hot", "coconut"],
+    "starch": ["rice"]
+  },
+  "signature": [
+    { "category": "starch", "tag": "rice" },
+    { "category": "spice", "tag": "cumin" }
+  ],
+  "defaults": {
+    "protein": "chicken thighs",
+    "veg": "carrots",
+    "spice": "garam masala",
+    "sauce": "crushed tomatoes",
+    "starch": "basmati rice"
+  },
+  "steps": [
+    "Warm a little oil, add the {spice} and stir for 30 seconds until fragrant.",
+    "Add the {p} and {v} and cook a few minutes, stirring, until lightly browned.",
+    "Stir in the {s} to coat, add the {sauce} and enough water to cover the rice by a knuckle, then cover and simmer on low until the rice is tender (about 15 minutes for white rice, 40 for brown).",
+    "Check that any chicken or lamb is at least 165°F / 74°C inside, then fluff with a fork, rest 5 minutes covered, and finish with lemon or fresh herbs."
+  ],
+  "tip": "Brown rice and extra veg add fiber, and a tablespoon of oil is plenty."
+}

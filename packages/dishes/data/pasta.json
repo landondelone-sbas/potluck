@@ -1,0 +1,37 @@
+{
+  "id": "pasta",
+  "cuisine": "italian",
+  "title": "{p} & {v} Pasta",
+  "minutes": 25,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["chicken", "sausage", "beef", "shrimp", "turkey", "beans"],
+    "veg": ["tomato", "onion", "mushroom", "greens", "pepper", "zucchini", "broccoli", "asparagus"],
+    "spice": ["garlic", "herbs", "chili", "pepper"],
+    "sauce": ["tomato", "cream", "pesto"],
+    "starch": ["pasta"]
+  },
+  "signature": [
+    {
+      "category": "starch",
+      "tag": "pasta"
+    },
+    {
+      "category": "sauce",
+      "tag": "tomato"
+    }
+  ],
+  "defaults": {
+    "protein": "italian sausage",
+    "veg": "spinach",
+    "spice": "garlic",
+    "sauce": "marinara",
+    "starch": "spaghetti"
+  },
+  "steps": [
+    "Boil the {s} in well-salted water until just shy of done.",
+    "Brown the {p} in a wide pan, then soften the {v} with the {spice}.",
+    "Add the {sauce} and a ladle of pasta water, toss in the {s} and finish in the pan for a minute."
+  ],
+  "tip": "Make veg a third of the pan and choose whole-wheat pasta for a slower-burning carb."
+}

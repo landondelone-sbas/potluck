@@ -1,0 +1,32 @@
+{
+  "id": "tikkamasala",
+  "cuisine": "indian",
+  "title": "{p} Tikka Masala",
+  "minutes": 35,
+  "feel": "Rich",
+  "wants": {
+    "protein": ["chicken", "shrimp", "tofu", "fish", "lamb", "beans"],
+    "veg": ["onion", "pepper", "tomato", "greens", "cauliflower", "mushroom"],
+    "spice": ["curry", "cumin", "paprika", "ginger", "garlic", "chili"],
+    "sauce": ["tomato", "cream", "coconut"],
+    "starch": ["rice", "bread"]
+  },
+  "signature": [
+    { "category": "sauce", "tag": "cream" },
+    { "category": "spice", "tag": "curry" }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "onions",
+    "spice": "garam masala",
+    "sauce": "tomato cream sauce",
+    "starch": "basmati rice"
+  },
+  "steps": [
+    "Season the {p} with the {spice} and sear in a hot pan with a little oil until browned on the outside, then set aside on a clean plate.",
+    "Soften a little garlic in the same pan, add the {v}, then pour in the {sauce} and simmer 10 minutes.",
+    "Return the {p} and simmer until {doneness}.",
+    "Serve over the {s} with a squeeze of lemon."
+  ],
+  "tip": "Use tomato with a little cream or yogurt instead of all cream, and add extra veg to stretch it."
+}

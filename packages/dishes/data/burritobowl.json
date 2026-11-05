@@ -1,0 +1,37 @@
+{
+  "id": "burritobowl",
+  "cuisine": "mexican",
+  "title": "{p} Burrito Bowl",
+  "minutes": 25,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["beef", "chicken", "pork", "beans", "shrimp", "tofu", "turkey", "sausage"],
+    "veg": ["pepper", "corn", "tomato", "onion", "avocado", "greens", "cucumber", "cabbage"],
+    "spice": ["cumin", "chili", "paprika", "garlic", "smoky", "lemon"],
+    "sauce": ["salsa", "hot", "ranch", "tomato"],
+    "starch": ["rice", "quinoa"]
+  },
+  "signature": [
+    {
+      "category": "sauce",
+      "tag": "salsa"
+    },
+    {
+      "category": "starch",
+      "tag": "rice"
+    }
+  ],
+  "defaults": {
+    "protein": "black beans",
+    "veg": "bell peppers",
+    "spice": "cumin",
+    "sauce": "salsa",
+    "starch": "jasmine rice"
+  },
+  "steps": [
+    "Cook the {s}. Brown the {p} with the {spice} until it smells toasty.",
+    "Char the {v} in the same pan for a couple of minutes.",
+    "Build the bowl with {s}, {p} and {v}, then finish with {sauce}."
+  ],
+  "tip": "Fill half the bowl with veg and greens. Beans and lean protein keep it filling."
+}

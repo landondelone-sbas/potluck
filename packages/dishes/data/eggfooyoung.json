@@ -1,0 +1,32 @@
+{
+  "id": "eggfooyoung",
+  "cuisine": "asian",
+  "title": "Egg Foo Young with {v}",
+  "minutes": 20,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["egg"],
+    "veg": ["cabbage", "carrot", "greenbeans", "mushroom", "onion", "greens", "pepper"],
+    "spice": ["ginger", "garlic", "chili"],
+    "sauce": ["soy", "gravy", "hot", "teriyaki"],
+    "starch": ["rice"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "egg" },
+    { "category": "sauce", "tag": "soy" }
+  ],
+  "defaults": {
+    "protein": "eggs",
+    "veg": "cabbage",
+    "spice": "ginger",
+    "sauce": "soy sauce",
+    "starch": "jasmine rice"
+  },
+  "steps": [
+    "Sauté the {v} with the {spice} until just tender, then let cool a few minutes.",
+    "Whisk the eggs (about 2 to 3 per person) and stir in the veg.",
+    "Cook in a lightly oiled pan in small patties, 2 to 3 minutes a side, until fully set (160°F / 71°C).",
+    "Serve over the {s} with the {sauce} spooned on top."
+  ],
+  "tip": "Pack the patties with veg, cook them in a little oil and go light on the sauce."
+}

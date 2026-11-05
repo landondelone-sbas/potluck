@@ -1,0 +1,32 @@
+{
+  "id": "panzanella",
+  "cuisine": "italian",
+  "title": "Panzanella with {p}",
+  "minutes": 20,
+  "feel": "Light",
+  "wants": {
+    "protein": ["chicken", "beans", "fish", "shrimp"],
+    "veg": ["tomato", "cucumber", "pepper", "onion", "greens", "celery"],
+    "spice": ["herbs", "garlic", "pepper", "chili"],
+    "sauce": ["vinaigrette", "pesto", "mustard"],
+    "starch": ["bread"]
+  },
+  "signature": [
+    { "category": "veg", "tag": "tomato" },
+    { "category": "sauce", "tag": "vinaigrette" }
+  ],
+  "defaults": {
+    "protein": "white beans",
+    "veg": "tomatoes",
+    "spice": "italian herbs",
+    "sauce": "balsamic vinaigrette",
+    "starch": "ciabatta"
+  },
+  "steps": [
+    "Cube the {s}, toss with a little oil and toast in a hot oven or pan until crisp at the edges.",
+    "Chop the {v} and toss with the {sauce} and the {spice}. Leave to sit 10 minutes so the juices soak in.",
+    "Cook the {p} until {doneness}. Canned beans or fish just need draining.",
+    "Toss in the toasted {s} just before serving to keep some crunch, and top with the {p}."
+  ],
+  "tip": "Go heavy on tomato and cucumber, light on the oil, and use beans for protein and fiber."
+}

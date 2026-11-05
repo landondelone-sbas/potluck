@@ -1,0 +1,32 @@
+{
+  "id": "cacciatore",
+  "cuisine": "italian",
+  "title": "{p} & {v} Cacciatore",
+  "minutes": 45,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["chicken", "sausage", "turkey", "pork", "beans"],
+    "veg": ["pepper", "onion", "mushroom", "tomato", "zucchini", "greens"],
+    "spice": ["herbs", "garlic", "chili", "pepper"],
+    "sauce": ["tomato", "gravy"],
+    "starch": ["pasta", "potato", "bread", "rice"]
+  },
+  "signature": [
+    { "category": "veg", "tag": "pepper" },
+    { "category": "sauce", "tag": "tomato" }
+  ],
+  "defaults": {
+    "protein": "chicken thighs",
+    "veg": "bell peppers",
+    "spice": "italian herbs",
+    "sauce": "marinara",
+    "starch": "crusty bread"
+  },
+  "steps": [
+    "Season the {p} with the {spice} and brown in a wide, deep pan, then set aside on a clean plate.",
+    "Soften the {v} in the same pan, then pour in the {sauce} and a splash of water or stock.",
+    "Return the {p}, cover and simmer 25 to 30 minutes, until the sauce thickens and any meat is at least 165°F / 74°C inside.",
+    "Serve over or alongside the {s}."
+  ],
+  "tip": "Take the skin off the chicken, add extra peppers and mushrooms, and keep the bread to a slice."
+}

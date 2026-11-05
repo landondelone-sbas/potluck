@@ -1,0 +1,55 @@
+name: Deploy web build to GitHub Pages
+
+# A test build of the app for a phone browser. It runs only when someone starts it, or when main
+# changes. Pages must be switched on first: Settings, Pages, Source: GitHub Actions. On a private
+# repo that needs a paid plan, and the published site is public to anyone with the link.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - uses: actions/configure-pages@v6
+
+      - name: Install
+        run: npm ci
+
+      - name: Build the web app under /potluck
+        run: npm run export:web -w @potluck/mobile
+        env:
+          EXPO_BASE_URL: /potluck
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: apps/mobile/dist-web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
