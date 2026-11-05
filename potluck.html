@@ -1,0 +1,959 @@
+<title>Potluck</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Layout: a kitchen counter, read left to right. Pantry shelf -> enamel pot -> dishes that come out.
+   Color: cool stone neutrals, a cobalt enamel pot, and five cookware-glaze hues, one per food category.
+   Type: Bricolage Grotesque for display, Figtree for body and controls. */
+:root{
+  --bg:#EDF0EF; --surface:#FFFFFF; --surface-2:#E2E8E5; --ink:#14201D; --ink-2:#4A5A55; --line:#C9D2CE;
+  --pot:#2E4DB0; --pot-hi:#5878DE; --pot-lo:#1C3280; --pot-text:#2E4DB0; --on-pot:#FFFFFF;
+  --broth:#F0BB55; --broth-deep:#D9962B; --broth-ink:#4A3000;
+  --protein:#D9482B; --veg:#2F8F4E; --starch:#B98300; --spice:#B02A68; --sauce:#6C4FB3;
+  --font-display:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif;
+  --font-body:'Figtree','Segoe UI',system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F1514; --surface:#171F1D; --surface-2:#212B29; --ink:#E8EFEC; --ink-2:#9FB1AB; --line:#2B3835;
+  --pot:#4A6AD8; --pot-hi:#7C99F0; --pot-lo:#2B44A0; --pot-text:#93ABF6;
+  --broth:#D8A04A; --broth-deep:#B77A22; --broth-ink:#2E1D00;
+  --protein:#F2785C; --veg:#5CC07A; --starch:#E8B93E; --spice:#E0609C; --sauce:#A48CE6;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F1514; --surface:#171F1D; --surface-2:#212B29; --ink:#E8EFEC; --ink-2:#9FB1AB; --line:#2B3835;
+  --pot:#4A6AD8; --pot-hi:#7C99F0; --pot-lo:#2B44A0; --pot-text:#93ABF6;
+  --broth:#D8A04A; --broth-deep:#B77A22; --broth-ink:#2E1D00;
+  --protein:#F2785C; --veg:#5CC07A; --starch:#E8B93E; --spice:#E0609C; --sauce:#A48CE6;
+  color-scheme:dark}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--font-body)}
+button,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--pot-hi);outline-offset:2px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.c-protein{--c:var(--protein)}.c-veg{--c:var(--veg)}.c-starch{--c:var(--starch)}.c-spice{--c:var(--spice)}.c-sauce{--c:var(--sauce)}
+
+.app{max-width:1280px;margin:0 auto;padding-block:20px 72px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* header */
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;margin-bottom:20px}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.mark{width:44px;height:44px;flex:none}
+.mark .b{fill:var(--pot)}.mark .r{fill:var(--pot-hi)}.mark .s{stroke:var(--ink-2);fill:none;stroke-width:2.4;stroke-linecap:round}
+.brand h1{margin:0;font:800 30px/1 var(--font-display);letter-spacing:-.025em}
+.brand p{margin:3px 0 0;color:var(--ink-2);font-size:14px}
+.tabs{display:flex;gap:4px;padding:4px;background:var(--surface-2);border-radius:12px}
+.tabs button{border:0;border-radius:9px;background:transparent;color:var(--ink-2);font-weight:600;font-size:14px;padding:8px 16px}
+.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgb(0 0 0/.14)}
+
+/* shared bits */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;min-width:0}
+.card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:6px}
+.eyebrow{margin:0;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+.card h2{margin:2px 0 0;font:700 24px/1.1 var(--font-display);letter-spacing:-.015em}
+.btn-primary{border:0;border-radius:12px;background:var(--pot);color:var(--on-pot);font-weight:700;font-size:15px;padding:12px 22px;box-shadow:0 3px 0 var(--pot-lo);transition:transform .08s,box-shadow .08s}
+.btn-primary:hover{background:var(--pot-hi)}
+.btn-primary:active{transform:translateY(2px);box-shadow:0 1px 0 var(--pot-lo)}
+.btn-primary:disabled{opacity:.7;cursor:progress}
+.btn-quiet{border:1.5px solid var(--line);border-radius:10px;background:transparent;color:var(--ink-2);font-weight:600;font-size:13px;padding:7px 12px}
+.btn-quiet:hover{border-color:var(--ink-2);color:var(--ink)}
+.btn-quiet[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.view{margin:0}
+
+/* cook layout */
+.cook{display:grid;gap:20px;align-items:start;grid-template-columns:300px minmax(0,1fr) 380px;grid-template-areas:"pantry pot out"}
+.pantry{grid-area:pantry}.stage{grid-area:pot}.out{grid-area:out}
+@media (max-width:1180px){.cook{grid-template-columns:320px minmax(0,1fr);grid-template-areas:"pantry pot" "out out"}}
+@media (max-width:780px){.cook{grid-template-columns:minmax(0,1fr);grid-template-areas:"pot" "pantry" "out"}}
+
+/* pantry */
+.seed-note{margin:6px 0 0;font-size:13px;color:var(--ink-2)}
+.cat-tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin:14px 0 12px}
+.cat{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;padding:9px 2px 8px;border:1.5px solid transparent;border-radius:10px;background:var(--surface-2);color:var(--ink-2);font-weight:600;font-size:12.5px}
+.cat .dot{width:12px;height:12px;border-radius:50%;background:var(--c)}
+.cat[aria-selected="true"]{background:color-mix(in srgb,var(--c) 14%,var(--surface));border-color:var(--c);color:var(--ink)}
+.cat .n{position:absolute;top:-7px;right:-4px;min-width:18px;height:18px;padding:0 4px;border-radius:9px;background:var(--ink);color:var(--bg);border:2px solid var(--surface);font-size:11px;line-height:14px;text-align:center}
+.cat-prompt{margin:0 0 10px;font:600 15px var(--font-display);color:var(--ink-2)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:8px;padding:6px 12px 6px 6px;border-radius:999px;border:1.5px solid color-mix(in srgb,var(--c) 55%,var(--line));background:color-mix(in srgb,var(--c) 10%,var(--surface));font-weight:600;font-size:14px;color:var(--ink);cursor:grab;text-align:left;position:relative;touch-action:pan-x;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.chip:hover{border-color:var(--c)}
+.chip .em{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--surface);font-size:16px;flex:none}
+.chip .ck{font-size:13px;color:var(--ink-2)}
+.chip.in{background:var(--surface-2);border-style:dashed;color:var(--ink-2)}
+.chip.editing{cursor:pointer}
+.chip.editing .x{font-size:16px;line-height:1;color:var(--ink-2)}
+.chip.sel{background:color-mix(in srgb,var(--c) 22%,var(--surface));border-color:var(--c);cursor:pointer}
+.chip.pickable{cursor:pointer}
+.chip.dragging{opacity:.35}
+.addtile{display:none}
+.prompt-row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 10px}
+.prompt-row .cat-prompt{margin:0}
+.back-pot{display:none;margin-top:8px}
+.empty-line{margin:0;color:var(--ink-2);font-size:14px}
+.add{display:flex;gap:8px;margin-top:14px}
+.add input{flex:1;min-width:0;padding:9px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--bg)}
+.add input::placeholder{color:var(--ink-2)}
+.add input:focus{border-color:var(--pot-hi);outline:none}
+.add button{border-radius:10px;border:1.5px solid var(--pot);background:transparent;color:var(--pot-text);font-weight:700;padding:0 16px}
+.add button:hover{background:color-mix(in srgb,var(--pot) 12%,transparent)}
+
+/* the pot */
+.moods{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0 6px}
+.moods .lab{font-size:13px;font-weight:600;color:var(--ink-2);margin-right:2px}
+.mood{border:1.5px solid var(--line);border-radius:999px;background:var(--surface);font-weight:600;font-size:13px;padding:6px 12px}
+.mood:hover{border-color:var(--pot-hi);color:var(--pot-text)}
+.pot{position:relative;width:100%;max-width:520px;margin:6px auto 0;aspect-ratio:420/330;container-type:inline-size;transition:filter .15s}
+.pot.over{filter:drop-shadow(0 0 16px color-mix(in srgb,var(--pot-hi) 70%,transparent))}
+.pot-svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.pot-svg .shadow{fill:color-mix(in srgb,var(--ink) 16%,transparent)}
+.pot-svg .handle{stroke:var(--pot-lo);fill:none;stroke-width:15;stroke-linecap:round}
+.pot-svg .glint{stroke:rgb(255 255 255/.22);fill:none;stroke-width:9;stroke-linecap:round}
+.pot-svg .rim{fill:var(--pot-hi)}
+.pot-svg .inner{fill:var(--pot-lo)}
+.g1{stop-color:var(--pot-lo)}.g2{stop-color:var(--pot-hi)}.g3{stop-color:var(--pot)}.g4{stop-color:var(--pot-lo)}
+.b1{stop-color:var(--broth)}.b2{stop-color:var(--broth-deep)}
+.steam path{fill:none;stroke:var(--ink-2);stroke-width:5;stroke-linecap:round;opacity:0;--steam-o:.32;animation:rise 4s ease-in-out infinite}
+.steam path:nth-child(2){animation-delay:1.3s}.steam path:nth-child(3){animation-delay:2.4s}
+.pot:not(.has-items) .steam{display:none}
+.pot.cooking .steam path{--steam-o:.7;animation-duration:1.4s}
+@keyframes rise{0%{opacity:0;transform:translateY(12px)}35%{opacity:var(--steam-o)}100%{opacity:0;transform:translateY(-26px)}}
+.pot.cooking .pot-svg{animation:shake .5s ease-in-out infinite}
+@keyframes shake{0%,100%{transform:translateX(-2px)}50%{transform:translateX(2px)}}
+.tokens{position:absolute;inset:0}
+.token{position:absolute;width:10cqw;height:10cqw;padding:0;border-radius:50%;display:grid;place-items:center;font-size:5.4cqw;line-height:1;
+  transform:translate(-50%,-50%) rotate(var(--r,0deg));background:color-mix(in srgb,var(--c) 22%,var(--surface));border:2.5px solid var(--c);box-shadow:0 2px 0 rgb(0 0 0/.18)}
+.token:hover{border-color:var(--ink)}
+.token.new{animation:plop .5s cubic-bezier(.3,1.4,.5,1) both}
+@keyframes plop{0%{opacity:0;transform:translate(-50%,-190%) rotate(var(--r,0deg)) scale(.7)}50%{opacity:1}100%{transform:translate(-50%,-50%) rotate(var(--r,0deg)) scale(1)}}
+.pot.cooking .token{animation:bob .45s ease-in-out infinite alternate;animation-delay:calc(var(--k,0)*-90ms)}
+@keyframes bob{from{transform:translate(-50%,-50%) rotate(var(--r,0deg))}to{transform:translate(-50%,-62%) rotate(calc(var(--r,0deg) + 10deg))}}
+.pot-empty{position:absolute;left:50%;top:39.5%;transform:translate(-50%,-50%);width:58%;margin:0;text-align:center;font-weight:700;font-size:3.5cqw;line-height:1.25;color:var(--broth-ink);pointer-events:none}
+.contents{margin:4px 0 0;text-align:center;font-size:13.5px;color:var(--ink-2);min-height:1.5em}
+.status{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:6px}
+.status button{display:inline-flex;align-items:center;gap:6px;padding:5px 11px;border-radius:999px;border:1.5px dashed var(--line);background:transparent;color:var(--ink-2);font-weight:600;font-size:12.5px}
+.status button i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.status button.on{border-style:solid;border-color:var(--c);background:color-mix(in srgb,var(--c) 14%,var(--surface));color:var(--ink)}
+.nudge{margin:10px auto 0;max-width:46ch;text-align:center;font-size:14px;color:var(--ink-2)}
+.actions{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:14px}
+
+/* results */
+.out .legend{margin:6px 0 0;font-size:12.5px;color:var(--ink-2)}
+.headline{margin:14px 0 12px;font-size:14px;color:var(--ink-2)}
+.headline b{color:var(--ink)}
+.stale-note{margin:0 0 12px;padding:8px 12px;border-radius:10px;background:color-mix(in srgb,var(--starch) 16%,var(--surface));border:1px solid color-mix(in srgb,var(--starch) 50%,var(--line));font-size:13.5px;font-weight:600}
+.dishes{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.dishes.stale{opacity:.5}
+.dish{display:flex;flex-direction:column;gap:12px;min-width:0;padding:16px;border-radius:14px;border:1px solid var(--line);background:var(--surface);animation:enter .45s both;animation-delay:calc(var(--i,0)*90ms)}
+@keyframes enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.dish.hero{grid-column:1/-1;border-color:var(--pot);box-shadow:0 0 0 3px color-mix(in srgb,var(--pot) 16%,transparent)}
+.dish.picked{border-color:var(--veg);box-shadow:0 0 0 3px color-mix(in srgb,var(--veg) 18%,transparent)}
+.dish .meta{margin:0;font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-2)}
+.dish h3{margin:2px 0 0;font:700 21px/1.15 var(--font-display);letter-spacing:-.01em;text-wrap:balance}
+.uses{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--ink-2)}
+.meter{display:flex;gap:3px}
+.meter i{width:16px;height:6px;border-radius:3px;background:var(--line)}
+.meter i.on{background:var(--veg)}
+.ing{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.ing li{display:inline-flex;align-items:center;gap:5px;padding:3px 10px 3px 5px;border-radius:999px;border:1.5px solid var(--c);background:color-mix(in srgb,var(--c) 12%,var(--surface));font-size:13px;font-weight:600}
+.ing li.chef{border-style:dashed;background:transparent;color:var(--ink-2)}
+.ing li.left{border-color:var(--line);background:transparent;color:var(--ink-2);text-decoration:line-through}
+.dish details{font-size:14px}
+.dish summary{cursor:pointer;font-weight:700;color:var(--pot-text)}
+.dish ol{margin:8px 0 0;padding-left:20px;display:grid;gap:6px}
+.tip{margin:0;font-size:13.5px;color:var(--ink-2)}
+.tip b{color:var(--ink)}
+.dish .pick{align-self:flex-start;margin-top:auto;border:1.5px solid var(--pot);border-radius:10px;background:transparent;color:var(--pot-text);font-weight:700;padding:8px 14px}
+.dish .pick:hover{background:color-mix(in srgb,var(--pot) 12%,transparent)}
+.dish .pick[aria-pressed="true"]{background:var(--veg);border-color:var(--veg);color:#fff}
+.improv{margin-top:14px;padding:14px 16px;border-radius:14px;border:1.5px dashed var(--sauce);background:color-mix(in srgb,var(--sauce) 8%,var(--surface))}
+.improv h3{margin:2px 0 4px;font:700 18px/1.2 var(--font-display)}
+.improv p{margin:0;font-size:13.5px;color:var(--ink-2)}
+.nothing{padding:26px 8px;text-align:center;color:var(--ink-2)}
+.nothing b{display:block;font:700 17px var(--font-display);color:var(--ink);margin-bottom:4px}
+
+/* set up */
+.setup{display:grid;gap:20px;align-items:start;grid-template-columns:minmax(0,1fr) 320px;max-width:1040px;margin:0 auto}
+@media (max-width:860px){.setup{grid-template-columns:minmax(0,1fr)}}
+.sdots{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.sdot{display:inline-flex;align-items:center;gap:6px;padding:5px 11px;border-radius:999px;border:1.5px solid var(--line);background:transparent;color:var(--ink-2);font-weight:600;font-size:13px}
+.sdot i{width:9px;height:9px;border-radius:50%;background:var(--c,var(--ink-2))}
+.sdot[aria-current="step"]{background:color-mix(in srgb,var(--c,var(--pot)) 16%,var(--surface));border-color:var(--c,var(--pot));color:var(--ink)}
+.setup h2{font-size:30px}
+.setup .hint{margin:6px 0 16px;color:var(--ink-2);max-width:52ch}
+.step-nav{display:flex;justify-content:space-between;gap:10px;margin-top:22px}
+.setup-side h3{margin:0 0 8px;font:700 17px var(--font-display)}
+.setup-side ul{margin:0 0 14px;padding-left:18px;display:grid;gap:6px;color:var(--ink-2);font-size:14px}
+.sum{display:grid;gap:10px;margin-top:6px}
+.sum div{padding:10px 12px;border-radius:12px;border:1px solid color-mix(in srgb,var(--c) 45%,var(--line));background:color-mix(in srgb,var(--c) 9%,var(--surface))}
+.sum b{font:700 15px var(--font-display)}
+.sum span{display:block;font-size:13.5px;color:var(--ink-2)}
+
+/* plan */
+.plan{max-width:1000px;margin:0 auto;display:grid;gap:48px;padding-top:8px}
+.plan section{min-width:0}
+.plan h2{margin:6px 0 14px;font:800 clamp(28px,4.4vw,42px)/1.05 var(--font-display);letter-spacing:-.025em;text-wrap:balance}
+.plan h3{margin:0 0 14px;font:700 22px/1.15 var(--font-display);letter-spacing:-.01em}
+.lead{max-width:62ch;margin:0;font-size:18px;line-height:1.55;color:var(--ink-2)}
+.principles{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));margin-top:24px}
+.principles div{border-top:3px solid var(--pot);padding-top:10px}
+.principles b{display:block;margin-bottom:4px;font:700 17px var(--font-display)}
+.principles span{color:var(--ink-2)}
+.flow{list-style:none;margin:0;padding:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr))}
+.flow li{padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.flow .n{display:block;font:800 14px var(--font-display);color:var(--pot-text);margin-bottom:4px}
+.flow b{display:block;font:700 17px var(--font-display);margin-bottom:4px}
+.flow span.t{font-size:14px;color:var(--ink-2)}
+.cats{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));margin-bottom:14px}
+.cats div{padding:12px;border-radius:12px;background:color-mix(in srgb,var(--c) 11%,var(--surface));border:1px solid color-mix(in srgb,var(--c) 40%,var(--line))}
+.cats b{display:flex;align-items:center;gap:8px;font:700 16px var(--font-display)}
+.cats b i{width:12px;height:12px;border-radius:50%;background:var(--c)}
+.cats small{display:block;margin-top:2px;color:var(--ink-2);font-size:13.5px}
+.plan p{margin:0 0 10px;max-width:68ch}
+.plan ul,.plan ol.decide{margin:0;padding-left:20px;display:grid;gap:9px;max-width:68ch}
+.two{display:grid;gap:36px;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
+.levels{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+.levels div{padding:14px;border-radius:14px;border:1px solid var(--line);background:var(--surface)}
+.levels div.ai{border-style:dashed;border-color:var(--sauce)}
+.levels b{display:block;font:700 17px var(--font-display);margin-bottom:4px}
+.levels span{font-size:14px;color:var(--ink-2)}
+.tag{display:inline-block;margin-bottom:6px;padding:2px 9px;border-radius:999px;background:var(--surface-2);font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+.tag.now{background:var(--pot);color:var(--on-pot)}
+.phases{list-style:none;margin:0;padding:0 0 0 20px;border-left:2px solid var(--line);display:grid;gap:20px}
+.phases li{position:relative}
+.phases li::before{content:"";position:absolute;left:-28px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--surface);border:3px solid var(--pot)}
+.phases li.now::before{background:var(--pot)}
+.phases b{display:block;font:700 16px var(--font-display)}
+.phases span{font-size:14px;color:var(--ink-2)}
+pre.code{margin:0;overflow-x:auto;padding:14px;border-radius:12px;background:var(--surface-2);font:13px/1.6 ui-monospace,Consolas,'Courier New',monospace;color:var(--ink)}
+.note{font-size:13.5px;color:var(--ink-2)}
+
+/* floating bits */
+.dock{display:none}
+@media (max-width:780px){
+  .app{padding-block:10px 92px}
+  .top{gap:10px;margin-bottom:10px}
+  .brand{gap:8px}
+  .brand p{display:none}
+  .brand h1{font-size:24px}
+  .mark{width:34px;height:34px}
+  .tabs button{padding:7px 9px;font-size:13px}
+  .cook{gap:10px}
+  .stage{padding:10px 12px 6px}
+  .stage .card-head,.status,.nudge,.actions{display:none}
+  .moods{flex-wrap:nowrap;overflow-x:auto;margin:0 -12px 2px;padding:2px 12px 6px;scrollbar-width:none}
+  .moods::-webkit-scrollbar{display:none}
+  .moods .lab{display:none}
+  .mood{flex:none;white-space:nowrap}
+  .pot{max-width:280px;margin:-6px auto -6px}
+  .contents{margin:0;font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .pantry{padding:10px 12px}
+  .pantry .card-head,.seed-note{display:none}
+  .cat-tabs{margin:0 0 8px}
+  .prompt-row{margin-bottom:6px}
+  .pantry .chips{flex-wrap:nowrap;overflow-x:auto;gap:8px;margin:0 -12px;padding:2px 12px 8px;scroll-snap-type:x proximity;scrollbar-width:none}
+  .pantry .chips::-webkit-scrollbar{display:none}
+  .pantry .chip{flex:none;flex-direction:column;justify-content:flex-start;width:84px;min-height:88px;padding:8px 4px 6px;border-radius:14px;gap:4px;text-align:center;font-size:12.5px;line-height:1.15;scroll-snap-align:start}
+  .pantry .chip .em{width:38px;height:38px;font-size:22px}
+  .pantry .chip .ck,.pantry .chip .x{position:absolute;top:3px;right:7px}
+  .pantry .addtile{display:flex;border-style:dashed;background:transparent;color:var(--ink-2)}
+  .pantry .addtile .em{font-size:24px;font-weight:300}
+  .add{display:none;margin-top:4px}
+  .pantry.adding .add{display:flex}
+  .back-pot{display:inline-block}
+  .dock{display:flex;align-items:center;justify-content:space-between;gap:12px;position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);
+    padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+  .dock span{font-weight:700}
+  .dock .r{display:flex;align-items:center;gap:8px}
+  .toast{bottom:calc(88px + env(safe-area-inset-bottom,0px))!important}
+}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:50;max-width:min(92vw,460px);padding:10px 16px;border-radius:12px;background:var(--ink);color:var(--bg);font-weight:600;font-size:14px;text-align:center;box-shadow:0 8px 24px rgb(0 0 0/.28)}
+.ghost{position:fixed;z-index:60;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-size:22px;background:color-mix(in srgb,var(--c) 22%,var(--surface));border:2px solid var(--c);pointer-events:none}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+</style>
+
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><path class="b" d="M8 21h32v9a12 12 0 0 1-12 12H20A12 12 0 0 1 8 30z"/><rect class="r" x="5" y="17" width="38" height="7" rx="3.5"/><path class="s" d="M17 12c-2.5-2.5 2.500-4.500 0-8M24 12c-2.500-2.500 2.500-4.500 0-8M31 12c-2.500-2.500 2.500-4.500 0-8"/></svg>
+      <div><h1>Potluck</h1><p>Pick what you love. Drop it in the pot.</p></div>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button type="button" role="tab" id="tab-cook" aria-selected="true" aria-controls="view-cook">Cook</button>
+      <button type="button" role="tab" id="tab-setup" aria-selected="false" aria-controls="view-setup" tabindex="-1">Set up</button>
+      <button type="button" role="tab" id="tab-plan" aria-selected="false" aria-controls="view-plan" tabindex="-1">Plan</button>
+    </nav>
+  </header>
+
+  <!-- COOK -->
+  <main id="view-cook" class="view cook" role="tabpanel" aria-labelledby="tab-cook">
+    <section class="pantry card" aria-labelledby="pantry-h">
+      <div class="card-head">
+        <div><p class="eyebrow">Your favorites</p><h2 id="pantry-h">Pantry</h2></div>
+      </div>
+      <p class="seed-note" id="seedNote">Example favorites for this demo. Replace them in Set up.</p>
+      <div class="cat-tabs" id="catTabs" role="tablist" aria-label="Food categories"></div>
+      <div class="prompt-row"><p class="cat-prompt" id="catPrompt"></p><button type="button" class="btn-quiet" id="editToggle" aria-pressed="false">Edit</button></div>
+      <div class="chips" id="chips"></div>
+      <form class="add" id="addForm" autocomplete="off">
+        <label class="sr-only" for="addInput">Add a favorite</label>
+        <input id="addInput" type="text" maxlength="40" placeholder="Add a favorite">
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section class="stage card" id="stage" aria-labelledby="pot-h">
+      <div class="card-head"><div><p class="eyebrow">What are you in the mood for?</p><h2 id="pot-h">The pot</h2></div></div>
+      <div class="moods" id="moods"><span class="lab">Mood starters</span></div>
+      <div class="pot" id="pot">
+        <svg class="pot-svg" viewBox="0 0 420 330" role="img" aria-label="A cobalt enamel pot">
+          <defs>
+            <linearGradient id="gBody" x1="0" x2="1" y1="0" y2="0"><stop class="g1" offset="0"/><stop class="g2" offset=".26"/><stop class="g3" offset=".6"/><stop class="g4" offset="1"/></linearGradient>
+            <radialGradient id="gBroth" cx=".5" cy=".35" r=".75"><stop class="b1" offset="0"/><stop class="b2" offset="1"/></radialGradient>
+          </defs>
+          <ellipse class="shadow" cx="210" cy="306" rx="158" ry="13"/>
+          <path class="handle" d="M62 150q-36 3-36 30 0 22 32 27"/>
+          <path class="handle" d="M358 150q36 3 36 30 0 22-32 27"/>
+          <path d="M60 128C52 200 66 264 104 290Q210 304 316 290C354 264 368 200 360 128Z" fill="url(#gBody)"/>
+          <path class="glint" d="M90 156C86 208 94 252 120 276"/>
+          <ellipse class="rim" cx="210" cy="128" rx="154" ry="35"/>
+          <ellipse class="inner" cx="210" cy="131" rx="141" ry="29"/>
+          <ellipse cx="210" cy="134" rx="133" ry="24" fill="url(#gBroth)"/>
+          <g class="steam"><path d="M150 96c-10-14 10-26 0-40s10-26 0-40"/><path d="M210 92c-10-14 10-26 0-40s10-26 0-40"/><path d="M270 96c-10-14 10-26 0-40s10-26 0-40"/></g>
+        </svg>
+        <div class="tokens" id="tokens"></div>
+        <p class="pot-empty" id="potEmpty">Drag a favorite in, or tap one.</p>
+      </div>
+      <p class="contents" id="contents" aria-live="polite"></p>
+      <ul class="status" id="status" aria-label="Categories in the pot"></ul>
+      <p class="nudge" id="nudge"></p>
+      <div class="actions">
+        <button type="button" class="btn-primary" data-cook>Cook it up</button>
+        <button type="button" class="btn-quiet" id="clearBtn">Empty the pot</button>
+      </div>
+    </section>
+
+    <section class="out card" id="out" aria-labelledby="out-h">
+      <p class="eyebrow">Out of the pot</p>
+      <h2 id="out-h">Tonight's dishes</h2>
+      <p class="legend">Solid: from your pot. Dashed: the chef adds it. Struck through: left out.</p>
+      <button type="button" class="btn-quiet back-pot" id="backPot">Back to the pot</button>
+      <div id="results" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <!-- SET UP -->
+  <section id="view-setup" class="view setup" role="tabpanel" aria-labelledby="tab-setup" hidden>
+    <div class="card">
+      <div class="sdots" id="sdots"></div>
+      <div id="stepBody"></div>
+      <div class="step-nav"><button type="button" class="btn-quiet" id="stepBack">Back</button><button type="button" class="btn-primary" id="stepNext">Next</button></div>
+    </div>
+    <aside class="card setup-side">
+      <h3>What this screen is</h3>
+      <ul>
+        <li>The first-run orientation. It walks through the five categories once, in about a minute.</li>
+        <li>Tap suggestions or type your own. Skip any category you like.</li>
+        <li>Everything you pick becomes your pantry on the Cook screen, and you can add more there at any time.</li>
+      </ul>
+      <button type="button" class="btn-quiet" id="freshBtn">Start fresh (clear the examples)</button>
+    </aside>
+  </section>
+
+  <!-- PLAN -->
+  <article id="view-plan" class="view plan" role="tabpanel" aria-labelledby="tab-plan" hidden>
+    <section>
+      <p class="eyebrow">Product plan · working name Potluck</p>
+      <h2>A recipe finder that starts from what you already love.</h2>
+      <p class="lead">Most recipe apps start with a search box and a database. Potluck starts with you. On first launch you list the foods you like, sorted into five categories. After that, dinner is a mood: you drop favorites into a pot and the app hands back one dish, or a short list, built around them.</p>
+      <div class="principles">
+        <div><b>Your food, not a database</b><span>Every ingredient in the pot comes from your own list. Nothing shows up that you don't like.</span></div>
+        <div><b>A mood, not a query</b><span>You choose by feel. A bit of this protein, that sauce. No typing, no filters to tune.</span></div>
+        <div><b>One answer or a few</b><span>When the pot points at one dish, you get one. When it's a toss-up, you get up to three.</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h3>How a session flows</h3>
+      <ol class="flow">
+        <li><span class="n">1</span><b>Set up</b><span class="t">First launch only. Walk the five categories, tap suggestions, add your own. Skip anything.</span></li>
+        <li><span class="n">2</span><b>Choose a mood</b><span class="t">The pot and your favorites share one screen. Toggle a category, then drag favorites into the pot with your finger, or tap. Up to three per category.</span></li>
+        <li><span class="n">3</span><b>Cook it up</b><span class="t">The pot simmers while the app scores dishes against what you chose.</span></li>
+        <li><span class="n">4</span><b>Plate</b><span class="t">One winner or up to three. Each shows what it used, what the chef added, and what it left out.</span></li>
+        <li><span class="n">5</span><b>Learn</b><span class="t">Mark what you made and rate it. Foods you try can join your pantry in one tap.</span></li>
+      </ol>
+    </section>
+
+    <section>
+      <h3>Five categories, one pot</h3>
+      <div class="cats">
+        <div class="c-protein"><b><i></i>Protein</b><small>The star of the plate</small></div>
+        <div class="c-veg"><b><i></i>Veg</b><small>Half the plate</small></div>
+        <div class="c-spice"><b><i></i>Spice</b><small>The personality</small></div>
+        <div class="c-sauce"><b><i></i>Sauce</b><small>The finish</small></div>
+        <div class="c-starch"><b><i></i>Starch</b><small>The base: rice, pasta, potato, bread</small></div>
+      </div>
+      <p>A category you leave empty is left to the chef. Skip the starch and the dish brings its own. That keeps the pot fast: you can drop in one thing or ten.</p>
+    </section>
+
+    <section class="two">
+      <div>
+        <h3>How the pot decides</h3>
+        <ul>
+          <li>Every ingredient is tagged. "Chicken thighs" becomes chicken, "Hot honey" becomes hot and honey. Items you type get tagged by keyword. Unknown items still count, at lower weight.</li>
+          <li>Each dish lists which tags fit each category. A fit scores highest. A spice or sauce that suits the dish's cuisine scores less. Anything else is left out, and the card says so.</li>
+          <li>Signature items give a bonus: tortillas pull toward tacos, pasta toward a pasta skillet.</li>
+          <li>If the top dish clearly beats the rest, you get one. If several land within about 10 percent of it, you get up to three.</li>
+          <li>The wildcard card is where AI takes over later.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Eating well, built in</h3>
+        <ul>
+          <li>A plate nudge under the pot. No veg yet? It says so, since about half the plate as vegetables is a common guideline.</li>
+          <li>Every dish carries one lighter swap, like brown rice or extra veg.</li>
+          <li>Set up can ask about diet and allergies. These act as hard filters, never gentle hints.</li>
+          <li>Later: calories and macros per serving, and a weekly balance view.</li>
+        </ul>
+        <p class="note">General guidance only, not medical or dietetic advice.</p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Where AI comes in</h3>
+      <div class="levels">
+        <div><span class="tag now">Prototype</span><b>Rules</b><span>Tags and a hand-written dish library. Fast, predictable, free to run, and enough to test whether the pot feels good.</span></div>
+        <div class="ai"><span class="tag">Next</span><b>AI chef</b><span>Send the pot, the pantry, diet and time available to an AI model. Get back a dish name, amounts and steps in a fixed format. It starts as the wildcard card.</span></div>
+        <div class="ai"><span class="tag">Later</span><b>AI that knows you</b><span>Learns from ratings, suggests new favorites you'd probably like, builds a week of pots and a grocery list.</span></div>
+      </div>
+      <p class="note" style="margin-top:12px">Guardrails: check allergens in code against the Set up answers, never only in the prompt. Keep the rules engine as the offline fallback.</p>
+    </section>
+
+    <section class="two">
+      <div>
+        <h3>Build phases</h3>
+        <ol class="phases">
+          <li class="now"><b>0. Prototype (this page)</b><span>Prove the pot interaction and the one-or-few results with real people.</span></li>
+          <li><b>1. First app</b><span>Phone-first web app. Favorites stored on the device. About 150 hand-written dishes. Real Set up flow.</span></li>
+          <li><b>2. AI chef</b><span>Generated recipes for the wildcard, allergen guardrails, save and share.</span></li>
+          <li><b>3. Learning</b><span>Ratings, taste profile, weekly planning, grocery list, accounts and sync.</span></li>
+        </ol>
+      </div>
+      <div>
+        <h3>What gets stored</h3>
+<pre class="code">Favorite { id, name, category, tags[], emoji }
+Pot      { items: Favorite.id[]   // max 3 per category, 12 total }
+Dish     { id, cuisine, titleTemplate,
+           wants { category: tags[] },
+           signature[], defaults, steps[], tip }
+Result   { dish, score, used[], chefAdds[], leftOut[] }</pre>
+      </div>
+    </section>
+
+    <section>
+      <h3>Decisions for you</h3>
+      <ol class="decide">
+        <li><b>Veg and starch. Decided.</b> Two separate categories, Veg and Starch, as in this prototype.</li>
+        <li><b>Pot size.</b> One pot per meal, or one per person at the table?</li>
+        <li><b>Staples.</b> Should oil, salt and pepper always be assumed, so they never need a pick?</li>
+        <li><b>Dish source.</b> A hand-written library first, licensed recipe data, or AI-written dishes from day one?</li>
+        <li><b>Platform.</b> A phone-first web app to start, or a native app?</li>
+      </ol>
+    </section>
+  </article>
+</div>
+
+<div class="dock" id="dock" aria-label="Pot summary"><span id="dockCount">0 in the pot</span><div class="r"><button type="button" class="btn-quiet" id="dockClear">Empty</button><button type="button" class="btn-primary" data-cook>Cook it up</button></div></div>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+(function(){
+'use strict';
+var $=function(s,r){return (r||document).querySelector(s)};
+var $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+var esc=function(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
+var tc=function(s){return s.replace(/(^|[\s\-\/&])([a-z])/g,function(_,a,b){return a+b.toUpperCase()})};
+var joinAnd=function(a){return a.length<2?a.join(''):a.slice(0,-1).join(', ')+' and '+a[a.length-1]};
+var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+var CATS=[
+ {id:'protein',label:'Protein',one:'protein',prompt:'What is the star of the plate?',ask:'Which proteins do you actually enjoy?'},
+ {id:'veg',label:'Veg',one:'vegetable',prompt:'What should fill half of it?',ask:'Which vegetables do you actually enjoy?'},
+ {id:'spice',label:'Spice',one:'spice',prompt:'How should it taste?',ask:'Which spices and seasonings do you reach for?'},
+ {id:'sauce',label:'Sauce',one:'sauce',prompt:'How do you want to finish it?',ask:'Which sauces do you love?'},
+ {id:'starch',label:'Starch',one:'starch',prompt:'What carries it?',ask:'Which starches do you like to build a meal on?'}
+];
+var CAT={};CATS.forEach(function(c,i){c.i=i;CAT[c.id]=c});
+
+/* ---- tagging: keywords -> tags, per category ---- */
+var TAGS={
+ protein:[['chicken',/chicken|wings?\b/],['beef',/beef|steak|brisket|burger/],['pork',/pork|\bham\b|bacon/],['sausage',/sausage|chorizo|kielbasa|bratwurst|hot dog/],['fish',/salmon|tuna|\bcod\b|tilapia|trout|halibut|fish|mahi|sardine/],['shrimp',/shrimp|prawn/],['egg',/\begg/],['tofu',/tofu|tempeh|seitan/],['beans',/bean|lentil|chickpea|garbanzo/],['turkey',/turkey/],['lamb',/lamb/]],
+ veg:[['broccoli',/broccoli/],['pepper',/pepper|capsicum|jalape/],['tomato',/tomato/],['onion',/onion|shallot|scallion|leek/],['greens',/spinach|kale|chard|greens|arugula|lettuce|bok choy/],['mushroom',/mushroom/],['carrot',/carrot/],['zucchini',/zucchini|squash|courgette/],['cabbage',/cabbage|slaw/],['corn',/\bcorn\b/],['cauliflower',/cauliflower/],['asparagus',/asparagus/],['greenbeans',/green bean|snap pea|snow pea|\bpeas?\b|edamame/],['cucumber',/cucumber/],['avocado',/avocado/],['celery',/celery/]],
+ starch:[['noodles',/noodle|ramen|udon|soba|vermicelli|lo mein/],['pasta',/spaghetti|pasta|penne|macaroni|fettuccine|linguine|rigatoni|orzo|lasagna/],['rice',/rice/],['sweetpotato',/sweet potato|yam/],['potato',/potato|fries|tater|hash brown/],['bread',/bread|sourdough|\bbun|toast|bagel|baguette|\broll|pita|naan|ciabatta/],['tortilla',/tortilla|\bwrap|taco shell/],['quinoa',/quinoa|farro|barley|bulgur/],['couscous',/couscous/]],
+ spice:[['chili',/chili|chilli|cayenne|chipotle|jalape|red pepper|crushed pepper|flakes/],['cumin',/cumin/],['paprika',/paprika/],['garlic',/garlic/],['ginger',/ginger/],['curry',/curry|garam|turmeric|masala/],['herbs',/herb|oregano|basil|thyme|rosemary|parsley|dill|sage|italian/],['pepper',/black pepper|lemon pepper|peppercorn|^pepper/],['cinnamon',/cinnamon|nutmeg/],['cajun',/cajun|creole|old bay|blackened/],['smoky',/smok|bbq rub/],['lemon',/lemon|lime|citrus|zest/]],
+ sauce:[['soy',/soy|tamari|shoyu/],['teriyaki',/teriyaki|hoisin|glaze/],['tomato',/marinara|tomato|pizza sauce|red sauce|arrabbiata|pomodoro/],['cream',/alfredo|cream|cheese|queso|carbonara|bechamel|béchamel/],['bbq',/bbq|barbecue/],['salsa',/salsa|pico|enchilada|taco sauce|mole|verde/],['pesto',/pesto|chimichurri/],['hot',/\bhot\b|sriracha|gochujang|harissa|tabasco|chili sauce|chili crisp/],['peanut',/peanut|satay/],['buffalo',/buffalo/],['gravy',/gravy|\bjus\b|stock|broth/],['vinaigrette',/vinaigrette|dressing|olive oil|lemon juice|balsamic|vinegar/],['coconut',/coconut|korma|tikka/],['mustard',/mustard/],['ranch',/ranch|mayo|aioli|caesar/],['honey',/honey|maple|sweet chili/],['hummus',/hummus|tahini|tzatziki|yogurt/]]
+};
+var EMO={
+ protein:[[/chicken|wings?/,'🍗'],[/beef|steak|pork|lamb|brisket|burger|\bham\b/,'🥩'],[/bacon/,'🥓'],[/sausage|hot dog|chorizo/,'🌭'],[/shrimp|prawn/,'🍤'],[/salmon|tuna|fish|cod|trout|tilapia/,'🐟'],[/\begg/,'🥚'],[/turkey/,'🦃']],
+ veg:[[/broccoli/,'🥦'],[/pepper/,'🫑'],[/tomato/,'🍅'],[/spinach|kale|greens|lettuce|cabbage|chard|arugula/,'🥬'],[/mushroom/,'🍄'],[/zucchini|cucumber/,'🥒'],[/onion/,'🧅'],[/carrot/,'🥕'],[/corn/,'🌽'],[/avocado/,'🥑']],
+ starch:[[/rice/,'🍚'],[/spaghetti|pasta|penne|macaroni/,'🍝'],[/noodle|ramen|udon/,'🍜'],[/sweet potato|yam/,'🍠'],[/potato|fries/,'🥔'],[/bread|sourdough|toast|bagel|baguette/,'🍞'],[/tortilla|wrap|naan|pita/,'🌮'],[/quinoa|couscous|farro|barley|grain/,'🌾']],
+ spice:[[/garlic/,'🧄'],[/chili|cayenne|chipotle|jalape|flakes/,'🌶️'],[/lemon|lime|citrus/,'🍋'],[/herb|oregano|basil|thyme|rosemary|parsley|dill|sage/,'🌿']],
+ sauce:[[/tomato|marinara/,'🍅'],[/peanut/,'🥜'],[/honey/,'🍯'],[/coconut/,'🥥'],[/pesto/,'🌿'],[/hot|sriracha|buffalo/,'🌶️']]
+};
+var FALL={protein:'🍖',veg:'🥗',starch:'🌾',spice:'🧂',sauce:'🥫'};
+function tagsFor(cat,name){var n=name.toLowerCase();return (TAGS[cat]||[]).filter(function(t){return t[1].test(n)}).map(function(t){return t[0]})}
+function emojiFor(cat,name){var n=name.toLowerCase(),l=EMO[cat]||[];for(var i=0;i<l.length;i++){if(l[i][0].test(n))return l[i][1]}return FALL[cat]}
+
+var CATALOG={
+ protein:['Chicken thighs','Chicken breast','Ground beef','Steak','Bacon','Italian sausage','Salmon','Shrimp','Tuna','Eggs','Tofu','Black beans','Chickpeas','Turkey'],
+ veg:['Broccoli','Bell peppers','Cherry tomatoes','Spinach','Mushrooms','Zucchini','Red onion','Carrots','Corn','Cauliflower','Cucumber','Green beans','Asparagus','Avocado'],
+ starch:['Jasmine rice','Brown rice','Spaghetti','Penne','Corn tortillas','Baby potatoes','Sweet potato','Quinoa','Rice noodles','Sourdough','Couscous','Naan'],
+ spice:['Garlic','Smoked paprika','Cumin','Chili flakes','Ginger','Italian herbs','Lemon pepper','Curry powder','Cajun seasoning','Cinnamon','Black pepper','Oregano'],
+ sauce:['Soy sauce','Marinara','Salsa verde','Teriyaki','Pesto','Peanut sauce','Hot honey','BBQ sauce','Alfredo','Coconut milk','Sriracha','Ranch']
+};
+var SEED={
+ protein:['Chicken thighs','Salmon','Shrimp','Ground beef','Italian sausage','Eggs','Black beans'],
+ veg:['Broccoli','Bell peppers','Cherry tomatoes','Spinach','Mushrooms','Zucchini','Carrots'],
+ starch:['Jasmine rice','Spaghetti','Corn tortillas','Baby potatoes','Quinoa','Rice noodles','Sourdough'],
+ spice:['Garlic','Smoked paprika','Cumin','Chili flakes','Ginger','Italian herbs','Lemon pepper'],
+ sauce:['Soy sauce','Marinara','Salsa verde','Teriyaki','Pesto','Peanut sauce']
+};
+var MOODS=[
+ {label:'Cozy night',names:['Chicken thighs','Carrots','Baby potatoes','Italian herbs']},
+ {label:'Fresh and light',names:['Salmon','Zucchini','Quinoa','Lemon pepper','Pesto']},
+ {label:'Spicy kick',names:['Ground beef','Bell peppers','Jasmine rice','Cumin','Salsa verde']},
+ {label:'Ten-minute meal',names:['Eggs','Spinach','Sourdough','Chili flakes']}
+];
+var START_POT=['Chicken thighs','Broccoli','Jasmine rice','Ginger','Soy sauce'];
+
+/* ---- dish library (hand-written stand-in for the AI step) ---- */
+var CUISINE={asian:'Asian',mexican:'Mexican',italian:'Italian',indian:'Indian',med:'Mediterranean',comfort:'Comfort',cajun:'Cajun'};
+var VIBE={
+ chili:['mexican','indian','asian','cajun','comfort'],cumin:['mexican','indian','med'],paprika:['mexican','med','comfort','cajun'],garlic:['*'],ginger:['asian','indian'],curry:['indian','asian'],herbs:['italian','med','comfort'],pepper:['comfort','italian','med','cajun'],cinnamon:['indian','med'],cajun:['cajun','comfort'],smoky:['comfort','mexican','cajun'],lemon:['med','comfort','asian'],
+ soy:['asian'],teriyaki:['asian'],tomato:['italian','mexican','med','indian','comfort','cajun'],cream:['italian','comfort','indian'],bbq:['comfort','cajun'],salsa:['mexican'],pesto:['italian','med'],hot:['mexican','asian','cajun','comfort','indian'],peanut:['asian'],buffalo:['comfort'],gravy:['comfort'],vinaigrette:['med','comfort'],coconut:['asian','indian'],mustard:['comfort','med'],ranch:['comfort','mexican'],honey:['asian','comfort','med'],hummus:['med']
+};
+function W(p,v,s,sp,sa){return {protein:p.split(' '),veg:v.split(' '),starch:s.split(' '),spice:sp.split(' '),sauce:sa.split(' ')}}
+function D(id,cuisine,title,time,feel,wants,sig,def,steps,tip){var d={};def.split('|').forEach(function(x,i){d[['protein','veg','starch','spice','sauce'][i]]=x});return {id:id,cuisine:cuisine,title:title,time:time,feel:feel,wants:wants,sig:sig,def:d,steps:steps,tip:tip}}
+var DISHES=[
+ D('stirfry','asian','{p} & {v} Stir-Fry',20,'Quick',
+   W('chicken beef pork shrimp tofu egg','broccoli pepper carrot cabbage mushroom greens greenbeans zucchini onion','rice noodles','garlic ginger chili pepper','soy teriyaki hot peanut honey'),
+   [['sauce','soy'],['spice','ginger']],'chicken breast|broccoli|jasmine rice|garlic|soy sauce',
+   ['Cook the {s} and keep it warm. Slice the {p} and {v} into bite-size pieces.','Sear the {p} in a very hot pan, then add the {v} and {spice}. Toss for 3 to 4 minutes.','Pour in the {sauce}, let it bubble and coat everything, then serve over the {s}.'],
+   'Load up on the veg and go light on the sauce to keep sodium down.'),
+ D('friedrice','asian','{p} Fried Rice',15,'Quick',
+   W('chicken pork shrimp egg tofu sausage','greenbeans carrot onion greens pepper corn broccoli','rice','garlic ginger pepper chili','soy teriyaki hot honey'),
+   [['starch','rice'],['protein','egg']],'egg|carrots|jasmine rice|garlic|soy sauce',
+   ['Use cold, day-old {s} if you can. Cook the {p} through and set it aside.','Stir-fry the {v} and {spice} in a hot pan, add the {s} and press it flat so it crisps.','Fold the {p} back in, splash on the {sauce} and serve.'],
+   'Brown rice, or half cauliflower rice, adds fiber without changing the dish.'),
+ D('glazebowl','asian','Glazed {p} & {v} Bowl',25,'Balanced',
+   W('chicken beef pork fish tofu shrimp egg','broccoli carrot cabbage greens cucumber avocado mushroom greenbeans','rice quinoa noodles','ginger garlic chili pepper','teriyaki soy honey peanut'),
+   [['sauce','teriyaki'],['starch','rice']],'chicken breast|broccoli|jasmine rice|ginger|teriyaki',
+   ['Cook the {s}. Simmer the {sauce} in a small pan until it turns glossy.','Cook the {p} until done, then toss it in the glaze with the {spice}.','Spoon the {p} over the {s} with steamed or crisp {v} on the side.'],
+   'Swap half the grain for extra veg and use the glaze sparingly.'),
+ D('noodles','asian','{p} & {v} Noodle Bowl',20,'Quick',
+   W('chicken tofu shrimp pork egg beef','cucumber carrot cabbage pepper greens broccoli greenbeans','noodles pasta','garlic ginger chili lemon','peanut soy hot coconut honey teriyaki'),
+   [['sauce','peanut'],['starch','noodles']],'chicken breast|cucumber|rice noodles|ginger|peanut sauce',
+   ['Boil the {s} and rinse in cool water. Slice the {v} thin.','Whisk the {sauce} with a splash of warm water until pourable.','Toss the {s} with the {sauce}, top with the {p} and {v}, and finish with {spice}.'],
+   'Use half the sauce and add lime or vinegar for brightness instead of more salt or sugar.'),
+ D('burritobowl','mexican','{p} Burrito Bowl',25,'Hearty',
+   W('beef chicken pork beans shrimp tofu turkey sausage','pepper corn tomato onion avocado greens cucumber cabbage','rice quinoa','cumin chili paprika garlic smoky lemon','salsa hot ranch tomato'),
+   [['sauce','salsa'],['starch','rice']],'black beans|bell peppers|jasmine rice|cumin|salsa',
+   ['Cook the {s}. Brown the {p} with the {spice} until it smells toasty.','Char the {v} in the same pan for a couple of minutes.','Build the bowl with {s}, {p} and {v}, then finish with {sauce}.'],
+   'Fill half the bowl with veg and greens. Beans and lean protein keep it filling.'),
+ D('tacos','mexican','{p} Tacos',20,'Quick',
+   W('chicken beef pork fish shrimp beans tofu egg turkey sausage','onion tomato cabbage pepper avocado greens corn cucumber','tortilla','chili cumin paprika garlic smoky lemon','salsa hot ranch'),
+   [['starch','tortilla'],['sauce','salsa']],'chicken breast|red onion|corn tortillas|cumin|salsa',
+   ['Season the {p} with the {spice} and cook it hot and fast.','Warm the {s} in a dry pan until they blister a little.','Pile on the {p} and {v}, then spoon over the {sauce}.'],
+   'Corn tortillas with a cabbage or onion topping add crunch and fiber for few calories.'),
+ D('pasta','italian','{p} & {v} Pasta',25,'Hearty',
+   W('chicken sausage beef shrimp turkey beans','tomato onion mushroom greens pepper zucchini broccoli asparagus','pasta','garlic herbs chili pepper','tomato cream pesto'),
+   [['starch','pasta'],['sauce','tomato']],'italian sausage|spinach|spaghetti|garlic|marinara',
+   ['Boil the {s} in well-salted water until just shy of done.','Brown the {p} in a wide pan, then soften the {v} with the {spice}.','Add the {sauce} and a ladle of pasta water, toss in the {s} and finish in the pan for a minute.'],
+   'Make veg a third of the pan and choose whole-wheat pasta for a slower-burning carb.'),
+ D('sheetpan','comfort','Sheet-Pan {p} & {v}',35,'Hands-off',
+   W('chicken sausage pork fish tofu turkey beef','broccoli carrot pepper onion zucchini cauliflower asparagus greenbeans mushroom','potato sweetpotato quinoa couscous','herbs garlic paprika pepper lemon smoky cajun','mustard honey vinaigrette bbq hot'),
+   [['spice','herbs'],['veg','carrot']],'chicken thighs|broccoli|baby potatoes|italian herbs|honey mustard',
+   ['Heat the oven to 425°F (220°C). Chop the {v} and {s} to a similar size.','Toss everything with oil and the {spice} on a lined sheet pan, with the {p} on top.','Roast 25 to 30 minutes until browned, then finish with the {sauce}.'],
+   'Roast the veg until caramelized. You may need very little sauce.'),
+ D('curry','indian','{p} & {v} Curry',35,'Hearty',
+   W('chicken beans tofu lamb egg shrimp fish','cauliflower greens tomato onion pepper carrot potato mushroom','rice bread potato sweetpotato','curry cumin ginger chili garlic paprika cinnamon','coconut tomato cream hot'),
+   [['spice','curry'],['sauce','coconut']],'chickpeas|cauliflower|basmati rice|curry powder|coconut milk',
+   ['Soften an onion and garlic, then bloom the {spice} in the oil for 30 seconds.','Add the {p} and {v}, pour in the {sauce} and simmer gently until tender.','Serve over the {s} and finish with something fresh, like lemon or herbs.'],
+   'Chickpeas or lentils are an easy, low-cost protein swap.'),
+ D('medbowl','med','{p} Grain Bowl',20,'Light',
+   W('chicken fish beans egg lamb tofu shrimp','cucumber tomato pepper onion greens avocado zucchini','quinoa couscous rice bread','herbs lemon garlic cumin paprika','hummus vinaigrette pesto mustard'),
+   [['sauce','hummus'],['starch','couscous']],'chickpeas|cucumber|quinoa|lemon pepper|hummus',
+   ['Cook the {s} and fluff it with a fork.','Season the {p} with the {spice} and cook until done. Chop the {v} fresh.','Layer {s}, {p} and {v}, then drizzle with {sauce}.'],
+   'Pile on raw veg and keep the sauce to a drizzle.'),
+ D('lemonherb','med','Lemon-Herb {p} with {v}',25,'Light',
+   W('fish shrimp chicken','asparagus greenbeans broccoli zucchini greens tomato','quinoa rice couscous potato','lemon herbs garlic pepper','vinaigrette mustard pesto honey'),
+   [['protein','fish'],['spice','lemon']],'salmon|asparagus|quinoa|lemon pepper|olive oil and lemon',
+   ['Pat the {p} dry, season with the {spice}, and sear or roast until just cooked.','Steam or roast the {v} until bright and tender-crisp.','Serve over the {s} and spoon on the {sauce}.'],
+   'Fish and a pile of green veg is about as light and balanced as dinner gets.'),
+ D('stew','comfort','Hearty {p} & {v} Stew',60,'Slow',
+   W('beef chicken pork sausage beans turkey lamb','carrot onion potato celery greens tomato mushroom cabbage','potato bread rice pasta noodles','herbs pepper garlic paprika smoky','gravy tomato mustard'),
+   [['starch','potato'],['spice','herbs']],'beef|carrots|baby potatoes|italian herbs|gravy',
+   ['Brown the {p} in a heavy pot and set it aside.','Sweat the {v} with the {spice}, return the {p}, and add stock or the {sauce}.','Simmer low and slow until tender, about 45 minutes. Serve with the {s}.'],
+   'Beans and extra veg stretch a stew and keep it lighter than a meat-heavy one.'),
+ D('sandwich','comfort','{p} Sandwich',15,'Quick',
+   W('chicken beef pork turkey fish egg tofu sausage','tomato onion greens pepper avocado mushroom cucumber','bread','pepper smoky paprika garlic cajun herbs','bbq mustard ranch hot buffalo honey'),
+   [['starch','bread'],['sauce','bbq']],'chicken breast|tomato|sourdough|black pepper|mustard',
+   ['Toast the {s} in a dry pan or the oven.','Warm the {p} in the pan with the {spice}, then pile on the {v}.','Spread the {sauce} on the bread, stack it up and slice in half.'],
+   'Open-face it on one slice and double the veg.'),
+ D('cajun','cajun','{p} & {v} Cajun Skillet',30,'Hearty',
+   W('sausage chicken shrimp pork fish','pepper onion tomato corn greens celery','rice potato','cajun paprika chili garlic smoky pepper herbs','hot tomato'),
+   [['spice','cajun'],['protein','sausage']],'sausage|bell peppers|jasmine rice|cajun seasoning|hot sauce',
+   ['Brown the {p} in a wide skillet, then push it aside.','Cook the {v} with the {spice} until soft and a little charred.','Stir in the {s} and a splash of {sauce}, cover and simmer until everything melds.'],
+   'Use less sausage and more peppers and onion to balance the salt.'),
+ D('hash','comfort','{p} & {v} Skillet Hash',25,'Hearty',
+   W('egg sausage pork chicken beef beans turkey','onion pepper broccoli mushroom greens tomato carrot zucchini','potato sweetpotato','paprika pepper garlic herbs smoky cajun','ranch bbq gravy hot mustard cream'),
+   [['starch','potato'],['protein','egg']],'eggs|bell peppers|baby potatoes|smoked paprika|hot sauce',
+   ['Dice the {s} small and crisp it in a hot skillet for about 10 minutes, stirring rarely.','Add the {p}, {v} and {spice} and cook until everything is browned.','Top with the {sauce}, and an egg if you like.'],
+   'Sweet potato and extra peppers make this lighter and sweeter.'),
+ D('scramble','comfort','{v} & Egg Scramble',10,'Quick',
+   W('egg','pepper onion tomato mushroom greens broccoli zucchini asparagus avocado','bread potato tortilla','pepper herbs paprika garlic chili smoky','hot salsa pesto'),
+   [['protein','egg']],'eggs|spinach|sourdough|black pepper|hot sauce',
+   ['Sauté the {v} with the {spice} until soft.','Pour in whisked eggs and fold gently over medium-low heat.','Plate with the {s} and a spoon of {sauce}.'],
+   'Eggs with a big handful of veg is a fast, protein-rich meal at any hour.')
+];
+var STYLE={noodles:'Noodle Bowl',pasta:'Skillet Pasta',rice:'Rice Bowl',sweetpotato:'Sweet Potato Roast',potato:'Potato Skillet',bread:'Melt',tortilla:'Wraps',quinoa:'Grain Bowl',couscous:'Grain Bowl'};
+
+/* ---- scoring ---- */
+function spec(list){return Math.round(4*(1-Math.min(list.length,12)/12))}
+function itemScore(it,d){
+  var wants=d.wants[it.cat]||[];
+  if(it.tags.some(function(t){return wants.indexOf(t)>-1}))return {pts:10+spec(wants),use:true};
+  if(it.cat==='spice'||it.cat==='sauce'){
+    if(!it.tags.length)return {pts:4,use:true};
+    var v=[];it.tags.forEach(function(t){v=v.concat(VIBE[t]||[])});
+    return (v.indexOf('*')>-1||v.indexOf(d.cuisine)>-1)?{pts:5,use:true}:{pts:0,use:false};
+  }
+  return it.tags.length?{pts:1,use:false}:{pts:3,use:true};
+}
+function evaluate(d,pot,i){
+  var S=0,usedItems=[],left=[];
+  pot.forEach(function(it){var r=itemScore(it,d);S+=r.pts;(r.use?usedItems:left).push(it)});
+  d.sig.forEach(function(s){if(pot.some(function(it){return it.cat===s[0]&&it.tags.indexOf(s[1])>-1}))S+=6});
+  return {d:d,S:S,used:usedItems.length,usedItems:usedItems,left:left,i:i};
+}
+function cardData(ev,pot){
+  var d=ev.d;
+  var names=function(c){var u=ev.usedItems.filter(function(x){return x.cat===c}).map(function(x){return x.name.toLowerCase()});return u.length?joinAnd(u):d.def[c]};
+  var first=function(c){var u=ev.usedItems.filter(function(x){return x.cat===c})[0];return tc(u?u.name:d.def[c])};
+  var m={p:names('protein'),v:names('veg'),s:names('starch'),spice:names('spice'),sauce:names('sauce')};
+  var fill=function(t,map){return t.replace(/\{(\w+)\}/g,function(_,k){return map[k]||''})};
+  var chef=CATS.filter(function(c){return d.def[c.id]&&!ev.usedItems.some(function(x){return x.cat===c.id})}).map(function(c){return {cat:c.id,name:d.def[c.id],emoji:emojiFor(c.id,d.def[c.id])}});
+  return {id:d.id,title:fill(d.title,{p:first('protein'),v:first('veg')}),meta:CUISINE[d.cuisine]+' · '+d.time+' min · '+d.feel,
+    used:ev.usedItems,left:ev.left,chef:chef,n:pot.length,steps:d.steps.map(function(s){return fill(s,m)}),tip:d.tip};
+}
+function improv(pot){
+  var f=function(c){return pot.filter(function(i){return i.cat===c})[0]};
+  var p=f('protein'),v=f('veg'),s=f('starch'),sa=f('sauce');
+  var key=s?s.tags.filter(function(t){return STYLE[t]})[0]:null;
+  var style=s?(STYLE[key]||'Bowl'):'Skillet';
+  var base=[p&&tc(p.name),v&&tc(v.name)].filter(Boolean).join(' & ')||'Pantry';
+  return base+' '+style+(sa?' with '+tc(sa.name):'');
+}
+
+/* ---- state ---- */
+var KEY='potluck-proto-v1',uid=0;
+var state={favs:[],pot:[],cat:'protein',edit:false,seeded:true,step:0,result:null,stale:false,picked:null,newId:null,cooking:false};
+var slotOf={};
+var SLOTS=[[50,36],[38.5,36],[61.5,36],[27,36],[73,36],[44,44.5],[56,44.5],[32.5,44.5],[67.5,44.5],[44,28],[56,28],[50,21]];
+function mk(name,cat){name=name.trim();return {id:'f'+(++uid),name:name,cat:cat,tags:tagsFor(cat,name),emoji:emojiFor(cat,name)}}
+function findFav(name){var n=name.toLowerCase();return state.favs.filter(function(f){return f.name.toLowerCase()===n})[0]}
+function potItems(){return state.pot.map(function(id){return state.favs.filter(function(f){return f.id===id})[0]}).filter(Boolean).sort(function(a,b){return CAT[a.cat].i-CAT[b.cat].i})}
+function save(){try{localStorage.setItem(KEY,JSON.stringify({seeded:state.seeded,favs:state.favs.map(function(f){return {name:f.name,cat:f.cat}})}))}catch(e){}}
+function load(){try{var raw=localStorage.getItem(KEY);if(!raw)return false;var d=JSON.parse(raw);if(!d||!Array.isArray(d.favs))return false;
+  state.favs=d.favs.filter(function(x){return x&&typeof x.name==='string'&&CAT[x.cat]}).map(function(x){return mk(x.name,x.cat)});state.seeded=!!d.seeded;return true}catch(e){return false}}
+function seed(){CATS.forEach(function(c){SEED[c.id].forEach(function(n){state.favs.push(mk(n,c.id))})});state.seeded=true}
+var toastTimer;
+function say(msg){var t=$('#toast');t.textContent=msg;t.hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(function(){t.hidden=true},2800)}
+
+/* ---- favorites ---- */
+function addFav(name,cat){
+  name=name.replace(/\s+/g,' ').trim();if(!name)return null;
+  name=name.charAt(0).toUpperCase()+name.slice(1);
+  var dupe=state.favs.filter(function(f){return f.cat===cat&&f.name.toLowerCase()===name.toLowerCase()})[0];
+  if(dupe){say(dupe.name+' is already in your favorites.');return null}
+  var f=mk(name,cat);state.favs.push(f);state.seeded=false;save();return f;
+}
+function removeFav(id){
+  state.favs=state.favs.filter(function(f){return f.id!==id});
+  if(state.pot.indexOf(id)>-1){state.pot=state.pot.filter(function(x){return x!==id});delete slotOf[id];markStale()}
+  state.seeded=false;save();
+}
+
+/* ---- pot ---- */
+function addToPot(id,from){
+  var f=state.favs.filter(function(x){return x.id===id})[0];
+  if(!f||state.pot.indexOf(id)>-1)return;
+  if(state.pot.length>=12){say('The pot is full. Take something out first.');return}
+  if(potItems().filter(function(i){return i.cat===f.cat}).length>=3){say('Three '+CAT[f.cat].label.toLowerCase()+' picks is the limit. Take one out to swap.');return}
+  var go=function(){state.pot.push(id);state.newId=id;renderPot();renderPantry();markStale()};
+  if(from&&!reduce&&from.getBoundingClientRect)flyTo(from,f,go);else go();
+}
+function removeFromPot(id){state.pot=state.pot.filter(function(x){return x!==id});delete slotOf[id];renderPot();renderPantry();markStale()}
+function flyTo(from,f,done){
+  var a=from.getBoundingClientRect(),b=$('#pot').getBoundingClientRect();
+  var g=document.createElement('div');g.className='ghost c-'+f.cat;g.textContent=f.emoji;
+  g.style.left=(a.left+a.width/2-20)+'px';g.style.top=(a.top+a.height/2-20)+'px';document.body.appendChild(g);
+  var dx=b.left+b.width*0.5-(a.left+a.width/2),dy=b.top+b.height*0.36-(a.top+a.height/2);
+  var fin=function(){if(g.parentNode)g.parentNode.removeChild(g);done()};
+  try{
+    var an=g.animate([{transform:'translate(0,0) scale(1)'},{transform:'translate('+dx*0.5+'px,'+(dy*0.5-70)+'px) scale(1.15)',offset:.5},{transform:'translate('+dx+'px,'+dy+'px) scale(.8)'}],{duration:460,easing:'cubic-bezier(.4,.1,.6,1)'});
+    an.onfinish=fin;
+  }catch(e){fin()}
+}
+function markStale(){if(state.result&&!state.stale){state.stale=true;renderResults()}}
+
+/* ---- cook ---- */
+function compute(){
+  var pot=potItems();if(!pot.length)return null;
+  var ranked=DISHES.map(function(d,i){return evaluate(d,pot,i)}).sort(function(a,b){return b.S-a.S||b.used-a.used||a.i-b.i});
+  var top=ranked[0];
+  var close=ranked.filter(function(r){return r.S>=top.S*0.88&&r.used>=top.used-1}).slice(0,3);
+  return {n:pot.length,mode:close.length===1?'single':'multi',cards:close.map(function(r){return cardData(r,pot)}),improv:pot.length>=2?improv(pot):null};
+}
+function cook(){
+  if(state.cooking)return;
+  if(!state.pot.length){say('The pot is empty. Add a favorite first.');return}
+  state.cooking=true;state.picked=null;
+  $('#pot').classList.add('cooking');
+  $$('[data-cook]').forEach(function(b){b.disabled=true;b.textContent='Simmering…'});
+  var narrow=window.matchMedia('(max-width:780px)').matches;
+  if(narrow)window.scrollTo({top:0,behavior:reduce?'auto':'smooth'});
+  setTimeout(function(){
+    state.cooking=false;state.result=compute();state.stale=false;
+    $('#pot').classList.remove('cooking');
+    $$('[data-cook]').forEach(function(b){b.disabled=false;b.textContent='Cook it up'});
+    renderResults();
+    if(narrow){var o=$('#out');if(o&&o.scrollIntoView)o.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'})}
+  },reduce?0:1100);
+}
+function setPot(names){
+  state.pot=[];Object.keys(slotOf).forEach(function(k){delete slotOf[k]});
+  names.forEach(function(n){var f=findFav(n);if(f&&state.pot.indexOf(f.id)<0)state.pot.push(f.id)});
+}
+
+/* ---- render: pantry ---- */
+function renderPantry(){
+  var inPot={};state.pot.forEach(function(id){inPot[id]=1});
+  var counts={};potItems().forEach(function(i){counts[i.cat]=(counts[i.cat]||0)+1});
+  $('#catTabs').innerHTML=CATS.map(function(c){
+    return '<button type="button" role="tab" class="cat c-'+c.id+'" data-cat="'+c.id+'" aria-selected="'+(state.cat===c.id)+'"><span class="dot"></span><span>'+c.label+'</span>'+(counts[c.id]?'<span class="n" aria-label="'+counts[c.id]+' in the pot">'+counts[c.id]+'</span>':'')+'</button>';
+  }).join('');
+  var c=CAT[state.cat];
+  $('#catPrompt').textContent=c.prompt;
+  var list=state.favs.filter(function(f){return f.cat===state.cat});
+  $('#chips').innerHTML=list.length?list.map(function(f){
+    var on=!!inPot[f.id];
+    if(state.edit)return '<button type="button" class="chip editing c-'+f.cat+'" data-id="'+f.id+'" aria-label="Remove '+esc(f.name)+' from favorites"><span class="em" aria-hidden="true">'+f.emoji+'</span><span>'+esc(f.name)+'</span><span class="x" aria-hidden="true">×</span></button>';
+    return '<button type="button" class="chip c-'+f.cat+(on?' in':'')+'" data-id="'+f.id+'" aria-pressed="'+on+'"><span class="em" aria-hidden="true">'+f.emoji+'</span><span>'+esc(f.name)+'</span>'+(on?'<span class="ck" aria-hidden="true">✓</span>':'')+'</button>';
+  }).join(''):'<p class="empty-line">No '+c.one+' favorites yet. Add one below, or run Set up.</p>';
+  if(!state.edit)$('#chips').insertAdjacentHTML('beforeend','<button type="button" class="chip addtile" data-add aria-label="Add a favorite '+c.one+'"><span class="em" aria-hidden="true">+</span><span>Add</span></button>');
+  $('#addInput').placeholder='Add a favorite '+c.one;
+  $('#editToggle').setAttribute('aria-pressed',state.edit);$('#editToggle').textContent=state.edit?'Done':'Edit';
+  $('#seedNote').hidden=!state.seeded;
+}
+
+/* ---- render: pot ---- */
+function renderPot(){
+  var items=potItems();
+  var live={};state.pot.forEach(function(id){live[id]=1});
+  Object.keys(slotOf).forEach(function(k){if(!live[k])delete slotOf[k]});
+  var usedSlots={};Object.keys(slotOf).forEach(function(k){usedSlots[slotOf[k]]=1});
+  state.pot.forEach(function(id){if(slotOf[id]==null){for(var s=0;s<SLOTS.length;s++){if(!usedSlots[s]){slotOf[id]=s;usedSlots[s]=1;break}}}});
+  $('#tokens').innerHTML=items.map(function(f,k){
+    var s=SLOTS[slotOf[f.id]||0],r=((parseInt(f.id.slice(1),10)*7)%13)-6;
+    return '<button type="button" class="token c-'+f.cat+(state.newId===f.id?' new':'')+'" style="left:'+s[0]+'%;top:'+s[1]+'%;--r:'+r+'deg;--k:'+k+'" data-id="'+f.id+'" title="'+esc(f.name)+'" aria-label="Take '+esc(f.name)+' out of the pot"><span aria-hidden="true">'+f.emoji+'</span></button>';
+  }).join('');
+  state.newId=null;
+  $('#pot').classList.toggle('has-items',items.length>0);
+  $('#potEmpty').hidden=items.length>0;
+  $('#contents').textContent=items.length?items.map(function(i){return i.name}).join(' · '):'';
+  $('#dockCount').textContent=items.length+' in the pot';
+  var counts={};items.forEach(function(i){counts[i.cat]=(counts[i.cat]||0)+1});
+  $('#status').innerHTML=CATS.map(function(c){
+    return '<li><button type="button" class="c-'+c.id+(counts[c.id]?' on':'')+'" data-cat="'+c.id+'"><i></i>'+c.label+' · '+(counts[c.id]?counts[c.id]:'chef’s pick')+'</button></li>';
+  }).join('');
+  var has=function(id){return !!counts[id]};
+  var msg;
+  if(!items.length)msg='Start anywhere. Categories you skip are left to the chef.';
+  else if(has('protein')&&has('veg')&&has('starch'))msg='Balanced plate: protein, veg and starch are all in.';
+  else if(has('protein')&&has('starch')&&!has('veg'))msg='Nudge: no vegetable yet. Aim for about half the plate.';
+  else if(!has('protein')&&!has('veg')&&!has('starch'))msg='Add a protein, veg or starch for sharper matches.';
+  else msg='Skipped categories are left to the chef.';
+  $('#nudge').textContent=msg;
+}
+
+/* ---- render: results ---- */
+function cardHtml(c,i,hero){
+  var meter='';for(var k=0;k<c.n;k++)meter+='<i class="'+(k<c.used.length?'on':'')+'"></i>';
+  var ing=c.used.map(function(x){return '<li class="c-'+x.cat+'"><span aria-hidden="true">'+x.emoji+'</span>'+esc(x.name)+'</li>'}).join('')
+   +c.chef.map(function(x){return '<li class="chef c-'+x.cat+'" title="The chef adds this"><span aria-hidden="true">'+x.emoji+'</span>+ '+esc(x.name)+'</li>'}).join('')
+   +c.left.map(function(x){return '<li class="left c-'+x.cat+'" title="Left out of this dish"><span aria-hidden="true">'+x.emoji+'</span>'+esc(x.name)+'</li>'}).join('');
+  var picked=state.picked===c.id;
+  return '<article class="dish'+(hero?' hero':'')+(picked?' picked':'')+'" style="--i:'+i+'" data-dish="'+c.id+'">'
+   +'<div><p class="meta">'+esc(c.meta)+'</p><h3>'+esc(c.title)+'</h3></div>'
+   +'<div class="uses"><span class="meter" aria-hidden="true">'+meter+'</span>Uses '+c.used.length+' of '+c.n+' picks</div>'
+   +'<ul class="ing">'+ing+'</ul>'
+   +'<details'+(hero?' open':'')+'><summary>How to make it</summary><ol>'+c.steps.map(function(s){return '<li>'+esc(s)+'</li>'}).join('')+'</ol></details>'
+   +'<p class="tip"><b>Lighter tip.</b> '+esc(c.tip)+'</p>'
+   +'<button type="button" class="pick" data-pick="'+c.id+'" aria-pressed="'+picked+'">'+(picked?'Chosen for tonight':'Make this tonight')+'</button></article>';
+}
+function renderResults(){
+  var r=state.result,el=$('#results');
+  if(!r){el.innerHTML='<div class="nothing"><b>Nothing has come out yet.</b>Fill the pot, then press Cook it up.</div>';return}
+  var head=r.mode==='single'
+    ?'<p class="headline"><b>One clear winner.</b> Everything in your pot points at the same dish.</p>'
+    :'<p class="headline"><b>A few ways to go.</b> Each one uses most of what you picked. Choose by mood.</p>';
+  var stale=state.stale?'<p class="stale-note">The pot changed. Press Cook it up to refresh these.</p>':'';
+  var cards=r.cards.map(function(c,i){return cardHtml(c,i,r.mode==='single')}).join('');
+  var wild=r.improv?'<aside class="improv"><p class="eyebrow">Chef’s wildcard · AI preview</p><h3>'+esc(r.improv)+'</h3><p>A template for now. Later, AI writes a full recipe around your exact pot, your diet and what is in your kitchen.</p></aside>':'';
+  el.innerHTML=head+stale+'<div class="dishes'+(state.stale?' stale':'')+'">'+cards+'</div>'+wild;
+}
+
+/* ---- render: set up ---- */
+function renderSetup(){
+  var dots=CATS.map(function(c,i){return '<button type="button" class="sdot c-'+c.id+'" data-step="'+i+'" aria-current="'+(state.step===i?'step':'false')+'"><i></i>'+c.label+'</button>'}).join('')
+    +'<button type="button" class="sdot" data-step="5" aria-current="'+(state.step===5?'step':'false')+'"><i></i>Done</button>';
+  $('#sdots').innerHTML=dots;
+  var body=$('#stepBody');
+  if(state.step<5){
+    var c=CATS[state.step];
+    var names=CATALOG[c.id].slice();
+    state.favs.forEach(function(f){if(f.cat===c.id&&names.map(function(n){return n.toLowerCase()}).indexOf(f.name.toLowerCase())<0)names.push(f.name)});
+    var have=state.favs.filter(function(f){return f.cat===c.id}).length;
+    body.innerHTML='<p class="eyebrow">Step '+(state.step+1)+' of 5</p><h2>'+esc(c.ask)+'</h2>'
+      +'<p class="hint">Tap everything you would happily eat. '+have+' picked so far. You can skip this category and add more later.</p>'
+      +'<div class="chips">'+names.map(function(n){var f=findFav(n);var on=f&&f.cat===c.id;
+        return '<button type="button" class="chip pickable c-'+c.id+(on?' sel':'')+'" data-name="'+esc(n)+'" aria-pressed="'+!!on+'"><span class="em" aria-hidden="true">'+emojiFor(c.id,n)+'</span><span>'+esc(n)+'</span>'+(on?'<span class="ck" aria-hidden="true">✓</span>':'')+'</button>'}).join('')+'</div>'
+      +'<form class="add" id="setupAdd" autocomplete="off"><label class="sr-only" for="setupInput">Add your own</label><input id="setupInput" type="text" maxlength="40" placeholder="Add your own '+c.one+'"><button type="submit">Add</button></form>';
+  }else{
+    body.innerHTML='<p class="eyebrow">All set</p><h2>Your pantry is ready.</h2><p class="hint">This is what the pot will draw from. Add more any time from the pantry on the Cook screen.</p>'
+      +'<div class="sum">'+CATS.map(function(c){var l=state.favs.filter(function(f){return f.cat===c.id});
+        return '<div class="c-'+c.id+'"><b>'+c.label+' · '+l.length+'</b><span>'+(l.length?esc(l.slice(0,6).map(function(f){return f.name}).join(', ')+(l.length>6?' and '+(l.length-6)+' more':'')):'Nothing picked. The chef will choose.')+'</span></div>'}).join('')+'</div>';
+  }
+  $('#stepBack').disabled=state.step===0;$('#stepBack').style.visibility=state.step===0?'hidden':'visible';
+  $('#stepNext').textContent=state.step===5?'Open the pot':(state.step===4?'Finish':'Next');
+}
+
+/* ---- navigation ---- */
+var VIEWS=['cook','setup','plan'];
+function show(v){
+  VIEWS.forEach(function(n){var on=n===v;$('#view-'+n).hidden=!on;var t=$('#tab-'+n);t.setAttribute('aria-selected',on);t.tabIndex=on?0:-1});
+  $('#dock').hidden=v!=='cook';
+  if(v==='setup')renderSetup();
+  window.scrollTo(0,0);
+}
+function refreshAll(){renderPantry();renderPot();renderResults();if(!$('#view-setup').hidden)renderSetup()}
+
+/* ---- events ---- */
+$('.tabs').addEventListener('click',function(e){var b=e.target.closest('[role=tab]');if(b)show(b.id.replace('tab-',''))});
+$('.tabs').addEventListener('keydown',function(e){
+  if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;
+  var cur=VIEWS.indexOf($('.tabs [aria-selected=true]').id.replace('tab-',''));
+  var next=VIEWS[(cur+(e.key==='ArrowRight'?1:VIEWS.length-1))%VIEWS.length];show(next);$('#tab-'+next).focus();
+});
+$('#catTabs').addEventListener('click',function(e){var b=e.target.closest('[data-cat]');if(b){state.cat=b.getAttribute('data-cat');renderPantry()}});
+$('#status').addEventListener('click',function(e){var b=e.target.closest('[data-cat]');if(!b)return;state.cat=b.getAttribute('data-cat');renderPantry();
+  if(window.matchMedia('(max-width:780px)').matches){var p=$('.pantry');if(p&&p.scrollIntoView)p.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'})}});
+$('#chips').addEventListener('click',function(e){
+  if(suppressClick){suppressClick=false;return}
+  var b=e.target.closest('.chip');if(!b)return;
+  if(b.hasAttribute('data-add')){var pn=$('.pantry');pn.classList.toggle('adding');if(pn.classList.contains('adding'))$('#addInput').focus();return}
+  var id=b.getAttribute('data-id');
+  if(state.edit){removeFav(id);refreshAll();return}
+  if(state.pot.indexOf(id)>-1)removeFromPot(id);else addToPot(id,b);
+});
+/* drag a favorite into the pot: one pointer path for finger, pen and mouse */
+var potEl=$('#pot'),drag=null,suppressClick=false;
+function overPot(g){var r=potEl.getBoundingClientRect();return g.x>=r.left-10&&g.x<=r.right+10&&g.y>=r.top-10&&g.y<=r.bottom+10}
+function endDrag(e,drop){
+  var d=drag;drag=null;if(!d||!d.ghost)return;
+  if(d.ghost.parentNode)d.ghost.parentNode.removeChild(d.ghost);
+  d.el.classList.remove('dragging');potEl.classList.remove('over');
+  suppressClick=true;setTimeout(function(){suppressClick=false},80);
+  if(drop&&overPot(d.pos)){if(state.pot.indexOf(d.id)>-1)say('Already in the pot.');else addToPot(d.id,null)}
+}
+$('#chips').addEventListener('pointerdown',function(e){
+  if(state.edit||(e.pointerType==='mouse'&&e.button!==0))return;
+  var b=e.target.closest('.chip');if(!b||!b.getAttribute('data-id'))return;
+  drag={id:b.getAttribute('data-id'),el:b,x:e.clientX,y:e.clientY,pid:e.pointerId,touch:e.pointerType!=='mouse',ghost:null,pos:{x:e.clientX,y:e.clientY}};
+});
+$('#chips').addEventListener('contextmenu',function(e){if(e.target.closest('.chip'))e.preventDefault()});
+window.addEventListener('pointermove',function(e){
+  if(!drag||e.pointerId!==drag.pid)return;
+  var dx=e.clientX-drag.x,dy=e.clientY-drag.y;
+  if(!drag.ghost){
+    if(Math.hypot(dx,dy)<8)return;
+    if(drag.touch&&Math.abs(dx)>Math.abs(dy)){drag=null;return}
+    var f=state.favs.filter(function(x){return x.id===drag.id})[0];if(!f){drag=null;return}
+    var g=document.createElement('div');g.className='ghost c-'+f.cat;g.textContent=f.emoji;document.body.appendChild(g);
+    drag.ghost=g;drag.el.classList.add('dragging');
+  }
+  drag.pos={x:e.clientX,y:e.clientY-(drag.touch?36:0)};
+  drag.ghost.style.left=(drag.pos.x-20)+'px';drag.ghost.style.top=(drag.pos.y-20)+'px';
+  potEl.classList.toggle('over',overPot(drag.pos));
+});
+window.addEventListener('pointerup',function(e){if(drag&&e.pointerId===drag.pid)endDrag(e,true)});
+window.addEventListener('pointercancel',function(e){if(drag&&e.pointerId===drag.pid)endDrag(e,false)});
+$('#tokens').addEventListener('click',function(e){var b=e.target.closest('.token');if(b)removeFromPot(b.getAttribute('data-id'))});
+$('#editToggle').addEventListener('click',function(){state.edit=!state.edit;renderPantry()});
+$('#addForm').addEventListener('submit',function(e){
+  e.preventDefault();var inp=$('#addInput'),f=addFav(inp.value,state.cat);
+  if(f){inp.value='';renderPantry();say('Added '+f.name+' to your favorites.')}
+});
+$$('[data-cook]').forEach(function(b){b.addEventListener('click',cook)});
+$('#clearBtn').addEventListener('click',function(){state.pot=[];Object.keys(slotOf).forEach(function(k){delete slotOf[k]});renderPot();renderPantry();markStale()});
+$('#dockClear').addEventListener('click',function(){$('#clearBtn').click()});
+$('#backPot').addEventListener('click',function(){window.scrollTo({top:0,behavior:reduce?'auto':'smooth'})});
+$('#results').addEventListener('click',function(e){
+  var b=e.target.closest('[data-pick]');if(!b)return;
+  var id=b.getAttribute('data-pick');state.picked=state.picked===id?null:id;renderResults();
+  if(state.picked)say('Locked in for tonight. In the real app this opens the full recipe and starts your cook log.');
+});
+$('#moods').addEventListener('click',function(e){
+  var b=e.target.closest('[data-mood]');if(!b)return;
+  setPot(MOODS[+b.getAttribute('data-mood')].names);state.newId=null;renderPot();renderPantry();
+  if(!state.pot.length){say('Those favorites are not in your pantry. Add them in Set up.');return}
+  cook();
+});
+/* set up */
+$('#sdots').addEventListener('click',function(e){var b=e.target.closest('[data-step]');if(b){state.step=+b.getAttribute('data-step');renderSetup()}});
+$('#stepBack').addEventListener('click',function(){if(state.step>0){state.step--;renderSetup()}});
+$('#stepNext').addEventListener('click',function(){
+  if(state.step<5){state.step++;renderSetup()}
+  else{state.step=0;show('cook')}
+});
+$('#stepBody').addEventListener('click',function(e){
+  var b=e.target.closest('[data-name]');if(!b)return;
+  var c=CATS[state.step],name=b.getAttribute('data-name'),f=findFav(name);
+  if(f&&f.cat===c.id)removeFav(f.id);else addFav(name,c.id);
+  state.seeded=false;save();renderSetup();renderPantry();renderPot();markStale();
+});
+$('#stepBody').addEventListener('submit',function(e){
+  if(e.target.id!=='setupAdd')return;e.preventDefault();
+  var inp=$('#setupInput'),f=addFav(inp.value,CATS[state.step].id);
+  if(f){renderSetup();renderPantry();$('#setupInput').focus()}
+});
+$('#freshBtn').addEventListener('click',function(){
+  state.favs=[];state.pot=[];state.result=null;state.stale=false;state.picked=null;state.seeded=false;state.step=0;
+  Object.keys(slotOf).forEach(function(k){delete slotOf[k]});save();refreshAll();say('Cleared. Pick your own favorites below.');
+});
+
+/* ---- boot ---- */
+$('#moods').insertAdjacentHTML('beforeend',MOODS.map(function(m,i){return '<button type="button" class="mood" data-mood="'+i+'">'+esc(m.label)+'</button>'}).join(''));
+if(!load())seed();
+setPot(START_POT);
+state.result=compute();
+renderPantry();renderPot();renderResults();renderSetup();
+var h=(location.hash||'').replace('#','');
+show(VIEWS.indexOf(h)>-1?h:'cook');
+window.scrollTo(0,0);
+})();
+</script>
