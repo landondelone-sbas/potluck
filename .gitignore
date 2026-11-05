@@ -4,6 +4,7 @@ node_modules/
 # Expo and build output
 .expo/
 dist/
+dist-web/
 web-build/
 ios/
 android/

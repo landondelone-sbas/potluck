@@ -19,12 +19,14 @@
     "expo-status-bar": "~58.0.4",
     "expo-system-ui": "~58.0.7",
     "react": "19.3.0",
+    "react-dom": "^19.3.0",
     "react-native": "0.88.1",
     "react-native-gesture-handler": "~3.3.0",
     "react-native-reanimated": "4.7.1",
     "react-native-safe-area-context": "~5.11.1",
     "react-native-screens": "~4.30.1",
     "react-native-svg": "15.16.0",
+    "react-native-web": "^0.21.4",
     "react-native-worklets": "0.13.0",
     "zod": "^4.6.7",
     "zustand": "^5.0.16"
@@ -42,6 +44,7 @@
     "lint": "expo lint",
     "typecheck": "tsc --noEmit",
     "bundle:check": "expo export --platform android --platform ios --output-dir dist",
+    "export:web": "expo export --platform web --output-dir dist-web && node -e \"require('fs').copyFileSync('dist-web/index.html','dist-web/404.html')\"",
     "test": "jest"
   },
   "private": true
