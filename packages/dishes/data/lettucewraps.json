@@ -1,0 +1,32 @@
+{
+  "id": "lettucewraps",
+  "cuisine": "asian",
+  "title": "{p} Lettuce Wraps",
+  "minutes": 20,
+  "feel": "Light",
+  "wants": {
+    "protein": ["chicken", "pork", "beef", "tofu", "shrimp", "turkey"],
+    "veg": ["greens", "carrot", "cucumber", "mushroom", "cabbage", "onion", "greenbeans"],
+    "spice": ["ginger", "garlic", "chili"],
+    "sauce": ["teriyaki", "soy", "peanut", "hot", "honey"],
+    "starch": ["rice", "noodles"]
+  },
+  "signature": [
+    { "category": "veg", "tag": "greens" },
+    { "category": "sauce", "tag": "teriyaki" }
+  ],
+  "defaults": {
+    "protein": "ground chicken",
+    "veg": "carrots",
+    "spice": "ginger",
+    "sauce": "hoisin sauce",
+    "starch": "jasmine rice"
+  },
+  "steps": [
+    "Cook the {p} with the {spice} in a hot pan, breaking it up, until {doneness}.",
+    "Add the {sauce} and stir until glossy.",
+    "Chop the {v} fine and fold in at the end, or pile on top for crunch.",
+    "Spoon into crisp lettuce or cabbage leaves and serve with the {s}."
+  ],
+  "tip": "Lettuce in place of the wrap and extra veg in the filling keep this light."
+}

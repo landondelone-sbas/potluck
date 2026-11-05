@@ -1,0 +1,47 @@
+{
+  "id": "sheetpan",
+  "cuisine": "comfort",
+  "title": "Sheet-Pan {p} & {v}",
+  "minutes": 35,
+  "feel": "Hands-off",
+  "wants": {
+    "protein": ["chicken", "sausage", "pork", "fish", "tofu", "turkey", "beef"],
+    "veg": [
+      "broccoli",
+      "carrot",
+      "pepper",
+      "onion",
+      "zucchini",
+      "cauliflower",
+      "asparagus",
+      "greenbeans",
+      "mushroom"
+    ],
+    "spice": ["herbs", "garlic", "paprika", "pepper", "lemon", "smoky", "cajun"],
+    "sauce": ["mustard", "honey", "vinaigrette", "bbq", "hot"],
+    "starch": ["potato", "sweetpotato", "quinoa", "couscous"]
+  },
+  "signature": [
+    {
+      "category": "spice",
+      "tag": "herbs"
+    },
+    {
+      "category": "veg",
+      "tag": "carrot"
+    }
+  ],
+  "defaults": {
+    "protein": "chicken thighs",
+    "veg": "broccoli",
+    "spice": "italian herbs",
+    "sauce": "honey mustard",
+    "starch": "baby potatoes"
+  },
+  "steps": [
+    "Heat the oven to 425°F (220°C). Chop the {v} and {s} to a similar size.",
+    "Toss everything with oil and the {spice} on a lined sheet pan, with the {p} on top.",
+    "Roast 25 to 30 minutes until browned, then finish with the {sauce}."
+  ],
+  "tip": "Roast the veg until caramelized. You may need very little sauce."
+}

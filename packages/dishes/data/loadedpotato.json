@@ -1,0 +1,32 @@
+{
+  "id": "loadedpotato",
+  "cuisine": "comfort",
+  "title": "Loaded Potato with {p} & {v}",
+  "minutes": 60,
+  "feel": "Hands-off",
+  "wants": {
+    "protein": ["beans", "sausage", "pork", "chicken", "egg", "beef", "turkey"],
+    "veg": ["broccoli", "onion", "pepper", "tomato", "mushroom", "greens"],
+    "spice": ["pepper", "garlic", "paprika", "smoky", "herbs", "chili"],
+    "sauce": ["cream", "ranch", "bbq", "hot", "buffalo", "gravy"],
+    "starch": ["potato", "sweetpotato"]
+  },
+  "signature": [
+    { "category": "starch", "tag": "potato" },
+    { "category": "sauce", "tag": "cream" }
+  ],
+  "defaults": {
+    "protein": "black beans",
+    "veg": "broccoli",
+    "spice": "black pepper",
+    "sauce": "cheese",
+    "starch": "baked potatoes"
+  },
+  "steps": [
+    "Heat the oven to 425°F (220°C), scrub the {s}, prick with a fork and bake 45 to 60 minutes, until soft.",
+    "Meanwhile cook the {p} with the {spice} until {doneness}, scrambling any eggs until fully set, then keep on a clean plate.",
+    "Sauté or steam the {v} until tender.",
+    "Split the {s}, fluff the insides and pile on the {p}, the {v} and the {sauce}."
+  ],
+  "tip": "Beans and plenty of veg on top, and a spoonful of yogurt in place of sour cream, make it a balanced meal."
+}

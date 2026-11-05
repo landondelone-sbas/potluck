@@ -1,0 +1,32 @@
+{
+  "id": "enchilada",
+  "cuisine": "mexican",
+  "title": "{p} Enchilada Bake",
+  "minutes": 40,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["chicken", "beans", "turkey", "beef", "pork", "tofu"],
+    "veg": ["pepper", "onion", "corn", "tomato", "greens", "mushroom", "zucchini"],
+    "spice": ["cumin", "chili", "garlic", "paprika", "smoky"],
+    "sauce": ["salsa", "cream", "hot"],
+    "starch": ["tortilla"]
+  },
+  "signature": [
+    { "category": "sauce", "tag": "salsa" },
+    { "category": "sauce", "tag": "cream" }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "corn",
+    "spice": "cumin",
+    "sauce": "enchilada sauce and cheese",
+    "starch": "corn tortillas"
+  },
+  "steps": [
+    "Heat the oven to 375°F (190°C). Cook the {p} with the {spice} until browned, then add the {v} and cook until soft.",
+    "Stir in half the {sauce}, then roll or layer the mixture in the {s} in a baking dish.",
+    "Pour over the rest of the {sauce}, cover and bake 20 to 25 minutes, until bubbling and at least 165°F / 74°C in the center.",
+    "Rest 5 minutes and serve with something fresh, like cabbage or avocado."
+  ],
+  "tip": "Fill it with extra veg and beans, and use half the cheese."
+}

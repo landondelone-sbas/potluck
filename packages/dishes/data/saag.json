@@ -1,0 +1,32 @@
+{
+  "id": "saag",
+  "cuisine": "indian",
+  "title": "Creamy Saag with {p}",
+  "minutes": 35,
+  "feel": "Rich",
+  "wants": {
+    "protein": ["tofu", "beans", "chicken", "lamb"],
+    "veg": ["greens", "onion", "tomato", "cauliflower", "mushroom"],
+    "spice": ["cumin", "ginger", "garlic", "curry", "chili"],
+    "sauce": ["cream", "coconut", "tomato"],
+    "starch": ["rice", "bread", "potato", "sweetpotato"]
+  },
+  "signature": [
+    { "category": "veg", "tag": "greens" },
+    { "category": "sauce", "tag": "cream" }
+  ],
+  "defaults": {
+    "protein": "tofu",
+    "veg": "spinach",
+    "spice": "cumin",
+    "sauce": "cream",
+    "starch": "naan"
+  },
+  "steps": [
+    "Soften a little garlic with the {spice} in oil for a minute, until fragrant.",
+    "Add the {v} and cook until tender and wilted, then blend or chop to a rough purée.",
+    "Stir in the {sauce} and the {p} and simmer gently until {doneness}.",
+    "Serve hot with the {s}."
+  ],
+  "tip": "Coconut milk or a spoonful of yogurt stands in for cream, and the greens do most of the filling."
+}

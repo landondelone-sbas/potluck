@@ -1,0 +1,32 @@
+{
+  "id": "steaksalad",
+  "cuisine": "comfort",
+  "title": "Steak Salad with {v}",
+  "minutes": 25,
+  "feel": "Light",
+  "wants": {
+    "protein": ["steak"],
+    "veg": ["greens", "tomato", "cucumber", "onion", "pepper", "avocado", "mushroom"],
+    "spice": ["pepper", "garlic", "herbs", "chili", "smoky"],
+    "sauce": ["vinaigrette", "mustard", "ranch", "pesto"],
+    "starch": ["bread", "potato", "quinoa"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "steak" },
+    { "category": "sauce", "tag": "vinaigrette" }
+  ],
+  "defaults": {
+    "protein": "flank steak",
+    "veg": "arugula",
+    "spice": "black pepper",
+    "sauce": "balsamic vinaigrette",
+    "starch": "crusty bread"
+  },
+  "steps": [
+    "Pat the {p} dry, season with the {spice} and salt, and sear in a very hot pan 3 to 4 minutes a side. Check the thickest part with a thermometer: the USDA safe minimum for steak is 145°F / 63°C. A lower doneness is your choice and carries more risk.",
+    "Rest the {p} 3 to 5 minutes on a clean plate, then slice thin against the grain.",
+    "Toss the {v} with the {sauce} and pile onto plates.",
+    "Top with the sliced steak and serve with the {s}."
+  ],
+  "tip": "Make the salad mostly veg, use a light dressing, and slice the steak thin so a small piece goes a long way."
+}

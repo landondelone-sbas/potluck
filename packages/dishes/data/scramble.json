@@ -1,0 +1,43 @@
+{
+  "id": "scramble",
+  "cuisine": "comfort",
+  "title": "{v} & Egg Scramble",
+  "minutes": 10,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["egg"],
+    "veg": [
+      "pepper",
+      "onion",
+      "tomato",
+      "mushroom",
+      "greens",
+      "broccoli",
+      "zucchini",
+      "asparagus",
+      "avocado"
+    ],
+    "spice": ["pepper", "herbs", "paprika", "garlic", "chili", "smoky"],
+    "sauce": ["hot", "salsa", "pesto"],
+    "starch": ["bread", "potato", "tortilla"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "egg"
+    }
+  ],
+  "defaults": {
+    "protein": "eggs",
+    "veg": "spinach",
+    "spice": "black pepper",
+    "sauce": "hot sauce",
+    "starch": "sourdough"
+  },
+  "steps": [
+    "Sauté the {v} with the {spice} until soft.",
+    "Pour in whisked eggs and fold gently over medium-low heat.",
+    "Plate with the {s} and a spoon of {sauce}."
+  ],
+  "tip": "Eggs with a big handful of veg is a fast, protein-rich meal at any hour."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "friedrice",
+  "cuisine": "asian",
+  "title": "{p} Fried Rice",
+  "minutes": 15,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["chicken", "pork", "shrimp", "egg", "tofu", "sausage"],
+    "veg": ["greenbeans", "carrot", "onion", "greens", "pepper", "corn", "broccoli"],
+    "spice": ["garlic", "ginger", "pepper", "chili"],
+    "sauce": ["soy", "teriyaki", "hot", "honey"],
+    "starch": ["rice"]
+  },
+  "signature": [
+    {
+      "category": "starch",
+      "tag": "rice"
+    },
+    {
+      "category": "protein",
+      "tag": "egg"
+    }
+  ],
+  "defaults": {
+    "protein": "egg",
+    "veg": "carrots",
+    "spice": "garlic",
+    "sauce": "soy sauce",
+    "starch": "jasmine rice"
+  },
+  "steps": [
+    "Use cold, day-old {s} if you can. Cook the {p} through and set it aside.",
+    "Stir-fry the {v} and {spice} in a hot pan, add the {s} and press it flat so it crisps.",
+    "Fold the {p} back in, splash on the {sauce} and serve."
+  ],
+  "tip": "Brown rice, or half cauliflower rice, adds fiber without changing the dish."
+}

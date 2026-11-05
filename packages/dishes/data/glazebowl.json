@@ -1,0 +1,46 @@
+{
+  "id": "glazebowl",
+  "cuisine": "asian",
+  "title": "Glazed {p} & {v} Bowl",
+  "minutes": 25,
+  "feel": "Balanced",
+  "wants": {
+    "protein": ["chicken", "beef", "pork", "fish", "tofu", "shrimp", "egg"],
+    "veg": [
+      "broccoli",
+      "carrot",
+      "cabbage",
+      "greens",
+      "cucumber",
+      "avocado",
+      "mushroom",
+      "greenbeans"
+    ],
+    "spice": ["ginger", "garlic", "chili", "pepper"],
+    "sauce": ["teriyaki", "soy", "honey", "peanut"],
+    "starch": ["rice", "quinoa", "noodles"]
+  },
+  "signature": [
+    {
+      "category": "sauce",
+      "tag": "teriyaki"
+    },
+    {
+      "category": "starch",
+      "tag": "rice"
+    }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "broccoli",
+    "spice": "ginger",
+    "sauce": "teriyaki",
+    "starch": "jasmine rice"
+  },
+  "steps": [
+    "Cook the {s}. Simmer the {sauce} in a small pan until it turns glossy.",
+    "Cook the {p} until done, then toss it in the glaze with the {spice}.",
+    "Spoon the {p} over the {s} with steamed or crisp {v} on the side."
+  ],
+  "tip": "Swap half the grain for extra veg and use the glaze sparingly."
+}

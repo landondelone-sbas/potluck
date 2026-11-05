@@ -1,0 +1,32 @@
+{
+  "id": "risotto",
+  "cuisine": "italian",
+  "title": "{p} & {v} Risotto",
+  "minutes": 40,
+  "feel": "Creamy",
+  "wants": {
+    "protein": ["chicken", "sausage", "shrimp", "turkey", "pork", "beans"],
+    "veg": ["mushroom", "asparagus", "greens", "zucchini", "onion", "greenbeans", "tomato"],
+    "spice": ["garlic", "herbs", "pepper", "chili"],
+    "sauce": ["gravy", "cream", "pesto"],
+    "starch": ["rice"]
+  },
+  "signature": [
+    { "category": "starch", "tag": "rice" },
+    { "category": "sauce", "tag": "cream" }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "mushrooms",
+    "spice": "garlic",
+    "sauce": "parmesan cheese",
+    "starch": "arborio rice"
+  },
+  "steps": [
+    "Soften an onion with the {spice} in a wide pan, then stir in the {s} for a minute until the edges turn glassy.",
+    "Add warm stock or lightly salted water a ladle at a time, stirring often and letting each addition soak in, until creamy and just tender, about 20 minutes.",
+    "Cook the {p} in a separate pan until {doneness}, and sauté the {v} until golden.",
+    "Fold the {p} and {v} into the {s} and finish with the {sauce}."
+  ],
+  "tip": "Pack in extra veg and finish with a little cheese rather than a lot of butter or cream."
+}

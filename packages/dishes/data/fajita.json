@@ -1,0 +1,32 @@
+{
+  "id": "fajita",
+  "cuisine": "mexican",
+  "title": "{p} Fajita Skillet",
+  "minutes": 25,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["chicken", "beef", "pork", "shrimp", "tofu"],
+    "veg": ["pepper", "onion", "mushroom", "zucchini", "corn"],
+    "spice": ["cumin", "chili", "paprika", "smoky", "garlic"],
+    "sauce": ["salsa", "hot", "cream", "ranch"],
+    "starch": ["tortilla"]
+  },
+  "signature": [
+    { "category": "veg", "tag": "pepper" },
+    { "category": "starch", "tag": "tortilla" }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "bell peppers",
+    "spice": "chili powder",
+    "sauce": "salsa",
+    "starch": "flour tortillas"
+  },
+  "steps": [
+    "Slice the {p} thin, season with the {spice} and sear in a very hot pan until {doneness}, then move to a clean plate.",
+    "Cook the {v} in the same pan until charred at the edges.",
+    "Return the {p}, toss with the {sauce} and warm through.",
+    "Serve with the {s}."
+  ],
+  "tip": "Pile on the peppers and onions, and go easy on the sour cream and cheese."
+}

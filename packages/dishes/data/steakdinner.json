@@ -1,0 +1,42 @@
+{
+  "id": "steakdinner",
+  "cuisine": "comfort",
+  "title": "Seared {p} with {v}",
+  "minutes": 25,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["steak"],
+    "veg": [
+      "asparagus",
+      "greenbeans",
+      "broccoli",
+      "mushroom",
+      "onion",
+      "greens",
+      "tomato",
+      "pepper",
+      "zucchini"
+    ],
+    "spice": ["pepper", "garlic", "herbs", "smoky", "paprika", "chili"],
+    "sauce": ["mustard", "gravy", "cream", "bbq", "pesto"],
+    "starch": ["potato", "sweetpotato", "bread", "rice"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "steak" },
+    { "category": "spice", "tag": "pepper" }
+  ],
+  "defaults": {
+    "protein": "ribeye",
+    "veg": "asparagus",
+    "spice": "black pepper",
+    "sauce": "mustard",
+    "starch": "baby potatoes"
+  },
+  "steps": [
+    "Take the {p} out of the fridge 30 minutes ahead, pat very dry and season well with the {spice} and salt.",
+    "Sear in a very hot, lightly oiled pan 3 to 4 minutes a side for a 1-inch cut, then check the thickest part with a thermometer. The USDA safe minimum for steak is 145°F / 63°C. A lower doneness is your choice and carries more risk.",
+    "Rest the {p} 3 to 5 minutes on a clean plate while you cook the {v} in the same pan.",
+    "Slice against the grain and serve with the {s} and the {sauce}."
+  ],
+  "tip": "Make the veg half the plate, keep the steak to a palm-size portion and use mustard or herbs instead of a butter sauce."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "chili",
+  "cuisine": "comfort",
+  "title": "{p} Chili",
+  "minutes": 50,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["beef", "beans", "turkey", "sausage", "pork", "chicken"],
+    "veg": ["onion", "pepper", "tomato", "corn", "celery", "carrot", "zucchini"],
+    "spice": ["chili", "cumin", "paprika", "smoky", "garlic", "pepper"],
+    "sauce": ["tomato", "hot", "gravy"],
+    "starch": ["rice", "bread", "potato"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "beans" },
+    { "category": "spice", "tag": "chili" }
+  ],
+  "defaults": {
+    "protein": "ground beef",
+    "veg": "onions",
+    "spice": "chili powder",
+    "sauce": "crushed tomatoes",
+    "starch": "cornbread"
+  },
+  "steps": [
+    "Brown the {p} in a heavy pot, breaking it up, then add the {v} and the {spice} and cook 5 minutes.",
+    "Add the {sauce} and enough water or stock to cover. Canned beans only need draining; dried kidney beans need soaking, then a hard boil of at least 10 minutes, first.",
+    "Simmer 30 to 40 minutes, stirring now and then, until the chili thickens and any meat is at least 165°F / 74°C inside.",
+    "Serve with the {s} and something fresh, like onion, cilantro or lime."
+  ],
+  "tip": "Use more beans and veg than meat, choose lean meat, and keep the cornbread to a small piece."
+}

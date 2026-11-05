@@ -1,0 +1,32 @@
+{
+  "id": "dal",
+  "cuisine": "indian",
+  "title": "Spiced {p} & {v} Dal",
+  "minutes": 30,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["beans"],
+    "veg": ["tomato", "onion", "greens", "carrot", "cauliflower", "zucchini"],
+    "spice": ["cumin", "curry", "ginger", "garlic", "chili"],
+    "sauce": ["coconut", "tomato", "hot"],
+    "starch": ["rice", "bread", "potato", "sweetpotato"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "beans" },
+    { "category": "spice", "tag": "cumin" }
+  ],
+  "defaults": {
+    "protein": "red lentils",
+    "veg": "spinach",
+    "spice": "cumin",
+    "sauce": "coconut milk",
+    "starch": "basmati rice"
+  },
+  "steps": [
+    "Rinse the {p}. Simmer dried lentils or chickpeas in water until soft; canned beans only need draining. Dried kidney beans need soaking, then a hard boil of at least 10 minutes.",
+    "Bloom the {spice} in oil with a little garlic for 30 seconds, then add the {v} and cook until soft.",
+    "Add the {p}, the {sauce} and a cup of water. Simmer 15 minutes, mashing some of the {p} to thicken.",
+    "Serve over the {s} with lemon or fresh herbs."
+  ],
+  "tip": "Lentils and beans give protein and fiber for very little cost, and a teaspoon of oil is enough to bloom the spices."
+}

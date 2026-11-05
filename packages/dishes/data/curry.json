@@ -1,0 +1,37 @@
+{
+  "id": "curry",
+  "cuisine": "indian",
+  "title": "{p} & {v} Curry",
+  "minutes": 35,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["chicken", "beans", "tofu", "lamb", "egg", "shrimp", "fish"],
+    "veg": ["cauliflower", "greens", "tomato", "onion", "pepper", "carrot", "mushroom"],
+    "spice": ["curry", "cumin", "ginger", "chili", "garlic", "paprika", "cinnamon"],
+    "sauce": ["coconut", "tomato", "cream", "hot"],
+    "starch": ["rice", "bread", "potato", "sweetpotato"]
+  },
+  "signature": [
+    {
+      "category": "spice",
+      "tag": "curry"
+    },
+    {
+      "category": "sauce",
+      "tag": "coconut"
+    }
+  ],
+  "defaults": {
+    "protein": "chickpeas",
+    "veg": "cauliflower",
+    "spice": "curry powder",
+    "sauce": "coconut milk",
+    "starch": "basmati rice"
+  },
+  "steps": [
+    "Soften an onion and garlic, then bloom the {spice} in the oil for 30 seconds.",
+    "Add the {p} and {v}, pour in the {sauce} and simmer gently until tender.",
+    "Serve over the {s} and finish with something fresh, like lemon or herbs."
+  ],
+  "tip": "Chickpeas or lentils are an easy, low-cost protein swap."
+}

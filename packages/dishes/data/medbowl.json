@@ -1,0 +1,37 @@
+{
+  "id": "medbowl",
+  "cuisine": "med",
+  "title": "{p} Grain Bowl",
+  "minutes": 20,
+  "feel": "Light",
+  "wants": {
+    "protein": ["chicken", "fish", "beans", "egg", "lamb", "tofu", "shrimp"],
+    "veg": ["cucumber", "tomato", "pepper", "onion", "greens", "avocado", "zucchini"],
+    "spice": ["herbs", "lemon", "garlic", "cumin", "paprika"],
+    "sauce": ["hummus", "vinaigrette", "pesto", "mustard"],
+    "starch": ["quinoa", "couscous", "rice", "bread"]
+  },
+  "signature": [
+    {
+      "category": "sauce",
+      "tag": "hummus"
+    },
+    {
+      "category": "starch",
+      "tag": "couscous"
+    }
+  ],
+  "defaults": {
+    "protein": "chickpeas",
+    "veg": "cucumber",
+    "spice": "lemon pepper",
+    "sauce": "hummus",
+    "starch": "quinoa"
+  },
+  "steps": [
+    "Cook the {s} and fluff it with a fork.",
+    "Season the {p} with the {spice} and cook until done. Chop the {v} fresh.",
+    "Layer {s}, {p} and {v}, then drizzle with {sauce}."
+  ],
+  "tip": "Pile on raw veg and keep the sauce to a drizzle."
+}

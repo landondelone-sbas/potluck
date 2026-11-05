@@ -1,0 +1,32 @@
+{
+  "id": "kungpao",
+  "cuisine": "asian",
+  "title": "Kung Pao {p}",
+  "minutes": 25,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["chicken", "shrimp", "tofu", "pork", "beef"],
+    "veg": ["pepper", "zucchini", "onion", "greenbeans", "carrot", "mushroom", "celery"],
+    "spice": ["chili", "ginger", "garlic"],
+    "sauce": ["peanut", "soy", "hot", "honey", "teriyaki"],
+    "starch": ["rice", "noodles"]
+  },
+  "signature": [
+    { "category": "sauce", "tag": "peanut" },
+    { "category": "spice", "tag": "chili" }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "bell peppers",
+    "spice": "chili flakes",
+    "sauce": "peanut sauce",
+    "starch": "jasmine rice"
+  },
+  "steps": [
+    "Cut the {p} into bite-size pieces and stir-fry in a very hot pan until {doneness}, then move to a clean plate.",
+    "Stir-fry the {v} with the {spice} for 2 to 3 minutes.",
+    "Return the {p}, add the {sauce} and toss until glossy.",
+    "Serve over the {s}, topped with chopped peanuts if you have them."
+  ],
+  "tip": "Use more veg than meat and a small amount of sauce, and skip the extra sugar."
+}

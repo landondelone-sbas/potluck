@@ -1,0 +1,32 @@
+{
+  "id": "redbeans",
+  "cuisine": "cajun",
+  "title": "Cajun {p} & {v} with Rice",
+  "minutes": 45,
+  "feel": "Slow",
+  "wants": {
+    "protein": ["beans", "sausage", "pork"],
+    "veg": ["onion", "pepper", "celery", "tomato", "greens"],
+    "spice": ["cajun", "paprika", "garlic", "smoky", "chili", "pepper", "herbs"],
+    "sauce": ["hot", "gravy", "tomato"],
+    "starch": ["rice"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "beans" },
+    { "category": "veg", "tag": "celery" }
+  ],
+  "defaults": {
+    "protein": "red beans",
+    "veg": "celery",
+    "spice": "cajun seasoning",
+    "sauce": "hot sauce",
+    "starch": "long-grain rice"
+  },
+  "steps": [
+    "Soften the {v} with the {spice} in a heavy pot with a little oil.",
+    "Add the {p}, brown any sausage or pork first, the {sauce} and enough water or stock to cover. Dried red kidney beans need soaking, then a hard boil of at least 10 minutes, first; canned beans only need draining.",
+    "Simmer 30 to 45 minutes, mashing some beans against the pot to thicken, until any meat is at least 165°F / 74°C inside.",
+    "Serve over the {s}."
+  ],
+  "tip": "Use more beans than sausage and plenty of celery and peppers to keep it lighter and less salty."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "lemonherb",
+  "cuisine": "med",
+  "title": "Lemon-Herb {p} with {v}",
+  "minutes": 25,
+  "feel": "Light",
+  "wants": {
+    "protein": ["fish", "shrimp", "chicken"],
+    "veg": ["asparagus", "greenbeans", "broccoli", "zucchini", "greens", "tomato"],
+    "spice": ["lemon", "herbs", "garlic", "pepper"],
+    "sauce": ["vinaigrette", "mustard", "pesto", "honey"],
+    "starch": ["quinoa", "rice", "couscous", "potato"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "fish"
+    },
+    {
+      "category": "spice",
+      "tag": "lemon"
+    }
+  ],
+  "defaults": {
+    "protein": "salmon",
+    "veg": "asparagus",
+    "spice": "lemon pepper",
+    "sauce": "olive oil and lemon",
+    "starch": "quinoa"
+  },
+  "steps": [
+    "Pat the {p} dry, season with the {spice}, and sear or roast until just cooked.",
+    "Steam or roast the {v} until bright and tender-crisp.",
+    "Serve over the {s} and spoon on the {sauce}."
+  ],
+  "tip": "Fish and a pile of green veg is about as light and balanced as dinner gets."
+}

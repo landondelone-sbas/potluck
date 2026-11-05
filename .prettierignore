@@ -1,0 +1,9 @@
+node_modules
+.expo
+dist
+coverage
+package-lock.json
+prototype
+docs
+apps/mobile/assets
+apps/mobile/expo-env.d.ts
