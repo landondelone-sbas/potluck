@@ -26,7 +26,7 @@ Steps that say "cooked through (…)" get their temperatures from what is in the
 
 **Lighter tip:** Use more beans and veg than meat, choose lean meat, and keep the cornbread to a small piece.
 
-**The same pot also offers:** Ground Beef & Onions Tagine; Ground Beef & Onions Soup.
+**The same pot also offers:** Ground Beef & Onions Tagine; Ground Beef & Onions Island Curry.
 
 **Please check:**
 
@@ -177,7 +177,7 @@ Steps that say "cooked through (…)" get their temperatures from what is in the
 
 **Lighter tip:** Pack the patties with veg, cook them in a little oil and go light on the sauce.
 
-**The same pot also offers:** Eggs & Cabbage Stir-Fry.
+**The same pot also offers:** Eggs & Cabbage Stir-Fry; Bibimbap with Eggs.
 
 **Please check:**
 

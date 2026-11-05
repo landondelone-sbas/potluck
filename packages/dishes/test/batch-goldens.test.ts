@@ -145,8 +145,12 @@ const BATCH_GOLDEN: { name: string; pot: PotSpec; ids: string[]; titles: string[
       ['sauce', 'Crushed tomatoes'],
       ['starch', 'Basmati rice'],
     ],
-    ids: ['pilaf', 'curry'],
-    titles: ['Spiced Chicken Thighs & Carrots Pilaf', 'Chicken Thighs & Carrots Curry'],
+    ids: ['pilaf', 'curry', 'caribbeancurry'],
+    titles: [
+      'Spiced Chicken Thighs & Carrots Pilaf',
+      'Chicken Thighs & Carrots Curry',
+      'Chicken Thighs & Carrots Island Curry',
+    ],
   },
   {
     name: 'egg curry',

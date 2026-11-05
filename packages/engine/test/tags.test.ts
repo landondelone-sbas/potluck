@@ -74,3 +74,19 @@ describe('TAG_VOCABULARY', () => {
     expect(TAG_VOCABULARY.starch).toContain('tortilla');
   });
 });
+
+describe('tags for Thai, Korean and Caribbean cooking (docs/decisions/0010)', () => {
+  test.each([
+    ['spice', 'Jerk seasoning', ['jerk']],
+    ['spice', 'Allspice', ['jerk']],
+    ['spice', 'Lime zest', ['lemon']],
+    ['sauce', 'Fish sauce', ['soy']],
+    ['sauce', 'Miso paste', ['soy']],
+    ['sauce', 'Gochujang', ['hot']],
+    ['sauce', 'Coconut milk', ['coconut']],
+    ['spice', 'Green curry paste', ['curry']],
+    ['veg', 'Kimchi', ['cabbage']],
+  ] as const)('%s "%s" gets %j', (category, name, expected) => {
+    expect(tagsFor(category, name)).toEqual(expected);
+  });
+});

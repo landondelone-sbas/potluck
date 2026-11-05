@@ -1,0 +1,32 @@
+{
+  "id": "bulgogi",
+  "cuisine": "korean",
+  "title": "{p} Bulgogi Bowl",
+  "minutes": 30,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["beef", "pork", "chicken", "tofu"],
+    "veg": ["onion", "mushroom", "carrot", "greens", "cabbage", "zucchini", "cucumber"],
+    "spice": ["garlic", "ginger", "chili"],
+    "sauce": ["soy", "honey", "teriyaki", "hot"],
+    "starch": ["rice", "noodles"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "beef" },
+    { "category": "sauce", "tag": "honey" }
+  ],
+  "defaults": {
+    "protein": "sliced beef",
+    "veg": "onions",
+    "spice": "garlic",
+    "sauce": "soy sauce",
+    "starch": "short-grain rice"
+  },
+  "steps": [
+    "Slice the {p} thin and toss with the {sauce} and the {spice}. Marinate in the fridge for 15 minutes to an hour, and throw away any marinade left over.",
+    "Cook the {p} in a very hot pan in batches until {doneness}, then move to a clean plate.",
+    "Cook the {v} in the same pan until tender.",
+    "Serve over the {s}."
+  ],
+  "tip": "Use extra veg, a little less sauce, and slice the meat very thin so a small portion goes far."
+}

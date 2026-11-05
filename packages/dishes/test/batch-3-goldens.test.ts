@@ -14,8 +14,12 @@ const BATCH_3: { dish: string; pot: Row; ids: string[]; titles: string[] }[] = [
   {
     dish: 'chili',
     pot: ['Ground beef', 'Onions', 'Chili powder', 'Crushed tomatoes', 'Cornbread'],
-    ids: ['chili', 'tagine', 'minestrone'],
-    titles: ['Ground Beef Chili', 'Ground Beef & Onions Tagine', 'Ground Beef & Onions Soup'],
+    ids: ['chili', 'tagine', 'caribbeancurry'],
+    titles: [
+      'Ground Beef Chili',
+      'Ground Beef & Onions Tagine',
+      'Ground Beef & Onions Island Curry',
+    ],
   },
   {
     dish: 'chickensoup',
@@ -54,8 +58,8 @@ const BATCH_3: { dish: string; pot: Row; ids: string[]; titles: string[] }[] = [
   {
     dish: 'eggfooyoung',
     pot: ['Eggs', 'Cabbage', 'Ginger', 'Soy sauce', 'Jasmine rice'],
-    ids: ['eggfooyoung', 'stirfry'],
-    titles: ['Egg Foo Young with Cabbage', 'Eggs & Cabbage Stir-Fry'],
+    ids: ['eggfooyoung', 'stirfry', 'bibimbap'],
+    titles: ['Egg Foo Young with Cabbage', 'Eggs & Cabbage Stir-Fry', 'Bibimbap with Eggs'],
   },
   {
     dish: 'lettucewraps',

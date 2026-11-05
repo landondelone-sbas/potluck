@@ -1,0 +1,32 @@
+{
+  "id": "riceandbeans",
+  "cuisine": "caribbean",
+  "title": "Coconut Rice & Beans with {v}",
+  "minutes": 40,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["beans", "chicken", "sausage", "pork", "tofu"],
+    "veg": ["pepper", "onion", "tomato", "greens", "carrot", "corn"],
+    "spice": ["herbs", "garlic", "chili", "ginger", "smoky", "paprika", "jerk", "cinnamon"],
+    "sauce": ["coconut", "hot", "tomato"],
+    "starch": ["rice"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "beans" },
+    { "category": "sauce", "tag": "coconut" }
+  ],
+  "defaults": {
+    "protein": "red beans",
+    "veg": "bell peppers",
+    "spice": "thyme",
+    "sauce": "coconut milk",
+    "starch": "long-grain rice"
+  },
+  "steps": [
+    "Soften the {v} with the {spice} in a pot with a little oil.",
+    "Add the {s}, the {p}, the {sauce} and enough water to cover the rice by a knuckle. Dried red kidney beans need soaking, then a hard boil of at least 10 minutes, first; canned beans only need draining.",
+    "Bring to a boil, cover and simmer on low until the rice is tender, about 20 minutes. Check that any meat is at least 165°F / 74°C inside.",
+    "Fluff with a fork, rest 5 minutes covered, and finish with lime or fresh herbs."
+  ],
+  "tip": "Use more beans than meat, add plenty of veg and finish with lime instead of extra salt."
+}

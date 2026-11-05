@@ -6,6 +6,9 @@ export const CUISINES = [
   'med',
   'comfort',
   'cajun',
+  'thai',
+  'korean',
+  'caribbean',
 ] as const;
 
 export type Cuisine = (typeof CUISINES)[number];
@@ -18,4 +21,7 @@ export const CUISINE_LABELS: Readonly<Record<Cuisine, string>> = {
   med: 'Mediterranean',
   comfort: 'Comfort',
   cajun: 'Cajun',
+  thai: 'Thai',
+  korean: 'Korean',
+  caribbean: 'Caribbean',
 };

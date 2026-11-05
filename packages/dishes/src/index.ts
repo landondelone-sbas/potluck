@@ -1,10 +1,14 @@
 import type { Dish } from '@potluck/engine';
 
+import basilstirfry from '../data/basilstirfry.json';
+import bibimbap from '../data/bibimbap.json';
 import blackened from '../data/blackened.json';
 import brothnoodles from '../data/brothnoodles.json';
+import bulgogi from '../data/bulgogi.json';
 import burritobowl from '../data/burritobowl.json';
 import cacciatore from '../data/cacciatore.json';
 import cajun from '../data/cajun.json';
+import caribbeancurry from '../data/caribbeancurry.json';
 import chickensoup from '../data/chickensoup.json';
 import chilaquiles from '../data/chilaquiles.json';
 import chili from '../data/chili.json';
@@ -22,6 +26,7 @@ import greeksalad from '../data/greeksalad.json';
 import gyro from '../data/gyro.json';
 import hash from '../data/hash.json';
 import jambalaya from '../data/jambalaya.json';
+import jerk from '../data/jerk.json';
 import kungpao from '../data/kungpao.json';
 import lemonherb from '../data/lemonherb.json';
 import lettucewraps from '../data/lettucewraps.json';
@@ -29,18 +34,21 @@ import loadedpotato from '../data/loadedpotato.json';
 import medbowl from '../data/medbowl.json';
 import minestrone from '../data/minestrone.json';
 import noodles from '../data/noodles.json';
+import padthai from '../data/padthai.json';
 import panzanella from '../data/panzanella.json';
 import pasta from '../data/pasta.json';
 import piccata from '../data/piccata.json';
 import pilaf from '../data/pilaf.json';
 import quesadilla from '../data/quesadilla.json';
 import redbeans from '../data/redbeans.json';
+import riceandbeans from '../data/riceandbeans.json';
 import risotto from '../data/risotto.json';
 import saag from '../data/saag.json';
 import sandwich from '../data/sandwich.json';
 import scramble from '../data/scramble.json';
 import shakshuka from '../data/shakshuka.json';
 import sheetpan from '../data/sheetpan.json';
+import spicynoodles from '../data/spicynoodles.json';
 import steakdinner from '../data/steakdinner.json';
 import steakpotato from '../data/steakpotato.json';
 import steaksalad from '../data/steaksalad.json';
@@ -49,6 +57,7 @@ import stirfry from '../data/stirfry.json';
 import stuffedpeppers from '../data/stuffedpeppers.json';
 import tacos from '../data/tacos.json';
 import tagine from '../data/tagine.json';
+import thaicurry from '../data/thaicurry.json';
 import tikkamasala from '../data/tikkamasala.json';
 import tortillasoup from '../data/tortillasoup.json';
 import { parseDishes } from './schema';
@@ -114,6 +123,16 @@ export const DISH_FILES: readonly unknown[] = [
   steakdinner,
   steakpotato,
   steaksalad,
+  // Thai, Korean and Caribbean (M3), which needed new cuisines in the engine.
+  thaicurry,
+  padthai,
+  basilstirfry,
+  bibimbap,
+  bulgogi,
+  spicynoodles,
+  jerk,
+  riceandbeans,
+  caribbeancurry,
 ];
 
 /** The bundled dish library, validated at load. */

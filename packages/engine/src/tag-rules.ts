@@ -3,7 +3,8 @@ import type { Category } from './categories';
 /**
  * Keyword rules: a favorite gets every tag whose pattern matches its lowercased name,
  * within its category. Ported from prototype v1. The only changes since are the `steak` and
- * `ground` tags and the cut names added to `beef` (docs/decisions/0007 and 0008).
+ * `ground` tags and the cut names added to `beef` (docs/decisions/0007 and 0008), and fish sauce
+ * and miso under `soy`, kimchi under `cabbage` and the `jerk` spice tag (docs/decisions/0010).
  */
 export const TAG_RULES: Record<Category, readonly (readonly [tag: string, pattern: RegExp])[]> = {
   protein: [
@@ -41,7 +42,7 @@ export const TAG_RULES: Record<Category, readonly (readonly [tag: string, patter
     ['mushroom', /mushroom/],
     ['carrot', /carrot/],
     ['zucchini', /zucchini|squash|courgette/],
-    ['cabbage', /cabbage|slaw/],
+    ['cabbage', /cabbage|slaw|kimchi/],
     ['corn', /\bcorn\b/],
     ['cauliflower', /cauliflower/],
     ['asparagus', /asparagus/],
@@ -63,9 +64,10 @@ export const TAG_RULES: Record<Category, readonly (readonly [tag: string, patter
     ['cajun', /cajun|creole|old bay|blackened/],
     ['smoky', /smok|bbq rub/],
     ['lemon', /lemon|lime|citrus|zest/],
+    ['jerk', /jerk|allspice|scotch bonnet|jamaican/],
   ],
   sauce: [
-    ['soy', /soy|tamari|shoyu/],
+    ['soy', /soy|tamari|shoyu|fish sauce|miso/],
     ['teriyaki', /teriyaki|hoisin|glaze/],
     ['tomato', /marinara|tomato|pizza sauce|red sauce|arrabbiata|pomodoro/],
     ['cream', /alfredo|cream|cheese|queso|carbonara|bechamel|béchamel/],

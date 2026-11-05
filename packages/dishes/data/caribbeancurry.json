@@ -1,0 +1,32 @@
+{
+  "id": "caribbeancurry",
+  "cuisine": "caribbean",
+  "title": "{p} & {v} Island Curry",
+  "minutes": 45,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["chicken", "pork", "beef", "beans", "tofu"],
+    "veg": ["carrot", "onion", "pepper", "tomato", "greens", "zucchini", "cauliflower"],
+    "spice": ["curry", "garlic", "ginger", "chili", "herbs", "cinnamon", "jerk"],
+    "sauce": ["coconut", "hot", "tomato"],
+    "starch": ["rice", "potato", "sweetpotato", "bread"]
+  },
+  "signature": [
+    { "category": "spice", "tag": "curry" },
+    { "category": "sauce", "tag": "coconut" }
+  ],
+  "defaults": {
+    "protein": "chicken thighs",
+    "veg": "carrots",
+    "spice": "curry powder",
+    "sauce": "coconut milk",
+    "starch": "long-grain rice"
+  },
+  "steps": [
+    "Season the {p} with the {spice} and brown in a heavy pot, then set aside on a clean plate.",
+    "Soften the {v} in the same pot, then add the {sauce} and enough water to half-cover.",
+    "Return the {p}, cover and simmer 30 to 40 minutes, until tender and {doneness}.",
+    "Serve over the {s} with lime."
+  ],
+  "tip": "Use more veg than meat, light coconut milk and plenty of thyme and ginger for flavor."
+}

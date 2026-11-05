@@ -101,7 +101,7 @@ Sources: the [USDA safe temperature chart](https://www.fsis.usda.gov/food-safety
 
 **Lighter tip:** Let beans and veg do the work: skip the cream and go easy on the cheese.
 
-**The same pot also offers:** Hearty White Beans & Carrots Stew.
+**The same pot also offers:** White Beans & Carrots Noodle Soup; Hearty White Beans & Carrots Stew.
 
 **Please check:**
 
@@ -278,7 +278,7 @@ Sources: the [USDA safe temperature chart](https://www.fsis.usda.gov/food-safety
 
 **Lighter tip:** Brown rice and extra veg add fiber, and a tablespoon of oil is plenty.
 
-**The same pot also offers:** Chicken Thighs & Carrots Curry.
+**The same pot also offers:** Chicken Thighs & Carrots Curry; Chicken Thighs & Carrots Island Curry.
 
 **Please check:**
 

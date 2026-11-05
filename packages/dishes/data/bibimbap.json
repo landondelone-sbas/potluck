@@ -1,0 +1,32 @@
+{
+  "id": "bibimbap",
+  "cuisine": "korean",
+  "title": "Bibimbap with {p}",
+  "minutes": 35,
+  "feel": "Balanced",
+  "wants": {
+    "protein": ["egg", "beef", "chicken", "pork", "tofu"],
+    "veg": ["carrot", "greens", "mushroom", "zucchini", "cabbage", "greenbeans", "onion"],
+    "spice": ["garlic", "ginger", "chili"],
+    "sauce": ["hot", "soy", "honey"],
+    "starch": ["rice"]
+  },
+  "signature": [
+    { "category": "protein", "tag": "egg" },
+    { "category": "sauce", "tag": "hot" }
+  ],
+  "defaults": {
+    "protein": "eggs",
+    "veg": "carrots",
+    "spice": "garlic",
+    "sauce": "gochujang",
+    "starch": "short-grain rice"
+  },
+  "steps": [
+    "Cook the {s} and keep it warm.",
+    "Sauté the {v} one at a time with a little oil and the {spice}, until just tender.",
+    "Cook the {p} until {doneness}, and fry any eggs until the whites are set (160°F / 71°C for firm yolks).",
+    "Pile the {v} and {p} over the {s} and stir in the {sauce} at the table."
+  ],
+  "tip": "Make veg most of the bowl, use one egg and a small spoon of the chili paste."
+}

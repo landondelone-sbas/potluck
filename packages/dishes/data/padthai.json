@@ -1,0 +1,32 @@
+{
+  "id": "padthai",
+  "cuisine": "thai",
+  "title": "Pad Thai with {p}",
+  "minutes": 25,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["chicken", "shrimp", "tofu", "pork", "beef"],
+    "veg": ["carrot", "greens", "onion", "pepper", "greenbeans", "cabbage"],
+    "spice": ["chili", "garlic", "lemon", "ginger"],
+    "sauce": ["peanut", "soy", "hot", "honey"],
+    "starch": ["noodles"]
+  },
+  "signature": [
+    { "category": "starch", "tag": "noodles" },
+    { "category": "spice", "tag": "lemon" }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "carrots",
+    "spice": "lime",
+    "sauce": "peanut sauce",
+    "starch": "rice noodles"
+  },
+  "steps": [
+    "Cook the {s} to the pack time, drain and toss with a little oil.",
+    "Stir-fry the {p} in a very hot pan until {doneness}, then move to a clean plate.",
+    "Stir-fry the {v} with the {spice} for 2 minutes, add the {s} and the {sauce} and toss until coated.",
+    "Return the {p}, toss, and serve with lime and chopped peanuts."
+  ],
+  "tip": "Go heavy on the veg, use half the sauce, and add lime for brightness instead of more sugar."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "basilstirfry",
+  "cuisine": "thai",
+  "title": "Spicy Basil {p}",
+  "minutes": 20,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["chicken", "pork", "beef", "tofu", "shrimp"],
+    "veg": ["pepper", "greenbeans", "onion", "mushroom", "zucchini", "greens"],
+    "spice": ["herbs", "chili", "garlic", "ginger"],
+    "sauce": ["soy", "hot", "honey"],
+    "starch": ["rice"]
+  },
+  "signature": [
+    { "category": "spice", "tag": "chili" },
+    { "category": "spice", "tag": "herbs" }
+  ],
+  "defaults": {
+    "protein": "ground pork",
+    "veg": "bell peppers",
+    "spice": "thai basil",
+    "sauce": "soy sauce",
+    "starch": "jasmine rice"
+  },
+  "steps": [
+    "Stir-fry the {p} in a very hot pan, breaking it up, until {doneness}.",
+    "Add the {v} and stir-fry 2 to 3 minutes.",
+    "Add the {sauce} and the {spice} and toss until fragrant and glossy.",
+    "Serve over the {s}."
+  ],
+  "tip": "Use more veg and basil than meat, and keep the sauce light."
+}
