@@ -1,0 +1,66 @@
+{
+  "id": "roastchicken",
+  "cuisine": "comfort",
+  "format": "plate",
+  "title": "Roast {p} with {v}",
+  "minutes": 60,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["chicken"],
+    "veg": [
+      "carrot",
+      "onion",
+      "broccoli",
+      "greenbeans",
+      "cauliflower",
+      "asparagus",
+      "zucchini",
+      "celery"
+    ],
+    "spice": ["garlic", "paprika", "herbs", "pepper", "smoky", "lemon"],
+    "sauce": ["gravy", "mustard", "honey", "vinaigrette"],
+    "starch": ["potato", "sweetpotato", "rice", "bread", "quinoa"]
+  },
+  "signature": [
+    {
+      "category": "sauce",
+      "tag": "gravy"
+    }
+  ],
+  "defaults": {
+    "protein": "chicken thighs",
+    "veg": "carrots",
+    "spice": "smoked paprika",
+    "sauce": "gravy",
+    "starch": "baby potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 700,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Heat the oven to 425°F (220°C). Pat the {p} very dry, then rub with oil, salt and the {spice}.",
+    "Roast the {p} on a sheet pan until {doneness}: about 25 to 45 minutes for pieces (breasts take the least), or about 1 hour 15 minutes for a whole bird. Rest 10 minutes before carving.",
+    "While it roasts, get the sides going. {starch_how} {veg_how}",
+    "Plate the {p} with the {v} and {s}, and spoon the {sauce} over the top."
+  ],
+  "tip": "Roast extra vegetables on the same pan, and keep the skin to a few bites, for a lighter plate."
+}

@@ -26,12 +26,15 @@ const METHODS: Readonly<Record<SideCategory, readonly (readonly [tag: string, me
     starch: [
       [
         'sweetpotato',
-        'Cut the {name} into chunks and roast at 425°F / 220°C until fork-tender, about 30 minutes.',
+        'Cut the {name} into chunks and roast at 425°F (220°C) until fork-tender, about 30 minutes.',
       ],
       [
         'potato',
-        'Cut the {name} into chunks and roast at 425°F / 220°C until golden and fork-tender, about 30 minutes.',
+        'Cut the {name} into chunks and roast at 425°F (220°C) until golden and fork-tender, about 30 minutes.',
       ],
+      // Noodles come before rice: a rice noodle is both, and it is boiled, not fluffed.
+      ['pasta', 'Boil the {name} in well-salted water until just tender, then drain.'],
+      ['noodles', 'Boil the {name} in well-salted water until just tender, then drain.'],
       [
         'rice',
         'Cook the {name} in water following the package directions, then fluff it with a fork.',
@@ -48,8 +51,6 @@ const METHODS: Readonly<Record<SideCategory, readonly (readonly [tag: string, me
         'grits',
         'Cook the {name} in simmering water or broth, stirring often, until thick and creamy.',
       ],
-      ['pasta', 'Boil the {name} in well-salted water until just tender, then drain.'],
-      ['noodles', 'Boil the {name} in well-salted water until just tender, then drain.'],
       ['plantain', 'Slice the {name} and pan-fry it until golden and soft.'],
       ['tortilla', 'Warm the {name} in a dry pan until soft and pliable.'],
       ['bread', 'Warm or toast the {name}.'],
@@ -58,7 +59,7 @@ const METHODS: Readonly<Record<SideCategory, readonly (readonly [tag: string, me
 
 /** Roast: what most vegetables want. */
 const DEFAULT_VEG =
-  'Toss the {name} with oil and salt and roast at 425°F / 220°C until tender and browned at the edges, about 15 to 25 minutes.';
+  'Toss the {name} with oil and salt and roast at 425°F (220°C) until tender and browned at the edges, about 15 to 25 minutes.';
 /** An item the engine has no method for: say so plainly rather than guess. */
 const DEFAULT_STARCH = 'Prepare the {name} the way you like it.';
 

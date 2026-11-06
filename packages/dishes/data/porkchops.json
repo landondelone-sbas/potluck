@@ -1,0 +1,52 @@
+{
+  "id": "porkchops",
+  "cuisine": "comfort",
+  "format": "plate",
+  "title": "Skillet {p} with {v}",
+  "minutes": 25,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["pork"],
+    "veg": ["greenbeans", "broccoli", "carrot", "asparagus", "greens", "zucchini", "corn"],
+    "spice": ["paprika", "garlic", "chili", "smoky", "pepper"],
+    "sauce": ["honey", "mustard", "gravy", "vinaigrette"],
+    "starch": ["potato", "rice", "sweetpotato", "bread", "noodles"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "pork chops",
+    "veg": "green beans",
+    "spice": "smoked paprika",
+    "sauce": "honey mustard",
+    "starch": "baby potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Start the sides first, since they take the longest. {starch_how} {veg_how}",
+    "Pat the {p} dry and leave out of the fridge for 15 minutes. Rub with the {spice}, salt and pepper.",
+    "Sear the {p} in a hot, oiled skillet 3 to 4 minutes per side until browned and {doneness}. Rest 3 minutes.",
+    "Pour the {sauce} into the hot pan, scrape up the browned bits, and simmer until glossy. Spoon over the {p} and serve with the {v} and {s}."
+  ],
+  "tip": "Trim the visible fat before cooking and fill half the plate with the vegetable."
+}

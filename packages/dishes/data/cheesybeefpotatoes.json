@@ -1,0 +1,57 @@
+{
+  "id": "cheesybeefpotatoes",
+  "cuisine": "comfort",
+  "format": "pot",
+  "title": "Cheesy {p} Skillet with {v}",
+  "minutes": 40,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["beef", "ground", "sausage"],
+    "veg": ["onion", "pepper", "broccoli", "greenbeans", "corn", "mushroom"],
+    "spice": ["paprika", "garlic", "smoky", "pepper", "herbs"],
+    "sauce": ["cream"],
+    "starch": ["potato", "sweetpotato"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "ground"
+    }
+  ],
+  "defaults": {
+    "protein": "ground beef",
+    "veg": "onions",
+    "spice": "smoked paprika",
+    "sauce": "cheddar cheese",
+    "starch": "baby potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 180,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Dice the {s}. Cook in an oiled skillet, covered, stirring now and then, until golden and tender, about 10 to 12 minutes. Move to a plate.",
+    "Cook the {p} with the {v} in the same pan, breaking up the meat, until browned and {doneness}. Drain off extra fat.",
+    "Stir in the {spice} for a minute, then return the {s}.",
+    "Top with the {sauce}, cover, and cook until melted and bubbly, 2 to 3 minutes."
+  ],
+  "tip": "Use lean meat, drain the fat, and go light on the cheese. Stir in extra vegetables."
+}

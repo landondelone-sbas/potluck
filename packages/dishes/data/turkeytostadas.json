@@ -1,0 +1,57 @@
+{
+  "id": "turkeytostadas",
+  "cuisine": "mexican",
+  "format": "pot",
+  "title": "Baked {p} Tostadas with {v}",
+  "minutes": 30,
+  "feel": "Balanced",
+  "wants": {
+    "protein": ["turkey", "ground", "beans"],
+    "veg": ["greens", "tomato", "pepper", "onion", "avocado", "corn"],
+    "spice": ["chili", "cumin", "garlic", "smoky"],
+    "sauce": ["salsa", "hot", "cream"],
+    "starch": ["tortilla"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "turkey"
+    }
+  ],
+  "defaults": {
+    "protein": "ground turkey",
+    "veg": "lettuce",
+    "spice": "chili powder",
+    "sauce": "pico de gallo",
+    "starch": "corn tortillas"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 15,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 6,
+      "unit": "n"
+    }
+  },
+  "steps": [
+    "Heat the oven to 400°F (200°C). Brush the {s} lightly with oil, lay on a baking sheet, and bake 8 to 10 minutes until crisp.",
+    "Cook the {p} in a hot skillet with the {spice} and salt, breaking it up, until browned and {doneness}.",
+    "Pile the {p} onto the crisp {s}, then top with the {v}.",
+    "Finish with the {sauce} and serve right away."
+  ],
+  "tip": "Baking the shells instead of frying them keeps the crunch and drops a lot of oil."
+}

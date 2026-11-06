@@ -1,0 +1,57 @@
+{
+  "id": "shrimpgumbo",
+  "cuisine": "cajun",
+  "format": "pot",
+  "title": "{p} and {v} Gumbo",
+  "minutes": 60,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["shrimp", "chicken", "sausage"],
+    "veg": ["pepper", "onion", "celery", "okra", "tomato"],
+    "spice": ["cajun", "garlic", "herbs", "smoky", "paprika"],
+    "sauce": ["tomato", "gravy"],
+    "starch": ["rice"]
+  },
+  "signature": [
+    {
+      "category": "veg",
+      "tag": "okra"
+    }
+  ],
+  "defaults": {
+    "protein": "shrimp",
+    "veg": "okra",
+    "spice": "cajun seasoning",
+    "sauce": "crushed tomatoes",
+    "starch": "long-grain rice"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 400,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 400,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Cook the {s} following the package directions and keep it warm.",
+    "In a large pot, soften the {v} in oil for about 5 minutes, then stir in the {spice} for a minute.",
+    "Add the {sauce} and 3 cups of broth. Simmer, covered, for about 25 minutes until the vegetables are tender.",
+    "Add the {p} and cook until {doneness}. Serve over the {s}."
+  ],
+  "tip": "Okra thickens the gumbo, so you can skip the heavy roux and keep it lighter."
+}
