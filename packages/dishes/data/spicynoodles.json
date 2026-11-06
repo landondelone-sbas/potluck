@@ -22,6 +22,28 @@
     "sauce": "gochujang",
     "starch": "udon noodles"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 240,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Cook the {s} to the pack time, drain and rinse.",
     "Stir-fry the {p} until {doneness}, then add the {v} and the {spice} for 2 to 3 minutes.",

@@ -22,6 +22,28 @@
     "sauce": "chicken broth",
     "starch": "couscous"
   },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 250,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Brown the {p} in a heavy pot, then set aside on a clean plate.",
     "Soften the {v} with the {spice}, then add the {sauce} and enough water or stock to half-cover.",

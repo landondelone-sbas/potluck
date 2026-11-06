@@ -22,6 +22,28 @@
     "sauce": "tomato sauce",
     "starch": "long-grain rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 250,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Brown the {p}, leaving out any shrimp, in a heavy pot, then set aside on a clean plate.",
     "Soften the {v} with the {spice}, then stir in the {s} to coat.",

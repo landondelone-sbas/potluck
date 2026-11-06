@@ -28,6 +28,28 @@
     "sauce": "hummus",
     "starch": "quinoa"
   },
+  "amounts": {
+    "protein": {
+      "qty": 240,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Cook the {s} and fluff it with a fork.",
     "Season the {p} with the {spice} and cook until done. Chop the {v} fresh.",

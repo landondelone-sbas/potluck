@@ -22,6 +22,28 @@
     "sauce": "coconut milk",
     "starch": "long-grain rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 15,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 400,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Season the {p} with the {spice} and brown in a heavy pot, then set aside on a clean plate.",
     "Soften the {v} in the same pot, then add the {sauce} and enough water to half-cover.",

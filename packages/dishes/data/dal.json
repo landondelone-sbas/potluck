@@ -22,6 +22,28 @@
     "sauce": "coconut milk",
     "starch": "basmati rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 200,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Rinse the {p}. Simmer dried lentils or chickpeas in water until soft; canned beans only need draining. Dried kidney beans need soaking, then a hard boil of at least 10 minutes.",
     "Bloom the {spice} in oil with a little garlic for 30 seconds, then add the {v} and cook until soft.",

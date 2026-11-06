@@ -22,6 +22,28 @@
     "sauce": "balsamic vinaigrette",
     "starch": "crusty bread"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 100,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    },
+    "spice": {
+      "qty": 2,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 45,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Pat the {p} dry, season with the {spice} and salt, and sear in a very hot pan 3 to 4 minutes a side. Check the thickest part with a thermometer: the USDA safe minimum for steak is 145°F / 63°C. A lower doneness is your choice and carries more risk.",
     "Rest the {p} 3 to 5 minutes on a clean plate, then slice thin against the grain.",

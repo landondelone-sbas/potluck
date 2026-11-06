@@ -38,6 +38,28 @@
     "sauce": "soy sauce",
     "starch": "jasmine rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Cook the {s} and keep it warm. Slice the {p} and {v} into bite-size pieces.",
     "Sear the {p} in a very hot pan, then add the {v} and {spice}. Toss for 3 to 4 minutes.",

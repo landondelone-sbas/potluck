@@ -22,6 +22,28 @@
     "sauce": "crushed tomatoes",
     "starch": "basmati rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 200,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Warm a little oil, add the {spice} and stir for 30 seconds until fragrant.",
     "Add the {p} and {v} and cook a few minutes, stirring, until lightly browned.",

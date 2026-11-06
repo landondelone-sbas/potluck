@@ -22,6 +22,28 @@
     "sauce": "parmesan cheese",
     "starch": "crusty bread"
   },
+  "amounts": {
+    "protein": {
+      "qty": 6,
+      "unit": "n"
+    },
+    "veg": {
+      "qty": 100,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Heat the oven to 375°F (190°C). Sauté the {v} with the {spice} in an oven-safe pan until soft.",
     "Whisk the eggs (about 2 to 3 per person) with salt and pepper and pour them over the veg. Dot with the {sauce}.",

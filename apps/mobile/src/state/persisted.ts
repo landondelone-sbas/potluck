@@ -1,4 +1,4 @@
-import { CATEGORIES } from '@potluck/engine';
+import { CATEGORIES, type UnitSystem } from '@potluck/engine';
 import { z } from 'zod';
 
 import type { CookLogEntry } from '@/domain/cook-log';
@@ -15,6 +15,9 @@ export const PERSIST_VERSION = 1;
 export const APPEARANCES = ['system', 'light', 'dark'] as const;
 export type AppearanceSetting = (typeof APPEARANCES)[number];
 
+/** US customary or metric amounts in the recipe (SET-5). */
+export const UNIT_SYSTEMS = ['us', 'metric'] as const satisfies readonly UnitSystem[];
+
 /** Everything that is saved on the device. Anything else in the store is per-session. */
 export interface PersistedState {
   favorites: Favorite[];
@@ -25,6 +28,7 @@ export interface PersistedState {
   appearance: AppearanceSetting;
   /** Keep the screen awake on the recipe screen (REC-3). */
   keepAwake: boolean;
+  units: UnitSystem;
 }
 
 /** What a fresh install, or a reset, starts from. */
@@ -35,6 +39,7 @@ export const DEFAULT_PERSISTED: PersistedState = {
   cookLog: [],
   appearance: 'system',
   keepAwake: false,
+  units: 'us',
 };
 
 const FavoriteSchema = z.object({
@@ -50,6 +55,7 @@ const CookLogEntrySchema = z.object({
   title: z.string(),
   pot: z.array(z.object({ name: z.string().min(1), category: z.enum(CATEGORIES) })),
   cookedAt: z.number(),
+  chefProtein: z.string().min(1).optional(),
   rating: z.enum(['up', 'down']).nullable(),
 });
 
@@ -96,6 +102,7 @@ export function restore(raw: unknown): PersistedState {
     cookLog: validEntries(CookLogEntrySchema, source.cookLog),
     appearance: APPEARANCES.find((value) => value === source.appearance) ?? 'system',
     keepAwake: source.keepAwake === true,
+    units: UNIT_SYSTEMS.find((value) => value === source.units) ?? 'us',
   };
 }
 

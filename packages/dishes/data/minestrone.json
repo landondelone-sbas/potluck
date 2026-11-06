@@ -22,6 +22,28 @@
     "sauce": "vegetable broth",
     "starch": "small pasta"
   },
+  "amounts": {
+    "protein": {
+      "qty": 240,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 100,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 750,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Brown the {p} in a large pot, then set aside on a clean plate.",
     "Soften the {v} with the {spice} in the same pot, about 8 minutes.",

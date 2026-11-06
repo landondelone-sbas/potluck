@@ -28,6 +28,28 @@
     "sauce": "coconut milk",
     "starch": "basmati rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 240,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 15,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 400,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Soften an onion and garlic, then bloom the {spice} in the oil for 30 seconds.",
     "Add the {p} and {v}, pour in the {sauce} and simmer gently until tender.",

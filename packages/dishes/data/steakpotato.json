@@ -22,6 +22,28 @@
     "sauce": "mustard",
     "starch": "baby potatoes"
   },
+  "amounts": {
+    "protein": {
+      "qty": 400,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 15,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Dice the {s} small and pan-fry in oil for 12 to 15 minutes, until golden and tender, then move to a clean plate.",
     "Pat the {p} dry, season with the {spice} and salt, and sear 3 to 4 minutes a side. Check the thickest part with a thermometer: the USDA safe minimum for steak is 145°F / 63°C. A lower doneness is your choice and carries more risk.",

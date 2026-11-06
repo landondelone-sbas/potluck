@@ -22,6 +22,28 @@
     "sauce": "crushed tomatoes",
     "starch": "pita"
   },
+  "amounts": {
+    "protein": {
+      "qty": 4,
+      "unit": "n"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 400,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Soften the {v} with the {spice} in a wide pan with a little oil.",
     "Pour in the {sauce} and simmer 10 minutes, until thick.",

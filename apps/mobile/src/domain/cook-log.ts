@@ -25,6 +25,11 @@ export interface CookLogEntry {
   pot: PotSnapshotItem[];
   /** Milliseconds since the epoch. */
   cookedAt: number;
+  /**
+   * The protein the chef cooked when the pot had none: a pantry protein the dish accepts. Kept so
+   * the recipe, rebuilt later, names the same protein the card did. Absent for older entries.
+   */
+  chefProtein?: string | undefined;
   /** Reserved for ratings (RES-7, v1.1). */
   rating: 'up' | 'down' | null;
 }
@@ -43,6 +48,7 @@ export function makeLogEntry(
   run: CookRun,
   meta: { id: string; now: number },
 ): CookLogEntry {
+  const chefProtein = card.chefAdds.find((add) => add.category === 'protein')?.name;
   return {
     id: meta.id,
     dishId: card.dish.id,
@@ -50,6 +56,7 @@ export function makeLogEntry(
     pot: run.pot.map(({ name, category }) => ({ name, category })),
     cookedAt: meta.now,
     rating: null,
+    ...(chefProtein ? { chefProtein } : {}),
   };
 }
 
@@ -68,5 +75,9 @@ export function rebuildResult(entry: CookLogEntry, library: readonly Dish[]): Di
     .sort((a, b) => categoryIndex(a.category) - categoryIndex(b.category))
     .map(({ name, category }) => ({ name, category, tags: tagsFor(category, name) }));
 
-  return buildResult(evaluateDish(dish, pot, index));
+  const chef: PotItem | undefined = entry.chefProtein
+    ? { name: entry.chefProtein, category: 'protein', tags: tagsFor('protein', entry.chefProtein) }
+    : undefined;
+
+  return buildResult(evaluateDish(dish, pot, index), chef);
 }

@@ -28,6 +28,28 @@
     "sauce": "hot sauce",
     "starch": "jasmine rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 15,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Brown the {p} in a wide skillet, then push it aside.",
     "Cook the {v} with the {spice} until soft and a little charred.",

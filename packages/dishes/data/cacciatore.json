@@ -22,6 +22,28 @@
     "sauce": "marinara",
     "starch": "crusty bread"
   },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 4,
+      "unit": "n"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 250,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Season the {p} with the {spice} and brown in a wide, deep pan, then set aside on a clean plate.",
     "Soften the {v} in the same pan, then pour in the {sauce} and a splash of water or stock.",

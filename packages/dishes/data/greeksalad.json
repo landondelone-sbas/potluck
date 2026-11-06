@@ -22,6 +22,28 @@
     "sauce": "olive oil and lemon",
     "starch": "pita"
   },
+  "amounts": {
+    "protein": {
+      "qty": 240,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 45,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Chop the {v} into bite-size pieces.",
     "Cook the {p} until {doneness}, or drain canned beans or fish, and let cool a few minutes.",

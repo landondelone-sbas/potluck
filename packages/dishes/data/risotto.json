@@ -22,6 +22,28 @@
     "sauce": "parmesan cheese",
     "starch": "arborio rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 160,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Soften an onion with the {spice} in a wide pan, then stir in the {s} for a minute until the edges turn glassy.",
     "Add warm stock or lightly salted water a ladle at a time, stirring often and letting each addition soak in, until creamy and just tender, about 20 minutes.",

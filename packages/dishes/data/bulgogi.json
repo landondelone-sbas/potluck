@@ -22,6 +22,28 @@
     "sauce": "soy sauce",
     "starch": "short-grain rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 45,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Slice the {p} thin and toss with the {sauce} and the {spice}. Marinate in the fridge for 15 minutes to an hour, and throw away any marinade left over.",
     "Cook the {p} in a very hot pan in batches until {doneness}, then move to a clean plate.",

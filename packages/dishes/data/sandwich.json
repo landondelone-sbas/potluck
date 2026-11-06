@@ -28,6 +28,28 @@
     "sauce": "mustard",
     "starch": "sourdough"
   },
+  "amounts": {
+    "protein": {
+      "qty": 170,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 4,
+      "unit": "n"
+    },
+    "spice": {
+      "qty": 2,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 15,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Toast the {s} in a dry pan or the oven.",
     "Warm the {p} in the pan with the {spice}, then pile on the {v}.",

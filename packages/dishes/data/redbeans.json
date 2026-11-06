@@ -22,6 +22,28 @@
     "sauce": "hot sauce",
     "starch": "long-grain rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 240,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 100,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 15,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Soften the {v} with the {spice} in a heavy pot with a little oil.",
     "Add the {p}, brown any sausage or pork first, the {sauce} and enough water or stock to cover. Dried red kidney beans need soaking, then a hard boil of at least 10 minutes, first; canned beans only need draining.",

@@ -22,6 +22,28 @@
     "sauce": "balsamic vinaigrette",
     "starch": "ciabatta"
   },
+  "amounts": {
+    "protein": {
+      "qty": 240,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 45,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Cube the {s}, toss with a little oil and toast in a hot oven or pan until crisp at the edges.",
     "Chop the {v} and toss with the {sauce} and the {spice}. Leave to sit 10 minutes so the juices soak in.",

@@ -22,6 +22,28 @@
     "sauce": "soy sauce",
     "starch": "jasmine rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 60,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Stir-fry the {p} in a very hot pan, breaking it up, until {doneness}.",
     "Add the {v} and stir-fry 2 to 3 minutes.",

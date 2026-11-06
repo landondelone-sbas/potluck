@@ -22,6 +22,28 @@
     "sauce": "soy sauce",
     "starch": "jasmine rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 4,
+      "unit": "n"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Sauté the {v} with the {spice} until just tender, then let cool a few minutes.",
     "Whisk the eggs (about 2 to 3 per person) and stir in the veg.",

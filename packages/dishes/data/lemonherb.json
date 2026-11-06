@@ -28,6 +28,28 @@
     "sauce": "olive oil and lemon",
     "starch": "quinoa"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 45,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Pat the {p} dry, season with the {spice}, and sear or roast until just cooked.",
     "Steam or roast the {v} until bright and tender-crisp.",

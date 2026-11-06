@@ -307,6 +307,7 @@ describe('saving', () => {
       'keepAwake',
       'onboardingComplete',
       'pot',
+      'units',
     ]);
   });
 

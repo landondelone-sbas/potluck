@@ -28,6 +28,28 @@
     "sauce": "hot sauce",
     "starch": "baby potatoes"
   },
+  "amounts": {
+    "protein": {
+      "qty": 4,
+      "unit": "n"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 15,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Dice the {s} small and crisp it in a hot skillet for about 10 minutes, stirring rarely.",
     "Add the {p}, {v} and {spice} and cook until everything is browned.",
