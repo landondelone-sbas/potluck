@@ -53,6 +53,8 @@ import piccata from '../data/piccata.json';
 import pilaf from '../data/pilaf.json';
 import porkchops from '../data/porkchops.json';
 import porktenderloin from '../data/porktenderloin.json';
+import potatosalad from '../data/potatosalad.json';
+import potatosoup from '../data/potatosoup.json';
 import quesadilla from '../data/quesadilla.json';
 import redbeans from '../data/redbeans.json';
 import redcurryshrimp from '../data/redcurryshrimp.json';
@@ -69,6 +71,7 @@ import sheetpan from '../data/sheetpan.json';
 import shrimpgumbo from '../data/shrimpgumbo.json';
 import shrimplinguini from '../data/shrimplinguini.json';
 import shrimptacos from '../data/shrimptacos.json';
+import spanishtortilla from '../data/spanishtortilla.json';
 import spicynoodles from '../data/spicynoodles.json';
 import steakdinner from '../data/steakdinner.json';
 import steakpotato from '../data/steakpotato.json';
@@ -183,6 +186,10 @@ export const DISH_FILES: readonly unknown[] = [
   sausageflatbread,
   breakfastquesadilla,
   redcurryshrimp,
+  // Potato dishes, so every kind of potato has somewhere to go (M4).
+  potatosoup,
+  spanishtortilla,
+  potatosalad,
 ];
 
 /** The bundled dish library, validated at load. */

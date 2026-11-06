@@ -18,6 +18,11 @@ describe('howToCook', () => {
       'Rice noodles',
       'Boil the rice noodles in well-salted water until just tender, then drain.',
     ],
+    [
+      'starch',
+      'Russet potatoes',
+      'Scrub the russet potatoes, prick with a fork, and bake at 425°F (220°C) until soft, 45 to 60 minutes.',
+    ],
     ['starch', 'Penne', 'Boil the penne in well-salted water until just tender, then drain.'],
     [
       'starch',

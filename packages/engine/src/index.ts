@@ -12,7 +12,7 @@ export { CATEGORIES, categoryIndex, type Category } from './categories';
 export { CUISINES, CUISINE_LABELS, type Cuisine } from './cuisines';
 export { cook, isCloseEnough, CLOSE_PERCENT, MAX_RESULTS } from './cook';
 export { plateNudge, type PlateNudge } from './nudge';
-export { buildResult } from './results';
+export { buildResult, type ChefPicks } from './results';
 export { donenessFor, type DonenessItem } from './doneness';
 export { howToCook, type SideCategory, type SideItem } from './sides';
 export {

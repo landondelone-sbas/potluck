@@ -1,0 +1,52 @@
+{
+  "id": "potatosalad",
+  "cuisine": "comfort",
+  "format": "pot",
+  "title": "Warm Potato Salad with {p} and {v}",
+  "minutes": 35,
+  "feel": "Easy",
+  "wants": {
+    "protein": ["egg", "pork", "sausage", "chicken"],
+    "veg": ["celery", "onion", "greens", "cucumber", "greenbeans"],
+    "spice": ["herbs", "pepper", "garlic"],
+    "sauce": ["mustard", "vinaigrette", "ranch"],
+    "starch": ["potato"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "eggs",
+    "veg": "celery",
+    "spice": "dill",
+    "sauce": "mustard",
+    "starch": "red potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 4,
+      "unit": "n"
+    },
+    "veg": {
+      "qty": 100,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 600,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Cut the {s} into bite-size pieces and boil in salted water until just tender, 10 to 12 minutes. Drain and let steam dry for a few minutes.",
+    "Cook the {p} until {doneness}{?egg:, boiling the eggs hard for 10 minutes and chopping them}, then let cool a little.",
+    "Toss the warm {s} with the {sauce}, the {spice} and the {v}.",
+    "Fold in the {p} and serve warm or cold."
+  ],
+  "tip": "Use a mustard and vinegar dressing instead of mayonnaise, and add plenty of crunchy vegetables."
+}

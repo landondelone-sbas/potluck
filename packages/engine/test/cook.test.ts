@@ -226,3 +226,45 @@ describe('cook mixes one-pot and plated dishes', () => {
     expect(must(cook(chicken, library)).results.map((r) => r.dish.id)).toEqual(['a']);
   });
 });
+
+describe('cook with a pantry: the chef uses what the user owns in every category', () => {
+  const dish = makeDish({
+    id: 'veggie',
+    wants: { ...makeDish().wants, veg: ['broccoli', 'carrot'], starch: ['rice', 'potato'] },
+    defaults: { ...makeDish().defaults, veg: 'carrots', starch: 'rice' },
+  });
+  const chicken = [item('protein', 'Chicken thighs')];
+  const adds = (pot: ReturnType<typeof item>[], pantry: ReturnType<typeof item>[]) =>
+    must(cook(pot, [dish], pantry)).results[0]!.chefAdds;
+
+  test('a vegetable and a starch from the pantry replace the defaults', () => {
+    const pantry = [...chicken, item('veg', 'Broccoli'), item('starch', 'Baby potatoes')];
+    const result = adds(chicken, pantry);
+    expect(result).toEqual(
+      expect.arrayContaining([
+        { category: 'veg', name: 'broccoli' },
+        { category: 'starch', name: 'baby potatoes' },
+      ]),
+    );
+  });
+
+  test('a pantry item the dish does not accept is not used', () => {
+    const result = adds(chicken, [...chicken, item('veg', 'Spinach'), item('starch', 'Naan')]);
+    expect(result).toEqual(
+      expect.arrayContaining([
+        { category: 'veg', name: 'carrots' },
+        { category: 'starch', name: 'rice' },
+      ]),
+    );
+  });
+
+  test('without a pantry nothing changes', () => {
+    const result = must(cook(chicken, [dish])).results[0]!.chefAdds;
+    expect(result).toEqual(
+      expect.arrayContaining([
+        { category: 'veg', name: 'carrots' },
+        { category: 'starch', name: 'rice' },
+      ]),
+    );
+  });
+});

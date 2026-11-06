@@ -25,6 +25,10 @@ const METHODS: Readonly<Record<SideCategory, readonly (readonly [tag: string, me
     ],
     starch: [
       [
+        'bakingpotato',
+        'Scrub the {name}, prick with a fork, and bake at 425°F (220°C) until soft, 45 to 60 minutes.',
+      ],
+      [
         'sweetpotato',
         'Cut the {name} into chunks and roast at 425°F (220°C) until fork-tender, about 30 minutes.',
       ],

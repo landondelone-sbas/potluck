@@ -110,6 +110,8 @@ export const TAG_RULES: Record<Category, readonly (readonly [tag: string, patter
     ['rice', /rice/],
     ['sweetpotato', /sweet potato|yam/],
     ['potato', /potato|fries|tater|hash brown/],
+    // A large potato that is baked whole. Baby, red and new potatoes are just `potato`.
+    ['bakingpotato', /russet|baking potato|baked potato|idaho|jacket potato/],
     [
       'bread',
       /bread|sourdough|\bbun|toast|bagel|baguette|\broll|pita|naan|ciabatta|flatbread|brioche/,

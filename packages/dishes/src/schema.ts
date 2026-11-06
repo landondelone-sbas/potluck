@@ -21,6 +21,11 @@ const STEP_PLACEHOLDERS = new Set([
   'starch_how',
 ]);
 
+// A step can say `{?tag:text}` (only when the dish has that tag) or `{?!tag:text}` (only when it
+// does not). The tag must be one the engine can produce. See `buildResult`.
+const CONDITIONAL = /\{\?(!?)(\w+):((?:[^{}]|\{\w+\})*)\}/g;
+const ALL_TAGS = new Set(CATEGORIES.flatMap((category) => TAG_VOCABULARY[category]));
+
 function placeholdersIn(text: string): string[] {
   return [...text.matchAll(/\{(\w+)\}/g)].map((match) => match[1] ?? '');
 }
@@ -92,6 +97,23 @@ export const DishSchema = z
       }
     }
     dish.steps.forEach((step, i) => {
+      const conditionals = [...step.matchAll(CONDITIONAL)];
+      if (conditionals.length !== (step.match(/\{\?/g) ?? []).length) {
+        ctx.addIssue({
+          code: 'custom',
+          path: ['steps', i],
+          message: 'a conditional must look like {?tag:text} or {?!tag:text}',
+        });
+      }
+      for (const match of conditionals) {
+        if (!ALL_TAGS.has(match[2] ?? '')) {
+          ctx.addIssue({
+            code: 'custom',
+            path: ['steps', i],
+            message: `unknown tag "${match[2]}" in a conditional`,
+          });
+        }
+      }
       for (const key of placeholdersIn(step)) {
         if (!STEP_PLACEHOLDERS.has(key)) {
           ctx.addIssue({

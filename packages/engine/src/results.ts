@@ -1,61 +1,70 @@
 import { CATEGORIES, type Category } from './categories';
 import { donenessFor } from './doneness';
 import type { DishEvaluation } from './score';
-import { howToCook, type SideCategory } from './sides';
+import { howToCook, type SideItem } from './sides';
 import { tagsFor } from './tags';
 import { fillTemplate, joinAnd, titleCase } from './text';
 import type { ChefAdd, DishResult, PotItem } from './types';
 
 /**
- * Build the card for one evaluated dish (PRD section 9.5).
- * `chefProtein` is a protein from the user's pantry that the chef cooks when the pot has none the
- * dish uses. Without it the chef falls back to the dish's own default protein.
+ * What the chef supplies, by category, where the pot gives a dish nothing: an item from the user's
+ * own pantry that the dish accepts. A category with no pick falls back to the dish's own default.
  */
-export function buildResult(evaluation: DishEvaluation, chefProtein?: PotItem): DishResult {
+export type ChefPicks = Partial<Record<Category, PotItem>>;
+
+/**
+ * `{?tag:text}` keeps `text` only when something in the dish has that tag, and `{?!tag:text}` only
+ * when nothing does. The text may hold simple placeholders such as `{s}`. It lets a step talk about
+ * eggs or shrimp only when the dish really has them, and say how to cook the potato the cook picked.
+ */
+const CONDITIONAL = /\{\?(!?)(\w+):((?:[^{}]|\{\w+\})*)\}/g;
+
+/**
+ * Build the card for one evaluated dish (PRD section 9.5).
+ * `chefPicks` are pantry items the chef uses where the pot has none the dish uses. Without them
+ * the chef falls back to the dish's own defaults.
+ */
+export function buildResult(evaluation: DishEvaluation, chefPicks: ChefPicks = {}): DishResult {
   const { dish, used, leftOut, score } = evaluation;
 
   const usedIn = (category: Category) => used.filter((item) => item.category === category);
 
-  const fallback = (category: Category): string =>
-    category === 'protein' && chefProtein
-      ? chefProtein.name.toLowerCase()
-      : dish.defaults[category];
+  const fallbackName = (category: Category): string =>
+    chefPicks[category]?.name.toLowerCase() ?? dish.defaults[category];
+
+  // What is cooked in a category: the pot's items, or the chef's pick or default when it has none.
+  const cookedIn = (category: Category): readonly SideItem[] => {
+    const picked = usedIn(category);
+    if (picked.length > 0) return picked;
+    const chef = chefPicks[category];
+    return [
+      chef
+        ? { name: chef.name, tags: chef.tags }
+        : { name: dish.defaults[category], tags: tagsFor(category, dish.defaults[category]) },
+    ];
+  };
 
   const names = (category: Category): string => {
     const picked = usedIn(category).map((item) => item.name.toLowerCase());
-    return picked.length > 0 ? joinAnd(picked) : fallback(category);
+    return picked.length > 0 ? joinAnd(picked) : fallbackName(category);
   };
 
   const firstName = (category: Category): string =>
-    titleCase(usedIn(category)[0]?.name ?? fallback(category));
+    titleCase(usedIn(category)[0]?.name ?? fallbackName(category));
 
-  // The proteins that are cooked: the pot's, or the chef's pick when the pot has none.
-  const cooked = usedIn('protein');
-  const doneness = donenessFor(
-    cooked.length > 0
-      ? cooked
-      : [
-          {
-            name: fallback('protein'),
-            tags: chefProtein?.tags ?? tagsFor('protein', fallback('protein')),
-          },
-        ],
+  const doneness = donenessFor(cookedIn('protein'));
+
+  const present = new Set(
+    CATEGORIES.flatMap((category) => cookedIn(category).flatMap((i) => i.tags)),
   );
-
-  // The sides a plated dish cooks: the pot's, or the chef's default when the pot has none.
-  const sides = (category: SideCategory) => {
-    const picked = usedIn(category);
-    return howToCook(
-      category,
-      picked.length > 0
-        ? picked
-        : [{ name: dish.defaults[category], tags: tagsFor(category, dish.defaults[category]) }],
+  const withConditionals = (step: string): string =>
+    step.replace(CONDITIONAL, (_match, negate: string, tag: string, text: string) =>
+      present.has(tag) !== (negate === '!') ? text : '',
     );
-  };
 
   const stepValues = {
-    veg_how: sides('veg'),
-    starch_how: sides('starch'),
+    veg_how: howToCook('veg', cookedIn('veg')),
+    starch_how: howToCook('starch', cookedIn('starch')),
     doneness,
     p: names('protein'),
     v: names('veg'),
@@ -66,7 +75,7 @@ export function buildResult(evaluation: DishEvaluation, chefProtein?: PotItem): 
 
   const chefAdds: ChefAdd[] = CATEGORIES.filter(
     (category) => dish.defaults[category] && usedIn(category).length === 0,
-  ).map((category) => ({ category, name: fallback(category) }));
+  ).map((category) => ({ category, name: fallbackName(category) }));
 
   return {
     dish,
@@ -75,6 +84,6 @@ export function buildResult(evaluation: DishEvaluation, chefProtein?: PotItem): 
     leftOut,
     chefAdds,
     title: fillTemplate(dish.title, { p: firstName('protein'), v: firstName('veg') }),
-    steps: dish.steps.map((step) => fillTemplate(step, stepValues)),
+    steps: dish.steps.map((step) => fillTemplate(withConditionals(step), stepValues)),
   };
 }

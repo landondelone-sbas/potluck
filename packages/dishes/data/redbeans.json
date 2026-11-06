@@ -13,8 +13,14 @@
     "starch": ["rice"]
   },
   "signature": [
-    { "category": "protein", "tag": "beans" },
-    { "category": "veg", "tag": "celery" }
+    {
+      "category": "protein",
+      "tag": "beans"
+    },
+    {
+      "category": "veg",
+      "tag": "celery"
+    }
   ],
   "defaults": {
     "protein": "red beans",
@@ -46,8 +52,8 @@
     }
   },
   "steps": [
-    "Soften the {v} with the {spice} in a heavy pot with a little oil.",
-    "Add the {p}, brown any sausage or pork first, the {sauce} and enough water or stock to cover. Dried red kidney beans need soaking, then a hard boil of at least 10 minutes, first; canned beans only need draining.",
+    "Soften the {v} with the {spice} in a heavy pot with a little oil.{?sausage: Brown the sausage in the pot first.}{?pork: Brown the pork in the pot first.}",
+    "Add the {p}, the {sauce} and enough water or stock to cover.{?beans: Dried red kidney beans need soaking, then a hard boil of at least 10 minutes, first; canned beans only need draining.}",
     "Simmer 30 to 45 minutes, mashing some beans against the pot to thicken, until any meat is at least 165°F / 74°C inside.",
     "Serve over the {s}."
   ],
