@@ -1,6 +1,7 @@
 {
   "id": "basilstirfry",
   "cuisine": "thai",
+  "format": "pot",
   "title": "Spicy Basil {p}",
   "minutes": 20,
   "feel": "Quick",

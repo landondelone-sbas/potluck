@@ -1,6 +1,7 @@
 {
   "id": "stirfry",
   "cuisine": "asian",
+  "format": "pot",
   "title": "{p} & {v} Stir-Fry",
   "minutes": 20,
   "feel": "Quick",

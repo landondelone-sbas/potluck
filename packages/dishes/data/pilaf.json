@@ -1,6 +1,7 @@
 {
   "id": "pilaf",
   "cuisine": "indian",
+  "format": "pot",
   "title": "Spiced {p} & {v} Pilaf",
   "minutes": 40,
   "feel": "Hearty",

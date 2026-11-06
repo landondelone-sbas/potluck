@@ -1,6 +1,7 @@
 {
   "id": "spicynoodles",
   "cuisine": "korean",
+  "format": "pot",
   "title": "Spicy {p} & {v} Noodles",
   "minutes": 20,
   "feel": "Quick",

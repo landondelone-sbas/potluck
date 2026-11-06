@@ -162,6 +162,7 @@ export const strings = {
     explainChef: (name: string) => `${name}: the chef adds this.`,
     explainLeftOut: (name: string) => `${name}: left out of this dish.`,
     minutes: (n: number) => `${n} min`,
+    format: { pot: 'One pot', plate: 'Protein + 2 sides' },
   },
 
   nav: {

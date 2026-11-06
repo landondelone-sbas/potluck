@@ -1,6 +1,7 @@
 {
   "id": "loadedpotato",
   "cuisine": "comfort",
+  "format": "pot",
   "title": "Loaded Potato with {p} & {v}",
   "minutes": 60,
   "feel": "Hands-off",

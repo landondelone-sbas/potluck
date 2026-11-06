@@ -1,6 +1,7 @@
 import { CATEGORIES, type Category } from './categories';
 import { donenessFor } from './doneness';
 import type { DishEvaluation } from './score';
+import { howToCook, type SideCategory } from './sides';
 import { tagsFor } from './tags';
 import { fillTemplate, joinAnd, titleCase } from './text';
 import type { ChefAdd, DishResult, PotItem } from './types';
@@ -41,7 +42,20 @@ export function buildResult(evaluation: DishEvaluation, chefProtein?: PotItem): 
         ],
   );
 
+  // The sides a plated dish cooks: the pot's, or the chef's default when the pot has none.
+  const sides = (category: SideCategory) => {
+    const picked = usedIn(category);
+    return howToCook(
+      category,
+      picked.length > 0
+        ? picked
+        : [{ name: dish.defaults[category], tags: tagsFor(category, dish.defaults[category]) }],
+    );
+  };
+
   const stepValues = {
+    veg_how: sides('veg'),
+    starch_how: sides('starch'),
     doneness,
     p: names('protein'),
     v: names('veg'),

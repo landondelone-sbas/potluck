@@ -1,6 +1,7 @@
 {
   "id": "greeksalad",
   "cuisine": "med",
+  "format": "pot",
   "title": "Greek Salad with {p}",
   "minutes": 15,
   "feel": "Light",

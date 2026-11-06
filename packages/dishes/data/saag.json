@@ -1,6 +1,7 @@
 {
   "id": "saag",
   "cuisine": "indian",
+  "format": "pot",
   "title": "Creamy Saag with {p}",
   "minutes": 35,
   "feel": "Rich",

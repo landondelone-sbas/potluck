@@ -1,6 +1,7 @@
 {
   "id": "cacciatore",
   "cuisine": "italian",
+  "format": "pot",
   "title": "{p} & {v} Cacciatore",
   "minutes": 45,
   "feel": "Hearty",

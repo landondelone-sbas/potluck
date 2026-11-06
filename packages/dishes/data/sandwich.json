@@ -1,6 +1,7 @@
 {
   "id": "sandwich",
   "cuisine": "comfort",
+  "format": "pot",
   "title": "{p} Sandwich",
   "minutes": 15,
   "feel": "Quick",

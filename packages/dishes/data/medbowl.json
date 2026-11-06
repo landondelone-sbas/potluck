@@ -1,6 +1,7 @@
 {
   "id": "medbowl",
   "cuisine": "med",
+  "format": "pot",
   "title": "{p} Grain Bowl",
   "minutes": 20,
   "feel": "Light",

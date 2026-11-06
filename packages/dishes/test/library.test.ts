@@ -41,7 +41,7 @@ describe('dish library (PRD section 11)', () => {
 
   test.each(dishes.map((d) => [d.id, d] as const))('%s is complete', (_id, dish) => {
     expect(dish.steps.length).toBeGreaterThanOrEqual(3);
-    expect(dish.steps.length).toBeLessThanOrEqual(5);
+    expect(dish.steps.length).toBeLessThanOrEqual(dish.format === 'plate' ? 7 : 5);
     expect(dish.tip.length).toBeGreaterThan(0);
     for (const category of CATEGORIES) {
       expect(dish.defaults[category].length).toBeGreaterThan(0);

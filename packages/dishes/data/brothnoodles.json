@@ -1,6 +1,7 @@
 {
   "id": "brothnoodles",
   "cuisine": "asian",
+  "format": "pot",
   "title": "{p} & {v} Broth Noodles",
   "minutes": 25,
   "feel": "Cozy",

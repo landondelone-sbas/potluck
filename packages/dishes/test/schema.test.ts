@@ -15,6 +15,21 @@ describe('DishSchema', () => {
     expect(issues(valid())).toEqual([]);
   });
 
+  test('a one-pot dish may have at most five steps, a plated dish seven', () => {
+    const steps = ['One.', 'Two.', 'Three.', 'Four.', 'Five.', 'Six.', 'Seven.'];
+    expect(issues({ ...valid(), format: 'pot', steps })).toEqual([
+      'steps: a one-pot dish has at most 5 steps (a plated dish may have 7)',
+    ]);
+    expect(issues({ ...valid(), format: 'plate', steps })).toEqual([]);
+    expect(issues({ ...valid(), format: 'plate', steps: [...steps, 'Eight.'] })).not.toEqual([]);
+  });
+
+  test('rejects a missing or unknown format', () => {
+    const { format: _format, ...missing } = valid();
+    expect(issues(missing)).not.toEqual([]);
+    expect(issues({ ...valid(), format: 'tray' })).not.toEqual([]);
+  });
+
   test('rejects a tag the engine cannot produce', () => {
     const dish = valid();
     const bad = { ...dish, wants: { ...dish.wants, protein: ['chickn'] } };

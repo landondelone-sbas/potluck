@@ -1,6 +1,7 @@
 {
   "id": "scramble",
   "cuisine": "comfort",
+  "format": "pot",
   "title": "{v} & Egg Scramble",
   "minutes": 10,
   "feel": "Quick",

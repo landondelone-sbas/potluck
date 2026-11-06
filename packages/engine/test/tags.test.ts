@@ -90,3 +90,37 @@ describe('tags for Thai, Korean and Caribbean cooking (docs/decisions/0010)', ()
     expect(tagsFor(category, name)).toEqual(expected);
   });
 });
+
+describe('tags for the ingredients in the recipe sheets', () => {
+  test.each([
+    ['protein', 'Beef chuck roast', ['beef']],
+    ['protein', 'Prime rib', ['beef']],
+    ['protein', 'Beef short ribs', ['beef']],
+    ['protein', 'Flat iron steak', ['beef', 'steak']],
+    ['protein', 'Tomahawk', ['beef', 'steak']],
+    ['protein', 'Carne asada', ['beef']],
+    ['protein', 'Baby back ribs', ['pork']],
+    ['protein', 'St. Louis style ribs', ['pork']],
+    ['protein', 'Lamb ribs', ['lamb']],
+    ['protein', 'Pepperoni', ['sausage']],
+    ['protein', 'Andouille', ['sausage']],
+    ['protein', 'Salt cod (bacalao)', ['fish']],
+    ['protein', 'Red snapper', ['fish']],
+    ['veg', 'Parsnips', ['carrot']],
+    ['veg', 'Okra', ['okra']],
+    ['veg', 'Eggplant', ['eggplant']],
+    ['spice', 'Fresh cilantro', ['herbs']],
+    ['spice', 'Tarragon', ['herbs']],
+    ['sauce', 'Oyster sauce', ['soy']],
+    ['sauce', 'Doubanjiang', ['hot']],
+    ['sauce', 'Garlic butter', ['cream']],
+    ['sauce', 'Peanut butter sauce', ['peanut']],
+    ['starch', 'Linguini', ['pasta']],
+    ['starch', 'Gnocchi', ['pasta']],
+    ['starch', 'Naan flatbread', ['bread']],
+    ['starch', 'Cheese grits', ['grits']],
+    ['starch', 'Plantains', ['plantain']],
+  ] as const)('%s "%s" gets %j', (category, name, expected) => {
+    expect(tagsFor(category, name)).toEqual(expected);
+  });
+});

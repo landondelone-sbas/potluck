@@ -1,6 +1,7 @@
 {
   "id": "steakpotato",
   "cuisine": "comfort",
+  "format": "pot",
   "title": "{p} & Potato Skillet",
   "minutes": 30,
   "feel": "Hearty",

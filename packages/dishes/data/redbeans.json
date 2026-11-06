@@ -1,6 +1,7 @@
 {
   "id": "redbeans",
   "cuisine": "cajun",
+  "format": "pot",
   "title": "Cajun {p} & {v} with Rice",
   "minutes": 45,
   "feel": "Slow",

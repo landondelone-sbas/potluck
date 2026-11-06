@@ -1,6 +1,7 @@
 {
   "id": "caribbeancurry",
   "cuisine": "caribbean",
+  "format": "pot",
   "title": "{p} & {v} Island Curry",
   "minutes": 45,
   "feel": "Hearty",

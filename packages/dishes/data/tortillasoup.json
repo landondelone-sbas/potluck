@@ -1,6 +1,7 @@
 {
   "id": "tortillasoup",
   "cuisine": "mexican",
+  "format": "pot",
   "title": "{p} Tortilla Soup",
   "minutes": 35,
   "feel": "Cozy",

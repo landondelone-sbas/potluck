@@ -60,7 +60,7 @@ describe('wildcardName (PRD section 9.5)', () => {
   });
 
   test('a starch with no style gives Bowl', () => {
-    expect(wildcardName([item('protein', 'Beef'), item('starch', 'Plantain')])).toBe('Beef Bowl');
+    expect(wildcardName([item('protein', 'Beef'), item('starch', 'Cassava')])).toBe('Beef Bowl');
   });
 
   test('with neither protein nor veg it is a pantry dish', () => {

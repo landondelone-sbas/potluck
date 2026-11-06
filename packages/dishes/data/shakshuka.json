@@ -1,6 +1,7 @@
 {
   "id": "shakshuka",
   "cuisine": "med",
+  "format": "pot",
   "title": "{v} Shakshuka",
   "minutes": 25,
   "feel": "Easy",

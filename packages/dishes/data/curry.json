@@ -1,6 +1,7 @@
 {
   "id": "curry",
   "cuisine": "indian",
+  "format": "pot",
   "title": "{p} & {v} Curry",
   "minutes": 35,
   "feel": "Hearty",

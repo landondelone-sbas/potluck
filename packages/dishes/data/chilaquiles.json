@@ -1,6 +1,7 @@
 {
   "id": "chilaquiles",
   "cuisine": "mexican",
+  "format": "pot",
   "title": "Chilaquiles with {p}",
   "minutes": 20,
   "feel": "Quick",

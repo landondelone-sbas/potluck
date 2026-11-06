@@ -1,6 +1,7 @@
 {
   "id": "dal",
   "cuisine": "indian",
+  "format": "pot",
   "title": "Spiced {p} & {v} Dal",
   "minutes": 30,
   "feel": "Hearty",
