@@ -52,6 +52,12 @@ export function PantryTile({
 
   const pan = usePanGesture({
     enabled: !editing,
+    // Web only: the tile owns vertical touches (the drag) and the browser keeps sideways swipes, so
+    // the row scrolls. It must live in this config: Gesture Handler resets the DOM touch-action to
+    // "none" whenever the config is re-applied, which drops the detector prop after a re-render.
+    // The option is read at runtime but is missing from the PanGestureConfig type.
+    // @ts-expect-error see above
+    touchAction: 'pan-x',
     // A mostly vertical drag lifts the tile. A sideways one fails this gesture, and the row scrolls.
     activeOffsetY: [-DRAG_SLOP, DRAG_SLOP],
     failOffsetX: [-SCROLL_SLOP, SCROLL_SLOP],
