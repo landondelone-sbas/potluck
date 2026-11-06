@@ -1,6 +1,7 @@
 {
   "id": "enchilada",
   "cuisine": "mexican",
+  "format": "pot",
   "title": "{p} Enchilada Bake",
   "minutes": 40,
   "feel": "Hearty",

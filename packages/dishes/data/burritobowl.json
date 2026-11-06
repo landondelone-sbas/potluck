@@ -1,6 +1,7 @@
 {
   "id": "burritobowl",
   "cuisine": "mexican",
+  "format": "pot",
   "title": "{p} Burrito Bowl",
   "minutes": 25,
   "feel": "Hearty",

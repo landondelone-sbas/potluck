@@ -1,6 +1,7 @@
 {
   "id": "glazebowl",
   "cuisine": "asian",
+  "format": "pot",
   "title": "Glazed {p} & {v} Bowl",
   "minutes": 25,
   "feel": "Balanced",

@@ -1,6 +1,7 @@
 {
   "id": "jerk",
   "cuisine": "caribbean",
+  "format": "pot",
   "title": "Jerk {p} with {v}",
   "minutes": 40,
   "feel": "Bold",

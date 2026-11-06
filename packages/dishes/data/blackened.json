@@ -1,6 +1,7 @@
 {
   "id": "blackened",
   "cuisine": "cajun",
+  "format": "pot",
   "title": "Blackened {p} with {v}",
   "minutes": 25,
   "feel": "Quick",

@@ -14,6 +14,7 @@ export { cook, isCloseEnough, CLOSE_PERCENT, MAX_RESULTS } from './cook';
 export { plateNudge, type PlateNudge } from './nudge';
 export { buildResult } from './results';
 export { donenessFor, type DonenessItem } from './doneness';
+export { howToCook, type SideCategory, type SideItem } from './sides';
 export {
   evaluateDish,
   scoreItem,
@@ -25,6 +26,6 @@ export {
 export { tagsFor, TAG_VOCABULARY } from './tags';
 export { TAG_RULES } from './tag-rules';
 export { fillTemplate, joinAnd, titleCase } from './text';
-export type { ChefAdd, CookResult, Dish, DishResult, PotItem } from './types';
+export type { ChefAdd, CookResult, Dish, DishFormat, DishResult, PotItem } from './types';
 export { VIBE } from './vibe';
 export { wildcardName } from './wildcard';

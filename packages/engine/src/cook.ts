@@ -14,6 +14,20 @@ function rank(a: DishEvaluation, b: DishEvaluation): number {
   return b.score - a.score || b.used.length - a.used.length || a.index - b.index;
 }
 
+/**
+ * When every pick is the same format but a close dish of the other format exists, the last pick
+ * gives way to the best of that other format, so the user sees a choice between a one-pot dish and a
+ * plated meal. The order of the picks stays by rank.
+ */
+function mixFormats(picks: DishEvaluation[], close: readonly DishEvaluation[]): DishEvaluation[] {
+  const first = picks[0];
+  if (!first || picks.length < 2) return picks;
+  if (picks.some((p) => p.dish.format !== first.dish.format)) return picks;
+  const other = close.find((r) => r.dish.format !== first.dish.format);
+  if (!other) return picks;
+  return [...picks.slice(0, -1), other].sort(rank);
+}
+
 /** True when `score` is at least CLOSE_PERCENT of `topScore`. Integer math: no float edge cases. */
 export function isCloseEnough(score: number, topScore: number): boolean {
   return score * 100 >= topScore * CLOSE_PERCENT;
@@ -57,9 +71,10 @@ export function cook(
   const top = ranked[0];
   if (!top) return null;
 
-  const candidates = ranked
-    .filter((r) => isCloseEnough(r.score, top.score) && r.used.length >= top.used.length - 1)
-    .slice(0, MAX_RESULTS);
+  const close = ranked.filter(
+    (r) => isCloseEnough(r.score, top.score) && r.used.length >= top.used.length - 1,
+  );
+  const candidates = mixFormats(close.slice(0, MAX_RESULTS), close);
 
   return {
     potSize: pot.length,

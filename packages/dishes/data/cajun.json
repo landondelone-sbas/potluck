@@ -1,6 +1,7 @@
 {
   "id": "cajun",
   "cuisine": "cajun",
+  "format": "pot",
   "title": "{p} & {v} Cajun Skillet",
   "minutes": 30,
   "feel": "Hearty",

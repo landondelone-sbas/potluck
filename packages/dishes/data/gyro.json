@@ -1,6 +1,7 @@
 {
   "id": "gyro",
   "cuisine": "med",
+  "format": "pot",
   "title": "{p} Pita Wrap",
   "minutes": 20,
   "feel": "Quick",

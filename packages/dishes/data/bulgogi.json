@@ -1,6 +1,7 @@
 {
   "id": "bulgogi",
   "cuisine": "korean",
+  "format": "pot",
   "title": "{p} Bulgogi Bowl",
   "minutes": 30,
   "feel": "Quick",

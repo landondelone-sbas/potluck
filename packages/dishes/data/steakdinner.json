@@ -1,6 +1,7 @@
 {
   "id": "steakdinner",
   "cuisine": "comfort",
+  "format": "pot",
   "title": "Seared {p} with {v}",
   "minutes": 25,
   "feel": "Quick",

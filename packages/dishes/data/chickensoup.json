@@ -1,6 +1,7 @@
 {
   "id": "chickensoup",
   "cuisine": "comfort",
+  "format": "pot",
   "title": "{p} & {v} Noodle Soup",
   "minutes": 40,
   "feel": "Cozy",

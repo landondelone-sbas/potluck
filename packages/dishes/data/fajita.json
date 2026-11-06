@@ -1,6 +1,7 @@
 {
   "id": "fajita",
   "cuisine": "mexican",
+  "format": "pot",
   "title": "{p} Fajita Skillet",
   "minutes": 25,
   "feel": "Quick",

@@ -19,6 +19,7 @@ export function makeDish(overrides: Partial<Dish> = {}): Dish {
   return {
     id: 'fixture',
     cuisine: 'asian',
+    format: 'pot',
     title: '{p} & {v} Fixture',
     minutes: 20,
     feel: 'Quick',

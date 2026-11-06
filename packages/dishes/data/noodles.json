@@ -1,6 +1,7 @@
 {
   "id": "noodles",
   "cuisine": "asian",
+  "format": "pot",
   "title": "{p} & {v} Noodle Bowl",
   "minutes": 20,
   "feel": "Quick",

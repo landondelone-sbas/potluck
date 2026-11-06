@@ -174,7 +174,7 @@ const EXTRAS: Record<Category, string[]> = {
   ],
   sauce: ['Grandma special', 'Buffalo sauce', 'Honey mustard', 'Tahini', 'Hoisin', 'Gochujang'],
   starch: [
-    'Plantain',
+    'Cassava',
     'Wild rice',
     'Sweet potato fries',
     'Orzo',

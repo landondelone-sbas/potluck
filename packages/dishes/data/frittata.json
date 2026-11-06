@@ -1,6 +1,7 @@
 {
   "id": "frittata",
   "cuisine": "italian",
+  "format": "pot",
   "title": "{v} Frittata",
   "minutes": 25,
   "feel": "Easy",

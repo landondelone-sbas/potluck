@@ -1,6 +1,7 @@
 {
   "id": "riceandbeans",
   "cuisine": "caribbean",
+  "format": "pot",
   "title": "Coconut Rice & Beans with {v}",
   "minutes": 40,
   "feel": "Hearty",

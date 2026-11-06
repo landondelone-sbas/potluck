@@ -1,6 +1,7 @@
 {
   "id": "bibimbap",
   "cuisine": "korean",
+  "format": "pot",
   "title": "Bibimbap with {p}",
   "minutes": 35,
   "feel": "Balanced",

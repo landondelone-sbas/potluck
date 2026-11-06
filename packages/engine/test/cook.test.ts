@@ -176,3 +176,47 @@ describe('cook with a pantry', () => {
     );
   });
 });
+
+describe('cook mixes one-pot and plated dishes', () => {
+  const chicken = [item('protein', 'Chicken thighs')];
+  const pot = (id: string) => chickenOnly(id);
+  const plate = (id: string, overrides: Partial<Dish> = {}) =>
+    chickenOnly(id, { format: 'plate', ...overrides });
+
+  // Takes beef only, so a chicken pot scores it far below the chicken dishes.
+  const weakPlate = makeDish({
+    id: 'p',
+    format: 'plate',
+    wants: { ...makeDish().wants, protein: ['beef'] },
+  });
+
+  test('three one-pot dishes and a close plated dish: the plate takes the last place', () => {
+    const library = [pot('a'), pot('b'), pot('c'), plate('p')];
+    const result = must(cook(chicken, library));
+    expect(result.results.map((r) => r.dish.id)).toEqual(['a', 'b', 'p']);
+  });
+
+  test('the mix keeps the picks in rank order', () => {
+    const library = [pot('a'), plate('p'), pot('b'), pot('c')];
+    const result = must(cook(chicken, library));
+    expect(result.results.map((r) => r.dish.id)).toEqual(['a', 'p', 'b']);
+  });
+
+  test('already mixed picks are left alone', () => {
+    const library = [pot('a'), plate('p'), pot('b'), plate('q')];
+    const result = must(cook(chicken, library));
+    expect(result.results.map((r) => r.dish.id)).toEqual(['a', 'p', 'b']);
+  });
+
+  test('a plate that is not close enough is never forced in', () => {
+    const weak = weakPlate;
+    const library = [pot('a'), pot('b'), pot('c'), weak];
+    const result = must(cook(chicken, library));
+    expect(result.results.map((r) => r.dish.id)).toEqual(['a', 'b', 'c']);
+  });
+
+  test('one pick is never swapped', () => {
+    const library = [pot('a'), weakPlate];
+    expect(must(cook(chicken, library)).results.map((r) => r.dish.id)).toEqual(['a']);
+  });
+});

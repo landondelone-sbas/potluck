@@ -1,6 +1,7 @@
 {
   "id": "tacos",
   "cuisine": "mexican",
+  "format": "pot",
   "title": "{p} Tacos",
   "minutes": 20,
   "feel": "Quick",

@@ -1,6 +1,7 @@
 {
   "id": "eggcurry",
   "cuisine": "indian",
+  "format": "pot",
   "title": "Egg Curry with {v}",
   "minutes": 25,
   "feel": "Quick",

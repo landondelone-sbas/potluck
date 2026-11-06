@@ -1,6 +1,7 @@
 {
   "id": "jambalaya",
   "cuisine": "cajun",
+  "format": "pot",
   "title": "{p} & {v} Jambalaya",
   "minutes": 45,
   "feel": "Hearty",

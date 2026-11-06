@@ -1,6 +1,7 @@
 {
   "id": "kungpao",
   "cuisine": "asian",
+  "format": "pot",
   "title": "Kung Pao {p}",
   "minutes": 25,
   "feel": "Quick",

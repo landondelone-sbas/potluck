@@ -1,6 +1,7 @@
 {
   "id": "hash",
   "cuisine": "comfort",
+  "format": "pot",
   "title": "{p} & {v} Skillet Hash",
   "minutes": 25,
   "feel": "Hearty",

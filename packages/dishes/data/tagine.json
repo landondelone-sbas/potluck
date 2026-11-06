@@ -1,6 +1,7 @@
 {
   "id": "tagine",
   "cuisine": "med",
+  "format": "pot",
   "title": "{p} & {v} Tagine",
   "minutes": 50,
   "feel": "Slow",
