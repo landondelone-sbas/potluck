@@ -72,6 +72,8 @@ export const SUGGESTIONS: Readonly<Record<Category, readonly string[]>> = {
     'Penne',
     'Corn tortillas',
     'Baby potatoes',
+    'Russet potatoes',
+    'Red potatoes',
     'Sweet potato',
     'Quinoa',
     'Rice noodles',

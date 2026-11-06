@@ -13,8 +13,14 @@
     "starch": ["rice"]
   },
   "signature": [
-    { "category": "spice", "tag": "cajun" },
-    { "category": "starch", "tag": "rice" }
+    {
+      "category": "spice",
+      "tag": "cajun"
+    },
+    {
+      "category": "starch",
+      "tag": "rice"
+    }
   ],
   "defaults": {
     "protein": "andouille sausage",
@@ -46,10 +52,10 @@
     }
   },
   "steps": [
-    "Brown the {p}, leaving out any shrimp, in a heavy pot, then set aside on a clean plate.",
+    "Brown the {p}{?shrimp:, leaving out the shrimp,} in a heavy pot, then set aside on a clean plate.",
     "Soften the {v} with the {spice}, then stir in the {s} to coat.",
     "Add the {sauce} and enough stock or water to cover the rice by a knuckle, return the meat, cover and simmer on low until the rice is tender, about 20 minutes.",
-    "Stir in any shrimp for the last 5 minutes, until pink and opaque, and check that the other meat is at least 165°F / 74°C inside."
+    "{?shrimp:Stir in the shrimp for the last 5 minutes, until pink and opaque, and check that the other meat is at least 165°F / 74°C inside.}{?!shrimp:Check that the meat is at least 165°F / 74°C inside.}"
   ],
   "tip": "Use less sausage and more peppers, onion and celery, and brown rice if you have the time."
 }

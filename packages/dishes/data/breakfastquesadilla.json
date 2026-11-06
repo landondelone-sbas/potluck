@@ -48,7 +48,7 @@
     }
   },
   "steps": [
-    "Cook the {p} in a skillet over medium heat, scrambling any eggs and crumbling any sausage or bacon, until {doneness}. Move to a plate.",
+    "Cook the {p} in a skillet over medium heat{?egg:, scrambling the eggs}{?sausage:, crumbling the sausage}, until {doneness}. Move to a plate.",
     "Cook the {v} in the same pan until soft.",
     "Lay out the {s} and fill half of each with cheese, the {p} and the {v}, then fold over.",
     "Cook in a lightly buttered skillet 2 to 3 minutes per side until golden and melted. Slice and serve with the {sauce}."

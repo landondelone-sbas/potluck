@@ -13,8 +13,14 @@
     "starch": ["potato", "sweetpotato"]
   },
   "signature": [
-    { "category": "starch", "tag": "potato" },
-    { "category": "sauce", "tag": "cream" }
+    {
+      "category": "starch",
+      "tag": "bakingpotato"
+    },
+    {
+      "category": "sauce",
+      "tag": "cream"
+    }
   ],
   "defaults": {
     "protein": "black beans",
@@ -46,10 +52,10 @@
     }
   },
   "steps": [
-    "Heat the oven to 425°F (220°C), scrub the {s}, prick with a fork and bake 45 to 60 minutes, until soft.",
-    "Meanwhile cook the {p} with the {spice} until {doneness}, scrambling any eggs until fully set, then keep on a clean plate.",
+    "Heat the oven to 425°F (220°C). {?bakingpotato:Scrub the {s}, prick with a fork and bake 45 to 60 minutes, until soft.}{?!bakingpotato:Halve the {s}, toss with oil and salt, and roast cut side down 25 to 35 minutes, until golden and tender.}",
+    "Meanwhile cook the {p} with the {spice} until {doneness}{?egg:, scrambling the eggs until fully set}, then keep on a clean plate.",
     "Sauté or steam the {v} until tender.",
-    "Split the {s}, fluff the insides and pile on the {p}, the {v} and the {sauce}."
+    "{?bakingpotato:Split the {s} and fluff the insides}{?!bakingpotato:Smash the {s} lightly with a fork} and pile on the {p}, the {v} and the {sauce}."
   ],
   "tip": "Beans and plenty of veg on top, and a spoonful of yogurt in place of sour cream, make it a balanced meal."
 }

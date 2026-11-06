@@ -32,7 +32,7 @@ If a dish centers on something that is not here (shellfish other than shrimp, le
 - **veg:** broccoli, pepper, tomato, onion, greens, mushroom, carrot, zucchini, cabbage, corn, cauliflower, asparagus, greenbeans, cucumber, avocado, okra, eggplant, celery
 - **spice:** chili, cumin, paprika, garlic, ginger, curry, herbs, pepper, cinnamon, cajun, smoky, lemon, jerk
 - **sauce:** soy, teriyaki, tomato, cream, bbq, salsa, pesto, hot, peanut, buffalo, gravy, vinaigrette, coconut, mustard, ranch, honey, hummus
-- **starch:** noodles, pasta, rice, sweetpotato, potato, bread, tortilla, quinoa, couscous, grits, plantain
+- **starch:** noodles, pasta, rice, sweetpotato, potato, bakingpotato, bread, tortilla, quinoa, couscous, grits, plantain
 
 Two protein tags are special. `steak` means a whole cut cooked to a doneness (ribeye, strip, sirloin), and a steak is always `beef` too. `ground` means ground or minced meat, which is cooked through. A dish that takes sliced steak or ground meat should list `beef` (or the animal) rather than `steak`.
 
@@ -45,5 +45,6 @@ A dish that is only a protein (a rib roast, say) is still a plate: list the side
 ## Rules of thumb
 
 - **Meat dishes need a doneness.** If the dish cooks meat, poultry, fish or eggs, say what you cook it to, or tell me it is cooked until done. I add the food-safety wording.
+- **Only mention what the dish has.** A step must not talk about eggs, shrimp or sausage unless the cook is using them. Write `{?egg:, scrambling the eggs}` and the text appears only when the dish has eggs. `{?!bakingpotato:Roast the {s} in chunks.}` appears only when it does not. I do this when I convert a recipe, so just write the recipe as it is and tell me where an ingredient is optional.
 - **Each category should not accept everything.** A dish that takes any protein and any starch is hard to tell apart from the others.
 - **Send 10 at a time.** Each batch is checked against all the existing dishes so a new one does not steal their results.

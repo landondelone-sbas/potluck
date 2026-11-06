@@ -13,8 +13,14 @@
     "starch": ["tortilla"]
   },
   "signature": [
-    { "category": "starch", "tag": "tortilla" },
-    { "category": "sauce", "tag": "gravy" }
+    {
+      "category": "starch",
+      "tag": "tortilla"
+    },
+    {
+      "category": "sauce",
+      "tag": "gravy"
+    }
   ],
   "defaults": {
     "protein": "chicken breast",
@@ -47,7 +53,7 @@
   },
   "steps": [
     "Soften the {v} with the {spice} in a pot with a little oil.",
-    "Add the {sauce} and enough water to cover, then the {p}, and simmer 20 minutes, until any meat is at least 165°F / 74°C inside. Add any shrimp for the last 3 minutes, until pink and opaque.",
+    "Add the {sauce} and enough water to cover, then the {p}, and simmer 20 minutes, until any meat is at least 165°F / 74°C inside.{?shrimp: Add the shrimp for the last 3 minutes, until pink and opaque.}",
     "Cut the {s} into strips and crisp them in a dry pan or a hot oven.",
     "Ladle the soup over the strips and top with avocado, lime or cilantro."
   ],

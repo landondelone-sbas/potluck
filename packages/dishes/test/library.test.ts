@@ -184,3 +184,35 @@ describe('food safety wording (PRD section 11)', () => {
     },
   );
 });
+
+describe('a step only mentions what the dish has', () => {
+  // A dish that takes eggs, shrimp or sausage among other proteins must not talk about them when
+  // the cook has none. Render each such dish with its own defaults and look for the word.
+  const WORDS: [tag: string, pattern: RegExp][] = [
+    ['egg', /\begg/i],
+    ['shrimp', /\bshrimp/i],
+    ['sausage', /\bsausage/i],
+  ];
+
+  const cases = dishes.flatMap((dish) =>
+    WORDS.filter(
+      ([tag]) =>
+        dish.wants.protein.includes(tag) &&
+        !tagsFor('protein', dish.defaults.protein).includes(tag),
+    ).map(([tag, pattern]) => [`${dish.id}: no ${tag}`, dish, pattern] as const),
+  );
+
+  test('there are dishes that take these only as an option', () => {
+    expect(cases.length).toBeGreaterThanOrEqual(8);
+  });
+
+  test.each(cases)('%s', (_name, dish, pattern) => {
+    const pot = CATEGORIES.map((category) => ({
+      category,
+      name: dish.defaults[category],
+      tags: tagsFor(category, dish.defaults[category]),
+    }));
+    const card = buildResult(evaluateDish(dish, pot, 0));
+    expect(card.steps.join(' ')).not.toMatch(pattern);
+  });
+});

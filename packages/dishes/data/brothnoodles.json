@@ -13,8 +13,14 @@
     "starch": ["noodles"]
   },
   "signature": [
-    { "category": "starch", "tag": "noodles" },
-    { "category": "sauce", "tag": "gravy" }
+    {
+      "category": "starch",
+      "tag": "noodles"
+    },
+    {
+      "category": "sauce",
+      "tag": "gravy"
+    }
   ],
   "defaults": {
     "protein": "chicken breast",
@@ -47,7 +53,7 @@
   },
   "steps": [
     "Simmer broth or water with the {spice} and the {sauce} for 10 minutes.",
-    "Add the {p} and simmer until {doneness}. Boil any eggs hard, 10 minutes, and peel.",
+    "Add the {p} and simmer until {doneness}.{?egg: Boil the eggs hard, 10 minutes, and peel.}",
     "Cook the {s} separately to the pack time, then drain.",
     "Add the {v} to the broth for the last 3 minutes, then ladle over the {s} in bowls."
   ],

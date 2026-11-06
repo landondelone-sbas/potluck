@@ -124,3 +124,18 @@ describe('tags for the ingredients in the recipe sheets', () => {
     expect(tagsFor(category, name)).toEqual(expected);
   });
 });
+
+describe('potato kinds', () => {
+  test.each([
+    ['Baby potatoes', ['potato']],
+    ['Red potatoes', ['potato']],
+    ['Yukon gold potatoes', ['potato']],
+    ['Russet potatoes', ['potato', 'bakingpotato']],
+    ['Baked potatoes', ['potato', 'bakingpotato']],
+    ['Idaho potatoes', ['potato', 'bakingpotato']],
+    ['Sweet potato', ['sweetpotato', 'potato']],
+    ['French fries', ['potato']],
+  ] as const)('starch "%s" gets %j', (name, expected) => {
+    expect(tagsFor('starch', name)).toEqual(expected);
+  });
+});

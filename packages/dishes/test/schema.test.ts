@@ -91,3 +91,31 @@ describe('parseDishes', () => {
     expect(() => parseDishes([valid(), valid()])).toThrow('Duplicate dish id');
   });
 });
+
+describe('conditional steps in a dish file', () => {
+  const withStep = (step: string) => {
+    const dish = valid();
+    return { ...dish, steps: [...dish.steps.slice(0, 2), step] };
+  };
+
+  test('accepts {?tag:text} and {?!tag:text}', () => {
+    expect(issues(withStep('Fry{?egg: the eggs} {?!egg:the {p}}.'))).toEqual([]);
+  });
+
+  test('rejects an unknown tag', () => {
+    expect(issues(withStep('Fry{?eggz: the eggs}.'))).toEqual([
+      'steps.2: unknown tag "eggz" in a conditional',
+    ]);
+  });
+
+  test('rejects a conditional that is not closed or has braces in it', () => {
+    expect(issues(withStep('Fry{?egg: the eggs.'))).not.toEqual([]);
+    expect(issues(withStep('Fry{?egg: the {{eggs}}}.'))).not.toEqual([]);
+  });
+
+  test('rejects an unknown placeholder inside a conditional', () => {
+    expect(issues(withStep('Fry{?egg: the {nope}}.'))).toEqual([
+      'steps.2: unknown placeholder {nope}',
+    ]);
+  });
+});

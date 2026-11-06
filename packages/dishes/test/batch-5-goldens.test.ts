@@ -286,3 +286,67 @@ describe('recipe pilot: food safety', () => {
     expect(doneness('shrimptacos', [['protein', 'Shrimp']])).toContain('pink and opaque');
   });
 });
+
+describe('potatoes: every kind is cooked the right way', () => {
+  const loaded = must(dishes.find((d) => d.id === 'loadedpotato'));
+  const steps = (starch: string) =>
+    buildResult(
+      evaluateDish(
+        loaded,
+        potOf([
+          ['protein', 'Black beans'],
+          ['starch', starch],
+        ]),
+        dishes.indexOf(loaded),
+      ),
+    ).steps.join(' ');
+
+  test('a baking potato is scrubbed, pricked and baked, then split', () => {
+    const text = steps('Russet potatoes');
+    expect(text).toContain('prick with a fork and bake 45 to 60 minutes');
+    expect(text).toContain('Split the russet potatoes and fluff the insides');
+  });
+
+  test('baby potatoes are halved and roasted, not baked whole', () => {
+    const text = steps('Baby potatoes');
+    expect(text).toContain('Halve the baby potatoes');
+    expect(text).not.toContain('prick');
+    expect(text).not.toContain('fluff');
+  });
+
+  test('a sweet potato is halved and roasted', () => {
+    expect(steps('Sweet potato')).toContain('Halve the sweet potato');
+  });
+
+  test('no egg is mentioned unless there are eggs', () => {
+    expect(steps('Baby potatoes')).not.toMatch(/egg/i);
+    const withEggs = buildResult(
+      evaluateDish(
+        loaded,
+        potOf([
+          ['protein', 'Eggs'],
+          ['starch', 'Baby potatoes'],
+        ]),
+        dishes.indexOf(loaded),
+      ),
+    ).steps.join(' ');
+    expect(withEggs).toContain('scrambling the eggs');
+  });
+
+  test('a potato alone is offered a potato dish, and each kind is offered at least three', () => {
+    for (const name of ['Baby potatoes', 'Russet potatoes', 'Red potatoes', 'Sweet potato']) {
+      const result = must(cook(potOf([['starch', name]]), dishes));
+      expect(result.results.length).toBeGreaterThanOrEqual(2);
+    }
+  });
+
+  test('the new potato dishes are offered for their own defaults', () => {
+    for (const id of ['potatosoup', 'spanishtortilla', 'potatosalad']) {
+      const dish = must(dishes.find((d) => d.id === id));
+      const pot = potOf(
+        (['protein', 'veg', 'spice', 'sauce', 'starch'] as const).map((c) => [c, dish.defaults[c]]),
+      );
+      expect(must(cook(pot, dishes)).results.map((r) => r.dish.id)).toContain(id);
+    }
+  });
+});
