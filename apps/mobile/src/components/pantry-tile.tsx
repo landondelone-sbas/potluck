@@ -90,7 +90,8 @@ export function PantryTile({
     : strings.a11y.addToPot(favorite.name);
 
   return (
-    <GestureDetector gesture={pan}>
+    // Web only: the tile owns vertical touches (the drag), so sideways swipes still scroll the row.
+    <GestureDetector gesture={pan} touchAction="pan-x">
       <View collapsable={false}>
         <Pressable
           accessibilityLabel={label}
