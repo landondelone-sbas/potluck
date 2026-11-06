@@ -36,6 +36,103 @@ const LEADS: {
     first: 'bakedsalmon',
   },
   {
+    name: 'burgers with tomato and buns',
+    pot: [
+      ['protein', 'Ground beef'],
+      ['veg', 'Cherry tomatoes'],
+      ['starch', 'Sourdough'],
+    ],
+    offered: 'burgers',
+  },
+  {
+    name: 'flat iron steak with green beans and potatoes',
+    pot: [
+      ['protein', 'Flank steak'],
+      ['veg', 'Green beans'],
+      ['starch', 'Baby potatoes'],
+      ['spice', 'Garlic'],
+    ],
+    offered: 'flatiron',
+  },
+  {
+    name: 'ribs with BBQ sauce and potatoes',
+    pot: [
+      ['protein', 'Pork ribs'],
+      ['sauce', 'BBQ sauce'],
+      ['starch', 'Baby potatoes'],
+    ],
+    first: 'ovenribs',
+  },
+  {
+    name: 'turkey chili',
+    pot: [
+      ['protein', 'Ground turkey'],
+      ['protein', 'Black beans'],
+      ['veg', 'Red onion'],
+      ['spice', 'Cumin'],
+      ['sauce', 'Marinara'],
+    ],
+    offered: 'turkeychili',
+  },
+  {
+    name: 'tofu with broccoli, ginger and rice',
+    pot: [
+      ['protein', 'Tofu'],
+      ['veg', 'Broccoli'],
+      ['starch', 'Jasmine rice'],
+      ['spice', 'Ginger'],
+    ],
+    offered: 'sesametofu',
+  },
+  {
+    name: 'sausage and naan with marinara',
+    pot: [
+      ['protein', 'Italian sausage'],
+      ['starch', 'Naan'],
+      ['sauce', 'Marinara'],
+    ],
+    offered: 'sausageflatbread',
+  },
+  {
+    name: 'eggs and sausage in flour tortillas',
+    pot: [
+      ['protein', 'Eggs'],
+      ['protein', 'Italian sausage'],
+      ['starch', 'Corn tortillas'],
+    ],
+    offered: 'breakfastquesadilla',
+  },
+  {
+    name: 'shrimp in coconut milk over rice',
+    pot: [
+      ['protein', 'Shrimp'],
+      ['sauce', 'Coconut milk'],
+      ['starch', 'Jasmine rice'],
+      ['spice', 'Curry powder'],
+    ],
+    offered: 'redcurryshrimp',
+  },
+  {
+    name: 'shrimp with asparagus and sourdough',
+    pot: [
+      ['protein', 'Shrimp'],
+      ['veg', 'Asparagus'],
+      ['starch', 'Sourdough'],
+      ['spice', 'Garlic'],
+    ],
+    offered: 'garlicshrimp',
+  },
+  {
+    name: 'chicken with lemon pepper, zucchini and couscous',
+    pot: [
+      ['protein', 'Chicken breast'],
+      ['veg', 'Zucchini'],
+      ['starch', 'Couscous'],
+      ['spice', 'Lemon pepper'],
+    ],
+    offered: 'lemonrosemary',
+  },
+  {
     name: 'tofu with mushrooms, ginger and chili sauce over rice',
     pot: [
       ['protein', 'Tofu'],
@@ -131,10 +228,15 @@ describe('recipe pilot: plated steps cook the sides the cook picked', () => {
     expect(plated.length).toBeGreaterThanOrEqual(4);
   });
 
-  test.each(plated.map((d) => [d.id, d] as const))('%s runs both sides', (_id, dish) => {
+  // A burger's vegetables are toppings, so it runs only the starch. The steak dinner (an older dish)
+  // cooks its vegetable in the pan and has no side placeholders at all.
+  const sidePlates = plated.filter((d) => d.steps.join(' ').includes('_how}'));
+  const toppingsOnly = new Set(['burgers']);
+
+  test.each(sidePlates.map((d) => [d.id, d] as const))('%s runs both sides', (id, dish) => {
     const text = dish.steps.join(' ');
-    expect(text).toContain('{veg_how}');
     expect(text).toContain('{starch_how}');
+    if (!toppingsOnly.has(id)) expect(text).toContain('{veg_how}');
   });
 
   test('the sides read differently for different picks', () => {

@@ -1,0 +1,58 @@
+{
+  "id": "carneasada",
+  "cuisine": "mexican",
+  "format": "plate",
+  "title": "Carne Asada {p} with {v}",
+  "minutes": 45,
+  "feel": "Bold",
+  "wants": {
+    "protein": ["steak"],
+    "veg": ["pepper", "onion", "corn", "avocado", "tomato", "greens"],
+    "spice": ["cumin", "chili", "garlic", "smoky"],
+    "sauce": ["salsa", "soy", "hot"],
+    "starch": ["tortilla", "rice", "potato"]
+  },
+  "signature": [
+    {
+      "category": "spice",
+      "tag": "cumin"
+    }
+  ],
+  "defaults": {
+    "protein": "skirt steak",
+    "veg": "bell peppers",
+    "spice": "cumin",
+    "sauce": "salsa",
+    "starch": "corn tortillas"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 6,
+      "unit": "n"
+    }
+  },
+  "steps": [
+    "Marinate the {p} in oil, a squeeze of lime, a splash of soy sauce, garlic and the {spice} for at least 30 minutes.",
+    "Start the sides during the marinade. {starch_how} {veg_how}",
+    "Cook the {p} over very high heat, 2 to 3 minutes per side, until charred. Check the thickest part with a thermometer. The USDA safe minimum for steak is 145°F / 63°C. A lower doneness is your choice and carries more risk.",
+    "Rest the {p} 5 minutes, then slice thinly against the grain.",
+    "Serve with the {v} and {s}, and the {sauce} on top."
+  ],
+  "tip": "Fill the tortillas with plenty of peppers and onions, and use a little less steak."
+}

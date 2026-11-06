@@ -1,0 +1,57 @@
+{
+  "id": "redcurryshrimp",
+  "cuisine": "thai",
+  "format": "pot",
+  "title": "Red Curry {p} with {v}",
+  "minutes": 30,
+  "feel": "Bold",
+  "wants": {
+    "protein": ["shrimp", "fish", "tofu"],
+    "veg": ["pepper", "greens", "zucchini", "mushroom", "carrot", "greenbeans"],
+    "spice": ["curry", "ginger", "garlic", "chili", "herbs"],
+    "sauce": ["coconut"],
+    "starch": ["rice", "noodles"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "shrimp"
+    }
+  ],
+  "defaults": {
+    "protein": "shrimp",
+    "veg": "bell peppers",
+    "spice": "red curry paste",
+    "sauce": "coconut milk",
+    "starch": "jasmine rice"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 400,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Cook the {s} following the package directions and keep it warm.",
+    "Fry the {spice} in a spoonful of oil for a minute, until fragrant, then whisk in the {sauce} and a cup of broth.",
+    "Add the {v} and simmer 4 to 5 minutes until tender.",
+    "Add the {p} and simmer gently until {doneness}. Serve over the {s}."
+  ],
+  "tip": "Light coconut milk and plenty of vegetables keep the curry lighter without losing flavor."
+}

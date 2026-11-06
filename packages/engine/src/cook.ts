@@ -15,17 +15,18 @@ function rank(a: DishEvaluation, b: DishEvaluation): number {
 }
 
 /**
- * When every pick is the same format but a close dish of the other format exists, the last pick
- * gives way to the best of that other format, so the user sees a choice between a one-pot dish and a
- * plated meal. The order of the picks stays by rank.
+ * When every pick is the same format and the very next dish down is a close one of the other
+ * format, the last pick gives way to it, so the user sees a choice between a one-pot dish and a
+ * plated meal. Only the next dish down counts: a plate further away does not push out a pick that
+ * clearly earned its place. The picks stay in rank order.
  */
 function mixFormats(picks: DishEvaluation[], close: readonly DishEvaluation[]): DishEvaluation[] {
   const first = picks[0];
   if (!first || picks.length < 2) return picks;
   if (picks.some((p) => p.dish.format !== first.dish.format)) return picks;
-  const other = close.find((r) => r.dish.format !== first.dish.format);
-  if (!other) return picks;
-  return [...picks.slice(0, -1), other].sort(rank);
+  const next = close[picks.length];
+  if (!next || next.dish.format === first.dish.format) return picks;
+  return [...picks.slice(0, -1), next].sort(rank);
 }
 
 /** True when `score` is at least CLOSE_PERCENT of `topScore`. Integer math: no float edge cases. */

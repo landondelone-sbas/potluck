@@ -215,6 +215,12 @@ describe('cook mixes one-pot and plated dishes', () => {
     expect(result.results.map((r) => r.dish.id)).toEqual(['a', 'b', 'c']);
   });
 
+  test('a plate further down the list does not push out a pick', () => {
+    const library = [pot('a'), pot('b'), pot('c'), pot('d'), plate('p')];
+    const result = must(cook(chicken, library));
+    expect(result.results.map((r) => r.dish.id)).toEqual(['a', 'b', 'c']);
+  });
+
   test('one pick is never swapped', () => {
     const library = [pot('a'), weakPlate];
     expect(must(cook(chicken, library)).results.map((r) => r.dish.id)).toEqual(['a']);

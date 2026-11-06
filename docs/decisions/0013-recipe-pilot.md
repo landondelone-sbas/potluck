@@ -1,6 +1,6 @@
 # 0013: Recipe pilot
 
-Status: built, not yet cooked or reviewed. The first 11 dishes from the Gemini recipe sheets, and the first plated dishes (ADR 0012). The library goes from 60 to 71.
+Status: built, not yet cooked or reviewed. Two batches of dishes from the Gemini recipe sheets (11, then 13), and the first plated dishes (ADR 0012). The library goes from 60 to 84.
 
 ## What was added
 
@@ -19,6 +19,26 @@ Status: built, not yet cooked or reviewed. The first 11 dishes from the Gemini r
 | `cheesybeefpotatoes` | one pot | One-skillet cheesy ground beef and potatoes |
 
 Four are plated and seven are one pot. The review sheet is [dish-review/pilot.md](../dish-review/pilot.md): it names the source of each, what changed, and the generated steps for the dish's own defaults and for one other pot.
+
+## Second batch (13 dishes)
+
+| Dish | Format | From the sheets |
+|---|---|---|
+| `lemonrosemary` | plated | Grilled lemon rosemary chicken breast |
+| `butterchicken` | plated | Cast-iron seared, butter-basted chicken breast |
+| `airfriedchicken` | plated | Air fryer crispy chicken |
+| `burgers` | plated | Frying pan hamburger patties |
+| `flatiron` | plated | Cast-iron flat iron steak with garlic butter |
+| `carneasada` | plated | Marinated skirt steak, carne asada style |
+| `ovenribs` | plated | Oven-baked St. Louis BBQ ribs |
+| `garlicshrimp` | plated | Garlic butter shrimp scampi |
+| `sesametofu` | plated | Crispy baked sesame ginger tofu bites |
+| `turkeychili` | one pot | White bean turkey chili |
+| `sausageflatbread` | one pot | Crispy naan flatbread with Italian sausage |
+| `breakfastquesadilla` | one pot | Breakfast quesadilla with sausage and eggs |
+| `redcurryshrimp` | one pot | Thai red curry shrimp |
+
+Nine are plated and four are one pot. The review sheet is [dish-review/pilot-2.md](../dish-review/pilot-2.md). The older `steakdinner` (a steak with two sides cooked in one pan) is now marked plated too. That makes 14 plated dishes in the library.
 
 ## How a recipe becomes a dish
 
@@ -41,6 +61,12 @@ The sheets hold whole recipes with amounts for four. A dish is the five slots. F
 **A plated dish shares one oven temperature.** The side methods roast at 425°F, so the plated dishes that bake do the same. The baked salmon moved from 375°F for 15 to 20 minutes to 425°F for 10 to 12.
 
 **New dishes got signatures only where the first run showed they were needed.** Baked salmon, the turkey tostadas and the cheesy beef skillet lost their own default pots to older dishes and were not offered. A protein signature (fish, turkey, ground meat) brought them back. Baked salmon's defaults then clashed with the PRD golden "Fresh and light", which must keep returning only Lemon-Herb Salmon. Its defaults now avoid lemon, quinoa and zucchini so the two dishes serve different pots. No existing golden changed.
+
+**The mix rule was narrowed.** In the second batch, a plated chicken dish was pushed into the sandwich's own default pot by the mix rule and the sandwich dropped out. The rule now only swaps in the next dish down, which also keeps every dish reachable from its own pot (see ADR 0012).
+
+**Steak sources are not followed on doneness.** Two steak recipes pull the meat at 130 to 140°F. The app keeps the USDA 145°F and says a lower doneness is the cook's choice and carries more risk, as for every steak dish.
+
+**Signatures were used sparingly again.** Five of the second batch needed one to appear in their own default pots (sausage, shrimp, tofu, lemon, bbq). Carne asada took a cumin signature, not a steak one, so the existing steak golden (steak, tortillas, salsa) did not change.
 
 **Older dishes sometimes lead.** A tofu and rice pot is led by bibimbap, and spaghetti with shrimp by the sausage pasta. The new dish is one of the results. That is the scoring working as designed.
 

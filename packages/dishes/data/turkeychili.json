@@ -1,0 +1,52 @@
+{
+  "id": "turkeychili",
+  "cuisine": "comfort",
+  "format": "pot",
+  "title": "{p} Chili with {v}",
+  "minutes": 55,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["turkey", "beans"],
+    "veg": ["onion", "pepper", "corn", "tomato", "greens", "celery", "carrot"],
+    "spice": ["cumin", "chili", "garlic", "herbs", "smoky"],
+    "sauce": ["salsa", "tomato", "gravy"],
+    "starch": ["bread", "rice", "potato", "tortilla"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "ground turkey",
+    "veg": "onions",
+    "spice": "cumin",
+    "sauce": "salsa verde",
+    "starch": "cornbread"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 240,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    }
+  },
+  "steps": [
+    "Cook the {v} in oil in a large pot until soft, about 5 minutes, then add the {spice}.",
+    "Add the {p} and cook, breaking up any meat, until browned and {doneness}.",
+    "Add the {sauce} and 2 cups of broth. Simmer, uncovered, about 20 minutes, stirring now and then.",
+    "Serve in bowls with the {s}."
+  ],
+  "tip": "Lean turkey and beans make this chili light and filling. Add extra vegetables to stretch it."
+}
