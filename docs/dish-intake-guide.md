@@ -11,6 +11,7 @@ One row is one dish. A dish is built from **five slots**: protein, veg, spice, s
 | `id` | A short lowercase word, no spaces (for example `fishtacos`). Unique. |
 | `title` | The dish name. `{p}` becomes the first protein the user picked and `{v}` the first vegetable, for example `{p} Tacos with {v}`. |
 | `cuisine` | One of: asian, mexican, italian, indian, med, comfort, cajun, thai, korean, caribbean. |
+| `format` | `pot` if everything cooks together (a stir-fry, a stew, a bowl). `plate` for a protein with two sides, each cooked on its own. |
 | `minutes` | Total time, whole number. |
 | `feel` | One word: Quick, Hearty, Light, Cozy, Bold, Creamy, Rich, Easy, Balanced, Slow or Hands-off. |
 | `cooked_by_you` | yes, no, or sometimes. A dish you have cooked counts for more. |
@@ -18,22 +19,28 @@ One row is one dish. A dish is built from **five slots**: protein, veg, spice, s
 | `signature` | The one or two ingredients that define the dish, written `category:tag` and separated by semicolons (for example `protein:fish;spice:lemon`). |
 | `default_*` | What the chef adds when the pot has nothing for that slot, in plain words (for example `salmon`, `jasmine rice`). |
 | `amount_*` | For two servings. Weights in grams or ounces (`340 g` or `12 oz`), liquids in ml or cups or spoons, or a plain count for whole items (`4` eggs). I will convert. |
-| `step_1` … `step_5` | 3 to 5 steps. You can write them any way you like. I will rewrite them in my own words and check temperatures. |
+| `step_1` … `step_7` | 3 to 5 steps for a pot dish, up to 7 for a plate. You can write them any way you like. I will rewrite them in my own words and check temperatures. For a plate, write the protein's method and name the sides. I add a plain way to cook whichever vegetable and starch the cook picks. |
 | `tip` | One lighter swap or balance tip. |
 | `source` | Where the recipe came from, or "my own". |
 | `notes` | Anything else: a story, a variation, a doubt. |
 
 ## Tags the engine knows
 
-If a dish centers on something that is not here (eggplant, beets, cheese as a main), put it in `notes`. It needs a new tag first, and I will add it with your batch.
+If a dish centers on something that is not here (shellfish other than shrimp, lentils as a starch, cheese as a main), put it in `notes`. It needs a new tag first, and I will add it with your batch.
 
 - **protein:** chicken, beef, steak, pork, sausage, fish, shrimp, egg, tofu, beans, turkey, lamb, ground
-- **veg:** broccoli, pepper, tomato, onion, greens, mushroom, carrot, zucchini, cabbage, corn, cauliflower, asparagus, greenbeans, cucumber, avocado, celery
+- **veg:** broccoli, pepper, tomato, onion, greens, mushroom, carrot, zucchini, cabbage, corn, cauliflower, asparagus, greenbeans, cucumber, avocado, okra, eggplant, celery
 - **spice:** chili, cumin, paprika, garlic, ginger, curry, herbs, pepper, cinnamon, cajun, smoky, lemon, jerk
 - **sauce:** soy, teriyaki, tomato, cream, bbq, salsa, pesto, hot, peanut, buffalo, gravy, vinaigrette, coconut, mustard, ranch, honey, hummus
-- **starch:** noodles, pasta, rice, sweetpotato, potato, bread, tortilla, quinoa, couscous
+- **starch:** noodles, pasta, rice, sweetpotato, potato, bread, tortilla, quinoa, couscous, grits, plantain
 
 Two protein tags are special. `steak` means a whole cut cooked to a doneness (ribeye, strip, sirloin), and a steak is always `beef` too. `ground` means ground or minced meat, which is cooked through. A dish that takes sliced steak or ground meat should list `beef` (or the animal) rather than `steak`.
+
+## Plated dishes (a protein and two sides)
+
+Set `format` to `plate`. The five slots work the same way: the protein is the main, the **veg** is one side and the **starch** is the other, with a spice or rub and a sauce or gravy. A steak dinner is a protein (`steak`), a veg (green beans) and a starch (potato). The recipe is mostly the protein's method. The app adds a plain way to cook whichever vegetable and starch the cook picks.
+
+A dish that is only a protein (a rib roast, say) is still a plate: list the sides that go with it, and the defaults the chef adds.
 
 ## Rules of thumb
 
