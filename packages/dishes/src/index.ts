@@ -16,6 +16,7 @@ import cajun from '../data/cajun.json';
 import caribbeancurry from '../data/caribbeancurry.json';
 import carneasada from '../data/carneasada.json';
 import cheesybeefpotatoes from '../data/cheesybeefpotatoes.json';
+import chickenquinoa from '../data/chickenquinoa.json';
 import chickensoup from '../data/chickensoup.json';
 import chilaquiles from '../data/chilaquiles.json';
 import chili from '../data/chili.json';
@@ -31,6 +32,7 @@ import friedrice from '../data/friedrice.json';
 import frittata from '../data/frittata.json';
 import garlicshrimp from '../data/garlicshrimp.json';
 import glazebowl from '../data/glazebowl.json';
+import glazedbreast from '../data/glazedbreast.json';
 import greeksalad from '../data/greeksalad.json';
 import gyro from '../data/gyro.json';
 import hash from '../data/hash.json';
@@ -48,6 +50,7 @@ import noodles from '../data/noodles.json';
 import ovenribs from '../data/ovenribs.json';
 import padthai from '../data/padthai.json';
 import panzanella from '../data/panzanella.json';
+import paprikash from '../data/paprikash.json';
 import pasta from '../data/pasta.json';
 import piccata from '../data/piccata.json';
 import pilaf from '../data/pilaf.json';
@@ -55,9 +58,11 @@ import porkchops from '../data/porkchops.json';
 import porktenderloin from '../data/porktenderloin.json';
 import potatosalad from '../data/potatosalad.json';
 import potatosoup from '../data/potatosoup.json';
+import potroast from '../data/potroast.json';
 import quesadilla from '../data/quesadilla.json';
 import redbeans from '../data/redbeans.json';
 import redcurryshrimp from '../data/redcurryshrimp.json';
+import reversesear from '../data/reversesear.json';
 import riceandbeans from '../data/riceandbeans.json';
 import risotto from '../data/risotto.json';
 import roastchicken from '../data/roastchicken.json';
@@ -190,6 +195,12 @@ export const DISH_FILES: readonly unknown[] = [
   potatosoup,
   spanishtortilla,
   potatosalad,
+  // Recipes the notebook could verify against its sources (M4).
+  paprikash,
+  chickenquinoa,
+  potroast,
+  reversesear,
+  glazedbreast,
 ];
 
 /** The bundled dish library, validated at load. */

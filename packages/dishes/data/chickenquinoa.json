@@ -1,0 +1,53 @@
+{
+  "id": "chickenquinoa",
+  "cuisine": "med",
+  "format": "pot",
+  "title": "{p} and {v} Quinoa Skillet",
+  "minutes": 40,
+  "feel": "Balanced",
+  "wants": {
+    "protein": ["chicken"],
+    "veg": ["broccoli", "onion", "celery", "greens", "mushroom", "carrot", "zucchini"],
+    "spice": ["herbs", "chili", "garlic", "pepper", "lemon"],
+    "sauce": ["gravy", "vinaigrette"],
+    "starch": ["quinoa"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "broccoli",
+    "spice": "thyme",
+    "sauce": "chicken broth",
+    "starch": "quinoa"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 480,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Cut the {p} into 1-inch pieces, season with salt and pepper, and cook in a hot oiled skillet until {doneness}. Move to a plate.",
+    "Cook the {v} in the same pan for 3 to 4 minutes until softened, then stir in the {spice} for a minute.",
+    "Add the {s} and the {sauce}, bring to a boil, then cover and simmer on low about 15 minutes, until most of the liquid is absorbed.",
+    "Return the {p}, cover, and cook 5 more minutes until everything is tender and the liquid is gone.",
+    "Finish with a squeeze of lemon and serve from the pan."
+  ],
+  "tip": "Pile in extra vegetables. They steam on top of the quinoa, and the pan stays one-dish."
+}

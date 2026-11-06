@@ -244,9 +244,11 @@ describe('parity with prototype v1', () => {
     const mismatches: string[] = [];
     for (const category of CATEGORIES) {
       for (const name of POOLS[category]) {
-        // `steak` and `ground` are tags added after v1 (docs/decisions/0007 and 0008). They never
+        // These tags were added after v1 (docs/decisions/0007, 0008, 0012 and 0015). They never
         // change a v1 dish's score, because no v1 dish lists them, so the comparison leaves them out.
-        const a = tagsFor(category, name).filter((tag) => tag !== 'steak' && tag !== 'ground');
+        const a = tagsFor(category, name).filter(
+          (tag) => !['steak', 'ground', 'roast', 'breast'].includes(tag),
+        );
         const b = proto.tagsFor(category, name);
         if (JSON.stringify(a) !== JSON.stringify(b)) mismatches.push(`${category}/${name}`);
       }

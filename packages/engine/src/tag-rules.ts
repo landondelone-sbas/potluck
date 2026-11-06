@@ -11,7 +11,7 @@ export const TAG_RULES: Record<Category, readonly (readonly [tag: string, patter
     ['chicken', /chicken|wings?\b/],
     [
       'beef',
-      /beef|steak|brisket|burger|ribeye|rib-eye|sirloin|filet mignon|flank|skirt|porterhouse|t-bone|tri-tip|ny strip|new york strip|chuck|prime rib|rib roast|short rib|carne asada|flat iron|tomahawk|oxtail/,
+      /beef|steak|brisket|burger|ribeye|rib-eye|sirloin|filet mignon|flank|skirt|porterhouse|t-bone|tri-tip|ny strip|new york strip|chuck|prime rib|rib roast|short rib|carne asada|flat iron|tomahawk|oxtail|pot roast|rump|top round|bottom round/,
     ],
     // A whole-cut steak, which is cooked to a doneness. It is always `beef` too, so every dish
     // that takes beef still takes it. Ground beef, burgers and brisket are `beef` only. Fish and
@@ -36,6 +36,11 @@ export const TAG_RULES: Record<Category, readonly (readonly [tag: string, patter
     // Ground or minced meat of any kind, which has to be cooked through (docs/decisions/0008).
     // It comes after the animal tags: "Ground turkey" is `turkey` and then `ground`.
     ['ground', /ground|mince|burger|patty|patties|meatball/],
+    // A large cut that is braised or roasted whole (a pot roast), not a steak or ground meat.
+    // "Roast chicken" is not this: the word has to follow a cut or an animal.
+    ['roast', /(beef|pork|lamb|chuck|pot|shoulder|rump|round|arm) roast|brisket|short rib|oxtail/],
+    // A boneless breast, so a dish that roasts or glazes one does not meet ground turkey.
+    ['breast', /breast|turkey tenderloin/],
   ],
   veg: [
     ['broccoli', /broccoli/],
@@ -98,7 +103,7 @@ export const TAG_RULES: Record<Category, readonly (readonly [tag: string, patter
     ['coconut', /coconut|korma|tikka/],
     ['mustard', /mustard/],
     ['ranch', /ranch|mayo|aioli|caesar/],
-    ['honey', /honey|maple|sweet chili/],
+    ['honey', /honey|maple|sweet chili|marmalade|jam\b|preserves/],
     ['hummus', /hummus|tahini|tzatziki|yogurt/],
   ],
   starch: [

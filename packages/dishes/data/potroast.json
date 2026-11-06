@@ -1,0 +1,58 @@
+{
+  "id": "potroast",
+  "cuisine": "comfort",
+  "format": "pot",
+  "title": "Slow-Cooked {p} with {v}",
+  "minutes": 150,
+  "feel": "Slow",
+  "wants": {
+    "protein": ["roast"],
+    "veg": ["carrot", "onion", "celery", "mushroom"],
+    "spice": ["pepper", "garlic", "herbs", "smoky"],
+    "sauce": ["gravy"],
+    "starch": ["potato", "sweetpotato"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "roast"
+    }
+  ],
+  "defaults": {
+    "protein": "beef roast",
+    "veg": "carrots",
+    "spice": "black pepper",
+    "sauce": "beef broth",
+    "starch": "baby potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 700,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 240,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Heat the oven to 325°F (160°C). Pat the {p} dry and let it come toward room temperature while the oven heats.",
+    "Sear the {p} in a heavy ovenproof pot with a little oil, 2 to 3 minutes per side, until evenly browned. Season with salt and the {spice}.",
+    "Scatter the {v} and the cut-up {s} around the {p} and pour in the {sauce}. Cover tightly.",
+    "Bake about 2 hours, until very tender. It is safe once {doneness}, and a roast is well past that by the time it is tender.",
+    "Rest the {p} 15 minutes under foil, slice thinly, and serve with the vegetables and the pan juices."
+  ],
+  "tip": "Trim the visible fat and fill the pot with vegetables. The pan juices become a light gravy."
+}
