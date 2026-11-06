@@ -132,7 +132,7 @@ export function createPotluckStore(storage: StateStorage) {
         cook: () => {
           const { favorites, pot } = get();
           const members = potFavorites(favorites, pot);
-          const result = cook(members.map(toPotItem), dishes);
+          const result = cook(members.map(toPotItem), dishes, favorites.map(toPotItem));
           if (!result) return null;
           const run: CookRun = {
             runId: newId(),

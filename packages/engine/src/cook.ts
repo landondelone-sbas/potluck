@@ -24,13 +24,36 @@ export function isCloseEnough(score: number, topScore: number): boolean {
  * Pure: the same pot and library always give the same result.
  * Returns null for an empty pot or an empty library.
  */
-export function cook(items: readonly PotItem[], dishes: readonly Dish[]): CookResult | null {
+export function cook(
+  items: readonly PotItem[],
+  dishes: readonly Dish[],
+  pantry?: readonly PotItem[],
+): CookResult | null {
   if (items.length === 0) return null;
 
   // Stable sort: within a category the pot keeps its order, so "first protein" is the first added.
   const pot = [...items].sort((a, b) => categoryIndex(a.category) - categoryIndex(b.category));
 
-  const ranked = dishes.map((dish, index) => evaluateDish(dish, pot, index)).sort(rank);
+  const all = dishes.map((dish, index) => evaluateDish(dish, pot, index)).sort(rank);
+
+  // When the pot gives a dish no protein, the chef supplies one. With a pantry given, that is the
+  // first pantry protein the dish accepts, and a dish none of them suit is not offered. If that
+  // would leave nothing to offer, every dish is kept with its own default protein.
+  const chefProteins = new Map<DishEvaluation, PotItem>();
+  let ranked = all;
+  if (pantry) {
+    const proteins = pantry.filter((item) => item.category === 'protein');
+    const offered = all.filter((evaluation) => {
+      if (evaluation.used.some((item) => item.category === 'protein')) return true;
+      const wants = evaluation.dish.wants.protein;
+      const match = proteins.find((item) => item.tags.some((tag) => wants.includes(tag)));
+      if (match) chefProteins.set(evaluation, match);
+      return match !== undefined;
+    });
+    if (offered.length > 0) ranked = offered;
+    else chefProteins.clear();
+  }
+
   const top = ranked[0];
   if (!top) return null;
 
@@ -41,7 +64,7 @@ export function cook(items: readonly PotItem[], dishes: readonly Dish[]): CookRe
   return {
     potSize: pot.length,
     mode: candidates.length === 1 ? 'single' : 'multi',
-    results: candidates.map(buildResult),
+    results: candidates.map((evaluation) => buildResult(evaluation, chefProteins.get(evaluation))),
     wildcard: pot.length >= 2 ? wildcardName(pot) : null,
   };
 }

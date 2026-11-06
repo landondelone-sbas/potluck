@@ -128,3 +128,51 @@ describe('cook', () => {
     expect(must(cook(two, [makeDish()])).potSize).toBe(2);
   });
 });
+
+describe('cook with a pantry', () => {
+  const salmonDish = makeDish({
+    id: 'salmon',
+    wants: { ...makeDish().wants, protein: ['fish'] },
+    defaults: { ...makeDish().defaults, protein: 'salmon' },
+    steps: ['Cook the {p} until {doneness}.'],
+  });
+  const chickenDish = makeDish({ id: 'chicken' });
+  const veg = [item('veg', 'Broccoli')];
+
+  test('a dish with no protein from the pot uses a pantry protein it accepts, not its default', () => {
+    const pantry = [item('protein', 'Chicken thighs'), item('protein', 'Cod')];
+    const result = must(cook(veg, [salmonDish], pantry));
+    const card = must(result.results[0]);
+    expect(card.chefAdds.find((add) => add.category === 'protein')?.name).toBe('cod');
+    expect(card.steps[0]).toBe('Cook the cod until cooked through (cod 145°F / 63°C).');
+  });
+
+  test('a dish no pantry protein suits is not offered', () => {
+    const pantry = [item('protein', 'Chicken thighs')];
+    const result = must(cook(veg, [salmonDish, chickenDish], pantry));
+    expect(result.results.map((r) => r.dish.id)).toEqual(['chicken']);
+    expect(must(result.results[0]).chefAdds.find((a) => a.category === 'protein')?.name).toBe(
+      'chicken thighs',
+    );
+  });
+
+  test('a protein in the pot is used as before', () => {
+    const pot = [item('protein', 'Chicken thighs')];
+    const result = must(cook(pot, [chickenDish], [item('protein', 'Beef')]));
+    expect(must(result.results[0]).chefAdds.some((a) => a.category === 'protein')).toBe(false);
+  });
+
+  test('falls back to the dishes defaults when no pantry protein suits any dish', () => {
+    const result = must(cook(veg, [salmonDish], [item('protein', 'Chicken thighs')]));
+    expect(must(result.results[0]).chefAdds.find((a) => a.category === 'protein')?.name).toBe(
+      'salmon',
+    );
+  });
+
+  test('without a pantry nothing changes', () => {
+    const result = must(cook(veg, [salmonDish]));
+    expect(must(result.results[0]).chefAdds.find((a) => a.category === 'protein')?.name).toBe(
+      'salmon',
+    );
+  });
+});
