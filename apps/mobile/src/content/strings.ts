@@ -42,7 +42,7 @@ export const SETUP_QUESTIONS: Readonly<Record<Category, string>> = {
 };
 
 export const strings = {
-  appName: 'Potluck',
+  appName: 'Tonight’s Pot',
 
   welcome: {
     title: 'Cook from the food you already love',
@@ -210,7 +210,7 @@ export const strings = {
     pantry: 'Pantry',
     addMore: 'Add more favorites',
     addMoreHint: 'Walk through the setup steps again. Your favorites stay.',
-    about: 'About Potluck',
+    about: 'About Tonight’s Pot',
     data: 'Your data',
     reset: 'Reset all data',
     resetTitle: 'Reset all data?',
@@ -223,12 +223,12 @@ export const strings = {
   about: {
     title: 'About',
     version: (version: string) => `Version ${version}`,
-    tagline: 'Potluck finds a dish from the foods you already love.',
+    tagline: 'Tonight’s Pot finds dinner from the foods you already love.',
     privacyTitle: 'Privacy',
     privacyBody: 'No account. Your favorites and your cook log stay on this phone.',
     privacyLink: 'Read the privacy policy',
     noticeTitle: 'Please note',
     notice:
-      'Potluck gives cooking ideas, not medical or dietary advice. Suggestions are not a guarantee of allergen safety. Check every ingredient yourself.',
+      'Tonight’s Pot gives cooking ideas, not medical or dietary advice. Suggestions are not a guarantee of allergen safety. Check every ingredient yourself.',
   },
 } as const;

@@ -1,8 +1,8 @@
-# Potluck: Product Requirements Document
+# Tonight’s Pot: Product Requirements Document
 
 | | |
 |---|---|
-| **Working name** | Potluck (placeholder, see open questions) |
+| **Name** | Tonight’s Pot (chosen 2026-11-06; formerly the working name Potluck. Code and the repo keep the old name internally.) |
 | **Document version** | 0.1, draft for review |
 | **Date** | 2026-11-03 |
 | **Owner** | Landon |
