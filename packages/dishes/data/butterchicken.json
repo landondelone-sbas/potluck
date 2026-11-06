@@ -1,0 +1,53 @@
+{
+  "id": "butterchicken",
+  "cuisine": "comfort",
+  "format": "plate",
+  "title": "Pan-Seared {p} with {v}",
+  "minutes": 30,
+  "feel": "Rich",
+  "wants": {
+    "protein": ["chicken"],
+    "veg": ["asparagus", "greenbeans", "broccoli", "carrot", "mushroom", "greens", "zucchini"],
+    "spice": ["garlic", "herbs", "pepper"],
+    "sauce": ["cream", "gravy", "mustard"],
+    "starch": ["potato", "rice", "bread", "noodles", "sweetpotato"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "green beans",
+    "spice": "garlic and thyme",
+    "sauce": "butter",
+    "starch": "baby potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Start the sides first, since they take the longest. {starch_how} {veg_how}",
+    "Bring the {p} out of the fridge 15 minutes ahead. Pat very dry and season generously with salt and pepper.",
+    "Sear the {p} in a hot oiled skillet, skin side down if it has skin, 6 to 8 minutes undisturbed until deeply golden.",
+    "Flip, then add the {sauce}, the {spice} and a splash of water. Spoon the pan juices over the {p} for 4 to 5 minutes, until {doneness}. Rest 5 minutes.",
+    "Slice and serve with the {v} and {s}."
+  ],
+  "tip": "Skip the skin and use a smaller spoonful of butter. The pan juices still carry plenty of flavor."
+}

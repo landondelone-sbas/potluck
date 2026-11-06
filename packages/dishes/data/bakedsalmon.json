@@ -1,0 +1,58 @@
+{
+  "id": "bakedsalmon",
+  "cuisine": "med",
+  "format": "plate",
+  "title": "Baked {p} with {v}",
+  "minutes": 30,
+  "feel": "Light",
+  "wants": {
+    "protein": ["fish"],
+    "veg": ["asparagus", "greenbeans", "broccoli", "tomato", "greens"],
+    "spice": ["lemon", "herbs", "garlic", "pepper"],
+    "sauce": ["mustard", "vinaigrette"],
+    "starch": ["potato", "rice", "couscous"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "fish"
+    }
+  ],
+  "defaults": {
+    "protein": "salmon",
+    "veg": "green beans",
+    "spice": "dill and garlic",
+    "sauce": "dijon mustard",
+    "starch": "baby potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Heat the oven to 425°F (220°C) and line a sheet pan with parchment.",
+    "Start the sides. {starch_how} {veg_how}",
+    "Set the {p} on the lined pan, drizzle with oil, and season with salt and the {spice}.",
+    "Bake 10 to 12 minutes, until the {p} flakes easily and is {doneness}.",
+    "Serve the {p} with the {v} and {s}, with the {sauce} spooned over."
+  ],
+  "tip": "Fish with a big pile of green vegetables is about as light as dinner gets."
+}

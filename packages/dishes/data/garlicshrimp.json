@@ -1,0 +1,53 @@
+{
+  "id": "garlicshrimp",
+  "cuisine": "italian",
+  "format": "plate",
+  "title": "Garlic Butter {p} with {v}",
+  "minutes": 25,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["shrimp"],
+    "veg": ["asparagus", "greens", "zucchini", "broccoli", "greenbeans", "tomato"],
+    "spice": ["garlic", "chili", "herbs", "lemon"],
+    "sauce": ["cream", "vinaigrette"],
+    "starch": ["bread", "pasta", "rice", "potato"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "shrimp",
+    "veg": "asparagus",
+    "spice": "garlic",
+    "sauce": "garlic butter",
+    "starch": "crusty bread"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Start the sides first. {starch_how} {veg_how}",
+    "Pat the {p} dry and season with salt and pepper.",
+    "In a hot skillet, soften the {spice} in oil for 30 seconds, then add the {p} in a single layer. Cook 2 minutes, flip, and cook until {doneness}, about 2 minutes more.",
+    "Off the heat, stir in the {sauce} and a squeeze of lemon until glossy.",
+    "Serve right away with the {v} and {s}."
+  ],
+  "tip": "Use a smaller spoonful of butter and plenty of lemon, and serve over the vegetable."
+}

@@ -1,0 +1,52 @@
+{
+  "id": "shrimptacos",
+  "cuisine": "mexican",
+  "format": "pot",
+  "title": "{p} Tacos with {v}",
+  "minutes": 20,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["shrimp", "fish"],
+    "veg": ["cabbage", "avocado", "tomato", "onion", "pepper", "corn"],
+    "spice": ["chili", "cumin", "garlic", "lemon"],
+    "sauce": ["salsa", "ranch", "hot"],
+    "starch": ["tortilla"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "shrimp",
+    "veg": "cabbage",
+    "spice": "chili powder",
+    "sauce": "salsa",
+    "starch": "corn tortillas"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 6,
+      "unit": "n"
+    }
+  },
+  "steps": [
+    "Pat the {p} dry and toss with oil, salt and the {spice}.",
+    "Cook the {p} in a hot skillet in a single layer, turning once, until {doneness}, about 3 to 4 minutes. Move to a plate.",
+    "Warm the {s} in a dry pan until soft.",
+    "Fill the {s} with the {p} and the {v}. Spoon the {sauce} over the top and serve with lime."
+  ],
+  "tip": "Shredded cabbage adds crunch for almost no calories. Use a lot."
+}

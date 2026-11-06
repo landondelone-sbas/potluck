@@ -1,0 +1,57 @@
+{
+  "id": "sausageflatbread",
+  "cuisine": "italian",
+  "format": "pot",
+  "title": "{p} Flatbread Pizza with {v}",
+  "minutes": 25,
+  "feel": "Easy",
+  "wants": {
+    "protein": ["sausage", "pork"],
+    "veg": ["pepper", "onion", "mushroom", "greens", "tomato"],
+    "spice": ["herbs", "garlic", "chili"],
+    "sauce": ["tomato", "cream", "pesto"],
+    "starch": ["bread"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "sausage"
+    }
+  ],
+  "defaults": {
+    "protein": "Italian sausage",
+    "veg": "bell peppers",
+    "spice": "italian herbs",
+    "sauce": "marinara",
+    "starch": "naan"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 100,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    }
+  },
+  "steps": [
+    "Heat the oven to 450°F (230°C). Cook the {p} in a skillet, breaking it up, until browned and {doneness}. Drain on paper towels.",
+    "Set the {s} on a baking sheet and spread with the {sauce}.",
+    "Top with cheese, the {p}, the {v} and the {spice}.",
+    "Bake 8 to 10 minutes, until the cheese bubbles and the edges are crisp. Slice and serve."
+  ],
+  "tip": "Go heavy on the vegetables and light on the cheese and sausage."
+}

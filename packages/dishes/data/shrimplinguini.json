@@ -1,0 +1,52 @@
+{
+  "id": "shrimplinguini",
+  "cuisine": "italian",
+  "format": "pot",
+  "title": "Garlic {p} Pasta with {v}",
+  "minutes": 25,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["shrimp"],
+    "veg": ["tomato", "greens", "zucchini", "asparagus", "mushroom"],
+    "spice": ["garlic", "chili", "herbs", "lemon"],
+    "sauce": ["tomato", "vinaigrette", "pesto"],
+    "starch": ["pasta"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "shrimp",
+    "veg": "tomatoes",
+    "spice": "garlic",
+    "sauce": "olive oil and lemon",
+    "starch": "linguine"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 200,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Boil the {s} in well-salted water until just tender. Keep a cup of the water, then drain.",
+    "Warm the oil in a large skillet. Cook the {v} with the {spice} until soft and fragrant, 2 to 3 minutes.",
+    "Add the {p} and cook until {doneness}, about 2 to 3 minutes. Pour in the {sauce} and let it bubble for a minute.",
+    "Toss in the {s}, adding splashes of the cooking water until glossy. Serve immediately."
+  ],
+  "tip": "Use half the pasta and add more vegetables to the pan."
+}

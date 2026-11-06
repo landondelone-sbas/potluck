@@ -1,0 +1,58 @@
+{
+  "id": "ovenribs",
+  "cuisine": "comfort",
+  "format": "plate",
+  "title": "Oven BBQ {p} with {v}",
+  "minutes": 200,
+  "feel": "Slow",
+  "wants": {
+    "protein": ["pork"],
+    "veg": ["cabbage", "corn", "greenbeans", "carrot", "onion", "pepper"],
+    "spice": ["smoky", "paprika", "garlic", "pepper", "chili"],
+    "sauce": ["bbq"],
+    "starch": ["potato", "sweetpotato", "bread"]
+  },
+  "signature": [
+    {
+      "category": "sauce",
+      "tag": "bbq"
+    }
+  ],
+  "defaults": {
+    "protein": "pork ribs",
+    "veg": "cabbage",
+    "spice": "smoked paprika",
+    "sauce": "BBQ sauce",
+    "starch": "baby potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 800,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 15,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Heat the oven to 300°F (150°C). Pull off the thin membrane on the back of the {p}. Rub all over with the {spice}, salt and pepper.",
+    "Seal the {p} tightly in foil with a splash of vinegar. Bake 2 1/2 to 3 hours, until very tender and the meat pulls back from the bone ends. It is safe once {doneness}, and ribs are well past that by the time they are tender.",
+    "About 45 minutes before the end, start the sides. {starch_how} {veg_how}",
+    "Open the foil and brush the {p} with the {sauce}. Broil 3 to 5 minutes until the glaze bubbles. Rest 10 minutes before cutting.",
+    "Serve the {p} with the {v} and {s}."
+  ],
+  "tip": "Ribs are a treat. Serve a smaller portion with a big pile of slaw or green vegetables."
+}
