@@ -35,8 +35,8 @@ const POTS: Record<string, PotItem[]> = {
   single: potOf(['protein', 'Eggs']),
 };
 
-function runFor(pot: PotItem[]): CookRun {
-  const result = cook(pot, dishes);
+function runFor(pot: PotItem[], pantry?: PotItem[]): CookRun {
+  const result = cook(pot, dishes, pantry);
   if (!result) throw new Error('no result');
   return {
     runId: 'r',
@@ -45,6 +45,37 @@ function runFor(pot: PotItem[]): CookRun {
     cookedAt: 1,
   };
 }
+
+describe('rebuildResult with a chef-chosen protein', () => {
+  // A veg-only pot, with only cod and chicken in the pantry: the chef cooks one of those.
+  const pot = potOf(['veg', 'Asparagus'], ['starch', 'Quinoa']);
+  const pantry = potOf(
+    ['protein', 'Cod'],
+    ['protein', 'Chicken thighs'],
+    ...pot.map((i) => [i.category, i.name] as [Category, string]),
+  );
+  const run = runFor(pot, pantry);
+
+  test.each(run.result.results.map((card) => [card.dish.id, card] as const))(
+    'rebuilds %s with the same protein the card named',
+    (_id, card) => {
+      const entry = makeLogEntry(card, run, { id: 'e', now: 2 });
+      const chosen = card.chefAdds.find((add) => add.category === 'protein');
+      expect(chosen).toBeDefined();
+      expect(entry.chefProtein).toBe(chosen?.name);
+      expect(rebuildResult(entry, dishes)).toEqual(card);
+    },
+  );
+
+  test('an older entry with no saved protein still rebuilds, with the dish default', () => {
+    const card = run.result.results[0]!;
+    const { chefProtein: _dropped, ...old } = makeLogEntry(card, run, { id: 'e', now: 2 });
+    const rebuilt = rebuildResult(old, dishes);
+    expect(rebuilt?.chefAdds.find((a) => a.category === 'protein')?.name).toBe(
+      card.dish.defaults.protein,
+    );
+  });
+});
 
 describe('rebuildResult', () => {
   // The cook log keeps only the pot and the dish. The recipe must come back exactly as shown.

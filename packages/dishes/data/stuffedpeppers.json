@@ -22,6 +22,28 @@
     "sauce": "tomato sauce",
     "starch": "brown rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 250,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Heat the oven to 375°F (190°C) and cook the {s} until just tender.",
     "Brown the {p} with the {spice}, then mix in the {s} and half the {sauce}.",

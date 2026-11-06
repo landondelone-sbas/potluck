@@ -22,6 +22,28 @@
     "sauce": "shredded cheese",
     "starch": "flour tortillas"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Cook the {p} with the {spice} until {doneness}, then move to a clean plate.",
     "Sauté the {v} until soft.",

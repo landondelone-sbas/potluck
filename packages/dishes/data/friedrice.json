@@ -28,6 +28,28 @@
     "sauce": "soy sauce",
     "starch": "jasmine rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 2,
+      "unit": "n"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Use cold, day-old {s} if you can. Cook the {p} through and set it aside.",
     "Stir-fry the {v} and {spice} in a hot pan, add the {s} and press it flat so it crisps.",

@@ -37,6 +37,13 @@ export function makeDish(overrides: Partial<Dish> = {}): Dish {
       sauce: 'soy sauce',
       starch: 'rice',
     },
+    amounts: {
+      protein: { qty: 340, unit: 'g' },
+      veg: { qty: 250, unit: 'g' },
+      spice: { qty: 5, unit: 'ml' },
+      sauce: { qty: 30, unit: 'ml' },
+      starch: { qty: 150, unit: 'g' },
+    },
     steps: ['Cook the {s}.', 'Add the {p} and {v} with {spice}.', 'Finish with {sauce}.'],
     tip: 'Add more veg.',
     ...overrides,

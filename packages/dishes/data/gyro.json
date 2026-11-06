@@ -22,6 +22,28 @@
     "sauce": "tzatziki",
     "starch": "pita"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Season the {p} with the {spice} and cook in a hot pan until browned and {doneness}, then slice and keep on a clean plate.",
     "Chop the {v}.",

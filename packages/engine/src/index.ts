@@ -1,3 +1,13 @@
+export {
+  BASE_SERVINGS,
+  MAX_SERVINGS,
+  MIN_SERVINGS,
+  formatAmount,
+  splitAmount,
+  type Amount,
+  type AmountUnit,
+  type UnitSystem,
+} from './amounts';
 export { CATEGORIES, categoryIndex, type Category } from './categories';
 export { CUISINES, CUISINE_LABELS, type Cuisine } from './cuisines';
 export { cook, isCloseEnough, CLOSE_PERCENT, MAX_RESULTS } from './cook';

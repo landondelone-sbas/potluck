@@ -28,6 +28,28 @@
     "sauce": "gravy",
     "starch": "baby potatoes"
   },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 500,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Brown the {p} in a heavy pot and set it aside.",
     "Sweat the {v} with the {spice}, return the {p}, and add stock or the {sauce}.",

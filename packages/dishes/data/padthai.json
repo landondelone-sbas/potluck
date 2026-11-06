@@ -22,6 +22,28 @@
     "sauce": "peanut sauce",
     "starch": "rice noodles"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 90,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Cook the {s} to the pack time, drain and toss with a little oil.",
     "Stir-fry the {p} in a very hot pan until {doneness}, then move to a clean plate.",

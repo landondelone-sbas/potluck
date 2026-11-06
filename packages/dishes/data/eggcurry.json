@@ -22,6 +22,28 @@
     "sauce": "crushed tomatoes",
     "starch": "basmati rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 4,
+      "unit": "n"
+    },
+    "veg": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 400,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Boil the eggs hard: lower them into boiling water for 10 minutes, then cool in cold water and peel.",
     "Soften a little garlic in oil, then bloom the {spice} for 30 seconds.",

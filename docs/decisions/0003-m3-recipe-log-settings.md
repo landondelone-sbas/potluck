@@ -25,7 +25,7 @@ Status: partly accepted. Records what part of milestone M3 was built, the choice
 
 **Pantry staples are listed on the recipe: oil, salt, pepper and water.** This is the recommended default for PRD open question 2. It is one line of text and easy to change.
 
-**No amounts yet.** REC-2 (amounts for two servings), REC-5 (scaling) and SET-5 (units) need amounts in the dish data. The dish files have none. They are tied to the content work below.
+**No amounts yet.** REC-2 (amounts for two servings), REC-5 (scaling) and SET-5 (units) need amounts in the dish data. The dish files have none. They were built later: see [0011](0011-amounts-units-servings.md).
 
 **Keep-awake is a saved setting, off by default.** It is a battery cost, so it is the user's choice, and it is remembered so a cook does not have to switch it on every time.
 

@@ -35,6 +35,21 @@ describe('appearance (SET-1)', () => {
   });
 });
 
+describe('units (SET-5)', () => {
+  test('offers US and metric, starting on US', async () => {
+    await renderScreen(<SettingsScreen />);
+    expect(screen.getByTestId('units-us')).toBeChecked();
+    expect(screen.getByTestId('units-metric')).not.toBeChecked();
+  });
+
+  test('choosing metric saves it', async () => {
+    await renderScreen(<SettingsScreen />);
+    await fireEvent.press(screen.getByTestId('units-metric'));
+    expect(usePotluck.getState().units).toBe('metric');
+    expect(screen.getByTestId('units-metric')).toBeChecked();
+  });
+});
+
 describe('reset all data (SET-3)', () => {
   test('asks first, and cancelling changes nothing', async () => {
     const alert = jest.spyOn(Alert, 'alert').mockImplementation(() => undefined);

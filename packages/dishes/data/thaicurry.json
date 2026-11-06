@@ -31,6 +31,28 @@
     "sauce": "coconut milk",
     "starch": "jasmine rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 400,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Cook the {spice} in a little oil for a minute, until fragrant.",
     "Add the {p} and {v} and stir for 2 minutes, then pour in the {sauce} and simmer 10 to 15 minutes, until {doneness}.",

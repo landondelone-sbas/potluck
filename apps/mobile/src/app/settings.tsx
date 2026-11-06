@@ -3,7 +3,7 @@ import { useEffect, useRef, type ReactNode } from 'react';
 import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { strings } from '@/content/strings';
-import { APPEARANCES } from '@/state/persisted';
+import { APPEARANCES, UNIT_SYSTEMS } from '@/state/persisted';
 import { usePotluck } from '@/state/store';
 import { minTouchTarget, radius, space } from '@/theme/tokens';
 import { type } from '@/theme/type';
@@ -15,6 +15,8 @@ export default function SettingsScreen() {
   const { colors } = useTheme();
   const appearance = usePotluck((s) => s.appearance);
   const setAppearance = usePotluck((s) => s.setAppearance);
+  const units = usePotluck((s) => s.units);
+  const setUnits = usePotluck((s) => s.setUnits);
   const setupReopened = usePotluck((s) => s.setupReopened);
   const reopenSetup = usePotluck((s) => s.reopenSetup);
   const resetAll = usePotluck((s) => s.resetAll);
@@ -61,6 +63,35 @@ export default function SettingsScreen() {
               >
                 <Text style={[type.bodyStrong, styles.rowLabel, { color: colors.ink }]}>
                   {strings.settings.appearanceOptions[option]}
+                </Text>
+                {selected ? <Text style={[type.heading, { color: colors.potText }]}>✓</Text> : null}
+              </Pressable>
+            );
+          })}
+        </View>
+      </Section>
+
+      <Section title={strings.settings.units}>
+        <View accessibilityRole="radiogroup" style={styles.group}>
+          {UNIT_SYSTEMS.map((option) => {
+            const selected = option === units;
+            return (
+              <Pressable
+                key={option}
+                accessibilityRole="radio"
+                accessibilityState={{ checked: selected }}
+                onPress={() => setUnits(option)}
+                style={[
+                  styles.row,
+                  {
+                    backgroundColor: colors.surface,
+                    borderColor: selected ? colors.pot : colors.line,
+                  },
+                ]}
+                testID={`units-${option}`}
+              >
+                <Text style={[type.bodyStrong, styles.rowLabel, { color: colors.ink }]}>
+                  {strings.settings.unitOptions[option]}
                 </Text>
                 {selected ? <Text style={[type.heading, { color: colors.potText }]}>✓</Text> : null}
               </Pressable>

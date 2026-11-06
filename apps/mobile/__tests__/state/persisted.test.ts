@@ -22,11 +22,19 @@ describe('restore', () => {
       cookLog: [],
       appearance: 'system',
       keepAwake: false,
+      units: 'us',
     };
     expect(restore(undefined)).toEqual(empty);
     expect(restore(null)).toEqual(empty);
     expect(restore('nope')).toEqual(empty);
     expect(restore({ favorites: 'x', pot: 5, cookLog: {}, appearance: 7 })).toEqual(empty);
+  });
+
+  test('keeps a saved unit system and falls back to US for anything else (SET-5)', () => {
+    expect(restore({ units: 'metric' }).units).toBe('metric');
+    expect(restore({ units: 'us' }).units).toBe('us');
+    expect(restore({ units: 'furlongs' }).units).toBe('us');
+    expect(restore({}).units).toBe('us');
   });
 
   test('keeps good favorites and drops damaged ones without losing the rest', () => {

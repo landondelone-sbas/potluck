@@ -1,3 +1,4 @@
+import type { Amount } from './amounts';
 import type { Category } from './categories';
 import type { Cuisine } from './cuisines';
 
@@ -23,6 +24,8 @@ export interface Dish {
   signature: readonly { category: Category; tag: string }[];
   /** What the chef adds when a category is empty. */
   defaults: Readonly<Record<Category, string>>;
+  /** One amount per category for two servings, in metric (see `formatAmount`). */
+  amounts: Readonly<Record<Category, Amount>>;
   /** Placeholders: `{p}` `{v}` `{s}` `{spice}` `{sauce}` and `{doneness}` (see `donenessFor`). */
   steps: readonly string[];
   tip: string;

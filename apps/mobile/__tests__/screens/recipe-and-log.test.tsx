@@ -1,6 +1,8 @@
 import { fireEvent, screen } from '@testing-library/react-native';
 import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 
+import { formatAmount, splitAmount } from '@potluck/engine';
+
 import CookLogScreen from '@/app/log';
 import RecipeScreen from '@/app/recipe/[id]';
 import { formatDay } from '@/lib/format';
@@ -26,6 +28,7 @@ function makeTonight(names: string[]) {
 beforeEach(() => {
   jest.clearAllMocks();
   seedFullPantry();
+  usePotluck.getState().setUnits('us');
 });
 
 describe('the recipe screen', () => {
@@ -48,10 +51,62 @@ describe('the recipe screen', () => {
     await renderScreen(<RecipeScreen />);
 
     for (const item of card.used)
-      expect(screen.getAllByLabelText(item.name).length).toBeGreaterThan(0);
+      expect(screen.getAllByLabelText(item.name, { exact: false }).length).toBeGreaterThan(0);
     expect(card.chefAdds.length).toBeGreaterThan(0);
     expect(screen.getByText('The chef adds')).toBeTruthy();
     expect(screen.getByText(/Oil, salt, pepper and water/)).toBeTruthy();
+  });
+
+  test('shows an amount for every ingredient, for two servings, in US units (REC-2)', async () => {
+    const { entry, card } = makeTonight(['Chicken thighs', 'Broccoli', 'Ginger', 'Soy sauce']);
+    mockParams.current = { id: entry.id };
+    await renderScreen(<RecipeScreen />);
+
+    expect(screen.getByText('2 servings')).toBeTruthy();
+    const chicken = card.used.find((item) => item.category === 'protein')!;
+    const expected = formatAmount(card.dish.amounts.protein, 'us');
+    expect(screen.getByLabelText(`${chicken.name}, ${expected}`)).toBeTruthy();
+    expect(expected).toMatch(/oz|lb/);
+  });
+
+  test('metric units show grams and millilitres (SET-5)', async () => {
+    usePotluck.getState().setUnits('metric');
+    const { entry, card } = makeTonight(['Chicken thighs', 'Broccoli', 'Ginger', 'Soy sauce']);
+    mockParams.current = { id: entry.id };
+    await renderScreen(<RecipeScreen />);
+
+    const chicken = card.used.find((item) => item.category === 'protein')!;
+    const expected = formatAmount(card.dish.amounts.protein, 'metric');
+    expect(expected).toMatch(/ g$/);
+    expect(screen.getByLabelText(`${chicken.name}, ${expected}`)).toBeTruthy();
+  });
+
+  test('the servings buttons scale the amounts and stop at the limits (REC-5)', async () => {
+    const { entry, card } = makeTonight(['Chicken thighs', 'Broccoli', 'Ginger', 'Soy sauce']);
+    mockParams.current = { id: entry.id };
+    await renderScreen(<RecipeScreen />);
+    const chicken = card.used.find((item) => item.category === 'protein')!;
+
+    await fireEvent.press(screen.getByTestId('servings-more'));
+    await fireEvent.press(screen.getByTestId('servings-more'));
+    expect(screen.getByText('4 servings')).toBeTruthy();
+    const doubled = formatAmount(card.dish.amounts.protein, 'us', 4);
+    expect(screen.getByLabelText(`${chicken.name}, ${doubled}`)).toBeTruthy();
+
+    for (let i = 0; i < 10; i += 1) await fireEvent.press(screen.getByTestId('servings-fewer'));
+    expect(screen.getByText('1 serving')).toBeTruthy();
+    expect(screen.getByTestId('servings-fewer')).toBeDisabled();
+  });
+
+  test('items in one category share its amount', async () => {
+    const { entry, card } = makeTonight(['Chicken thighs', 'Salmon', 'Broccoli', 'Ginger']);
+    mockParams.current = { id: entry.id };
+    await renderScreen(<RecipeScreen />);
+    const proteins = card.used.filter((item) => item.category === 'protein');
+    expect(proteins.length).toBeGreaterThan(1);
+    const half = formatAmount(splitAmount(card.dish.amounts.protein, proteins.length), 'us');
+    for (const item of proteins)
+      expect(screen.getByLabelText(`${item.name}, ${half}`)).toBeTruthy();
   });
 
   test('lists what was left out of this dish', async () => {

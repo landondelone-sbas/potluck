@@ -22,6 +22,28 @@
     "sauce": "hoisin sauce",
     "starch": "jasmine rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Cook the {p} with the {spice} in a hot pan, breaking it up, until {doneness}.",
     "Add the {sauce} and stir until glossy.",

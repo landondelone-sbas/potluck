@@ -22,6 +22,28 @@
     "sauce": "chicken broth",
     "starch": "corn tortillas"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 4,
+      "unit": "n"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 750,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Soften the {v} with the {spice} in a pot with a little oil.",
     "Add the {sauce} and enough water to cover, then the {p}, and simmer 20 minutes, until any meat is at least 165°F / 74°C inside. Add any shrimp for the last 3 minutes, until pink and opaque.",

@@ -28,6 +28,28 @@
     "sauce": "peanut sauce",
     "starch": "rice noodles"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 90,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Boil the {s} and rinse in cool water. Slice the {v} thin.",
     "Whisk the {sauce} with a splash of warm water until pourable.",

@@ -28,6 +28,28 @@
     "sauce": "salsa",
     "starch": "jasmine rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 240,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Cook the {s}. Brown the {p} with the {spice} until it smells toasty.",
     "Char the {v} in the same pan for a couple of minutes.",

@@ -22,6 +22,28 @@
     "sauce": "coconut milk",
     "starch": "long-grain rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 240,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 250,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Soften the {v} with the {spice} in a pot with a little oil.",
     "Add the {s}, the {p}, the {sauce} and enough water to cover the rice by a knuckle. Dried red kidney beans need soaking, then a hard boil of at least 10 minutes, first; canned beans only need draining.",

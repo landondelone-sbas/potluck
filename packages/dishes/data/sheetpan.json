@@ -38,6 +38,28 @@
     "sauce": "honey mustard",
     "starch": "baby potatoes"
   },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Heat the oven to 425°F (220°C). Chop the {v} and {s} to a similar size.",
     "Toss everything with oil and the {spice} on a lined sheet pan, with the {p} on top.",

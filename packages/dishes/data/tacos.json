@@ -39,6 +39,28 @@
     "sauce": "salsa",
     "starch": "corn tortillas"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 75,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 6,
+      "unit": "n"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Season the {p} with the {spice} and cook it hot and fast.",
     "Warm the {s} in a dry pan until they blister a little.",

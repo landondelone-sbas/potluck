@@ -22,6 +22,28 @@
     "sauce": "gravy",
     "starch": "baby potatoes"
   },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 250,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Heat the oven to 400°F (200°C). Boil the {s} until tender, then drain and mash with a little oil or milk.",
     "Brown the {p} with the {spice}, then add the {v} and cook until soft.",

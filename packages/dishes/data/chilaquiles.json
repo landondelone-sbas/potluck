@@ -22,6 +22,28 @@
     "sauce": "salsa",
     "starch": "corn tortillas"
   },
+  "amounts": {
+    "protein": {
+      "qty": 4,
+      "unit": "n"
+    },
+    "veg": {
+      "qty": 75,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 6,
+      "unit": "n"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Cut the {s} into wedges and crisp them in a hot pan with a little oil, or bake until crunchy.",
     "Sauté the {v} with the {spice}, then add the {sauce} and simmer 3 minutes.",

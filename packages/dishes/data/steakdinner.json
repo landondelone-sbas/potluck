@@ -32,6 +32,28 @@
     "sauce": "mustard",
     "starch": "baby potatoes"
   },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 2,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 15,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Take the {p} out of the fridge 30 minutes ahead, pat very dry and season well with the {spice} and salt.",
     "Sear in a very hot, lightly oiled pan 3 to 4 minutes a side for a 1-inch cut, then check the thickest part with a thermometer. The USDA safe minimum for steak is 145°F / 63°C. A lower doneness is your choice and carries more risk.",

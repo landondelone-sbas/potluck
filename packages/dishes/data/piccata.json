@@ -22,6 +22,28 @@
     "sauce": "chicken stock",
     "starch": "linguine"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Pat the {p} dry and season with the {spice}. Sear in a hot pan until golden and {doneness}, then set aside on a clean plate.",
     "Cook the {v} in the same pan until tender-crisp, then set aside with the {p}.",

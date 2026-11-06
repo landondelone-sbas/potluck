@@ -37,6 +37,28 @@
     "sauce": "teriyaki",
     "starch": "jasmine rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Cook the {s}. Simmer the {sauce} in a small pan until it turns glossy.",
     "Cook the {p} until done, then toss it in the glaze with the {spice}.",

@@ -28,6 +28,28 @@
     "sauce": "marinara",
     "starch": "spaghetti"
   },
+  "amounts": {
+    "protein": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 250,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Boil the {s} in well-salted water until just shy of done.",
     "Brown the {p} in a wide pan, then soften the {v} with the {spice}.",

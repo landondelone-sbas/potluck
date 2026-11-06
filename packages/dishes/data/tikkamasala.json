@@ -22,6 +22,28 @@
     "sauce": "tomato cream sauce",
     "starch": "basmati rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 250,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Season the {p} with the {spice} and sear in a hot pan with a little oil until browned on the outside, then set aside on a clean plate.",
     "Soften a little garlic in the same pan, add the {v}, then pour in the {sauce} and simmer 10 minutes.",

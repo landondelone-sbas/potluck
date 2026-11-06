@@ -1,5 +1,5 @@
 import { dishes } from '@potluck/dishes';
-import { cook, type Category } from '@potluck/engine';
+import { cook, type Category, type UnitSystem } from '@potluck/engine';
 import { create } from 'zustand';
 import { persist, type StateStorage } from 'zustand/middleware';
 
@@ -57,6 +57,7 @@ export interface PotluckState extends PersistedState {
   completeOnboarding: () => void;
   setAppearance: (appearance: AppearanceSetting) => void;
   setKeepAwake: (keepAwake: boolean) => void;
+  setUnits: (units: UnitSystem) => void;
   /** Open the setup steps again from Settings. Favorites are kept. */
   reopenSetup: () => void;
   /** Erase everything: favorites, pot, cook log and settings (SET-3). */
@@ -163,6 +164,8 @@ export function createPotluckStore(storage: StateStorage) {
 
         setKeepAwake: (keepAwake) => set({ keepAwake }),
 
+        setUnits: (units) => set({ units }),
+
         reopenSetup: () => set({ setupReopened: true }),
 
         resetAll: () => {
@@ -191,6 +194,7 @@ export function createPotluckStore(storage: StateStorage) {
           cookLog,
           appearance,
           keepAwake,
+          units,
         }): PersistedState => ({
           favorites,
           pot,
@@ -198,6 +202,7 @@ export function createPotluckStore(storage: StateStorage) {
           cookLog,
           appearance,
           keepAwake,
+          units,
         }),
         migrate: (persisted, version) => {
           try {

@@ -22,6 +22,28 @@
     "sauce": "peanut sauce",
     "starch": "jasmine rice"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 2,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 90,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Cut the {p} into bite-size pieces and stir-fry in a very hot pan until {doneness}, then move to a clean plate.",
     "Stir-fry the {v} with the {spice} for 2 to 3 minutes.",

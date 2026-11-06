@@ -3,6 +3,12 @@ import { z } from 'zod';
 
 const CategorySchema = z.enum(CATEGORIES);
 
+/** An amount for two servings: grams, millilitres, or a plain count (see `formatAmount`). */
+const AmountSchema = z.strictObject({
+  qty: z.number().positive().max(2000),
+  unit: z.enum(['g', 'ml', 'n']),
+});
+
 const TITLE_PLACEHOLDERS = new Set(['p', 'v']);
 const STEP_PLACEHOLDERS = new Set(['p', 'v', 's', 'spice', 'sauce', 'doneness']);
 
@@ -25,6 +31,7 @@ export const DishSchema = z
     wants: z.record(CategorySchema, z.array(z.string().min(1)).min(1)),
     signature: z.array(z.strictObject({ category: CategorySchema, tag: z.string().min(1) })),
     defaults: z.record(CategorySchema, z.string().min(1)),
+    amounts: z.record(CategorySchema, AmountSchema),
     steps: z.array(z.string().min(1)).min(3).max(5),
     tip: z.string().min(1),
   })

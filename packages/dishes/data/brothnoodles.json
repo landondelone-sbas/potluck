@@ -22,6 +22,28 @@
     "sauce": "chicken broth",
     "starch": "ramen noodles"
   },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 200,
+      "unit": "g"
+    },
+    "starch": {
+      "qty": 180,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 750,
+      "unit": "ml"
+    }
+  },
   "steps": [
     "Simmer broth or water with the {spice} and the {sauce} for 10 minutes.",
     "Add the {p} and simmer until {doneness}. Boil any eggs hard, 10 minutes, and peel.",
