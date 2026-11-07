@@ -20,7 +20,7 @@ describe('tagsFor', () => {
     ['Flank steak', ['beef', 'steak']],
     ['Ground beef', ['beef', 'ground']],
     ['Burgers', ['beef', 'ground']],
-    ['Brisket', ['beef']],
+    ['Brisket', ['beef', 'roast']],
     ['Salmon steak', ['beef', 'fish']],
     ['Pork steak', ['beef', 'pork']],
     ['Cube steak', ['beef']],
@@ -48,7 +48,7 @@ describe('tagsFor', () => {
   });
 
   test('matches regardless of case', () => {
-    expect(tagsFor('protein', 'CHICKEN BREAST')).toEqual(['chicken']);
+    expect(tagsFor('protein', 'CHICKEN BREAST')).toEqual(['chicken', 'breast']);
   });
 
   test('items that match nothing have no tags', () => {
@@ -93,9 +93,9 @@ describe('tags for Thai, Korean and Caribbean cooking (docs/decisions/0010)', ()
 
 describe('tags for the ingredients in the recipe sheets', () => {
   test.each([
-    ['protein', 'Beef chuck roast', ['beef']],
+    ['protein', 'Beef chuck roast', ['beef', 'roast']],
     ['protein', 'Prime rib', ['beef']],
-    ['protein', 'Beef short ribs', ['beef']],
+    ['protein', 'Beef short ribs', ['beef', 'roast']],
     ['protein', 'Flat iron steak', ['beef', 'steak']],
     ['protein', 'Tomahawk', ['beef', 'steak']],
     ['protein', 'Carne asada', ['beef']],
@@ -137,5 +137,30 @@ describe('potato kinds', () => {
     ['French fries', ['potato']],
   ] as const)('starch "%s" gets %j', (name, expected) => {
     expect(tagsFor('starch', name)).toEqual(expected);
+  });
+});
+
+describe('roast and breast', () => {
+  test.each([
+    ['Beef roast', ['beef', 'roast']],
+    ['Chuck roast', ['beef', 'roast']],
+    ['Pot roast', ['beef', 'roast']],
+    ['Pork shoulder roast', ['pork', 'roast']],
+    ['Lamb roast', ['lamb', 'roast']],
+    ['Top round', ['beef']],
+    ['Roast chicken', ['chicken']],
+    ['Chicken breast', ['chicken', 'breast']],
+    ['Turkey breast', ['turkey', 'breast']],
+    ['Turkey tenderloin', ['turkey', 'breast']],
+    ['Ground turkey', ['turkey', 'ground']],
+    ['Chicken thighs', ['chicken']],
+    ['Pork tenderloin', ['pork']],
+  ] as const)('protein "%s" gets %j', (name, expected) => {
+    expect(tagsFor('protein', name)).toEqual(expected);
+  });
+
+  test('marmalade and jam count as honey-type sauces', () => {
+    expect(tagsFor('sauce', 'Orange marmalade')).toEqual(['honey']);
+    expect(tagsFor('sauce', 'Strawberry jam')).toEqual(['honey']);
   });
 });

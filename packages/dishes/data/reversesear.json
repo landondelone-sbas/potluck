@@ -1,0 +1,58 @@
+{
+  "id": "reversesear",
+  "cuisine": "comfort",
+  "format": "plate",
+  "title": "Reverse-Seared {p} with {v}",
+  "minutes": 60,
+  "feel": "Rich",
+  "wants": {
+    "protein": ["steak"],
+    "veg": ["asparagus", "greenbeans", "mushroom", "broccoli"],
+    "spice": ["pepper", "garlic", "herbs"],
+    "sauce": ["cream", "mustard", "gravy"],
+    "starch": ["bakingpotato", "potato", "sweetpotato", "rice", "bread"]
+  },
+  "signature": [
+    {
+      "category": "starch",
+      "tag": "bakingpotato"
+    }
+  ],
+  "defaults": {
+    "protein": "NY strip",
+    "veg": "asparagus",
+    "spice": "garlic and rosemary",
+    "sauce": "herb butter",
+    "starch": "baked potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 700,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "{?bakingpotato:Scrub the {s}, prick with a fork, and bake at 425°F (220°C) for 45 to 60 minutes. Then lower the oven to 250°F (120°C).}{?!bakingpotato:Heat the oven to 250°F (120°C).} Pat the {p} very dry and season well with salt.",
+    "Set the {p} on a rack over a baking sheet and bake until the center is about 15°F under the finish you want, usually 25 to 45 minutes. Check with a thermometer. The USDA safe minimum for steak is 145°F / 63°C, so for that finish pull the steaks at about 130°F (54°C). A lower doneness is your choice and carries more risk.",
+    "While the steaks bake, cook the {v} on the stove, any way you like: steam, sauté or boil.{?!bakingpotato: Cook the {s} the way you like it too.}",
+    "Heat a heavy pan until smoking and sear the {p} 1 minute on the first side. Flip, add the {sauce} and the {spice}, and baste for about a minute.",
+    "Sear the edges briefly, then rest the {p} 5 to 7 minutes and slice against the grain. Serve with the {v} and {s}."
+  ],
+  "tip": "Keep the steak to a palm-size portion, and put the vegetable on half the plate."
+}

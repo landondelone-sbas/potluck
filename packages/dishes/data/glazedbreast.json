@@ -1,0 +1,53 @@
+{
+  "id": "glazedbreast",
+  "cuisine": "comfort",
+  "format": "pot",
+  "title": "Orange-Glazed {p} with {v}",
+  "minutes": 75,
+  "feel": "Balanced",
+  "wants": {
+    "protein": ["breast"],
+    "veg": ["carrot", "onion", "celery", "greenbeans", "broccoli", "zucchini"],
+    "spice": ["herbs", "garlic", "pepper"],
+    "sauce": ["honey"],
+    "starch": ["potato", "sweetpotato"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "turkey breast",
+    "veg": "carrots",
+    "spice": "mixed herbs",
+    "sauce": "orange marmalade",
+    "starch": "potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 680,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 45,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Heat the oven to 375°F (190°C). Lightly oil a baking dish and set the {p} in the middle.",
+    "Rub the {p} with half the {spice}, salt and pepper, then spread the {sauce} over the top.",
+    "Toss the {v} and the {s}, cut into 2-inch chunks, with a little oil and the rest of the seasoning, and arrange around the {p}.",
+    "Bake uncovered 40 to 60 minutes, depending on size, until {doneness} and the vegetables are tender.",
+    "Rest the {p} 5 to 10 minutes, then carve and serve with the vegetables."
+  ],
+  "tip": "A sugar-free marmalade gives the glaze with far less sugar, and the vegetables roast in the same dish."
+}

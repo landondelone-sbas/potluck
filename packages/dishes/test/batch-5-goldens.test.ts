@@ -36,6 +36,56 @@ const LEADS: {
     first: 'bakedsalmon',
   },
   {
+    name: 'a beef roast with carrots and potatoes',
+    pot: [
+      ['protein', 'Beef roast'],
+      ['veg', 'Carrots'],
+      ['starch', 'Baby potatoes'],
+    ],
+    first: 'potroast',
+  },
+  {
+    name: 'a steak with a baked potato',
+    pot: [
+      ['protein', 'Ribeye'],
+      ['veg', 'Asparagus'],
+      ['spice', 'Garlic'],
+      ['sauce', 'Herb butter'],
+      ['starch', 'Russet potatoes'],
+    ],
+    offered: 'reversesear',
+  },
+  {
+    name: 'chicken with peppers, paprika and sour cream over noodles',
+    pot: [
+      ['protein', 'Chicken breast'],
+      ['veg', 'Bell peppers'],
+      ['spice', 'Smoked paprika'],
+      ['sauce', 'Sour cream'],
+      ['starch', 'Ramen noodles'],
+    ],
+    first: 'paprikash',
+  },
+  {
+    name: 'chicken, broccoli and quinoa',
+    pot: [
+      ['protein', 'Chicken breast'],
+      ['veg', 'Broccoli'],
+      ['starch', 'Quinoa'],
+    ],
+    offered: 'chickenquinoa',
+  },
+  {
+    name: 'a turkey breast with carrots, potatoes and marmalade',
+    pot: [
+      ['protein', 'Turkey breast'],
+      ['veg', 'Carrots'],
+      ['sauce', 'Orange marmalade'],
+      ['starch', 'Baby potatoes'],
+    ],
+    offered: 'glazedbreast',
+  },
+  {
     name: 'burgers with tomato and buns',
     pot: [
       ['protein', 'Ground beef'],
@@ -348,5 +398,33 @@ describe('potatoes: every kind is cooked the right way', () => {
       );
       expect(must(cook(pot, dishes)).results.map((r) => r.dish.id)).toContain(id);
     }
+  });
+});
+
+describe('grounded recipes: whole cuts are not mistaken for ground meat', () => {
+  test('ground beef is not offered a pot roast, and ground turkey is not offered a glazed breast', () => {
+    const beef = must(cook(potOf([['protein', 'Ground beef']]), dishes));
+    expect(beef.results.map((r) => r.dish.id)).not.toContain('potroast');
+    const turkey = must(cook(potOf([['protein', 'Ground turkey']]), dishes));
+    expect(turkey.results.map((r) => r.dish.id)).not.toContain('glazedbreast');
+  });
+
+  test('the reverse-seared steak bakes a baking potato first and cooks any other starch on the stove', () => {
+    const dish = must(dishes.find((d) => d.id === 'reversesear'));
+    const steps = (starch: string) =>
+      buildResult(
+        evaluateDish(
+          dish,
+          potOf([
+            ['protein', 'Ribeye'],
+            ['starch', starch],
+          ]),
+          dishes.indexOf(dish),
+        ),
+      ).steps.join(' ');
+    expect(steps('Russet potatoes')).toContain('bake at 425°F (220°C) for 45 to 60 minutes');
+    expect(steps('Baby potatoes')).toContain('Heat the oven to 250°F (120°C).');
+    expect(steps('Baby potatoes')).not.toContain('prick');
+    expect(steps('Baby potatoes')).toContain('USDA safe minimum for steak is 145°F / 63°C');
   });
 });

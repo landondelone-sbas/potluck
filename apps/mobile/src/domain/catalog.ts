@@ -1,7 +1,7 @@
 import type { Category } from '@potluck/engine';
 
 /**
- * Curated suggestions for the setup flow (ONB-2): 12 to 14 per category, in the order they are
+ * Curated suggestions for the setup flow (ONB-2): 12 to 14 per category, and up to 18 proteins, since a protein is what a dinner is built around, in the order they are
  * shown. Ported from prototype v1.
  */
 export const SUGGESTIONS: Readonly<Record<Category, readonly string[]>> = {
@@ -20,6 +20,10 @@ export const SUGGESTIONS: Readonly<Record<Category, readonly string[]>> = {
     'Black beans',
     'Chickpeas',
     'Turkey',
+    'Pork chops',
+    'Lamb',
+    'Cod',
+    'Chuck roast',
   ],
   veg: [
     'Broccoli',

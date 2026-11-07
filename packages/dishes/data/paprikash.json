@@ -1,0 +1,52 @@
+{
+  "id": "paprikash",
+  "cuisine": "comfort",
+  "format": "pot",
+  "title": "{p} Paprikash with {v}",
+  "minutes": 30,
+  "feel": "Creamy",
+  "wants": {
+    "protein": ["chicken"],
+    "veg": ["pepper", "onion", "mushroom", "tomato", "greens"],
+    "spice": ["paprika", "pepper", "garlic"],
+    "sauce": ["cream", "tomato", "gravy"],
+    "starch": ["noodles", "pasta", "rice", "potato"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "bell peppers",
+    "spice": "paprika",
+    "sauce": "sour cream",
+    "starch": "egg noodles"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 150,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 200,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Cook the {s} following the package directions and keep it warm.",
+    "Cut the {p} and the {v} into bite-size pieces. Cook in a hot pan with a little butter and oil, about 5 minutes, until {doneness}.",
+    "Stir in the {spice} for a minute. Add a splash of wine or broth, a squeeze of lemon and a spoonful of tomato paste, and simmer 5 minutes.",
+    "Turn the heat low and stir in the {sauce}. Warm gently for 3 minutes without boiling, then spoon over the {s}."
+  ],
+  "tip": "Use plain Greek yogurt in place of sour cream, and double the peppers."
+}

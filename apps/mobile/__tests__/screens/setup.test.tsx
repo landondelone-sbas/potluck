@@ -32,20 +32,20 @@ describe('welcome', () => {
 });
 
 describe('a setup step', () => {
-  test('asks the category’s question and offers 12 to 14 suggestions (ONB-2)', async () => {
+  test('asks the category’s question and offers 12 to 18 suggestions (ONB-2)', async () => {
     await renderScreen(<SetupStepScreen />);
     expect(screen.getByText('Which proteins do you actually enjoy?')).toBeTruthy();
     expect(SUGGESTIONS.protein.length).toBeGreaterThanOrEqual(12);
-    expect(SUGGESTIONS.protein.length).toBeLessThanOrEqual(14);
+    expect(SUGGESTIONS.protein.length).toBeLessThanOrEqual(18);
     for (const name of SUGGESTIONS.protein) {
       expect(screen.getByTestId(`suggestion-${name}`)).toBeTruthy();
     }
   });
 
-  test('every category offers 12 to 14 suggestions', () => {
-    for (const list of Object.values(SUGGESTIONS)) {
+  test('every category offers 12 to 14 suggestions, and proteins up to 18', () => {
+    for (const [category, list] of Object.entries(SUGGESTIONS)) {
       expect(list.length).toBeGreaterThanOrEqual(12);
-      expect(list.length).toBeLessThanOrEqual(14);
+      expect(list.length).toBeLessThanOrEqual(category === 'protein' ? 18 : 14);
     }
   });
 
