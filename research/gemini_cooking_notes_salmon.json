@@ -1,0 +1,39 @@
+{
+  "theme": "salmon",
+  "batch_number": 5,
+  "summary_of_findings": {
+    "methods_identified": 4,
+    "recipes_identified": 7,
+    "core_sources": [
+      "7 Nutrient-Packed Recipes That Make Healthy Eating a Breeze - Prime Women",
+      "Healthy Weeknight Dinners You'll Actually Crave - Dishing Out Health",
+      "Recipes - The Nutrition Source | Harvard T.H. Chan School of Public Health",
+      "Our 50 Most-Popular Healthy Recipes - Food Network",
+      "45 Healthy Comfort Food Recipes - Food Network",
+      "ENGLISH - Boston.gov",
+      "SAFE MINIMUM INTERNAL TEMPERATURES - FDA"
+    ]
+  },
+  "gaps_in_sources": {
+    "missing_cuts_and_varieties": [
+      "No specific cooking times comparing thick king/chinook salmon steaks versus thin sockeye or coho fillets (wild vs farmed fat content impact).",
+      "No whole salmon (bone-in whole fish) roasting or grilling parameters.",
+      "No cold-smoked or hot-smoked salmon production guidelines."
+    ],
+    "missing_methods": [
+      "No direct cedar-plank outdoor grilling times or water-soaking duration for cedar planks.",
+      "No sous-vide precision water bath temperature curves (e.g. 115\u00b0F rare, 122\u00b0F medium-rare, 130\u00b0F medium).",
+      "No shallow poaching (court-bouillon or white wine poaching) temperatures or liquid ratios."
+    ],
+    "missing_parameters": [
+      "No quantitative threshold for albumin extrusion vs internal temperature.",
+      "No resting carryover rise documented for whole sides versus individual 6 oz portion fillets."
+    ]
+  },
+  "app_recommendations": [
+    "Acknowledge the divergence between the FDA safety guideline (145\u00b0F) and culinary medium doneness (125\u00b0F to 130\u00b0F): advise users that resting salmon for 3 minutes allows carryover heat to finish cooking while keeping the interior succulent and moist.",
+    "For crispy-skin pan searing, mandate two non-negotiable steps in the app: (1) drying the skin thoroughly with paper towels, and (2) applying gentle spatula pressure during the first 30 seconds of searing to keep skin flat against the pan.",
+    "In sheet-pan and skillet recipes with starch components (potatoes, rice), enforce staggered cooking: cook the starch first, then add salmon during the final 12 to 15 minutes to prevent overcooking the fish.",
+    "Caution against covering crispy skin with foil during resting to preserve crackling texture."
+  ]
+}

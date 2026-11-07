@@ -1,0 +1,33 @@
+{
+  "theme": "eggs",
+  "category": "cooking_notes",
+  "description": "Source gap analysis, missing culinary techniques, and regulatory vs culinary doneness differences for eggs across NotebookLM sources.",
+  "source_notebook": {
+    "name": "Global Food Trends and Recipes",
+    "id": "notebooks/5c787d4e-8d68-497e-a784-1cf548ae9a82"
+  },
+  "summary_of_gaps": "The notebook sources provide robust guidance on egg food safety (FDA 160\u00b0F / firm yolk rule) and common stovetop cooking mistakes (Food Network Kitchen). However, advanced and specific culinary methods are unaddressed.",
+  "uncovered_aspects": [
+    {
+      "topic": "Poaching technique & water acidulation",
+      "status": "missing_from_sources",
+      "detail": "While poaching is recommended as a low-fat cooking alternative, exact water temperature (bare simmer 180\u00b0F\u2013190\u00b0F), vinegar ratio, and vortex methods are not documented."
+    },
+    {
+      "topic": "Sous-vide / precision water bath eggs",
+      "status": "missing_from_sources",
+      "detail": "No water bath temperatures (e.g. 63\u00b0C\u201365\u00b0C onsen egg doneness or in-shell pasteurization) are provided for eggs, unlike steak and lamb chops."
+    },
+    {
+      "topic": "Omelet roll & fold technique",
+      "status": "missing_from_sources",
+      "detail": "Omelets are referenced as requiring a preheated pan, but French vs American fold techniques, pan agitation, and butter emulsion are not detailed."
+    },
+    {
+      "topic": "Souffl\u00e9s and baked custards",
+      "status": "missing_from_sources",
+      "detail": "Egg white whipping stages (soft vs stiff peaks) are explained, but oven water baths, ramekin preparation, and baking times for savory or dessert souffl\u00e9s are absent."
+    }
+  ],
+  "app_recommendation": "The app engine should leverage the gentle medium-low heat rule for all skillet egg dishes, and acknowledge that culinary preference for runny yolks intentionally departs from the strict FDA firm-yolk standard."
+}

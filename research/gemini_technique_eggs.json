@@ -1,0 +1,161 @@
+{
+  "theme": "eggs",
+  "safe_temperature": {
+    "temperature": "Cook until yolk & white are firm (FDA standard for whole eggs); 160\u00b0F for egg dishes and casseroles",
+    "source": {
+      "name": "SAFE MINIMUM INTERNAL TEMPERATURES as measured with a food thermometer - FDA",
+      "location": "https://www.fda.gov/media/107000/download"
+    },
+    "disagreements": "The FDA food safety standard mandates cooking eggs until both yolk and white are completely firm, and heating egg dishes to 160\u00b0F. However, culinary sources in the notebook (Food Network Kitchen's '10 Mistakes Everyone Makes Cooking Eggs') state that overcooking proteins forces out moisture and renders eggs tough and rubbery. For classic preparations like sunny-side up, soft-boiled, and over-easy, culinary doneness intentionally leaves the yolk runny (below 160\u00b0F) while ensuring the white is fully opaque and set."
+  },
+  "pairs_well_with": {
+    "vegetables": [
+      {
+        "item": "Chopped bell peppers, sweet onions, fresh chives, and sliced scallions",
+        "source": {
+          "name": "Food Network Kitchen & Boston.gov",
+          "location": "Breakfast Casserole & Quesadilla"
+        }
+      },
+      {
+        "item": "Diced tomatoes, salsa verde, and fresh cilantro",
+        "source": {
+          "name": "Our 50 Most-Popular Healthy Recipes - Food Network",
+          "location": "Mexican Breakfast Preparations"
+        }
+      }
+    ],
+    "starches": [
+      {
+        "item": "Flour and corn tortillas",
+        "source": {
+          "name": "Global Food Trends and Recipes",
+          "location": "Breakfast Quesadilla"
+        }
+      },
+      {
+        "item": "Crusty toast, roasted potato hash, and sweet potato cubes",
+        "source": {
+          "name": "Food Network Kitchen",
+          "location": "Breakfast Hash & Skillet Pairings"
+        }
+      }
+    ],
+    "spices_and_seasonings": [
+      {
+        "item": "Kosher salt, freshly ground black pepper, and paprika",
+        "source": {
+          "name": "Food Network Kitchen",
+          "location": "10 Mistakes Everyone Makes Cooking Eggs"
+        }
+      }
+    ],
+    "sauces": [
+      {
+        "item": "Melted unsalted butter, cooking oil, and bacon drippings",
+        "source": {
+          "name": "Food Network Kitchen",
+          "location": "Mistake 3: Pan coating fat"
+        }
+      },
+      {
+        "item": "Shredded sharp cheddar, grated Parmigiano-Reggiano, and salsa",
+        "source": {
+          "name": "Food Network Kitchen",
+          "location": "Healthy Breakfast Casserole"
+        }
+      }
+    ]
+  },
+  "avoid": [
+    {
+      "warning": "Adding eggs to a cold pan: Eggs cook unevenly as the pan warms up and proteins seep into pan pores before setting, causing stubborn sticking.",
+      "source": {
+        "name": "10 Mistakes Everyone Makes Cooking Eggs - Food Network",
+        "location": "Mistake 2: Adding Eggs to a Cold Pan"
+      }
+    },
+    {
+      "warning": "Cooking over high heat: High temperatures force out water from proteins, resulting in rubbery, tough eggs with leathery whites before yolks can set.",
+      "source": {
+        "name": "10 Mistakes Everyone Makes Cooking Eggs - Food Network",
+        "location": "Mistake 4: Cooking Eggs Over High Heat"
+      }
+    },
+    {
+      "warning": "Cracking eggs on the rim of a bowl: Rim cracking shatters the shell, driving shards and surface bacteria into the egg white. Always crack on a flat surface.",
+      "source": {
+        "name": "10 Mistakes Everyone Makes Cooking Eggs - Food Network",
+        "location": "Mistake 5: Cracking Eggs on the Edge of a Bowl"
+      }
+    },
+    {
+      "warning": "Over-boiling hard-cooked eggs: Boiling too long produces an unappetizing sulfuric green-gray ring around the yolk.",
+      "source": {
+        "name": "10 Mistakes Everyone Makes Cooking Eggs - Food Network",
+        "location": "Mistake 6: Boiling Too Long"
+      }
+    },
+    {
+      "warning": "Peeling eggs while still warm: Warm egg whites bond securely to inner shells. Always plunge into ice water for at least 15 minutes before peeling.",
+      "source": {
+        "name": "10 Mistakes Everyone Makes Cooking Eggs - Food Network",
+        "location": "Mistake 7: Peeling Hard-Cooked Eggs While They're Hot"
+      }
+    }
+  ],
+  "methods": [
+    {
+      "method": "scramble",
+      "cut": "whisked whole eggs",
+      "heat": "Medium-low stovetop heat",
+      "time": "2 to 4 minutes",
+      "doneness": "Soft, creamy curds that are just set and still slightly glossy",
+      "rest": "1 minute on warm plate (carryover heat finishes cooking)",
+      "tips": "Preheat pan with a thin layer of melted butter; keep heat gentle and stir with a heat-resistant spatula, removing pan from heat while curds are still slightly soft.",
+      "source": {
+        "name": "10 Mistakes Everyone Makes Cooking Eggs - Food Network",
+        "location": "Pan heating & gentle temperature guidelines"
+      }
+    },
+    {
+      "method": "fry",
+      "cut": "whole cracked eggs (sunny-side up or over-easy)",
+      "heat": "Medium heat (or medium-high oil briefly, then immediately reduced to low)",
+      "time": "2 to 3 minutes for sunny-side up; flip and cook 30\u201345 seconds for over-easy",
+      "doneness": "Whites completely opaque and set; yolk warm and runny",
+      "rest": "None",
+      "tips": "Crack egg onto a flat counter first; slide into preheated greased skillet and lower heat immediately so whites remain tender.",
+      "source": {
+        "name": "10 Mistakes Everyone Makes Cooking Eggs - Food Network",
+        "location": "Mistake 4: Cooking Eggs Over High Heat"
+      }
+    },
+    {
+      "method": "boil",
+      "cut": "whole in-shell eggs (hard-cooked or soft-cooked)",
+      "heat": "Gentle boiling water",
+      "time": "6 to 7 minutes for soft-boiled; 9 to 11 minutes for hard-boiled",
+      "doneness": "Hard-boiled: yolk completely set with no gray ring; soft-boiled: firm white with warm jammy yolk",
+      "rest": "Soak in an ice water bath for at least 15 minutes before peeling",
+      "tips": "Never allow water to violently boil; plunge directly into an ice water bath immediately after timing to ease shell removal.",
+      "source": {
+        "name": "10 Mistakes Everyone Makes Cooking Eggs - Food Network",
+        "location": "Mistakes 6 & 7: Boiling and Peeling Rules"
+      }
+    },
+    {
+      "method": "bake",
+      "cut": "egg casserole / frittata",
+      "heat": "350\u00b0F to 375\u00b0F (175\u00b0C\u2013190\u00b0C) oven",
+      "time": "25 to 35 minutes",
+      "doneness": "160\u00b0F internal temperature; puffed, golden top with center fully set",
+      "rest": "5 to 10 minutes before slicing",
+      "tips": "Thoroughly grease baking dish; combine whole eggs with milk/cream and cheeses for structure that stays moist without weeping.",
+      "source": {
+        "name": "Our 50 Most-Popular Healthy Recipes - Food Network",
+        "location": "Healthy Breakfast Casserole"
+      }
+    }
+  ]
+}

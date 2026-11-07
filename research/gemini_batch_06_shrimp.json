@@ -1,6 +1,696 @@
-{
-  "theme": "shrimp",
-  "count": 0,
-  "skipped_note": "No qualifying recipes found in notebook sources meeting all criteria. Evaluated and skipped: 1. Shrimp Scampi from ENGLISH - Boston.gov (excluded under Rule 7: shrimp scampi and shrimp pasta are explicitly blacklisted). 2. Grilled Shrimp with Mint Salsa Verde from Heart Healthy Recipe Guide - HFSA (excluded under Rule 6: standalone protein and sauce lacking dedicated starch and vegetable components). 3. Mixed Tempura from Masterchef PDF - Bookey (excluded under Rule 5: deep frying is prohibited; also lacks ingredient measurements and step directions per Rule 1). 4. Thai Seafood Soup with Tableside Broth from Masterchef PDF - Bookey (excluded under Rule 7: soups are blacklisted; also editorial critique lacking structured recipe measurements per Rule 1).",
-  "recipes": []
-}
+[
+  {
+    "id": "shrimp_001_grilled_salsa_verde",
+    "title": "Grilled Shrimp Skewers with Mint Salsa Verde",
+    "cuisine": "med",
+    "format": "plate",
+    "source": {
+      "name": "Heart Healthy Recipe Guide - HFSA",
+      "location": "Section: Seafood Entr\u00e9es, Page 40"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 6,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "large raw shrimp, peeled and deveined, tail-on",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "fresh lemon juice",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "extra-virgin olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "clove",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "stalks",
+        "name": "green onions (scallions), chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "fresh mint leaves",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "fresh cilantro leaves",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "capers, drained",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "whole",
+        "name": "jalape\u00f1o pepper, seeded",
+        "role": "veg",
+        "optional": true
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "plain low-fat Greek yogurt",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "kosher salt and black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "In a shallow dish, whisk together half of the lemon juice, 1 teaspoon olive oil, and minced garlic. Toss shrimp to coat, cover, and chill for 10 minutes.",
+      "In a small food processor, pulse green onions, mint, cilantro, capers, jalape\u00f1o, yogurt, water, salt, pepper, remaining lemon juice, and remaining olive oil until creamy.",
+      "Preheat a grill pan or cast-iron skillet over medium-high heat and coat lightly with oil.",
+      "Remove shrimp from marinade, discarding residual liquid. Grill shrimp for 2 to 3 minutes per side until pink and pearly opaque throughout.",
+      "Drizzle the zesty herb salsa verde over the warm grilled shrimp and serve."
+    ],
+    "source_temperatures": [
+      {
+        "event": "grill pan preheat",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "doneness target",
+        "temp": "145\u00b0F (pearly and opaque throughout)"
+      }
+    ],
+    "swaps": "Greek yogurt can be replaced with sour cream or mayonnaise; jalape\u00f1o can be omitted for zero heat.",
+    "notes": "Classic heart-healthy preparation. Grilling takes only 5 to 6 minutes total."
+  },
+  {
+    "id": "shrimp_002_garlic_tomato_linguini",
+    "title": "Shrimp Saut\u00e9 with Garlic, Tomato, and Linguini",
+    "cuisine": "italian",
+    "format": "plate",
+    "source": {
+      "name": "ENGLISH - Boston.gov",
+      "location": "Boston Community Cookbook - Seafood, Page 40"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "medium-to-large raw shrimp, peeled and deveined",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "8",
+        "unit": "oz",
+        "name": "dried linguini or fettuccine pasta",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "4",
+        "unit": "cloves",
+        "name": "garlic, sliced thinly",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cups",
+        "name": "ripe plum tomatoes, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "fresh parsley, chopped",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "crushed red pepper flakes",
+        "role": "spice",
+        "optional": true
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "grated parmesan cheese",
+        "role": "sauce",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Bring a large pot of salted water to a boil and cook linguini until al dente; reserve 1/2 cup pasta cooking water and drain.",
+      "Heat olive oil in a heavy skillet over medium-high heat. Add shrimp and cook for 1 to 2 minutes per side until pink; transfer shrimp to a clean plate.",
+      "Add sliced garlic and red pepper flakes to pan drippings and saut\u00e9 for 30 seconds until fragrant.",
+      "Stir in diced tomatoes and simmer for 3 minutes until softened and juicy.",
+      "Return cooked shrimp and drained linguini to the skillet, tossing with reserved pasta water and chopped parsley to coat evenly.",
+      "Serve warm topped with freshly grated parmesan cheese."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      }
+    ],
+    "swaps": "Gluten-free pasta or zucchini noodles can substitute for linguini; canned diced tomatoes can replace fresh.",
+    "notes": "Fast 25-minute weeknight dinner with rich tomato-garlic pan emulsion."
+  },
+  {
+    "id": "shrimp_003_weeknight_shrimp_tacos",
+    "title": "Quick Weeknight Shrimp Tacos with Slaw",
+    "cuisine": "mexican",
+    "format": "plate",
+    "source": {
+      "name": "Healthy Weeknight Dinners You'll Actually Crave - Dishing Out Health",
+      "location": "Quick Weeknight Tacos Section"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 5,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "raw shrimp, peeled, deveined, and tails removed",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "8",
+        "unit": "whole",
+        "name": "small corn or flour tortillas",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "chili powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "ground cumin and garlic powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cups",
+        "name": "shredded red and green cabbage slaw",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "ripe avocado, sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "fresh lime juice",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "fresh cilantro, chopped",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "In a medium bowl, toss peeled shrimp with olive oil, chili powder, cumin, garlic powder, salt, and pepper.",
+      "Heat a large skillet over medium-high heat. Add shrimp in a single layer and sear for 2 minutes per side until opaque and lightly spiced.",
+      "In a separate bowl, toss shredded cabbage with fresh lime juice, a drizzle of oil, and cilantro.",
+      "Warm tortillas in a dry skillet or directly over an open flame for 30 seconds per side.",
+      "Assemble tacos by layering seasoned shrimp into warm tortillas, topping with cabbage slaw and fresh avocado slices."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      }
+    ],
+    "swaps": "Can use store-bought taco seasoning blend; Greek yogurt crema can be drizzled over top.",
+    "notes": "Superfast 20-minute dinner; avoid overcooking shrimp so tacos remain tender and juicy."
+  },
+  {
+    "id": "shrimp_004_veggie_saute_lo_mein",
+    "title": "Quick Shrimp and Veggie Saut\u00e9 Lo Mein",
+    "cuisine": "asian",
+    "format": "pot",
+    "source": {
+      "name": "Healthy Weeknight Dinners You'll Actually Crave - Dishing Out Health",
+      "location": "Easy Noodle & Stir Fry Mains"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 8,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "raw shrimp, peeled and deveined",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "8",
+        "unit": "oz",
+        "name": "lo mein egg noodles or ramen noodles",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "toasted sesame oil or peanut oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cups",
+        "name": "snap peas and shredded carrots",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "red bell pepper, thinly sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "fresh ginger, grated",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "tbsp",
+        "name": "low-sodium soy sauce",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "oyster sauce or hoisin sauce",
+        "role": "sauce",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Cook noodles according to package instructions until tender; drain and rinse with cold water.",
+      "Heat 1 tablespoon sesame oil in a wok or large skillet over high heat. Add shrimp and stir-fry for 2 minutes until pink; remove to a plate.",
+      "Add remaining oil to wok with minced garlic and ginger, cooking for 30 seconds until fragrant.",
+      "Toss in sliced bell pepper, snap peas, and carrots, stir-frying over high heat for 3 minutes until crisp-tender.",
+      "Whisk together soy sauce and oyster sauce. Add cooked noodles, saut\u00e9ed shrimp, and sauce mixture to wok, tossing vigorously for 1 to 2 minutes until hot and coated."
+    ],
+    "source_temperatures": [
+      {
+        "event": "wok stir-fry",
+        "temp": "high heat"
+      }
+    ],
+    "swaps": "Can substitute spaghetti or udon for lo mein noodles; tamari for gluten-free.",
+    "notes": "One-pan noodle dinner packed with crisp vegetables and savory umami glaze."
+  },
+  {
+    "id": "shrimp_005_thai_red_curry",
+    "title": "Thai Red Curry Shrimp with Vegetables",
+    "cuisine": "thai",
+    "format": "pot",
+    "source": {
+      "name": "Recipes - The Nutrition Source | Harvard T.H. Chan School of Public Health",
+      "location": "Healthy Seafood Curries Section"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 12,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "raw shrimp, peeled and deveined",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "can (13.5 oz)",
+        "name": "light or full-fat coconut milk",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "Thai red curry paste",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "coconut oil or neutral oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "red bell pepper, sliced into strips",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "cup",
+        "name": "sliced zucchini or bamboo shoots",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "fish sauce",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "fresh lime juice",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "fresh Thai basil leaves",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cups",
+        "name": "steamed jasmine rice (for serving)",
+        "role": "starch",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Heat coconut oil in a deep skillet or Dutch oven over medium heat. Add red curry paste and fry for 1 minute until fragrant.",
+      "Pour in coconut milk and stir until the curry paste completely dissolves; bring to a gentle simmer.",
+      "Add sliced bell pepper and zucchini, simmering for 4 to 5 minutes until vegetables begin to soften.",
+      "Add raw shrimp and fish sauce to the simmering curry; cook gently for 3 to 4 minutes until shrimp turn pink and opaque.",
+      "Remove from heat, stir in fresh lime juice and Thai basil leaves, and ladle over steamed jasmine rice."
+    ],
+    "source_temperatures": [
+      {
+        "event": "simmer",
+        "temp": "medium-low heat (gentle simmer)"
+      }
+    ],
+    "swaps": "Can substitute green curry paste; sweet Italian basil works if Thai basil is unavailable.",
+    "notes": "Adding shrimp at the final stage keeps them exceptionally tender and prevents curdling."
+  },
+  {
+    "id": "shrimp_006_shrimp_okra_gumbo",
+    "title": "Traditional Shrimp & Chicken Okra Gumbo",
+    "cuisine": "cajun",
+    "format": "pot",
+    "source": {
+      "name": "Recipes - The Nutrition Source | Harvard T.H. Chan School of Public Health",
+      "location": "Traditional Soups & Gumbos Section"
+    },
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "raw shrimp, peeled and deveined",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "boneless skinless chicken breast, diced",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cups",
+        "name": "fresh or frozen sliced okra",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "medium yellow onion, chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "green bell pepper, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "stalks",
+        "name": "celery, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "4",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "4",
+        "unit": "cups",
+        "name": "low-sodium chicken broth",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "can (14.5 oz)",
+        "name": "diced tomatoes with juices",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "Cajun / Creole seasoning",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cups",
+        "name": "cooked long-grain white rice",
+        "role": "starch",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Heat 1 tablespoon oil in a large Dutch oven over medium-high heat. Brown diced chicken for 5 minutes, then remove to a plate.",
+      "Add remaining oil to pot and saut\u00e9 onion, bell pepper, and celery (the Cajun holy trinity) for 5 minutes until softened.",
+      "Add minced garlic, Cajun seasoning, sliced okra, diced tomatoes, and chicken broth, stirring well and bringing to a boil.",
+      "Reduce heat to low, return chicken to pot, cover, and simmer gently for 25 minutes to blend flavors and allow okra to naturally thicken the broth.",
+      "Stir in raw shrimp and cook for 5 to 6 minutes until shrimp turn pink and opaque.",
+      "Ladle hearty gumbo into bowls over scoops of warm white rice."
+    ],
+    "source_temperatures": [
+      {
+        "event": "Dutch oven simmer",
+        "temp": "medium-low heat"
+      }
+    ],
+    "swaps": "Can add andouille sausage for deeper smoke; frozen okra works just as well as fresh.",
+    "notes": "Okra acts as a natural thickener; adding shrimp at the very end guarantees optimal texture."
+  },
+  {
+    "id": "shrimp_007_garlic_butter_scampi",
+    "title": "Garlic Butter Shrimp Scampi",
+    "cuisine": "italian",
+    "format": "plate",
+    "source": {
+      "name": "45 Healthy Comfort Food Recipes - Food Network & Swanky Recipes",
+      "location": "Classic Healthy Seafood Section"
+    },
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 6,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "large raw shrimp, peeled and deveined, tail-on",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "8",
+        "unit": "oz",
+        "name": "linguini or angel hair pasta",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "tbsp",
+        "name": "butter",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "5",
+        "unit": "cloves",
+        "name": "garlic, thinly sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.33",
+        "unit": "cup",
+        "name": "dry white wine (or chicken broth)",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "fresh lemon juice",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "fresh parsley, finely chopped",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "tsp",
+        "name": "crushed red pepper flakes",
+        "role": "spice",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Cook pasta in salted boiling water until al dente; drain and set aside.",
+      "In a large skillet, heat olive oil and 1 tablespoon butter over medium-high heat.",
+      "Add shrimp in a single uncrowded layer and sear for 1 to 2 minutes per side until pink; remove to a warm plate.",
+      "Add sliced garlic and red pepper flakes to pan drippings, cooking for 30 seconds until fragrant.",
+      "Pour in white wine and lemon juice, bringing to a simmer for 1 to 2 minutes until reduced by half.",
+      "Whisk in remaining 2 tablespoons cold butter and chopped parsley until a glossy emulsion forms.",
+      "Toss pasta and shrimp back into the skillet for 1 minute until warmed through and coated in glossy scampi sauce."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      }
+    ],
+    "swaps": "Chicken broth with 1 tsp lemon juice can substitute for white wine; serve with crusty bread instead of pasta.",
+    "notes": "Classic Italian-American scampi. Swirling in cold butter off heat creates the silky restaurant emulsion."
+  }
+]

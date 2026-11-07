@@ -1,0 +1,103 @@
+{
+  "theme": "lamb",
+  "category": "cooking_notes",
+  "description": "Source gap analysis, missing culinary parameters, and unverified preparations for lamb across NotebookLM sources.",
+  "source_notebook": {
+    "name": "Global Food Trends and Recipes",
+    "id": "notebooks/5c787d4e-8d68-497e-a784-1cf548ae9a82"
+  },
+  "summary_of_gaps": "While the notebook sources thoroughly document slow-cooked bone-in roasts (leg and shoulder), gourmet stuffed saddle, and sous-vide loin chops, significant gaps exist for everyday quick-cooking methods (stovetop pan-searing of raw chops), ground lamb preparations, bone-in grilling, and braised shanks/stew cuts.",
+  "uncovered_cuts": [
+    {
+      "cut": "ground lamb",
+      "status": "missing_cooking_rules_and_recipes",
+      "known_facts_in_sources": {
+        "safe_temperature": "160\u00b0F internal temperature per FDA Safe Minimum Internal Temperatures chart",
+        "source": {
+          "name": "SAFE MINIMUM INTERNAL TEMPERATURES as measured with a food thermometer - FDA",
+          "location": "https://www.fda.gov/media/107000/download"
+        }
+      },
+      "missing_from_sources": [
+        "No cooking method (pan-fry, grill, bake, broil) is documented for ground lamb patties, meatballs, or loose mince.",
+        "No pan temperature, oven temperature, or cook times are provided.",
+        "No recipes, seasoning ratios, or starch/vegetable pairings specific to ground lamb exist in the sources."
+      ],
+      "app_recommendation": "The app should flag that internal sources lack ground lamb guidelines and enforce the safe minimum 160\u00b0F internal temperature standard."
+    },
+    {
+      "cut": "lamb chops (bone-in loin chops, rib chops, cutlets)",
+      "status": "partial_coverage_sous_vide_only",
+      "known_facts_in_sources": {
+        "sous_vide_method": "Water bath at 118\u00b0F\u2013120\u00b0F for 1.5\u20132 hours (1-inch thick), followed by paper-towel drying and 30\u201360 second cast-iron sear per side.",
+        "aromatics": "Rosemary, garlic, cracked black peppercorns (Colorado lamb chops reference).",
+        "sources": [
+          {
+            "name": "Perfect Sous Vide Steak Recipe (Time & Temp Guide) - Fit Foodie Finds",
+            "location": "James McNulty Lamb Chops Guide"
+          },
+          {
+            "name": "Global Food Trends and Recipes",
+            "location": "Colorado Lamb Loin Chops Reference"
+          }
+        ]
+      },
+      "missing_from_sources": [
+        "No standalone stovetop pan-searing or pan-basting instructions for raw chops from start to finish.",
+        "No direct grilling times or grate temperatures for bone-in rib chops or loin chops.",
+        "No baking or broiling times for chops."
+      ],
+      "app_recommendation": "If users input raw lamb chops for stovetop or grill without sous-vide equipment, the app must note that notebook sources only verified precision sous-vide followed by a quick sear."
+    },
+    {
+      "cut": "rack of lamb",
+      "status": "completely_uncovered",
+      "missing_from_sources": [
+        "No roasting temperatures, sear-first vs reverse-sear methods, or oven roasting times for whole or frenched racks of lamb.",
+        "No herb crust or breadcrumb coating specifications."
+      ],
+      "app_recommendation": "App needs general culinary rules or external fallback parameters if users select rack of lamb."
+    },
+    {
+      "cut": "lamb shanks and stew meat (neck / shoulder chunks)",
+      "status": "completely_uncovered",
+      "missing_from_sources": [
+        "No braising times, liquid-to-meat ratios, or simmering temperatures for individual lamb shanks or diced stew meat.",
+        "Sources only cover whole bone-in shoulder (3.5\u20134 lbs) and whole leg (4\u20136 lbs)."
+      ],
+      "app_recommendation": "App cannot directly scale whole shoulder/leg 3-hour braises down to individual shanks or diced stew cuts without general braising rules."
+    }
+  ],
+  "uncovered_cooking_methods": [
+    {
+      "method": "pan-sear / pan-fry (stovetop only)",
+      "gap_description": "No direct pan-searing times or temperatures exist for raw lamb cuts (steaks, chops, or medallions). Pan searing is only mentioned as a brief 4\u20135 minute pre-sear before roasting a rolled saddle, or as a 30\u201360 second post-sous-vide crust sear."
+    },
+    {
+      "method": "direct grilling / barbecue",
+      "gap_description": "Grilling is only documented for boneless fillet steaks cut from the leg (3\u20134 minutes per side for salad presentation). No grilling guidelines exist for bone-in chops, skewers/kebabs, or racks."
+    },
+    {
+      "method": "broil",
+      "gap_description": "Broiling is not mentioned or timed for any lamb cut across all notebook sources."
+    },
+    {
+      "method": "stir-fry",
+      "gap_description": "Stir-frying thinly sliced lamb (e.g. with scallions or cumin) is completely absent from notebook sources."
+    },
+    {
+      "method": "poach / simmer",
+      "gap_description": "No poaching or stovetop simmering rules exist for lamb; moist-heat cooking is limited to covered oven braising."
+    }
+  ],
+  "unresolved_disagreements_and_temperature_cues": [
+    {
+      "issue": "Safe internal temperature vs culinary doneness",
+      "detail": "FDA mandates 145\u00b0F with a 3-minute rest for whole cuts, whereas culinary sources in the notebook advocate 118\u00b0F\u2013120\u00b0F (sous vide) and 130\u00b0F\u2013135\u00b0F (chargrilled steaks). The app rules engine must decide whether to enforce regulatory minimums or chef-recommended medium-rare targets."
+    },
+    {
+      "issue": "Resting time calculation for large roasts",
+      "detail": "WebstaurantStore resting guide gives general rules (5 mins/inch, 10 mins/lb), but RecipeTin Eats roasts specify fixed 15\u201320 minute resting periods regardless of exact weight."
+    }
+  ]
+}

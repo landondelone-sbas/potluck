@@ -1,0 +1,52 @@
+{
+  "id": "eggplanttofu",
+  "cuisine": "thai",
+  "format": "plate",
+  "title": "Coconut {p} with Roasted {v}",
+  "minutes": 40,
+  "feel": "Fresh",
+  "wants": {
+    "protein": ["tofu"],
+    "veg": ["eggplant", "tomato", "pepper", "greens", "onion", "cucumber"],
+    "spice": ["herbs", "chili", "garlic", "lemon"],
+    "sauce": ["soy", "vinaigrette", "honey", "coconut"],
+    "starch": ["rice", "noodles"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "tofu",
+    "veg": "eggplant",
+    "spice": "mint",
+    "sauce": "soy sauce",
+    "starch": "jasmine rice"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 400,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 350,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Start the sides first. {starch_how} {veg_how}",
+    "Press the {p} and cut it into thick strips. Dust with cornstarch, press into unsweetened shredded coconut, and pan-fry in oil over medium heat 3 to 4 minutes a side, until golden.",
+    "Whisk the {sauce} with lime juice, a little maple syrup and chili flakes.",
+    "Toss the {v} with the {spice} and half the dressing, top with the tofu, drizzle with the rest, and serve with the {s}."
+  ],
+  "tip": "Roast the eggplant with only a spoonful of oil and let the lime do the work."
+}

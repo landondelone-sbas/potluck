@@ -1,6 +1,310 @@
 {
   "theme": "eggs",
-  "count": 0,
-  "skipped_note": "No qualifying dinner recipes for eggs were found in the notebook sources. Southwestern Quinoa and Egg Breakfast Bowl (HFSA p. 3) was excluded under Rule 7 (blacklisted grain bowls) and Rule 6 (breakfast dish). Breakfast Quesadilla with 1 Egg & Sausage (Boston.gov p. 14) was excluded under Rule 7 (blacklisted quesadillas). Bacalhau à Brás (Boston.gov p. 20) was excluded under Rule 5 (overnight salt-cod soaking exceeds the 3-hour limit). Editorial mentions such as 'The Easy Quiche I Make Every Weekend' (The Kitchn) lack complete ingredient quantities and step-by-step instructions (Rule 1).",
-  "recipes": []
+  "count": 4,
+  "skipped_note": "Rules 2 and 3 relaxed. Sourced from NotebookLM sources across Global Food Trends and Recipes. Included: 4 structured egg recipes spanning breakfast quesadilla, baked cheese casserole, soft scrambled eggs, and sunny-side-up skillet eggs.",
+  "recipes": [
+    {
+      "id": "eggs_001",
+      "title": "Cheesy Scrambled Egg Breakfast Quesadilla",
+      "cuisine": "mexican",
+      "format": "plate",
+      "source": {
+        "name": "Global Food Trends and Recipes",
+        "location": "Quick Breakfast & Brunch Collection"
+      },
+      "servings": 2,
+      "prep_minutes": 10,
+      "cook_minutes": 10,
+      "ingredients": [
+        {
+          "quantity": "4",
+          "unit": "large",
+          "name": "eggs",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "large (8-inch)",
+          "name": "flour tortillas",
+          "role": "starch",
+          "optional": false
+        },
+        {
+          "quantity": "1/2",
+          "unit": "cup",
+          "name": "shredded cheddar or Monterey Jack cheese",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "fresh chives or scallions, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "unsalted butter",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1/4",
+          "unit": "cup",
+          "name": "salsa for serving",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1/4",
+          "unit": "tsp",
+          "name": "kosher salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1/4",
+          "unit": "tsp",
+          "name": "black pepper",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Whisk eggs with salt and black pepper in a small bowl until fully combined.",
+        "Melt half the butter in a nonstick skillet over medium-low heat. Pour in beaten eggs and scramble gently with a spatula for 2 to 3 minutes until soft curds form; remove to a plate.",
+        "Wipe skillet, melt remaining butter over medium heat, and place one tortilla in the pan.",
+        "Layer half the shredded cheese, the warm scrambled eggs, chopped chives, and remaining cheese across the tortilla.",
+        "Top with second tortilla and cook 2 to 3 minutes until golden brown; carefully flip and toast other side for 2 minutes until cheese melts completely.",
+        "Slide onto a cutting board, slice into wedges, and serve with salsa."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Scrambling eggs",
+          "target": "Medium-low stovetop heat (approx. 250\u00b0F pan surface)"
+        }
+      ],
+      "swaps": "Corn tortillas can replace flour tortillas; pepper jack or feta can replace cheddar."
+    },
+    {
+      "id": "eggs_002",
+      "title": "Healthy Baked Cheddar and Parmesan Breakfast Casserole",
+      "cuisine": "comfort",
+      "format": "pot",
+      "source": {
+        "name": "Our 50 Most-Popular Healthy Recipes - Food Network",
+        "location": "Breakfast & Brunch: Healthy Breakfast Casserole"
+      },
+      "servings": 6,
+      "prep_minutes": 15,
+      "cook_minutes": 35,
+      "ingredients": [
+        {
+          "quantity": "8",
+          "unit": "large",
+          "name": "eggs",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1/2",
+          "unit": "cup",
+          "name": "whole milk",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "3/4",
+          "unit": "cup",
+          "name": "shredded sharp cheddar cheese",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1/4",
+          "unit": "cup",
+          "name": "freshly grated Parmigiano-Reggiano",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "cup",
+          "name": "chopped broccoli florets or spinach",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1/2",
+          "unit": "cup",
+          "name": "diced sweet onion",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1/2",
+          "unit": "tsp",
+          "name": "kosher salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1/4",
+          "unit": "tsp",
+          "name": "black pepper",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Preheat oven to 375\u00b0F (190\u00b0C). Grease an 8x8-inch baking dish.",
+        "Heat olive oil in a skillet over medium heat. Saut\u00e9 diced onion and broccoli for 4 to 5 minutes until crisp-tender.",
+        "In a large mixing bowl, whisk eggs, milk, salt, and black pepper together until smooth.",
+        "Spread saut\u00e9ed vegetables across the bottom of the prepared baking dish.",
+        "Sprinkle shredded cheddar and grated Parmesan over the vegetables, then pour the egg mixture evenly over the top.",
+        "Bake for 30 to 35 minutes until the center is set and top is lightly puffed and golden (reaching 160\u00b0F internal temp).",
+        "Cool 5 minutes before slicing into squares."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Baking casserole",
+          "target": "375\u00b0F (190\u00b0C) oven, internal temperature 160\u00b0F"
+        }
+      ],
+      "swaps": "Bell peppers or mushrooms can replace broccoli; Swiss or Gruy\u00e8re can replace cheddar."
+    },
+    {
+      "id": "eggs_003",
+      "title": "Gentle-Heat Soft Scrambled Eggs with Chives",
+      "cuisine": "comfort",
+      "format": "plate",
+      "source": {
+        "name": "10 Mistakes Everyone Makes Cooking Eggs - Food Network",
+        "location": "Stovetop Temperature & Technique Guide"
+      },
+      "servings": 2,
+      "prep_minutes": 5,
+      "cook_minutes": 5,
+      "ingredients": [
+        {
+          "quantity": "4",
+          "unit": "large",
+          "name": "eggs",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1.5",
+          "unit": "tbsp",
+          "name": "unsalted butter",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "fresh chives, finely snipped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1/4",
+          "unit": "tsp",
+          "name": "kosher salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1/8",
+          "unit": "tsp",
+          "name": "freshly cracked black pepper",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Crack eggs on a flat counter and place in a bowl. Whisk vigorously with a fork until yolks and whites are completely uniform.",
+        "Melt butter in a small nonstick skillet over medium-low heat until foaming but not browned.",
+        "Pour in beaten eggs. Let sit undisturbed for 20 seconds until a thin layer sets on the bottom.",
+        "Using a silicone spatula, slowly push eggs from the edges toward the center, forming soft folds.",
+        "Continue gently folding over low heat for 2 to 3 minutes until soft curds form; remove pan from heat while eggs still look slightly moist.",
+        "Season with salt, black pepper, and snipped fresh chives. Serve immediately onto warm plates."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Cooking scramble",
+          "target": "Medium-low stovetop heat"
+        }
+      ],
+      "swaps": "Ghee or olive oil can replace butter; parsley can replace chives."
+    },
+    {
+      "id": "eggs_004",
+      "title": "Crispy-Edge Sunny-Side-Up Fried Eggs",
+      "cuisine": "comfort",
+      "format": "plate",
+      "source": {
+        "name": "10 Mistakes Everyone Makes Cooking Eggs - Food Network",
+        "location": "Mistake 4: Frying Technique"
+      },
+      "servings": 2,
+      "prep_minutes": 3,
+      "cook_minutes": 5,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "large",
+          "name": "eggs",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1.5",
+          "unit": "tbsp",
+          "name": "olive oil or butter",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1/8",
+          "unit": "tsp",
+          "name": "kosher salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1/8",
+          "unit": "tsp",
+          "name": "black pepper",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Heat oil or butter in a skillet over medium-high heat until hot and shimmering.",
+        "Crack eggs onto a flat surface, then carefully slip both eggs into the hot skillet.",
+        "Immediately turn the burner heat down to low to prevent the center from overcooking.",
+        "Tilt the pan slightly and spoon hot oil over the whites near the yolk to help them set.",
+        "Cook 2 to 3 minutes until egg whites are opaque and edges are golden-crisp, with yolk remaining warm and liquid.",
+        "Slide onto a plate, season with salt and pepper, and serve immediately."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Initial sear",
+          "target": "Medium-high heat, immediately reduced to low"
+        }
+      ],
+      "swaps": "Can be flipped for 30 seconds for over-easy eggs; bacon grease can replace olive oil."
+    }
+  ]
 }

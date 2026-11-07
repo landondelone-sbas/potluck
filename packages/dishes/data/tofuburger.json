@@ -1,0 +1,52 @@
+{
+  "id": "tofuburger",
+  "cuisine": "comfort",
+  "format": "plate",
+  "title": "Mushroom {p} Burgers",
+  "minutes": 40,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["tofu"],
+    "veg": ["mushroom", "onion", "pepper", "zucchini"],
+    "spice": ["smoky", "paprika", "garlic", "pepper"],
+    "sauce": ["mustard", "ranch", "bbq"],
+    "starch": ["bread"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "tofu",
+    "veg": "mushrooms",
+    "spice": "smoked paprika",
+    "sauce": "mustard",
+    "starch": "whole-wheat buns"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 400,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 4,
+      "unit": "n"
+    }
+  },
+  "steps": [
+    "Press the {p} between towels under a weight for 15 minutes, then crumble it. Chop the {v} fine and sauté 6 to 8 minutes, until the moisture cooks off.",
+    "Mash the {p}, the cooked {v}, the {spice}, a spoonful of soy sauce, half a cup of oats or breadcrumbs, and a spoonful of ground flaxseed stirred with 3 tablespoons of water, until it holds together.",
+    "Shape into 4 firm patties and pan-fry in a little oil over medium heat 5 to 6 minutes a side, until deeply golden and firm.",
+    "Toast the {s}, spread with the {sauce}, and build the burgers with lettuce and sliced tomato."
+  ],
+  "tip": "Serve on one bun half with a big side salad."
+}

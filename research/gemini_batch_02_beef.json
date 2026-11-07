@@ -1,105 +1,708 @@
-{
-  "theme": "beef",
-  "count": 1,
-  "skipped_note": "The notebook contains only 1 qualifying beef dinner recipe that satisfies all constraints. Other beef candidates in notebook sources were excluded based on strict rules: (1) 'Slow Cooker Harvest Beef Stew' (Heart Healthy Recipe Guide - HFSA) was excluded under Rule 5 (cook time exceeds 3 hours: 5-6 hours on high, 10-12 hours on low) and Rule 7 (stews are blacklisted); (2) 'Hamburgers' (Ultimate Guide to Beef | Burgers' Smokehouse) was excluded under Rule 7 (burgers are blacklisted); (3) 'Oven-Baked Brisket' (Ultimate Guide to Beef | Burgers' Smokehouse) was excluded under Rule 5 (cook time of 3 hours plus prep/rest exceeds the 3-hour limit) and Rule 6 (missing vegetable and starch components); (4) 'One-Pan Cheesy Ground Beef and Potatoes' (The Kitchn) was excluded under Rule 1 (source text is an editorial roundup linking out externally; full ingredient quantities and preparation steps are absent from the notebook); (5) 'Korean Beef Bowls' (The Kitchn) was excluded under Rule 7 (grain/burrito bowls are blacklisted) and Rule 1 (external link only); (6) 'Stone Soup with beef broth' (ENGLISH - Boston.gov) was excluded under Rule 7 (soups are blacklisted); and (7) 'Beef Kabobs / Steaks / Stir-fries' (BEEF COOKERY - NDBeef) contained only temperature and grilling time reference charts rather than full 5-component dinner recipes.",
-  "recipes": [
-    {
-      "id": "beef_001",
-      "title": "Slow-Cooked Pot Roast",
-      "cuisine": "comfort",
-      "format": "pot",
-      "source": {
-        "name": "Heart Healthy Recipe Guide - HFSA",
-        "location": "Complete Meals & Main Dishes, Slow-Cooked Pot Roast"
+[
+  {
+    "id": "beef_001_classic_pot_roast",
+    "title": "Classic Slow-Cooker Beef Pot Roast",
+    "cuisine": "comfort",
+    "format": "pot",
+    "source": {
+      "name": "Heart Healthy Recipe Guide - HFSA",
+      "location": "Beef Entr\u00e9es Section, Page 30"
+    },
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 180,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "lbs",
+        "name": "boneless beef chuck pot roast, trimmed of excess fat",
+        "role": "protein",
+        "optional": false
       },
-      "servings": 6,
-      "prep_minutes": 20,
-      "cook_minutes": 120,
-      "ingredients": [
-        {
-          "quantity": "1.5",
-          "unit": "lb",
-          "name": "beef top round roast, trimmed of fat and brought to room temperature",
-          "role": "protein",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "medium",
-          "name": "potatoes, unpeeled and cut into 2-inch chunks",
-          "role": "starch",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "medium",
-          "name": "carrots, sliced crosswise into 1-inch pieces",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "medium ribs",
-          "name": "celery, cut into 1-inch pieces",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "medium",
-          "name": "yellow onion, thinly sliced",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "3",
-          "unit": "cloves",
-          "name": "garlic, coarsely chopped",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "1/4",
-          "unit": "tsp",
-          "name": "salt",
-          "role": "staple",
-          "optional": false
-        },
-        {
-          "quantity": "to taste",
-          "unit": "",
-          "name": "black pepper",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "cup",
-          "name": "water (for braising pan juices)",
-          "role": "sauce",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "tbsp",
-          "name": "olive oil",
-          "role": "staple",
-          "optional": false
-        }
-      ],
-      "steps": [
-        "Preheat the oven to 325°F.",
-        "Heat the olive oil over medium heat in a large, heavy oven-safe pot, tilting to coat the bottom.",
-        "Add the beef roast and sear for 2 to 3 minutes on each side until evenly browned.",
-        "Season the seared beef with the salt and freshly cracked black pepper.",
-        "Scatter the chopped garlic, celery, potatoes, carrots, and sliced onion around the roast, then pour in the water.",
-        "Cover the pot tightly with its lid and transfer to the oven to bake for 2 hours.",
-        "Remove the beef to a cutting board, tent loosely with aluminum foil, and let rest for 15 minutes before thinly slicing.",
-        "Arrange the sliced beef on a serving platter, transfer the braised vegetables alongside using a slotted spoon, and spoon the warm pan juices over the meat."
-      ],
-      "source_temperatures": [],
-      "swaps": "",
-      "notes": "Equipment: large, heavy ovenproof pot with tight-fitting lid. Passive time: 1 hour resting at room temperature before searing, and 15 minutes resting under foil after cooking. The pan drippings and braising water create the natural pan sauce drizzled over the roast."
-    }
-  ]
-}
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "large yellow onion, chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "4",
+        "unit": "whole",
+        "name": "medium carrots, cut into 2-inch chunks",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "stalks",
+        "name": "celery, cut into 1-inch pieces",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "baby red potatoes, halved",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cups",
+        "name": "low-sodium beef broth",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "Worcestershire sauce",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "sprigs",
+        "name": "fresh rosemary and fresh thyme",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "bay leaf",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "kosher salt and black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Pat chuck roast dry and season all sides with kosher salt and black pepper.",
+      "Heat olive oil in a large skillet over medium-high heat. Sear roast for 4 to 5 minutes per side until deeply browned on all sides; transfer to slow cooker.",
+      "In the same skillet, saut\u00e9 onions, celery, and garlic for 2 minutes to loosen fond; pour in beef broth and Worcestershire sauce, bringing to a simmer.",
+      "Arrange carrots, potatoes, and herb sprigs around the roast in the slow cooker. Pour warm broth mixture over top.",
+      "Cover and cook on low for 6 to 8 hours (or in 325\u00b0F oven for 3 hours) until beef is fork-tender (internal temp 195\u00b0F\u2013205\u00b0F).",
+      "Transfer roast to a cutting board, rest for 10 minutes, and slice or shred into large pieces. Serve with the braised vegetables and rich pan juices."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "braise",
+        "temp": "325\u00b0F (163\u00b0C) or slow cooker low (approx. 200\u00b0F)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "195\u00b0F\u2013205\u00b0F (fork-tender)"
+      }
+    ],
+    "swaps": "Can substitute rump roast or bottom round; red wine can replace 1 cup of beef broth.",
+    "notes": "Searing first develops rich flavor; cooking low and slow dissolves connective tissue into gelatin."
+  },
+  {
+    "id": "beef_002_heart_healthy_beef_stew",
+    "title": "Heart-Healthy Slow-Cooker Beef Stew",
+    "cuisine": "comfort",
+    "format": "pot",
+    "source": {
+      "name": "Heart Healthy Recipe Guide - HFSA",
+      "location": "Slow Cooker Soups & Stews, Page 34"
+    },
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 150,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "lbs",
+        "name": "lean beef stew meat (chuck), cut into 1-inch cubes",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "all-purpose flour (for dusting)",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "yellow onion, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "whole",
+        "name": "carrots, sliced into 1-inch rounds",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "stalks",
+        "name": "celery, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "Yukon gold potatoes, cubed",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "cups",
+        "name": "low-sodium beef broth",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "dried thyme and dried rosemary",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "bay leaf",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Toss beef cubes with flour, salt, and pepper in a bowl to coat lightly.",
+      "Heat olive oil in a Dutch oven or large skillet over medium-high heat. Brown beef cubes in uncrowded batches (3 to 4 minutes per batch); transfer to slow cooker or stew pot.",
+      "Add diced onion, celery, and garlic to skillet, cooking for 2 minutes until fragrant. Stir in tomato paste and 1 cup of beef broth, scraping up browned bits from bottom.",
+      "Add potatoes, carrots, remaining broth, thyme, rosemary, bay leaf, and saut\u00e9ed mixture into pot with beef.",
+      "Cover and simmer on low for 6 to 7 hours (or in 325\u00b0F oven for 2.5 hours) until beef is meltingly tender and gravy is thickened.",
+      "Discard bay leaf, season with additional black pepper, and ladle into warm bowls with crusty bread."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet browning",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "simmer",
+        "temp": "low heat (approx. 195\u00b0F)"
+      }
+    ],
+    "swaps": "Can add 8 oz sliced cremini mushrooms; sweet potatoes can replace Yukon golds.",
+    "notes": "Dusting beef lightly with flour gives meat a rich brown crust and naturally thickens the stew broth."
+  },
+  {
+    "id": "beef_003_cast_iron_burgers",
+    "title": "All-American Cast-Iron Hamburger Patties",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "Ultimate Guide to Beef | Burgers' Smokehouse",
+      "location": "How to Cook Hamburgers Section"
+    },
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 8,
+    "ingredients": [
+      {
+        "quantity": "1.5",
+        "unit": "lbs",
+        "name": "fresh ground beef (80/20 or 85/15 lean)",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "kosher salt",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "freshly cracked black pepper",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "garlic powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "butter or neutral oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "4",
+        "unit": "whole",
+        "name": "hamburger buns or brioche buns",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "4",
+        "unit": "slices",
+        "name": "cheddar or American cheese",
+        "role": "sauce",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Divide ground beef into 4 equal portions (6 oz each). Shape gently into 3/4-inch thick patties, pressing a slight depression in the center with your thumb to keep patties flat during cooking.",
+      "Season both sides generously with salt, pepper, and garlic powder just before cooking.",
+      "Heat a heavy cast-iron skillet over medium-high heat until hot. Melt butter to coat the pan.",
+      "Add patties to skillet. Cook undisturbed for 3 to 4 minutes until a deep caramelized crust forms.",
+      "Flip patties with a spatula. If adding cheese, place cheese slices on top now. Cook for another 3 to 4 minutes without pressing down on patties.",
+      "Check with an instant-read thermometer inserted horizontally into center of patty until temperature reads exactly 160\u00b0F (medium doneness).",
+      "Transfer to toasted buns and serve immediately with favorite toppings."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "doneness target",
+        "temp": "160\u00b0F (71.1\u00b0C) internal"
+      }
+    ],
+    "swaps": "Can use ground chuck or ground sirloin; Swiss or pepper jack cheese can substitute for cheddar.",
+    "notes": "Never press down on patties while searing to preserve natural juiciness. Cook to 160\u00b0F for food safety."
+  },
+  {
+    "id": "beef_004_oven_roasted_rib_roast",
+    "title": "Oven-Roasted Classic Beef Rib Roast",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "Ultimate Guide to Beef | Burgers' Smokehouse",
+      "location": "How to Cook Beef Roasts Section"
+    },
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "lbs",
+        "name": "bone-in beef rib roast (prime rib), fat trimmed to 1/4 inch",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "coarse sea salt and cracked black pepper",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "4",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "fresh rosemary and thyme, finely chopped",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Remove rib roast from refrigerator 1 hour before cooking to bring to room temperature. Pat completely dry with paper towels.",
+      "Preheat oven to 450\u00b0F (232\u00b0C).",
+      "Mix olive oil, minced garlic, chopped rosemary, thyme, coarse salt, and black pepper into an herb paste; rub paste evenly across all surfaces of the roast.",
+      "Place roast bone-side down (fat-side up) on a rack inside an open shallow roasting pan.",
+      "Roast at 450\u00b0F for 15 minutes to establish a crisp browned crust.",
+      "Reduce oven temperature to 325\u00b0F (163\u00b0C) without opening the oven door. Continue roasting for 1 hour 15 minutes to 1 hour 30 minutes until a meat thermometer inserted into thickest part reads 135\u00b0F for medium-rare.",
+      "Transfer roast to a carving board, tent loosely with aluminum foil, and rest for 15 to 20 minutes (internal temperature will rise to 145\u00b0F). Carve between bones and serve."
+    ],
+    "source_temperatures": [
+      {
+        "event": "initial sear blast",
+        "temp": "450\u00b0F (232\u00b0C)"
+      },
+      {
+        "event": "roast",
+        "temp": "325\u00b0F (163\u00b0C)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "135\u00b0F medium-rare (rising to 145\u00b0F medium during rest)"
+      }
+    ],
+    "swaps": "Can use boneless strip roast or eye of round roast (adjust cooking time per pound).",
+    "notes": "Resting 20 minutes is critical to prevent juices from draining onto the carving board."
+  },
+  {
+    "id": "beef_005_skillet_cheesy_beef_potatoes",
+    "title": "One-Skillet Cheesy Ground Beef and Potatoes",
+    "cuisine": "comfort",
+    "format": "pot",
+    "source": {
+      "name": "The Kitchn",
+      "location": "Most Popular Beef Dinners Section"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "lean ground beef (85/15)",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "russet or red potatoes, diced into 1/2-inch cubes",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "yellow onion, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "smoked paprika and onion powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "cup",
+        "name": "beef broth",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "cup",
+        "name": "shredded cheddar cheese",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "stalks",
+        "name": "green onions, sliced",
+        "role": "veg",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Heat olive oil in a large oven-safe skillet over medium heat. Add diced potatoes and cook for 10 to 12 minutes, stirring occasionally, until golden-brown and tender; transfer potatoes to a plate.",
+      "Add ground beef and diced onion to the skillet. Cook over medium-high heat for 6 to 8 minutes, breaking meat into crumbles, until beef is browned and reaches 160\u00b0F. Drain excess grease.",
+      "Add minced garlic, smoked paprika, onion powder, salt, and black pepper, cooking for 1 minute.",
+      "Return cooked potatoes to skillet and pour in beef broth, stirring to scrape up any browned bits on pan bottom.",
+      "Simmer for 2 minutes until liquid is mostly absorbed.",
+      "Sprinkle shredded cheddar cheese evenly over the top. Cover skillet for 2 minutes (or place under broiler) until cheese is melted and bubbly.",
+      "Garnish with sliced green onions and serve directly from the skillet."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet saut\u00e9",
+        "temp": "medium-high heat"
+      }
+    ],
+    "swaps": "Can substitute sweet potatoes for russets; ground turkey can be used in place of ground beef.",
+    "notes": "Comforting one-skillet family dinner combining savory browned beef, crispy potatoes, and melted cheese."
+  },
+  {
+    "id": "beef_006_three_bean_beef_chili",
+    "title": "Three-Bean and Beef Chili",
+    "cuisine": "comfort",
+    "format": "pot",
+    "source": {
+      "name": "Food Network Kitchen",
+      "location": "Comfort Food Classics - Chili Section"
+    },
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "1.5",
+        "unit": "lbs",
+        "name": "ground beef (85/15)",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "medium yellow onion, chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "green bell pepper, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "chili powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "ground cumin and smoked paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "can (28 oz)",
+        "name": "crushed plum tomatoes with juices",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "can (15 oz)",
+        "name": "black beans, rinsed and drained",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "can (15 oz)",
+        "name": "kidney beans, rinsed and drained",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "can (15 oz)",
+        "name": "pinto beans, rinsed and drained",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1.5",
+        "unit": "cups",
+        "name": "beef broth",
+        "role": "sauce",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "In a large Dutch oven or pot over medium-high heat, brown ground beef for 6 to 8 minutes, breaking up with a wooden spoon, until cooked through (160\u00b0F). Drain excess fat.",
+      "Add chopped onion, bell pepper, and garlic to pot, cooking for 4 to 5 minutes until vegetables soften.",
+      "Stir in chili powder, ground cumin, smoked paprika, salt, and pepper, cooking for 1 minute until fragrant.",
+      "Pour in crushed tomatoes, beef broth, black beans, kidney beans, and pinto beans, stirring to combine.",
+      "Bring chili to a boil, then reduce heat to low. Cover and simmer gently for 30 to 35 minutes, stirring occasionally, until flavors meld and chili is thick.",
+      "Ladle into bowls and serve with optional shredded cheese, sour cream, and warm cornbread."
+    ],
+    "source_temperatures": [
+      {
+        "event": "Dutch oven simmer",
+        "temp": "medium-low heat (gentle simmer)"
+      }
+    ],
+    "swaps": "Can substitute diced chuck roast for ground beef (simmer for 1.5 hours); can add chipotle in adobo for extra heat.",
+    "notes": "Three bean varieties provide creamy starch textures while ground beef provides rich savory depth."
+  },
+  {
+    "id": "beef_007_panamanian_beef_mofongo",
+    "title": "Panamanian Spiced Beef with Mofongo",
+    "cuisine": "caribbean",
+    "format": "plate",
+    "source": {
+      "name": "Masterchef PDF - Bookey",
+      "location": "Latin American Masterclass Creations"
+    },
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "1.5",
+        "unit": "lbs",
+        "name": "beef chuck or flank, sliced into thin strips",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "whole",
+        "name": "green plantains, peeled and sliced into 1-inch rounds",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "red bell pepper, sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "yellow onion, sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "4",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "ground cumin and oregano",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "cup",
+        "name": "beef broth",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "tomato paste",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "fresh lime juice",
+        "role": "sauce",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "In a skillet over medium heat, pan-fry plantain rounds in oil until golden on outside and tender inside (approx. 8 minutes); remove to a mortar or bowl.",
+      "Mash warm plantains with 2 cloves minced garlic, 1 tablespoon olive oil, a splash of broth, salt, and pepper into a savory mofongo mash; shape into mounds.",
+      "Heat remaining oil in a heavy skillet over high heat. Add beef strips and sear for 3 to 4 minutes until browned.",
+      "Add sliced onion, bell pepper, remaining garlic, cumin, and oregano, cooking for 3 minutes until softened.",
+      "Stir in tomato paste, beef broth, and lime juice, simmering for 5 minutes until sauce coats the beef.",
+      "Plate saucy spiced beef alongside mounds of garlicky plantain mofongo and serve hot."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      }
+    ],
+    "swaps": "Can use yuca (cassava) or mashed potatoes if green plantains are unavailable.",
+    "notes": "Bold Latin American dinner balancing savory spiced beef strips with garlicky plantain mofongo."
+  }
+]

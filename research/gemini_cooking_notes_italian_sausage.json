@@ -1,0 +1,37 @@
+{
+  "theme": "italian_sausage",
+  "batch_number": 7,
+  "summary_of_findings": {
+    "methods_identified": 3,
+    "recipes_identified": 3,
+    "core_sources": [
+      "Idiot's Kitchen Recipe \u2013 Baked Italian Sausage with Peppers & Onions",
+      "Creamy Tuscan Sausage Pasta - Get Inspired Everyday!",
+      "Winter Hearth Italian Sausage Soup - Appetito Magazine",
+      "ENGLISH - Boston.gov Nutrition & Recipe Guide",
+      "Homemade Italian Sausage Recipe (Sweet & Hot) - Umbria",
+      "SAFE MINIMUM INTERNAL TEMPERATURES - FDA"
+    ]
+  },
+  "gaps_in_sources": {
+    "missing_cuts_and_varieties": [
+      "No specific cooking time or moisture-retention rules for poultry Italian sausage (turkey or chicken Italian sausage links, which have lower fat content and dry out faster than traditional 80/20 pork shoulder).",
+      "No guidelines for dry-cured Italian sausages (e.g. salami, soppressata) versus fresh raw cooking sausage.",
+      "No parameters for breakfast bulk sausage versus fennel-seasoned Italian sausage."
+    ],
+    "missing_methods": [
+      "No direct outdoor charcoal or gas grilling parameters for raw links with two-zone flare-up prevention.",
+      "No precision sous-vide water bath temperature and hold duration specifications for sausage links.",
+      "No shallow poaching / par-boiling (beer/water simmer before skillet browning) method documented."
+    ],
+    "missing_parameters": [
+      "No exact resting carryover temperature rise documented for link sausages.",
+      "No quantitative fat-drainage percentages for 80/20 pork sausage versus lean variants."
+    ]
+  },
+  "app_recommendations": [
+    "Enforce a uniform 160\u00b0F (71.1\u00b0C) internal doneness standard for all pork Italian sausage dishes.",
+    "For stovetop skillet meals, instruct users to brown bulk sausage over medium-high heat without constant stirring to develop fond, followed by deglazing with white wine or broth.",
+    "For whole links, recommend gentle oven roasting (375\u00b0F for 1 hour, covered 20 mins then uncovered 40 mins) to prevent ruptured casings and ensure thoroughly cooked centers."
+  ]
+}

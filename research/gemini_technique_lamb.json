@@ -1,0 +1,201 @@
+{
+  "theme": "lamb",
+  "safe_temperature": {
+    "temperature": "145°F with a 3-minute rest time for chops, roasts, and steaks; 160°F for ground lamb",
+    "source": {
+      "name": "SAFE MINIMUM INTERNAL TEMPERATURES as measured with a food thermometer - FDA",
+      "location": "https://www.fda.gov/media/107000/download"
+    },
+    "disagreements": "The FDA standard mandates a minimum internal temperature of 145°F (with a 3-minute rest period) for whole lamb cuts (chops, roasts, steaks) and 160°F for ground lamb. Culinary and precision cooking sources in the notebook depart from this for specific cuts and culinary results: Fit Foodie Finds sous-vide guidance recommends water bath temperatures of 118°F to 120°F (rare to medium-rare) for lamb chops, followed by a rapid 30-60 second per side sear; grilling and pan-searing guides for tender fillet steaks target 130°F–135°F for medium-rare before resting, noting that 145°F yields medium to medium-well doneness; conversely, slow-roasting and braising methods for tough, collagen-heavy cuts (shoulder and leg) deliberately cook meat far beyond 145°F to internal temperatures of 195°F–205°F to melt connective tissue into shreddable, fork-tender meat."
+  },
+  "pairs_well_with": {
+    "vegetables": [
+      {
+        "item": "Garlic, onions, baby carrots, zucchini, baby turnips, and fresh spinach",
+        "source": {
+          "name": "Masterchef PDF - Bookey",
+          "location": "Gourmet Entrées & Roasts: Stuffed Lamb Saddle with Baby Vegetables"
+        }
+      },
+      {
+        "item": "Rosemary, thyme, Herbes de Provence, whole halved garlic heads, and roasting onions",
+        "source": {
+          "name": "RecipeTin Eats & The Irishman's Wife",
+          "location": "Slow-Roasted Lamb Shoulder & Leg Roasts"
+        }
+      },
+      {
+        "item": "Fresh salad greens, arugula, mint, and fresh parsley",
+        "source": {
+          "name": "Steak - Wikipedia",
+          "location": "Lamb steak culinary preparations"
+        }
+      }
+    ],
+    "starches": [
+      {
+        "item": "Israeli (pearl) couscous",
+        "source": {
+          "name": "Masterchef PDF - Bookey",
+          "location": "Stuffed Lamb Saddle with Israeli Couscous"
+        }
+      },
+      {
+        "item": "Roasted duck fat potatoes and mashed sweet potatoes",
+        "source": {
+          "name": "The Irishman's Wife",
+          "location": "Easy Side Dishes for Roast Night"
+        }
+      },
+      {
+        "item": "Crusty artisan bread and steamed white rice",
+        "source": {
+          "name": "RecipeTin Eats",
+          "location": "Classic Roast Lamb with Gravy"
+        }
+      }
+    ],
+    "spices_and_seasonings": [
+      {
+        "item": "Fresh rosemary, fresh thyme, cracked black peppercorns, and kosher salt",
+        "source": {
+          "name": "Global Food Trends and Recipes",
+          "location": "Colorado Lamb Loin Chops Preparation"
+        }
+      },
+      {
+        "item": "Herbes de Provence, fennel seeds, and smoked paprika",
+        "source": {
+          "name": "The Irishman's Wife & Recipe Teacher",
+          "location": "Herb Rubs & Roast Night Seasonings"
+        }
+      }
+    ],
+    "sauces": [
+      {
+        "item": "Rich pan gravy / jus prepared from pan drippings, broth, and flour",
+        "source": {
+          "name": "RecipeTin Eats",
+          "location": "Classic Roast Lamb Leg with Gravy"
+        }
+      },
+      {
+        "item": "White wine and pan jus reduction",
+        "source": {
+          "name": "The Irishman's Wife",
+          "location": "Lamb Shoulder with Herbs de Provence"
+        }
+      },
+      {
+        "item": "Aromatic spice reduction sauce",
+        "source": {
+          "name": "Masterchef PDF - Bookey",
+          "location": "Stuffed Lamb Saddle Sauce"
+        }
+      }
+    ]
+  },
+  "avoid": [
+    {
+      "warning": "Failing to pat meat completely dry before searing: Wet exterior meat will not brown or form a crust; residual surface moisture generates steam, which overcooks the interior and dries out the meat during high-heat finishing.",
+      "source": {
+        "name": "Perfect Sous Vide Steak Recipe (Time & Temp Guide) - Fit Foodie Finds",
+        "location": "James McNulty Lamb Chops & Steaks Guide"
+      }
+    },
+    {
+      "warning": "Time-temperature abuse during resting: Leaving cooked meat at room temperature between 40°F and 140°F (the Temperature Danger Zone) for longer than 2 hours creates significant bacterial growth risks.",
+      "source": {
+        "name": "Resting Meat: Why You Should and for How Long - WebstaurantStore",
+        "location": "Food Safety Guidelines: Meat Resting Times and Temperature"
+      }
+    },
+    {
+      "warning": "Trapping steam under tight foil during high-heat browning: Over-tenting or wrapping tightly traps condensation and softens roasted exterior fat caps and crusts.",
+      "source": {
+        "name": "Recipe Teacher & RecipeTin Eats",
+        "location": "Resting Meat and Crispy Skin Guidelines"
+      }
+    }
+  ],
+  "methods": [
+    {
+      "method": "roast",
+      "cut": "whole bone-in leg of lamb",
+      "heat": "390°F (200°C) initial blast for 15 minutes, then reduced to 350°F (180°C)",
+      "time": "1 hour 15 minutes to 1 hour 30 minutes for a 5 to 6 lb leg",
+      "doneness": "135°F (57°C) internal temperature for medium-rare before resting, rising to 145°F (63°C)",
+      "rest": "15 to 20 minutes loosely tented with foil",
+      "tips": "Rest the roast directly on a bed of halved onions and garlic bulbs to keep it elevated off the pan and to infuse the pan drippings for gravy; baste occasionally with pan juices.",
+      "source": {
+        "name": "RecipeTin Eats",
+        "location": "Classic Roast Lamb Leg with Gravy"
+      }
+    },
+    {
+      "method": "braise",
+      "cut": "bone-in lamb shoulder",
+      "heat": "325°F (165°C) covered, then 400°F (200°C) uncovered",
+      "time": "2.5 to 3 hours covered, plus 20 to 25 minutes uncovered for a 3.5 to 4 lb shoulder",
+      "doneness": "Fork-tender, meat easily shreds away from the bone (internal temperature 195°F–205°F)",
+      "rest": "10 to 15 minutes before carving or pulling",
+      "tips": "Slow-braise with dry white wine or rich broth and aromatic Herbes de Provence in a heavy lidded Dutch oven or foil-sealed roasting pan to melt connective tissue into rich pan juices.",
+      "source": {
+        "name": "The Irishman's Wife & RecipeTin Eats",
+        "location": "Lamb Shoulder with Herbs de Provence / Slow-Roasted Rosemary Garlic Lamb Shoulder"
+      }
+    },
+    {
+      "method": "slow-roast",
+      "cut": "bone-in leg of lamb",
+      "heat": "300°F (150°C) covered, then 425°F (220°C) uncovered",
+      "time": "2.5 to 3 hours covered, plus 15 to 20 minutes uncovered for a 4 to 5 lb leg",
+      "doneness": "Fall-apart meltingly tender, collapses under gentle fork pressure (internal temperature 195°F–205°F)",
+      "rest": "15 minutes",
+      "tips": "Double-wrap the roasting pan tightly with heavy-duty foil so that trapped steam tenderizes the meat before uncovering and blasting with high heat to crisp the exterior.",
+      "source": {
+        "name": "RecipeTin Eats",
+        "location": "Slow-Roasted Lamb Leg"
+      }
+    },
+    {
+      "method": "roast",
+      "cut": "boneless lamb saddle (butterflied and rolled)",
+      "heat": "375°F (190°C) in oven following a medium-high stovetop sear",
+      "time": "4 to 5 minutes stovetop sear, then 35 to 45 minutes oven roasting for a 3 to 4 lb saddle",
+      "doneness": "135°F–140°F internal temperature (medium-rare to medium); firm to gentle touch",
+      "rest": "10 minutes before slicing into medallions",
+      "tips": "Butterfly the saddle, layer with fresh spinach, herbs, and seasonings, roll into a tight cylinder, and tie securely with butcher's twine for uniform roasting; roast alongside baby root vegetables.",
+      "source": {
+        "name": "Masterchef PDF - Bookey",
+        "location": "Stuffed Lamb Saddle with Roasted Baby Vegetables and Israeli Couscous"
+      }
+    },
+    {
+      "method": "grill",
+      "cut": "lamb fillet steaks (cut from the leg)",
+      "heat": "High direct chargrill heat",
+      "time": "3 to 4 minutes per side for steaks sliced from a 1.5 lb fillet",
+      "doneness": "Medium-rare (130°F–135°F internal temperature), charred exterior with juicy pink center",
+      "rest": "5 minutes",
+      "tips": "Coat steaks in olive oil, garlic, and fresh herbs prior to grilling; let rest before slicing thinly across the grain for warm salad bowls.",
+      "source": {
+        "name": "Steak - Wikipedia",
+        "location": "Lamb steak culinary preparations"
+      }
+    },
+    {
+      "method": "sous-vide",
+      "cut": "lamb loin chops / T-bone chops",
+      "heat": "118°F to 120°F (48°C–49°C) water bath, then smoking-hot cast-iron skillet",
+      "time": "1.5 to 2 hours in water bath for 1-inch thick chops; 30 to 60 seconds per side in skillet",
+      "doneness": "Rare to medium-rare (118°F–120°F water bath doneness cue); deep mahogany browned exterior",
+      "rest": "3 minutes",
+      "tips": "Thoroughly dry the exterior of the chops with paper towels immediately upon removing them from the sous-vide pouch; wet meat cannot brown quickly and risks steaming and overcooking the interior.",
+      "source": {
+        "name": "Perfect Sous Vide Steak Recipe (Time & Temp Guide) - Fit Foodie Finds",
+        "location": "James McNulty Lamb Chops Guide"
+      }
+    }
+  ]
+}

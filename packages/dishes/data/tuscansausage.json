@@ -1,0 +1,53 @@
+{
+  "id": "tuscansausage",
+  "cuisine": "italian",
+  "format": "pot",
+  "title": "Creamy Tuscan {p} Pasta",
+  "minutes": 30,
+  "feel": "Creamy",
+  "wants": {
+    "protein": ["sausage"],
+    "veg": ["greens", "tomato", "onion", "mushroom"],
+    "spice": ["herbs", "garlic", "chili", "pepper"],
+    "sauce": ["cream", "tomato"],
+    "starch": ["pasta"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "italian sausage",
+    "veg": "spinach",
+    "spice": "italian seasoning",
+    "sauce": "heavy cream",
+    "starch": "penne"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 225,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 240,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 170,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Cook the {s} in salted water following the package directions. Drain, saving a splash of the cooking water.",
+    "Crumble the {p} into a large skillet and brown over medium-high heat 5 to 6 minutes, until {doneness}. Move to a plate.",
+    "Cook the {v} in the same pan for 3 to 4 minutes, until softened, then stir in the {spice} for a minute.",
+    "Pour in the {sauce} and simmer 6 to 8 minutes, until lightly thickened.",
+    "Return the {p} and the {s} to the pan, toss 1 to 2 minutes so the sauce clings, and finish with grated Parmesan."
+  ],
+  "tip": "Use half the cream with a splash of the pasta water, and double the spinach."
+}

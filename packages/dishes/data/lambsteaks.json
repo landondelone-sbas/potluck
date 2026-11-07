@@ -1,0 +1,53 @@
+{
+  "id": "lambsteaks",
+  "cuisine": "med",
+  "format": "plate",
+  "title": "Herbed {p} with {v}",
+  "minutes": 30,
+  "feel": "Fresh",
+  "wants": {
+    "protein": ["lamb"],
+    "veg": ["greens", "tomato", "cucumber", "asparagus", "greenbeans"],
+    "spice": ["herbs", "garlic", "lemon", "pepper"],
+    "sauce": ["vinaigrette", "mustard", "hummus"],
+    "starch": ["couscous", "potato", "rice", "bread", "quinoa"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "lamb chops",
+    "veg": "arugula",
+    "spice": "rosemary",
+    "sauce": "lemon vinaigrette",
+    "starch": "couscous"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Start the sides first. {starch_how} {veg_how}",
+    "Toss the {p} with the {spice}, a little olive oil and salt, and leave at room temperature for 15 minutes.",
+    "Sear the {p} in a very hot grill pan or skillet 3 to 4 minutes per side, until browned and {doneness}. Check with a thermometer.",
+    "Rest the {p} 5 minutes, then slice across the grain.",
+    "Pile the {v} and the {s} on plates, top with the lamb, and drizzle with the {sauce}."
+  ],
+  "tip": "Trim the fat, keep the lamb to a palm-size portion, and fill half the plate with the greens."
+}

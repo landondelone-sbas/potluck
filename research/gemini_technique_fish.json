@@ -1,0 +1,144 @@
+{
+  "ingredient": "fish",
+  "safe_temperature": {
+    "temperature": "145°F (62.8°C) or until flesh is opaque and separates easily with a fork",
+    "source": {
+      "name": "Heart Healthy Recipe Guide - HFSA / FDA Food Safety Guidelines",
+      "location": "Food Safety & Baked Fish Preparation Section, p. 12"
+    },
+    "disagreements": null
+  },
+  "methods": [
+    {
+      "method": "bake",
+      "cut": "fillet (white fish, e.g., cod, haddock, tilapia, flounder)",
+      "heat": "400°F (205°C)",
+      "time": "13 to 18 minutes (standard rule: 10 minutes per inch of fillet thickness)",
+      "doneness": "Internal temperature reaches 145°F; flesh becomes opaque and flakes easily when tested with a fork",
+      "rest": "None specified; serve immediately while hot",
+      "tips": "Baking inside folded parchment paper or aluminum foil packets (en papillote) traps steam and aromatic juices, preventing lean white fish from drying out.",
+      "source": {
+        "name": "Heart Healthy Recipe Guide - HFSA",
+        "location": "Baked Fish with Tomatoes, Spinach, and Olives, p. 12"
+      }
+    },
+    {
+      "method": "simmer",
+      "cut": "fillet / chunks (salted or fresh white fish, e.g., cod)",
+      "heat": "Medium heat to a gentle boil/simmer",
+      "time": "Boil gently for 3 to 5 minutes after a preliminary 30-minute cold water soak (for salted cod)",
+      "doneness": "Tender and readily flaked with a fork",
+      "rest": "Cool slightly until comfortable to handle, then drain and flake",
+      "tips": "Soak salt-cured fish in advance to shed excess salt, then gently simmer; do not violently boil to avoid breaking the flesh into mush.",
+      "source": {
+        "name": "ENGLISH - Boston.gov Nutrition & Recipe Guide",
+        "location": "Cod Fish Salad Recipe Section"
+      }
+    },
+    {
+      "method": "pan-sear",
+      "cut": "fillet (white fish)",
+      "heat": "Medium-high heat skillet with olive oil",
+      "time": "3 to 4 minutes per side depending on fillet thickness",
+      "doneness": "Golden brown crust on exterior, opaque and flaking through the center (145°F internal)",
+      "rest": "1 to 2 minutes on a warm plate",
+      "tips": "Thoroughly pat fillets dry with paper towels prior to seasoning so they brown properly instead of steaming in the skillet.",
+      "source": {
+        "name": "Heart Healthy Recipe Guide - HFSA",
+        "location": "Seafood Cooking Guidelines"
+      }
+    }
+  ],
+  "pairs_well_with": {
+    "vegetables": [
+      {
+        "name": "Baby spinach",
+        "source": "Heart Healthy Recipe Guide - HFSA, p. 12"
+      },
+      {
+        "name": "Plum tomatoes",
+        "source": "Heart Healthy Recipe Guide - HFSA, p. 12"
+      },
+      {
+        "name": "Scallions / green onions",
+        "source": "Heart Healthy Recipe Guide - HFSA, p. 12"
+      },
+      {
+        "name": "Green bell peppers",
+        "source": "ENGLISH - Boston.gov Nutrition Guide"
+      },
+      {
+        "name": "Green cabbage",
+        "source": "ENGLISH - Boston.gov Nutrition Guide"
+      },
+      {
+        "name": "Garlic",
+        "source": "ENGLISH - Boston.gov Nutrition Guide"
+      }
+    ],
+    "starches": [
+      {
+        "name": "Brown rice or steamed long-grain rice",
+        "source": "Heart Healthy Recipe Guide - HFSA"
+      },
+      {
+        "name": "Boiled potatoes",
+        "source": "ENGLISH - Boston.gov Nutrition Guide"
+      },
+      {
+        "name": "Crusty whole-grain bread",
+        "source": "Heart Healthy Recipe Guide - HFSA"
+      }
+    ],
+    "spices_and_herbs": [
+      {
+        "name": "Dried or fresh oregano",
+        "source": "ENGLISH - Boston.gov Nutrition Guide"
+      },
+      {
+        "name": "Paprika",
+        "source": "ENGLISH - Boston.gov Nutrition Guide"
+      },
+      {
+        "name": "Fresh parsley",
+        "source": "ENGLISH - Boston.gov Nutrition Guide"
+      },
+      {
+        "name": "Freshly ground black pepper",
+        "source": "Heart Healthy Recipe Guide - HFSA"
+      }
+    ],
+    "sauces_and_citrus": [
+      {
+        "name": "Fresh orange juice and finely grated orange zest",
+        "source": "Heart Healthy Recipe Guide - HFSA, p. 12"
+      },
+      {
+        "name": "Fresh lemon slices and juice",
+        "source": "Heart Healthy Recipe Guide - HFSA, p. 12"
+      },
+      {
+        "name": "Extra-virgin olive oil",
+        "source": "Heart Healthy Recipe Guide - HFSA, p. 12"
+      },
+      {
+        "name": "Black or Kalamata olives (pitted and chopped)",
+        "source": "Heart Healthy Recipe Guide - HFSA, p. 12"
+      }
+    ]
+  },
+  "avoid": [
+    {
+      "warning": "Overcooking lean fish: cooking past 145°F expels all moisture, turning delicate white fillets dry, tough, and rubbery.",
+      "source": "Heart Healthy Recipe Guide - HFSA"
+    },
+    {
+      "warning": "High-heat violent boiling without a poaching liquid buffer, which tears apart delicate white fish flakes.",
+      "source": "ENGLISH - Boston.gov Nutrition Guide"
+    },
+    {
+      "warning": "Leaving raw fish at room temperature longer than necessary; thaw safely overnight in the refrigerator, never on the counter.",
+      "source": "FDA Food Safety Guidelines"
+    }
+  ]
+}

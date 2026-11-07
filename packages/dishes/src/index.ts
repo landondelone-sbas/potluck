@@ -1,5 +1,19 @@
 import type { Dish } from '@potluck/engine';
 
+import chickpeasoup from '../data/chickpeasoup.json';
+import lambsteaks from '../data/lambsteaks.json';
+import lambroast from '../data/lambroast.json';
+import tuscansausage from '../data/tuscansausage.json';
+import friedeggs from '../data/friedeggs.json';
+import chickpeaspinach from '../data/chickpeaspinach.json';
+import greenbeantofu from '../data/greenbeantofu.json';
+import eggcasserole from '../data/eggcasserole.json';
+import beanlentilchili from '../data/beanlentilchili.json';
+import tofuburger from '../data/tofuburger.json';
+import lemongrasstofu from '../data/lemongrasstofu.json';
+import eggplanttofu from '../data/eggplanttofu.json';
+import tofuscramble from '../data/tofuscramble.json';
+import tofularb from '../data/tofularb.json';
 import airfriedchicken from '../data/airfriedchicken.json';
 import bakedsalmon from '../data/bakedsalmon.json';
 import basilstirfry from '../data/basilstirfry.json';
@@ -201,6 +215,21 @@ export const DISH_FILES: readonly unknown[] = [
   potroast,
   reversesear,
   glazedbreast,
+  // Gemini batch 3 (M4): lamb, tofu, beans and eggs, from the 13-protein notebook run.
+  chickpeasoup,
+  lambsteaks,
+  lambroast,
+  tuscansausage,
+  friedeggs,
+  chickpeaspinach,
+  greenbeantofu,
+  eggcasserole,
+  beanlentilchili,
+  tofuburger,
+  lemongrasstofu,
+  eggplanttofu,
+  tofuscramble,
+  tofularb,
 ];
 
 /** The bundled dish library, validated at load. */

@@ -17,6 +17,7 @@ const WHOLE_CUTS = ['beef', 'pork', 'lamb', 'fish'];
  * - ground beef, pork, lamb and any other ground meat: 160°F / 71°C
  * - whole cuts of beef, pork and lamb, and fish: 145°F / 63°C
  * - shrimp: pink and opaque
+ * - eggs in a dish: set and firm, 160°F / 71°C
  * - a steak on its own: "cooked through", with no temperature. Dishes that cook a steak to a
  *   doneness write their own steps (docs/decisions/0007).
  * - tofu, beans or nothing: "heated through"
@@ -26,11 +27,13 @@ export function donenessFor(proteins: readonly DonenessItem[]): string {
   const at160: string[] = [];
   const at145: string[] = [];
   const shrimp: string[] = [];
+  const eggs: string[] = [];
   let steak = false;
 
   for (const { name, tags } of proteins) {
     const label = name.toLowerCase();
     if (tags.includes('shrimp')) shrimp.push(label);
+    else if (tags.includes('egg')) eggs.push(label);
     else if (POULTRY_AND_SAUSAGE.some((tag) => tags.includes(tag))) at165.push(label);
     else if (tags.includes('ground')) at160.push(label);
     else if (tags.includes('steak')) steak = true;
@@ -42,6 +45,7 @@ export function donenessFor(proteins: readonly DonenessItem[]): string {
     at160.length > 0 ? `${joinAnd(at160)} 160°F / 71°C` : '',
     at145.length > 0 ? `${joinAnd(at145)} 145°F / 63°C` : '',
     shrimp.length > 0 ? `${joinAnd(shrimp)} pink and opaque` : '',
+    eggs.length > 0 ? `${joinAnd(eggs)} set and firm, 160°F / 71°C` : '',
   ].filter((part) => part !== '');
 
   if (parts.length > 0) return `cooked through (${parts.join('; ')})`;

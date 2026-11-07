@@ -1,0 +1,58 @@
+{
+  "id": "beanlentilchili",
+  "cuisine": "comfort",
+  "format": "pot",
+  "title": "Hearty {p} and {v} Chili",
+  "minutes": 50,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["beans"],
+    "veg": ["onion", "pepper", "tomato", "corn", "celery", "carrot", "zucchini"],
+    "spice": ["chili", "cumin", "paprika", "smoky", "garlic", "pepper"],
+    "sauce": ["tomato", "gravy"],
+    "starch": ["rice", "bread", "potato"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "beans"
+    }
+  ],
+  "defaults": {
+    "protein": "navy beans",
+    "veg": "bell peppers",
+    "spice": "chili powder",
+    "sauce": "crushed tomatoes",
+    "starch": "cornbread"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 480,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 15,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 400,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 80,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Sauté the {v} in a Dutch oven with a little oil 5 minutes, until softened.",
+    "Stir in the {spice} and some garlic for a minute, until fragrant.",
+    "Add the {sauce}, 3 cups of vegetable broth and a cup of rinsed brown lentils. Bring to a boil, then cover and simmer 25 minutes, until the lentils are tender.",
+    "Stir in the {p} (canned beans only need draining and rinsing; dried beans need soaking and boiling first) and simmer uncovered 10 to 15 minutes, until thick. Season with salt and pepper.",
+    "Serve hot with the {s}."
+  ],
+  "tip": "Lentils and beans make this filling without meat. Serve it with a small piece of cornbread."
+}

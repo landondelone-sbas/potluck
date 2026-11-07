@@ -1,0 +1,173 @@
+{
+  "ingredient": "salmon",
+  "safe_temperature": {
+    "temperature": "145\u00b0F (62.8\u00b0C) or until flesh is opaque and separates easily with a fork",
+    "source": {
+      "name": "SAFE MINIMUM INTERNAL TEMPERATURES as measured with a food thermometer - FDA",
+      "location": "https://www.fda.gov/media/107000/download"
+    },
+    "disagreements": "The FDA standard specifies a minimum internal temperature of 145\u00b0F (flesh opaque and flaking easily). However, culinary sources in the notebook (Prime Women, Dishing Out Health, Harvard Nutrition Source) note that cooking wild or farmed salmon to 145\u00b0F in dry heat expels white albumin protein and can dry out delicate flakes; culinary preference frequently targets 125\u00b0F to 130\u00b0F (medium-rare to medium) before a 3-minute rest, during which carryover heat brings the fish to a tender, juicy, and buttery finish."
+  },
+  "methods": [
+    {
+      "method": "bake / oven roast",
+      "cut": "salmon fillets (skin-on or skinless, 4 to 6 oz portions) or whole side",
+      "heat": "375\u00b0F (190\u00b0C) to 400\u00b0F (205\u00b0C)",
+      "time": "15 to 20 minutes at 375\u00b0F, or 12 to 15 minutes at 400\u00b0F (standard rule: 10 minutes per inch of fillet thickness)",
+      "doneness": "Internal temperature reaches 145\u00b0F; flesh becomes opaque and flakes easily when tested gently with a fork",
+      "rest": "3 to 5 minutes tented loosely before serving",
+      "tips": "Drizzle fillets with olive oil, lemon slices, and fresh dill; baking inside folded parchment paper or aluminum foil packets (en papillote) traps aromatic steam and allows salmon to absorb herb and citrus flavor without requiring added fats; when roasting on a sheet pan with baby potatoes, roast potatoes first before adding salmon for the final 12-15 minutes.",
+      "source": {
+        "name": "7 Nutrient-Packed Recipes That Make Healthy Eating a Breeze - Prime Women & Food Network",
+        "location": "Baked Salmon with Lemon and Dill & Salmon Baked in Foil"
+      }
+    },
+    {
+      "method": "pan-sear / crispy skin pan-roast",
+      "cut": "skin-on salmon fillets",
+      "heat": "Medium-high heat in a heavy cast-iron or stainless steel skillet",
+      "time": "4 to 5 minutes skin-side down, then 2 to 3 minutes on flesh side (approx. 7 to 8 minutes total)",
+      "doneness": "Skin is golden-brown, crackling, and shatter-crisp; flesh is opaque on edges and tender throughout",
+      "rest": "2 to 3 minutes on a warm plate; do not cover skin with foil to preserve crackling crispness",
+      "tips": "Thoroughly pat salmon skin completely dry with paper towels; score skin lightly with a sharp knife; press down gently with a spatula during the first 30 seconds of searing to prevent the fillet from curling; baste flesh with foaming butter, lemon juice, and capers during the final minute off heat.",
+      "source": {
+        "name": "Recipes - The Nutrition Source | Harvard T.H. Chan School of Public Health",
+        "location": "Crispy Skin Pan-Roasted Salmon with Lemon & Capers"
+      }
+    },
+    {
+      "method": "broil / glaze-broil",
+      "cut": "salmon fillets (center-cut, skin-on or skinless)",
+      "heat": "High broil setting (rack positioned 4 to 6 inches from upper heating element)",
+      "time": "6 to 8 minutes total (3 minutes per side, or 6 to 7 minutes without flipping for skin-on fillets)",
+      "doneness": "Exterior glaze is caramelized and lightly blistered; interior is opaque and flaking tenderly",
+      "rest": "3 minutes before serving",
+      "tips": "Line baking sheet with foil and coat lightly with cooking spray; watch closely as sweet glazes (miso, honey-mustard, teriyaki) caramelize rapidly under high broil and can scorch if left unattended.",
+      "source": {
+        "name": "Recipes - The Nutrition Source | Harvard T.H. Chan School of Public Health & Food Network",
+        "location": "Classic Miso-Glazed Broiled Salmon & Honey-Mustard Glazed Baked Salmon"
+      }
+    },
+    {
+      "method": "skillet braise / sauce simmer",
+      "cut": "skinless or skin-on salmon fillets",
+      "heat": "Medium heat to sear, then reduced to low heat gentle simmer in sauce",
+      "time": "3 minutes initial sear per side, followed by 5 to 7 minutes simmering in sauce",
+      "doneness": "Salmon flakes tenderly with a fork and absorbs rich pan sauce aromatics",
+      "rest": "None; serve immediately bathed in sauce",
+      "tips": "Sear salmon first to develop fond, transfer temporarily to a plate, build creamy sauce (garlic, sun-dried tomatoes, artichoke hearts, spinach, broth/cream), then return salmon to finish gently in the sauce.",
+      "source": {
+        "name": "Healthy Weeknight Dinners You'll Actually Crave - Dishing Out Health",
+        "location": "Skillet Salmon with Creamy Spinach and Artichokes"
+      }
+    }
+  ],
+  "pairs_well_with": {
+    "vegetables": [
+      {
+        "name": "Fresh asparagus spears",
+        "source": "Prime Women & Food Network"
+      },
+      {
+        "name": "Baby spinach and lacinato kale",
+        "source": "Dishing Out Health"
+      },
+      {
+        "name": "Marinated artichoke hearts and sun-dried tomatoes",
+        "source": "Dishing Out Health"
+      },
+      {
+        "name": "Baby potatoes / fingerling potatoes",
+        "source": "Dishing Out Health & Boston.gov"
+      },
+      {
+        "name": "Fresh garlic and shallots",
+        "source": "Harvard Nutrition Source & Dishing Out Health"
+      },
+      {
+        "name": "Cucumber and red onion (fresh salad / salsa)",
+        "source": "Prime Women"
+      }
+    ],
+    "starches": [
+      {
+        "name": "Roasted baby potatoes or mashed potatoes",
+        "source": "Dishing Out Health & Boston.gov"
+      },
+      {
+        "name": "Steamed brown rice, jasmine rice, or wild rice",
+        "source": "Harvard Nutrition Source"
+      },
+      {
+        "name": "Pearl couscous or quinoa",
+        "source": "Prime Women"
+      },
+      {
+        "name": "Crusty whole-grain artisan bread",
+        "source": "HFSA Heart Healthy Guide"
+      }
+    ],
+    "spices_and_herbs": [
+      {
+        "name": "Fresh dill",
+        "source": "Prime Women (Baked Salmon with Lemon and Dill)"
+      },
+      {
+        "name": "Fresh capers (drained)",
+        "source": "Harvard Nutrition Source"
+      },
+      {
+        "name": "Fresh flat-leaf parsley",
+        "source": "Harvard Nutrition Source"
+      },
+      {
+        "name": "Cajun blackening seasoning (smoked paprika, thyme, oregano, cayenne)",
+        "source": "Food Network Most-Saved Healthy Recipes"
+      },
+      {
+        "name": "Cracked black peppercorns and sea salt",
+        "source": "Prime Women & Dishing Out Health"
+      }
+    ],
+    "sauces_and_glazes": [
+      {
+        "name": "Fresh lemon juice and sliced lemon wheels",
+        "source": "Prime Women & Food Network"
+      },
+      {
+        "name": "White miso paste, mirin, and sake",
+        "source": "Harvard Nutrition Source (Classic Miso-Glazed Salmon)"
+      },
+      {
+        "name": "Dijon mustard and pure honey",
+        "source": "Food Network (Honey-Mustard Glazed Baked Salmon)"
+      },
+      {
+        "name": "Extra-virgin olive oil and melted butter",
+        "source": "Prime Women & Harvard Nutrition Source"
+      },
+      {
+        "name": "Heavy cream or coconut cream with white wine / broth",
+        "source": "Dishing Out Health"
+      }
+    ]
+  },
+  "avoid": [
+    {
+      "warning": "Overcooking salmon: cooking past 145\u00b0F causes muscle fibers to contract violently, squeezing out natural oils and white coagulated albumin, leaving the fish chalky and dry.",
+      "source": "Prime Women & Dishing Out Health"
+    },
+    {
+      "warning": "Failing to pat skin dry before pan-searing: surface moisture generates steam in the skillet, preventing the skin from crisping and causing it to tear and stick to the pan.",
+      "source": "Harvard Nutrition Source (Crispy Skin Technique)"
+    },
+    {
+      "warning": "Trapping steam under tight foil during resting: wrapping crispy-skin salmon tightly in foil softens the crackling crust within minutes.",
+      "source": "Harvard Nutrition Source"
+    },
+    {
+      "warning": "Leaving high-sugar glazes unmonitored under the broiler: honey, maple syrup, and miso glazes caramelize rapidly and will scorch if placed too close to the broiler element.",
+      "source": "Harvard Nutrition Source & Food Network"
+    }
+  ]
+}

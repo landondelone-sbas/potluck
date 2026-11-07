@@ -1,0 +1,52 @@
+{
+  "id": "chickpeaspinach",
+  "cuisine": "med",
+  "format": "plate",
+  "title": "Garlicky {p} with {v}",
+  "minutes": 20,
+  "feel": "Light",
+  "wants": {
+    "protein": ["beans"],
+    "veg": ["greens", "tomato", "zucchini", "pepper", "onion"],
+    "spice": ["garlic", "chili", "herbs", "lemon", "pepper"],
+    "sauce": ["vinaigrette", "tomato", "hummus"],
+    "starch": ["couscous", "rice", "quinoa", "bread"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "chickpeas",
+    "veg": "spinach",
+    "spice": "red pepper flakes",
+    "sauce": "olive oil",
+    "starch": "couscous"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 240,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 2,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 15,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Start the sides first. {starch_how} {veg_how}",
+    "Warm the {sauce} in a large skillet over medium heat with the {spice} and a few slices of garlic for about a minute, until fragrant.",
+    "Add the {p} (canned beans only need draining and rinsing; dried beans need soaking and boiling first) and toss in the garlic oil for 3 minutes, until hot.",
+    "Season with salt, then serve over the {s} with the {v}."
+  ],
+  "tip": "Use more spinach than you think you need. It cooks down to almost nothing."
+}

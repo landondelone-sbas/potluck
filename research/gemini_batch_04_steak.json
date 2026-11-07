@@ -1,6 +1,625 @@
-{
-  "theme": "steak",
-  "count": 0,
-  "skipped_note": "No qualifying recipes found in notebook sources meeting all criteria. Evaluated and skipped: 1. Reverse Sear Steak from Allen Brothers (excluded under Rule 6: standalone protein technique lacking required vegetable and starch components). 2. Beef Cookery from NDBeef (reference cooking and doneness charts only; mentions stir-fries and flat iron steak which are blacklisted under Rule 7). 3. Ribeye Steaks with Whiskey-Chile Butter and Pan-Seared T-Bone Steaks from Masterchef summary (Bookey) (excluded under Rule 1: high-level editorial book summary blurbs lacking ingredient quantities, measurements, and structured step-by-step instructions). 4. Side dish pairing guides from Blossom Steakhouse and Steak School (excluded under Rule 6: standalone side dishes lacking steak protein dinner integration).",
-  "recipes": []
-}
+[
+  {
+    "id": "steak_001_reverse_sear_ribeye",
+    "title": "The Ultimate Reverse-Seared Cowboy Ribeye",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "How To Reverse Sear A Steak: Step-by-Step Recipe - Allen Brothers",
+      "location": "Method & Temperature Guide"
+    },
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "steak (24 oz, 2-inch thick)",
+        "name": "bone-in cowboy ribeye steak",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tsp",
+        "name": "coarse kosher salt and freshly cracked black pepper",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "high-smoke-point neutral oil (avocado or canola)",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "tbsp",
+        "name": "unsalted butter",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "cloves",
+        "name": "fresh garlic, smashed",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "sprigs",
+        "name": "fresh rosemary and thyme",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Pat the ribeye completely dry with paper towels. Season generously on all sides with kosher salt and black pepper; let rest on a wire rack uncovered in the refrigerator for 2 to 4 hours to dry the surface.",
+      "Preheat the oven to 250\u00b0F (121\u00b0C) and place the steak on the wire rack set inside a rimmed baking sheet.",
+      "Roast in the oven for 25 to 30 minutes until an instant-read thermometer inserted into the center reads 115\u00b0F (for medium-rare finish).",
+      "Heat a heavy cast-iron skillet over high heat until smoking hot. Add the neutral oil.",
+      "Sear the steak for 45 to 90 seconds on the first side until a deep mahogany crust forms. Flip and sear the second side for 45 seconds.",
+      "Sear the exterior fat cap edge for 30 seconds to render the fat.",
+      "Reduce heat to medium-low, add butter, smashed garlic, and fresh herb sprigs. Tilt the pan and spoon foaming herb butter continuously over the steak for 1 minute.",
+      "Transfer to a warm cutting board, rest for 5 to 7 minutes, slice against the grain, and serve."
+    ],
+    "source_temperatures": [
+      {
+        "event": "oven low roast",
+        "temp": "250\u00b0F (121\u00b0C)"
+      },
+      {
+        "event": "oven pull temp",
+        "temp": "115\u00b0F (46.1\u00b0C)"
+      },
+      {
+        "event": "cast iron sear",
+        "temp": "high heat (smoking hot)"
+      },
+      {
+        "event": "final rested target",
+        "temp": "130\u00b0F (54.4\u00b0C, medium-rare)"
+      }
+    ],
+    "swaps": "Can substitute thick-cut New York strip or Porterhouse steak; canola oil works if avocado oil is unavailable.",
+    "notes": "The gold standard for thick-cut steak: edge-to-edge pink doneness with a restaurant-grade crust."
+  },
+  {
+    "id": "steak_002_grilled_tbone_herb",
+    "title": "Grilled T-Bone Steak with Herb Seasoning",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "BEEF COOKERY - NDBeef",
+      "location": "Section: Grilling Steaks, Page 6"
+    },
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 12,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "steak (16 oz, 1-inch thick)",
+        "name": "beef T-bone or Porterhouse steak",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "dried oregano and dried thyme",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "clove",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "kosher salt and cracked black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Trim excess exterior fat on steak to 1/4 inch to prevent flare-ups on the grill.",
+      "Rub steak with olive oil, minced garlic, dried oregano, thyme, salt, and pepper; let stand at room temperature for 15 minutes.",
+      "Preheat gas or charcoal grill to medium-high heat (approx. 400\u00b0F).",
+      "Place steak on hot grill grates. Grill for 5 to 6 minutes on the first side.",
+      "Flip steak once using tongs (do not pierce with a fork). Grill for another 5 to 6 minutes until internal temperature reaches 135\u00b0F for medium-rare (or 145\u00b0F for medium).",
+      "Transfer steak to a platter, tent loosely with aluminum foil, and let rest for 5 minutes before serving."
+    ],
+    "source_temperatures": [
+      {
+        "event": "grill surface",
+        "temp": "medium-high heat (400\u00b0F)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "135\u00b0F medium-rare (rising to 145\u00b0F medium during rest)"
+      }
+    ],
+    "swaps": "Can use ribeye or strip steak; fresh herbs can replace dried herbs.",
+    "notes": "Classic outdoor grilling technique. Trimming fat and flipping only once ensures even charring without soot."
+  },
+  {
+    "id": "steak_003_cast_iron_flat_iron",
+    "title": "Cast-Iron Seared Flat Iron Steak with Garlic Butter",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "BEEF COOKERY - NDBeef",
+      "location": "Section: Skillet Cookery & Flat Iron Steaks, Page 8"
+    },
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 8,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "steak (12 oz)",
+        "name": "beef flat iron steak (top blade)",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "butter",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "coarse sea salt and cracked black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Pat flat iron steak dry with paper towels; season both sides generously with sea salt and black pepper.",
+      "Heat olive oil in a heavy cast-iron skillet over medium-high heat until shimmering.",
+      "Place steak in hot skillet and sear for 3 to 4 minutes without moving until a golden-brown crust forms.",
+      "Flip steak, add butter and minced garlic to the skillet, and cook for 3 to 4 minutes on the second side.",
+      "Spoon melted garlic butter over the steak continuously while finishing cooking (target 135\u00b0F for medium-rare).",
+      "Remove steak from pan to a warm board, rest for 5 minutes, and carve into thin diagonal slices across the grain."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "doneness target",
+        "temp": "135\u00b0F medium-rare / 145\u00b0F medium"
+      }
+    ],
+    "swaps": "Top sirloin or flank steak can substitute for flat iron steak.",
+    "notes": "Flat iron is one of the most tender, flavorful cuts when cooked hot and fast in cast iron."
+  },
+  {
+    "id": "steak_004_grilled_ribeye_ancho_butter",
+    "title": "Grilled Ribeye with Ancho Chili Bourbon Butter",
+    "cuisine": "cajun",
+    "format": "plate",
+    "source": {
+      "name": "Masterchef PDF - Bookey",
+      "location": "Masterchef Mystery Box Steak Specialties"
+    },
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "steaks (12 oz each)",
+        "name": "boneless beef ribeye steaks",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "ancho chili powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "smoked paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "tbsp",
+        "name": "butter, softened",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "bourbon",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "kosher salt and black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "In a small bowl, beat softened butter with bourbon, 1/2 teaspoon ancho chili powder, a pinch of salt, and pepper until emulsified; roll in plastic wrap and chill into a compound butter log.",
+      "Brush ribeye steaks with olive oil and rub with remaining ancho chili powder, smoked paprika, salt, and pepper.",
+      "Preheat grill or grill pan over medium-high heat.",
+      "Grill steaks for 4 to 5 minutes on the first side until charred grill marks appear.",
+      "Flip steaks and grill for 4 minutes on the second side until internal temperature reaches 130\u00b0F to 135\u00b0F for medium-rare.",
+      "Transfer steaks to plates, top each immediately with a thick round of cold ancho-bourbon butter, and rest for 5 minutes as the butter melts into a rich glaze."
+    ],
+    "source_temperatures": [
+      {
+        "event": "grill heat",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "doneness target",
+        "temp": "130\u00b0F\u2013135\u00b0F (medium-rare)"
+      }
+    ],
+    "swaps": "Beef broth can replace bourbon in the compound butter for an alcohol-free option.",
+    "notes": "The bold smokiness of ancho chili and rich bourbon butter enhances the marbling of prime ribeye."
+  },
+  {
+    "id": "steak_005_seared_tbone_peach_reduction",
+    "title": "Pan-Seared T-Bone with Peach-Tarragon Reduction",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "Masterchef PDF - Bookey",
+      "location": "Fine Dining Steak Creations"
+    },
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 12,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "steak (16 oz)",
+        "name": "T-bone steak",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "butter and 1 tbsp olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "ripe peach, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "dry white wine or dry vermouth",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "beef stock",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "fresh tarragon, chopped",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "salt and cracked pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Season T-bone steak generously with salt and pepper.",
+      "Heat olive oil and 1 tablespoon butter in a heavy skillet over medium-high heat. Sear steak for 4 to 5 minutes per side until browned and cooked to medium-rare (135\u00b0F).",
+      "Transfer steak to a plate and tent loosely with foil to rest.",
+      "Drain excess fat from skillet, leaving 1 tablespoon of drippings. Add diced peach and cook for 2 minutes until lightly caramelized.",
+      "Pour in white wine and beef stock, scraping up fond from the pan bottom. Simmer vigorously for 3 minutes until reduced to a syrupy glaze.",
+      "Stir in fresh tarragon and pour savory-sweet peach reduction over the rested steak."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "reduction simmer",
+        "temp": "medium heat"
+      }
+    ],
+    "swaps": "Fresh plums or apricots can substitute for peaches; fresh thyme can replace tarragon.",
+    "notes": "Gourmet competition dish balancing rich beef fat with fruit acidity and anise-scented tarragon."
+  },
+  {
+    "id": "steak_006_filet_mignon_three_ways",
+    "title": "Filet Mignon Three Ways (Oven-Finished Tenderloin)",
+    "cuisine": "med",
+    "format": "plate",
+    "source": {
+      "name": "Masterchef PDF - Bookey",
+      "location": "Filets Three Ways Masterclass"
+    },
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "steaks (6 oz each, 1.5-inch thick)",
+        "name": "beef tenderloin filet mignon steaks",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "butter",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cloves",
+        "name": "garlic, crushed",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "sprigs",
+        "name": "fresh thyme",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "kosher salt and cracked black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat oven to 400\u00b0F (205\u00b0C). Season filet mignon steaks generously on all sides with kosher salt and black pepper.",
+      "Heat olive oil in an oven-safe cast-iron skillet over high heat until shimmering.",
+      "Add filets and sear for 2 minutes on the first side without moving. Flip and sear for 2 minutes on second side.",
+      "Add butter, crushed garlic, and thyme to pan, spooning melted butter over filets for 30 seconds.",
+      "Transfer skillet directly into the 400\u00b0F oven and roast for 4 to 5 minutes until internal temperature reaches 125\u00b0F\u2013130\u00b0F for medium-rare.",
+      "Remove from oven, transfer steaks to a warm board, and rest for 5 minutes before serving."
+    ],
+    "source_temperatures": [
+      {
+        "event": "cast iron sear",
+        "temp": "high heat"
+      },
+      {
+        "event": "oven finish",
+        "temp": "400\u00b0F (205\u00b0C)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "125\u00b0F\u2013130\u00b0F (medium-rare finish)"
+      }
+    ],
+    "swaps": "Can serve with B\u00e9arnaise sauce, red wine reduction, or truffle butter.",
+    "notes": "Classic steakhouse technique ensuring tenderloin develops a deep crust while keeping center velvety."
+  },
+  {
+    "id": "steak_007_quick_broiled_top_sirloin",
+    "title": "Quick-Broiled Top Sirloin Steak",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "Ultimate Guide to Beef | Burgers' Smokehouse",
+      "location": "How to Cook Beef - Broiling Section"
+    },
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 6,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "steak (16 oz, 1-inch thick)",
+        "name": "beef top sirloin steak",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil or melted butter",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "garlic powder and onion powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "kosher salt and black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Turn oven to high broil setting and preheat for 10 minutes with broiler pan inside.",
+      "Pat sirloin steak dry; brush with olive oil and season evenly with garlic powder, onion powder, salt, and pepper.",
+      "Carefully place steak on the hot slotted broiler rack (positioned 3 to 4 inches from upper heat element).",
+      "Broil for 3 minutes on the first side. Remove pan using an oven mitt, flip steak with tongs, and return to broil for 3 minutes.",
+      "Check with an instant-read thermometer to ensure meat reaches 145\u00b0F (medium doneness).",
+      "Transfer steak to a cutting board, tent with foil, and let rest for 3 to 5 minutes before carving into slices."
+    ],
+    "source_temperatures": [
+      {
+        "event": "oven broil",
+        "temp": "high broil (approx. 500\u00b0F radiant heat)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "145\u00b0F with 3-minute rest"
+      }
+    ],
+    "swaps": "Can use flat iron or ribeye steak in place of top sirloin.",
+    "notes": "Fastest indoor dry-heat steak method; intense radiant heat replicates restaurant salamanders."
+  },
+  {
+    "id": "steak_008_marinated_skirt_carne_asada",
+    "title": "Marinated Skirt Steak (Carne Asada Style)",
+    "cuisine": "mexican",
+    "format": "plate",
+    "source": {
+      "name": "How to Cook Beef: Best Cooking Method for Every Cut - Clover Meadows Beef",
+      "location": "Flank & Skirt Steak Stir-Frying & Grilling Section"
+    },
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 6,
+    "ingredients": [
+      {
+        "quantity": "1.5",
+        "unit": "lbs",
+        "name": "beef skirt steak or flank steak",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "tbsp",
+        "name": "fresh lime juice",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "ground cumin and chili powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "fresh cilantro, chopped",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "8",
+        "unit": "whole",
+        "name": "small corn tortillas (for serving)",
+        "role": "starch",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "In a gallon zip-top bag, combine lime juice, olive oil, minced garlic, cumin, chili powder, cilantro, salt, and pepper. Add skirt steak and marinate in refrigerator for 1 to 4 hours.",
+      "Preheat grill or heavy cast-iron skillet over high heat until smoking hot.",
+      "Remove skirt steak from marinade, discarding excess liquid; pat exterior lightly with paper towels.",
+      "Sear steak over intense high heat for 2 to 3 minutes per side until charred on exterior and medium-rare (130\u00b0F) in center.",
+      "Transfer to a cutting board and rest for 5 minutes.",
+      "Carve thinly across the grain at a 45-degree bias angle. Serve with warm corn tortillas and fresh lime."
+    ],
+    "source_temperatures": [
+      {
+        "event": "grill / skillet sear",
+        "temp": "high heat (smoking hot)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "130\u00b0F\u2013135\u00b0F (medium-rare)"
+      }
+    ],
+    "swaps": "Flank steak can be used; serve over cilantro-lime rice for a bowl format.",
+    "notes": "Thin skirt steak must be cooked hot and fast and sliced thinly across the grain to be tender."
+  }
+]

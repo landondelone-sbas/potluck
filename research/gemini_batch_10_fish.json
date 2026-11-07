@@ -1,124 +1,298 @@
-{
-  "theme": "fish",
-  "count": 1,
-  "skipped_note": "Bacalhau à Brás (Boston.gov p. 20) excluded under Rule 5 (requires overnight soaking) and Rule 5 (eggs cooked directly into hot potatoes/fish). Baked Salmon with Lemon and Dill (Prime Women) excluded under Rule 7 (baked salmon blacklisted) and Rule 6 (lacks starch/veg). Crispy Pan-Seared Bass with Walnut Romesco (Harvard Nutrition Source) excluded under Rule 1 (link/blurb only). Crispy-Skin Rockfish & Graham's Halibut (Masterchef - Bookey) excluded under Rule 1 (editorial summary blurbs lacking quantities and directions).",
-  "recipes": [
-    {
-      "id": "fish_001",
-      "title": "Cod Fish Salad",
-      "cuisine": "caribbean",
-      "format": "plate",
-      "source": {
-        "name": "ENGLISH - Boston.gov",
-        "location": "Page 19"
+[
+  {
+    "id": "fish_001_baked_parchment_packet",
+    "title": "Baked White Fish with Tomatoes, Spinach, and Olives",
+    "cuisine": "med",
+    "format": "plate",
+    "source": {
+      "name": "Heart Healthy Recipe Guide - HFSA",
+      "location": "Page 12, Baked Fish with Tomatoes, Spinach, and Olives"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 18,
+    "ingredients": [
+      {
+        "quantity": 4,
+        "unit": "fillets (4 oz each)",
+        "name": "white fish fillets (cod, haddock, or tilapia)",
+        "role": "protein",
+        "optional": false
       },
-      "servings": 4,
-      "prep_minutes": 35,
-      "cook_minutes": 15,
-      "ingredients": [
-        {
-          "quantity": "2",
-          "unit": "packages",
-          "name": "salt cod fish",
-          "role": "protein",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "medium",
-          "name": "green bell pepper, chopped",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "medium",
-          "name": "red bell pepper, chopped",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "medium",
-          "name": "green cabbage, chopped",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "medium",
-          "name": "tomatoes, chopped",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "4",
-          "unit": "cloves",
-          "name": "garlic, crushed",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "packet",
-          "name": "sazón seasoning",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "tsp",
-          "name": "paprika",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "tsp",
-          "name": "dried oregano",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "tbsp",
-          "name": "fresh parsley, chopped",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "3",
-          "unit": "cups",
-          "name": "cooked white rice",
-          "role": "starch",
-          "optional": false
-        },
-        {
-          "quantity": "3",
-          "unit": "tbsp",
-          "name": "olive oil",
-          "role": "sauce",
-          "optional": false
-        },
-        {
-          "quantity": "4",
-          "unit": "cups",
-          "name": "water for soaking and boiling",
-          "role": "staple",
-          "optional": false
-        }
-      ],
-      "steps": [
-        "Soak the salt cod fish in cold water for 30 minutes to draw out excess sodium.",
-        "Drain the salt cod, place it into a pot with clean water, bring to a boil, and simmer for several minutes.",
-        "Transfer the boiled cod into cold water to cool slightly, drain, flake into bite-sized pieces, and give it a final light rinse.",
-        "Heat the olive oil in a large skillet over low heat, add the crushed garlic, chopped cabbage, diced bell peppers, sazón, and paprika, and sauté for a few minutes while stirring.",
-        "Gently fold in the flaked cod fish, diced tomatoes, oregano, parsley, and an extra splash of olive oil, cooking briefly until the vegetables are tender.",
-        "Serve warm over portions of steamed white rice."
-      ],
-      "source_temperatures": [],
-      "swaps": "",
-      "notes": "Equipment: Large saucepan for boiling fish, large skillet for sautéing. Requires 30 minutes passive soaking time before cooking. White rice is prepared separately according to package directions before plating."
-    }
-  ]
-}
+      {
+        "quantity": 4,
+        "unit": "cups",
+        "name": "fresh baby spinach leaves",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "medium",
+        "name": "plum tomatoes, chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "name": "sliced scallions",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "name": "pitted black olives, chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "finely grated orange zest",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "tablespoons",
+        "name": "fresh orange juice",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "extra-virgin olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 4,
+        "unit": "slices",
+        "name": "fresh lemon",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "teaspoon",
+        "name": "freshly ground black pepper",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 400°F (205°C). Cut four 12x15-inch sheets of parchment paper or aluminum foil.",
+      "In a mixing bowl, toss the spinach, chopped tomatoes, scallions, black olives, orange zest, orange juice, olive oil, and black pepper together.",
+      "Divide the seasoned vegetable mixture evenly onto one half of each parchment sheet.",
+      "Pat the fish fillets dry, season lightly with black pepper, and lay one fillet over each mound of vegetables.",
+      "Top each fillet with a slice of fresh lemon. Fold the parchment over to enclose the ingredients, crimping the edges tightly to create a sealed packet.",
+      "Place the packets on a baking sheet and bake for 13 to 18 minutes, testing for doneness at the 13-minute mark until the fish is opaque and flakes easily when tested with a fork."
+    ],
+    "source_temperatures": [
+      {
+        "target": "oven",
+        "value": "400°F"
+      },
+      {
+        "target": "fish_internal",
+        "value": "145°F (opaque and flakes easily)"
+      }
+    ],
+    "swaps": [
+      "Any mild white fish such as haddock, flounder, halibut, or tilapia can substitute for cod.",
+      "Kalamata olives or capers can replace standard black olives.",
+      "Thinly sliced zucchini or bell peppers can be added alongside the spinach."
+    ],
+    "notes": "Steam trapped inside the sealed parchment gently cooks the fish and draws out tomato and citrus juices into a light, flavorful sauce."
+  },
+  {
+    "id": "fish_002_warm_cod_cabbage_salad",
+    "title": "Warm Cod Fish and Sautéed Cabbage Salad",
+    "cuisine": "med",
+    "format": "pot",
+    "source": {
+      "name": "ENGLISH - Boston.gov Nutrition & Recipe Guide",
+      "location": "Cod Fish Salad Recipe Section"
+    },
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": 16,
+        "unit": "oz",
+        "name": "boneless cod fillets (fresh or desalinated)",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 4,
+        "unit": "cups",
+        "name": "green cabbage, shredded",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "large",
+        "name": "green bell pepper, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 3,
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "tablespoons",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "name": "dried oregano",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "teaspoon",
+        "name": "paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "tablespoons",
+        "name": "fresh parsley, chopped",
+        "role": "spice",
+        "optional": true
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "apple cider vinegar or lemon juice",
+        "role": "sauce",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "If using salted cod, soak in cold water for 30 minutes, then drain. If using fresh cod, rinse and cut into 2-inch pieces.",
+      "Bring a medium saucepan of water to a gentle simmer. Add the cod and simmer gently for 4 to 5 minutes until tender and cooked through; drain and gently flake into bite-sized chunks.",
+      "Heat olive oil in a large skillet over medium heat. Add the minced garlic and diced green bell pepper, cooking for 2 to 3 minutes until fragrant.",
+      "Stir in the shredded cabbage, oregano, and paprika. Sauté for 5 to 7 minutes until the cabbage is tender-crisp.",
+      "Gently fold the flaked warm cod into the skillet with the vegetables. Remove from heat, drizzle with vinegar or lemon juice, and garnish with chopped fresh parsley before serving."
+    ],
+    "source_temperatures": [
+      {
+        "target": "simmering_water",
+        "value": "gentle simmer (approx 190°F-200°F)"
+      },
+      {
+        "target": "skillet",
+        "value": "medium heat"
+      }
+    ],
+    "swaps": [
+      "Fresh haddock or pollock can replace cod directly.",
+      "Savoy cabbage or kale can be substituted for green cabbage.",
+      "Red or yellow bell peppers can be used for extra color and sweetness."
+    ],
+    "notes": "A versatile one-skillet warm fish dish that seamlessly combines lean protein, hearty shredded greens, and aromatic garlic-oregano seasoning."
+  },
+  {
+    "id": "fish_003_pan_seared_garlic_herb_fillets",
+    "title": "Pan-Seared White Fish Fillets with Garlic and Lemon",
+    "cuisine": "med",
+    "format": "plate",
+    "source": {
+      "name": "Heart Healthy Recipe Guide - HFSA",
+      "location": "Fish Preparation & Sauté Techniques"
+    },
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 8,
+    "ingredients": [
+      {
+        "quantity": 2,
+        "unit": "fillets (5 to 6 oz each)",
+        "name": "white fish fillets (tilapia, cod, or haddock)",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "cloves",
+        "name": "garlic, thinly sliced",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "fresh lemon juice",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "teaspoon",
+        "name": "dried oregano or Italian seasoning",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "teaspoon",
+        "name": "paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "teaspoon",
+        "name": "black pepper",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Pat fish fillets thoroughly dry with paper towels. Season both sides with paprika, oregano, and black pepper.",
+      "Heat olive oil in a large nonstick or stainless steel skillet over medium-high heat until shimmering.",
+      "Add the fish fillets to the pan. Cook undisturbed for 3 to 4 minutes until golden on the bottom.",
+      "Carefully flip fillets with a thin spatula. Add sliced garlic around the edges of the pan and cook for another 3 to 4 minutes until fish is opaque in the center and flakes easily with a fork (145°F).",
+      "Remove from heat immediately, squeeze fresh lemon juice over the top, and spoon pan juices over the fillets."
+    ],
+    "source_temperatures": [
+      {
+        "target": "skillet",
+        "value": "medium-high heat"
+      },
+      {
+        "target": "fish_internal",
+        "value": "145°F"
+      }
+    ],
+    "swaps": [
+      "Flounder, sole, or perch work well in place of tilapia or cod (reduce cooking time for thinner fillets to 2 minutes per side).",
+      "Fresh chopped dill or parsley can substitute for oregano."
+    ],
+    "notes": "Quick weeknight pan-sear method that relies on high heat and a thoroughly dried surface to develop light browning without overcooking."
+  }
+]

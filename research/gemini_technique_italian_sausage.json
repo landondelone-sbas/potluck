@@ -1,0 +1,160 @@
+{
+  "ingredient": "italian_sausage",
+  "safe_temperature": {
+    "temperature": "160\u00b0F (71.1\u00b0C)",
+    "source": {
+      "name": "SAFE MINIMUM INTERNAL TEMPERATURES as measured with a food thermometer - FDA",
+      "location": "Ground pork / sausage safe internal temperature standards"
+    },
+    "disagreements": null
+  },
+  "methods": [
+    {
+      "method": "bake / oven roast",
+      "cut": "whole links (sweet or hot Italian sausage)",
+      "heat": "375\u00b0F (190\u00b0C)",
+      "time": "1 hour total (20 minutes covered with foil, 40 minutes uncovered to brown)",
+      "doneness": "Internal temperature reaches 160\u00b0F (71.1\u00b0C); casings are browned and blistered",
+      "rest": "5 minutes before slicing",
+      "tips": "Prick casings lightly with a fork to release steam and prevent casing ruptures; tossing with sliced bell peppers and onions creates a rich pan jus.",
+      "source": {
+        "name": "Idiot's Kitchen Recipe \u2013 Baked Italian Sausage with Peppers & Onions",
+        "location": "Oven preparation and timing guide"
+      }
+    },
+    {
+      "method": "pan-sear / brown crumbled",
+      "cut": "bulk or casings removed (ground meat)",
+      "heat": "Medium to medium-high heat in a skillet",
+      "time": "6 to 8 minutes",
+      "doneness": "Cooked through, no pink remains, reaches 160\u00b0F internal, and browned fond forms on bottom of skillet",
+      "rest": "None; drain excess rendered grease if desired, then deglaze fond with wine, broth, or aromatics",
+      "tips": "Break meat into bite-sized clumps with a wooden spatula; let sit undisturbed for the first 2 minutes to promote rich Maillard browning rather than steaming.",
+      "source": {
+        "name": "Creamy Tuscan Sausage Pasta - Get Inspired Everyday! & Boston.gov",
+        "location": "Skillet browning technique"
+      }
+    },
+    {
+      "method": "simmer / soup braise",
+      "cut": "sliced cooked links or browned crumbles",
+      "heat": "Low heat gentle simmer",
+      "time": "25 to 60 minutes",
+      "doneness": "Tender, succulent texture; infused throughout broth (minimum 160\u00b0F internal)",
+      "rest": "None; serve hot",
+      "tips": "Brown sausage first in the soup pot to establish fond before pouring in broth, cannellini beans, and bitter greens (escarole or kale).",
+      "source": {
+        "name": "Winter Hearth Italian Sausage Soup - Appetito Magazine",
+        "location": "Slow simmer soup method"
+      }
+    }
+  ],
+  "pairs_well_with": {
+    "vegetables": [
+      {
+        "name": "Bell peppers (red, yellow, and green)",
+        "source": "Idiot's Kitchen Recipe \u2013 Baked Italian Sausage with Peppers & Onions"
+      },
+      {
+        "name": "Sweet yellow onions",
+        "source": "Idiot's Kitchen & Get Inspired Everyday!"
+      },
+      {
+        "name": "Fresh garlic",
+        "source": "Appetito Magazine & Get Inspired Everyday!"
+      },
+      {
+        "name": "Escarole or Lacinato kale",
+        "source": "Winter Hearth Italian Sausage Soup - Appetito Magazine"
+      },
+      {
+        "name": "Baby spinach",
+        "source": "Creamy Tuscan Sausage Pasta - Get Inspired Everyday!"
+      },
+      {
+        "name": "Sun-dried tomatoes (in oil)",
+        "source": "Creamy Tuscan Sausage Pasta - Get Inspired Everyday!"
+      },
+      {
+        "name": "Diced red potatoes",
+        "source": "Winter Hearth Italian Sausage Soup - Appetito Magazine"
+      }
+    ],
+    "starches": [
+      {
+        "name": "Dried pasta (rotini, penne, fettuccine)",
+        "source": "Idiot's Kitchen & Get Inspired Everyday!"
+      },
+      {
+        "name": "Cannellini beans (white kidney beans)",
+        "source": "Winter Hearth Italian Sausage Soup - Appetito Magazine"
+      },
+      {
+        "name": "Crusty Italian artisan bread",
+        "source": "Appetito Magazine & Idiot's Kitchen"
+      },
+      {
+        "name": "Flatbread or naan crust",
+        "source": "ENGLISH - Boston.gov"
+      }
+    ],
+    "spices_and_herbs": [
+      {
+        "name": "Crushed whole fennel seeds",
+        "source": "Homemade Italian Sausage Recipe (Sweet & Hot) - Umbria"
+      },
+      {
+        "name": "Crushed red pepper flakes",
+        "source": "Umbria & Idiot's Kitchen"
+      },
+      {
+        "name": "Italian seasoning (dried basil, oregano, thyme)",
+        "source": "Get Inspired Everyday!"
+      },
+      {
+        "name": "Fresh basil leaves",
+        "source": "Boston.gov & Appetito Magazine"
+      },
+      {
+        "name": "Freshly cracked black pepper and kosher salt",
+        "source": "Umbria & Idiot's Kitchen"
+      }
+    ],
+    "sauces_and_liquids": [
+      {
+        "name": "Dry white wine (for deglazing)",
+        "source": "Creamy Tuscan Sausage Pasta - Get Inspired Everyday!"
+      },
+      {
+        "name": "Heavy cream or culinary coconut cream",
+        "source": "Creamy Tuscan Sausage Pasta - Get Inspired Everyday!"
+      },
+      {
+        "name": "Rich chicken bone broth",
+        "source": "Winter Hearth Italian Sausage Soup - Appetito Magazine"
+      },
+      {
+        "name": "Freshly grated Parmigiano-Reggiano or Pecorino Romano",
+        "source": "Idiot's Kitchen & Appetito Magazine"
+      },
+      {
+        "name": "Marinara or pizza sauce",
+        "source": "ENGLISH - Boston.gov"
+      }
+    ]
+  },
+  "avoid": [
+    {
+      "warning": "Violent, aggressive boiling or high-heat direct searing of raw links: high intense heat causes the fat inside the casing to rapidly expand and burst the casing, losing savory juices and causing grill flare-ups.",
+      "source": "Idiot's Kitchen & Umbria Guide"
+    },
+    {
+      "warning": "Under\u6709\u610f cooking ground pork below the strict 160\u00b0F internal threshold; raw or rare pork sausage presents food safety hazards.",
+      "source": "FDA Safe Minimum Internal Temperatures"
+    },
+    {
+      "warning": "Crowding the skillet when browning bulk sausage: overcrowding lowers pan temperature and causes ground meat to boil in its own expelled liquid rather than searing and caramelizing.",
+      "source": "Get Inspired Everyday! Cooking Notes"
+    }
+  ]
+}

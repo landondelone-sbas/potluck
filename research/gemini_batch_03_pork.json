@@ -1,6 +1,716 @@
-{
-  "theme": "pork",
-  "count": 0,
-  "skipped_note": "No qualifying recipes found in notebook sources meeting all criteria. Evaluated and skipped: 1. Pan-seared and skillet pork chops from Inspired Taste, Recipe Teacher, and Cookpad (excluded under Rule 7: pork chops are blacklisted). 2. Pork tenderloin methods from The Kitchn (excluded under Rule 7: pork tenderloin is blacklisted). 3. Baby back and spare ribs from Smithfield (excluded under Rule 7: BBQ ribs are blacklisted). 4. Pork Roast with Crispy Crackling from RecipeTin Eats (excluded under Rule 5: total cook time of 3 hours 35 minutes exceeds the 3-hour limit). 5. Slow Cooker Pulled Pork from Fifteen Spatulas (excluded under Rule 5: 6-8 hour slow cooker time exceeds the 3-hour limit; also excluded under Rule 7 as a sandwich/slider). 6. Slow-Roasted Pork Belly from Tasting Table (excluded under Rule 5: multi-hour slow roast exceeds time limits, and lacks starch/vegetable dinner components per Rule 6). 7. Know Your Pork Cuts reference sheet (chart/temperature guide only, lacking full 5-component recipe instructions per Rule 1).",
-  "recipes": []
-}
+[
+  {
+    "id": "pork_001_best_damn_chops",
+    "title": "The Best Damn Pan-Seared Pork Chops",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "Best Damn Pan Seared Pork Chops - Recipe Teacher",
+      "location": "Recipe Card & Pro Tips"
+    },
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "chops (8 oz each, 1-inch thick)",
+        "name": "bone-in pork chops",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "butter",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "smoked paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "garlic powder and onion powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "kosher salt and black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Pat pork chops dry with paper towels. Season both sides generously with smoked paprika, garlic powder, onion powder, salt, and pepper.",
+      "Heat olive oil in a heavy cast-iron skillet over medium-high heat until shimmering.",
+      "Add pork chops and sear for 3 to 4 minutes without moving until a golden-brown crust develops.",
+      "Flip chops, add butter to pan, and sear for another 3 to 4 minutes on second side.",
+      "Hold chops upright with tongs for 30 seconds to render and crisp the outer fat cap.",
+      "Remove chops when internal temperature reaches 145\u00b0F. Spoon pan juices over meat and let rest for 3 to 5 minutes before serving."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "doneness target",
+        "temp": "145\u00b0F with 3-minute rest"
+      }
+    ],
+    "swaps": "Boneless pork chops can be used (cook 1 minute less per side); brown sugar can be added to the rub.",
+    "notes": "Cast-iron skillet creates the golden crust while keeping the interior juicy and tender."
+  },
+  {
+    "id": "pork_002_juicy_skillet_chops",
+    "title": "Juicy Skillet Pork Chops with Pan Sauce",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "The Best Juicy Skillet Pork Chops Recipe - Inspired Taste",
+      "location": "Recipe Card & Method"
+    },
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 12,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "chops (1-inch thick)",
+        "name": "bone-in or boneless pork chops",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "butter",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.33",
+        "unit": "cup",
+        "name": "chicken broth or white wine",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "apple cider vinegar",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "fresh rosemary or thyme, chopped",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Pat chops dry and season with salt and pepper.",
+      "Heat oil in a large skillet over medium-high heat. Add chops and sear until golden, 2 to 3 minutes.",
+      "Flip chops. Hold upright with tongs for 30 seconds to sizzle the fat cap.",
+      "Reduce heat to low, cover skillet with lid, and cook for 6 to 8 minutes until internal temperature reads 145\u00b0F.",
+      "Transfer chops to a warm plate and rest.",
+      "In the same skillet over medium heat, add garlic, butter, broth, apple cider vinegar, and fresh herbs, scraping up browned bits. Simmer for 2 minutes until glossy.",
+      "Pour pan sauce over chops and serve."
+    ],
+    "source_temperatures": [
+      {
+        "event": "sear",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "covered finish",
+        "temp": "low heat"
+      },
+      {
+        "event": "doneness target",
+        "temp": "145\u00b0F (62.8\u00b0C)"
+      }
+    ],
+    "swaps": "Can use boneless chops; apple juice can replace wine for a sweeter profile.",
+    "notes": "Covering the skillet on low heat locks in moisture and cooks chops evenly without drying them out."
+  },
+  {
+    "id": "pork_003_slow_roasted_crackling_shoulder",
+    "title": "Slow-Roasted Pork Shoulder with Crispy Crackling",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "Pork Roast with Crispy Crackling - RecipeTin Eats",
+      "location": "Step-by-Step Instructions"
+    },
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 180,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "roast (4 to 5 lbs)",
+        "name": "skin-on pork shoulder roast",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "coarse sea salt (for crackling)",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "fennel seeds, crushed",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "black pepper and garlic powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "whole",
+        "name": "onions, halved (to elevate meat in pan)",
+        "role": "veg",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Use a sharp utility knife to score the rind in thin parallel lines 1/3 inch apart (cut through skin into fat, but not into meat).",
+      "Pour boiling water over the skin to open cuts, then pat completely dry with paper towels.",
+      "Rub oil and fennel seeds on flesh side only. Rub coarse salt generously all over scored skin, pressing deep into grooves.",
+      "Place halved onions in a roasting pan and set pork on top so skin is level.",
+      "Roast at 320\u00b0F (160\u00b0C) for 2.5 hours until flesh is tender and juicy.",
+      "Turn oven to 485\u00b0F (250\u00b0C) and blast pork for 25 to 30 minutes until skin puffs, bubbles, and turns into shatter-crisp crackling.",
+      "Rest loosely tented with foil for 15 to 20 minutes before carving into succulent slices with crackling."
+    ],
+    "source_temperatures": [
+      {
+        "event": "slow roast",
+        "temp": "320\u00b0F (160\u00b0C)"
+      },
+      {
+        "event": "crackling blast",
+        "temp": "485\u00b0F (250\u00b0C)"
+      }
+    ],
+    "swaps": "Pork belly can be used with the identical method and timing.",
+    "notes": "The ultimate crackling technique: low slow roast for tender flesh, followed by maximum heat blast."
+  },
+  {
+    "id": "pork_004_slow_cooker_pulled_pork",
+    "title": "Easy Slow-Cooker BBQ Pulled Pork",
+    "cuisine": "comfort",
+    "format": "pot",
+    "source": {
+      "name": "Slow Cooker Pulled Pork (Easy Recipe) - Fifteen Spatulas",
+      "location": "Recipe Card"
+    },
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 180,
+    "ingredients": [
+      {
+        "quantity": "3.5",
+        "unit": "lbs",
+        "name": "boneless pork shoulder / Boston butt",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "dark brown sugar",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "smoked paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "garlic powder, onion powder, and cumin",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "cup",
+        "name": "apple cider vinegar",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "yellow onion, sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "cup",
+        "name": "barbecue sauce",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "6",
+        "unit": "whole",
+        "name": "brioche sandwich buns",
+        "role": "starch",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "In a small bowl, mix brown sugar, smoked paprika, garlic powder, onion powder, cumin, salt, and pepper into a rub.",
+      "Rub seasoning blend all over pork shoulder.",
+      "Place sliced onions in the bottom of a slow cooker or Dutch oven. Pour in apple cider vinegar.",
+      "Set pork shoulder on top of onions. Cover and cook on low heat for 6 hours (or 3 hours in 325\u00b0F Dutch oven) until fork-tender (200\u00b0F internal).",
+      "Transfer pork to a large cutting board and shred with two forks, discarding any large fat deposits.",
+      "Return shredded pork to cooker juices, stir in barbecue sauce, and pile high on toasted brioche buns."
+    ],
+    "source_temperatures": [
+      {
+        "event": "slow cooker low",
+        "temp": "approx. 200\u00b0F (93\u00b0C)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "200\u00b0F\u2013205\u00b0F (fall-apart tender)"
+      }
+    ],
+    "swaps": "Can serve over baked potatoes, sweet potatoes, or nachos instead of buns.",
+    "notes": "Tossing shredded meat back into braising juices ensures it stays moist and flavorful."
+  },
+  {
+    "id": "pork_005_southwest_roast_tenderloin",
+    "title": "Southwest-Spiced Roast Pork Tenderloin",
+    "cuisine": "mexican",
+    "format": "plate",
+    "source": {
+      "name": "Know Your Pork Cuts - National Pork Board",
+      "location": "Pork Inspirations & Cooking Temps"
+    },
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "whole (1.25 lbs)",
+        "name": "pork tenderloin, trimmed of silverskin",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "chili powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "ground cumin and garlic powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "dried oregano",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "kosher salt and black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat oven to 400\u00b0F (205\u00b0C) and line a shallow roasting pan with foil.",
+      "Trim silvery connective tissue from tenderloin. Rub with olive oil.",
+      "Combine chili powder, cumin, garlic powder, oregano, salt, and pepper; rub spice blend over all sides of tenderloin.",
+      "Roast in preheated oven for 18 to 20 minutes until an instant-read thermometer inserted into thickest part reads 145\u00b0F.",
+      "Remove from oven and let rest for 5 minutes tented with foil.",
+      "Slice against the grain into thick medallions and serve with black beans, corn, or roasted peppers."
+    ],
+    "source_temperatures": [
+      {
+        "event": "oven roast",
+        "temp": "400\u00b0F (205\u00b0C)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "145\u00b0F with 3-minute rest"
+      }
+    ],
+    "swaps": "Can serve with salsa verde, chimichurri, or mango salsa.",
+    "notes": "Lean tenderloin cooks quickly; removing at 145\u00b0F keeps meat wonderfully juicy and pink."
+  },
+  {
+    "id": "pork_006_oven_roasted_tenderloin_showdown",
+    "title": "Oven-Roasted Juicy Pork Tenderloin (Skills Showdown Winner)",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "We Tested 7 Methods for Cooking Juicy Pork Tenderloin | The Kitchn",
+      "location": "Skills Showdown Winner Method"
+    },
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "whole (1.25 lbs)",
+        "name": "pork tenderloin",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "Dijon mustard",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "pure maple syrup or honey",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "fresh rosemary, finely chopped",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat oven to 400\u00b0F (205\u00b0C). Trim silverskin from tenderloin and pat dry.",
+      "Heat olive oil in an oven-safe cast-iron skillet over medium-high heat.",
+      "Sear tenderloin for 2 minutes per side (6 to 8 minutes total) until golden-brown on all sides.",
+      "In a small bowl, mix Dijon mustard, maple syrup, minced garlic, and rosemary.",
+      "Brush maple-mustard glaze over seared tenderloin.",
+      "Transfer skillet directly into oven and roast for 10 to 12 minutes until internal temperature hits 145\u00b0F.",
+      "Rest for 5 to 10 minutes before slicing into medallions."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "oven finish",
+        "temp": "400\u00b0F (205\u00b0C)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "145\u00b0F (62.8\u00b0C)"
+      }
+    ],
+    "swaps": "Can use whole grain mustard; honey can substitute for maple syrup.",
+    "notes": "Voted #1 method across 7 tested techniques for delivering the juiciest, most flavorful tenderloin."
+  },
+  {
+    "id": "pork_007_oven_baked_st_louis_ribs",
+    "title": "Oven-Baked St. Louis Style BBQ Ribs",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "The Ultimate Guide to Pork Ribs - Smithfield",
+      "location": "Oven-Baked Ribs Guide"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 180,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "rack (3 lbs)",
+        "name": "St. Louis style pork spareribs",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "brown sugar",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "smoked paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "garlic powder and onion powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "chili powder and black pepper",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "cup",
+        "name": "barbecue sauce",
+        "role": "sauce",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat oven to 300\u00b0F (150\u00b0C).",
+      "Flip ribs bone-side up and use a butter knife and paper towel to grip and peel off the papery membrane.",
+      "Combine brown sugar, paprika, garlic powder, onion powder, chili powder, salt, and pepper; rub over both sides of ribs.",
+      "Wrap the seasoned rack tightly in heavy-duty aluminum foil, crimping edges to seal in steam, and place on a baking sheet.",
+      "Bake in oven for 2.5 to 3 hours until meat is tender and has pulled back 1/4 inch from bone tips.",
+      "Carefully unwrap foil and brush meat generously with barbecue sauce.",
+      "Return to oven under broiler or at 425\u00b0F for 5 to 10 minutes until barbecue sauce bubbles and caramelizes into a sticky glaze.",
+      "Rest 10 minutes, slice between bones, and serve."
+    ],
+    "source_temperatures": [
+      {
+        "event": "foil-wrapped bake",
+        "temp": "300\u00b0F (150\u00b0C)"
+      },
+      {
+        "event": "glaze finish",
+        "temp": "425\u00b0F (218\u00b0C) or high broil"
+      }
+    ],
+    "swaps": "Baby back ribs can be used (bake 2 to 2.5 hours); homemade or bottled barbecue sauce works.",
+    "notes": "Tender fall-off-the-bone ribs achieved in home ovens without a smoker."
+  },
+  {
+    "id": "pork_008_crispy_skin_pork_belly",
+    "title": "Slow-Roasted Pork Belly with Blistered Crackling Skin",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "The Temperature Trick For Crispy Skin On Slow-Roasted Pork Belly - Tasting Table",
+      "location": "Technique Feature"
+    },
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 150,
+    "ingredients": [
+      {
+        "quantity": "2.5",
+        "unit": "lbs",
+        "name": "fresh pork belly, skin-on",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "coarse sea salt",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "Chinese five-spice powder or fennel powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "white pepper and garlic powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "rice vinegar or white vinegar",
+        "role": "sauce",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Score pork skin with sharp knife into shallow diamond cross-hatching without cutting into meat.",
+      "Pour boiling water over skin, dry thoroughly, brush skin with vinegar, and chill uncovered in refrigerator overnight.",
+      "Rub five-spice powder, white pepper, garlic powder, and salt into meat side only. Rub coarse salt generously into skin.",
+      "Preheat oven to 325\u00b0F (163\u00b0C). Place belly on a wire rack inside a roasting pan.",
+      "Roast for 2 hours until pork is tender and fat has rendered.",
+      "Crank oven heat to 450\u00b0F (232\u00b0C) and roast for 20 to 30 minutes until skin blisters, bubbles, and turns into crispy golden crackling.",
+      "Rest 15 minutes before slicing with a serrated knife."
+    ],
+    "source_temperatures": [
+      {
+        "event": "low roast",
+        "temp": "325\u00b0F (163\u00b0C)"
+      },
+      {
+        "event": "crackling blast",
+        "temp": "450\u00b0F (232\u00b0C)"
+      }
+    ],
+    "swaps": "Can use Italian herbs (rosemary/garlic) instead of five-spice for porchetta style.",
+    "notes": "The high-heat blast renders out fat and turns the rind into delicate shatter-crisp crackling."
+  },
+  {
+    "id": "pork_009_oven_baked_bone_in_chops",
+    "title": "Oven-Baked Bone-In Pork Loin Chops",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "How to Cook Pork Chops: Juicy Every Time (Oven, Grill & Pan) - Cookpad",
+      "location": "Oven Baking Bone-In Chops"
+    },
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 18,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "chops (8 oz each, 1-inch thick)",
+        "name": "bone-in pork loin chops",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "garlic powder and dried thyme",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "salt and black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat oven to 400\u00b0F (205\u00b0C) and line a rimmed baking sheet with foil.",
+      "Brush bone-in chops on both sides with olive oil.",
+      "In a small dish, mix paprika, garlic powder, thyme, salt, and pepper; rub seasoning over all chops.",
+      "Arrange chops on baking sheet with space between them.",
+      "Bake for 15 to 18 minutes until internal temperature registers 145\u00b0F on a digital meat thermometer.",
+      "Remove from oven and let rest for 5 minutes before serving with roasted vegetables or mashed potatoes."
+    ],
+    "source_temperatures": [
+      {
+        "event": "oven bake",
+        "temp": "400\u00b0F (205\u00b0C)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "145\u00b0F with 3-minute rest"
+      }
+    ],
+    "swaps": "Can bread chops with seasoned breadcrumbs or parmesan before baking.",
+    "notes": "Hands-off weeknight baking method that retains moisture when cooked accurately to 145\u00b0F."
+  }
+]

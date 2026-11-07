@@ -1,0 +1,186 @@
+{
+  "ingredient": "pork",
+  "safe_temperature": {
+    "temperature": "145\u00b0F (62.8\u00b0C) with a 3-minute rest time for all whole fresh cuts; 160\u00b0F (71.1\u00b0C) for ground pork",
+    "source": {
+      "name": "Know Your Pork Cuts - National Pork Board & USDA Guidelines",
+      "location": "Pork Inspirations & Safe Cooking Temperatures"
+    },
+    "disagreements": "The USDA and National Pork Board updated the safe cooking temperature for whole pork cuts (chops, roasts, tenderloins) from 160\u00b0F down to 145\u00b0F followed by a mandatory 3-minute rest period. At 145\u00b0F, pork remains slightly pink in the center and retains natural juiciness; cooking lean pork to 160\u00b0F produces dry, tough, and chalky meat. However, for tough collagen-rich cuts (shoulder, butt, belly, ribs), notebook sources deliberately depart from 145\u00b0F and slow-cook meat to internal temperatures of 195\u00b0F\u2013205\u00b0F to melt connective tissue into fall-apart shreddable pork or render crackling skin."
+  },
+  "methods": [
+    {
+      "method": "pan-sear / skillet-to-oven",
+      "cut": "bone-in or boneless pork chops (1 to 1.5 inches thick, center-cut or loin chops)",
+      "heat": "Medium-high heat in heavy skillet (cast-iron preferred); finish covered on low or in 375\u00b0F oven",
+      "time": "2 to 3 minutes per side sear, then 6 to 10 minutes covered on low heat (or in 375\u00b0F oven)",
+      "doneness": "Internal temperature reads 145\u00b0F in the thickest part; meat is slightly pink and juices run clear",
+      "rest": "3 to 5 minutes on a warm plate",
+      "tips": "Pat chops dry before searing; hold chops upright with tongs for 30 seconds to render and brown the exterior fat cap; remove chops from pan, add butter and garlic to pan drippings, and deglaze with apple cider vinegar, wine, or broth for an instant pan sauce.",
+      "source": {
+        "name": "The Best Juicy Skillet Pork Chops Recipe - Inspired Taste & Recipe Teacher",
+        "location": "Recipe Card, Method & Pro Tips"
+      }
+    },
+    {
+      "method": "sear-and-roast",
+      "cut": "whole pork tenderloin (trimmed of silverskin, approx. 1 to 1.25 lbs)",
+      "heat": "Medium heat skillet sear, then transferred to 400\u00b0F (205\u00b0C) oven",
+      "time": "2 minutes per side sear in skillet (approx. 6 to 8 minutes total), then 10 to 15 minutes roast in oven",
+      "doneness": "Instant-read thermometer reads 145\u00b0F to 150\u00b0F in thickest section; tender and juicy with slight pink blush",
+      "rest": "5 to 10 minutes tented with foil before slicing",
+      "tips": "Always trim the tough white silverskin with a sharp boning knife; sear meat on all sides before applying spice rubs or herb crusts so the spices do not scorch in the pan; slice against the grain into thick medallions.",
+      "source": {
+        "name": "Best Juicy Pork Tenderloin Recipe - Inspired Taste & The Kitchn",
+        "location": "Skills Showdown Winner & Pro Tips"
+      }
+    },
+    {
+      "method": "slow-roast with crackling blast",
+      "cut": "skin-on pork shoulder roast or skin-on pork belly",
+      "heat": "320\u00b0F (160\u00b0C) slow roast for 2.5 hours, then blasted at 485\u00b0F (250\u00b0C) for 25 to 30 minutes",
+      "time": "3 hours total",
+      "doneness": "Internal temperature reaches 195\u00b0F\u2013205\u00b0F; flesh is fall-apart succulent and skin is transformed into blistered, shatter-crisp crackling",
+      "rest": "15 to 20 minutes loosely tented with foil (thick crackling will not soften)",
+      "tips": "The four non-negotiable rules for crackling skin are surface area, dryness, salt, and heat; score skin with a sharp knife, scald with boiling water, dry thoroughly with paper towels, and rub coarse salt deep into cuts; blast at high heat at the very end to puff and bubble the rind.",
+      "source": {
+        "name": "Pork Roast with Crispy Crackling - RecipeTin Eats & Tasting Table",
+        "location": "Step-by-Step Instructions & Crackling Trick"
+      }
+    },
+    {
+      "method": "bake / foil-wrapped oven ribs",
+      "cut": "St. Louis style spareribs or baby back ribs (racks)",
+      "heat": "300\u00b0F (150\u00b0C) covered, then 425\u00b0F (218\u00b0C) or broil for glazing",
+      "time": "2.5 to 3 hours tightly wrapped in foil, then 10 to 15 minutes uncovered with barbecue sauce glaze",
+      "doneness": "Meat shrinks back 1/4 inch from bone tips and bends with slight crack in surface",
+      "rest": "10 to 15 minutes before slicing between bones",
+      "tips": "Peel off the tough papery membrane from the bone side of the ribs before cooking for maximum tenderness and rub penetration; wrap tightly in heavy-duty foil to lock in steam and braise the meat in its own juices.",
+      "source": {
+        "name": "The Ultimate Guide to Pork Ribs - Smithfield",
+        "location": "Cooking Techniques & Oven-Baked Ribs Guide"
+      }
+    },
+    {
+      "method": "slow-cook / braise",
+      "cut": "boneless or bone-in pork shoulder / Boston butt (cut into large chunks)",
+      "heat": "Low heat slow cooker (approx. 200\u00b0F) or 325\u00b0F covered Dutch oven",
+      "time": "6 to 8 hours on low in slow cooker (or 2.5 to 3 hours in 325\u00b0F Dutch oven)",
+      "doneness": "Internal temperature reaches 200\u00b0F\u2013205\u00b0F; meat shreds effortlessly with two forks",
+      "rest": "10 minutes resting in braising liquid before shredding",
+      "tips": "Rub pork with brown sugar, smoked paprika, cumin, and garlic; add apple cider vinegar and sliced onions; after shredding, toss pulled pork back into pan juices to keep it juicy.",
+      "source": {
+        "name": "Slow Cooker Pulled Pork (Easy Recipe) - Fifteen Spatulas",
+        "location": "Recipe Card & Instructions"
+      }
+    }
+  ],
+  "pairs_well_with": {
+    "vegetables": [
+      {
+        "name": "Sweet yellow onions and roasting shallots",
+        "source": "Fifteen Spatulas & RecipeTin Eats"
+      },
+      {
+        "name": "Fresh garlic (minced or whole cloves)",
+        "source": "Inspired Taste & Recipe Teacher"
+      },
+      {
+        "name": "Roasted Brussels sprouts and carrots",
+        "source": "Andrew Gruel Pork Roast Guide"
+      },
+      {
+        "name": "Braised green cabbage or sauerkraut",
+        "source": "The Kitchn & RecipeTin Eats"
+      },
+      {
+        "name": "Crisp green apples (saut\u00e9ed)",
+        "source": "Recipe Teacher & Inspired Taste"
+      },
+      {
+        "name": "Bell peppers and sweet corn",
+        "source": "National Pork Board"
+      }
+    ],
+    "starches": [
+      {
+        "name": "Creamy mashed potatoes with butter and cream",
+        "source": "Recipe Teacher & The Irishman's Wife"
+      },
+      {
+        "name": "Warm brioche buns (for pulled pork sandwiches)",
+        "source": "Fifteen Spatulas"
+      },
+      {
+        "name": "Roasted baby Yukon gold or fingerling potatoes",
+        "source": "The Kitchn & RecipeTin Eats"
+      },
+      {
+        "name": "Creamy polenta or grits",
+        "source": "Inspired Taste"
+      },
+      {
+        "name": "Southern cornbread or crusty rolls",
+        "source": "Smithfield Ribs Guide"
+      }
+    ],
+    "spices_and_herbs": [
+      {
+        "name": "Fresh rosemary, fresh sage, and fresh thyme",
+        "source": "Inspired Taste & RecipeTin Eats"
+      },
+      {
+        "name": "Smoked paprika and ground cumin",
+        "source": "Fifteen Spatulas & Smithfield"
+      },
+      {
+        "name": "Dark brown sugar and dry mustard powder",
+        "source": "Smithfield & Fifteen Spatulas"
+      },
+      {
+        "name": "Fennel seeds (crushed)",
+        "source": "RecipeTin Eats & Umbria Guide"
+      },
+      {
+        "name": "Coarse sea salt and cracked black pepper",
+        "source": "National Pork Board & Recipe Teacher"
+      }
+    ],
+    "sauces_and_glazes": [
+      {
+        "name": "Apple cider vinegar and pan juices reduction",
+        "source": "Inspired Taste & Fifteen Spatulas"
+      },
+      {
+        "name": "Sweet and smoky barbecue sauce",
+        "source": "Smithfield & Fifteen Spatulas"
+      },
+      {
+        "name": "Dijon mustard and pure maple syrup",
+        "source": "The Kitchn & Inspired Taste"
+      },
+      {
+        "name": "Rich pan gravy from roast drippings",
+        "source": "RecipeTin Eats"
+      }
+    ]
+  },
+  "avoid": [
+    {
+      "warning": "Overcooking lean pork cuts (chops, tenderloin) past 145\u00b0F: lean pork has little fat; cooking to 160\u00b0F expels all moisture, leaving it dry, chalky, and tough.",
+      "source": "National Pork Board & The Kitchn"
+    },
+    {
+      "warning": "Leaving the tough silverskin on pork tenderloin: silverskin is elastin connective tissue that does not break down during quick cooking and contracts into a tough, chewy strip.",
+      "source": "Inspired Taste (Tenderloin Tips)"
+    },
+    {
+      "warning": "Leaving the membrane on the underside of ribs: the papery membrane prevents seasonings and smoke from penetrating and turns leathery when baked.",
+      "source": "Smithfield (Pro Tips for Rib Perfection)"
+    },
+    {
+      "warning": "Searing meat wet: moisture prevents browning; pat meat thoroughly dry before searing.",
+      "source": "Inspired Taste & RecipeTin Eats"
+    }
+  ]
+}

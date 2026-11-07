@@ -122,6 +122,8 @@ describe('food safety wording (PRD section 11)', () => {
     ['Shrimp', 'pink and opaque'],
     ['Steak', 'cooked through'],
     ['Black beans', 'heated through'],
+    ['Eggs', 'set and firm, 160°F / 71°C'],
+    ['Tofu', 'heated through'],
   ];
   const asking = dishes.filter((d) => d.steps.some((s) => s.includes('{doneness}')));
 

@@ -1,0 +1,33 @@
+{
+  "theme": "beans",
+  "category": "cooking_notes",
+  "description": "Source gap analysis, unaddressed bean varieties, and missing cooking parameters across NotebookLM sources.",
+  "source_notebook": {
+    "name": "Global Food Trends and Recipes",
+    "id": "notebooks/5c787d4e-8d68-497e-a784-1cf548ae9a82"
+  },
+  "summary_of_gaps": "The notebook sources rely almost exclusively on canned, pre-cooked beans and chickpeas across soups, stews, chilis, and skillet warm-ups. As a result, critical raw/dry bean preparation techniques are missing.",
+  "uncovered_aspects": [
+    {
+      "topic": "Dried bean soaking protocols",
+      "status": "missing_from_sources",
+      "detail": "No source provides soaking times, water-to-bean ratios, or guidance on overnight cold soaking vs quick hot soaking for dried legumes."
+    },
+    {
+      "topic": "Dried bean boiling & cooking times",
+      "status": "missing_from_sources",
+      "detail": "Cooking times from dry beans from scratch (ranging typically from 45 to 90 minutes) are completely absent. All recipe times assume canned, drained beans."
+    },
+    {
+      "topic": "Pressure cooker / Instant Pot dry bean conversions",
+      "status": "missing_from_sources",
+      "detail": "While Instant Pot Pasta e Fagioli is referenced in recipe roundups, exact pressure cooking times and natural release protocols for unsoaked or soaked dry beans are not specified."
+    },
+    {
+      "topic": "Phytohaemagglutinin toxin safety for red kidney beans",
+      "status": "missing_from_sources",
+      "detail": "No sources warn about the necessary 10-minute rapid boil requirement to destroy lectins/phytohaemagglutinin in raw dry kidney beans before slow cooking."
+    }
+  ],
+  "app_recommendation": "The app engine should default to canned, drained beans for quick weeknight dinners. If a user selects raw dried beans, external hydration and boil times must be supplied."
+}
