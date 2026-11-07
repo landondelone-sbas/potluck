@@ -9,8 +9,9 @@ apps/mobile/assets
 apps/mobile/expo-env.d.ts
 potluck.html
 
-# Raw research saved by Gemini and Google Drive: recipe lists, batch files and Drive shortcuts.
-# They are data, not code, so they are not reformatted.
+# Raw research saved by Gemini and Google Drive. It is data, not code, so it is not reformatted.
+# New files land in the repo root first, so the same patterns are listed here as well.
+research
 gemini_batch_*.json
 *_recipes*.json
 *.gdoc
