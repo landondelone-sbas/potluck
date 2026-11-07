@@ -1,6 +1,7 @@
 {
   "id": "eggfooyoung",
   "cuisine": "asian",
+  "format": "pot",
   "title": "Egg Foo Young with {v}",
   "minutes": 20,
   "feel": "Quick",

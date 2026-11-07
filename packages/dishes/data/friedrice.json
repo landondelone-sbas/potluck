@@ -1,6 +1,7 @@
 {
   "id": "friedrice",
   "cuisine": "asian",
+  "format": "pot",
   "title": "{p} Fried Rice",
   "minutes": 15,
   "feel": "Quick",

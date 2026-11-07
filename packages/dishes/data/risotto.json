@@ -1,6 +1,7 @@
 {
   "id": "risotto",
   "cuisine": "italian",
+  "format": "pot",
   "title": "{p} & {v} Risotto",
   "minutes": 40,
   "feel": "Creamy",

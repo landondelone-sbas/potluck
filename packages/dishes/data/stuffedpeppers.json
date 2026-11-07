@@ -1,6 +1,7 @@
 {
   "id": "stuffedpeppers",
   "cuisine": "med",
+  "format": "pot",
   "title": "Stuffed Peppers with {p}",
   "minutes": 50,
   "feel": "Hearty",

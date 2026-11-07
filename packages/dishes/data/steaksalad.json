@@ -1,6 +1,7 @@
 {
   "id": "steaksalad",
   "cuisine": "comfort",
+  "format": "pot",
   "title": "Steak Salad with {v}",
   "minutes": 25,
   "feel": "Light",

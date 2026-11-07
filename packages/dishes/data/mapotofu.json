@@ -1,0 +1,52 @@
+{
+  "id": "mapotofu",
+  "cuisine": "asian",
+  "format": "pot",
+  "title": "Spicy {p} with {v}",
+  "minutes": 30,
+  "feel": "Bold",
+  "wants": {
+    "protein": ["tofu"],
+    "veg": ["mushroom", "greens", "onion", "cabbage", "pepper"],
+    "spice": ["ginger", "garlic", "chili"],
+    "sauce": ["soy", "hot"],
+    "starch": ["rice", "noodles"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "tofu",
+    "veg": "mushrooms",
+    "spice": "ginger",
+    "sauce": "chili bean paste",
+    "starch": "jasmine rice"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 400,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Cut the {p} into cubes and simmer in gently boiling salted water for 2 minutes. Drain carefully.",
+    "Cook the {v} with the {spice} in a hot oiled pan until fragrant, about 3 minutes.",
+    "Stir in the {sauce} for a minute, then add a cup of broth and bring to a boil.",
+    "Slide in the {p} and simmer 3 to 4 minutes, until the sauce coats it. Serve over the {s}."
+  ],
+  "tip": "Tofu and mushrooms make this filling with very little fat. Go easy on the salty sauce."
+}

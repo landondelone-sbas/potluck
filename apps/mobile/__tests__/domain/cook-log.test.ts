@@ -62,14 +62,33 @@ describe('rebuildResult with a chef-chosen protein', () => {
       const entry = makeLogEntry(card, run, { id: 'e', now: 2 });
       const chosen = card.chefAdds.find((add) => add.category === 'protein');
       expect(chosen).toBeDefined();
-      expect(entry.chefProtein).toBe(chosen?.name);
+      expect(entry.chefPicks?.protein).toBe(chosen?.name);
       expect(rebuildResult(entry, dishes)).toEqual(card);
     },
   );
 
-  test('an older entry with no saved protein still rebuilds, with the dish default', () => {
+  test('an entry that saved only the chef protein (an older build) still rebuilds with it', () => {
     const card = run.result.results[0]!;
-    const { chefProtein: _dropped, ...old } = makeLogEntry(card, run, { id: 'e', now: 2 });
+    const protein = card.chefAdds.find((a) => a.category === 'protein')!.name;
+    const { chefPicks: _dropped, ...old } = makeLogEntry(card, run, { id: 'e', now: 2 });
+    const rebuilt = rebuildResult({ ...old, chefProtein: protein }, dishes);
+    expect(rebuilt?.chefAdds.find((a) => a.category === 'protein')?.name).toBe(protein);
+  });
+
+  test('the chef picks a pantry vegetable and starch too, and the recipe keeps them', () => {
+    const run2 = runFor(
+      potOf(['protein', 'Salmon']),
+      potOf(['protein', 'Salmon'], ['veg', 'Green beans'], ['starch', 'Baby potatoes']),
+    );
+    const card = run2.result.results.find((r) => r.dish.id === 'bakedsalmon')!;
+    const entry = makeLogEntry(card, run2, { id: 'e', now: 2 });
+    expect(entry.chefPicks).toMatchObject({ veg: 'green beans', starch: 'baby potatoes' });
+    expect(rebuildResult(entry, dishes)).toEqual(card);
+  });
+
+  test('an older entry with no saved picks still rebuilds, with the dish default', () => {
+    const card = run.result.results[0]!;
+    const { chefPicks: _dropped, ...old } = makeLogEntry(card, run, { id: 'e', now: 2 });
     const rebuilt = rebuildResult(old, dishes);
     expect(rebuilt?.chefAdds.find((a) => a.category === 'protein')?.name).toBe(
       card.dish.defaults.protein,

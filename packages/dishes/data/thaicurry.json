@@ -1,6 +1,7 @@
 {
   "id": "thaicurry",
   "cuisine": "thai",
+  "format": "pot",
   "title": "{p} & {v} Coconut Curry",
   "minutes": 35,
   "feel": "Creamy",

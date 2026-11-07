@@ -1,0 +1,58 @@
+{
+  "id": "sesametofu",
+  "cuisine": "asian",
+  "format": "plate",
+  "title": "Crispy Sesame {p} with {v}",
+  "minutes": 55,
+  "feel": "Balanced",
+  "wants": {
+    "protein": ["tofu"],
+    "veg": ["broccoli", "greens", "carrot", "cabbage", "greenbeans", "cucumber"],
+    "spice": ["ginger", "garlic", "chili"],
+    "sauce": ["soy", "honey", "teriyaki"],
+    "starch": ["rice", "noodles", "quinoa"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "tofu"
+    }
+  ],
+  "defaults": {
+    "protein": "tofu",
+    "veg": "broccoli",
+    "spice": "ginger",
+    "sauce": "soy and maple glaze",
+    "starch": "jasmine rice"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 400,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 45,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Heat the oven to 425°F (220°C). Press the {p} for 15 minutes, then cut into 3/4-inch cubes.",
+    "Toss the {p} with a little oil and soy sauce, then a spoonful of cornstarch. Spread on a lined sheet without touching and bake 20 to 25 minutes, flipping once, until golden and crisp.",
+    "{starch_how} {veg_how}",
+    "Warm the {spice} with the {sauce} in a small pan and toss the hot tofu in it.",
+    "Serve the {p} over the {s} with the {v}."
+  ],
+  "tip": "Baking the tofu until crisp means no frying. Pile on the vegetable and go easy on the glaze."
+}

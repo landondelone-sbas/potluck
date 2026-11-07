@@ -1,6 +1,7 @@
 {
   "id": "tikkamasala",
   "cuisine": "indian",
+  "format": "pot",
   "title": "{p} Tikka Masala",
   "minutes": 35,
   "feel": "Rich",

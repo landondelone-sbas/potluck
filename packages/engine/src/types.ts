@@ -10,10 +10,17 @@ export interface PotItem {
   tags: readonly string[];
 }
 
+/**
+ * How a dish is served. `pot`: everything cooks together (a stir-fry, a stew, a bowl). `plate`: a
+ * protein with two sides, each cooked on its own, so the steps run the parts side by side.
+ */
+export type DishFormat = 'pot' | 'plate';
+
 /** A bundled, read-only dish record (PRD section 10). */
 export interface Dish {
   id: string;
   cuisine: Cuisine;
+  format: DishFormat;
   /** Template with `{p}` (first protein) and `{v}` (first veg) placeholders. */
   title: string;
   minutes: number;

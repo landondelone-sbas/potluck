@@ -1,5 +1,5 @@
-import { categoryIndex } from './categories';
-import { buildResult } from './results';
+import { CATEGORIES, categoryIndex, type Category } from './categories';
+import { buildResult, type ChefPicks } from './results';
 import { evaluateDish, type DishEvaluation } from './score';
 import type { CookResult, Dish, PotItem } from './types';
 import { wildcardName } from './wildcard';
@@ -12,6 +12,21 @@ export const MAX_RESULTS = 3;
 
 function rank(a: DishEvaluation, b: DishEvaluation): number {
   return b.score - a.score || b.used.length - a.used.length || a.index - b.index;
+}
+
+/**
+ * When every pick is the same format and the very next dish down is a close one of the other
+ * format, the last pick gives way to it, so the user sees a choice between a one-pot dish and a
+ * plated meal. Only the next dish down counts: a plate further away does not push out a pick that
+ * clearly earned its place. The picks stay in rank order.
+ */
+function mixFormats(picks: DishEvaluation[], close: readonly DishEvaluation[]): DishEvaluation[] {
+  const first = picks[0];
+  if (!first || picks.length < 2) return picks;
+  if (picks.some((p) => p.dish.format !== first.dish.format)) return picks;
+  const next = close[picks.length];
+  if (!next || next.dish.format === first.dish.format) return picks;
+  return [...picks.slice(0, -1), next].sort(rank);
 }
 
 /** True when `score` is at least CLOSE_PERCENT of `topScore`. Integer math: no float edge cases. */
@@ -36,35 +51,52 @@ export function cook(
 
   const all = dishes.map((dish, index) => evaluateDish(dish, pot, index)).sort(rank);
 
-  // When the pot gives a dish no protein, the chef supplies one. With a pantry given, that is the
-  // first pantry protein the dish accepts, and a dish none of them suit is not offered. If that
-  // would leave nothing to offer, every dish is kept with its own default protein.
-  const chefProteins = new Map<DishEvaluation, PotItem>();
+  // Where the pot gives a dish nothing in a category, the chef supplies something. With a pantry
+  // given, that is the first pantry item the dish accepts, so the cook is never told to use
+  // something they do not own. A protein is required: a dish none of the user's proteins suit is not
+  // offered, unless that would leave nothing, when every dish keeps its own default protein. For the
+  // other categories a pantry with nothing suitable leaves the dish's default (the chef adds it).
+  const chefPicks = new Map<DishEvaluation, ChefPicks>();
   let ranked = all;
   if (pantry) {
-    const proteins = pantry.filter((item) => item.category === 'protein');
+    const fromPantry = (evaluation: DishEvaluation, category: Category): PotItem | undefined => {
+      if (evaluation.used.some((item) => item.category === category)) return undefined;
+      const wants = evaluation.dish.wants[category];
+      return pantry.find(
+        (item) => item.category === category && item.tags.some((tag) => wants.includes(tag)),
+      );
+    };
+    const picksFor = (evaluation: DishEvaluation): ChefPicks => {
+      const picks: ChefPicks = {};
+      for (const category of CATEGORIES) {
+        const pick = fromPantry(evaluation, category);
+        if (pick) picks[category] = pick;
+      }
+      return picks;
+    };
     const offered = all.filter((evaluation) => {
-      if (evaluation.used.some((item) => item.category === 'protein')) return true;
-      const wants = evaluation.dish.wants.protein;
-      const match = proteins.find((item) => item.tags.some((tag) => wants.includes(tag)));
-      if (match) chefProteins.set(evaluation, match);
-      return match !== undefined;
+      const noProteinUsed = !evaluation.used.some((item) => item.category === 'protein');
+      const picks = picksFor(evaluation);
+      if (noProteinUsed && !picks.protein) return false;
+      chefPicks.set(evaluation, picks);
+      return true;
     });
     if (offered.length > 0) ranked = offered;
-    else chefProteins.clear();
+    else chefPicks.clear();
   }
 
   const top = ranked[0];
   if (!top) return null;
 
-  const candidates = ranked
-    .filter((r) => isCloseEnough(r.score, top.score) && r.used.length >= top.used.length - 1)
-    .slice(0, MAX_RESULTS);
+  const close = ranked.filter(
+    (r) => isCloseEnough(r.score, top.score) && r.used.length >= top.used.length - 1,
+  );
+  const candidates = mixFormats(close.slice(0, MAX_RESULTS), close);
 
   return {
     potSize: pot.length,
     mode: candidates.length === 1 ? 'single' : 'multi',
-    results: candidates.map((evaluation) => buildResult(evaluation, chefProteins.get(evaluation))),
+    results: candidates.map((evaluation) => buildResult(evaluation, chefPicks.get(evaluation))),
     wildcard: pot.length >= 2 ? wildcardName(pot) : null,
   };
 }

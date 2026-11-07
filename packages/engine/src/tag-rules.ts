@@ -11,18 +11,22 @@ export const TAG_RULES: Record<Category, readonly (readonly [tag: string, patter
     ['chicken', /chicken|wings?\b/],
     [
       'beef',
-      /beef|steak|brisket|burger|ribeye|rib-eye|sirloin|filet mignon|flank|skirt|porterhouse|t-bone|tri-tip|ny strip|new york strip/,
+      /beef|steak|brisket|burger|ribeye|rib-eye|sirloin|filet mignon|flank|skirt|porterhouse|t-bone|tri-tip|ny strip|new york strip|chuck|prime rib|rib roast|short rib|carne asada|flat iron|tomahawk|oxtail/,
     ],
     // A whole-cut steak, which is cooked to a doneness. It is always `beef` too, so every dish
     // that takes beef still takes it. Ground beef, burgers and brisket are `beef` only. Fish and
     // pork steaks, cube steak and chicken-fried steak are not this.
     [
       'steak',
-      /^(?!.*(salmon|tuna|swordfish|fish|pork|\bham\b|lamb|chicken|cube))(?=.*(\bsteak|ribeye|rib-eye|sirloin|filet mignon|flank|skirt|porterhouse|t-bone|tri-tip|ny strip|new york strip))/,
+      /^(?!.*(salmon|tuna|swordfish|fish|pork|\bham\b|lamb|chicken|cube))(?=.*(\bsteak|ribeye|rib-eye|sirloin|filet mignon|flank|skirt|porterhouse|t-bone|tri-tip|ny strip|new york strip|flat iron|tomahawk))/,
     ],
-    ['pork', /pork|\bham\b|bacon/],
-    ['sausage', /sausage|chorizo|kielbasa|bratwurst|hot dog/],
-    ['fish', /salmon|tuna|\bcod\b|tilapia|trout|halibut|fish|mahi|sardine/],
+    // Ribs are pork unless the name says beef or lamb.
+    ['pork', /pork|\bham\b|bacon|pancetta|prosciutto|baby back|^(?!.*(beef|lamb)).*\bribs\b/],
+    ['sausage', /sausage|chorizo|kielbasa|bratwurst|hot dog|pepperoni|salami|andouille/],
+    [
+      'fish',
+      /salmon|tuna|\bcod\b|bacalao|tilapia|trout|halibut|fish|mahi|sardine|snapper|haddock|sea bass/,
+    ],
     ['shrimp', /shrimp|prawn/],
     ['egg', /\begg/],
     ['tofu', /tofu|tempeh|seitan/],
@@ -40,7 +44,8 @@ export const TAG_RULES: Record<Category, readonly (readonly [tag: string, patter
     ['onion', /onion|shallot|scallion|leek/],
     ['greens', /spinach|kale|chard|greens|arugula|lettuce|bok choy/],
     ['mushroom', /mushroom/],
-    ['carrot', /carrot/],
+    // Root vegetables that cook like carrots.
+    ['carrot', /carrot|parsnip|turnip|beet|rutabaga/],
     ['zucchini', /zucchini|squash|courgette/],
     ['cabbage', /cabbage|slaw|kimchi/],
     ['corn', /\bcorn\b/],
@@ -49,6 +54,8 @@ export const TAG_RULES: Record<Category, readonly (readonly [tag: string, patter
     ['greenbeans', /green bean|snap pea|snow pea|\bpeas?\b|edamame/],
     ['cucumber', /cucumber/],
     ['avocado', /avocado/],
+    ['okra', /okra/],
+    ['eggplant', /eggplant|aubergine/],
     ['celery', /celery/],
   ],
   spice: [
@@ -58,7 +65,10 @@ export const TAG_RULES: Record<Category, readonly (readonly [tag: string, patter
     ['garlic', /garlic/],
     ['ginger', /ginger/],
     ['curry', /curry|garam|turmeric|masala/],
-    ['herbs', /herb|oregano|basil|thyme|rosemary|parsley|dill|sage|italian/],
+    [
+      'herbs',
+      /herb|oregano|basil|thyme|rosemary|parsley|dill|sage|italian|cilantro|coriander|mint|tarragon|chive|bay leaf/,
+    ],
     ['pepper', /black pepper|lemon pepper|peppercorn|^pepper/],
     ['cinnamon', /cinnamon|nutmeg/],
     ['cajun', /cajun|creole|old bay|blackened/],
@@ -67,14 +77,20 @@ export const TAG_RULES: Record<Category, readonly (readonly [tag: string, patter
     ['jerk', /jerk|allspice|scotch bonnet|jamaican/],
   ],
   sauce: [
-    ['soy', /soy|tamari|shoyu|fish sauce|miso/],
+    ['soy', /soy|tamari|shoyu|fish sauce|miso|oyster sauce|worcestershire/],
     ['teriyaki', /teriyaki|hoisin|glaze/],
     ['tomato', /marinara|tomato|pizza sauce|red sauce|arrabbiata|pomodoro/],
-    ['cream', /alfredo|cream|cheese|queso|carbonara|bechamel|béchamel/],
+    [
+      'cream',
+      /alfredo|cream|cheese|queso|carbonara|bechamel|béchamel|^(?!.*(peanut|almond|apple|nut) butter).*\bbutter\b/,
+    ],
     ['bbq', /bbq|barbecue/],
     ['salsa', /salsa|pico|enchilada|taco sauce|mole|verde/],
     ['pesto', /pesto|chimichurri/],
-    ['hot', /\bhot\b|sriracha|gochujang|harissa|tabasco|chili sauce|chili crisp/],
+    [
+      'hot',
+      /\bhot\b|sriracha|gochujang|harissa|tabasco|chili sauce|chili crisp|doubanjiang|chili bean|sambal/,
+    ],
     ['peanut', /peanut|satay/],
     ['buffalo', /buffalo/],
     ['gravy', /gravy|\bjus\b|stock|broth/],
@@ -87,13 +103,23 @@ export const TAG_RULES: Record<Category, readonly (readonly [tag: string, patter
   ],
   starch: [
     ['noodles', /noodle|ramen|udon|soba|vermicelli|lo mein/],
-    ['pasta', /spaghetti|pasta|penne|macaroni|fettuccine|linguine|rigatoni|orzo|lasagna/],
+    [
+      'pasta',
+      /spaghetti|pasta|penne|macaroni|fettuccine|linguine|linguini|rigatoni|orzo|lasagna|gnocchi|ziti|farfalle|orecchiette/,
+    ],
     ['rice', /rice/],
     ['sweetpotato', /sweet potato|yam/],
     ['potato', /potato|fries|tater|hash brown/],
-    ['bread', /bread|sourdough|\bbun|toast|bagel|baguette|\broll|pita|naan|ciabatta/],
+    // A large potato that is baked whole. Baby, red and new potatoes are just `potato`.
+    ['bakingpotato', /russet|baking potato|baked potato|idaho|jacket potato/],
+    [
+      'bread',
+      /bread|sourdough|\bbun|toast|bagel|baguette|\broll|pita|naan|ciabatta|flatbread|brioche/,
+    ],
     ['tortilla', /tortilla|\bwrap|taco shell/],
     ['quinoa', /quinoa|farro|barley|bulgur/],
     ['couscous', /couscous/],
+    ['grits', /grits|polenta|cornmeal/],
+    ['plantain', /plantain|mofongo|tostone/],
   ],
 };

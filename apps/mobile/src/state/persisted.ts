@@ -56,6 +56,7 @@ const CookLogEntrySchema = z.object({
   pot: z.array(z.object({ name: z.string().min(1), category: z.enum(CATEGORIES) })),
   cookedAt: z.number(),
   chefProtein: z.string().min(1).optional(),
+  chefPicks: z.partialRecord(z.enum(CATEGORIES), z.string().min(1)).optional(),
   rating: z.enum(['up', 'down']).nullable(),
 });
 

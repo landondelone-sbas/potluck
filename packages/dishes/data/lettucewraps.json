@@ -1,6 +1,7 @@
 {
   "id": "lettucewraps",
   "cuisine": "asian",
+  "format": "pot",
   "title": "{p} Lettuce Wraps",
   "minutes": 20,
   "feel": "Light",

@@ -1,6 +1,7 @@
 {
   "id": "chili",
   "cuisine": "comfort",
+  "format": "pot",
   "title": "{p} Chili",
   "minutes": 50,
   "feel": "Hearty",

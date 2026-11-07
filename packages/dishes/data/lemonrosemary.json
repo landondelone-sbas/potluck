@@ -1,0 +1,58 @@
+{
+  "id": "lemonrosemary",
+  "cuisine": "med",
+  "format": "plate",
+  "title": "Lemon-Herb Grilled {p} with {v}",
+  "minutes": 40,
+  "feel": "Light",
+  "wants": {
+    "protein": ["chicken"],
+    "veg": ["asparagus", "zucchini", "greenbeans", "tomato", "pepper", "greens", "broccoli"],
+    "spice": ["lemon", "herbs", "garlic", "pepper"],
+    "sauce": ["vinaigrette", "mustard", "honey"],
+    "starch": ["rice", "quinoa", "couscous", "potato", "bread"]
+  },
+  "signature": [
+    {
+      "category": "spice",
+      "tag": "lemon"
+    }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "zucchini",
+    "spice": "lemon and rosemary",
+    "sauce": "olive oil and lemon",
+    "starch": "couscous"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Toss the {p} with oil, a squeeze of lemon, salt and the {spice}. Leave to marinate 20 minutes.",
+    "Start the sides while the {p} marinates. {starch_how} {veg_how}",
+    "Grill or pan-sear the {p} over medium-high heat, 6 to 8 minutes per side, until {doneness}.",
+    "Rest the {p} 5 minutes, then slice.",
+    "Serve the {p} with the {v} and {s}, with the {sauce} drizzled over."
+  ],
+  "tip": "Marinating in lemon and herbs instead of cream or butter keeps lean chicken flavorful and light."
+}

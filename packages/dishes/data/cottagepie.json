@@ -1,6 +1,7 @@
 {
   "id": "cottagepie",
   "cuisine": "comfort",
+  "format": "pot",
   "title": "{p} & {v} Potato Pie",
   "minutes": 60,
   "feel": "Hearty",

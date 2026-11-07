@@ -1,0 +1,52 @@
+{
+  "id": "porktenderloin",
+  "cuisine": "mexican",
+  "format": "plate",
+  "title": "Southwest {p} with {v}",
+  "minutes": 35,
+  "feel": "Balanced",
+  "wants": {
+    "protein": ["pork"],
+    "veg": ["pepper", "corn", "onion", "zucchini"],
+    "spice": ["chili", "cumin", "garlic", "smoky"],
+    "sauce": ["salsa", "hot", "honey"],
+    "starch": ["rice", "tortilla", "sweetpotato", "potato", "quinoa"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "pork tenderloin",
+    "veg": "bell peppers",
+    "spice": "chili powder",
+    "sauce": "salsa",
+    "starch": "jasmine rice"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Heat the oven to 425°F (220°C). Start the sides first, since they take the longest. {starch_how} {veg_how}",
+    "Trim the {p}, rub with oil, and coat evenly with the {spice} and salt.",
+    "Roast on a sheet pan 20 to 25 minutes, until {doneness}. Rest 3 minutes, then slice into medallions.",
+    "Serve the {p} with the {v} and {s}, and top with the {sauce}."
+  ],
+  "tip": "Pork tenderloin is one of the leanest cuts. Add beans or extra vegetables to stretch it."
+}

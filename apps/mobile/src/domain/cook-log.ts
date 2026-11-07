@@ -4,6 +4,7 @@ import {
   evaluateDish,
   tagsFor,
   type Category,
+  type ChefPicks,
   type CookResult,
   type Dish,
   type DishResult,
@@ -26,9 +27,12 @@ export interface CookLogEntry {
   /** Milliseconds since the epoch. */
   cookedAt: number;
   /**
-   * The protein the chef cooked when the pot had none: a pantry protein the dish accepts. Kept so
-   * the recipe, rebuilt later, names the same protein the card did. Absent for older entries.
+   * What the chef supplied where the pot had nothing for the dish: a pantry item the dish accepts,
+   * or the dish's own default, by category. Kept so the recipe, rebuilt later, names the same things
+   * the card did.
    */
+  chefPicks?: Partial<Record<Category, string>> | undefined;
+  /** Older entries kept only the protein. Read as `chefPicks.protein`. */
   chefProtein?: string | undefined;
   /** Reserved for ratings (RES-7, v1.1). */
   rating: 'up' | 'down' | null;
@@ -48,7 +52,8 @@ export function makeLogEntry(
   run: CookRun,
   meta: { id: string; now: number },
 ): CookLogEntry {
-  const chefProtein = card.chefAdds.find((add) => add.category === 'protein')?.name;
+  const chefPicks: Partial<Record<Category, string>> = {};
+  for (const add of card.chefAdds) chefPicks[add.category] = add.name;
   return {
     id: meta.id,
     dishId: card.dish.id,
@@ -56,7 +61,7 @@ export function makeLogEntry(
     pot: run.pot.map(({ name, category }) => ({ name, category })),
     cookedAt: meta.now,
     rating: null,
-    ...(chefProtein ? { chefProtein } : {}),
+    ...(card.chefAdds.length > 0 ? { chefPicks } : {}),
   };
 }
 
@@ -75,9 +80,14 @@ export function rebuildResult(entry: CookLogEntry, library: readonly Dish[]): Di
     .sort((a, b) => categoryIndex(a.category) - categoryIndex(b.category))
     .map(({ name, category }) => ({ name, category, tags: tagsFor(category, name) }));
 
-  const chef: PotItem | undefined = entry.chefProtein
-    ? { name: entry.chefProtein, category: 'protein', tags: tagsFor('protein', entry.chefProtein) }
-    : undefined;
+  const saved: Partial<Record<Category, string>> = {
+    ...(entry.chefProtein ? { protein: entry.chefProtein } : {}),
+    ...entry.chefPicks,
+  };
+  const picks: ChefPicks = {};
+  for (const [category, name] of Object.entries(saved) as [Category, string][]) {
+    picks[category] = { name, category, tags: tagsFor(category, name) };
+  }
 
-  return buildResult(evaluateDish(dish, pot, index), chef);
+  return buildResult(evaluateDish(dish, pot, index), picks);
 }

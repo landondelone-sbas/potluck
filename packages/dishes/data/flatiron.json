@@ -1,0 +1,53 @@
+{
+  "id": "flatiron",
+  "cuisine": "comfort",
+  "format": "plate",
+  "title": "Garlic-Butter {p} with {v}",
+  "minutes": 25,
+  "feel": "Rich",
+  "wants": {
+    "protein": ["steak"],
+    "veg": ["asparagus", "greenbeans", "broccoli", "mushroom", "onion", "greens"],
+    "spice": ["pepper", "garlic", "herbs"],
+    "sauce": ["cream", "mustard", "gravy"],
+    "starch": ["potato", "sweetpotato", "rice", "bread"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "flat iron steak",
+    "veg": "green beans",
+    "spice": "garlic and thyme",
+    "sauce": "garlic butter",
+    "starch": "baby potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Start the sides first. {starch_how} {veg_how}",
+    "Pat the {p} dry and season generously with salt and the {spice}.",
+    "Sear in a very hot oiled cast-iron pan, about 4 minutes on the first side. Flip, add the {sauce}, and baste with the melted butter for 3 to 4 minutes. Check the thickest part with a thermometer. The USDA safe minimum for steak is 145°F / 63°C. A lower doneness is your choice and carries more risk.",
+    "Rest the {p} 5 minutes, then slice thinly across the grain.",
+    "Serve with the {v} and {s}, with the pan juices spooned over."
+  ],
+  "tip": "Slice thin and keep the portion palm-size, with the vegetable filling half the plate."
+}

@@ -1,6 +1,7 @@
 {
   "id": "sheetpan",
   "cuisine": "comfort",
+  "format": "pot",
   "title": "Sheet-Pan {p} & {v}",
   "minutes": 35,
   "feel": "Hands-off",

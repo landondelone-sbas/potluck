@@ -3,7 +3,7 @@ import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
-import { Appearance } from 'react-native';
+import { Appearance, Platform } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import { PotHeaderActions } from '@/components/pot-header-actions';
@@ -35,7 +35,12 @@ export default function RootLayout() {
   // parts (header, keyboard) together.
   useEffect(() => {
     if (!hydrated) return;
-    // Phones have this. The browser preview used for development does not.
+    // The browser build has no phone override. useTheme reads the choice itself, and the page's own
+    // color scheme is set here so scrollbars and form fields match.
+    if (Platform.OS === 'web') {
+      document.documentElement.style.colorScheme =
+        appearance === 'system' ? 'light dark' : appearance;
+    }
     if (typeof Appearance.setColorScheme !== 'function') return;
     Appearance.setColorScheme(appearance === 'system' ? 'auto' : appearance);
   }, [appearance, hydrated]);

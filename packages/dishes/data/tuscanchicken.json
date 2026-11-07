@@ -1,0 +1,57 @@
+{
+  "id": "tuscanchicken",
+  "cuisine": "italian",
+  "format": "pot",
+  "title": "Creamy Garlic {p} with {v}",
+  "minutes": 30,
+  "feel": "Creamy",
+  "wants": {
+    "protein": ["chicken"],
+    "veg": ["greens", "tomato", "mushroom", "asparagus", "broccoli"],
+    "spice": ["garlic", "herbs", "chili"],
+    "sauce": ["cream"],
+    "starch": ["pasta"]
+  },
+  "signature": [
+    {
+      "category": "sauce",
+      "tag": "cream"
+    }
+  ],
+  "defaults": {
+    "protein": "chicken breast",
+    "veg": "spinach",
+    "spice": "garlic",
+    "sauce": "cream and parmesan",
+    "starch": "linguine"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 340,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 100,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 180,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 200,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Season the {p} with salt, pepper and the {spice}. Sear in a hot oiled skillet until golden and {doneness}, then move to a plate.",
+    "Cook the {s} until tender, and keep a little of its water.",
+    "Lower the heat and cook the {v} in the same pan for a minute. Pour in a splash of broth and the {sauce}, and simmer until lightly thickened.",
+    "Return the {p} and toss in the {s}, loosening with the cooking water if needed. Serve right away."
+  ],
+  "tip": "Use milk or half-and-half instead of cream, and add extra spinach."
+}

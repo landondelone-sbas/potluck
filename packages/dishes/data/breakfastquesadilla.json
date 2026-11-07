@@ -1,0 +1,57 @@
+{
+  "id": "breakfastquesadilla",
+  "cuisine": "mexican",
+  "format": "pot",
+  "title": "Crispy {p} Breakfast Quesadilla with {v}",
+  "minutes": 20,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["sausage", "egg", "pork"],
+    "veg": ["pepper", "onion", "greens", "tomato", "avocado", "mushroom"],
+    "spice": ["cumin", "chili", "smoky", "garlic", "paprika"],
+    "sauce": ["salsa", "hot", "cream"],
+    "starch": ["tortilla"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "sausage"
+    }
+  ],
+  "defaults": {
+    "protein": "Italian sausage",
+    "veg": "spinach",
+    "spice": "cumin",
+    "sauce": "salsa",
+    "starch": "flour tortillas"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 75,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    }
+  },
+  "steps": [
+    "Cook the {p} in a skillet over medium heat{?egg:, scrambling the eggs}{?sausage:, crumbling the sausage}, until {doneness}. Move to a plate.",
+    "Cook the {v} in the same pan until soft.",
+    "Lay out the {s} and fill half of each with cheese, the {p} and the {v}, then fold over.",
+    "Cook in a lightly buttered skillet 2 to 3 minutes per side until golden and melted. Slice and serve with the {sauce}."
+  ],
+  "tip": "Fill it with plenty of vegetables and eggs, and go lighter on the cheese and sausage."
+}

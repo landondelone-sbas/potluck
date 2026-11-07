@@ -41,7 +41,7 @@ describe('dish library (PRD section 11)', () => {
 
   test.each(dishes.map((d) => [d.id, d] as const))('%s is complete', (_id, dish) => {
     expect(dish.steps.length).toBeGreaterThanOrEqual(3);
-    expect(dish.steps.length).toBeLessThanOrEqual(5);
+    expect(dish.steps.length).toBeLessThanOrEqual(dish.format === 'plate' ? 7 : 5);
     expect(dish.tip.length).toBeGreaterThan(0);
     for (const category of CATEGORIES) {
       expect(dish.defaults[category].length).toBeGreaterThan(0);
@@ -183,4 +183,36 @@ describe('food safety wording (PRD section 11)', () => {
       }
     },
   );
+});
+
+describe('a step only mentions what the dish has', () => {
+  // A dish that takes eggs, shrimp or sausage among other proteins must not talk about them when
+  // the cook has none. Render each such dish with its own defaults and look for the word.
+  const WORDS: [tag: string, pattern: RegExp][] = [
+    ['egg', /\begg/i],
+    ['shrimp', /\bshrimp/i],
+    ['sausage', /\bsausage/i],
+  ];
+
+  const cases = dishes.flatMap((dish) =>
+    WORDS.filter(
+      ([tag]) =>
+        dish.wants.protein.includes(tag) &&
+        !tagsFor('protein', dish.defaults.protein).includes(tag),
+    ).map(([tag, pattern]) => [`${dish.id}: no ${tag}`, dish, pattern] as const),
+  );
+
+  test('there are dishes that take these only as an option', () => {
+    expect(cases.length).toBeGreaterThanOrEqual(8);
+  });
+
+  test.each(cases)('%s', (_name, dish, pattern) => {
+    const pot = CATEGORIES.map((category) => ({
+      category,
+      name: dish.defaults[category],
+      tags: tagsFor(category, dish.defaults[category]),
+    }));
+    const card = buildResult(evaluateDish(dish, pot, 0));
+    expect(card.steps.join(' ')).not.toMatch(pattern);
+  });
 });

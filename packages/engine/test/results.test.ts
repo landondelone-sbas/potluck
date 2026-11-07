@@ -1,4 +1,4 @@
-import { buildResult, evaluateDish } from '../src';
+import { buildResult, evaluateDish, type PotItem } from '../src';
 import { item, makeDish } from './helpers';
 
 function resultFor(pot: ReturnType<typeof item>[], dish = makeDish()) {
@@ -75,5 +75,78 @@ describe('buildResult (PRD section 9.5)', () => {
     const result = resultFor([item('protein', 'Beef')], dish);
     expect(result.dish).toBe(dish);
     expect(result.score).toBe(13);
+  });
+});
+
+describe('conditional steps', () => {
+  const dish = makeDish({
+    steps: [
+      'Cook the {p}{?egg:, scrambling the eggs}{?sausage:, crumbling the sausage} until done.',
+      '{?bakingpotato:Bake the {s}.}{?!bakingpotato:Roast the {s} in chunks.}',
+      'Finish with the {sauce}.',
+    ],
+    wants: {
+      ...makeDish().wants,
+      protein: ['egg', 'sausage', 'chicken'],
+      starch: ['potato', 'rice'],
+    },
+  });
+
+  const card = (...items: PotItem[]) => buildResult(evaluateDish(dish, items, 0));
+
+  test('keeps text only when something in the dish has the tag', () => {
+    expect(card(item('protein', 'Eggs')).steps[0]).toBe(
+      'Cook the eggs, scrambling the eggs until done.',
+    );
+    expect(card(item('protein', 'Italian sausage')).steps[0]).toBe(
+      'Cook the italian sausage, crumbling the sausage until done.',
+    );
+    expect(card(item('protein', 'Chicken thighs')).steps[0]).toBe(
+      'Cook the chicken thighs until done.',
+    );
+  });
+
+  test('both conditions can apply at once', () => {
+    expect(card(item('protein', 'Eggs'), item('protein', 'Italian sausage')).steps[0]).toBe(
+      'Cook the eggs and italian sausage, scrambling the eggs, crumbling the sausage until done.',
+    );
+  });
+
+  test('a negated condition is the other branch, and may use placeholders', () => {
+    expect(card(item('starch', 'Russet potatoes')).steps[1]).toBe('Bake the russet potatoes.');
+    expect(card(item('starch', 'Baby potatoes')).steps[1]).toBe(
+      'Roast the baby potatoes in chunks.',
+    );
+  });
+
+  test('the chef default counts when the pot has nothing for a category', () => {
+    // The fixture's default protein is tofu, so there is no egg and no sausage.
+    expect(card().steps[0]).toBe('Cook the tofu until done.');
+  });
+
+  test('a pantry pick counts too', () => {
+    const evaluation = evaluateDish(dish, [], 0);
+    const result = buildResult(evaluation, { protein: item('protein', 'Eggs') });
+    expect(result.steps[0]).toBe('Cook the eggs, scrambling the eggs until done.');
+  });
+});
+
+describe('chef picks', () => {
+  test('a pick replaces the default in the ingredients and the steps', () => {
+    const dish = makeDish({
+      steps: ['Cook the {v} with the {sauce}.', 'Cook the {p}.', 'Serve on {s}.'],
+    });
+    const result = buildResult(evaluateDish(dish, [item('protein', 'Chicken thighs')], 0), {
+      veg: item('veg', 'Broccoli'),
+      sauce: item('sauce', 'Peanut sauce'),
+    });
+    expect(result.chefAdds).toEqual(
+      expect.arrayContaining([
+        { category: 'veg', name: 'broccoli' },
+        { category: 'sauce', name: 'peanut sauce' },
+        { category: 'starch', name: 'rice' },
+      ]),
+    );
+    expect(result.steps[0]).toBe('Cook the broccoli with the peanut sauce.');
   });
 });

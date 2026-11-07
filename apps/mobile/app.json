@@ -1,16 +1,18 @@
 {
   "expo": {
-    "name": "Potluck",
-    "slug": "potluck",
+    "name": "Tonight's Pot",
+    "slug": "tonights-pot",
     "version": "0.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "potluck",
+    "scheme": "tonightspot",
     "userInterfaceStyle": "automatic",
     "ios": {
+      "bundleIdentifier": "com.landondelone.tonightspot",
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.landondelone.tonightspot",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",

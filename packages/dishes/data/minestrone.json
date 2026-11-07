@@ -1,6 +1,7 @@
 {
   "id": "minestrone",
   "cuisine": "italian",
+  "format": "pot",
   "title": "{p} & {v} Soup",
   "minutes": 40,
   "feel": "Cozy",

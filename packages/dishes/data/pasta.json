@@ -1,6 +1,7 @@
 {
   "id": "pasta",
   "cuisine": "italian",
+  "format": "pot",
   "title": "{p} & {v} Pasta",
   "minutes": 25,
   "feel": "Hearty",

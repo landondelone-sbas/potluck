@@ -1,6 +1,7 @@
 {
   "id": "piccata",
   "cuisine": "italian",
+  "format": "pot",
   "title": "{p} Piccata with {v}",
   "minutes": 25,
   "feel": "Light",

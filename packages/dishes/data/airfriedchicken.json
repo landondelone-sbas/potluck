@@ -1,0 +1,53 @@
+{
+  "id": "airfriedchicken",
+  "cuisine": "comfort",
+  "format": "plate",
+  "title": "Crispy {p} with {v}",
+  "minutes": 35,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["chicken"],
+    "veg": ["broccoli", "greenbeans", "carrot", "cauliflower", "corn", "zucchini"],
+    "spice": ["paprika", "garlic", "chili", "smoky"],
+    "sauce": ["ranch", "honey", "mustard", "bbq", "hot"],
+    "starch": ["potato", "sweetpotato", "rice", "bread"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "chicken tenders",
+    "veg": "broccoli",
+    "spice": "smoked paprika",
+    "sauce": "ranch",
+    "starch": "sweet potato"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Start the sides in the oven. {starch_how} {veg_how}",
+    "Soak the {p} in buttermilk, or milk with a squeeze of lemon, for 15 minutes.",
+    "Mix breadcrumbs with a little Parmesan and the {spice}. Press the {p} into the crumbs on all sides.",
+    "Air fry at 390°F (200°C) for 10 to 15 minutes, turning halfway, until crisp and {doneness}. Or bake on a rack at 425°F (220°C) for about 20 minutes.",
+    "Serve the {p} with the {v} and {s}, and the {sauce} for dipping."
+  ],
+  "tip": "Air frying or baking gives the crunch with a fraction of the oil of deep frying."
+}

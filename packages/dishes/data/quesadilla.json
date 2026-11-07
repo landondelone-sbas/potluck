@@ -1,6 +1,7 @@
 {
   "id": "quesadilla",
   "cuisine": "mexican",
+  "format": "pot",
   "title": "{p} Quesadilla",
   "minutes": 20,
   "feel": "Quick",

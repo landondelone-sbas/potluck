@@ -1,0 +1,57 @@
+{
+  "id": "spanishtortilla",
+  "cuisine": "med",
+  "format": "pot",
+  "title": "Potato and {p} Tortilla with {v}",
+  "minutes": 40,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["egg"],
+    "veg": ["onion", "pepper", "greens", "mushroom", "zucchini"],
+    "spice": ["paprika", "garlic", "herbs", "pepper"],
+    "sauce": ["ranch", "tomato", "hot"],
+    "starch": ["potato", "sweetpotato"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "egg"
+    }
+  ],
+  "defaults": {
+    "protein": "eggs",
+    "veg": "onions",
+    "spice": "smoked paprika",
+    "sauce": "aioli",
+    "starch": "red potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 6,
+      "unit": "n"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 60,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Slice the {s} thin. Cook in a generous splash of oil in a deep skillet over medium-low heat with the {v}, stirring often, until very tender, about 15 minutes.",
+    "Beat the {p} with salt and the {spice}. Stir in the warm {s} and {v} and leave for 5 minutes.",
+    "Add the mixture to the skillet and cook over medium-low heat until the edges are set, about 8 minutes. Flip with a plate and cook the other side until the eggs are firm all the way through.",
+    "Slice into wedges and serve with the {sauce}."
+  ],
+  "tip": "Use less oil by cooking the potatoes in a covered nonstick pan, and add extra vegetables to the eggs."
+}

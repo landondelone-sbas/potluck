@@ -1,6 +1,7 @@
 {
   "id": "lemonherb",
   "cuisine": "med",
+  "format": "pot",
   "title": "Lemon-Herb {p} with {v}",
   "minutes": 25,
   "feel": "Light",

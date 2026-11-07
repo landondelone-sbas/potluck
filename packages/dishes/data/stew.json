@@ -1,6 +1,7 @@
 {
   "id": "stew",
   "cuisine": "comfort",
+  "format": "pot",
   "title": "Hearty {p} & {v} Stew",
   "minutes": 60,
   "feel": "Slow",

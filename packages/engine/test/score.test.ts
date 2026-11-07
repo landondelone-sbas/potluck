@@ -44,7 +44,7 @@ describe('scoreItem (PRD section 9.3)', () => {
   test('an unknown protein, veg or starch scores 3 and is used', () => {
     expect(scoreItem(item('protein', 'Dragon fruit'), dish)).toEqual({ points: 3, used: true });
     expect(scoreItem(item('veg', 'Kohlrabi'), dish)).toEqual({ points: 3, used: true });
-    expect(scoreItem(item('starch', 'Plantain'), dish)).toEqual({ points: 3, used: true });
+    expect(scoreItem(item('starch', 'Cassava'), dish)).toEqual({ points: 3, used: true });
   });
 
   test('a known protein, veg or starch the dish does not use scores 1 and is left out', () => {

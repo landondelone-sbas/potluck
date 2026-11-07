@@ -1,0 +1,57 @@
+{
+  "id": "potatosoup",
+  "cuisine": "comfort",
+  "format": "pot",
+  "title": "Loaded Potato Soup with {p}",
+  "minutes": 45,
+  "feel": "Cozy",
+  "wants": {
+    "protein": ["pork", "sausage", "beans", "chicken"],
+    "veg": ["onion", "celery", "carrot", "greens", "broccoli", "corn"],
+    "spice": ["pepper", "garlic", "herbs", "paprika", "smoky"],
+    "sauce": ["cream", "gravy"],
+    "starch": ["potato", "sweetpotato"]
+  },
+  "signature": [
+    {
+      "category": "protein",
+      "tag": "pork"
+    }
+  ],
+  "defaults": {
+    "protein": "bacon",
+    "veg": "onions",
+    "spice": "black pepper",
+    "sauce": "cream",
+    "starch": "russet potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 240,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 600,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Cook the {p} until {doneness}, then move to a plate. Keep a spoonful of the fat in the pot.",
+    "Soften the {v} with the {spice} in the pot, about 5 minutes. Add the diced {s} and 3 cups of broth or water.",
+    "Simmer 15 to 20 minutes, until a fork slides into the pieces easily. Mash some of the potato right in the pot for a thicker soup.",
+    "Stir in the {sauce}, warm through, and top with the {p}."
+  ],
+  "tip": "Mash more of the potato and use milk in place of cream for a lighter, still creamy soup."
+}

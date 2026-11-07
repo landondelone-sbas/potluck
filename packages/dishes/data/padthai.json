@@ -1,6 +1,7 @@
 {
   "id": "padthai",
   "cuisine": "thai",
+  "format": "pot",
   "title": "Pad Thai with {p}",
   "minutes": 25,
   "feel": "Quick",

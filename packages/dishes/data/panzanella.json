@@ -1,6 +1,7 @@
 {
   "id": "panzanella",
   "cuisine": "italian",
+  "format": "pot",
   "title": "Panzanella with {p}",
   "minutes": 20,
   "feel": "Light",

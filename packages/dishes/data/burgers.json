@@ -1,0 +1,53 @@
+{
+  "id": "burgers",
+  "cuisine": "comfort",
+  "format": "plate",
+  "title": "Skillet Burgers with {v}",
+  "minutes": 25,
+  "feel": "Easy",
+  "wants": {
+    "protein": ["ground"],
+    "veg": ["tomato", "onion", "greens", "avocado", "cucumber", "pepper", "mushroom"],
+    "spice": ["pepper", "garlic", "smoky", "paprika"],
+    "sauce": ["mustard", "ranch", "bbq", "hot", "tomato"],
+    "starch": ["bread", "potato"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "ground beef",
+    "veg": "lettuce",
+    "spice": "black pepper",
+    "sauce": "mustard",
+    "starch": "burger buns"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 450,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    }
+  },
+  "steps": [
+    "Gently shape the {p} into patties about 3/4-inch thick, pressing a shallow dip in the middle. Season with salt and the {spice}.",
+    "Cook the patties in a lightly oiled skillet over medium heat, 4 to 5 minutes a side, until {doneness}. Rest 2 minutes.",
+    "{starch_how}",
+    "Slice the {v} to pile on top or serve alongside.",
+    "Build each burger with the {sauce}, the {v} and a patty. Serve on or with the {s}."
+  ],
+  "tip": "Use lean ground meat or turkey, and pile on the vegetables instead of extra cheese."
+}

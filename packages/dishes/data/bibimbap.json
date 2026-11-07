@@ -1,6 +1,7 @@
 {
   "id": "bibimbap",
   "cuisine": "korean",
+  "format": "pot",
   "title": "Bibimbap with {p}",
   "minutes": 35,
   "feel": "Balanced",
@@ -12,8 +13,14 @@
     "starch": ["rice"]
   },
   "signature": [
-    { "category": "protein", "tag": "egg" },
-    { "category": "sauce", "tag": "hot" }
+    {
+      "category": "protein",
+      "tag": "egg"
+    },
+    {
+      "category": "sauce",
+      "tag": "hot"
+    }
   ],
   "defaults": {
     "protein": "eggs",
@@ -47,7 +54,7 @@
   "steps": [
     "Cook the {s} and keep it warm.",
     "Sauté the {v} one at a time with a little oil and the {spice}, until just tender.",
-    "Cook the {p} until {doneness}, and fry any eggs until the whites are set (160°F / 71°C for firm yolks).",
+    "Cook the {p} until {doneness}{?egg:; fry the eggs until the whites are set (160°F / 71°C for firm yolks)}.",
     "Pile the {v} and {p} over the {s} and stir in the {sauce} at the table."
   ],
   "tip": "Make veg most of the bowl, use one egg and a small spoon of the chili paste."
