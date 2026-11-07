@@ -1,0 +1,42 @@
+{
+  "theme": "chicken",
+  "batch_number": 1,
+  "summary_of_findings": {
+    "methods_identified": 6,
+    "recipes_identified": 10,
+    "core_sources": [
+      "How To Roast a Whole Chicken - Garden in the Kitchen",
+      "Baked Chicken Thighs (Crispy and Juicy!) | Downshiftology",
+      "Heart Healthy Recipe Guide - HFSA",
+      "ENGLISH - Boston.gov",
+      "50 Side Dishes for Chicken - A Couple Cooks",
+      "The Best Chicken Breast You'll Ever Make | Epicurious 101",
+      "Recipes - The Nutrition Source | Harvard T.H. Chan",
+      "Our 50 Most-Popular Healthy Recipes - Food Network",
+      "Cooks Without Borders / Frugal Vegan",
+      "SAFE MINIMUM INTERNAL TEMPERATURES - FDA & USDA"
+    ]
+  },
+  "gaps_in_sources": {
+    "missing_cuts_and_varieties": [
+      "No specific cooking times or parameters for bone-in whole chicken wings (separate flats vs drumettes).",
+      "No sous-vide precision water bath temperature curves for chicken breasts or thighs.",
+      "No parameters for ground chicken patties or meatballs beyond general 165\u00b0F rule."
+    ],
+    "missing_methods": [
+      "No deep-fat frying specifications (consistent with user instruction to omit deep fryers).",
+      "No rotisserie spit-roasting timing guidelines."
+    ],
+    "missing_parameters": [
+      "Exact resting carryover rise comparison between 4 lb whole birds versus small 6 oz boneless breasts.",
+      "Brine salinity percentage and osmosis duration curves for chicken breast fillets."
+    ]
+  },
+  "app_recommendations": [
+    "Enforce a non-negotiable 165\u00b0F (73.9\u00b0C) internal doneness baseline across all poultry dishes for food safety.",
+    "Implement cut-specific texture optimization: advise users to pull lean chicken breasts at exactly 165\u00b0F to prevent stringy dryness, while allowing dark meat (thighs, drumsticks) to cook to 175\u00b0F\u2013180\u00b0F where collagen and fat fully melt into succulence.",
+    "Mandate pounding or butterflying chicken breasts to uniform 3/4-inch thickness in all pan-searing and grilling workflows.",
+    "Include an explicit food safety reminder in the app UI against rinsing raw poultry under tap water.",
+    "Enforce resting guidelines: 10\u201315 minutes for whole roast chicken and 3\u20135 minutes for breasts before carving."
+  ]
+}

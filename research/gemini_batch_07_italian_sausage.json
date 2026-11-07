@@ -1,6 +1,306 @@
-{
-  "theme": "italian sausage",
-  "count": 0,
-  "skipped_note": "No qualifying recipes found in notebook sources meeting all criteria. Evaluated and skipped: 1. Spicy Italian Sausage and Pepperoni Flatbread Pizza from ENGLISH - Boston.gov (excluded under Rule 7: sausage flatbread is explicitly blacklisted). 2. Breakfast Quesadilla with Breakfast Sausage from ENGLISH - Boston.gov (excluded under Rule 7: breakfast quesadilla and quesadillas are explicitly blacklisted; also breakfast dish rather than complete dinner). 3. Arancini / Rice Balls from ENGLISH - Boston.gov (excluded under Rule 5: deep frying is prohibited; also appetizer/side lacking main protein dinner structure per Rule 6). 4. Whole Wheat Spaghetti with Marinara and Turkey Meatballs from ENGLISH - Boston.gov (features turkey rather than Italian sausage; lacks distinct vegetable component per Rule 6).",
-  "recipes": []
-}
+[
+  {
+    "id": "sausage_001_baked_peppers_onions",
+    "title": "Baked Italian Sausage Links with Peppers and Onions",
+    "cuisine": "italian",
+    "format": "plate",
+    "source": {
+      "name": "Idiot's Kitchen Recipe – Baked Italian Sausage with Peppers & Onions",
+      "location": "Baked Italian Sausage Section"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": 1.5,
+        "unit": "lbs (5 to 6 links)",
+        "name": "Italian sausage links (sweet or hot)",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "extra large",
+        "name": "yellow onion, sliced into strips",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "large",
+        "name": "red bell pepper, sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "large",
+        "name": "green bell pepper, sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "tablespoons",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "teaspoon",
+        "name": "salt",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "teaspoon",
+        "name": "black pepper",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 375°F (190°C).",
+      "In a large 9x13-inch baking dish, combine the sliced onions, red bell pepper, and green bell pepper. Drizzle with olive oil and season with salt and black pepper, tossing until evenly coated.",
+      "Prick each sausage link a few times on both the top and bottom with a sharp knife to release juices during cooking.",
+      "Arrange the sausage links in a single layer directly over the bed of seasoned peppers and onions.",
+      "Cover the baking dish tightly with aluminum foil and bake for 20 minutes.",
+      "Remove foil to allow sausages and vegetables to brown. Bake for an additional 40 minutes (1 hour total), turning sausage links over halfway through so both sides become evenly browned and internal temperature reaches 160°F (71°C).",
+      "Serve hot directly from the dish alongside crusty bread or cheesy pasta."
+    ],
+    "source_temperatures": [
+      {
+        "target": "oven",
+        "value": "375°F"
+      },
+      {
+        "target": "sausage_internal",
+        "value": "160°F"
+      }
+    ],
+    "swaps": [
+      "Turkey Italian sausage links can be used for a leaner profile.",
+      "Yellow or orange bell peppers can substitute for red or green peppers."
+    ],
+    "notes": "Covering the dish for the first 20 minutes steams the vegetables until tender, while uncovering allows the sausages to caramelize and render flavorful drippings over the peppers."
+  },
+  {
+    "id": "sausage_002_creamy_tuscan_pasta",
+    "title": "Creamy Tuscan Pasta with Italian Sausage and Sun-Dried Tomatoes",
+    "cuisine": "italian",
+    "format": "pot",
+    "source": {
+      "name": "Creamy Tuscan Sausage Pasta | Get Inspired Everyday!",
+      "location": "Step-by-Step Recipe Instructions"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": 8,
+        "unit": "oz",
+        "name": "mild or hot Italian sausage (casings removed)",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 8,
+        "unit": "oz",
+        "name": "penne or rotini pasta",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "name": "oil-packed sun-dried tomatoes, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "name": "fresh baby spinach, roughly chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "medium",
+        "name": "yellow onion, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 3,
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "name": "dry white wine",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 0.75,
+        "unit": "cup",
+        "name": "heavy cream",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "name": "Parmesan cheese, freshly grated",
+        "role": "other",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "name": "dried Italian seasoning",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Bring a large pot of salted water to a boil and cook pasta according to package instructions until al dente; drain.",
+      "Heat a large 10-inch skillet over medium-high heat. Add the sausage, breaking it apart with a wooden spoon, and cook for 6 to 8 minutes until browned and cooked through (160°F). Transfer sausage to a plate.",
+      "Add diced onion and minced garlic to the residual pan drippings. Sauté over medium heat for 3 to 4 minutes until golden. Stir in Italian seasoning, diced sun-dried tomatoes, and white wine; simmer briskly until wine is nearly evaporated.",
+      "Pour in the heavy cream and bring to a gentle boil, then immediately reduce heat to maintain a light simmer. Simmer uncovered for 6 to 8 minutes until slightly thickened.",
+      "Add the chopped spinach, stirring to wilt, then return browned sausage to the skillet.",
+      "Add the drained pasta and simmer for 1 to 2 minutes, stirring constantly to coat pasta with sauce. Stir in grated Parmesan, season with salt and pepper, and serve immediately."
+    ],
+    "source_temperatures": [
+      {
+        "target": "skillet",
+        "value": "medium-high heat for browning, low simmer for cream"
+      }
+    ],
+    "swaps": [
+      "Gluten-free pasta works seamlessly in this recipe.",
+      "Full-fat coconut milk can substitute for heavy cream for a dairy-free variation."
+    ],
+    "notes": "Keep an eye on the cream sauce while simmering; maintain a low simmer rather than an aggressive boil to avoid scorching or separation."
+  },
+  {
+    "id": "sausage_003_winter_hearth_soup",
+    "title": "Winter Hearth Italian Sausage, White Bean, and Escarole Soup",
+    "cuisine": "comfort",
+    "format": "pot",
+    "source": {
+      "name": "Winter Hearth Italian Sausage Soup - Appetito Magazine",
+      "location": "Recipe Directions Section"
+    },
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": 6,
+        "unit": "links",
+        "name": "sweet Italian sausage, casings removed",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "can (15 oz)",
+        "name": "cannellini beans, with liquid",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": 6,
+        "unit": "small",
+        "name": "red potatoes, diced",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "head",
+        "name": "escarole (or kale), washed and chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "medium",
+        "name": "yellow onion, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 4,
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "name": "chicken bone broth",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "name": "water",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "teaspoon",
+        "name": "red pepper flakes",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "name": "grated Pecorino Romano cheese",
+        "role": "other",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "In a large Dutch oven, coat bottom with olive oil over medium heat. Add minced garlic and cook 2 minutes until golden.",
+      "Add diced onions and red pepper flakes, cooking 3 to 4 minutes until onions soften.",
+      "Break apart the sausage meat by hand and add to the pot, chopping with a wooden spoon until browned and crumbly (6 to 7 minutes).",
+      "Add the water, chicken bone broth, and diced red potatoes. Cover and simmer for 15 minutes to form a savory broth and partially cook potatoes.",
+      "Add the cannellini beans with their canning liquid and the chopped escarole. Season with salt and black pepper.",
+      "Cover, reduce heat to low, and simmer gently for 40 to 45 minutes (1 hour total) until potatoes are tender and greens are melt-in-your-mouth soft.",
+      "Ladle into wide bowls, drizzle with extra-virgin olive oil, and shower with freshly grated Pecorino Romano cheese."
+    ],
+    "source_temperatures": [
+      {
+        "target": "dutch_oven",
+        "value": "medium heat for browning, low heat for simmer"
+      }
+    ],
+    "swaps": [
+      "Lacinato kale or Swiss chard can replace escarole.",
+      "Great northern beans can substitute for cannellini beans."
+    ],
+    "notes": "Adding the cannellini bean liquid enriches the broth with natural starch, giving the rustic Italian soup a silky body without heavy cream."
+  }
+]

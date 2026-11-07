@@ -1,104 +1,530 @@
-{
-  "theme": "turkey",
-  "count": 1,
-  "skipped_note": "Slow Cooker Cranberry Turkey Tenderloin (HFSA p. 24) excluded under Rule 5 (slow cooker recipe taking 4-5 hours on high / 8-10 hours on low). White Bean Turkey Chili (Boston.gov p. 18) excluded under Rule 7 (chili blacklisted). Turkey Tostadas (Boston.gov) excluded under Rule 7 (blacklisted). Spaghetti with Turkey Meatballs (Boston.gov p. 10) excluded under Rule 6 (lacks dedicated vegetable component). Turkey and Beef Meatloaf / Turkey Meatballs (Food Network) excluded under Rule 1 (link/blurb only).",
-  "recipes": [
-    {
-      "id": "turkey_001",
-      "title": "Orange Glazed-Turkey with Potatoes and Carrots",
-      "cuisine": "comfort",
-      "format": "pot",
-      "source": {
-        "name": "Heart Healthy Recipe Guide - HFSA",
-        "location": "Page 24"
+[
+  {
+    "id": "turkey_001_healthy_meatloaf",
+    "title": "Healthy Turkey Meatloaf with Sweet Tomato Glaze",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "45 Healthy Comfort Food Recipes - Food Network",
+      "location": "Mom's Turkey Meatloaf (Ellie Krieger)"
+    },
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": 1.5,
+        "unit": "lbs",
+        "name": "lean ground turkey (93% lean)",
+        "role": "protein",
+        "optional": false
       },
-      "servings": 6,
-      "prep_minutes": 15,
-      "cook_minutes": 60,
-      "ingredients": [
-        {
-          "quantity": "1.75",
-          "unit": "lb",
-          "name": "boneless skinless turkey breast",
-          "role": "protein",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "lb",
-          "name": "potatoes, cut into 2-inch chunks",
-          "role": "starch",
-          "optional": false
-        },
-        {
-          "quantity": "4",
-          "unit": "medium",
-          "name": "carrots, cut into 2-inch chunks",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "tsp",
-          "name": "dried mixed herbs (rosemary, basil, parsley, tarragon, chives, thyme, sage)",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "0.75",
-          "unit": "tsp",
-          "name": "salt",
-          "role": "staple",
-          "optional": false
-        },
-        {
-          "quantity": "0.5",
-          "unit": "tsp",
-          "name": "black pepper",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "0.5",
-          "unit": "tsp",
-          "name": "garlic powder",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "3",
-          "unit": "tbsp",
-          "name": "sugar-free orange marmalade",
-          "role": "sauce",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "tbsp",
-          "name": "olive oil",
-          "role": "staple",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "spray",
-          "name": "cooking spray",
-          "role": "staple",
-          "optional": false
-        }
-      ],
-      "steps": [
-        "Preheat the oven to 375°F.",
-        "Coat a 13x9x2-inch baking dish lightly with cooking spray and place the turkey breast in the center.",
-        "In a small bowl, stir together the dried herbs, salt, pepper, and garlic powder, then rub half of the mixture evenly across the turkey breast.",
-        "Spread the orange marmalade over the top surface of the seasoned turkey breast.",
-        "Toss the cut potatoes and carrots with the olive oil and the remaining herb seasoning in a bowl, then arrange them evenly around the turkey in the baking dish.",
-        "Bake uncovered for 1 hour until the turkey is cooked through and the vegetables are tender.",
-        "Let the turkey rest for 5 to 10 minutes before carving and serving alongside the roasted vegetables."
-      ],
-      "source_temperatures": [],
-      "swaps": "Dried mixed herbs can be any combination of rosemary, basil, parsley, tarragon, chives, thyme, and sage; any potato variety can be used.",
-      "notes": "Equipment: 13x9x2-inch baking dish. Passive time: 5-10 minutes resting after baking."
-    }
-  ]
-}
+      {
+        "quantity": 1,
+        "unit": "medium",
+        "name": "yellow onion, finely chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "stalks",
+        "name": "celery, finely diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 0.75,
+        "unit": "cup",
+        "name": "quick rolled oats",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "large",
+        "name": "egg, beaten",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "name": "low-sodium chicken broth or milk",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "name": "tomato paste or ketchup",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "Worcestershire sauce",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "name": "dried thyme or Italian seasoning",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "teaspoon",
+        "name": "black pepper",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat oven to 375°F (190°C). Line a rimmed baking sheet with parchment paper.",
+      "Heat 1 teaspoon olive oil in a skillet over medium heat and sauté the chopped onion and celery for 4 to 5 minutes until soft; add garlic and cook 1 more minute, then let cool slightly.",
+      "In a large mixing bowl, combine the ground turkey, sautéed vegetables, rolled oats, beaten egg, broth, Worcestershire sauce, thyme, and black pepper. Mix gently with hands just until evenly combined (do not over-pack).",
+      "Shape the mixture into an elongated 9x5-inch freeform loaf directly on the prepared baking sheet.",
+      "Spread the tomato paste or ketchup evenly over the top and sides of the loaf.",
+      "Bake for 45 minutes until the internal temperature registers 165°F (74°C) in the thickest part. Let rest for 10 minutes before slicing into thick portions."
+    ],
+    "source_temperatures": [
+      {
+        "target": "oven",
+        "value": "375°F"
+      },
+      {
+        "target": "turkey_internal",
+        "value": "165°F"
+      }
+    ],
+    "swaps": [
+      "Whole-wheat breadcrumbs can be used in place of rolled oats.",
+      "A mix of half ground turkey and half lean ground beef can be used for extra richness.",
+      "Cranberry glaze or barbecue sauce can substitute for ketchup."
+    ],
+    "notes": "Using rolled oats and sautéed vegetables keeps lean turkey tender and moist without needing heavy fatty fillers."
+  },
+  {
+    "id": "turkey_002_white_bean_chili",
+    "title": "White Bean Turkey Chili with Salsa Verde",
+    "cuisine": "mexican",
+    "format": "pot",
+    "source": {
+      "name": "ENGLISH - Boston.gov Nutrition & Recipe Guide",
+      "location": "White Bean Turkey Chili Section"
+    },
+    "servings": 5,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "name": "ground turkey breast",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "medium",
+        "name": "yellow onion, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 3,
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "cans (15 oz each)",
+        "name": "cannellini or great northern beans, rinsed and drained",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "name": "salsa verde (tomatillo salsa)",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "name": "low-sodium chicken broth",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "ground cumin",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "name": "chili powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "name": "dried oregano",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Heat olive oil in a Dutch oven or large soup pot over medium heat.",
+      "Add the diced onion and ground turkey. Cook for 6 to 8 minutes, breaking up the meat with a wooden spoon, until the turkey is no longer pink and beginning to lightly brown.",
+      "Add the minced garlic, ground cumin, chili powder, and oregano; cook for 1 minute until fragrant.",
+      "Pour in the chicken broth, salsa verde, and rinsed white beans. Stir thoroughly to combine.",
+      "Bring the chili to a boil, then reduce heat to medium-low. Simmer gently uncovered for 20 to 25 minutes until slightly thickened and flavors meld.",
+      "Taste and adjust seasonings. Ladle into bowls and serve with fresh cilantro or lime wedges if desired."
+    ],
+    "source_temperatures": [
+      {
+        "target": "skillet",
+        "value": "medium heat for browning"
+      },
+      {
+        "target": "pot_simmer",
+        "value": "medium-low simmer"
+      }
+    ],
+    "swaps": [
+      "Pinto beans or black beans can substitute for white beans.",
+      "Diced mild green chiles can be added alongside salsa verde for extra smoky pepper depth."
+    ],
+    "notes": "Salsa verde provides vibrant tang and seasoning without requiring extended stewing times."
+  },
+  {
+    "id": "turkey_003_stuffed_peppers",
+    "title": "Stuffed Bell Peppers with Ground Turkey, Brown Rice, and Fontina",
+    "cuisine": "med",
+    "format": "plate",
+    "source": {
+      "name": "Masterchef PDF - Bookey",
+      "location": "Alejandra Schrader Recipe Section"
+    },
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "name": "ground turkey",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 4,
+        "unit": "large",
+        "name": "bell peppers (any color), tops sliced off and seeded",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 1.5,
+        "unit": "cups",
+        "name": "cooked brown rice",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "name": "diced canned crushed tomatoes",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "small",
+        "name": "onion, finely chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "name": "shredded fontina or mozzarella cheese",
+        "role": "other",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "name": "smoked paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "name": "dried oregano",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat oven to 375°F (190°C). Bring a large pot of water to boil, par-boil the hollowed bell peppers for 3 minutes, then invert onto paper towels to drain.",
+      "Heat olive oil in a skillet over medium heat. Add chopped onion and ground turkey, cooking for 6 to 7 minutes until turkey is browned and broken into small pieces.",
+      "Stir in minced garlic, smoked paprika, oregano, and salt and pepper; cook 1 minute.",
+      "Remove skillet from heat and fold in the cooked brown rice, crushed tomatoes, and half of the shredded fontina cheese.",
+      "Stand the drained bell peppers upright in a baking dish. Spoon the turkey-rice filling tightly into each pepper cavity.",
+      "Top each pepper with the remaining fontina cheese. Pour 1/4 cup water into the bottom of the baking dish, cover loosely with foil, and bake for 25 minutes. Uncover and bake 10 more minutes until cheese is bubbly and melted (internal temperature 165°F)."
+    ],
+    "source_temperatures": [
+      {
+        "target": "oven",
+        "value": "375°F"
+      },
+      {
+        "target": "filling_internal",
+        "value": "165°F"
+      }
+    ],
+    "swaps": [
+      "Quinoa or riced cauliflower can replace brown rice for a low-carb alternative.",
+      "Monterey Jack, sharp cheddar, or provolone can substitute for fontina cheese."
+    ],
+    "notes": "Pre-cooking the peppers for 3 minutes ensures they soften fully alongside the hearty turkey and brown rice filling."
+  },
+  {
+    "id": "turkey_004_kale_oat_meatballs",
+    "title": "Turkey, Kale and Oat Meatballs in Quick Tomato Sauce",
+    "cuisine": "italian",
+    "format": "pot",
+    "source": {
+      "name": "45 Healthy Comfort Food Recipes - Food Network",
+      "location": "Turkey, Kale and Oat Meatballs Section"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "name": "ground turkey (93% lean)",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 1.5,
+        "unit": "cups",
+        "name": "finely chopped lacinato kale or baby spinach",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "name": "quick rolled oats",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "large",
+        "name": "egg, beaten",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "cup",
+        "name": "grated parmesan cheese",
+        "role": "other",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "name": "dried Italian seasoning",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "name": "marinara or quick tomato sauce",
+        "role": "sauce",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat oven to 400°F (205°C) and line a baking sheet with parchment paper.",
+      "In a large bowl, mix together the ground turkey, chopped kale, quick rolled oats, beaten egg, grated parmesan, minced garlic, and Italian seasoning until well combined.",
+      "Gently roll the mixture into 12 to 14 golf-ball-sized meatballs and arrange evenly on the prepared baking sheet.",
+      "Bake for 15 to 18 minutes until meatballs are lightly browned and reach 165°F internally.",
+      "While baking, warm the marinara sauce in a wide saucepan over low heat. Transfer the baked meatballs into the sauce and simmer together for 5 minutes before serving."
+    ],
+    "source_temperatures": [
+      {
+        "target": "oven",
+        "value": "400°F"
+      },
+      {
+        "target": "meatball_internal",
+        "value": "165°F"
+      }
+    ],
+    "swaps": [
+      "Baby spinach or Swiss chard can replace kale.",
+      "Gluten-free rolled oats can be used for a gluten-free meatball."
+    ],
+    "notes": "Baking the meatballs on a sheet pan first renders out excess fat and holds their shape before finishing in the warm marinara sauce."
+  },
+  {
+    "id": "turkey_005_butternut_squash_chili",
+    "title": "Butternut Squash and Turkey Black Bean Chili",
+    "cuisine": "comfort",
+    "format": "pot",
+    "source": {
+      "name": "45 Healthy Comfort Food Recipes - Food Network",
+      "location": "Butternut Squash and Turkey Chili Section"
+    },
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "lb",
+        "name": "lean ground turkey",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 3,
+        "unit": "cups",
+        "name": "butternut squash, peeled and cut into 1/2-inch cubes",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "medium",
+        "name": "red onion, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "can (15 oz)",
+        "name": "black beans, rinsed and drained",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "can (14.5 oz)",
+        "name": "fire-roasted diced tomatoes",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "name": "low-sodium chicken broth",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "tablespoons",
+        "name": "chili powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "name": "ground cumin",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "In a large pot, heat olive oil over medium heat. Add the diced red onion and ground turkey, cooking for 6 to 8 minutes until turkey is browned and broken into crumbles.",
+      "Add the garlic, chili powder, and cumin, stirring for 1 minute until fragrant.",
+      "Add the cubed butternut squash, diced fire-roasted tomatoes with their juices, black beans, and chicken broth.",
+      "Bring the pot to a boil, then reduce heat to low, cover with lid, and simmer for 25 minutes until the butternut squash is tender when pierced with a fork.",
+      "Remove lid and simmer uncovered for an additional 5 minutes to thicken broth slightly. Serve warm in bowls."
+    ],
+    "source_temperatures": [
+      {
+        "target": "pot",
+        "value": "medium heat for sauté, low heat for simmer"
+      }
+    ],
+    "swaps": [
+      "Sweet potato cubes can replace butternut squash.",
+      "Kidney beans or pinto beans can substitute for black beans."
+    ],
+    "notes": "Naturally sweet butternut squash balances warm chili spices and lean turkey, creating a rich stew without excessive butter or cream."
+  }
+]

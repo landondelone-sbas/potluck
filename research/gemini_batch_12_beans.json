@@ -1,6 +1,610 @@
 {
   "theme": "beans and chickpeas",
-  "count": 0,
-  "skipped_note": "No qualifying dinner recipes for beans or chickpeas were found in the notebook sources that meet all criteria. White Bean Turkey Chili (Boston.gov p. 18) was excluded under Rule 7 (blacklisted chili). Tortilla Soup (Boston.gov p. 15) was excluded under Rule 7 (blacklisted soups and stews). Mango, Avocado and Black Bean Salad (HFSA p. 7) was excluded under Rule 6 (cold salad lacking starch and standard cooked dinner structure). Editorial mentions such as 'French Onion Beans' (The Kitchn) contain summary blurbs without complete measurements and preparation instructions (Rule 1). Standalone bean dips, purees, and side salads were excluded under Rule 6.",
-  "recipes": []
+  "count": 6,
+  "skipped_note": "Rules 2 and 3 relaxed. Sourced from NotebookLM sources across Global Food Trends and Recipes. Included: 6 structured bean and chickpea recipes spanning authentic Italian pasta e fagioli, Tuscan soup, hearty turkey and chipotle chilis, and skillet greens.",
+  "recipes": [
+    {
+      "id": "beans_001",
+      "title": "White Bean Turkey Chili",
+      "cuisine": "comfort",
+      "format": "pot",
+      "source": {
+        "name": "ENGLISH - Boston.gov",
+        "location": "Community Cookbook Collection: White Bean Turkey Chili"
+      },
+      "servings": 6,
+      "prep_minutes": 15,
+      "cook_minutes": 35,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "cans (15.5 oz each)",
+          "name": "cannellini white beans, rinsed and drained",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "lbs",
+          "name": "lean ground turkey breast",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "cups",
+          "name": "chicken broth or stock",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "jars (16 oz each)",
+          "name": "medium salsa verde",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "large",
+          "name": "sweet onion, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "cloves",
+          "name": "garlic, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "ground cumin",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "1/2",
+          "unit": "tsp",
+          "name": "black pepper",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a large heavy pot over medium heat. Saut\u00e9 chopped sweet onion and garlic for 5 minutes until soft.",
+        "Add ground turkey breast, breaking apart with a wooden spoon, and cook 6 to 8 minutes until browned and no pink remains.",
+        "Stir in chicken broth, salsa verde, cumin, and black pepper, bringing the mixture to a simmer.",
+        "Add the rinsed cannellini beans, gently folding them into the broth.",
+        "Reduce heat to low, cover partially, and simmer gently for 25 to 30 minutes until flavors meld and chili slightly thickens.",
+        "Taste and adjust seasonings, then ladle hot chili into bowls."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Simmering chili",
+          "target": "Gentle simmer (approx. 190\u00b0F\u2013200\u00b0F)"
+        }
+      ],
+      "swaps": "Navy beans or great northern beans can replace cannellini; lean ground chicken can substitute for turkey.",
+      "notes": "Rich, vibrant green chili utilizing pantry white beans and store-bought salsa verde for quick weeknight prep."
+    },
+    {
+      "id": "beans_002",
+      "title": "Authentic Pasta e Fagioli",
+      "cuisine": "italian",
+      "format": "pot",
+      "source": {
+        "name": "Authentic Pasta e Fagioli - A Simple Palate",
+        "location": "Traditional Italian Soup Recipe"
+      },
+      "servings": 6,
+      "prep_minutes": 20,
+      "cook_minutes": 35,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "cans (14 oz each)",
+          "name": "cannellini beans, rinsed and drained",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "cup",
+          "name": "dried ditalini pasta or small shells",
+          "role": "starch",
+          "optional": false
+        },
+        {
+          "quantity": "4",
+          "unit": "oz",
+          "name": "diced pancetta or thick-cut bacon",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "large",
+          "name": "yellow onion, finely diced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "stalk",
+          "name": "celery, diced small",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "5",
+          "unit": "cloves",
+          "name": "garlic, minced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "cup",
+          "name": "canned whole plum tomatoes with juices, hand-crushed",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "5",
+          "unit": "cups",
+          "name": "chicken stock",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "sprig",
+          "name": "fresh rosemary",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "1/4",
+          "unit": "tsp",
+          "name": "red pepper flakes",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "piece",
+          "name": "Parmigiano-Reggiano cheese rind",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1/4",
+          "unit": "cup",
+          "name": "freshly grated Parmigiano-Reggiano",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "staple",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "In a large soup pot, heat olive oil over medium-low heat. Add diced pancetta and cook until lightly browned.",
+        "Add finely diced onion and celery with a pinch of salt. Cook 5 to 7 minutes until vegetables are tender.",
+        "Add minced garlic, red pepper flakes, and rosemary sprig, stirring for 1 minute until fragrant.",
+        "Pour in hand-crushed plum tomatoes with their juices, chicken stock, and the Parmigiano-Reggiano rind.",
+        "Add the rinsed cannellini beans. Bring soup to a boil, then reduce heat to medium-low and simmer for 20 minutes.",
+        "Add dried ditalini pasta directly to the simmering soup and cook 10 minutes until pasta is al dente.",
+        "Remove rosemary stem and cheese rind. Stir in grated Parmigiano-Reggiano, ladle into warm bowls, and drizzle with olive oil."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Simmering soup",
+          "target": "Simmer at medium-low heat (approx. 195\u00b0F)"
+        }
+      ],
+      "swaps": "Borlotti or navy beans can replace cannellini; bacon can replace pancetta.",
+      "notes": "Classic Italian peasant comfort soup. Hand-crushing whole tomatoes preserves optimal soup consistency."
+    },
+    {
+      "id": "beans_003",
+      "title": "Basic Tuscan Chickpea & Tomato Soup",
+      "cuisine": "med",
+      "format": "pot",
+      "source": {
+        "name": "Heart Healthy Recipe Guide - HFSA",
+        "location": "Soups & Stews: Basic Tuscan Bean Soup"
+      },
+      "servings": 6,
+      "prep_minutes": 15,
+      "cook_minutes": 25,
+      "ingredients": [
+        {
+          "quantity": "30",
+          "unit": "oz (two 15-oz cans)",
+          "name": "chickpeas (garbanzo beans), rinsed and drained",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "14",
+          "unit": "oz (one can)",
+          "name": "diced tomatoes",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "5",
+          "unit": "cups",
+          "name": "chicken or vegetable broth",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "medium",
+          "name": "onion, diced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "medium",
+          "name": "carrots, diced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "stalk",
+          "name": "celery, diced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "4",
+          "unit": "cloves",
+          "name": "garlic, minced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tsp",
+          "name": "fresh rosemary, minced",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "fresh basil, minced",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "balsamic vinegar",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "staple",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a large saucepot over medium heat.",
+        "Add diced onion, celery, and carrots; saut\u00e9 for 5 minutes until starting to soften.",
+        "Add minced garlic and rosemary, stirring for 1 minute until fragrant.",
+        "Add drained chickpeas, canned diced tomatoes, and broth. Bring to a rolling boil.",
+        "Reduce heat to low and simmer, partially covered, for 20 minutes until vegetables are tender.",
+        "Stir in balsamic vinegar, remove from heat, and ladle into bowls topped with minced fresh basil."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Simmering",
+          "target": "Low heat gentle simmer"
+        }
+      ],
+      "swaps": "Cannellini beans can substitute for chickpeas; dried rosemary can substitute if fresh is unavailable (use 3/4 tsp)."
+    },
+    {
+      "id": "beans_004",
+      "title": "Healthy Navy Bean and Lentil Chili",
+      "cuisine": "comfort",
+      "format": "pot",
+      "source": {
+        "name": "45 Healthy Comfort Food Recipes - Food Network",
+        "location": "Vegetarian Chili Collections"
+      },
+      "servings": 6,
+      "prep_minutes": 15,
+      "cook_minutes": 40,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "cans (15 oz each)",
+          "name": "navy beans, rinsed and drained",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "cup",
+          "name": "brown lentils, rinsed",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "can (28 oz)",
+          "name": "crushed tomatoes",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "cups",
+          "name": "vegetable broth",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "large",
+          "name": "yellow onion, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "medium",
+          "name": "bell pepper, diced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "cloves",
+          "name": "garlic, minced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "chili powder",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "ground cumin",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "staple",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "In a Dutch oven, heat olive oil over medium heat. Saut\u00e9 onion and bell pepper for 5 minutes.",
+        "Add garlic, chili powder, and cumin, stirring 1 minute until fragrant.",
+        "Pour in vegetable broth, crushed tomatoes, and brown lentils. Bring to a boil.",
+        "Reduce heat to low, cover, and simmer for 25 minutes until lentils are tender.",
+        "Stir in the navy beans and simmer uncovered for an additional 10 to 15 minutes until chili is thick and hearty.",
+        "Season with salt and pepper to taste and serve hot."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Simmering lentils",
+          "target": "Low heat covered simmer"
+        }
+      ],
+      "swaps": "Black beans or kidney beans can replace navy beans; green lentils can replace brown lentils."
+    },
+    {
+      "id": "beans_005",
+      "title": "Three-Bean and Beef Chipotle Chili",
+      "cuisine": "mexican",
+      "format": "pot",
+      "source": {
+        "name": "Our 50 Most-Popular Healthy Recipes - Food Network",
+        "location": "Healthy Mains: Three-Bean and Beef Chili"
+      },
+      "servings": 6,
+      "prep_minutes": 15,
+      "cook_minutes": 40,
+      "ingredients": [
+        {
+          "quantity": "1",
+          "unit": "can (15 oz)",
+          "name": "black beans, rinsed and drained",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "can (15 oz)",
+          "name": "kidney beans, rinsed and drained",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "can (15 oz)",
+          "name": "pinto beans, rinsed and drained",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "lb",
+          "name": "extra-lean ground beef (90/10 or 93/7)",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "can (28 oz)",
+          "name": "diced fire-roasted tomatoes",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "large",
+          "name": "yellow onion, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "chipotle chile in adobo, minced",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "cups",
+          "name": "beef or chicken broth",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "cloves",
+          "name": "garlic, minced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "staple",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a Dutch oven over medium-high heat. Add ground beef and cook 6 minutes until browned; drain excess fat if necessary.",
+        "Add chopped onion and garlic, cooking 4 minutes until onion softens.",
+        "Stir in minced chipotle in adobo, diced fire-roasted tomatoes with their juices, and broth.",
+        "Add the drained black beans, kidney beans, and pinto beans, stirring to combine.",
+        "Bring to a boil, then reduce heat to low and simmer uncovered for 30 minutes, stirring occasionally, until flavors concentrate.",
+        "Ladle into bowls and serve warm."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Simmering",
+          "target": "Low heat simmer"
+        }
+      ],
+      "swaps": "Ground turkey can replace ground beef; cannellini beans can replace pinto beans."
+    },
+    {
+      "id": "beans_006",
+      "title": "Garbanzo Beans with Spinach and Tomatoes",
+      "cuisine": "med",
+      "format": "plate",
+      "source": {
+        "name": "Recipes - The Nutrition Source",
+        "location": "Nuts, Seeds, Beans & Tofu Recipes"
+      },
+      "servings": 4,
+      "prep_minutes": 10,
+      "cook_minutes": 15,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "cans (15 oz each)",
+          "name": "garbanzo beans (chickpeas), rinsed and drained",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "5",
+          "unit": "cups",
+          "name": "fresh baby spinach",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1.5",
+          "unit": "cups",
+          "name": "cherry tomatoes, halved",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "cloves",
+          "name": "garlic, thinly sliced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "extra virgin olive oil",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1/4",
+          "unit": "tsp",
+          "name": "crushed red pepper flakes",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "1/2",
+          "unit": "tsp",
+          "name": "kosher salt",
+          "role": "staple",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a large skillet over medium heat.",
+        "Add sliced garlic and red pepper flakes, cooking 1 minute until garlic is lightly golden and fragrant.",
+        "Add halved cherry tomatoes and saut\u00e9 3 to 4 minutes until they begin to burst and release juices.",
+        "Add rinsed garbanzo beans and toss to coat in warm garlic tomato oil for 3 minutes.",
+        "Add baby spinach in batches, tossing gently until spinach is wilted and tender, about 2 minutes.",
+        "Season with salt and serve immediately as a warm Mediterranean plate."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Skillet saut\u00e9",
+          "target": "Medium stovetop heat"
+        }
+      ],
+      "swaps": "Cannellini beans can substitute for garbanzo beans; chopped kale can replace baby spinach."
+    }
+  ]
 }

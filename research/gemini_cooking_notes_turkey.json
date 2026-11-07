@@ -1,0 +1,36 @@
+{
+  "theme": "turkey",
+  "batch_number": 9,
+  "summary_of_findings": {
+    "methods_identified": 3,
+    "recipes_identified": 5,
+    "core_sources": [
+      "45 Healthy Comfort Food Recipes - Food Network",
+      "ENGLISH - Boston.gov Nutrition & Recipe Guide",
+      "Masterchef PDF - Bookey (Alejandra Schrader)",
+      "Food Network Thanksgiving Collection & Garden in the Kitchen",
+      "USDA / CDC Poultry Guidelines"
+    ]
+  },
+  "gaps_in_sources": {
+    "missing_cuts": [
+      "No cutlet or paillard sauté guidelines (cooking thin turkey cutlets in skillet).",
+      "No bone-in turkey leg / drumstick braising times.",
+      "No turkey tenderloin roasting or pan-searing time/temperature charts."
+    ],
+    "missing_methods": [
+      "No direct outdoor grilling parameters for turkey burgers or turkey breast steaks.",
+      "No sous-vide precision cooking temperature or hold duration specifications.",
+      "No deep-frying guidelines (whole fried turkey), though this aligns with user instructions skipping deep fryers."
+    ],
+    "missing_parameters": [
+      "Exact resting carry-over rise for large 15+ lb whole birds versus small 4 lb breasts.",
+      "Moisture loss percentages comparing 93/7 lean ground turkey versus 99% fat-free breast meat."
+    ]
+  },
+  "app_recommendations": [
+    "Enforce strict 165°F (73.9°C) internal doneness rule across all poultry dishes with zero tolerance for lower temps.",
+    "Include mandatory anti-dryness logic for ground turkey: when building dinner dishes from lean ground turkey, recommend pairing with a moisture-retaining starch (like oats) or sautéed moisture-rich vegetables (onions, squashes).",
+    "Add explicit reminder in app UI against rinsing raw poultry in the sink."
+  ]
+}

@@ -1,6 +1,571 @@
-{
-  "theme": "salmon",
-  "count": 0,
-  "skipped_note": "No qualifying recipes found in notebook sources meeting all criteria. Evaluated and skipped: 1. Baked Salmon with Lemon and Dill from Prime Women (excluded under Rule 7: baked salmon is explicitly blacklisted; also lacks starch and vegetable dinner components per Rule 6). 2. Broiled Salmon with Herb Mustard Glaze from Food Network 50 Most-Popular Healthy Recipes (excluded under Rule 1: outbound link roundup preview blurb lacking ingredient quantities, measurements, and cooking steps in notebook text). 3. Salmon bowls from Dishing Out Health (excluded under Rule 7: grain and dinner bowls are blacklisted; also outbound links lacking inline recipe data per Rule 1). 4. The Nutrition Source from Harvard (general nutrition guidance mentioning fresh fish, lacking dinner recipes per Rule 1).",
-  "recipes": []
-}
+[
+  {
+    "id": "salmon_001_baked_lemon_dill",
+    "title": "Baked Salmon with Fresh Lemon and Dill",
+    "cuisine": "med",
+    "format": "plate",
+    "source": {
+      "name": "7 Nutrient-Packed Recipes That Make Healthy Eating a Breeze - Prime Women",
+      "location": "Baked Salmon with Lemon and Dill Section"
+    },
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 18,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "fillets (6 oz each)",
+        "name": "fresh salmon fillets, skin-on",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "extra-virgin olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "lemon, thinly sliced into rounds",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "fresh dill, roughly chopped",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "sea salt and freshly cracked black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 375\u00b0F (190\u00b0C) and line a rimmed baking sheet with parchment paper or foil.",
+      "Arrange the salmon fillets skin-side down on the prepared baking sheet with space between them.",
+      "Drizzle fillets evenly with olive oil, and season generously with sea salt and cracked black pepper.",
+      "Top each fillet with fresh lemon slices and fresh dill sprigs.",
+      "Bake for 15 to 18 minutes until the salmon is opaque, flakes easily with a fork, and reaches 145\u00b0F internal temperature.",
+      "Serve warm with the roasted lemon slices."
+    ],
+    "source_temperatures": [
+      {
+        "event": "oven bake",
+        "temp": "375\u00b0F (190\u00b0C)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "145\u00b0F (62.8\u00b0C)"
+      }
+    ],
+    "swaps": "Can substitute lime slices and cilantro for a Mexican flavor profile; skinless fillets work equally well.",
+    "notes": "Minimalist Mediterranean preparation that lets fresh salmon flavor shine without added heavy fats."
+  },
+  {
+    "id": "salmon_002_sheet_pan_chili_lemon",
+    "title": "Sheet-Pan Chili-Lemon Salmon and Potatoes",
+    "cuisine": "med",
+    "format": "plate",
+    "source": {
+      "name": "Healthy Weeknight Dinners You'll Actually Crave - Dishing Out Health",
+      "location": "Sheet Pan Chili-Lemon Salmon Section"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "fillets",
+        "name": "salmon fillets (6 oz each)",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "baby Yukon gold potatoes, halved or quartered",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "chili powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "garlic powder and ground cumin",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "fresh lemon juice and zest",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "bunch",
+        "name": "fresh asparagus spears, trimmed",
+        "role": "veg",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat oven to 400\u00b0F (205\u00b0C). Toss halved potatoes with 1.5 tablespoons olive oil, salt, and pepper; spread on baking sheet.",
+      "Roast potatoes for 15 minutes until they begin to brown and turn tender when pierced.",
+      "Meanwhile, in a small dish, whisk together remaining olive oil, chili powder, cumin, garlic powder, lemon zest, and lemon juice.",
+      "Push roasted potatoes to one side of sheet pan. Arrange salmon fillets and trimmed asparagus spears on the remaining space.",
+      "Brush chili-lemon mixture generously over salmon and asparagus.",
+      "Return sheet pan to oven and roast for 12 to 14 minutes until salmon flakes tenderly and asparagus is crisp-tender."
+    ],
+    "source_temperatures": [
+      {
+        "event": "oven roast",
+        "temp": "400\u00b0F (205\u00b0C)"
+      }
+    ],
+    "swaps": "Can use sweet potato cubes instead of baby Yukon golds; green beans work well in place of asparagus.",
+    "notes": "Staggering the cooking times ensures potatoes get crispy without overcooking the salmon."
+  },
+  {
+    "id": "salmon_003_spinach_artichoke_skillet",
+    "title": "Skillet Salmon with Creamy Spinach and Artichokes",
+    "cuisine": "italian",
+    "format": "pot",
+    "source": {
+      "name": "Healthy Weeknight Dinners You'll Actually Crave - Dishing Out Health",
+      "location": "Spinach Artichoke Salmon Skillet Section"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "fillets",
+        "name": "skinless salmon fillets",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "can (14 oz)",
+        "name": "artichoke hearts, drained and chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "4",
+        "unit": "cups",
+        "name": "fresh baby spinach",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "cup",
+        "name": "chicken or vegetable broth",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "cup",
+        "name": "heavy cream or culinary coconut cream",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "grated parmesan cheese",
+        "role": "sauce",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Season salmon fillets with salt and pepper. Heat olive oil in a large skillet over medium-high heat.",
+      "Sear salmon for 3 to 4 minutes per side until golden brown; transfer to a plate (salmon will finish cooking in sauce).",
+      "Lower skillet heat to medium, add minced garlic and chopped artichoke hearts, saut\u00e9ing for 2 minutes until fragrant.",
+      "Pour in broth and cream, bringing to a gentle simmer for 2 minutes.",
+      "Add fresh spinach and parmesan, stirring until spinach wilts into the creamy sauce.",
+      "Return seared salmon fillets to skillet, spooning sauce over top, and simmer for 3 minutes until salmon flakes tenderly."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "simmer",
+        "temp": "medium-low heat"
+      }
+    ],
+    "swaps": "Can add chopped sun-dried tomatoes; Greek cream cheese or coconut cream can lighten the sauce.",
+    "notes": "Rich bistro-style skillet dinner that comes together in one pan in 30 minutes."
+  },
+  {
+    "id": "salmon_004_miso_glazed_broiled",
+    "title": "Classic Miso-Glazed Broiled Salmon",
+    "cuisine": "asian",
+    "format": "plate",
+    "source": {
+      "name": "Recipes - The Nutrition Source | Harvard T.H. Chan School of Public Health",
+      "location": "Heart-Healthy Fish Section"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 8,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "fillets (6 oz each)",
+        "name": "skin-on salmon fillets",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "tbsp",
+        "name": "white miso paste (shiro miso)",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "mirin (Japanese sweet cooking wine)",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "low-sodium soy sauce",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "pure honey or brown sugar",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "freshly grated ginger",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "stalks",
+        "name": "scallions, thinly sliced (for garnish)",
+        "role": "veg",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "In a small bowl, whisk together white miso paste, mirin, soy sauce, honey, and grated ginger until smooth.",
+      "Place salmon fillets in a shallow dish, brush glaze generously over flesh, and let marinate for 15 minutes.",
+      "Line a baking sheet with foil and lightly grease with oil. Arrange salmon fillets skin-side down on foil.",
+      "Position oven rack 5 inches below the broiler and turn on high broil.",
+      "Broil salmon for 6 to 8 minutes without flipping, watching carefully as the miso glaze caramelizes and bubbles into deep golden-brown spots.",
+      "Remove when edges are caramelized and fish flakes easily; garnish with sliced scallions and serve with steamed rice."
+    ],
+    "source_temperatures": [
+      {
+        "event": "oven broil",
+        "temp": "high broil (500\u00b0F+ / direct radiant heat)"
+      }
+    ],
+    "swaps": "Can substitute red miso paste for a bolder savory taste; maple syrup can replace honey.",
+    "notes": "Inspired by the classic Nobu-style preparation. Watch closely under the broiler to prevent sugars from burning."
+  },
+  {
+    "id": "salmon_005_crispy_skin_lemon_capers",
+    "title": "Crispy Skin Pan-Roasted Salmon with Lemon & Capers",
+    "cuisine": "med",
+    "format": "plate",
+    "source": {
+      "name": "Recipes - The Nutrition Source | Harvard T.H. Chan School of Public Health",
+      "location": "Seafood Dinners Section"
+    },
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 8,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "fillets (6 oz each)",
+        "name": "fresh skin-on salmon fillets",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "neutral high-heat oil (avocado or light olive oil)",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "unsalted butter",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "capers, drained",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "fresh lemon juice",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "fresh parsley, finely chopped",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "kosher salt and freshly cracked black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Use paper towels to pat the salmon skin completely dry. Lightly score skin with 3 shallow diagonal cuts and season both sides with salt and pepper.",
+      "Heat oil in a heavy cast-iron or stainless steel skillet over medium-high heat until shimmering.",
+      "Place fillets skin-side down in pan. Press gently with a flat spatula for 30 seconds to prevent the skin from curling.",
+      "Cook undisturbed for 4 to 5 minutes until skin is deeply golden, crisp, and releases easily from the pan.",
+      "Carefully flip fillets and cook on flesh side for 2 to 3 minutes.",
+      "Remove pan from heat; add butter, capers, lemon juice, and parsley, swirling the pan so melted butter foams and creates a pan sauce.",
+      "Spoon foaming lemon-caper butter over salmon flesh and serve immediately with skin facing up."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      }
+    ],
+    "swaps": "Can use olive oil only for a dairy-free piccata sauce; add a splash of dry white wine with lemon juice.",
+    "notes": "The essential technique for restaurant-grade crackling skin: bone-dry skin and initial spatula pressure."
+  },
+  {
+    "id": "salmon_006_honey_mustard_baked",
+    "title": "Honey-Mustard Glazed Baked Salmon",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "45 Healthy Comfort Food Recipes - Food Network",
+      "location": "Healthy Seafood Mains Section"
+    },
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 14,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "fillets (6 oz each)",
+        "name": "salmon fillets, skin-on",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "Dijon mustard",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "pure honey",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "whole grain mustard",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "fresh lemon juice",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "smoked paprika",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 400\u00b0F (205\u00b0C) and line a baking sheet with foil.",
+      "In a small ramekin, whisk together Dijon mustard, whole grain mustard, honey, minced garlic, lemon juice, and smoked paprika.",
+      "Arrange salmon fillets skin-side down on the prepared baking sheet and season lightly with salt and pepper.",
+      "Spoon honey-mustard glaze evenly across the top of each fillet, spreading to the edges.",
+      "Bake for 12 to 14 minutes until salmon is cooked through and glaze is bubbling and caramelized.",
+      "Serve hot alongside roasted vegetables or steamed brown rice."
+    ],
+    "source_temperatures": [
+      {
+        "event": "oven bake",
+        "temp": "400\u00b0F (205\u00b0C)"
+      }
+    ],
+    "swaps": "Maple syrup can substitute for honey; spicy brown mustard can replace whole grain mustard.",
+    "notes": "Sweet and tangy glaze keeps lean salmon succulent during high-heat roasting."
+  },
+  {
+    "id": "salmon_007_blackened_cajun_salmon",
+    "title": "Cast-Iron Blackened Cajun Salmon",
+    "cuisine": "cajun",
+    "format": "plate",
+    "source": {
+      "name": "Our 50 Most-Popular Healthy Recipes - Food Network",
+      "location": "Most Saved Seafood Section"
+    },
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 7,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "fillets (6 oz each)",
+        "name": "salmon fillets (skin-on or skinless)",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "butter or olive oil, melted",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "smoked paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "garlic powder and onion powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "dried oregano and dried thyme",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "cayenne pepper (adjust for heat)",
+        "role": "spice",
+        "optional": true
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "kosher salt and black pepper",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "lemon, cut into wedges",
+        "role": "veg",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "In a small dish, mix smoked paprika, garlic powder, onion powder, oregano, thyme, cayenne, salt, and black pepper into a Cajun spice rub.",
+      "Brush salmon fillets on all sides with melted butter or oil, then coat flesh liberally with the spice rub.",
+      "Heat a heavy cast-iron skillet over high heat until smoking hot.",
+      "Place fillets flesh-side down in dry or lightly oiled hot skillet; sear undisturbed for 3 to 4 minutes until a dark, flavorful, blackened crust forms.",
+      "Flip fillets and cook for another 3 minutes until salmon is just cooked through.",
+      "Serve immediately with fresh lemon wedges for squeezing over the crust."
+    ],
+    "source_temperatures": [
+      {
+        "event": "cast-iron sear",
+        "temp": "high heat (smoking hot cast-iron)"
+      }
+    ],
+    "swaps": "Can use store-bought Cajun or Creole blackened seasoning mix; reduce cayenne for milder spice.",
+    "notes": "Authentic blackened crust without deep frying. Ensure kitchen is well ventilated as searing spices produces aromatic smoke."
+  }
+]

@@ -1,0 +1,211 @@
+{
+  "ingredient": "chicken",
+  "safe_temperature": {
+    "temperature": "165\u00b0F (73.9\u00b0C) measured in the thickest part of the breast and innermost thigh without touching bone",
+    "source": {
+      "name": "SAFE MINIMUM INTERNAL TEMPERATURES as measured with a food thermometer - FDA & USDA Guidelines",
+      "location": "Poultry Safety Standards"
+    },
+    "disagreements": "There is zero disagreement across FDA, USDA, and notebook culinary sources that all chicken parts, whole birds, and ground poultry must reach a minimum internal temperature of 165\u00b0F (73.9\u00b0C) for food safety. However, culinary sources note important cut-specific texture optimization: lean breast meat should be pulled right at 165\u00b0F because cooking past that temperature rapidly expels moisture and leaves meat stringy and chalky; conversely, dark meat (thighs, drumsticks, wings) contains more fat and connective tissue and is significantly more succulent, tender, and flavorful when cooked to 175\u00b0F\u2013180\u00b0F (79\u00b0C\u201382\u00b0C)."
+  },
+  "methods": [
+    {
+      "method": "roast (whole bird)",
+      "cut": "whole chicken (3.5 to 5 lbs)",
+      "heat": "400\u00b0F (205\u00b0C) to 425\u00b0F (218\u00b0C) in preheated oven",
+      "time": "1 hour 15 minutes to 1 hour 30 minutes (approx. 18 to 20 minutes per pound)",
+      "doneness": "Internal temperature reaches 165\u00b0F in deepest part of thigh and breast; juices run clear with no pink; skin is deeply golden and blistered",
+      "rest": "10 to 15 minutes tented loosely with foil before carving",
+      "tips": "Pat chicken bone-dry inside and out with paper towels; rub butter or oil both under and over the skin; season cavity generously and insert aromatics (halved lemon, garlic head, fresh rosemary sprigs); do not tie legs too tightly so heat circulates freely around inner thigh joints.",
+      "source": {
+        "name": "How To Roast a Whole Chicken - Garden in the Kitchen & Epicurious 101",
+        "location": "Step-by-Step Whole Roast Chicken Guide"
+      }
+    },
+    {
+      "method": "bake / oven roast (parts)",
+      "cut": "bone-in, skin-on chicken thighs or drumsticks",
+      "heat": "400\u00b0F (205\u00b0C)",
+      "time": "35 to 45 minutes",
+      "doneness": "Internal temperature reaches 175\u00b0F\u2013180\u00b0F for optimal tenderness; skin is deeply golden, crispy, and crackling",
+      "rest": "5 minutes before serving",
+      "tips": "Place thighs skin-side up on a rimmed baking sheet with space between pieces; high heat renders the fat cap beneath the skin, creating a self-basting crispy exterior without requiring breading.",
+      "source": {
+        "name": "Baked Chicken Thighs (Crispy and Juicy!) | Downshiftology",
+        "location": "Recipe Instructions & Pro Tips"
+      }
+    },
+    {
+      "method": "pan-sear / cast-iron skillet",
+      "cut": "boneless, skinless chicken breasts (pounded or butterflied to even 3/4-inch thickness)",
+      "heat": "Medium-high heat in heavy cast-iron skillet with oil and butter",
+      "time": "4 to 6 minutes on first side, flip, and 3 to 4 minutes on second side (approx. 8 to 10 minutes total)",
+      "doneness": "Internal temperature hits exactly 165\u00b0F; flesh is springy to the touch and juices run clear",
+      "rest": "3 to 5 minutes on a warm plate before carving (never slice immediately)",
+      "tips": "Pound breasts to uniform thickness so tapered ends do not dry out before the thick center cooks; pat completely dry; let sear undisturbed to build a golden crust; baste with foaming butter, garlic, and herbs during the final 2 minutes.",
+      "source": {
+        "name": "The Best Chicken Breast You'll Ever Make | Epicurious 101 & A Couple Cooks",
+        "location": "Video Masterclass & Creamy Tuscan Chicken"
+      }
+    },
+    {
+      "method": "air-fry",
+      "cut": "chicken breast tenders, cutlets, or bone-in pieces",
+      "heat": "375\u00b0F to 400\u00b0F (190\u00b0C to 205\u00b0C)",
+      "time": "12 to 16 minutes (flipping halfway through)",
+      "doneness": "Coating is crunchy and golden-brown; reaches 165\u00b0F internal temperature",
+      "rest": "3 minutes before serving",
+      "tips": "Lightly spray air fryer basket with oil; arrange chicken in a single uncrowded layer; a light spritz of oil over breadcrumbs ensures a golden crunch without deep frying.",
+      "source": {
+        "name": "Heart Healthy Recipe Guide - HFSA",
+        "location": "Air Fryer Crispy (Un)Fried Chicken, p. 22"
+      }
+    },
+    {
+      "method": "grill",
+      "cut": "boneless breasts, bone-in thighs, or chicken skewers",
+      "heat": "Medium direct heat (approx. 375\u00b0F\u2013400\u00b0F at grates)",
+      "time": "5 to 7 minutes per side for boneless breasts; 8 to 10 minutes per side for bone-in thighs",
+      "doneness": "165\u00b0F internal temperature; juices run clear with distinct grill marks",
+      "rest": "5 minutes tented with foil",
+      "tips": "Marinate in olive oil, lemon juice, garlic, and fresh rosemary for 15 to 30 minutes; clean and oil grates thoroughly; keep grill lid closed to maintain ambient roasting heat.",
+      "source": {
+        "name": "Heart Healthy Recipe Guide - HFSA",
+        "location": "Grilled Lemon Rosemary Chicken Breast, p. 26"
+      }
+    },
+    {
+      "method": "braise / stew",
+      "cut": "bone-in chicken thighs, drumsticks, or breast chunks",
+      "heat": "Medium-high heat to brown, then low heat covered simmer",
+      "time": "30 to 45 minutes",
+      "doneness": "Meat is succulent and pulls easily away from bone (165\u00b0F\u2013175\u00b0F); sauce thickened",
+      "rest": "5 minutes off heat",
+      "tips": "Brown skin-on chicken pieces first in skillet to build foundational fond, remove, cook aromatics and vegetables, return chicken and simmer partially submerged in broth, tomatoes, or wine.",
+      "source": {
+        "name": "Recipes - The Nutrition Source | Harvard T.H. Chan & Food Network",
+        "location": "Moroccan Braised Chicken Stew & Roman-Style Chicken"
+      }
+    }
+  ],
+  "pairs_well_with": {
+    "vegetables": [
+      {
+        "name": "Yellow onions, scallions, and shallots",
+        "source": "Garden in the Kitchen & Boston.gov"
+      },
+      {
+        "name": "Fresh garlic (minced or whole cloves)",
+        "source": "Epicurious 101 & A Couple Cooks"
+      },
+      {
+        "name": "Bell peppers (red, yellow, green)",
+        "source": "Food Network (Giada Roman Chicken)"
+      },
+      {
+        "name": "Baby spinach and kale",
+        "source": "A Couple Cooks (Tuscan Chicken)"
+      },
+      {
+        "name": "Broccoli florets and carrots",
+        "source": "Boston.gov (Chicken Lo Mein)"
+      },
+      {
+        "name": "Crushed plum tomatoes and sun-dried tomatoes",
+        "source": "Food Network & A Couple Cooks"
+      }
+    ],
+    "starches": [
+      {
+        "name": "Steamed jasmine rice or brown rice",
+        "source": "Harvard Nutrition Source & HFSA"
+      },
+      {
+        "name": "Lo mein / egg noodles or linguini",
+        "source": "Boston.gov (Chicken Lo Mein)"
+      },
+      {
+        "name": "Roasted baby Yukon gold or red potatoes",
+        "source": "Garden in the Kitchen & Downshiftology"
+      },
+      {
+        "name": "Creamy mashed potatoes",
+        "source": "Aunt Elizabeth's Chicken Paprikash"
+      },
+      {
+        "name": "Couscous or quinoa",
+        "source": "Harvard Nutrition Source (Moroccan Stew)"
+      },
+      {
+        "name": "Crusty artisan bread",
+        "source": "Food Network (Roman-Style Chicken)"
+      }
+    ],
+    "spices_and_herbs": [
+      {
+        "name": "Sweet Hungarian paprika and smoked paprika",
+        "source": "Aunt Elizabeth's Chicken Paprikash & Downshiftology"
+      },
+      {
+        "name": "Fresh rosemary sprigs",
+        "source": "HFSA & Garden in the Kitchen"
+      },
+      {
+        "name": "Fresh thyme and dried oregano",
+        "source": "Epicurious 101 & Downshiftology"
+      },
+      {
+        "name": "Fresh basil and flat-leaf parsley",
+        "source": "A Couple Cooks & Food Network"
+      },
+      {
+        "name": "Ground cumin and coriander",
+        "source": "Harvard Nutrition Source (Moroccan Stew)"
+      },
+      {
+        "name": "Kosher salt and freshly cracked black pepper",
+        "source": "Garden in the Kitchen & Epicurious 101"
+      }
+    ],
+    "sauces_and_liquids": [
+      {
+        "name": "Low-sodium chicken bone broth",
+        "source": "HFSA & A Couple Cooks"
+      },
+      {
+        "name": "Fresh lemon juice and lemon zest",
+        "source": "HFSA & Garden in the Kitchen"
+      },
+      {
+        "name": "Extra-virgin olive oil and butter",
+        "source": "Epicurious 101 & Downshiftology"
+      },
+      {
+        "name": "Heavy cream or sour cream (for paprikash)",
+        "source": "Aunt Elizabeth's Chicken Paprikash & A Couple Cooks"
+      },
+      {
+        "name": "Dry white wine (for pan deglazing)",
+        "source": "Food Network & A Couple Cooks"
+      }
+    ]
+  },
+  "avoid": [
+    {
+      "warning": "Washing raw chicken under running tap water: splashes Campylobacter, Salmonella, and other pathogens up to 3 feet across countertops, sinks, and utensils.",
+      "source": "USDA / FDA Poultry Safety Standards"
+    },
+    {
+      "warning": "Undercooking poultry below 165\u00b0F: raw or undercooked chicken presents significant bacterial food safety hazards; verify with a thermometer in thickest part of breast and thigh.",
+      "source": "FDA Safe Minimum Internal Temperatures"
+    },
+    {
+      "warning": "Overcooking lean chicken breast meat past 165\u00b0F: lean breast meat contains minimal fat; cooking past 165\u00b0F rapidly dries out the protein fibers, leaving meat tough and stringy.",
+      "source": "Epicurious 101 (Chicken Masterclass)"
+    },
+    {
+      "warning": "Carving chicken immediately off heat: slicing without resting causes internal juices to pool out onto the cutting board; rest whole bird 10-15 minutes and breasts 3-5 minutes.",
+      "source": "Garden in the Kitchen & Epicurious 101"
+    }
+  ]
+}

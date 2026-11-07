@@ -1,0 +1,52 @@
+{
+  "id": "tofuscramble",
+  "cuisine": "comfort",
+  "format": "plate",
+  "title": "Golden {p} Scramble with {v}",
+  "minutes": 15,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["tofu"],
+    "veg": ["greens", "tomato", "pepper", "mushroom", "onion"],
+    "spice": ["curry", "garlic", "paprika", "pepper"],
+    "sauce": ["hot", "salsa", "soy"],
+    "starch": ["bread", "tortilla", "potato"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "tofu",
+    "veg": "spinach",
+    "spice": "turmeric",
+    "sauce": "salsa",
+    "starch": "whole-grain toast"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 400,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 3,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    }
+  },
+  "steps": [
+    "Start the sides first. {starch_how} {veg_how}",
+    "Crumble in the pressed {p} with your hands. Sprinkle with the {spice}, a spoonful of nutritional yeast and a pinch of salt, and add a splash of plant milk.",
+    "Stir gently 6 to 8 minutes, until {doneness} and the moisture has cooked off into a soft scramble.",
+    "Serve with the {v}, the {s} and the {sauce}."
+  ],
+  "tip": "Add extra vegetables and keep to one slice of toast."
+}

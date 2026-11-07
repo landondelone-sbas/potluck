@@ -15,3 +15,14 @@ The dishes in the app were written from these by hand. Each batch's review sheet
 
 New files Gemini saves land in the Drive folder's root. Move them here, and they are skipped by the
 formatter either way.
+
+## Technique and cooking-notes files (second Gemini run)
+
+- `gemini_technique_<theme>.json`: sourced cooking technique for each of the 13 protein themes
+  (temperatures, doneness cues, common mistakes).
+- `gemini_cooking_notes_<theme>.json`: short notes for the same themes.
+- `gemini_batch_NN_<theme>.json`: the latest save of each theme's verified recipes (13 themes,
+  including tofu, eggs, beans and lamb).
+
+Seven cooking rules and 14 dishes came from this run: see
+[decision record 0017](../docs/decisions/0017-sourced-cooking-rules-and-batch-5.md).

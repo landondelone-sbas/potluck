@@ -1,0 +1,53 @@
+{
+  "id": "eggcasserole",
+  "cuisine": "comfort",
+  "format": "pot",
+  "title": "Cheesy Baked {p} and {v} Casserole",
+  "minutes": 45,
+  "feel": "Hearty",
+  "wants": {
+    "protein": ["egg"],
+    "veg": ["broccoli", "greens", "onion", "pepper", "mushroom", "tomato", "zucchini"],
+    "spice": ["pepper", "herbs", "garlic", "smoky", "paprika"],
+    "sauce": ["cream", "hot", "salsa"],
+    "starch": ["bread", "potato"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "eggs",
+    "veg": "broccoli",
+    "spice": "black pepper",
+    "sauce": "shredded cheese",
+    "starch": "sourdough toast"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 6,
+      "unit": "n"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 2,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 120,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    }
+  },
+  "steps": [
+    "Heat the oven to 375°F (190°C) and grease an 8-inch baking dish.",
+    "Sauté the {v} in a skillet with a little oil 4 to 5 minutes, until crisp-tender, and spread it in the dish.",
+    "Whisk the {p} with a splash of milk, the {spice} and a pinch of salt until smooth. Sprinkle the {sauce} over the vegetables, then pour the egg mixture over the top.",
+    "Bake 30 to 35 minutes, until the center is set and puffed and the casserole is {doneness}.",
+    "Cool 5 minutes, cut into squares, and serve with the {s}."
+  ],
+  "tip": "Use plenty of vegetables and a smaller square, and swap half the cheese for extra herbs."
+}

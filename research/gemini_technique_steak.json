@@ -1,0 +1,190 @@
+{
+  "ingredient": "steak",
+  "safe_temperature": {
+    "temperature": "145\u00b0F (62.8\u00b0C) with a 3-minute rest time (FDA standard)",
+    "source": {
+      "name": "SAFE MINIMUM INTERNAL TEMPERATURES as measured with a food thermometer - FDA",
+      "location": "https://www.fda.gov/media/107000/download"
+    },
+    "disagreements": "The FDA standard specifies a minimum internal temperature of 145\u00b0F with a 3-minute rest period for whole beef cuts (chops, roasts, steaks), which corresponds to medium doneness. Steakhouse and precision cooking sources across the notebook (Allen Brothers, Omaha Steaks, WebstaurantStore, Fit Foodie Finds) emphasize cooking steaks according to preferred doneness tiers: Rare at 120\u00b0F (cool-to-warm red center), Medium-Rare at 130\u00b0F\u2013134\u00b0F (warm red center, perfectly rendered intramuscular marbling), Medium at 140\u00b0F\u2013145\u00b0F (hot pink center), Medium-Well at 150\u00b0F (mostly brown center), and Well-Done at 160\u00b0F+ (firm, dry, no pink). For low-temperature precision methods (reverse sear and sous vide), steaks are removed from the initial heat 10\u00b0F to 15\u00b0F below the target temperature (e.g. 115\u00b0F\u2013120\u00b0F for medium-rare), relying on high-heat surface searing and carryover resting to reach the final internal temperature."
+  },
+  "methods": [
+    {
+      "method": "reverse-sear",
+      "cut": "thick-cut steaks (1.5 to 2 inches thick, e.g. cowboy ribeye, bone-in New York strip, thick filet mignon)",
+      "heat": "250\u00b0F (121\u00b0C) low oven roast, finished in a smoking-hot cast-iron skillet over high heat",
+      "time": "25 to 35 minutes in oven (until internal temp hits 115\u00b0F for medium-rare), followed by 45 to 90 seconds sear per side",
+      "doneness": "Target temperature after searing and resting reaches 130\u00b0F (medium-rare) or 140\u00b0F (medium); uniform edge-to-edge pink interior with a deep caramelized exterior crust",
+      "rest": "At least 5 minutes on a warm plate or board",
+      "tips": "Pat steaks completely dry and leave uncovered on a wire rack in the refrigerator for 2 to 24 hours to dehydrate the surface for maximum crust formation; cook on a wire rack set inside a sheet pan in the oven; sear in a high-smoke-point neutral oil; sear the outer fat cap edges for 30 seconds to render fat; baste with foaming butter, smashed garlic, and fresh rosemary/thyme during the final 30 seconds.",
+      "source": {
+        "name": "How To Reverse Sear A Steak: Step-by-Step Recipe - Allen Brothers & WebstaurantStore",
+        "location": "Method, Temperature Chart & Resting Meat Guide"
+      }
+    },
+    {
+      "method": "sous-vide",
+      "cut": "thick steaks (1.5 to 2 inches thick, ribeye, tenderloin filet mignon, strip)",
+      "heat": "Precision water bath at 125\u00b0F\u2013128\u00b0F (for medium-rare) or 130\u00b0F\u2013134\u00b0F (for medium); smoking-hot cast-iron skillet for finishing",
+      "time": "2 to 4 hours in water bath (40 to 60 minutes for 1-inch steaks; up to 4 hours to tenderize fibers), followed by 1 minute sear per side",
+      "doneness": "100% edge-to-edge uniform doneness with zero gray banding; deep golden-brown crust",
+      "rest": "2 to 3 minutes before slicing",
+      "tips": "Generously season both sides with coarse salt and pepper; seal in bag with 1 tablespoon of butter and a sprig of fresh herbs; remove as much air as possible; remove from bath, discard juices, and pat bone-dry with paper towels before searing for exactly 1 minute per side in smoking-hot cast iron with butter and oil.",
+      "source": {
+        "name": "Perfect Sous Vide Steak Recipe (Time & Temp Guide) - Fit Foodie Finds",
+        "location": "Sous-vide time, temperature, and cast-iron sear instructions"
+      }
+    },
+    {
+      "method": "pan-sear / skillet-to-oven",
+      "cut": "flat iron steak, tenderloin filet, top sirloin filet, strip filet (1 to 1.5 inches thick)",
+      "heat": "Medium-high heat in heavy cast-iron skillet, optional 350\u00b0F (177\u00b0C) oven finish",
+      "time": "3 to 4 minutes per side in skillet (or 2 minutes per side sear followed by 6 to 8 minutes in 350\u00b0F oven)",
+      "doneness": "Internal temperature reaches 135\u00b0F (medium-rare) or 145\u00b0F (medium)",
+      "rest": "5 minutes per inch of thickness",
+      "tips": "Heat skillet until oil shimmers; sear undisturbed for 2 to 3 minutes to build crust; spoon melted herb butter continuously over steak to baste; transfer to 350\u00b0F oven if steak is thick to finish center without scorching surface.",
+      "source": {
+        "name": "BEEF COOKERY - NDBeef",
+        "location": "Skillet-to-Oven Cookery & Flat Iron Steaks, p. 8"
+      }
+    },
+    {
+      "method": "grill",
+      "cut": "T-bone, ribeye, porterhouse, top sirloin, strip steak (1 to 1.5 inches thick)",
+      "heat": "Medium to medium-high heat on charcoal or gas grill (approx. 400\u00b0F\u2013450\u00b0F at grates)",
+      "time": "4 to 6 minutes per side for 1-inch thick steak (10 to 14 minutes total)",
+      "doneness": "130\u00b0F\u2013135\u00b0F for medium-rare; 145\u00b0F for medium",
+      "rest": "5 minutes tented loosely with foil",
+      "tips": "Trim outside fat to 1/4-inch to prevent flare-ups; preheat grill grates thoroughly; flip only once using tongs (never pierce with a fork to avoid losing juices); let meat rest so juices redistribute away from center.",
+      "source": {
+        "name": "BEEF COOKERY - NDBeef & Clover Meadows Beef",
+        "location": "Grilling Steaks Guide, p. 6"
+      }
+    },
+    {
+      "method": "broil",
+      "cut": "top sirloin, ribeye, flat iron (3/4 to 1 inch thick)",
+      "heat": "Preheated high oven broil setting (rack positioned 3 to 4 inches from heat element)",
+      "time": "3 minutes on first side, flip, and 3 minutes on second side (approx. 6 to 10 minutes total for 3/4-inch to 1-inch steak)",
+      "doneness": "145\u00b0F internal temperature (medium doneness) with 3-minute rest",
+      "rest": "3 to 5 minutes before carving",
+      "tips": "Preheat broiler for 10 minutes so oven cavity is intensely hot; place steak on a slotted broiler pan so rendering fat drips below; flip once with tongs at the halfway mark.",
+      "source": {
+        "name": "Ultimate Guide to Beef | Burgers' Smokehouse & Clover Meadows Beef",
+        "location": "How to Cook Beef - Broiling Section"
+      }
+    }
+  ],
+  "pairs_well_with": {
+    "vegetables": [
+      {
+        "name": "Saut\u00e9ed cremini, button, or portobello mushrooms",
+        "source": "BEEF COOKERY - NDBeef & Masterchef PDF - Bookey"
+      },
+      {
+        "name": "Caramelized yellow onions and shallots",
+        "source": "WebstaurantStore & Sam the Cooking Guy"
+      },
+      {
+        "name": "Grilled or roasted asparagus spears",
+        "source": "Fit Foodie Finds & Prime Women"
+      },
+      {
+        "name": "Roasted baby Yukon gold or fingerling potatoes",
+        "source": "Fit Foodie Finds & Dishing Out Health"
+      },
+      {
+        "name": "Creamed or saut\u00e9ed baby spinach",
+        "source": "Masterchef PDF - Bookey"
+      },
+      {
+        "name": "Fresh arugula and mixed greens salad",
+        "source": "Steak - Wikipedia"
+      }
+    ],
+    "starches": [
+      {
+        "name": "Baked russet potatoes with sour cream and chives",
+        "source": "Burgers' Smokehouse & NDBeef"
+      },
+      {
+        "name": "Roasted garlic mashed potatoes",
+        "source": "Masterchef PDF - Bookey & The Irishman's Wife"
+      },
+      {
+        "name": "Oven-baked potato fries / steak frites",
+        "source": "Food Network (Ellie Krieger Oven Fries)"
+      },
+      {
+        "name": "Crusty sourdough or artisan bread",
+        "source": "Sam the Cooking Guy & RecipeTin Eats"
+      },
+      {
+        "name": "Warm corn or flour tortillas (for flank / skirt steak)",
+        "source": "Clover Meadows Beef & Dishing Out Health"
+      }
+    ],
+    "spices_and_herbs": [
+      {
+        "name": "Coarse kosher salt and freshly cracked black peppercorns",
+        "source": "Allen Brothers & WebstaurantStore"
+      },
+      {
+        "name": "Fresh rosemary and fresh thyme sprigs",
+        "source": "Allen Brothers & Fit Foodie Finds"
+      },
+      {
+        "name": "Fresh garlic cloves (smashed)",
+        "source": "Allen Brothers & NDBeef"
+      },
+      {
+        "name": "Ancho chili powder and smoked paprika",
+        "source": "Masterchef PDF - Bookey (Mystery Box Steak)"
+      },
+      {
+        "name": "Fresh tarragon and flat-leaf parsley",
+        "source": "Masterchef PDF - Bookey & Fit Foodie Finds"
+      }
+    ],
+    "sauces_and_butters": [
+      {
+        "name": "Garlic-herb compound butter",
+        "source": "Allen Brothers & NDBeef"
+      },
+      {
+        "name": "Fresh chimichurri sauce (parsley, oregano, garlic, red wine vinegar, olive oil)",
+        "source": "Fit Foodie Finds"
+      },
+      {
+        "name": "Red wine and pan drippings reduction",
+        "source": "Masterchef PDF - Bookey & The Irishman's Wife"
+      },
+      {
+        "name": "Ancho chili bourbon butter",
+        "source": "Masterchef PDF - Bookey"
+      },
+      {
+        "name": "Peach-tarragon pan reduction",
+        "source": "Masterchef PDF - Bookey"
+      }
+    ]
+  },
+  "avoid": [
+    {
+      "warning": "Searing cold or wet meat: surface moisture creates a barrier of steam that prevents the Maillard reaction crust from forming; bring steak to room temperature and pat thoroughly dry.",
+      "source": "Allen Brothers & Fit Foodie Finds"
+    },
+    {
+      "warning": "Piercing meat with a carving fork while flipping: puncturing the exterior crust creates channels that drain flavorful juices into the fire or pan.",
+      "source": "BEEF COOKERY - NDBeef (Grilling Tips)"
+    },
+    {
+      "warning": "Cutting into steak immediately without resting: heated muscle fibers push internal juices to the center; cutting without a 5-minute rest causes juices to spill out onto the board, leaving meat dry.",
+      "source": "WebstaurantStore (Resting Meat: Why You Should and for How Long)"
+    },
+    {
+      "warning": "Failing to account for carryover cooking: meat continues cooking after removal from heat; remove steaks 5\u00b0F to 10\u00b0F below desired final doneness.",
+      "source": "WebstaurantStore & Allen Brothers"
+    }
+  ]
+}

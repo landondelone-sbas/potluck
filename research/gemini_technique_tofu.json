@@ -1,0 +1,177 @@
+{
+  "ingredient": "tofu",
+  "safe_temperature": {
+    "temperature": "No minimum internal cook temperature required for consumption; pasteurized commercial tofu can be eaten cold/raw (e.g. silken tofu), or heated to 165°F (73.9°C) if reheating prepared dishes/leftovers",
+    "source": {
+      "name": "Every Grain of Rice - Fuchsia Dunlop & FDA Food Safety Guidelines",
+      "location": "Silken Tofu Cold Preparation & Ready-to-Eat Plant Proteins"
+    },
+    "disagreements": null
+  },
+  "methods": [
+    {
+      "method": "pan-sear / pan-fry",
+      "cut": "cubes, slabs, or strips (extra-firm or firm tofu)",
+      "heat": "Medium-high heat in a well-oiled skillet (cast-iron or nonstick)",
+      "time": "4 to 6 minutes per side (approx. 10 to 12 minutes total)",
+      "doneness": "Deep golden-brown crust formed on all sides, exterior crisp, interior firm yet tender",
+      "rest": "Drain 1 to 2 minutes on paper towels before tossing with glaze or sauce",
+      "tips": "Press tofu between paper towels with a heavy plate for 15-20 minutes before cooking to remove surface moisture; light dusting with cornstarch produces the crispiest shatter-resistant crust.",
+      "source": {
+        "name": "The Kitchn Crispy Tofu Technique Guide & Food Network",
+        "location": "Skill Testing Feature: 10 Crispy Tofu Methods"
+      }
+    },
+    {
+      "method": "air-fry",
+      "cut": "1-inch cubes or strips (pressed extra-firm tofu)",
+      "heat": "390°F to 400°F (200°C)",
+      "time": "12 to 15 minutes, shaking the basket halfway through",
+      "doneness": "Puffed, deeply golden, and crisp on all exterior edges",
+      "rest": "Serve immediately while crisp",
+      "tips": "Toss pressed cubes with a teaspoon of neutral oil and a pinch of salt/cornstarch in a single uncrowded layer; overcrowding traps steam and prevents crisping.",
+      "source": {
+        "name": "The Complete Veggie Air Fryer Cookbook",
+        "location": "Vibrant Tofu Larb & Crispy Tofu Sections"
+      }
+    },
+    {
+      "method": "scramble",
+      "cut": "crumbled (extra-firm or firm tofu)",
+      "heat": "Medium heat skillet with olive oil or vegan butter",
+      "time": "6 to 8 minutes",
+      "doneness": "Excess water fully cooked off, curds lightly golden and tender, resembling scrambled eggs",
+      "rest": "None; serve hot",
+      "tips": "Crumble tofu by hand into rustic curds; add a pinch of turmeric for classic egg-like yellow color and nutritional yeast or black salt for savory depth.",
+      "source": {
+        "name": "Frugal Vegan (Katie Koteen and Kate Kasbee)",
+        "location": "Tofu Scrambled Eggs Recipe"
+      }
+    },
+    {
+      "method": "cold / no-cook dressing",
+      "cut": "block or thick slices (silken or soft tofu)",
+      "heat": "None (unheated / chilled or room temperature)",
+      "time": "Immediate (no cooking time)",
+      "doneness": "Silky, delicate, custardy texture",
+      "rest": "Drain whey from container for 5 minutes before dressing",
+      "tips": "Invert block gently onto a serving plate to prevent cracking, score into bite-sized squares without cutting through the base, and spoon seasoned soy dressing over top.",
+      "source": {
+        "name": "Every Grain of Rice - Fuchsia Dunlop",
+        "location": "Xiao Cong Ban Dou Fu (Silken Tofu with Scallions and Soy Sauce)"
+      }
+    }
+  ],
+  "pairs_well_with": {
+    "vegetables": [
+      {
+        "name": "Scallions / spring onions",
+        "source": "Every Grain of Rice - Fuchsia Dunlop"
+      },
+      {
+        "name": "Bibb / butter lettuce leaves",
+        "source": "Food Network (Ellie Krieger - Lettuce Cups)"
+      },
+      {
+        "name": "Fresh green beans",
+        "source": "The Nutrition Source (Harvard T.H. Chan)"
+      },
+      {
+        "name": "Shiitake or button mushrooms",
+        "source": "Masterchef PDF - Bookey (Veggie Burger)"
+      },
+      {
+        "name": "Thai or Asian basil",
+        "source": "Wenthere8this Culinary Trends (Spicy Lemongrass Tofu)"
+      },
+      {
+        "name": "Eggplant (roasted or steamed)",
+        "source": "The Kitchn & Cooks Without Borders"
+      },
+      {
+        "name": "Shallots and fresh mint/cilantro",
+        "source": "The Complete Veggie Air Fryer Cookbook (Larb)"
+      }
+    ],
+    "starches": [
+      {
+        "name": "Steamed jasmine or long-grain white rice",
+        "source": "Every Grain of Rice - Fuchsia Dunlop"
+      },
+      {
+        "name": "Rice vermicelli or Asian noodles",
+        "source": "Frugal Vegan & Wenthere8this"
+      },
+      {
+        "name": "Whole-wheat burger buns",
+        "source": "Masterchef PDF - Bookey"
+      },
+      {
+        "name": "Toasted sticky rice powder (khao khua)",
+        "source": "The Complete Veggie Air Fryer Cookbook (Larb)"
+      }
+    ],
+    "spices_and_herbs": [
+      {
+        "name": "Fresh lemongrass (minced)",
+        "source": "Wenthere8this (Spicy Lemongrass Tofu)"
+      },
+      {
+        "name": "Minced fresh ginger and garlic",
+        "source": "Every Grain of Rice - Fuchsia Dunlop"
+      },
+      {
+        "name": "Turmeric powder",
+        "source": "Frugal Vegan (Tofu Scramble)"
+      },
+      {
+        "name": "Crushed red pepper / chili flakes",
+        "source": "Food Network & Wenthere8this"
+      },
+      {
+        "name": "Ground black pepper",
+        "source": "HFSA Heart Healthy Guide"
+      }
+    ],
+    "sauces_and_dressings": [
+      {
+        "name": "Light and dark soy sauce",
+        "source": "Every Grain of Rice - Fuchsia Dunlop"
+      },
+      {
+        "name": "Toasted sesame oil",
+        "source": "Every Grain of Rice & Food Network"
+      },
+      {
+        "name": "Hoisin sauce",
+        "source": "Food Network (Lettuce Cups with Tofu and Beef)"
+      },
+      {
+        "name": "Chili-garlic sauce / sriracha",
+        "source": "Food Network (Ellie Krieger)"
+      },
+      {
+        "name": "Fresh lime juice",
+        "source": "The Complete Veggie Air Fryer Cookbook (Larb)"
+      },
+      {
+        "name": "Crushed toasted peanuts",
+        "source": "The Nutrition Source (Harvard)"
+      }
+    ]
+  },
+  "avoid": [
+    {
+      "warning": "Failing to press water out of firm tofu before searing or air-frying: excess internal water turns into steam, preventing the formation of a crisp exterior and diluting seasoning.",
+      "source": "The Kitchn Crispy Tofu Technique Guide"
+    },
+    {
+      "warning": "Rough handling or vigorous stirring of silken tofu, which fractures the delicate custard structure into watery mush.",
+      "source": "Every Grain of Rice - Fuchsia Dunlop"
+    },
+    {
+      "warning": "Leaving opened or cut tofu unrefrigerated; tofu must be kept in fresh water in the refrigerator and consumed within 3 to 5 days.",
+      "source": "FDA Food Safety Guidelines"
+    }
+  ]
+}

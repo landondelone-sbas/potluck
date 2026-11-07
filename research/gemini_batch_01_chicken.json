@@ -1,259 +1,912 @@
-{
-  "theme": "chicken",
-  "count": 2,
-  "skipped_note": "Excluded or unsupported chicken recipes from notebook sources: Bengali Chicken Curry (Boston.gov p. 8, excluded by blacklist rule against curries); Chicken Lo Mein (Boston.gov p. 25, excluded by blacklist rule against stir-fries); Air Fryer Crispy (Un) Fried Chicken (HFSA p. 22/24, excluded by blacklist rule against air fryer chicken); How to Roast a Whole Chicken (Garden in the Kitchen, excluded by blacklist rule against roast chicken and lacking starch/sauce components); Baked Chicken Thighs (Crispy and Juicy!) (Downshiftology, excluded by blacklist rule against pan-seared/roast chicken and lacking starch/veg/sauce components); Lighter Chicken Pot Pie (Food Network 45 Healthy Comfort, notebook source contains only a summary blurb and link without full ingredients or directions); Buttermilk Fried Chicken with Creamed Kale (Masterchef PDF - Bookey, summary blurb only without measurements or full recipe instructions); Roast Chicken with Red Pepper Grits (Masterchef PDF - Bookey, summary blurb only and excluded by blacklist rule against roast chicken).",
-  "recipes": [
-    {
-      "id": "chicken_001",
-      "title": "Aunt Elizabeth's Chicken Paprikash",
-      "cuisine": "comfort",
-      "format": "plate",
-      "source": {
-        "name": "ENGLISH - Boston.gov",
-        "location": "Page 21"
-      },
-      "servings": 4,
-      "prep_minutes": 15,
-      "cook_minutes": 15,
-      "ingredients": [
-        {
-          "quantity": "1",
-          "unit": "lb",
-          "name": "boneless chicken breasts",
-          "role": "protein",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "whole",
-          "name": "bell pepper (green or red)",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "whole",
-          "name": "yellow onion",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "16",
-          "unit": "oz",
-          "name": "noodles",
-          "role": "starch",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "tbsp",
-          "name": "paprika",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "0.5",
-          "unit": "tsp",
-          "name": "black pepper",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "cup",
-          "name": "sour cream",
-          "role": "sauce",
-          "optional": false
-        },
-        {
-          "quantity": "0.5",
-          "unit": "cup",
-          "name": "white wine",
-          "role": "sauce",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "tbsp",
-          "name": "lemon juice",
-          "role": "sauce",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "tsp",
-          "name": "tomato paste",
-          "role": "sauce",
-          "optional": false
-        },
-        {
-          "quantity": "6",
-          "unit": "tbsp",
-          "name": "butter",
-          "role": "staple",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "tbsp",
-          "name": "olive oil",
-          "role": "staple",
-          "optional": false
-        }
-      ],
-      "steps": [
-        "Cut the chicken breasts, onion, and bell pepper into bite-sized pieces.",
-        "In a large skillet, melt the butter together with the olive oil over medium-high heat until the mixture foams.",
-        "Add the chicken, onion, and bell pepper to the skillet and sauté for about 5 minutes until the chicken is thoroughly cooked.",
-        "Sprinkle in the paprika and black pepper, stirring continuously for 1 minute.",
-        "Pour in the white wine (or chicken broth), lemon juice, and tomato paste; bring to a gentle boil and simmer uncovered for 5 minutes.",
-        "Lower the heat to low, stir in the sour cream, and simmer gently for 3 minutes without boiling.",
-        "Serve warm spooned generously over separately cooked noodles."
-      ],
-      "source_temperatures": [],
-      "swaps": "Margarine can replace butter; chicken broth can replace white wine; tomato sauce can replace tomato paste; green or red bell pepper can be used.",
-      "notes": "Cook noodles separately in boiling water according to package directions before plating."
+[
+  {
+    "id": "chicken_001_perfect_roast_chicken",
+    "title": "Perfect Whole Roast Chicken",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "How To Roast a Whole Chicken - Garden in the Kitchen",
+      "location": "Instructions & Recipe Card"
     },
-    {
-      "id": "chicken_002",
-      "title": "Healthy Chicken Broccoli Quinoa",
-      "cuisine": "med",
-      "format": "pot",
-      "source": {
-        "name": "Heart Healthy Recipe Guide - HFSA",
-        "location": "Page 23"
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "whole (4 to 5 lbs)",
+        "name": "whole roasting chicken, giblets removed",
+        "role": "protein",
+        "optional": false
       },
-      "servings": 4,
-      "prep_minutes": 15,
-      "cook_minutes": 25,
-      "ingredients": [
-        {
-          "quantity": "1",
-          "unit": "lb",
-          "name": "boneless, skinless chicken breasts",
-          "role": "protein",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "cups",
-          "name": "broccoli florets",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "whole",
-          "name": "yellow onion",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "stalks",
-          "name": "celery",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "cloves",
-          "name": "garlic",
-          "role": "veg",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "cup",
-          "name": "uncooked quinoa",
-          "role": "starch",
-          "optional": false
-        },
-        {
-          "quantity": "0.5",
-          "unit": "tsp",
-          "name": "dried thyme",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "0.5",
-          "unit": "tsp",
-          "name": "dried rosemary",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "0.5",
-          "unit": "tsp",
-          "name": "crushed red pepper flakes",
-          "role": "spice",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "cups",
-          "name": "chicken broth",
-          "role": "sauce",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "tbsp",
-          "name": "lemon juice",
-          "role": "sauce",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "tbsp",
-          "name": "olive oil",
-          "role": "staple",
-          "optional": false
-        },
-        {
-          "quantity": "2",
-          "unit": "tbsp",
-          "name": "butter",
-          "role": "staple",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "pinch",
-          "name": "salt",
-          "role": "staple",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "pinch",
-          "name": "black pepper",
-          "role": "staple",
-          "optional": false
-        },
-        {
-          "quantity": "1",
-          "unit": "tbsp",
-          "name": "fresh parsley",
-          "role": "other",
-          "optional": true
-        }
-      ],
-      "steps": [
-        "Dice the chicken breasts into 1-inch cubes and season liberally with salt and pepper.",
-        "In a large skillet or pot with a tight-fitting lid, heat the olive oil and 1 tablespoon of butter over medium heat.",
-        "Add the seasoned chicken pieces and cook for about 5 minutes until cooked through, then transfer to a plate and set aside.",
-        "Melt the remaining tablespoon of butter in the same pan, then add the diced onion and celery, cooking for 3 to 4 minutes until softened.",
-        "Stir in the minced garlic, dried thyme, dried rosemary, and crushed red pepper flakes, cooking for 1 minute until fragrant.",
-        "Add the uncooked quinoa and chicken broth, turn the heat to high, and bring the liquid to a boil.",
-        "Lower the heat to low, cover tightly with the lid, and simmer for about 15 minutes until most of the broth is absorbed by the quinoa.",
-        "Place the broccoli florets on top of the quinoa and return the cooked chicken to the skillet, then cover and cook for another 5 minutes until the broccoli is tender and the liquid is fully absorbed.",
-        "Stir in the lemon juice, sprinkle with fresh parsley, and serve warm directly from the skillet."
-      ],
-      "source_temperatures": [],
-      "swaps": "",
-      "notes": "Cooked in a single large skillet or pot with a tight-fitting lid."
-    }
-  ]
-}
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "butter, softened",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "lemon, halved",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "head",
+        "name": "garlic, sliced horizontally",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "4",
+        "unit": "sprigs",
+        "name": "fresh rosemary and thyme",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "smoked paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "coarse kosher salt and black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 425\u00b0F (218\u00b0C). Pat chicken completely dry inside and out with paper towels.",
+      "Season the cavity with salt and pepper; stuff cavity with lemon halves, halved garlic head, and fresh rosemary/thyme sprigs.",
+      "Gently separate skin from breast meat with fingers and rub half the softened butter directly under the skin.",
+      "Rub remaining butter and olive oil all over the outside skin; season liberally with smoked paprika, salt, and pepper.",
+      "Place chicken breast-side up on a rack in a roasting pan (or over a bed of onions and potatoes).",
+      "Roast for 1 hour 15 minutes to 1 hour 25 minutes until an instant-read thermometer reads 165\u00b0F in the thickest part of the breast and innermost thigh, and juices run clear.",
+      "Transfer chicken to a carving board and rest loosely tented with foil for 15 minutes before carving."
+    ],
+    "source_temperatures": [
+      {
+        "event": "oven roast",
+        "temp": "425\u00b0F (218\u00b0C)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "165\u00b0F (73.9\u00b0C)"
+      }
+    ],
+    "swaps": "Can roast over chopped carrots and baby potatoes for a full sheet pan meal; garlic powder can replace fresh.",
+    "notes": "Drying skin thoroughly and rubbing butter under the skin guarantees crispy crackling skin and succulent meat."
+  },
+  {
+    "id": "chicken_002_crispy_baked_thighs",
+    "title": "Crispy Baked Chicken Thighs",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "Baked Chicken Thighs (Crispy and Juicy!) | Downshiftology",
+      "location": "Recipe Instructions"
+    },
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "6",
+        "unit": "thighs (approx. 2 lbs)",
+        "name": "bone-in, skin-on chicken thighs",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "garlic powder and onion powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "smoked paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "dried oregano and dried thyme",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "kosher salt and black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 400\u00b0F (205\u00b0C) and line a rimmed baking sheet with parchment paper.",
+      "Pat chicken thighs completely dry with paper towels on both sides.",
+      "Rub thighs with olive oil.",
+      "In a small dish, mix garlic powder, onion powder, smoked paprika, oregano, thyme, salt, and pepper into a spice rub.",
+      "Season chicken thighs generously on all sides with the spice rub.",
+      "Place thighs skin-side up on the baking sheet with space between them.",
+      "Bake for 35 to 40 minutes until skin is deeply golden and crispy, and internal temperature reads 175\u00b0F to 180\u00b0F.",
+      "Rest for 5 minutes before serving."
+    ],
+    "source_temperatures": [
+      {
+        "event": "oven bake",
+        "temp": "400\u00b0F (205\u00b0C)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "175\u00b0F\u2013180\u00b0F (optimal dark meat tenderness)"
+      }
+    ],
+    "swaps": "Can use bone-in drumsticks; Italian seasoning can substitute for oregano/thyme.",
+    "notes": "Cooking thighs to 175\u00b0F\u2013180\u00b0F melts connective tissue and renders fat, yielding shatter-crisp skin."
+  },
+  {
+    "id": "chicken_003_air_fryer_crispy_chicken",
+    "title": "Air Fryer Crispy (Un)Fried Chicken",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "Heart Healthy Recipe Guide - HFSA",
+      "location": "Entr\u00e9es Section, Page 22"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "boneless, skinless chicken breasts, sliced into tenders",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "cup",
+        "name": "whole-wheat panko breadcrumbs",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "egg, beaten (or 1/4 cup buttermilk)",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "paprika and garlic powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "onion powder and dried thyme",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "spray",
+        "name": "olive oil cooking spray",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "In a shallow bowl, whisk egg with 1 tablespoon water. In a second bowl, combine panko, paprika, garlic powder, onion powder, thyme, salt, and pepper.",
+      "Dip each chicken tender first into egg wash, then press into seasoned panko until thoroughly coated.",
+      "Preheat air fryer to 390\u00b0F (200\u00b0C) for 3 minutes. Lightly spray basket with oil.",
+      "Arrange chicken tenders in a single uncrowded layer in the basket. Spray tops lightly with cooking spray.",
+      "Air-fry for 12 to 14 minutes, flipping halfway through, until coating is deeply golden and chicken reaches 165\u00b0F internal temperature.",
+      "Serve hot with favorite dipping sauce."
+    ],
+    "source_temperatures": [
+      {
+        "event": "air fryer",
+        "temp": "390\u00b0F (200\u00b0C)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "165\u00b0F (73.9\u00b0C)"
+      }
+    ],
+    "swaps": "Can use chicken cutlets or bone-in pieces (increase cooking time to 20-22 minutes for bone-in).",
+    "notes": "Delivers the crunch and satisfaction of fried chicken with minimal oil and fat."
+  },
+  {
+    "id": "chicken_004_grilled_lemon_rosemary",
+    "title": "Grilled Lemon Rosemary Chicken Breast",
+    "cuisine": "med",
+    "format": "plate",
+    "source": {
+      "name": "Heart Healthy Recipe Guide - HFSA",
+      "location": "Poultry Entr\u00e9es Section, Page 26"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 12,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "breasts (6 oz each)",
+        "name": "boneless, skinless chicken breasts",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "extra-virgin olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "fresh lemon juice and zest",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "fresh rosemary, finely chopped",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "kosher salt and black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Place chicken breasts between plastic wrap and gently pound thickest ends with a meat mallet to a uniform 3/4-inch thickness.",
+      "In a shallow dish, whisk together olive oil, lemon juice, lemon zest, minced garlic, chopped rosemary, salt, and pepper.",
+      "Add chicken breasts, turning to coat; marinate in refrigerator for 15 to 30 minutes.",
+      "Preheat grill or grill pan to medium-high heat (approx. 400\u00b0F). Lightly oil grates.",
+      "Remove chicken from marinade, discarding excess liquid. Grill chicken for 5 to 6 minutes on the first side.",
+      "Flip chicken and grill for another 4 to 5 minutes until internal temperature reaches exactly 165\u00b0F and clear juices run.",
+      "Transfer to a plate, tent loosely with foil, and rest for 5 minutes before slicing."
+    ],
+    "source_temperatures": [
+      {
+        "event": "grill heat",
+        "temp": "medium-high heat (400\u00b0F)"
+      },
+      {
+        "event": "doneness target",
+        "temp": "165\u00b0F (73.9\u00b0C)"
+      }
+    ],
+    "swaps": "Can use boneless chicken thighs (grill 6-7 minutes per side); fresh oregano can replace rosemary.",
+    "notes": "Pounding breasts to an even thickness ensures uniform cooking without drying out the edges."
+  },
+  {
+    "id": "chicken_005_savory_chicken_lo_mein",
+    "title": "Savory Chicken Lo Mein with Vegetables",
+    "cuisine": "asian",
+    "format": "pot",
+    "source": {
+      "name": "ENGLISH - Boston.gov",
+      "location": "Boston Eats Community Recipes - Chicken Lo Mein, Page 35"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "lb",
+        "name": "boneless chicken breast, sliced into thin strips",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "8",
+        "unit": "oz",
+        "name": "lo mein egg noodles or spaghetti",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "toasted sesame oil or vegetable oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cups",
+        "name": "broccoli florets and shredded carrots",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "red bell pepper, thinly sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "fresh ginger, grated",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "tbsp",
+        "name": "low-sodium soy sauce",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "oyster sauce or hoisin sauce",
+        "role": "sauce",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Cook noodles in boiling water according to package directions until tender; drain and rinse with cold water.",
+      "Heat 1 tablespoon oil in a large wok or skillet over high heat. Add sliced chicken strips and stir-fry for 4 to 5 minutes until cooked through (165\u00b0F); remove to a plate.",
+      "Add remaining oil to wok with minced garlic and ginger, stir-frying for 30 seconds until fragrant.",
+      "Toss in broccoli florets, bell pepper, and shredded carrots, stir-frying for 3 minutes until crisp-tender.",
+      "Whisk together soy sauce and oyster sauce in a small bowl.",
+      "Add cooked noodles, cooked chicken, and sauce to wok, tossing vigorously over high heat for 2 minutes until hot and evenly glazed."
+    ],
+    "source_temperatures": [
+      {
+        "event": "wok stir-fry",
+        "temp": "high heat"
+      }
+    ],
+    "swaps": "Can use chicken thighs; snap peas, cabbage, or mushrooms can replace broccoli.",
+    "notes": "Fast 25-minute weeknight dinner combining lean protein, colorful vegetables, and tender noodles."
+  },
+  {
+    "id": "chicken_006_creamy_tuscan_garlic_chicken",
+    "title": "Creamy Tuscan Garlic Chicken",
+    "cuisine": "italian",
+    "format": "pot",
+    "source": {
+      "name": "50 Side Dishes for Chicken - A Couple Cooks",
+      "location": "Featured Chicken Mains"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 18,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "cutlets (approx. 1.25 lbs)",
+        "name": "boneless, skinless chicken breast cutlets",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil and 1 tbsp butter",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "4",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "cup",
+        "name": "sun-dried tomatoes in oil, drained and chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "cups",
+        "name": "fresh baby spinach",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "cup",
+        "name": "low-sodium chicken broth",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "cup",
+        "name": "heavy cream (or coconut cream)",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "grated parmesan cheese",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "Italian seasoning",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Season chicken cutlets on both sides with Italian seasoning, salt, and pepper.",
+      "Heat olive oil and butter in a large skillet over medium-high heat. Sear chicken for 4 to 5 minutes per side until golden brown and cooked through (165\u00b0F); transfer to a plate.",
+      "Reduce heat to medium. Add minced garlic and sun-dried tomatoes to pan drippings, cooking for 1 minute.",
+      "Pour in chicken broth and heavy cream, bringing to a simmer for 2 minutes.",
+      "Add fresh spinach and parmesan cheese, stirring until spinach wilts into the creamy sauce.",
+      "Return chicken cutlets to skillet, spooning warm sauce over top, and simmer for 2 minutes before serving."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "simmer",
+        "temp": "medium-low heat"
+      }
+    ],
+    "swaps": "Can serve over penne pasta, rice, or mashed potatoes; chicken tenders can replace cutlets.",
+    "notes": "One-skillet Italian bistro favorite that combines savory pan-seared chicken with creamy garlic sauce."
+  },
+  {
+    "id": "chicken_007_cast_iron_seared_breast",
+    "title": "Restaurant-Quality Cast-Iron Seared Chicken Breast",
+    "cuisine": "comfort",
+    "format": "plate",
+    "source": {
+      "name": "The Best Chicken Breast You'll Ever Make | Epicurious 101",
+      "location": "Video Masterclass & Guide"
+    },
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "breasts (8 oz each)",
+        "name": "boneless, skinless chicken breasts",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "high-heat neutral oil (avocado or light olive oil)",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "unsalted butter",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cloves",
+        "name": "garlic, smashed",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "sprigs",
+        "name": "fresh thyme",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "tsp",
+        "name": "kosher salt and cracked black pepper",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Pound chicken breasts gently between parchment paper to a uniform 3/4-inch thickness. Pat completely dry with paper towels.",
+      "Season generously on both sides with kosher salt and black pepper.",
+      "Heat oil in a heavy cast-iron skillet over medium-high heat until shimmering.",
+      "Add chicken breasts and sear undisturbed for 4 to 5 minutes until a deep golden-brown crust forms.",
+      "Flip breasts. Add butter, smashed garlic, and fresh thyme sprigs to the skillet.",
+      "Tilt pan and continuously spoon foaming herb butter over the breasts for 3 to 4 minutes until internal temperature reaches exactly 165\u00b0F.",
+      "Transfer chicken to a warm cutting board and rest for 3 to 5 minutes before slicing against the grain."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "doneness target",
+        "temp": "165\u00b0F (73.9\u00b0C)"
+      }
+    ],
+    "swaps": "Can use rosemary instead of thyme; lemon slices can be added to the foaming butter.",
+    "notes": "Pounding to uniform thickness and continuous butter-basting guarantees juicy chicken breasts every time."
+  },
+  {
+    "id": "chicken_008_moroccan_braised_chickpea_stew",
+    "title": "Moroccan Braised Chicken Stew with Chickpeas",
+    "cuisine": "med",
+    "format": "pot",
+    "source": {
+      "name": "Recipes - The Nutrition Source | Harvard T.H. Chan School of Public Health",
+      "location": "Healthy Poultry Section"
+    },
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "lbs",
+        "name": "bone-in chicken thighs or drumsticks, skin removed",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "large yellow onion, chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "fresh ginger, grated",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tsp",
+        "name": "ground cumin, coriander, and cinnamon",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "can (15 oz)",
+        "name": "chickpeas (garbanzo beans), rinsed and drained",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "can (14.5 oz)",
+        "name": "diced tomatoes with juices",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1.5",
+        "unit": "cups",
+        "name": "low-sodium chicken broth",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cups",
+        "name": "cooked couscous or brown rice",
+        "role": "starch",
+        "optional": false
+      },
+      {
+        "quantity": "0.25",
+        "unit": "cup",
+        "name": "fresh cilantro, chopped",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Heat olive oil in a Dutch oven over medium-high heat. Brown chicken thighs on both sides for 5 minutes; transfer to a plate.",
+      "Add chopped onion, garlic, and grated ginger to pot, cooking for 3 minutes until softened.",
+      "Stir in cumin, coriander, cinnamon, salt, and pepper, toasting spices for 1 minute.",
+      "Add diced tomatoes, chicken broth, and drained chickpeas, stirring to combine.",
+      "Return chicken to pot, bringing liquid to a simmer. Cover, reduce heat to low, and braise for 30 minutes until chicken is tender and reaches 175\u00b0F.",
+      "Stir in fresh cilantro and ladle over warm couscous or brown rice."
+    ],
+    "source_temperatures": [
+      {
+        "event": "Dutch oven simmer",
+        "temp": "medium-low heat (gentle simmer)"
+      }
+    ],
+    "swaps": "Can add dried apricots or raisins for traditional Moroccan sweetness; butternut squash cubes can be added.",
+    "notes": "Aromatic tagine-style chicken stew packed with fiber-rich chickpeas and warm Mediterranean spices."
+  },
+  {
+    "id": "chicken_009_roman_style_chicken",
+    "title": "Roman-Style Chicken with Peppers and Prosciutto",
+    "cuisine": "italian",
+    "format": "pot",
+    "source": {
+      "name": "Our 50 Most-Popular Healthy Recipes - Food Network",
+      "location": "Giada De Laurentiis - Roman-Style Chicken, #41"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "1.5",
+        "unit": "lbs",
+        "name": "boneless, skinless chicken breasts or thighs, cut into bite-sized pieces",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "oz",
+        "name": "prosciutto, chopped",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "whole",
+        "name": "bell peppers (red and yellow), thinly sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "whole",
+        "name": "yellow onion, sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "cup",
+        "name": "dry white wine",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "can (14.5 oz)",
+        "name": "crushed tomatoes",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "cup",
+        "name": "chicken broth",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "fresh oregano and capers",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Heat 1 tablespoon oil in a large skillet over medium-high heat. Season chicken with salt and pepper; cook for 5 minutes until browned, then remove to a plate.",
+      "Add remaining oil to pan. Saut\u00e9 chopped prosciutto, sliced bell peppers, and onion for 5 minutes until tender.",
+      "Add minced garlic and cook for 1 minute.",
+      "Pour in white wine, scraping up browned bits, and simmer for 2 minutes until reduced by half.",
+      "Stir in crushed tomatoes, chicken broth, capers, and oregano.",
+      "Return chicken to skillet, reduce heat to low, cover, and simmer for 20 minutes until chicken is tender and cooked through (165\u00b0F).",
+      "Serve warm with crusty bread or over pasta."
+    ],
+    "source_temperatures": [
+      {
+        "event": "skillet sear",
+        "temp": "medium-high heat"
+      },
+      {
+        "event": "simmer",
+        "temp": "low heat (covered)"
+      }
+    ],
+    "swaps": "Can omit prosciutto or use bacon; serve over polenta instead of crusty bread.",
+    "notes": "Saucy, flavorful Italian comfort dish that reheats beautifully for leftovers."
+  },
+  {
+    "id": "chicken_010_chicken_paprikash",
+    "title": "Aunt Elizabeth's Chicken Paprikash",
+    "cuisine": "comfort",
+    "format": "pot",
+    "source": {
+      "name": "Cooks Without Borders & Frugal Vegan",
+      "location": "Central European Comfort Classics"
+    },
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "lbs",
+        "name": "chicken thighs and drumsticks, skin-on",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "tbsp",
+        "name": "butter or lard",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "whole",
+        "name": "large yellow onions, finely diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "3",
+        "unit": "tbsp",
+        "name": "sweet Hungarian paprika",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": "2",
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "cup",
+        "name": "chicken broth",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "0.5",
+        "unit": "cup",
+        "name": "sour cream (room temperature)",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": "1",
+        "unit": "tbsp",
+        "name": "all-purpose flour",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": "12",
+        "unit": "oz",
+        "name": "wide egg noodles (for serving)",
+        "role": "starch",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Melt butter in a heavy Dutch oven over medium heat. Brown chicken pieces for 4 to 5 minutes per side, then remove to a plate.",
+      "Add diced onions to the pot, cooking slowly over medium-low heat for 10 minutes until soft, sweet, and golden.",
+      "Remove pot from heat and stir in sweet Hungarian paprika and garlic (removing from heat prevents paprika from scorching and turning bitter).",
+      "Return pot to heat, pour in chicken broth, and return chicken pieces to the pot.",
+      "Cover and simmer gently over low heat for 30 minutes until chicken is tender and registers 175\u00b0F.",
+      "In a small bowl, whisk sour cream with flour and 2 tablespoons of warm cooking liquid.",
+      "Stir sour cream mixture into simmering sauce, cooking for 2 minutes until sauce is smooth and velvety.",
+      "Serve hot ladled over generous bowls of buttered egg noodles."
+    ],
+    "source_temperatures": [
+      {
+        "event": "Dutch oven browning",
+        "temp": "medium heat"
+      },
+      {
+        "event": "simmer",
+        "temp": "low heat (covered)"
+      }
+    ],
+    "swaps": "Can use Greek yogurt instead of sour cream; nokedli (dumplings) or mashed potatoes can replace egg noodles.",
+    "notes": "Authentic paprikash relies on slow-caramelized onions and authentic Hungarian paprika; never burn the paprika."
+  }
+]

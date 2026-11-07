@@ -1,0 +1,54 @@
+{
+  "id": "lambroast",
+  "cuisine": "comfort",
+  "format": "plate",
+  "title": "Rosemary Roast {p} with {v}",
+  "minutes": 105,
+  "feel": "Rich",
+  "wants": {
+    "protein": ["lamb"],
+    "veg": ["greenbeans", "carrot", "asparagus", "broccoli", "onion"],
+    "spice": ["herbs", "garlic", "pepper"],
+    "sauce": ["gravy"],
+    "starch": ["potato", "sweetpotato"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "leg of lamb",
+    "veg": "green beans",
+    "spice": "rosemary",
+    "sauce": "beef broth",
+    "starch": "potatoes"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 900,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 240,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 450,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Heat the oven to 400°F (204°C). Cut deep slits all over the {p} and push in slivers of garlic and small clusters of the {spice}. Rub with oil, salt and pepper.",
+    "Set the {p} on a rack in a roasting pan.",
+    "Roast 15 minutes, then turn the oven down to 350°F (177°C) and roast about 1 hour more, until the thickest part is {doneness}. Check with a thermometer.",
+    "About 45 minutes before the lamb is done, start the sides. {starch_how} {veg_how}",
+    "Rest the {p} 15 to 20 minutes under foil.",
+    "Whisk 2 tablespoons of flour into the pan drippings over medium heat for a minute, pour in the {sauce}, scrape up the browned bits and simmer 3 to 4 minutes, until thick. Carve across the grain and serve with the {s}, the {v} and the gravy."
+  ],
+  "tip": "Carve thin, take a small portion, and let the vegetables fill half the plate."
+}

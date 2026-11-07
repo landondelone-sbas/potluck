@@ -1,0 +1,52 @@
+{
+  "id": "chickpeasoup",
+  "cuisine": "med",
+  "format": "pot",
+  "title": "Tuscan {p} and {v} Soup",
+  "minutes": 35,
+  "feel": "Light",
+  "wants": {
+    "protein": ["beans"],
+    "veg": ["carrot", "onion", "celery", "tomato", "greens"],
+    "spice": ["herbs", "garlic", "pepper", "chili"],
+    "sauce": ["gravy", "vinaigrette", "tomato"],
+    "starch": ["bread", "pasta", "rice"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "chickpeas",
+    "veg": "carrots",
+    "spice": "rosemary",
+    "sauce": "vegetable broth",
+    "starch": "crusty bread"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 240,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 480,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 80,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Sauté the {v} in a large pot with a little olive oil over medium heat for 5 minutes, until starting to soften.",
+    "Stir in the {spice} for a minute, until fragrant.",
+    "Add the {p} (canned beans only need draining and rinsing; dried beans need soaking and boiling first), a can of diced tomatoes and the {sauce}. Bring to a boil, then simmer partly covered 20 minutes, until the vegetables are tender.",
+    "Stir in a splash of balsamic vinegar, ladle into bowls, and serve with the {s}."
+  ],
+  "tip": "Skip the bread and add a handful of spinach for a lighter bowl."
+}

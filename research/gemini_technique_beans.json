@@ -1,0 +1,175 @@
+{
+  "theme": "beans",
+  "safe_temperature": {
+    "temperature": "165\u00b0F for cooked bean dishes, casseroles, and leftovers (FDA standard); canned beans are pre-cooked and ready-to-eat",
+    "source": {
+      "name": "SAFE MINIMUM INTERNAL TEMPERATURES as measured with a food thermometer - FDA",
+      "location": "https://www.fda.gov/media/107000/download"
+    },
+    "disagreements": "The FDA standard mandates 165\u00b0F for reheated leftovers and casseroles containing beans. However, canned beans (cannellini, navy, black, pinto, chickpeas) are commercially sterile and safe to consume unheated or at room temperature (such as in salads). In culinary stovetop cooking, beans require gentle simmering (185\u00b0F\u2013205\u00b0F) for 20 to 35 minutes in soups and chilis, or up to 60 minutes in hearty stews, to absorb aromatics and develop creamy starch textures without bursting."
+  },
+  "pairs_well_with": {
+    "vegetables": [
+      {
+        "item": "Yellow onions, sweet onions, celery, carrots, garlic, and fresh rosemary",
+        "source": {
+          "name": "Authentic Pasta e Fagioli - A Simple Palate & Heart Healthy Recipe Guide - HFSA",
+          "location": "Tuscan Soups & Pasta e Fagioli"
+        }
+      },
+      {
+        "item": "Crushed whole plum tomatoes, spinach, kale, and escarole",
+        "source": {
+          "name": "Appetito & Recipes - The Nutrition Source",
+          "location": "Hearth Sausage Bean Soup & Garbanzo Beans with Spinach"
+        }
+      },
+      {
+        "item": "Butternut squash, bell peppers, corn, and avocado",
+        "source": {
+          "name": "Food Network & Boston.gov",
+          "location": "Butternut Turkey Chili & White Bean Turkey Chili"
+        }
+      }
+    ],
+    "starches": [
+      {
+        "item": "Ditalini pasta and small pasta shells",
+        "source": {
+          "name": "Authentic Pasta e Fagioli - A Simple Palate",
+          "location": "Ingredients: dried ditalini or small shells"
+        }
+      },
+      {
+        "item": "Wild rice and brown lentils",
+        "source": {
+          "name": "Recipes - The Nutrition Source & Food Network",
+          "location": "White Beans with Wild Rice & Lentil Chili"
+        }
+      },
+      {
+        "item": "Crusty Italian bread and warm tortillas",
+        "source": {
+          "name": "A Simple Palate & Boston.gov",
+          "location": "Serving suggestions"
+        }
+      }
+    ],
+    "spices_and_seasonings": [
+      {
+        "item": "Fresh rosemary sprigs, fresh basil, garlic cloves, and red pepper flakes",
+        "source": {
+          "name": "Authentic Pasta e Fagioli - A Simple Palate & HFSA",
+          "location": "Aromatic Base Seasonings"
+        }
+      },
+      {
+        "item": "Chipotle chiles in adobo, chili powder, ground cumin, and smoked paprika",
+        "source": {
+          "name": "Food Network Kitchen",
+          "location": "Three-Bean and Beef Chili"
+        }
+      }
+    ],
+    "sauces": [
+      {
+        "item": "Rich chicken stock or vegetable broth with Parmigiano-Reggiano cheese rind",
+        "source": {
+          "name": "Authentic Pasta e Fagioli - A Simple Palate",
+          "location": "Soup base infusion"
+        }
+      },
+      {
+        "item": "Salsa verde and tomato-broth reductions",
+        "source": {
+          "name": "Boston.gov & Food Network",
+          "location": "White Bean Turkey Chili"
+        }
+      },
+      {
+        "item": "Balsamic vinegar finish and extra virgin olive oil drizzle",
+        "source": {
+          "name": "Heart Healthy Recipe Guide - HFSA & Appetito",
+          "location": "Basic Tuscan Bean Soup"
+        }
+      }
+    ]
+  },
+  "avoid": [
+    {
+      "warning": "Using pre-crushed commercial canned tomatoes: Store-bought pre-crushed tomatoes have an unpleasant, watery/tinny consistency. Hand-crushing whole canned plum tomatoes produces superior soup texture and prevents watery separation.",
+      "source": {
+        "name": "Authentic Pasta e Fagioli - A Simple Palate",
+        "location": "Cooking Tips: Hand-crush tomatoes"
+      }
+    },
+    {
+      "warning": "Violent, rapid boiling: Boiling beans over aggressive high heat causes delicate skins to rupture and turn mushy before the aromatics and broth properly integrate.",
+      "source": {
+        "name": "Heart Healthy Recipe Guide - HFSA & A Simple Palate",
+        "location": "Simmering instructions"
+      }
+    },
+    {
+      "warning": "Failing to rinse canned beans: Unrinsed canned beans carry excess sodium and metallic-tasting canning liquid that muddies the flavor profile of soups and salads.",
+      "source": {
+        "name": "Heart Healthy Recipe Guide - HFSA & Boston.gov",
+        "location": "Ingredient preparation: rinsed and drained"
+      }
+    }
+  ],
+  "methods": [
+    {
+      "method": "simmer",
+      "cut": "canned beans (cannellini, navy, pinto, black)",
+      "heat": "Medium-low stovetop heat (gentle rolling simmer, 185\u00b0F\u2013205\u00b0F)",
+      "time": "20 to 35 minutes for chilis/soups; up to 60 minutes for hearty braised stews",
+      "doneness": "Creamy, tender interior with intact skins; broth noticeably thickened by bean starches",
+      "rest": "5 to 10 minutes off heat before serving",
+      "tips": "Submerge a Parmigiano-Reggiano rind into the simmering pot to melt savory umami throughout the broth; crush a small ladleful of beans against the pot wall to create natural body without adding flour.",
+      "source": {
+        "name": "Authentic Pasta e Fagioli - A Simple Palate",
+        "location": "Step-by-step soup directions"
+      }
+    },
+    {
+      "method": "roast",
+      "cut": "drained and dried chickpeas (garbanzo beans)",
+      "heat": "400\u00b0F to 425\u00b0F (205\u00b0C\u2013218\u00b0C) oven",
+      "time": "25 to 35 minutes",
+      "doneness": "Crisp, crunchy exterior with hollow golden crunch, completely dry",
+      "rest": "5 minutes on sheet pan",
+      "tips": "Thoroughly pat chickpeas bone-dry with paper towels before tossing with oil and spices; any moisture will cause them to steam rather than crisp.",
+      "source": {
+        "name": "Recipes - The Nutrition Source",
+        "location": "Crunchy Roasted Chickpeas"
+      }
+    },
+    {
+      "method": "saut\u00e9",
+      "cut": "canned garbanzo beans / white beans with greens",
+      "heat": "Medium stovetop heat in skillet",
+      "time": "5 to 8 minutes",
+      "doneness": "Heated thoroughly, infused with garlic oil and coated with wilted greens",
+      "rest": "None",
+      "tips": "Saut\u00e9 minced garlic and crushed red pepper in olive oil for 1 minute until fragrant before adding rinsed beans and tender greens (spinach or kale) to warm through.",
+      "source": {
+        "name": "Recipes - The Nutrition Source",
+        "location": "Garbanzo Beans with Spinach and Tomatoes"
+      }
+    },
+    {
+      "method": "mash",
+      "cut": "canned pinto or black beans",
+      "heat": "Medium-low stovetop heat",
+      "time": "8 to 12 minutes",
+      "doneness": "Thick, creamy spread with partial rustic bean texture",
+      "rest": "2 minutes",
+      "tips": "Warm beans with saut\u00e9ed onion, garlic, and cumin, then mash with a potato masher or back of a spoon while stirring in small splashes of warm broth.",
+      "source": {
+        "name": "Recipes - The Nutrition Source",
+        "location": "Vegetarian Refried Beans"
+      }
+    }
+  ]
+}

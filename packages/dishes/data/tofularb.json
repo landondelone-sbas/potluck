@@ -1,0 +1,53 @@
+{
+  "id": "tofularb",
+  "cuisine": "thai",
+  "format": "plate",
+  "title": "Crispy {p} Larb with {v}",
+  "minutes": 30,
+  "feel": "Zesty",
+  "wants": {
+    "protein": ["tofu"],
+    "veg": ["cucumber", "cabbage", "onion", "greens", "tomato"],
+    "spice": ["herbs", "chili", "lemon", "garlic"],
+    "sauce": ["soy", "vinaigrette", "hot"],
+    "starch": ["rice"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "tofu",
+    "veg": "cabbage",
+    "spice": "mint",
+    "sauce": "soy sauce",
+    "starch": "sticky rice"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 400,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Start the sides first. {starch_how} {veg_how}",
+    "Press and crumble the {p}, then toss with a spoonful of soy sauce and a little oil. Pan-fry in a large skillet over medium-high heat 10 to 12 minutes, stirring now and then, until golden and crisp at the edges.",
+    "Toast a spoonful of uncooked rice in a dry pan 5 minutes, until golden, and grind it to a coarse powder.",
+    "Whisk lime juice, the {sauce}, a pinch of sugar and chili flakes. Toss with the warm tofu, thinly sliced shallot, the toasted rice and the {spice}.",
+    "Serve with the {v} and the {s}."
+  ],
+  "tip": "Heap on the cabbage and cucumber so the tofu is only part of the plate."
+}

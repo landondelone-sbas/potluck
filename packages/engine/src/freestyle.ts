@@ -23,34 +23,40 @@ const PROTEIN_METHODS: readonly (readonly [tag: string, method: string, minutes:
   ['ground', 'Brown the {n} in a hot pan, breaking it up, until {doneness}.', 12],
   [
     'shrimp',
-    'Pat the {n} dry, season with salt, and cook in a hot oiled skillet about 2 minutes a side, until {doneness}.',
+    'Pat the {n} dry, season with salt, and cook in a hot oiled skillet about 2 minutes a side, until {doneness}. Each shrimp curls into a loose "C" when done; a tight "O" means it is overcooked.',
     5,
   ],
   [
     'fish',
-    'Season the {n} and pan-sear 3 to 4 minutes a side, or bake at 425°F (220°C) for 10 to 12 minutes, until it flakes easily and is {doneness}.',
+    'Season the {n} and pan-sear 3 to 4 minutes a side, or bake at 400°F (204°C) for about 10 minutes per inch of thickness, until it flakes easily and is {doneness}.',
     12,
   ],
   [
     'egg',
-    'Beat the {n} with a pinch of salt and scramble in a lightly oiled pan until fully set.',
+    'Beat the {n} with a pinch of salt and scramble in a lightly oiled pan over gentle medium-low heat until {doneness}.',
     5,
   ],
   [
     'tofu',
-    'Press and cube the {n}, then pan-fry in hot oil, turning, 8 to 10 minutes until golden.',
+    'Press the {n} between towels under a weight for 15 minutes, cube it and dust with cornstarch, then pan-fry in hot oil, turning, 8 to 10 minutes until golden.',
     15,
   ],
-  ['beans', 'Drain and rinse the {n}, then warm through in the pan.', 5],
+  [
+    'beans',
+    'Drain and rinse the {n}, then warm through in the pan. This assumes canned beans; dried beans need soaking and boiling first.',
+    5,
+  ],
   ['sausage', 'Slice the {n} and brown in a skillet 5 to 6 minutes, until {doneness}.', 12],
   [
     'roast',
-    'Season the {n} and sear on all sides in a heavy ovenproof pot. Add a cup of water or stock, cover, and cook in a 325°F (160°C) oven about 2 hours, until very tender. It is safe once {doneness}.',
+    'Season the {n} and sear on all sides in a heavy ovenproof pot. Add a cup of water or stock, cover, and cook in a 325°F (160°C) oven about 2 hours, until fork-tender (about 195°F / 91°C to 205°F / 96°C inside). It is safe once {doneness}, and well past that by then.',
     150,
   ],
 ];
 
 /** Chicken, turkey, pork, lamb, beef cuts and anything else the engine knows: sear in pieces. */
+const POULTRY_METHOD =
+  'Pat the {n} dry with paper towels (do not rinse raw poultry), cut into bite-size pieces, season with salt, and cook in a hot oiled skillet until browned and {doneness}. Bone-in pieces take longer, so roast them at 425°F (220°C) for 35 to 45 minutes instead.';
 const PIECES_METHOD =
   'Cut the {n} into bite-size pieces, season with salt, and cook in a hot oiled skillet until browned and {doneness}. Bone-in pieces take longer, so roast them at 425°F (220°C) for 35 to 45 minutes instead.';
 const UNKNOWN_PROTEIN_METHOD =
@@ -107,6 +113,7 @@ function proteinMethod(item: PotItem): readonly [method: string, minutes: number
   for (const [tag, method, minutes] of PROTEIN_METHODS) {
     if (item.tags.includes(tag)) return [method, minutes];
   }
+  if (item.tags.includes('chicken') || item.tags.includes('turkey')) return [POULTRY_METHOD, 25];
   return item.tags.length > 0 ? [PIECES_METHOD, 25] : [UNKNOWN_PROTEIN_METHOD, 20];
 }
 

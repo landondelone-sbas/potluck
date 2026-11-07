@@ -1,0 +1,194 @@
+{
+  "ingredient": "beef",
+  "safe_temperature": {
+    "temperature": "145\u00b0F (62.8\u00b0C) with a 3-minute rest time for whole beef roasts; 160\u00b0F (71.1\u00b0C) for ground beef (patties, meatloaf, meatballs)",
+    "source": {
+      "name": "SAFE MINIMUM INTERNAL TEMPERATURES - FDA & Beef Cookery - NDBeef",
+      "location": "FDA Guidelines & NDBeef Food Thermometer Standards, p. 1"
+    },
+    "disagreements": "The FDA and USDA mandate an internal temperature of 160\u00b0F for ground beef (patties, meatloaf, meatballs) because bacteria on exterior surfaces can be distributed throughout during grinding; color is not an indicator of doneness. For tender whole-muscle roasts (rib roast, tenderloin roast, strip roast), the minimum safe temperature is 145\u00b0F with a 3-minute rest, though culinary sources pull at 135\u00b0F for medium-rare finish. In contrast, for tough, collagen-rich cuts (chuck roast, brisket, stew meat), notebook sources deliberately cook meat far past 145\u00b0F to internal temperatures of 195\u00b0F\u2013205\u00b0F to melt collagen into gelatin and produce fork-tender, shreddable meat."
+  },
+  "methods": [
+    {
+      "method": "braise / pot roast",
+      "cut": "beef chuck roast, shoulder roast, or rump roast (3 to 4 lbs)",
+      "heat": "Medium-high heat skillet sear, then 325\u00b0F (163\u00b0C) covered oven or low-heat slow cooker (approx. 200\u00b0F)",
+      "time": "3 to 4 hours in 325\u00b0F oven (or 6 to 8 hours on low in slow cooker)",
+      "doneness": "Fork-tender (internal temperature 195\u00b0F\u2013205\u00b0F); meat separates easily when pressed with a fork",
+      "rest": "10 to 15 minutes resting in braising liquid before slicing or shredding",
+      "tips": "Sear roast on all sides in a hot Dutch oven until a deep brown crust develops before adding liquid; place on a bed of onions and carrots; add braising liquid (beef broth, wine, or canned tomatoes) only halfway up the meat\u2014do not submerge; braise tightly covered to trap steam.",
+      "source": {
+        "name": "Heart Healthy Recipe Guide - HFSA & Clover Meadows Beef",
+        "location": "Classic Slow-Cooker Beef Pot Roast, p. 30 & Beef Braising Guide"
+      }
+    },
+    {
+      "method": "simmer / stew",
+      "cut": "beef stew meat (1-inch chuck or round cubes)",
+      "heat": "Medium-high heat sear, then low stovetop heat gentle simmer (185\u00b0F\u2013200\u00b0F)",
+      "time": "1.5 to 2.5 hours",
+      "doneness": "Cubes are fork-tender and succulent; rich broth thickened by rendered collagen and starch",
+      "rest": "5 to 10 minutes off heat before serving",
+      "tips": "Lightly dredge beef cubes in seasoned flour and brown in uncrowded batches; deglaze pot with broth or red wine to dissolve fond; simmer gently with root vegetables (carrots, potatoes, celery) and aromatics (thyme, bay leaf).",
+      "source": {
+        "name": "How to Cook Beef: Best Cooking Method for Every Cut - Clover Meadows Beef & HFSA",
+        "location": "Stew Meat & Braising Section & Slow-Cooker Beef Stew, p. 34"
+      }
+    },
+    {
+      "method": "pan-fry / skillet hamburger patties",
+      "cut": "ground beef patties (80/20 or 85/15 lean ratio, 1/2 to 3/4 inch thick)",
+      "heat": "Medium to medium-high heat in heavy skillet",
+      "time": "3 to 4 minutes per side (approx. 8 to 10 minutes total)",
+      "doneness": "160\u00b0F internal temperature measured horizontally from the side into center of patty; no pink remains and juices run clear",
+      "rest": "2 to 3 minutes before assembling burgers",
+      "tips": "Do not press down on patties with a spatula while cooking, which squeezes out flavorful juices and creates dry burgers; flip only once after a caramelized crust forms; season exterior generously right before cooking.",
+      "source": {
+        "name": "Ultimate Guide to Beef | Burgers' Smokehouse & NDBeef",
+        "location": "How to Cook Hamburgers & Ground Beef Cooking Times"
+      }
+    },
+    {
+      "method": "oven roast",
+      "cut": "beef rib roast / prime rib, strip roast, or eye of round (3 to 5 lbs)",
+      "heat": "Initial blast at 450\u00b0F (232\u00b0C) for 15 minutes, then reduced to 325\u00b0F (163\u00b0C)",
+      "time": "1.25 to 1.75 hours (approx. 15 to 20 minutes per pound for medium-rare)",
+      "doneness": "135\u00b0F for medium-rare (rising to 145\u00b0F during rest) or 145\u00b0F for medium",
+      "rest": "15 to 20 minutes tented loosely with foil before carving",
+      "tips": "Place roast fat-side up on a rack in an open shallow roasting pan; insert meat thermometer into thickest part not touching bone; resting allows juices to redistribute so meat carves without pooling juice.",
+      "source": {
+        "name": "Ultimate Guide to Beef | Burgers' Smokehouse & NDBeef",
+        "location": "How to Cook Beef Roasts & Roasting Chart"
+      }
+    },
+    {
+      "method": "skillet brown crumbled",
+      "cut": "ground beef (bulk mince)",
+      "heat": "Medium to medium-high heat",
+      "time": "6 to 8 minutes",
+      "doneness": "Cooked through, no pink remaining, reaches 160\u00b0F internal",
+      "rest": "None; drain excess rendered grease if desired",
+      "tips": "Let meat sear undisturbed for the first 2 minutes to develop browning fond before breaking into crumbles with a wooden spoon.",
+      "source": {
+        "name": "Cheesy Beef and Potatoes - The Kitchn & Food Network Kitchen",
+        "location": "One-Skillet Dinners & Three-Bean Chili"
+      }
+    }
+  ],
+  "pairs_well_with": {
+    "vegetables": [
+      {
+        "name": "Yellow onions and leeks",
+        "source": "HFSA Pot Roast & Clover Meadows Beef"
+      },
+      {
+        "name": "Carrots and celery stalks",
+        "source": "HFSA Pot Roast & Beef Stew"
+      },
+      {
+        "name": "Fresh garlic cloves (minced or smashed)",
+        "source": "Clover Meadows Beef & The Kitchn"
+      },
+      {
+        "name": "Russet, red, or baby Yukon gold potatoes",
+        "source": "The Kitchn & HFSA"
+      },
+      {
+        "name": "Cremini or button mushrooms",
+        "source": "Clover Meadows Beef & Burgers' Smokehouse"
+      },
+      {
+        "name": "Green bell peppers and canned diced tomatoes",
+        "source": "Food Network Kitchen (Chili)"
+      }
+    ],
+    "starches": [
+      {
+        "name": "Wide egg noodles (buttered)",
+        "source": "HFSA Beef Stew & Clover Meadows Beef"
+      },
+      {
+        "name": "Creamy mashed potatoes",
+        "source": "Burgers' Smokehouse & HFSA"
+      },
+      {
+        "name": "Crusty artisan French bread or dinner rolls",
+        "source": "HFSA & Clover Meadows Beef"
+      },
+      {
+        "name": "Hamburger buns or brioche rolls",
+        "source": "Burgers' Smokehouse"
+      },
+      {
+        "name": "Steamed white rice or brown rice",
+        "source": "HFSA Heart Healthy Guide"
+      },
+      {
+        "name": "Mofongo (fried mashed green plantains)",
+        "source": "Masterchef PDF - Bookey"
+      }
+    ],
+    "spices_and_herbs": [
+      {
+        "name": "Fresh thyme and rosemary sprigs",
+        "source": "HFSA Pot Roast & Burgers' Smokehouse"
+      },
+      {
+        "name": "Dried bay leaves",
+        "source": "HFSA & Clover Meadows Beef"
+      },
+      {
+        "name": "Smoked paprika, chili powder, and ground cumin",
+        "source": "Food Network Kitchen (Chili)"
+      },
+      {
+        "name": "Worcestershire sauce",
+        "source": "HFSA Pot Roast & Burgers' Smokehouse"
+      },
+      {
+        "name": "Coarse kosher salt and cracked black pepper",
+        "source": "NDBeef & Burgers' Smokehouse"
+      }
+    ],
+    "sauces_and_liquids": [
+      {
+        "name": "Rich low-sodium beef bone broth",
+        "source": "HFSA Pot Roast & Beef Stew"
+      },
+      {
+        "name": "Dry red wine (Cabernet Sauvignon or Pinot Noir)",
+        "source": "Clover Meadows Beef"
+      },
+      {
+        "name": "Tomato paste and crushed canned tomatoes",
+        "source": "HFSA & Food Network Kitchen"
+      },
+      {
+        "name": "Rich pan gravy made from roast drippings",
+        "source": "Burgers' Smokehouse & NDBeef"
+      },
+      {
+        "name": "Shredded cheddar or Monterey Jack cheese",
+        "source": "The Kitchn (Cheesy Beef and Potatoes)"
+      }
+    ]
+  },
+  "avoid": [
+    {
+      "warning": "Serving ground beef undercooked or rare: ground beef must reach an internal temperature of 160\u00b0F to destroy potential pathogens distributed during grinding; pink color is not an indicator of safety.",
+      "source": "NDBeef & FDA Food Safety Standards"
+    },
+    {
+      "warning": "Violent, aggressive boiling of pot roasts or stews: rapid boiling causes meat muscle fibers to seize, tighten, and dry out before collagen melts into gelatin; maintain a gentle low simmer.",
+      "source": "HFSA Pot Roast & Clover Meadows Beef"
+    },
+    {
+      "warning": "Pressing burger patties with a spatula while searing: compresses the meat and forces out savory natural juices, resulting in dry, dense patties.",
+      "source": "Burgers' Smokehouse (Burger Pro Tips)"
+    },
+    {
+      "warning": "Thawing frozen beef on the kitchen counter at room temperature: bacteria multiply rapidly in the danger zone; defrost in the refrigerator or microwave immediately before cooking.",
+      "source": "NDBeef (Defrosting Guidelines)"
+    }
+  ]
+}

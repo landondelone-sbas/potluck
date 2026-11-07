@@ -1,0 +1,35 @@
+{
+  "theme": "fish",
+  "batch_number": 10,
+  "summary_of_findings": {
+    "methods_identified": 3,
+    "recipes_identified": 3,
+    "core_sources": [
+      "Heart Healthy Recipe Guide - HFSA",
+      "ENGLISH - Boston.gov Nutrition & Recipe Guide",
+      "FDA Food Safety Guidelines"
+    ]
+  },
+  "gaps_in_sources": {
+    "missing_cuts": [
+      "No cooking parameters for whole bone-in fish (e.g., whole roasted branzino or snapper).",
+      "No specifications for thick fish steaks (e.g., swordfish, halibut steaks, or tuna steaks).",
+      "No guidance for oily fish species like mackerel, sardines, or bluefish (salmon has dedicated files)."
+    ],
+    "missing_methods": [
+      "No grilling or outdoor barbecue guidelines for skin-on or delicate fish fillets.",
+      "No oven-broiling temperature or rack-position instructions.",
+      "No deep-frying or batter-frying specifications (consistent with app constraint avoiding deep-frying).",
+      "No sous-vide temperature and time curves for delicate white fish."
+    ],
+    "missing_parameters": [
+      "Timing differences between very thin fillets (sole/flounder at 1/4-inch) versus thick fillets (cod loin at 1.5-inch) beyond the general 10-minutes-per-inch heuristic.",
+      "Internal temperature threshold for resting carry-over cooking on dense fish steaks."
+    ]
+  },
+  "app_recommendations": [
+    "Incorporate the universal '10 minutes per inch of thickness at 400°F' rule as the standard baseline for all white fish baking.",
+    "Emphasize parchment packet (en papillote) cooking for fridge-style ingredient mashups, as it accommodates varying vegetable moisture and guarantees fish won't dry out.",
+    "For stovetop cooking, recommend patting fillets completely dry and keeping heat at medium-high to prevent steaming."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "theme": "steak",
+  "batch_number": 4,
+  "summary_of_findings": {
+    "methods_identified": 5,
+    "recipes_identified": 8,
+    "core_sources": [
+      "How To Reverse Sear A Steak: Step-by-Step Recipe - Allen Brothers",
+      "Resting Meat: Why You Should and for How Long - WebstaurantStore",
+      "Perfect Sous Vide Steak Recipe (Time & Temp Guide) - Fit Foodie Finds",
+      "Steak Doneness Guide & Temperature Charts - Omaha Steaks",
+      "BEEF COOKERY - NDBeef",
+      "Ultimate Guide to Beef | Burgers' Smokehouse",
+      "How to Cook Beef: Best Cooking Method for Every Cut - Clover Meadows Beef",
+      "Masterchef PDF - Bookey",
+      "SAFE MINIMUM INTERNAL TEMPERATURES - FDA"
+    ]
+  },
+  "gaps_in_sources": {
+    "missing_cuts_and_varieties": [
+      "No specific cooking times or parameters for bone-in Tomahawk ribeyes (3+ inches thick with 8-inch bone extension).",
+      "No guidelines for dry-aged steaks (which lose moisture during aging and cook 25% faster than wet-aged steaks).",
+      "No parameters for hanger steak or bavette cuts."
+    ],
+    "missing_methods": [
+      "No coal-direct cooking (caveman style / dirty steak directly on charcoal embers).",
+      "No smoking-then-searing temperature curves on pellet or offset wood smokers."
+    ],
+    "missing_parameters": [
+      "Exact carryover temperature rise comparing bone-in cuts (which insulate heat) versus boneless cuts.",
+      "Mathematical correlation between marbling grade (Prime vs Choice vs Select) and water bath hold duration in sous vide."
+    ]
+  },
+  "app_recommendations": [
+    "Incorporate the multi-tier doneness chart in the app engine: Rare (120\u00b0F), Medium-Rare (130\u00b0F), Medium (140\u00b0F\u2013145\u00b0F), Medium-Well (150\u00b0F), and Well-Done (160\u00b0F), noting that FDA safe baseline is 145\u00b0F with a 3-minute rest.",
+    "Enforce resting rules based on steak thickness: 5 minutes per inch of thickness (or 10 minutes per pound) before carving to prevent juice loss.",
+    "For steaks over 1.5 inches thick, default to recommending the reverse sear (250\u00b0F oven then smoking-hot sear) to eliminate gray banding and ensure edge-to-edge even doneness.",
+    "Always instruct users to carve fibrous steaks (flank, skirt, flat iron) against the grain at a 45-degree angle to shorten muscle fibers."
+  ]
+}

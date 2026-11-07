@@ -1,0 +1,53 @@
+{
+  "id": "lemongrasstofu",
+  "cuisine": "asian",
+  "format": "plate",
+  "title": "Lemongrass {p} with {v}",
+  "minutes": 30,
+  "feel": "Spicy",
+  "wants": {
+    "protein": ["tofu"],
+    "veg": ["pepper", "greens", "mushroom", "onion", "greenbeans", "cabbage"],
+    "spice": ["chili", "garlic", "ginger", "herbs", "lemon"],
+    "sauce": ["soy", "hot", "honey"],
+    "starch": ["rice", "noodles"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "tofu",
+    "veg": "bell peppers",
+    "spice": "thai basil",
+    "sauce": "soy sauce",
+    "starch": "jasmine rice"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 400,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 250,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Start the sides first. {starch_how} {veg_how}",
+    "Press the {p} between towels under a weight for 15 minutes, then cube it and dust with a little cornstarch. Pan-fry in hot oil 6 to 8 minutes, until golden and crisp on all sides. Move to a plate.",
+    "In the same pan, cook a spoonful of minced lemongrass (or lemon zest), garlic and sliced chili 1 to 2 minutes, until fragrant.",
+    "Add the {sauce} and a pinch of sugar, return the {p} and toss 1 minute, until glazed. Off the heat, toss in the {spice}.",
+    "Serve hot with the {v} over the {s}."
+  ],
+  "tip": "Go heavy on the vegetables and light on the oil."
+}

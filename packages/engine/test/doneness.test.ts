@@ -21,7 +21,7 @@ describe('donenessFor (docs/decisions/0009)', () => {
     [['Ribeye'], 'cooked through'],
     [['Tofu'], 'heated through'],
     [['Black beans'], 'heated through'],
-    [['Eggs'], 'heated through'],
+    [['Eggs'], 'cooked through (eggs set and firm, 160°F / 71°C)'],
     [['Dragon fruit'], 'heated through'],
     [[], 'heated through'],
   ] as const)('%j gives "%s"', (names, expected) => {

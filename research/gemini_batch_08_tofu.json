@@ -1,6 +1,477 @@
-{
-  "theme": "tofu",
-  "count": 0,
-  "skipped_note": "No qualifying recipes found in notebook sources meeting all criteria. Evaluated and skipped: 1. Recipes index from The Nutrition Source - Harvard (contains recipe titles such as Green Beans with Tofu and Crushed Peanuts, Mushroom Tofu Veggie Burger, and Spicy Lemongrass Tofu with Asian Basil as external links; full ingredient measurements, quantities, and cooking instructions are absent from notebook text per Rule 1). 2. Mapo Tofu and Sesame Tofu (referenced in general app exclusion list under Rule 7; also not present with full recipes in notebook). 3. White Bean Turkey Chili from ENGLISH - Boston.gov (excluded under Rule 7: chili and turkey chili are blacklisted). 4. Tortilla Soup from ENGLISH - Boston.gov (excluded under Rule 7: soups and stews are blacklisted). 5. Simple Ratatouille from HFSA (vegetarian side dish lacking starch and primary protein per Rule 6).",
-  "recipes": []
-}
+[
+  {
+    "id": "tofu_001_silken_soy_scallion",
+    "title": "Silken Tofu with Soy Sauce and Scallions (Xiao Cong Ban Dou Fu)",
+    "cuisine": "asian",
+    "format": "plate",
+    "source": {
+      "name": "Every Grain of Rice: Simple Chinese Home Cooking - Fuchsia Dunlop",
+      "location": "Xiao Cong Ban Dou Fu Section"
+    },
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "ingredients": [
+      {
+        "quantity": 1,
+        "unit": "block (14 oz)",
+        "name": "chilled silken tofu",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 3,
+        "unit": "stalks",
+        "name": "scallions, very finely sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 1.5,
+        "unit": "tablespoons",
+        "name": "light soy sauce",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "toasted sesame oil",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "teaspoon",
+        "name": "sugar",
+        "role": "spice",
+        "optional": true
+      },
+      {
+        "quantity": 1,
+        "unit": "pinch",
+        "name": "chili oil or ground white pepper",
+        "role": "spice",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Carefully drain the silken tofu block and place on a shallow serving plate. Let stand for 5 minutes, then tip the plate to pour off any pooled liquid.",
+      "Using a small paring knife, gently score the tofu block into 1/2-inch cubes directly on the plate without disrupting the block's shape.",
+      "In a small ramekin, whisk together the light soy sauce, toasted sesame oil, and sugar until dissolved.",
+      "Scatter the finely sliced scallions generously over the entire surface of the tofu.",
+      "Drizzle the soy and sesame oil dressing evenly over the scallions and tofu. Serve immediately at cool room temperature with chopsticks or a flat spoon."
+    ],
+    "source_temperatures": [
+      {
+        "target": "serving",
+        "value": "chilled or room temperature"
+      }
+    ],
+    "swaps": [
+      "Soft tofu can replace silken tofu if silken is unavailable.",
+      "Chopped fresh cilantro or crushed roasted peanuts can be added as a garnish."
+    ],
+    "notes": "A classic Chinese home-style cold dish highlighting the natural silky texture of high-quality unheated silken tofu."
+  },
+  {
+    "id": "tofu_002_lettuce_cups_beef",
+    "title": "Savory Lettuce Cups with Extra-Firm Tofu and Ground Beef",
+    "cuisine": "asian",
+    "format": "plate",
+    "source": {
+      "name": "Our 50 Most-Popular Healthy Recipes - Food Network",
+      "location": "Lettuce Cups with Tofu and Beef (Ellie Krieger)"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 12,
+    "ingredients": [
+      {
+        "quantity": 8,
+        "unit": "oz",
+        "name": "extra-firm tofu, drained, pressed and finely diced",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 8,
+        "unit": "oz",
+        "name": "lean ground beef (90% lean)",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "head",
+        "name": "Bibb or Boston lettuce, leaves separated and rinsed",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 3,
+        "unit": "stalks",
+        "name": "scallions, chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "fresh ginger, grated",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "tablespoons",
+        "name": "hoisin sauce",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "low-sodium soy sauce",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "name": "toasted sesame oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "chili-garlic sauce",
+        "role": "sauce",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Press the extra-firm tofu between paper towels with a heavy plate for 15 minutes, then cut into neat 1/4-inch dice.",
+      "Heat sesame oil in a large skillet or wok over medium-high heat. Add the ground beef and cook for 4 to 5 minutes, breaking into crumbles, until no longer pink.",
+      "Add the minced garlic, grated ginger, and diced pressed tofu to the skillet. Stir-fry for 3 to 4 minutes until the tofu lightly browns and absorbs the savory rendered pan drippings.",
+      "Stir in the hoisin sauce and soy sauce, tossing continuously for 2 minutes to coat the beef and tofu evenly in a glossy glaze.",
+      "Remove skillet from heat and stir in the chopped scallions.",
+      "Spoon generous mounds of the warm filling into crisp Bibb lettuce cups. Drizzle lightly with chili-garlic sauce and serve immediately."
+    ],
+    "source_temperatures": [
+      {
+        "target": "skillet",
+        "value": "medium-high heat"
+      }
+    ],
+    "swaps": [
+      "Ground turkey or chicken can substitute for ground beef.",
+      "Diced water chestnuts or finely chopped celery can be added for extra crunch."
+    ],
+    "notes": "Combining pressed extra-firm tofu with lean meat produces a satisfying, low-fat protein filling that absorbs aromatic hoisin and soy sauces."
+  },
+  {
+    "id": "tofu_003_vibrant_tofu_larb",
+    "title": "Crispy Air-Fryer Tofu Larb with Fresh Herbs and Lime",
+    "cuisine": "thai",
+    "format": "plate",
+    "source": {
+      "name": "The Complete Veggie Air Fryer Cookbook",
+      "location": "Vibrant Tofu Larb Section"
+    },
+    "servings": 3,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": 14,
+        "unit": "oz",
+        "name": "extra-firm tofu, pressed and cut into 1/2-inch cubes",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "cornstarch or tapioca starch",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "neutral cooking oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "medium",
+        "name": "shallots, thinly sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "name": "fresh mint leaves, torn",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "name": "fresh cilantro leaves, chopped",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "tablespoons",
+        "name": "fresh lime juice",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 1.5,
+        "unit": "tablespoons",
+        "name": "soy sauce or vegetarian fish sauce",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "name": "roasted chili flakes (prik bon)",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "toasted ground rice powder (khao khua)",
+        "role": "starch",
+        "optional": true
+      }
+    ],
+    "steps": [
+      "Preheat the air fryer to 400°F (200°C). Toss the pressed tofu cubes with oil, cornstarch, and a pinch of salt until lightly coated.",
+      "Arrange the tofu in a single layer in the air fryer basket. Cook for 12 to 15 minutes, shaking the basket halfway through, until deep golden and crisp.",
+      "In a medium mixing bowl, whisk together the lime juice, soy sauce, and chili flakes.",
+      "Transfer the hot crispy tofu directly into the bowl with the dressing. Add the sliced shallots, torn mint, and fresh cilantro.",
+      "Toss quickly to coat the tofu while keeping its exterior crunch. Sprinkle with toasted ground rice powder and serve immediately with raw cabbage wedges or steamed sticky rice."
+    ],
+    "source_temperatures": [
+      {
+        "target": "air_fryer",
+        "value": "400°F"
+      }
+    ],
+    "swaps": [
+      "Scallions can replace shallots if unavailable.",
+      "Crushed toasted peanuts can substitute for toasted rice powder for nutty texture."
+    ],
+    "notes": "Air-frying gives pressed tofu a shatter-crisp surface that absorbs the tangy lime and chili dressing without turning soggy."
+  },
+  {
+    "id": "tofu_004_golden_tofu_scramble",
+    "title": "Hearty Golden Tofu Scramble with Vegetables",
+    "cuisine": "comfort",
+    "format": "pot",
+    "source": {
+      "name": "Frugal Vegan - Katie Koteen & Kate Kasbee",
+      "location": "Tofu Scrambled Eggs Section"
+    },
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "ingredients": [
+      {
+        "quantity": 14,
+        "unit": "oz",
+        "name": "firm or extra-firm tofu, drained",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "medium",
+        "name": "red bell pepper, diced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "name": "fresh baby spinach",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "stalks",
+        "name": "scallions, sliced",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "olive oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "teaspoon",
+        "name": "ground turmeric (for golden color)",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 0.5,
+        "unit": "teaspoon",
+        "name": "garlic powder",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "nutritional yeast or soy sauce",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 0.25,
+        "unit": "teaspoon",
+        "name": "black pepper",
+        "role": "spice",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Heat olive oil in a wide skillet over medium heat. Add the diced bell pepper and cook for 3 to 4 minutes until softened.",
+      "Crumble the drained tofu into the skillet using your hands, creating bite-sized rustic curds.",
+      "Sprinkle turmeric, garlic powder, nutritional yeast, black pepper, and salt evenly over the crumbled tofu.",
+      "Cook over medium heat, stirring frequently with a spatula, for 5 to 6 minutes until excess moisture cooks off and curds are hot and evenly colored.",
+      "Fold in the baby spinach and sliced scallions during the final minute of cooking, stirring just until the spinach wilts. Serve hot with whole-grain toast or roasted potatoes."
+    ],
+    "source_temperatures": [
+      {
+        "target": "skillet",
+        "value": "medium heat"
+      }
+    ],
+    "swaps": [
+      "Mushrooms or diced zucchini can be sautéed alongside the bell peppers.",
+      "A pinch of black salt (kala namak) can be added for authentic egg flavor."
+    ],
+    "notes": "A quick, protein-packed breakfast or dinner skillet that mimics the appearance and mouthfeel of soft scrambled eggs using basic pantry spices."
+  },
+  {
+    "id": "tofu_005_green_beans_peanuts",
+    "title": "Crisp Tofu and Green Bean Stir-Fry with Crushed Peanuts",
+    "cuisine": "asian",
+    "format": "pot",
+    "source": {
+      "name": "Recipes - The Nutrition Source (Harvard T.H. Chan)",
+      "location": "Nut, Bean, and Tofu Recipe Series"
+    },
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 12,
+    "ingredients": [
+      {
+        "quantity": 14,
+        "unit": "oz",
+        "name": "extra-firm tofu, pressed and cut into 3/4-inch cubes",
+        "role": "protein",
+        "optional": false
+      },
+      {
+        "quantity": 12,
+        "unit": "oz",
+        "name": "fresh green beans, trimmed and halved",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 3,
+        "unit": "cloves",
+        "name": "garlic, minced",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "fresh ginger, minced",
+        "role": "spice",
+        "optional": false
+      },
+      {
+        "quantity": 0.33,
+        "unit": "cup",
+        "name": "roasted unsalted peanuts, coarsely crushed",
+        "role": "veg",
+        "optional": false
+      },
+      {
+        "quantity": 2,
+        "unit": "tablespoons",
+        "name": "low-sodium soy sauce",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "rice vinegar",
+        "role": "sauce",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "name": "sesame oil",
+        "role": "staple",
+        "optional": false
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "name": "vegetable oil",
+        "role": "staple",
+        "optional": false
+      }
+    ],
+    "steps": [
+      "Press tofu cubes thoroughly between paper towels for 15 minutes to dry surfaces.",
+      "Heat 1 tablespoon vegetable oil in a large skillet or wok over medium-high heat. Add the tofu cubes and sear for 6 to 8 minutes, turning occasionally, until golden-crisp on all sides; remove to a plate.",
+      "Add the trimmed green beans and 2 tablespoons of water to the pan. Cover with a lid and steam for 3 minutes until bright green and tender-crisp.",
+      "Uncover, add minced garlic and ginger, and stir-fry for 1 minute until fragrant.",
+      "Return seared tofu to the pan. Pour in the soy sauce, rice vinegar, and sesame oil, tossing over high heat for 1 to 2 minutes until sauce glazes the vegetables and tofu.",
+      "Remove from heat, transfer to a platter, and top generously with crushed roasted peanuts before serving with steamed brown rice."
+    ],
+    "source_temperatures": [
+      {
+        "target": "skillet",
+        "value": "medium-high heat"
+      }
+    ],
+    "swaps": [
+      "Snap peas or broccoli florets can replace green beans.",
+      "Cashews or toasted sesame seeds can substitute for peanuts."
+    ],
+    "notes": "Blends crisp seared plant protein with crunchy steamed green beans and heart-healthy roasted peanuts in a light savory sauce."
+  }
+]

@@ -1,0 +1,202 @@
+{
+  "ingredient": "shrimp",
+  "safe_temperature": {
+    "temperature": "Flesh pearly and opaque (145\u00b0F / 62.8\u00b0C internal temperature standard for shellfish)",
+    "source": {
+      "name": "SAFE MINIMUM INTERNAL TEMPERATURES as measured with a food thermometer - FDA",
+      "location": "https://www.fda.gov/media/107000/download"
+    },
+    "disagreements": null
+  },
+  "methods": [
+    {
+      "method": "pan-sear / saut\u00e9",
+      "cut": "large or jumbo peeled & deveined raw shrimp (16/20 or 21/25 count)",
+      "heat": "Medium to medium-high heat in a large skillet",
+      "time": "1 to 2 minutes per side (approx. 3 to 4 minutes total)",
+      "doneness": "Flesh turns from translucent gray to pink, pearly, and opaque throughout; curls into a gentle 'C' shape",
+      "rest": "None; residual pan heat finishes cooking; serve immediately",
+      "tips": "Sear shrimp in olive oil first to build color before adding butter and garlic so the butter and garlic do not scorch; cook in uncrowded batches so shrimp sear rather than boil in released juices; turn individually with tongs; deglaze with dry white wine or lemon juice to halt browning and create pan sauce.",
+      "source": {
+        "name": "Garlic Prawns (Shrimp) - RecipeTin Eats & The Best Shrimp Scampi - Swanky Recipes",
+        "location": "Skillet browning technique and garlic butter timing"
+      }
+    },
+    {
+      "method": "bake / sheet-pan roast",
+      "cut": "jumbo or large raw shrimp (peeled, deveined, tail-on, e.g. U-8 or 16/20)",
+      "heat": "400\u00b0F (205\u00b0C) to 425\u00b0F (218\u00b0C) in preheated oven",
+      "time": "5 to 7 minutes at 400\u00b0F (or 7 minutes at 425\u00b0F for U-8 colossal shrimp)",
+      "doneness": "Shrimp turn uniformly pink and opaque throughout; springy to the touch",
+      "rest": "1 to 2 minutes on the hot baking sheet before serving",
+      "tips": "Pat shrimp thoroughly dry with paper towels before tossing with olive oil, garlic, and Mediterranean spices; spread across sheet pan in a single uncrowded layer; if serving with roasted vegetables, roast vegetables first on lower rack, then drop oven to 400\u00b0F and bake shrimp on top rack during the final 6 minutes.",
+      "source": {
+        "name": "Sheet Pan Shrimp | The Mediterranean Dish & How to cook Jumbo Shrimp - Chef Pachi",
+        "location": "Oven baking time, temp, and two-rack vegetable synchronization"
+      }
+    },
+    {
+      "method": "grill / grill pan",
+      "cut": "large raw shrimp threaded on skewers (peeled, deveined, tail-on)",
+      "heat": "Medium-high heat on lightly oiled grill pan or outdoor grates",
+      "time": "2 to 3 minutes per side",
+      "doneness": "Pearly white and opaque center with lightly charred grill marks and pink exterior",
+      "rest": "None; serve immediately",
+      "tips": "Marinate briefly (10 minutes) with citrus, oil, and herbs; discard excess marinade before grilling so shrimp char rather than steam; thread skewers through both head and tail ends to prevent spinning on grates.",
+      "source": {
+        "name": "Heart Healthy Recipe Guide - HFSA",
+        "location": "Grilled Shrimp Skewers with Mint Salsa Verde, p. 40"
+      }
+    },
+    {
+      "method": "butter-poach",
+      "cut": "16/20 count raw shrimp (peeled, deveined, room temperature)",
+      "heat": "Low stovetop heat (bare gentle butter melt)",
+      "time": "3 to 5 minutes total",
+      "doneness": "Plump, tender, juicy, and opaque throughout without rubberiness",
+      "rest": "None; serve warm in butter broth with crusty bread",
+      "tips": "Slowly melt salted butter in a small pot with a splash of water to keep milk solids from breaking down; fully submerge shrimp in the warm butter bath and cook gently.",
+      "source": {
+        "name": "Butter Poached Shrimp - SAM THE COOKING GUY",
+        "location": "Gentle butter submersion poaching method"
+      }
+    },
+    {
+      "method": "simmer / soup & curry braise",
+      "cut": "peeled & deveined raw shrimp",
+      "heat": "Gentle rolling simmer in broth or sauce",
+      "time": "5 to 8 minutes",
+      "doneness": "Pink, opaque, curled into a loose C-shape",
+      "rest": "None; serve hot",
+      "tips": "Always add raw shrimp during the final 5 to 8 minutes of simmering soups, curries, or gumbos; boiling shrimp early in long-cooked stews overcooks them into tough, rubbery curls.",
+      "source": {
+        "name": "Recipes - The Nutrition Source | Harvard T.H. Chan School of Public Health",
+        "location": "Traditional Shrimp & Chicken Okra Gumbo & Thai Red Curry Shrimp"
+      }
+    }
+  ],
+  "pairs_well_with": {
+    "vegetables": [
+      {
+        "name": "Garlic (sliced or minced)",
+        "source": "RecipeTin Eats & Swanky Recipes"
+      },
+      {
+        "name": "Plum tomatoes and diced canned tomatoes",
+        "source": "ENGLISH - Boston.gov & Harvard Nutrition Source"
+      },
+      {
+        "name": "Scallions / green onions",
+        "source": "HFSA Heart Healthy Guide"
+      },
+      {
+        "name": "Fresh baby spinach and zucchini",
+        "source": "Swanky Recipes & The Mediterranean Dish"
+      },
+      {
+        "name": "Bell peppers and okra",
+        "source": "Harvard Nutrition Source (Gumbo & Curry)"
+      },
+      {
+        "name": "Ripe avocado and fresh lime / pico de gallo",
+        "source": "Chef Pachi & Dishing Out Health"
+      },
+      {
+        "name": "Cucumber and red onion (Greek / Mediterranean salad)",
+        "source": "The Mediterranean Dish"
+      }
+    ],
+    "starches": [
+      {
+        "name": "Dried pasta (linguini, penne, angel hair, rotini)",
+        "source": "ENGLISH - Boston.gov & Swanky Recipes"
+      },
+      {
+        "name": "Steamed jasmine rice or brown rice",
+        "source": "Harvard Nutrition Source & The Mediterranean Dish"
+      },
+      {
+        "name": "Pearl couscous, polenta, or farro",
+        "source": "The Mediterranean Dish"
+      },
+      {
+        "name": "Warm corn tortillas",
+        "source": "Dishing Out Health"
+      },
+      {
+        "name": "Crusty artisan French or sourdough bread",
+        "source": "Sam the Cooking Guy & Swanky Recipes"
+      }
+    ],
+    "spices_and_herbs": [
+      {
+        "name": "Fresh flat-leaf parsley",
+        "source": "Swanky Recipes & RecipeTin Eats"
+      },
+      {
+        "name": "Fresh mint and fresh cilantro",
+        "source": "HFSA Heart Healthy Guide"
+      },
+      {
+        "name": "Sweet Spanish paprika and Aleppo pepper",
+        "source": "The Mediterranean Dish"
+      },
+      {
+        "name": "Ground cumin and ground coriander",
+        "source": "The Mediterranean Dish"
+      },
+      {
+        "name": "Crushed red pepper flakes",
+        "source": "Swanky Recipes & RecipeTin Eats"
+      },
+      {
+        "name": "Cajun / Creole seasoning",
+        "source": "Harvard Nutrition Source"
+      }
+    ],
+    "sauces_and_liquids": [
+      {
+        "name": "Extra-virgin olive oil",
+        "source": "The Mediterranean Dish & HFSA"
+      },
+      {
+        "name": "Salted or unsalted butter",
+        "source": "Sam the Cooking Guy & Swanky Recipes"
+      },
+      {
+        "name": "Dry white wine (for deglazing)",
+        "source": "RecipeTin Eats & Swanky Recipes"
+      },
+      {
+        "name": "Fresh lemon juice and lemon zest",
+        "source": "The Mediterranean Dish & Swanky Recipes"
+      },
+      {
+        "name": "Thai red curry paste and coconut milk",
+        "source": "Harvard Nutrition Source"
+      },
+      {
+        "name": "Low-sodium chicken or seafood stock",
+        "source": "RecipeTin Eats & The Mediterranean Dish"
+      }
+    ]
+  },
+  "avoid": [
+    {
+      "warning": "Overcooking: shrimp cook in 3 to 6 minutes; leaving them on heat past opacity expels moisture, shrinking them into tough, rubbery, tightly coiled 'O' rings.",
+      "source": "The Mediterranean Dish & Swanky Recipes"
+    },
+    {
+      "warning": "Crowding the skillet during pan-searing: overloading the pan drops cooking temperature and causes shrimp to boil in their own rendered moisture rather than searing with color.",
+      "source": "RecipeTin Eats (Garlic Prawns)"
+    },
+    {
+      "warning": "Burning minced garlic at high heat: garlic burns easily in high-heat searing; use chopped garlic and add partway through cooking or deglaze with wine to prevent bitter scorched garlic.",
+      "source": "RecipeTin Eats (Garlic Prawns)"
+    },
+    {
+      "warning": "Defrosting frozen shrimp in warm or hot water: warm water par-cooks delicate exterior flesh and invites bacterial growth; thaw frozen shrimp in a bowl of cold water for 10 minutes.",
+      "source": "Swanky Recipes (Tips for Frozen Shrimp)"
+    }
+  ]
+}

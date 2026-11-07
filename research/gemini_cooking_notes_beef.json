@@ -1,0 +1,39 @@
+{
+  "theme": "beef",
+  "batch_number": 2,
+  "summary_of_findings": {
+    "methods_identified": 5,
+    "recipes_identified": 7,
+    "core_sources": [
+      "Heart Healthy Recipe Guide - HFSA",
+      "Ultimate Guide to Beef | Burgers' Smokehouse",
+      "How to Cook Beef: Best Cooking Method for Every Cut - Clover Meadows Beef",
+      "BEEF COOKERY - NDBeef",
+      "The Kitchn (Cheesy Beef and Potatoes)",
+      "Food Network Kitchen (Three-Bean Chili)",
+      "Masterchef PDF - Bookey",
+      "SAFE MINIMUM INTERNAL TEMPERATURES - FDA"
+    ]
+  },
+  "gaps_in_sources": {
+    "missing_cuts_and_varieties": [
+      "No specific cooking times or liquid ratios for whole beef brisket in oven or smoker.",
+      "No parameters for beef short ribs (English cut vs flanken cut braising curves).",
+      "No guidelines for beef tongue, oxtail, or cheek braises."
+    ],
+    "missing_methods": [
+      "No sous-vide precision water bath parameters for ground beef or whole pot roasts.",
+      "No pressure cooker / Instant Pot high-pressure timing charts for pot roasts."
+    ],
+    "missing_parameters": [
+      "Exact collagen-to-gelatin conversion rates between grass-fed versus grain-fed beef chuck roasts.",
+      "Quantitative moisture-loss comparison between 80/20 versus 90/10 ground beef patties."
+    ]
+  },
+  "app_recommendations": [
+    "Enforce strict 160\u00b0F (71.1\u00b0C) internal doneness for all ground beef dishes; emphasize in app UI that internal color is not an indicator of doneness.",
+    "For braised pot roasts and stews, differentiate from quick-searing steak rules: direct users to cook chuck roast far past 145\u00b0F to 195\u00b0F\u2013205\u00b0F to ensure collagen melts into gelatin.",
+    "Instruct users never to press down on hamburger patties with a spatula while searing in skillet.",
+    "Provide two-stage browning logic for stews: brown floured beef cubes in uncrowded batches first, then deglaze with broth or wine before simmering."
+  ]
+}

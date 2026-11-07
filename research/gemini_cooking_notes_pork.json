@@ -1,0 +1,42 @@
+{
+  "theme": "pork",
+  "batch_number": 3,
+  "summary_of_findings": {
+    "methods_identified": 5,
+    "recipes_identified": 9,
+    "core_sources": [
+      "Best Damn Pan Seared Pork Chops - Recipe Teacher",
+      "The Best Juicy Skillet Pork Chops Recipe - Inspired Taste",
+      "Pork Roast with Crispy Crackling - RecipeTin Eats",
+      "Slow Cooker Pulled Pork (Easy Recipe) - Fifteen Spatulas",
+      "Know Your Pork Cuts - National Pork Board",
+      "We Tested 7 Methods for Cooking Juicy Pork Tenderloin | The Kitchn",
+      "The Ultimate Guide to Pork Ribs - Smithfield",
+      "The Temperature Trick For Crispy Skin On Slow-Roasted Pork Belly - Tasting Table",
+      "How to Cook Pork Chops: Juicy Every Time - Cookpad",
+      "SAFE MINIMUM INTERNAL TEMPERATURES - FDA"
+    ]
+  },
+  "gaps_in_sources": {
+    "missing_cuts_and_varieties": [
+      "No specific cooking times or liquid ratios for pork shanks (osso buco style).",
+      "No parameters for fresh whole suckling pig.",
+      "No parameters for pork cheeks or jowl (guanciale)."
+    ],
+    "missing_methods": [
+      "No sous-vide precision water bath temperature curves for pork chops or pork belly.",
+      "No deep-fat frying parameters for breaded pork cutlets (tonkatsu/schnitzel), consistent with app rules omitting deep-frying.",
+      "No rotisserie spit-roasting timing guidelines."
+    ],
+    "missing_parameters": [
+      "No exact moisture-loss comparison between bone-in chops versus boneless chops at identical internal temperatures.",
+      "No brine salinity percentage or osmosis absorption duration for pork chops."
+    ]
+  },
+  "app_recommendations": [
+    "Differentiate cooking logic by pork cut collagen content: strictly enforce 145\u00b0F (62.8\u00b0C) with a 3-minute rest for lean cuts (tenderloin, loin chops) to keep them juicy and pink, while directing collagen-rich cuts (shoulder, ribs, belly) to 195\u00b0F\u2013205\u00b0F slow braises/roasts.",
+    "For pork tenderloin, mandate silverskin removal in the prep instructions to eliminate tough chewing.",
+    "For crispy-skin roasts (shoulder, belly), implement the two-phase temperature sequence: low slow roast (320\u00b0F\u2013325\u00b0F) for 2 to 2.5 hours, followed by a high-heat blast (450\u00b0F\u2013485\u00b0F) for 25 to 30 minutes to blister the crackling.",
+    "For rib preparations, instruct users to strip the underside membrane before applying rubs to guarantee tenderness and spice penetration."
+  ]
+}

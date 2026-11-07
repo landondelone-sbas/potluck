@@ -1,4 +1,4 @@
-import { FREESTYLE_ID, cook, freestyle } from '../src';
+import { FREESTYLE_ID, cook, freestyle, type PotItem } from '../src';
 import { item, makeDish, must } from './helpers';
 
 const fridge = [
@@ -76,6 +76,17 @@ describe('freestyle: a dinner made from exactly what is in the pot', () => {
     expect(roast.steps.join(' ')).toContain('325°F (160°C) oven about 2 hours');
     expect(roast.steps.join(' ')).toContain('Add the carrots to the pot');
     expect(roast.dish.minutes).toBe(150);
+  });
+
+  test('the sourced cooking cues are in the freestyle steps', () => {
+    const text = (...items: PotItem[]) => must(freestyle(items)).steps.join(' ');
+    expect(text(item('protein', 'Shrimp'))).toContain('loose "C"');
+    expect(text(item('protein', 'Tofu'))).toContain('cornstarch');
+    expect(text(item('protein', 'Salmon'))).toContain('400°F (204°C)');
+    expect(text(item('protein', 'Eggs'))).toContain('medium-low');
+    expect(text(item('protein', 'Chicken breast'))).toContain('do not rinse');
+    expect(text(item('protein', 'Beef roast'))).toContain('fork-tender');
+    expect(text(item('protein', 'Black beans'))).toContain('dried beans need soaking');
   });
 
   test('eggs are scrambled until set and tofu is pan-fried', () => {

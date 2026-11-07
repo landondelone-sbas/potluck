@@ -1,0 +1,41 @@
+{
+  "theme": "shrimp",
+  "batch_number": 6,
+  "summary_of_findings": {
+    "methods_identified": 5,
+    "recipes_identified": 7,
+    "core_sources": [
+      "Sheet Pan Shrimp | The Mediterranean Dish",
+      "Garlic Prawns (Shrimp) - RecipeTin Eats",
+      "The Best Shrimp Scampi - Swanky Recipes",
+      "Heart Healthy Recipe Guide - HFSA",
+      "Recipes - The Nutrition Source | Harvard T.H. Chan School of Public Health",
+      "ENGLISH - Boston.gov",
+      "Healthy Weeknight Dinners You'll Actually Crave - Dishing Out Health",
+      "Butter Poached Shrimp - SAM THE COOKING GUY",
+      "SAFE MINIMUM INTERNAL TEMPERATURES - FDA"
+    ]
+  },
+  "gaps_in_sources": {
+    "missing_cuts_and_varieties": [
+      "No specific cooking times for tiny rock shrimp or salad shrimp (which cook in under 60 seconds).",
+      "No parameters comparing shell-on head-on live prawns versus frozen IQF peeled tails.",
+      "No guidelines for dried shrimp rehydration."
+    ],
+    "missing_methods": [
+      "No deep-frying or tempura batter specifications (complies with user rule omitting deep fryers).",
+      "No sous-vide precision water bath parameters for shrimp (e.g. 135\u00b0F / 57\u00b0C for 30 minutes).",
+      "No direct broiling rack distance guidelines beyond sheet pan roasting."
+    ],
+    "missing_parameters": [
+      "No quantitative carryover temperature rise recorded for large colossal shrimp (U-8).",
+      "No exact sodium levels comparing pre-brined frozen shrimp versus wild fresh shrimp."
+    ]
+  },
+  "app_recommendations": [
+    "Establish the universal visual doneness rule: shrimp are cooked when flesh turns opaque pink and forms a gentle 'C' curve (a tight 'O' shape indicates overcooking).",
+    "In skillet preparations, instruct users to sear shrimp first, transfer to a plate, build sauce/veggies, and re-incorporate shrimp only in the final minute to prevent tough rubbery texture.",
+    "For sheet-pan meals pairing shrimp with starchy vegetables (potatoes, squash), implement two-stage baking: roast vegetables first at 425\u00b0F for 20 minutes, then add shrimp for the final 6 minutes at 400\u00b0F.",
+    "Recommend patting shrimp thoroughly dry before searing to prevent steaming."
+  ]
+}

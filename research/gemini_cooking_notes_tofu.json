@@ -1,0 +1,40 @@
+{
+  "theme": "tofu",
+  "batch_number": 8,
+  "summary_of_findings": {
+    "methods_identified": 4,
+    "recipes_identified": 5,
+    "core_sources": [
+      "Every Grain of Rice: Simple Chinese Home Cooking by Fuchsia Dunlop",
+      "Frugal Vegan by Katie Koteen & Kate Kasbee",
+      "Our 50 Most-Popular Healthy Recipes - Food Network (Ellie Krieger)",
+      "The Complete Veggie Air Fryer Cookbook",
+      "The Nutrition Source - Harvard T.H. Chan School of Public Health",
+      "The Kitchn Crispy Tofu Technique Guide"
+    ]
+  },
+  "gaps_in_sources": {
+    "missing_cuts_and_forms": [
+      "No guidelines for dried bean curd skin (yuba) rehydration, wrapping, or simmering.",
+      "No cooking parameters for pressed spiced dry tofu (doufugan) or five-spice tofu cakes.",
+      "No specifications for tofu puffs (fried tofu pouches) or aburaage simmering times.",
+      "No fermented or stinky tofu preparation methods."
+    ],
+    "missing_methods": [
+      "No direct outdoor grilling parameters or stick-prevention grate seasoning rules for extra-firm tofu slabs.",
+      "No liquid-to-tofu ratios or simmering times for spicy braised tofu (e.g. Mapo Tofu).",
+      "No oven sheet-pan roasting time/temperature curves across convection vs conventional ovens.",
+      "No deep-poaching or gentle broth simmer parameters."
+    ],
+    "missing_parameters": [
+      "No quantitative formula for pressing weight (exact weight in pounds or optimal duration beyond '15 to 20 minutes').",
+      "No measured marinade absorption rates (oil-based vs water/soy-based marinades) for pressed versus unpressed tofu blocks."
+    ]
+  },
+  "app_recommendations": [
+    "Commercial pasteurized tofu requires no minimum internal cooking kill temperature; configure the app engine to permit raw/chilled consumption (e.g., silken tofu with soy dressing) or heating to 165°F (73.9°C) for warm dishes/leftovers.",
+    "Enforce a mandatory 15-minute pressing step for firm and extra-firm tofu in all sauté, sear, and air-fry workflows to expel internal moisture and guarantee a crisp exterior.",
+    "Recommend a light cornstarch dusting before searing or air-frying to achieve a shatter-crisp crust without deep-frying.",
+    "Treat silken tofu with strict gentle-handling logic: no vigorous stirring, add at the end of hot preparations, or serve cold/steamed with dressing."
+  ]
+}

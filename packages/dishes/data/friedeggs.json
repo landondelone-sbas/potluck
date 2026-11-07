@@ -1,0 +1,53 @@
+{
+  "id": "friedeggs",
+  "cuisine": "comfort",
+  "format": "plate",
+  "title": "Crispy-Edge Fried {p} with {v}",
+  "minutes": 10,
+  "feel": "Quick",
+  "wants": {
+    "protein": ["egg"],
+    "veg": ["greens", "tomato", "asparagus", "mushroom", "avocado", "zucchini"],
+    "spice": ["pepper", "herbs", "paprika"],
+    "sauce": ["hot", "salsa", "pesto"],
+    "starch": ["bread", "potato", "tortilla"]
+  },
+  "signature": [],
+  "defaults": {
+    "protein": "eggs",
+    "veg": "spinach",
+    "spice": "black pepper",
+    "sauce": "hot sauce",
+    "starch": "sourdough"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 2,
+      "unit": "n"
+    },
+    "veg": {
+      "qty": 150,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 2,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 10,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 2,
+      "unit": "n"
+    }
+  },
+  "steps": [
+    "Start the sides first. {starch_how} {veg_how}",
+    "Heat a generous spoonful of oil or butter in a skillet over medium-high heat until it shimmers. Slip the {p} in, then turn the heat down to low right away.",
+    "Tilt the pan and spoon the hot oil over the whites near the yolks. Cook 2 to 3 minutes, until the whites are opaque with golden, crisp edges.",
+    "For the safest finish, keep cooking until the yolks are firm: the target is {doneness}. A runny yolk is your choice and carries more risk.",
+    "Season with the {spice}, set the {p} on the {s} with the {v}, and add the {sauce}."
+  ],
+  "tip": "Pile on the greens and use one slice of toast for a light breakfast plate."
+}

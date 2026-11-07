@@ -1,0 +1,57 @@
+{
+  "id": "greenbeantofu",
+  "cuisine": "asian",
+  "format": "plate",
+  "title": "Crispy {p} with {v}",
+  "minutes": 30,
+  "feel": "Savory",
+  "wants": {
+    "protein": ["tofu"],
+    "veg": ["greenbeans", "broccoli", "asparagus", "pepper", "zucchini"],
+    "spice": ["garlic", "chili"],
+    "sauce": ["soy", "teriyaki"],
+    "starch": ["rice", "noodles"]
+  },
+  "signature": [
+    {
+      "category": "veg",
+      "tag": "greenbeans"
+    }
+  ],
+  "defaults": {
+    "protein": "tofu",
+    "veg": "green beans",
+    "spice": "garlic",
+    "sauce": "soy sauce",
+    "starch": "jasmine rice"
+  },
+  "amounts": {
+    "protein": {
+      "qty": 400,
+      "unit": "g"
+    },
+    "veg": {
+      "qty": 300,
+      "unit": "g"
+    },
+    "spice": {
+      "qty": 5,
+      "unit": "ml"
+    },
+    "sauce": {
+      "qty": 30,
+      "unit": "ml"
+    },
+    "starch": {
+      "qty": 150,
+      "unit": "g"
+    }
+  },
+  "steps": [
+    "Start the sides first. {starch_how} {veg_how}",
+    "Press the {p} between towels under a weight for 15 minutes, then cube it and dust with a little cornstarch. Sear in a hot oiled wok or skillet 5 to 6 minutes, turning, until golden and crisp. Move to a plate.",
+    "Add the {spice} to the pan for 30 seconds, until fragrant. Return the {p}, pour in the {sauce} with a splash of rice vinegar, and toss until coated.",
+    "Serve the {p} with the {v} over the {s}, with crushed peanuts if you like."
+  ],
+  "tip": "Use half the oil and let the vegetables fill most of the plate."
+}
