@@ -1,0 +1,104 @@
+{
+  "theme": "turkey",
+  "count": 1,
+  "skipped_note": "Slow Cooker Cranberry Turkey Tenderloin (HFSA p. 24) excluded under Rule 5 (slow cooker recipe taking 4-5 hours on high / 8-10 hours on low). White Bean Turkey Chili (Boston.gov p. 18) excluded under Rule 7 (chili blacklisted). Turkey Tostadas (Boston.gov) excluded under Rule 7 (blacklisted). Spaghetti with Turkey Meatballs (Boston.gov p. 10) excluded under Rule 6 (lacks dedicated vegetable component). Turkey and Beef Meatloaf / Turkey Meatballs (Food Network) excluded under Rule 1 (link/blurb only).",
+  "recipes": [
+    {
+      "id": "turkey_001",
+      "title": "Orange Glazed-Turkey with Potatoes and Carrots",
+      "cuisine": "comfort",
+      "format": "pot",
+      "source": {
+        "name": "Heart Healthy Recipe Guide - HFSA",
+        "location": "Page 24"
+      },
+      "servings": 6,
+      "prep_minutes": 15,
+      "cook_minutes": 60,
+      "ingredients": [
+        {
+          "quantity": "1.75",
+          "unit": "lb",
+          "name": "boneless skinless turkey breast",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "lb",
+          "name": "potatoes, cut into 2-inch chunks",
+          "role": "starch",
+          "optional": false
+        },
+        {
+          "quantity": "4",
+          "unit": "medium",
+          "name": "carrots, cut into 2-inch chunks",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tsp",
+          "name": "dried mixed herbs (rosemary, basil, parsley, tarragon, chives, thyme, sage)",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.75",
+          "unit": "tsp",
+          "name": "salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "black pepper",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "garlic powder",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "tbsp",
+          "name": "sugar-free orange marmalade",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "spray",
+          "name": "cooking spray",
+          "role": "staple",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Preheat the oven to 375°F.",
+        "Coat a 13x9x2-inch baking dish lightly with cooking spray and place the turkey breast in the center.",
+        "In a small bowl, stir together the dried herbs, salt, pepper, and garlic powder, then rub half of the mixture evenly across the turkey breast.",
+        "Spread the orange marmalade over the top surface of the seasoned turkey breast.",
+        "Toss the cut potatoes and carrots with the olive oil and the remaining herb seasoning in a bowl, then arrange them evenly around the turkey in the baking dish.",
+        "Bake uncovered for 1 hour until the turkey is cooked through and the vegetables are tender.",
+        "Let the turkey rest for 5 to 10 minutes before carving and serving alongside the roasted vegetables."
+      ],
+      "source_temperatures": [],
+      "swaps": "Dried mixed herbs can be any combination of rosemary, basil, parsley, tarragon, chives, thyme, and sage; any potato variety can be used.",
+      "notes": "Equipment: 13x9x2-inch baking dish. Passive time: 5-10 minutes resting after baking."
+    }
+  ]
+}

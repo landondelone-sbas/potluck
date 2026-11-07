@@ -1,0 +1,1307 @@
+{
+  "total_recipes": 50,
+  "category": "Other Proteins",
+  "recipes": [
+    {
+      "id": "other_001",
+      "title": "Italian Sausage & Pepper Hoagies with Melted Provolone",
+      "cuisine": "Italian-American",
+      "protein_cut": "Italian sweet & hot sausage links",
+      "cook_method": "skillet saut\u00e9",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs Italian pork sausages (sweet & hot links)",
+        "3 bell peppers, sliced",
+        "2 large onions, sliced",
+        "Provolone cheese, hoagie rolls"
+      ],
+      "instructions": [
+        "Prepare and season the Italian sweet & hot sausage links with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet saut\u00e9 to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "italian-american",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_002",
+      "title": "Baked Ziti with Italian Sausage & Three Cheeses",
+      "cuisine": "Italian-American",
+      "protein_cut": "bulk Italian sausage",
+      "cook_method": "casserole baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 30,
+      "servings": 8,
+      "ingredients": [
+        "1.5 lbs bulk Italian sausage",
+        "1 lb ziti pasta",
+        "Marinara sauce, ricotta cheese, mozzarella, parmesan"
+      ],
+      "instructions": [
+        "Prepare and season the bulk Italian sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using casserole baking to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 30 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "italian-american",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_003",
+      "title": "Creamy Tuscan Sausage & Potato Soup (Zuppa Toscana)",
+      "cuisine": "Italian",
+      "protein_cut": "hot Italian ground sausage",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "1 lb hot Italian sausage",
+        "3 russet potatoes, sliced",
+        "1 bunch kale, heavy cream, chicken broth, garlic"
+      ],
+      "instructions": [
+        "Prepare and season the hot Italian ground sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using soup simmering to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 30 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "italian",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_004",
+      "title": "Orecchiette Pasta with Sausage & Broccoli Rabe",
+      "cuisine": "Italian",
+      "protein_cut": "bulk sweet Italian sausage",
+      "cook_method": "skillet pasta toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1 lb sweet Italian sausage",
+        "1 lb orecchiette pasta",
+        "1 bunch broccoli rabe (rapini), garlic, olive oil, pecorino"
+      ],
+      "instructions": [
+        "Prepare and season the bulk sweet Italian sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet pasta toss to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "italian",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_005",
+      "title": "Stuffed Mushrooms with Italian Sausage & Parmesan",
+      "cuisine": "Italian Appetizer",
+      "protein_cut": "mild Italian sausage",
+      "cook_method": "baked appetizer",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 8,
+      "ingredients": [
+        "1/2 lb mild Italian sausage",
+        "24 white button mushrooms",
+        "Parmesan, breadcrumbs, garlic, cream cheese"
+      ],
+      "instructions": [
+        "Prepare and season the mild Italian sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using baked appetizer to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "italian-appetizer",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_006",
+      "title": "Sausage & Spinach Stuffed Shells in Marinara",
+      "cuisine": "Italian-American",
+      "protein_cut": "Italian sausage & ricotta",
+      "cook_method": "casserole baking",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 35,
+      "servings": 6,
+      "ingredients": [
+        "1 lb Italian sausage",
+        "Jumbo pasta shells",
+        "Whole milk ricotta, baby spinach, mozzarella, marinara"
+      ],
+      "instructions": [
+        "Prepare and season the Italian sausage & ricotta with salt, pepper, and signature regional seasonings.",
+        "Cook using casserole baking to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 35 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "italian-american",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_007",
+      "title": "Creamy Tomato Basil Tortellini with Italian Sausage",
+      "cuisine": "Italian",
+      "protein_cut": "sweet Italian sausage",
+      "cook_method": "skillet pasta",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1 lb sweet Italian sausage",
+        "Cheese tortellini",
+        "Crushed tomatoes, heavy cream, fresh basil, garlic"
+      ],
+      "instructions": [
+        "Prepare and season the sweet Italian sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet pasta to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "italian",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_008",
+      "title": "Sheet-Pan Italian Sausage, Peppers, and Polenta",
+      "cuisine": "Italian",
+      "protein_cut": "Italian sausage links",
+      "cook_method": "sheet-pan roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs sausage links",
+        "Sliced polenta tube rounds",
+        "Bell peppers, red onions, olive oil, oregano"
+      ],
+      "instructions": [
+        "Prepare and season the Italian sausage links with salt, pepper, and signature regional seasonings.",
+        "Cook using sheet-pan roasting to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 30 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "italian",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_009",
+      "title": "Italian Sausage & White Bean Stew with Kale",
+      "cuisine": "Tuscan",
+      "protein_cut": "sweet Italian sausage links",
+      "cook_method": "one-pot stew",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs Italian sausage",
+        "2 cans cannellini beans",
+        "Lacinato kale, chicken broth, carrots, garlic, rosemary"
+      ],
+      "instructions": [
+        "Prepare and season the sweet Italian sausage links with salt, pepper, and signature regional seasonings.",
+        "Cook using one-pot stew to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 30 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "tuscan",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_010",
+      "title": "Spicy Sausage Rigatoni alla Vodka",
+      "cuisine": "Italian-American",
+      "protein_cut": "hot Italian ground sausage",
+      "cook_method": "vodka cream pasta",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1 lb hot Italian sausage",
+        "Rigatoni pasta",
+        "Vodka cream tomato sauce, parmesan cheese, chili flakes"
+      ],
+      "instructions": [
+        "Prepare and season the hot Italian ground sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using vodka cream pasta to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "italian-american",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_011",
+      "title": "Grilled Italian Sausage with Caramelized Onions & Mustard",
+      "cuisine": "American Pub",
+      "protein_cut": "sausage links",
+      "cook_method": "grilling",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "8 Italian sausage links",
+        "Caramelized onions in beer",
+        "Spicy brown mustard, toasted crusty rolls"
+      ],
+      "instructions": [
+        "Prepare and season the sausage links with salt, pepper, and signature regional seasonings.",
+        "Cook using grilling to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "american-pub",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_012",
+      "title": "Italian Sausage & Artichoke Heart Frittata",
+      "cuisine": "Brunch",
+      "protein_cut": "bulk Italian sausage",
+      "cook_method": "cast-iron baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1/2 lb Italian sausage",
+        "8 eggs, splash of cream",
+        "Marinated artichoke hearts, fontina cheese, fresh basil"
+      ],
+      "instructions": [
+        "Prepare and season the bulk Italian sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using cast-iron baking to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "brunch",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_013",
+      "title": "Sausage Stuffed Acorn Squash with Cranberries",
+      "cuisine": "Fall Harvest",
+      "protein_cut": "Italian sausage & apples",
+      "cook_method": "baked stuffed squash",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "1 lb Italian sausage",
+        "2 acorn squashes, halved",
+        "Diced apples, dried cranberries, pecans, maple syrup"
+      ],
+      "instructions": [
+        "Prepare and season the Italian sausage & apples with salt, pepper, and signature regional seasonings.",
+        "Cook using baked stuffed squash to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 45 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "fall-harvest",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_014",
+      "title": "Sausage, Lentil & Swiss Chard Soup",
+      "cuisine": "Rustic Italian",
+      "protein_cut": "Italian sausage links, sliced",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 40,
+      "servings": 6,
+      "ingredients": [
+        "1 lb Italian sausage",
+        "Brown lentils, Swiss chard",
+        "Carrots, celery, chicken stock, grated parmesan"
+      ],
+      "instructions": [
+        "Prepare and season the Italian sausage links, sliced with salt, pepper, and signature regional seasonings.",
+        "Cook using soup simmering to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 40 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "rustic-italian",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_015",
+      "title": "Crispy Sausage & Fontina Flatbread Pizza",
+      "cuisine": "Italian",
+      "protein_cut": "crumbled Italian sausage",
+      "cook_method": "high-heat baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1/2 lb Italian sausage crumbles",
+        "Naan or flatbread crusts",
+        "Fontina cheese, caramelized onions, hot honey"
+      ],
+      "instructions": [
+        "Prepare and season the crumbled Italian sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using high-heat baking to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 12 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "italian",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_016",
+      "title": "Crispy Baked Sesame Tofu Bites",
+      "cuisine": "Asian Healthy",
+      "protein_cut": "extra-firm tofu, pressed & cubed",
+      "cook_method": "cornstarch-crisped baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "1 block extra-firm tofu, pressed",
+        "2 tbsp cornstarch, 2 tbsp soy sauce",
+        "Toasted sesame oil, sweet chili sauce"
+      ],
+      "instructions": [
+        "Prepare and season the extra-firm tofu, pressed & cubed with salt, pepper, and signature regional seasonings.",
+        "Cook using cornstarch-crisped baking to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 25 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "asian-healthy",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_017",
+      "title": "Vegetarian Szechuan Mapo Tofu with Shiitakes",
+      "cuisine": "Chinese (Szechuan)",
+      "protein_cut": "silken tofu & minced mushrooms",
+      "cook_method": "spicy bean paste simmer",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1 block silken tofu",
+        "Minced shiitake mushrooms",
+        "Pixian doubanjiang, Szechuan peppercorn powder, scallions"
+      ],
+      "instructions": [
+        "Prepare and season the silken tofu & minced mushrooms with salt, pepper, and signature regional seasonings.",
+        "Cook using spicy bean paste simmer to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "chinese-(szechuan)",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_018",
+      "title": "Crispy General Tso's Tofu with Steamed Broccoli",
+      "cuisine": "Chinese-American",
+      "protein_cut": "extra-firm tofu cubes",
+      "cook_method": "crispy frying & glaze",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1 block extra-firm tofu, cornstarch battered",
+        "General Tso sweet & tangy sauce",
+        "Steamed broccoli crowns, white rice"
+      ],
+      "instructions": [
+        "Prepare and season the extra-firm tofu cubes with salt, pepper, and signature regional seasonings.",
+        "Cook using crispy frying & glaze to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "chinese-american",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_019",
+      "title": "Thai Red Curry with Crispy Tofu & Bamboo Shoots",
+      "cuisine": "Thai",
+      "protein_cut": "firm tofu cubes",
+      "cook_method": "coconut curry simmering",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1 block firm tofu cubes",
+        "Thai red curry paste, coconut milk",
+        "Bamboo shoots, bell peppers, Thai basil leaves"
+      ],
+      "instructions": [
+        "Prepare and season the firm tofu cubes with salt, pepper, and signature regional seasonings.",
+        "Cook using coconut curry simmering to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "thai",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_020",
+      "title": "Japanese Agedashi Tofu in Dashi Broth",
+      "cuisine": "Japanese",
+      "protein_cut": "medium-firm tofu, cornstarch dredged",
+      "cook_method": "fried & served in dashi",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1 block medium-firm tofu",
+        "Katakuriko potato starch",
+        "Warm dashi-mirin-soy broth, grated daikon, scallions"
+      ],
+      "instructions": [
+        "Prepare and season the medium-firm tofu, cornstarch dredged with salt, pepper, and signature regional seasonings.",
+        "Cook using fried & served in dashi to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 10 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "japanese",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_021",
+      "title": "Honey Soy Glazed Tofu & Green Bean Bowls",
+      "cuisine": "Asian Meal Prep",
+      "protein_cut": "extra-firm tofu planks",
+      "cook_method": "pan-seared & glazed",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1 block extra-firm tofu",
+        "Fresh green beans, garlic",
+        "Honey, soy sauce, sesame seeds, brown rice"
+      ],
+      "instructions": [
+        "Prepare and season the extra-firm tofu planks with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-seared & glazed to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "asian-meal-prep",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_022",
+      "title": "Spicy Kung Pao Tofu with Peanuts & Chilies",
+      "cuisine": "Chinese (Szechuan)",
+      "protein_cut": "extra-firm tofu cubes",
+      "cook_method": "wok stir-fry",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1 block extra-firm tofu",
+        "Roasted peanuts, dried red chilies",
+        "Szechuan peppercorns, Chinkiang vinegar brown sauce"
+      ],
+      "instructions": [
+        "Prepare and season the extra-firm tofu cubes with salt, pepper, and signature regional seasonings.",
+        "Cook using wok stir-fry to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 10 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "chinese-(szechuan)",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_023",
+      "title": "Korean Dubu Jorim (Spicy Braised Tofu)",
+      "cuisine": "Korean",
+      "protein_cut": "firm tofu slabs",
+      "cook_method": "pan-fried & braised",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1 block firm tofu slabs",
+        "Gochugaru chili flakes, soy sauce",
+        "Garlic, sesame oil, sliced scallions and onions"
+      ],
+      "instructions": [
+        "Prepare and season the firm tofu slabs with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-fried & braised to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "korean",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_024",
+      "title": "Smoked Tofu Pad Thai with Peanuts & Lime",
+      "cuisine": "Thai",
+      "protein_cut": "pressed firm tofu strips",
+      "cook_method": "noodle stir-fry",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1 block firm pressed tofu",
+        "Flat rice noodles, eggs, bean sprouts",
+        "Tamarind sauce, crushed peanuts, lime wedges"
+      ],
+      "instructions": [
+        "Prepare and season the pressed firm tofu strips with salt, pepper, and signature regional seasonings.",
+        "Cook using noodle stir-fry to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 10 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "thai",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_025",
+      "title": "Crispy Tofu Banh Mi with Pickled Vegetables",
+      "cuisine": "Vietnamese",
+      "protein_cut": "pan-fried lemongrass tofu",
+      "cook_method": "baguette sandwich",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Firm tofu strips, marinated in lemongrass",
+        "Crispy French baguette, spicy mayo",
+        "Pickled daikon and carrots (do chua), cilantro"
+      ],
+      "instructions": [
+        "Prepare and season the pan-fried lemongrass tofu with salt, pepper, and signature regional seasonings.",
+        "Cook using baguette sandwich to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 10 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "vietnamese",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_026",
+      "title": "Vietnamese Lemongrass Chili Tofu",
+      "cuisine": "Vietnamese",
+      "protein_cut": "firm tofu cubes",
+      "cook_method": "fragrant wok toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1 block firm tofu, cubed and crisped",
+        "Minced lemongrass, bird's eye chilies",
+        "Garlic, shallots, soy sauce, scallions"
+      ],
+      "instructions": [
+        "Prepare and season the firm tofu cubes with salt, pepper, and signature regional seasonings.",
+        "Cook using fragrant wok toss to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 10 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "vietnamese",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_027",
+      "title": "Crispy Tofu Caesar Salad with Garlic Croutons",
+      "cuisine": "Modern Vegan",
+      "protein_cut": "extra-firm baked tofu cubes",
+      "cook_method": "chilled salad assembly",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "Baked garlic herb tofu cubes",
+        "Crisp romaine hearts, sourdough croutons",
+        "Vegan creamy Caesar dressing, nutritional yeast"
+      ],
+      "instructions": [
+        "Prepare and season the extra-firm baked tofu cubes with salt, pepper, and signature regional seasonings.",
+        "Cook using chilled salad assembly to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "modern-vegan",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_028",
+      "title": "Sweet & Sour Crispy Tofu with Pineapple",
+      "cuisine": "Chinese",
+      "protein_cut": "extra-firm tofu, battered",
+      "cook_method": "crispy frying & sweet glaze",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "Extra-firm tofu nuggets, cornstarch battered",
+        "Fresh pineapple chunks, bell peppers",
+        "Sweet and sour vinegar glaze, white rice"
+      ],
+      "instructions": [
+        "Prepare and season the extra-firm tofu, battered with salt, pepper, and signature regional seasonings.",
+        "Cook using crispy frying & sweet glaze to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "chinese",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_029",
+      "title": "Indian Tofu Tikka Masala in Spiced Tomato Gravy",
+      "cuisine": "Indian Fusion",
+      "protein_cut": "firm tofu cubes, marinated",
+      "cook_method": "broiled & simmered",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "1 block firm tofu, spiced yogurt marinade",
+        "Creamy spiced tomato masala sauce",
+        "Garam masala, fenugreek leaves (kasuri methi)"
+      ],
+      "instructions": [
+        "Prepare and season the firm tofu cubes, marinated with salt, pepper, and signature regional seasonings.",
+        "Cook using broiled & simmered to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 25 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "indian-fusion",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_030",
+      "title": "Tofu and Vegetable Stir-Fry in Garlic Sauce",
+      "cuisine": "Chinese",
+      "protein_cut": "cubed firm tofu",
+      "cook_method": "wok stir-fry",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Firm tofu cubes, seared",
+        "Broccoli, snow peas, bell peppers, carrots",
+        "Savory garlic ginger brown sauce"
+      ],
+      "instructions": [
+        "Prepare and season the cubed firm tofu with salt, pepper, and signature regional seasonings.",
+        "Cook using wok stir-fry to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 10 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "chinese",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_031",
+      "title": "Juicy Chipotle Turkey Burgers with Avocado",
+      "cuisine": "American Healthy",
+      "protein_cut": "ground turkey (93/7)",
+      "cook_method": "cast-iron griddling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs lean ground turkey",
+        "Minced chipotles in adobo, cumin, garlic",
+        "Brioche buns, sliced avocado, pepper jack cheese"
+      ],
+      "instructions": [
+        "Prepare and season the ground turkey (93/7) with salt, pepper, and signature regional seasonings.",
+        "Cook using cast-iron griddling to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 12 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "american-healthy",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_032",
+      "title": "Turkey Meatballs in Basil Marinara Sauce",
+      "cuisine": "Italian-American",
+      "protein_cut": "lean ground turkey",
+      "cook_method": "baked & simmered",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground turkey",
+        "Breadcrumbs, egg, parmesan, garlic, herbs",
+        "Simmered in tomato basil marinara, spaghetti"
+      ],
+      "instructions": [
+        "Prepare and season the lean ground turkey with salt, pepper, and signature regional seasonings.",
+        "Cook using baked & simmered to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 25 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "italian-american",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_033",
+      "title": "Slow-Cooker White Bean Turkey Chili",
+      "cuisine": "American",
+      "protein_cut": "ground turkey & cannellini beans",
+      "cook_method": "slow-cooker",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 300,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground turkey, browned",
+        "2 cans cannellini white beans, green chilies",
+        "Chicken broth, cumin, Monterey Jack cheese"
+      ],
+      "instructions": [
+        "Prepare and season the ground turkey & cannellini beans with salt, pepper, and signature regional seasonings.",
+        "Cook using slow-cooker to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 300 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "american",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_034",
+      "title": "Turkey Taco Stuffed Bell Peppers",
+      "cuisine": "Mexican-American",
+      "protein_cut": "ground turkey with taco spices",
+      "cook_method": "stuffed & baked",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 30,
+      "servings": 4,
+      "ingredients": [
+        "1 lb seasoned ground turkey",
+        "4 large bell peppers, halved",
+        "Black beans, corn, salsa, melted cheddar"
+      ],
+      "instructions": [
+        "Prepare and season the ground turkey with taco spices with salt, pepper, and signature regional seasonings.",
+        "Cook using stuffed & baked to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 30 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "mexican-american",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_035",
+      "title": "Asian Ground Turkey Lettuce Wraps",
+      "cuisine": "Asian Fusion",
+      "protein_cut": "lean ground turkey",
+      "cook_method": "wok stir-fry",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs lean ground turkey",
+        "Diced water chestnuts, scallions, ginger",
+        "Hoisin soy sauce, crisp butter lettuce cups"
+      ],
+      "instructions": [
+        "Prepare and season the lean ground turkey with salt, pepper, and signature regional seasonings.",
+        "Cook using wok stir-fry to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 10 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "asian-fusion",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_036",
+      "title": "Creamy Turkey Tetrazzini Pasta Bake",
+      "cuisine": "American Comfort",
+      "protein_cut": "cooked shredded turkey breast",
+      "cook_method": "casserole baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "3 cups cooked turkey breast",
+        "Spaghetti or egg noodles, sliced mushrooms",
+        "Creamy sherry white wine sauce, parmesan breadcrumb crust"
+      ],
+      "instructions": [
+        "Prepare and season the cooked shredded turkey breast with salt, pepper, and signature regional seasonings.",
+        "Cook using casserole baking to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 30 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "american-comfort",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_037",
+      "title": "Greek Turkey Souvlaki Burgers with Tzatziki",
+      "cuisine": "Greek Fusion",
+      "protein_cut": "ground turkey with oregano & feta",
+      "cook_method": "pan-seared patties",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs ground turkey, crumbled feta, oregano",
+        "Warm pita rounds, homemade tzatziki",
+        "Sliced cucumbers, red onions, tomatoes"
+      ],
+      "instructions": [
+        "Prepare and season the ground turkey with oregano & feta with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-seared patties to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 12 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "greek-fusion",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_038",
+      "title": "Turkey Bolognese over Spaghetti Squash",
+      "cuisine": "Low-Carb Italian",
+      "protein_cut": "ground turkey",
+      "cook_method": "simmered meat sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs ground turkey, soffritto",
+        "Crushed San Marzano tomatoes, garlic, basil",
+        "Roasted spaghetti squash strands, parmesan"
+      ],
+      "instructions": [
+        "Prepare and season the ground turkey with salt, pepper, and signature regional seasonings.",
+        "Cook using simmered meat sauce to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 30 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "low-carb-italian",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_039",
+      "title": "Sweet Potato & Ground Turkey Skillet",
+      "cuisine": "Healthy Weeknight",
+      "protein_cut": "ground turkey",
+      "cook_method": "one-pan skillet",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs ground turkey",
+        "Diced sweet potatoes, bell peppers, onions",
+        "Smoked paprika, cumin, baby spinach"
+      ],
+      "instructions": [
+        "Prepare and season the ground turkey with salt, pepper, and signature regional seasonings.",
+        "Cook using one-pan skillet to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "healthy-weeknight",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_040",
+      "title": "Turkey Breakfast Sausage Patties with Sage",
+      "cuisine": "Southern Breakfast",
+      "protein_cut": "ground turkey with herbs",
+      "cook_method": "skillet pan-fry",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 6,
+      "ingredients": [
+        "1 lb ground turkey",
+        "Rubbed sage, black pepper, red pepper flakes",
+        "Maple syrup splash, pan-fried in patties"
+      ],
+      "instructions": [
+        "Prepare and season the ground turkey with herbs with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet pan-fry to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 10 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "southern-breakfast",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_041",
+      "title": "Rosemary Garlic Seared Lamb Chops",
+      "cuisine": "Mediterranean",
+      "protein_cut": "bone-in lamb loin or rib chops",
+      "cook_method": "cast-iron seared & basted",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "8 lamb loin or rib chops",
+        "Fresh rosemary, minced garlic, olive oil",
+        "Butter basted in cast-iron, flaky sea salt"
+      ],
+      "instructions": [
+        "Prepare and season the bone-in lamb loin or rib chops with salt, pepper, and signature regional seasonings.",
+        "Cook using cast-iron seared & basted to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 10 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "mediterranean",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_042",
+      "title": "Slow-Braised Lamb Shanks in Red Wine Gravy",
+      "cuisine": "French / Continental",
+      "protein_cut": "bone-in lamb shanks",
+      "cook_method": "Dutch oven braising",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 180,
+      "servings": 4,
+      "ingredients": [
+        "4 large lamb shanks, seared",
+        "Dry red wine, beef stock, mirepoix",
+        "Fresh rosemary, thyme, served over garlic mash"
+      ],
+      "instructions": [
+        "Prepare and season the bone-in lamb shanks with salt, pepper, and signature regional seasonings.",
+        "Cook using Dutch oven braising to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 180 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "french-/-continental",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_043",
+      "title": "Greek Roast Lamb Kleftiko with Potatoes",
+      "cuisine": "Greek",
+      "protein_cut": "bone-in leg of lamb or shoulder",
+      "cook_method": "slow parchment roast",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 240,
+      "servings": 8,
+      "ingredients": [
+        "4 lbs lamb shoulder, lemon juice, garlic, oregano",
+        "Potatoes, bell peppers, tomatoes",
+        "Sealed in parchment packet and slow-roasted"
+      ],
+      "instructions": [
+        "Prepare and season the bone-in leg of lamb or shoulder with salt, pepper, and signature regional seasonings.",
+        "Cook using slow parchment roast to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 240 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "greek",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_044",
+      "title": "Classic British Shepherd's Pie with Lamb",
+      "cuisine": "British",
+      "protein_cut": "ground lamb (traditional mince)",
+      "cook_method": "skillet & baked potato crust",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 40,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground lamb mince",
+        "Peas, carrots, onions, Worcestershire, rosemary",
+        "Savory lamb gravy, piped golden mashed potatoes"
+      ],
+      "instructions": [
+        "Prepare and season the ground lamb (traditional mince) with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet & baked potato crust to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 40 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "british",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_045",
+      "title": "Middle Eastern Spiced Lamb Kofta Skewers",
+      "cuisine": "Middle Eastern",
+      "protein_cut": "ground lamb with mint & cumin",
+      "cook_method": "skewered charcoal grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 12,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs ground lamb, grated onion, fresh mint",
+        "Cumin, coriander, allspice, sumac",
+        "Grilled skewers, tahini sauce, warm flatbread"
+      ],
+      "instructions": [
+        "Prepare and season the ground lamb with mint & cumin with salt, pepper, and signature regional seasonings.",
+        "Cook using skewered charcoal grilling to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 12 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "middle-eastern",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_046",
+      "title": "Moroccan Lamb Tagine with Apricots & Almonds",
+      "cuisine": "Moroccan",
+      "protein_cut": "lamb shoulder cubes",
+      "cook_method": "tagine braise",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs lamb shoulder chunks",
+        "Dried Turkish apricots, honey, cinnamon",
+        "Ginger, saffron, toasted almonds, couscous"
+      ],
+      "instructions": [
+        "Prepare and season the lamb shoulder cubes with salt, pepper, and signature regional seasonings.",
+        "Cook using tagine braise to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 120 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "moroccan",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_047",
+      "title": "Indian Lamb Rogan Josh Curry",
+      "cuisine": "Indian (Kashmiri)",
+      "protein_cut": "bone-in lamb pieces",
+      "cook_method": "yogurt & kashmiri chili braise",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs bone-in lamb pieces",
+        "Whisked yogurt, Kashmiri red chili powder",
+        "Fennel seed powder, dry ginger, mustard oil"
+      ],
+      "instructions": [
+        "Prepare and season the bone-in lamb pieces with salt, pepper, and signature regional seasonings.",
+        "Cook using yogurt & kashmiri chili braise to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "indian-(kashmiri)",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_048",
+      "title": "Grilled Lamb Burger with Feta & Mint Aioli",
+      "cuisine": "Mediterranean Pub",
+      "protein_cut": "ground lamb patties",
+      "cook_method": "grilled burger",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs ground lamb patties, cumin, oregano",
+        "Brioche buns, crumbled feta, pickled red onions",
+        "Fresh mint garlic aioli"
+      ],
+      "instructions": [
+        "Prepare and season the ground lamb patties with salt, pepper, and signature regional seasonings.",
+        "Cook using grilled burger to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 10 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "mediterranean-pub",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_049",
+      "title": "Turkish Lamb Shawarma Plate",
+      "cuisine": "Turkish",
+      "protein_cut": "shaved seasoned lamb",
+      "cook_method": "broiled & spiced",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sliced seasoned lamb leg",
+        "Baharat spice blend, garlic, yogurt",
+        "Broiled charred, sumac onions, rice pilaf"
+      ],
+      "instructions": [
+        "Prepare and season the shaved seasoned lamb with salt, pepper, and signature regional seasonings.",
+        "Cook using broiled & spiced to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "turkish",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "other_050",
+      "title": "Herb-Crusted Rack of Lamb with Mint Sauce",
+      "cuisine": "Steakhouse Classic",
+      "protein_cut": "frenched rack of lamb",
+      "cook_method": "seared & herb-crusted roast",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "2 frenched racks of lamb (8 ribs each)",
+        "Dijon mustard brush, fresh rosemary, thyme, panko",
+        "Roast at 425\u00b0F to medium-rare, mint jelly"
+      ],
+      "instructions": [
+        "Prepare and season the frenched rack of lamb with salt, pepper, and signature regional seasonings.",
+        "Cook using seared & herb-crusted roast to achieve optimal texture, sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 25 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "other-proteins",
+        "steakhouse-classic",
+        "potluck-friendly"
+      ]
+    }
+  ]
+}

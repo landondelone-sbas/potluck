@@ -1,0 +1,91 @@
+{
+  "theme": "italian sausage",
+  "count": 1,
+  "skipped_note": "Rules 2 and 3 relaxed. Sourced from NotebookLM. Spicy Italian Sausage and Pepperoni Flatbread Pizza included. Excluded: general sausage links mentioned without recipes in bookey summaries.",
+  "recipes": [
+    {
+      "id": "italian_sausage_001",
+      "title": "Spicy Italian Sausage and Pepperoni Flatbread Pizza",
+      "cuisine": "italian",
+      "format": "plate",
+      "source": {
+        "name": "ENGLISH - Boston.gov",
+        "location": "Page 45, shared by Ahlani Jackson"
+      },
+      "servings": 4,
+      "prep_minutes": 10,
+      "cook_minutes": 15,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "flatbreads",
+          "name": "naan flatbreads (or prepared flatbread crusts)",
+          "role": "starch",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "links",
+          "name": "hot Italian sausages, casings removed",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "cup",
+          "name": "pepperoni slices, chopped",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "cup",
+          "name": "pizza sauce or marinara",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "cup",
+          "name": "shredded mozzarella cheese",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "cup",
+          "name": "shredded parmesan cheese",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "leaves",
+          "name": "fresh basil, chopped",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Preheat the oven to 400\u00b0F (200\u00b0C) and line a large baking sheet with parchment paper or foil.",
+        "Heat 1 tablespoon olive oil in a skillet over medium heat. Add the sausage meat, breaking it up with a wooden spoon, and cook until browned and cooked through (5-7 minutes). Drain excess fat.",
+        "Brush both sides of the naan flatbreads lightly with the remaining olive oil and place them on the baking sheet.",
+        "Spread pizza sauce evenly over each flatbread, leaving a thin border around the edges.",
+        "Evenly distribute shredded mozzarella, cooked Italian sausage, and chopped pepperoni across the flatbreads.",
+        "Top with shredded parmesan cheese.",
+        "Bake in the preheated oven for 10 to 12 minutes until the edges are golden crisp and cheese is bubbly and melted.",
+        "Garnish with chopped fresh basil, slice into wedges, and serve."
+      ],
+      "source_temperatures": [],
+      "swaps": "Mild Italian sausage can be substituted for hot sausage; pita bread can be used in place of naan.",
+      "notes": "Equipment: Skillet, baking sheet, chef's knife or pizza cutter. Fast, flavorful dinner with balanced browning."
+    }
+  ]
+}

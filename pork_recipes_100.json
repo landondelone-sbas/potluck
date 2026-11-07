@@ -1,0 +1,2608 @@
+{
+  "total_recipes": 100,
+  "category": "Pork",
+  "recipes": [
+    {
+      "id": "pork_001",
+      "title": "Carolina Pulled Pork with Cider Vinegar",
+      "cuisine": "BBQ,",
+      "protein_cut": "pork shoulder / ribs",
+      "cook_method": "slow-smoking / baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 300,
+      "servings": 8,
+      "ingredients": [
+        "6 lbs pork shoulder",
+        "Apple cider vinegar sauce",
+        "Brown sugar, paprika, garlic",
+        "Potato buns, coleslaw"
+      ],
+      "instructions": [
+        "Season the pork shoulder / ribs with salt, pepper, and signature regional seasonings.",
+        "Cook using slow-smoking / baking to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 300 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "bbq,-ribs-&-pulled-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_002",
+      "title": "Memphis Dry-Rub Baby Back Ribs",
+      "cuisine": "BBQ,",
+      "protein_cut": "pork shoulder / ribs",
+      "cook_method": "slow-smoking / baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 300,
+      "servings": 8,
+      "ingredients": [
+        "2 racks baby back ribs",
+        "Brown sugar, paprika, garlic, onion powder",
+        "Apple juice spritz"
+      ],
+      "instructions": [
+        "Season the pork shoulder / ribs with salt, pepper, and signature regional seasonings.",
+        "Cook using slow-smoking / baking to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 300 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "bbq,-ribs-&-pulled-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_003",
+      "title": "Sweet & Sticky Glazed St. Louis Ribs",
+      "cuisine": "BBQ,",
+      "protein_cut": "pork shoulder / ribs",
+      "cook_method": "slow-smoking / baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 300,
+      "servings": 8,
+      "ingredients": [
+        "2 racks St. Louis ribs",
+        "Hickory BBQ sauce, honey, brown sugar",
+        "Yellow mustard slather"
+      ],
+      "instructions": [
+        "Season the pork shoulder / ribs with salt, pepper, and signature regional seasonings.",
+        "Cook using slow-smoking / baking to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 300 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "bbq,-ribs-&-pulled-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_004",
+      "title": "Hawaiian Kalua Pork with Cabbage",
+      "cuisine": "BBQ,",
+      "protein_cut": "pork shoulder / ribs",
+      "cook_method": "slow-smoking / baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 300,
+      "servings": 8,
+      "ingredients": [
+        "5 lbs pork shoulder",
+        "Hawaiian red sea salt, liquid smoke",
+        "Green cabbage wedges, white rice"
+      ],
+      "instructions": [
+        "Season the pork shoulder / ribs with salt, pepper, and signature regional seasonings.",
+        "Cook using slow-smoking / baking to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 300 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "bbq,-ribs-&-pulled-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_005",
+      "title": "Slow-Cooker Honey BBQ Pulled Pork",
+      "cuisine": "BBQ,",
+      "protein_cut": "pork shoulder / ribs",
+      "cook_method": "slow-smoking / baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 300,
+      "servings": 8,
+      "ingredients": [
+        "3.5 lbs pork shoulder",
+        "Sweet BBQ sauce, honey, cider vinegar",
+        "Brioche slider buns"
+      ],
+      "instructions": [
+        "Season the pork shoulder / ribs with salt, pepper, and signature regional seasonings.",
+        "Cook using slow-smoking / baking to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 300 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "bbq,-ribs-&-pulled-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_006",
+      "title": "Smoky Pork Belly Burnt Ends",
+      "cuisine": "BBQ,",
+      "protein_cut": "pork shoulder / ribs",
+      "cook_method": "slow-smoking / baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 300,
+      "servings": 8,
+      "ingredients": [
+        "3 lbs pork belly cubes",
+        "BBQ dry rub, butter, brown sugar, honey",
+        "Caramelized BBQ glaze"
+      ],
+      "instructions": [
+        "Season the pork shoulder / ribs with salt, pepper, and signature regional seasonings.",
+        "Cook using slow-smoking / baking to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 300 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "bbq,-ribs-&-pulled-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_007",
+      "title": "Southern Ham Hocks with Collard Greens",
+      "cuisine": "BBQ,",
+      "protein_cut": "pork shoulder / ribs",
+      "cook_method": "slow-smoking / baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 300,
+      "servings": 8,
+      "ingredients": [
+        "2 smoked ham hocks",
+        "2 lbs collard greens",
+        "Chicken broth, cider vinegar, pepper flakes",
+        "Cornbread"
+      ],
+      "instructions": [
+        "Season the pork shoulder / ribs with salt, pepper, and signature regional seasonings.",
+        "Cook using slow-smoking / baking to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 300 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "bbq,-ribs-&-pulled-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_008",
+      "title": "Glazed Holiday Spiral Ham",
+      "cuisine": "BBQ,",
+      "protein_cut": "pork shoulder / ribs",
+      "cook_method": "slow-smoking / baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 300,
+      "servings": 8,
+      "ingredients": [
+        "8-9 lbs bone-in spiral ham",
+        "Dark brown sugar, honey, Dijon mustard",
+        "Apple cider, cloves glaze"
+      ],
+      "instructions": [
+        "Season the pork shoulder / ribs with salt, pepper, and signature regional seasonings.",
+        "Cook using slow-smoking / baking to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 300 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "bbq,-ribs-&-pulled-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_009",
+      "title": "Instant Pot BBQ Pulled Pork",
+      "cuisine": "BBQ,",
+      "protein_cut": "pork shoulder / ribs",
+      "cook_method": "slow-smoking / baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 300,
+      "servings": 8,
+      "ingredients": [
+        "4 lbs pork shoulder chunks",
+        "BBQ rub, cider vinegar, chicken broth",
+        "Sweet BBQ sauce, buns"
+      ],
+      "instructions": [
+        "Season the pork shoulder / ribs with salt, pepper, and signature regional seasonings.",
+        "Cook using slow-smoking / baking to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 300 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "bbq,-ribs-&-pulled-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_010",
+      "title": "Sheet-Pan Smoked Sausage & Apple Hash",
+      "cuisine": "BBQ,",
+      "protein_cut": "pork shoulder / ribs",
+      "cook_method": "slow-smoking / baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 300,
+      "servings": 8,
+      "ingredients": [
+        "1.25 lbs smoked sausage coins",
+        "Sweet potatoes, crisp apples, red onion",
+        "Maple syrup, rosemary"
+      ],
+      "instructions": [
+        "Season the pork shoulder / ribs with salt, pepper, and signature regional seasonings.",
+        "Cook using slow-smoking / baking to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 300 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "bbq,-ribs-&-pulled-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_011",
+      "title": "Authentic Mexican Carnitas Michoac\u00e1n",
+      "cuisine": "Mexican",
+      "protein_cut": "pork shoulder / belly",
+      "cook_method": "confit / braising",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "4 lbs pork shoulder chunks",
+        "Lard confit, orange juice, evaporated milk",
+        "Garlic, oregano, corn tortillas"
+      ],
+      "instructions": [
+        "Season the pork shoulder / belly with salt, pepper, and signature regional seasonings.",
+        "Cook using confit / braising to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 120 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "mexican-&-latin-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_012",
+      "title": "Tacos al Pastor with Charred Pineapple",
+      "cuisine": "Mexican",
+      "protein_cut": "pork shoulder / belly",
+      "cook_method": "confit / braising",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs thin pork shoulder",
+        "Achiote paste, guajillo chilies, pineapple juice",
+        "Charred pineapple, cilantro"
+      ],
+      "instructions": [
+        "Season the pork shoulder / belly with salt, pepper, and signature regional seasonings.",
+        "Cook using confit / braising to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 120 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "mexican-&-latin-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_013",
+      "title": "Mexican Pozole Rojo con Puerco",
+      "cuisine": "Mexican",
+      "protein_cut": "pork shoulder / belly",
+      "cook_method": "confit / braising",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs pork shoulder & neck bones",
+        "White hominy, ancho & guajillo chilies",
+        "Oregano, shredded cabbage, radishes"
+      ],
+      "instructions": [
+        "Season the pork shoulder / belly with salt, pepper, and signature regional seasonings.",
+        "Cook using confit / braising to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 120 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "mexican-&-latin-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_014",
+      "title": "Puerto Rican Pernil Asado",
+      "cuisine": "Mexican",
+      "protein_cut": "pork shoulder / belly",
+      "cook_method": "confit / braising",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "7 lbs bone-in pork shoulder",
+        "Garlic, oregano, vinegar mojo rub",
+        "Crispy blistered cuerito skin"
+      ],
+      "instructions": [
+        "Season the pork shoulder / belly with salt, pepper, and signature regional seasonings.",
+        "Cook using confit / braising to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 120 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "mexican-&-latin-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_015",
+      "title": "Crispy Pork Chicharr\u00f3n with Guacamole",
+      "cuisine": "Mexican",
+      "protein_cut": "pork shoulder / belly",
+      "cook_method": "confit / braising",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs pork belly strips",
+        "Sea salt, lime juice",
+        "Fried crispy crackling, guacamole, arepas"
+      ],
+      "instructions": [
+        "Season the pork shoulder / belly with salt, pepper, and signature regional seasonings.",
+        "Cook using confit / braising to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 120 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "mexican-&-latin-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_016",
+      "title": "Yucatan Cochinita Pibil in Banana Leaves",
+      "cuisine": "Mexican",
+      "protein_cut": "pork shoulder / belly",
+      "cook_method": "confit / braising",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "4 lbs pork shoulder chunks",
+        "Achiote paste, bitter orange juice",
+        "Banana leaves wrap, pickled habanero onions"
+      ],
+      "instructions": [
+        "Season the pork shoulder / belly with salt, pepper, and signature regional seasonings.",
+        "Cook using confit / braising to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 120 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "mexican-&-latin-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_017",
+      "title": "Colombian Chuleta Valluna",
+      "cuisine": "Mexican",
+      "protein_cut": "pork shoulder / belly",
+      "cook_method": "confit / braising",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "4 boneless pork chops, pounded thin",
+        "Cumin, garlic, seasoned breadcrumbs",
+        "Fried plantains, white rice"
+      ],
+      "instructions": [
+        "Season the pork shoulder / belly with salt, pepper, and signature regional seasonings.",
+        "Cook using confit / braising to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 120 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "mexican-&-latin-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_018",
+      "title": "Spicy Pork Enchiladas Rojas",
+      "cuisine": "Mexican",
+      "protein_cut": "pork shoulder / belly",
+      "cook_method": "confit / braising",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "3 cups shredded cooked pork",
+        "Corn tortillas, red enchilada sauce",
+        "Monterey Jack, cheddar, crema"
+      ],
+      "instructions": [
+        "Season the pork shoulder / belly with salt, pepper, and signature regional seasonings.",
+        "Cook using confit / braising to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 120 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "mexican-&-latin-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_019",
+      "title": "Cuban Mojo Roast Pork",
+      "cuisine": "Mexican",
+      "protein_cut": "pork shoulder / belly",
+      "cook_method": "confit / braising",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "4 lbs pork shoulder",
+        "Sour orange juice, garlic, cumin, oregano",
+        "Black beans, rice, sweet plantains"
+      ],
+      "instructions": [
+        "Season the pork shoulder / belly with salt, pepper, and signature regional seasonings.",
+        "Cook using confit / braising to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 120 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "mexican-&-latin-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_020",
+      "title": "Slow-Cooker Chile Verde Pork Stew",
+      "cuisine": "Mexican",
+      "protein_cut": "pork shoulder / belly",
+      "cook_method": "confit / braising",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "3.5 lbs pork shoulder cubes",
+        "Roasted tomatillos, Hatch green chilies",
+        "Garlic, cumin, cilantro, warm tortillas"
+      ],
+      "instructions": [
+        "Season the pork shoulder / belly with salt, pepper, and signature regional seasonings.",
+        "Cook using confit / braising to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 120 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "mexican-&-latin-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_021",
+      "title": "Italian Porchetta with Crackling Skin",
+      "cuisine": "Italian",
+      "protein_cut": "pork loin / tenderloin / sausage",
+      "cook_method": "roasting / skillet",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "5 lbs pork belly wrapped around loin",
+        "Fresh rosemary, fennel seeds, garlic, lemon zest",
+        "Crispy crackling crust"
+      ],
+      "instructions": [
+        "Season the pork loin / tenderloin / sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using roasting / skillet to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "italian-&-mediterranean-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_022",
+      "title": "Sausage and Peppers Sheet-Pan Bake",
+      "cuisine": "Italian",
+      "protein_cut": "pork loin / tenderloin / sausage",
+      "cook_method": "roasting / skillet",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs Italian sausage links",
+        "Bell peppers, onions, garlic",
+        "Olive oil, oregano, hoagie rolls"
+      ],
+      "instructions": [
+        "Season the pork loin / tenderloin / sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using roasting / skillet to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "italian-&-mediterranean-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_023",
+      "title": "Pork Chops Milanese with Fennel Salad",
+      "cuisine": "Italian",
+      "protein_cut": "pork loin / tenderloin / sausage",
+      "cook_method": "roasting / skillet",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "4 bone-in chops, pounded thin",
+        "Panko, parmesan, lemon",
+        "Arugula and shaved fennel salad"
+      ],
+      "instructions": [
+        "Season the pork loin / tenderloin / sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using roasting / skillet to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "italian-&-mediterranean-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_024",
+      "title": "Tuscan Garlic Herb Pork Loin (Arista)",
+      "cuisine": "Italian",
+      "protein_cut": "pork loin / tenderloin / sausage",
+      "cook_method": "roasting / skillet",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "3.5 lbs boneless pork loin",
+        "Garlic slivers, fresh rosemary, sage",
+        "Olive oil, white wine pan sauce"
+      ],
+      "instructions": [
+        "Season the pork loin / tenderloin / sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using roasting / skillet to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "italian-&-mediterranean-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_025",
+      "title": "Pork Saltimbocca with Prosciutto & Sage",
+      "cuisine": "Italian",
+      "protein_cut": "pork loin / tenderloin / sausage",
+      "cook_method": "roasting / skillet",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs tenderloin medallions",
+        "Prosciutto di Parma, fresh sage",
+        "White wine butter pan sauce"
+      ],
+      "instructions": [
+        "Season the pork loin / tenderloin / sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using roasting / skillet to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "italian-&-mediterranean-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_026",
+      "title": "Slow-Braised Italian Pork Rag\u00f9 Pappardelle",
+      "cuisine": "Italian",
+      "protein_cut": "pork loin / tenderloin / sausage",
+      "cook_method": "roasting / skillet",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs pork shoulder chunks",
+        "San Marzano tomatoes, red wine, soffritto",
+        "Fresh pappardelle pasta, pecorino"
+      ],
+      "instructions": [
+        "Season the pork loin / tenderloin / sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using roasting / skillet to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "italian-&-mediterranean-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_027",
+      "title": "Greek Pork Souvlaki with Tzatziki",
+      "cuisine": "Italian",
+      "protein_cut": "pork loin / tenderloin / sausage",
+      "cook_method": "roasting / skillet",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs pork tenderloin cubes",
+        "Olive oil, lemon juice, Greek oregano, garlic",
+        "Warm pita, tzatziki, tomatoes"
+      ],
+      "instructions": [
+        "Season the pork loin / tenderloin / sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using roasting / skillet to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "italian-&-mediterranean-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_028",
+      "title": "Spanish Braised Pork Cheeks (Carrilladas)",
+      "cuisine": "Italian",
+      "protein_cut": "pork loin / tenderloin / sausage",
+      "cook_method": "roasting / skillet",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs pork cheeks",
+        "Rioja red wine, carrots, leeks, garlic",
+        "Silky braising reduction, mash"
+      ],
+      "instructions": [
+        "Season the pork loin / tenderloin / sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using roasting / skillet to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "italian-&-mediterranean-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_029",
+      "title": "Stuffed Pork Loin with Provolone & Prosciutto",
+      "cuisine": "Italian",
+      "protein_cut": "pork loin / tenderloin / sausage",
+      "cook_method": "roasting / skillet",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs butterflied pork loin",
+        "Prosciutto, wilted baby spinach, provolone",
+        "Herb butter, roasted pinwheels"
+      ],
+      "instructions": [
+        "Season the pork loin / tenderloin / sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using roasting / skillet to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "italian-&-mediterranean-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_030",
+      "title": "Neapolitan Pork Ribs in Sunday Gravy",
+      "cuisine": "Italian",
+      "protein_cut": "pork loin / tenderloin / sausage",
+      "cook_method": "roasting / skillet",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs pork ribs, separated",
+        "Crushed tomatoes, red wine, garlic, basil",
+        "Simmered rich tomato sauce, rigatoni"
+      ],
+      "instructions": [
+        "Season the pork loin / tenderloin / sausage with salt, pepper, and signature regional seasonings.",
+        "Cook using roasting / skillet to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "italian-&-mediterranean-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_031",
+      "title": "Japanese Pork Tonkatsu with Cabbage",
+      "cuisine": "East",
+      "protein_cut": "pork belly / tenderloin / loin",
+      "cook_method": "pan-fried / braised",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 4,
+      "ingredients": [
+        "4 center-cut pork loin chops",
+        "Japanese panko, flour, eggs",
+        "Shredded green cabbage, tonkatsu sauce"
+      ],
+      "instructions": [
+        "Season the pork belly / tenderloin / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-fried / braised to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 40 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "east-asian-pork-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_032",
+      "title": "Japanese Melt-in-Mouth Kakuni Pork Belly",
+      "cuisine": "East",
+      "protein_cut": "pork belly / tenderloin / loin",
+      "cook_method": "pan-fried / braised",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 4,
+      "ingredients": [
+        "2.5 lbs pork belly cubes",
+        "Dashi stock, soy sauce, mirin, sake, ginger",
+        "Soft-boiled eggs, karashi mustard"
+      ],
+      "instructions": [
+        "Season the pork belly / tenderloin / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-fried / braised to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 40 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "east-asian-pork-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_033",
+      "title": "Szechuan Twice-Cooked Pork (Hui Guo Rou)",
+      "cuisine": "East",
+      "protein_cut": "pork belly / tenderloin / loin",
+      "cook_method": "pan-fried / braised",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 4,
+      "ingredients": [
+        "1 lb boiled pork belly, sliced paper-thin",
+        "Chinese leeks, spicy bean paste, sweet bean sauce",
+        "Fermented black beans, wok-seared"
+      ],
+      "instructions": [
+        "Season the pork belly / tenderloin / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-fried / braised to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 40 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "east-asian-pork-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_034",
+      "title": "Classic Sweet & Sour Pork (Gu Lou Yuk)",
+      "cuisine": "East",
+      "protein_cut": "pork belly / tenderloin / loin",
+      "cook_method": "pan-fried / braised",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs pork shoulder cubes",
+        "Cornstarch batter, bell peppers, pineapple",
+        "Sweet and sour tomato vinegar glaze"
+      ],
+      "instructions": [
+        "Season the pork belly / tenderloin / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-fried / braised to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 40 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "east-asian-pork-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_035",
+      "title": "Szechuan Mapo Tofu with Minced Pork",
+      "cuisine": "East",
+      "protein_cut": "pork belly / tenderloin / loin",
+      "cook_method": "pan-fried / braised",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 4,
+      "ingredients": [
+        "1/2 lb ground pork",
+        "Silken tofu cubes, Pixian chili bean paste",
+        "Szechuan peppercorn powder, scallions"
+      ],
+      "instructions": [
+        "Season the pork belly / tenderloin / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-fried / braised to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 40 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "east-asian-pork-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_036",
+      "title": "Dim Sum Steamed Ribs in Black Bean Sauce",
+      "cuisine": "East",
+      "protein_cut": "pork belly / tenderloin / loin",
+      "cook_method": "pan-fried / braised",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs rib nuggets",
+        "Fermented black beans, garlic, Shaoxing wine",
+        "Steamed in bamboo steamer"
+      ],
+      "instructions": [
+        "Season the pork belly / tenderloin / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-fried / braised to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 40 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "east-asian-pork-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_037",
+      "title": "Japanese Chashu Pork for Ramen",
+      "cuisine": "East",
+      "protein_cut": "pork belly / tenderloin / loin",
+      "cook_method": "pan-fried / braised",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 4,
+      "ingredients": [
+        "3 lbs pork belly roll, tied with twine",
+        "Soy sauce, mirin, sake, ginger, scallions",
+        "Torched slices over steaming ramen"
+      ],
+      "instructions": [
+        "Season the pork belly / tenderloin / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-fried / braised to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 40 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "east-asian-pork-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_038",
+      "title": "Korean Spicy Pork (Jeyuk Bokkeum)",
+      "cuisine": "East",
+      "protein_cut": "pork belly / tenderloin / loin",
+      "cook_method": "pan-fried / braised",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sliced pork shoulder",
+        "Gochujang, gochugaru, soy sauce, sesame oil",
+        "Charred wok stir-fry, perilla leaves"
+      ],
+      "instructions": [
+        "Season the pork belly / tenderloin / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-fried / braised to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 40 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "east-asian-pork-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_039",
+      "title": "Hangzhou Dongpo Pork Belly Blocks",
+      "cuisine": "East",
+      "protein_cut": "pork belly / tenderloin / loin",
+      "cook_method": "pan-fried / braised",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs pork belly squares",
+        "Shaoxing wine, light and dark soy, rock sugar",
+        "Steamed over thick bed of scallions"
+      ],
+      "instructions": [
+        "Season the pork belly / tenderloin / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-fried / braised to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 40 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "east-asian-pork-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_040",
+      "title": "Taiwanese Five-Spice Popcorn Pork Chops",
+      "cuisine": "East",
+      "protein_cut": "pork belly / tenderloin / loin",
+      "cook_method": "pan-fried / braised",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 4,
+      "ingredients": [
+        "4 pounded pork chops",
+        "Five-spice marinade, sweet potato starch",
+        "Deep-fried crispy, fried Thai basil"
+      ],
+      "instructions": [
+        "Season the pork belly / tenderloin / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-fried / braised to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 40 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "east-asian-pork-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_041",
+      "title": "Crispy Skin Filipino Lechon Kawali",
+      "cuisine": "Southeast",
+      "protein_cut": "pork belly / chops / ground pork",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs pork belly slab",
+        "Boiled, dried, deep-fried crackling",
+        "Mang Tomas lechon sauce"
+      ],
+      "instructions": [
+        "Season the pork belly / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / grilled to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "southeast-asian-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_042",
+      "title": "Traditional Filipino Pork Adobo",
+      "cuisine": "Southeast",
+      "protein_cut": "pork belly / chops / ground pork",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs pork belly and shoulder cubes",
+        "Cane vinegar, soy sauce, whole garlic head",
+        "Black peppercorns, bay leaves, garlic rice"
+      ],
+      "instructions": [
+        "Season the pork belly / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / grilled to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "southeast-asian-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_043",
+      "title": "Vietnamese Caramelized Pork Belly (Thit Kho)",
+      "cuisine": "Southeast",
+      "protein_cut": "pork belly / chops / ground pork",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs pork belly chunks",
+        "Dark amber caramel sauce, fresh coconut water",
+        "Fish sauce, hard-boiled eggs"
+      ],
+      "instructions": [
+        "Season the pork belly / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / grilled to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "southeast-asian-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_044",
+      "title": "Thai Grilled Pork Neck (Kor Moo Yang)",
+      "cuisine": "Southeast",
+      "protein_cut": "pork belly / chops / ground pork",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs pork jowl / collar",
+        "Oyster sauce, fish sauce, palm sugar",
+        "Spicy toasted-rice Nam Jim Jaew dip"
+      ],
+      "instructions": [
+        "Season the pork belly / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / grilled to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "southeast-asian-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_045",
+      "title": "Balinese Babi Guling Roast Pork",
+      "cuisine": "Southeast",
+      "protein_cut": "pork belly / chops / ground pork",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "4 lbs pork shoulder or belly",
+        "Bumbu spice paste: shallots, turmeric, galangal",
+        "Slow-roasted, sambal, green beans"
+      ],
+      "instructions": [
+        "Season the pork belly / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / grilled to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "southeast-asian-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_046",
+      "title": "Vietnamese Lemongrass Pork Chops (Suon Nuong)",
+      "cuisine": "Southeast",
+      "protein_cut": "pork belly / chops / ground pork",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "4 thin bone-in chops",
+        "Minced lemongrass, fish sauce, sugar, garlic",
+        "Grilled charred, broken rice (com tam)"
+      ],
+      "instructions": [
+        "Season the pork belly / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / grilled to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "southeast-asian-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_047",
+      "title": "Filipino Sizzling Pork Sisig",
+      "cuisine": "Southeast",
+      "protein_cut": "pork belly / chops / ground pork",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs boiled and grilled pork belly, diced fine",
+        "Red onions, Thai chilies, calamansi, mayo",
+        "Sizzling cast-iron platter, raw egg"
+      ],
+      "instructions": [
+        "Season the pork belly / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / grilled to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "southeast-asian-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_048",
+      "title": "Thai Spicy Minced Pork Salad (Larb Moo)",
+      "cuisine": "Southeast",
+      "protein_cut": "pork belly / chops / ground pork",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "1 lb ground pork, poached",
+        "Fish sauce, lime juice, chili flakes, mint",
+        "Toasted sticky rice powder, cabbage"
+      ],
+      "instructions": [
+        "Season the pork belly / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / grilled to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "southeast-asian-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_049",
+      "title": "Malaysian Bakuteh Herbal Pork Ribs",
+      "cuisine": "Southeast",
+      "protein_cut": "pork belly / chops / ground pork",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs pork spare ribs",
+        "Medicinal herbal packet, whole garlic heads",
+        "Dark soy broth, fried crullers (youtiao)"
+      ],
+      "instructions": [
+        "Season the pork belly / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / grilled to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "southeast-asian-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_050",
+      "title": "Vietnamese Crispy Pork Belly Banh Mi",
+      "cuisine": "Southeast",
+      "protein_cut": "pork belly / chops / ground pork",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "1 lb crispy pork belly slices",
+        "Warm baguette, French liver p\u00e2t\u00e9, mayo",
+        "Pickled carrots & daikon (do chua), cilantro"
+      ],
+      "instructions": [
+        "Season the pork belly / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / grilled to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 45 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "southeast-asian-pork",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_051",
+      "title": "German Pork Schnitzel with Lemon",
+      "cuisine": "European",
+      "protein_cut": "pork chops / knuckle / loin",
+      "cook_method": "braised / fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "4 boneless pork loin cutlets, pounded thin",
+        "Fine breadcrumbs, clarified butter",
+        "Lemon wedges, potato salad"
+      ],
+      "instructions": [
+        "Season the pork chops / knuckle / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "european-comfort-&-pub",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_052",
+      "title": "Hungarian Pork Paprikash with Spaetzle",
+      "cuisine": "European",
+      "protein_cut": "pork chops / knuckle / loin",
+      "cook_method": "braised / fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs pork shoulder cubes",
+        "Sweet Hungarian paprika, sour cream, onions",
+        "Tender egg dumplings (nokedli)"
+      ],
+      "instructions": [
+        "Season the pork chops / knuckle / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "european-comfort-&-pub",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_053",
+      "title": "Bavarian Eisbein Pork Knuckle with Sauerkraut",
+      "cuisine": "European",
+      "protein_cut": "pork chops / knuckle / loin",
+      "cook_method": "braised / fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "2 large pork knuckles (ham hocks)",
+        "Bavarian beer braise, caraway sauerkraut",
+        "Mashed potatoes, spicy mustard"
+      ],
+      "instructions": [
+        "Season the pork chops / knuckle / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "european-comfort-&-pub",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_054",
+      "title": "French Rillettes du Mans Potted Pork",
+      "cuisine": "European",
+      "protein_cut": "pork chops / knuckle / loin",
+      "cook_method": "braised / fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs pork shoulder and belly",
+        "Slow confit, shredded into potted spread",
+        "Crusty baguette, cornichons"
+      ],
+      "instructions": [
+        "Season the pork chops / knuckle / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "european-comfort-&-pub",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_055",
+      "title": "Polish Bigos Hunter's Stew",
+      "cuisine": "European",
+      "protein_cut": "pork chops / knuckle / loin",
+      "cook_method": "braised / fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "Pork shoulder, smoked kielbasa, bacon",
+        "Sauerkraut, fresh cabbage, dried porcini",
+        "Red wine, caraway, rye bread"
+      ],
+      "instructions": [
+        "Season the pork chops / knuckle / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "european-comfort-&-pub",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_056",
+      "title": "Spanish Pork Tenderloin with Romesco Sauce",
+      "cuisine": "European",
+      "protein_cut": "pork chops / knuckle / loin",
+      "cook_method": "braised / fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs whole pork tenderloin",
+        "Smoked paprika, roasted red pepper romesco",
+        "Toasted almonds, sherry vinegar"
+      ],
+      "instructions": [
+        "Season the pork chops / knuckle / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "european-comfort-&-pub",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_057",
+      "title": "Pork Chops in Creamy Mushroom Dijon Sauce",
+      "cuisine": "European",
+      "protein_cut": "pork chops / knuckle / loin",
+      "cook_method": "braised / fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "4 bone-in pork chops",
+        "Cremini mushrooms, white wine, heavy cream",
+        "Dijon mustard, fresh tarragon"
+      ],
+      "instructions": [
+        "Season the pork chops / knuckle / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "european-comfort-&-pub",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_058",
+      "title": "Portuguese Pork and Clams (Alentejana)",
+      "cuisine": "European",
+      "protein_cut": "pork chops / knuckle / loin",
+      "cook_method": "braised / fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs marinated pork cubes",
+        "2 lbs fresh littleneck clams",
+        "Red pepper paste, white wine, fried potato cubes"
+      ],
+      "instructions": [
+        "Season the pork chops / knuckle / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "european-comfort-&-pub",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_059",
+      "title": "Austrian Schweinsbraten with Caraway",
+      "cuisine": "European",
+      "protein_cut": "pork chops / knuckle / loin",
+      "cook_method": "braised / fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "3.5 lbs pork shoulder roast",
+        "Crushed caraway seeds, garlic, Austrian beer",
+        "Semmelkn\u00f6del bread dumplings"
+      ],
+      "instructions": [
+        "Season the pork chops / knuckle / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "european-comfort-&-pub",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_060",
+      "title": "French Pork Chops Charcuti\u00e8re with Cornichons",
+      "cuisine": "European",
+      "protein_cut": "pork chops / knuckle / loin",
+      "cook_method": "braised / fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "4 center-cut pork chops",
+        "White wine pan reduction, Dijon mustard",
+        "Finely chopped sour cornichons, butter"
+      ],
+      "instructions": [
+        "Season the pork chops / knuckle / loin with salt, pepper, and signature regional seasonings.",
+        "Cook using braised / fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "european-comfort-&-pub",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_061",
+      "title": "Pork Chops with Caramelized Apples & Onions",
+      "cuisine": "Pork",
+      "protein_cut": "center-cut chops / tenderloin",
+      "cook_method": "pan-searing & glazes",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "4 bone-in pork chops (1-inch thick)",
+        "Sliced sweet apples, yellow onions",
+        "Apple cider glaze, fresh sage, butter"
+      ],
+      "instructions": [
+        "Season the center-cut chops / tenderloin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-searing & glazes to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-chops-&-tenderloin",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_062",
+      "title": "Bacon-Wrapped Pork Tenderloin with Maple Dijon",
+      "cuisine": "Pork",
+      "protein_cut": "center-cut chops / tenderloin",
+      "cook_method": "pan-searing & glazes",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs pork tenderloin",
+        "Thin-cut bacon strips, pure maple syrup",
+        "Dijon mustard, apple cider vinegar"
+      ],
+      "instructions": [
+        "Season the center-cut chops / tenderloin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-searing & glazes to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-chops-&-tenderloin",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_063",
+      "title": "Brown Sugar & Peach Glazed Pork Chops",
+      "cuisine": "Pork",
+      "protein_cut": "center-cut chops / tenderloin",
+      "cook_method": "pan-searing & glazes",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "4 thick bone-in chops",
+        "Peach preserves, cider vinegar, brown sugar",
+        "Bourbon glaze, cast-iron seared"
+      ],
+      "instructions": [
+        "Season the center-cut chops / tenderloin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-searing & glazes to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-chops-&-tenderloin",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_064",
+      "title": "Cranberry Herb Stuffed Pork Chops",
+      "cuisine": "Pork",
+      "protein_cut": "center-cut chops / tenderloin",
+      "cook_method": "pan-searing & glazes",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "4 thick chops with pocket",
+        "Seasoned stuffing, dried cranberries, pecans",
+        "Baked until golden and juicy"
+      ],
+      "instructions": [
+        "Season the center-cut chops / tenderloin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-searing & glazes to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-chops-&-tenderloin",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_065",
+      "title": "Honey Garlic Butter Pan-Seared Pork Chops",
+      "cuisine": "Pork",
+      "protein_cut": "center-cut chops / tenderloin",
+      "cook_method": "pan-searing & glazes",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "4 boneless pork chops",
+        "Butter, minced garlic, honey, soy sauce",
+        "Cider vinegar, sticky pan glaze"
+      ],
+      "instructions": [
+        "Season the center-cut chops / tenderloin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-searing & glazes to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-chops-&-tenderloin",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_066",
+      "title": "Pork Medallions with Blackberry Wine Reduction",
+      "cuisine": "Pork",
+      "protein_cut": "center-cut chops / tenderloin",
+      "cook_method": "pan-searing & glazes",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs tenderloin medallions",
+        "Fresh blackberries, red wine, honey",
+        "Rosemary sprig, cold butter swirl"
+      ],
+      "instructions": [
+        "Season the center-cut chops / tenderloin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-searing & glazes to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-chops-&-tenderloin",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_067",
+      "title": "Crispy Parmesan-Crusted Pork Chops",
+      "cuisine": "Pork",
+      "protein_cut": "center-cut chops / tenderloin",
+      "cook_method": "pan-searing & glazes",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "4 boneless pork chops",
+        "Panko breadcrumbs, grated parmesan, herbs",
+        "Dijon mustard brush, baked crispy"
+      ],
+      "instructions": [
+        "Season the center-cut chops / tenderloin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-searing & glazes to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-chops-&-tenderloin",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_068",
+      "title": "Jamaican Jerk Pork Tenderloin",
+      "cuisine": "Pork",
+      "protein_cut": "center-cut chops / tenderloin",
+      "cook_method": "pan-searing & glazes",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "2 pork tenderloins",
+        "Authentic spicy jerk marinade, allspice",
+        "Grilled charred over coals, lime juice"
+      ],
+      "instructions": [
+        "Season the center-cut chops / tenderloin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-searing & glazes to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-chops-&-tenderloin",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_069",
+      "title": "Cast-Iron Butter-Basted Pork Ribeye",
+      "cuisine": "Pork",
+      "protein_cut": "center-cut chops / tenderloin",
+      "cook_method": "pan-searing & glazes",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "2 thick bone-in ribeye chops",
+        "Unsalted butter, smashed garlic, fresh thyme",
+        "High-heat cast-iron sear, basted"
+      ],
+      "instructions": [
+        "Season the center-cut chops / tenderloin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-searing & glazes to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-chops-&-tenderloin",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_070",
+      "title": "Cajun Blackened Center-Cut Pork Chops",
+      "cuisine": "Pork",
+      "protein_cut": "center-cut chops / tenderloin",
+      "cook_method": "pan-searing & glazes",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "4 center-cut pork chops",
+        "Melted butter, spicy Cajun blackening rub",
+        "Screaming hot cast-iron blackened"
+      ],
+      "instructions": [
+        "Season the center-cut chops / tenderloin with salt, pepper, and signature regional seasonings.",
+        "Cook using pan-searing & glazes to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-chops-&-tenderloin",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_071",
+      "title": "Korean Boiled Pork Belly Wraps (Bossam)",
+      "cuisine": "Pork",
+      "protein_cut": "pork belly slab / thick bacon",
+      "cook_method": "roasted / crisped",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs pork belly slab",
+        "Doenjang, ginger, garlic, coffee broth",
+        "Salted napa cabbage, spicy radish salad"
+      ],
+      "instructions": [
+        "Season the pork belly slab / thick bacon with salt, pepper, and signature regional seasonings.",
+        "Cook using roasted / crisped to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-belly-&-bacon-delights",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_072",
+      "title": "Cantonese Crispy Roast Pork Belly (Siu Yuk)",
+      "cuisine": "Pork",
+      "protein_cut": "pork belly slab / thick bacon",
+      "cook_method": "roasted / crisped",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs pork belly slab, five-spice",
+        "Rock salt crust, high-heat crackling",
+        "Shatteringly crisp blistered skin"
+      ],
+      "instructions": [
+        "Season the pork belly slab / thick bacon with salt, pepper, and signature regional seasonings.",
+        "Cook using roasted / crisped to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-belly-&-bacon-delights",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_073",
+      "title": "Millionaire's Candied Bourbon Bacon",
+      "cuisine": "Pork",
+      "protein_cut": "pork belly slab / thick bacon",
+      "cook_method": "roasted / crisped",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs thick-cut bacon strips",
+        "Dark brown sugar, pure maple syrup, bourbon",
+        "Cayenne pepper, baked until caramelized candy"
+      ],
+      "instructions": [
+        "Season the pork belly slab / thick bacon with salt, pepper, and signature regional seasonings.",
+        "Cook using roasted / crisped to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-belly-&-bacon-delights",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_074",
+      "title": "Smoky Slow-Cooker Pork Belly Burnt Ends",
+      "cuisine": "Pork",
+      "protein_cut": "pork belly slab / thick bacon",
+      "cook_method": "roasted / crisped",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs pork belly cubes",
+        "BBQ rub, butter, brown sugar, honey",
+        "Caramelized in sweet sticky BBQ sauce"
+      ],
+      "instructions": [
+        "Season the pork belly slab / thick bacon with salt, pepper, and signature regional seasonings.",
+        "Cook using roasted / crisped to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-belly-&-bacon-delights",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_075",
+      "title": "Vietnamese Pork Belly & Shrimp Spring Rolls",
+      "cuisine": "Pork",
+      "protein_cut": "pork belly slab / thick bacon",
+      "cook_method": "roasted / crisped",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "Boiled pork belly slices, fresh shrimp",
+        "Rice paper wrappers, vermicelli, fresh herbs",
+        "Hoisin peanut dipping sauce"
+      ],
+      "instructions": [
+        "Season the pork belly slab / thick bacon with salt, pepper, and signature regional seasonings.",
+        "Cook using roasted / crisped to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-belly-&-bacon-delights",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_076",
+      "title": "Creamy Bacon & Sweet Pea Carbonara",
+      "cuisine": "Pork",
+      "protein_cut": "pork belly slab / thick bacon",
+      "cook_method": "roasted / crisped",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "8 oz thick-cut bacon or pancetta, diced",
+        "Spaghetti, egg yolks, grated Pecorino Romano",
+        "Sweet green peas, cracked black pepper"
+      ],
+      "instructions": [
+        "Season the pork belly slab / thick bacon with salt, pepper, and signature regional seasonings.",
+        "Cook using roasted / crisped to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-belly-&-bacon-delights",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_077",
+      "title": "Braised Pork Belly Steamed Bao Buns",
+      "cuisine": "Pork",
+      "protein_cut": "pork belly slab / thick bacon",
+      "cook_method": "roasted / crisped",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "Thick slabs braised pork belly",
+        "Steamed lotus leaf bao buns, hoisin sauce",
+        "Crushed sugared peanuts, cucumber, cilantro"
+      ],
+      "instructions": [
+        "Season the pork belly slab / thick bacon with salt, pepper, and signature regional seasonings.",
+        "Cook using roasted / crisped to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-belly-&-bacon-delights",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_078",
+      "title": "Classic Southern Ham Hocks with Collards",
+      "cuisine": "Pork",
+      "protein_cut": "pork belly slab / thick bacon",
+      "cook_method": "roasted / crisped",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "2 smoked pork ham hocks",
+        "Collard greens, cider vinegar, pepper flakes",
+        "Rich potlikker, hot skillet cornbread"
+      ],
+      "instructions": [
+        "Season the pork belly slab / thick bacon with salt, pepper, and signature regional seasonings.",
+        "Cook using roasted / crisped to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-belly-&-bacon-delights",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_079",
+      "title": "Holiday Glazed Spiral Cut Half Ham",
+      "cuisine": "Pork",
+      "protein_cut": "pork belly slab / thick bacon",
+      "cook_method": "roasted / crisped",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "8-9 lbs bone-in spiral ham",
+        "Brown sugar, honey, Dijon, cider, cloves",
+        "Baked caramelized holiday centerpiece"
+      ],
+      "instructions": [
+        "Season the pork belly slab / thick bacon with salt, pepper, and signature regional seasonings.",
+        "Cook using roasted / crisped to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-belly-&-bacon-delights",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_080",
+      "title": "Pork Belly Kimchi Stew (Kimchi Jjigae)",
+      "cuisine": "Pork",
+      "protein_cut": "pork belly slab / thick bacon",
+      "cook_method": "roasted / crisped",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "1/2 lb pork belly slices",
+        "Aged sour kimchi, firm tofu, gochugaru",
+        "Anchovy broth, scallions, bubbling hot"
+      ],
+      "instructions": [
+        "Season the pork belly slab / thick bacon with salt, pepper, and signature regional seasonings.",
+        "Cook using roasted / crisped to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 90 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "pork-belly-&-bacon-delights",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_081",
+      "title": "Chinese Pork & Chive Potstickers",
+      "cuisine": "Ground",
+      "protein_cut": "ground pork (80/20)",
+      "cook_method": "steamed / pan-fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1 lb ground pork",
+        "Chinese garlic chives, ginger, soy, wine",
+        "Pan-fried with crispy lacy bottoms"
+      ],
+      "instructions": [
+        "Season the ground pork (80/20) with salt, pepper, and signature regional seasonings.",
+        "Cook using steamed / pan-fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "ground-pork-&-dumplings",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_082",
+      "title": "Vietnamese Grilled Pork Meatballs (Nem Nuong)",
+      "cuisine": "Ground",
+      "protein_cut": "ground pork (80/20)",
+      "cook_method": "steamed / pan-fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground pork, bouncy texture",
+        "Fish sauce, sugar, garlic, baking powder",
+        "Grilled skewers, herbs, rice paper"
+      ],
+      "instructions": [
+        "Season the ground pork (80/20) with salt, pepper, and signature regional seasonings.",
+        "Cook using steamed / pan-fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "ground-pork-&-dumplings",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_083",
+      "title": "Italian Sausage Meatballs in Basil Marinara",
+      "cuisine": "Ground",
+      "protein_cut": "ground pork (80/20)",
+      "cook_method": "steamed / pan-fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "Sweet Italian sausage & ground pork",
+        "Breadcrumbs, pecorino, parsley",
+        "Simmered in slow-cooked marinara, pasta"
+      ],
+      "instructions": [
+        "Season the ground pork (80/20) with salt, pepper, and signature regional seasonings.",
+        "Cook using steamed / pan-fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "ground-pork-&-dumplings",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_084",
+      "title": "Thai Pork Toast (Khanom Pang Na Moo)",
+      "cuisine": "Ground",
+      "protein_cut": "ground pork (80/20)",
+      "cook_method": "steamed / pan-fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1/2 lb ground pork paste",
+        "Cilantro roots, garlic, fish sauce",
+        "Spread on bread triangles, fried crispy"
+      ],
+      "instructions": [
+        "Season the ground pork (80/20) with salt, pepper, and signature regional seasonings.",
+        "Cook using steamed / pan-fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "ground-pork-&-dumplings",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_085",
+      "title": "Cantonese Steamed Pork & Shrimp Siu Mai",
+      "cuisine": "Ground",
+      "protein_cut": "ground pork (80/20)",
+      "cook_method": "steamed / pan-fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "Ground pork, diced shrimp, shiitake",
+        "Open-topped yellow wrappers, steamed",
+        "Dot of orange roe, chili oil dip"
+      ],
+      "instructions": [
+        "Season the ground pork (80/20) with salt, pepper, and signature regional seasonings.",
+        "Cook using steamed / pan-fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "ground-pork-&-dumplings",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_086",
+      "title": "Crispy Fried Pork Egg Rolls",
+      "cuisine": "Ground",
+      "protein_cut": "ground pork (80/20)",
+      "cook_method": "steamed / pan-fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "Ground pork, shredded cabbage, carrots",
+        "Egg roll wrappers, five-spice",
+        "Deep-fried blistered golden, sweet & sour"
+      ],
+      "instructions": [
+        "Season the ground pork (80/20) with salt, pepper, and signature regional seasonings.",
+        "Cook using steamed / pan-fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "ground-pork-&-dumplings",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_087",
+      "title": "Shanghai Soup Dumplings (Xiao Long Bao)",
+      "cuisine": "Ground",
+      "protein_cut": "ground pork (80/20)",
+      "cook_method": "steamed / pan-fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "Ground pork with savory aspic jelly cubes",
+        "Thin pleated wrappers, steamed",
+        "Savory soup inside, black vinegar ginger"
+      ],
+      "instructions": [
+        "Season the ground pork (80/20) with salt, pepper, and signature regional seasonings.",
+        "Cook using steamed / pan-fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "ground-pork-&-dumplings",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_088",
+      "title": "Spicy Szechuan Dan Dan Noodles with Pork",
+      "cuisine": "Ground",
+      "protein_cut": "ground pork (80/20)",
+      "cook_method": "steamed / pan-fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "Crispy fried ground pork mince",
+        "Preserved mustard greens (ya cai)",
+        "Chili oil, sesame paste, fresh noodles"
+      ],
+      "instructions": [
+        "Season the ground pork (80/20) with salt, pepper, and signature regional seasonings.",
+        "Cook using steamed / pan-fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "ground-pork-&-dumplings",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_089",
+      "title": "Greek Stuffed Grape Leaves with Pork (Dolmades)",
+      "cuisine": "Ground",
+      "protein_cut": "ground pork (80/20)",
+      "cook_method": "steamed / pan-fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "Ground pork and rice filling",
+        "Grape leaves in brine, dill, mint, lemon",
+        "Steamed tender, egg-lemon avgolemono"
+      ],
+      "instructions": [
+        "Season the ground pork (80/20) with salt, pepper, and signature regional seasonings.",
+        "Cook using steamed / pan-fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "ground-pork-&-dumplings",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_090",
+      "title": "Southern Sausage Gravy with Flaky Biscuits",
+      "cuisine": "Ground",
+      "protein_cut": "ground pork (80/20)",
+      "cook_method": "steamed / pan-fried",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1 lb bulk pork breakfast sausage with sage",
+        "Flour, whole milk, black pepper, red pepper",
+        "Thick rich gravy over warm buttermilk biscuits"
+      ],
+      "instructions": [
+        "Season the ground pork (80/20) with salt, pepper, and signature regional seasonings.",
+        "Cook using steamed / pan-fried to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 20 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "ground-pork-&-dumplings",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_091",
+      "title": "Sheet-Pan Pork Chops with Potatoes & Green Beans",
+      "cuisine": "Weeknight",
+      "protein_cut": "tenderloin / chops / ground pork",
+      "cook_method": "skillet / sheet-pan",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "4 bone-in pork chops",
+        "Baby red potatoes, fresh green beans",
+        "Garlic powder, smoked paprika, olive oil"
+      ],
+      "instructions": [
+        "Season the tenderloin / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet / sheet-pan to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 25 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "weeknight-&-quick-skillets",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_092",
+      "title": "Slow-Cooker Honey Apple Butter Pork Loin",
+      "cuisine": "Weeknight",
+      "protein_cut": "tenderloin / chops / ground pork",
+      "cook_method": "skillet / sheet-pan",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "3 lbs boneless pork loin roast",
+        "Spiced apple butter, honey, cider vinegar",
+        "Dijon mustard, cinnamon, fall glaze"
+      ],
+      "instructions": [
+        "Season the tenderloin / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet / sheet-pan to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 25 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "weeknight-&-quick-skillets",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_093",
+      "title": "Air-Fryer Crispy Breaded Pork Chops",
+      "cuisine": "Weeknight",
+      "protein_cut": "tenderloin / chops / ground pork",
+      "cook_method": "skillet / sheet-pan",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "4 boneless pork chops",
+        "Panko breadcrumbs, grated parmesan, paprika",
+        "Air-fried 12 mins until golden and 145\u00b0F"
+      ],
+      "instructions": [
+        "Season the tenderloin / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet / sheet-pan to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 25 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "weeknight-&-quick-skillets",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_094",
+      "title": "Creamy Garlic Herb Pork Medallions",
+      "cuisine": "Weeknight",
+      "protein_cut": "tenderloin / chops / ground pork",
+      "cook_method": "skillet / sheet-pan",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs pork tenderloin medallions",
+        "Butter, minced garlic, heavy cream, broth",
+        "Fresh thyme, served over white rice"
+      ],
+      "instructions": [
+        "Season the tenderloin / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet / sheet-pan to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 25 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "weeknight-&-quick-skillets",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_095",
+      "title": "Korean Spicy Pork Rice Bowls with Egg",
+      "cuisine": "Weeknight",
+      "protein_cut": "tenderloin / chops / ground pork",
+      "cook_method": "skillet / sheet-pan",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "1 lb pork belly / shoulder strips",
+        "Gochujang, soy sauce, honey, sesame oil",
+        "Steamed rice, kimchi, fried sunny-side egg"
+      ],
+      "instructions": [
+        "Season the tenderloin / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet / sheet-pan to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 25 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "weeknight-&-quick-skillets",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_096",
+      "title": "Glazed Asian Pork Meatball Skewers",
+      "cuisine": "Weeknight",
+      "protein_cut": "tenderloin / chops / ground pork",
+      "cook_method": "skillet / sheet-pan",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "Ground pork meatballs, panko, ginger",
+        "Sweet chili soy glaze, toasted sesame",
+        "Broiled sticky on bamboo skewers"
+      ],
+      "instructions": [
+        "Season the tenderloin / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet / sheet-pan to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 25 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "weeknight-&-quick-skillets",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_097",
+      "title": "Cuban Mojo Pork Meal Prep Bowls",
+      "cuisine": "Weeknight",
+      "protein_cut": "tenderloin / chops / ground pork",
+      "cook_method": "skillet / sheet-pan",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "Shredded mojo pork shoulder",
+        "Black beans, white rice, sweet plantains",
+        "Citrus garlic mojo broth"
+      ],
+      "instructions": [
+        "Season the tenderloin / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet / sheet-pan to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 25 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "weeknight-&-quick-skillets",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_098",
+      "title": "Classic One-Pan Pork Fried Rice",
+      "cuisine": "Weeknight",
+      "protein_cut": "tenderloin / chops / ground pork",
+      "cook_method": "skillet / sheet-pan",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "Diced roast pork or pork belly",
+        "Cold day-old jasmine rice, scrambled eggs",
+        "Peas, carrots, soy sauce, sesame oil"
+      ],
+      "instructions": [
+        "Season the tenderloin / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet / sheet-pan to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 25 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "weeknight-&-quick-skillets",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_099",
+      "title": "Pork Piccata with Lemon Caper Butter",
+      "cuisine": "Weeknight",
+      "protein_cut": "tenderloin / chops / ground pork",
+      "cook_method": "skillet / sheet-pan",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "Pounded pork tenderloin cutlets",
+        "Flour dredge, white wine, lemon juice",
+        "Brined capers, cold butter pan sauce"
+      ],
+      "instructions": [
+        "Season the tenderloin / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet / sheet-pan to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 25 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "weeknight-&-quick-skillets",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "pork_100",
+      "title": "Slow-Cooker Sweet & Sour Pork Riblets",
+      "cuisine": "Weeknight",
+      "protein_cut": "tenderloin / chops / ground pork",
+      "cook_method": "skillet / sheet-pan",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "3 lbs pork riblets",
+        "Pineapple chunks, bell peppers, sweet & sour",
+        "Slow-cooked until tender and glazed"
+      ],
+      "instructions": [
+        "Season the tenderloin / chops / ground pork with salt, pepper, and signature regional seasonings.",
+        "Cook using skillet / sheet-pan to develop rich flavor, crispy skin, or tender texture.",
+        "Incorporate glazes, aromatics, or braising liquids, cooking 25 mins until tender and 145\u00b0F (or 203\u00b0F for pulled pork).",
+        "Rest meat, carve or shred, and serve with accompanying sauces."
+      ],
+      "potluck_tags": [
+        "pork",
+        "weeknight-&-quick-skillets",
+        "potluck-friendly"
+      ]
+    }
+  ]
+}

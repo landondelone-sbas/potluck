@@ -1,0 +1,218 @@
+{
+  "theme": "italian sausage",
+  "count": 2,
+  "skipped_note": "Rules 2 and 3 relaxed. Sourced from NotebookLM. Added Creamy Tuscan Sausage Pasta (Get Inspired Everyday!). Includes Spicy Italian Sausage and Pepperoni Flatbread Pizza (Boston.gov). Excluded: general sausage links mentioned without recipes in bookey summaries.",
+  "recipes": [
+    {
+      "id": "italian_sausage_001",
+      "title": "Spicy Italian Sausage and Pepperoni Flatbread Pizza",
+      "cuisine": "italian",
+      "format": "plate",
+      "source": {
+        "name": "ENGLISH - Boston.gov",
+        "location": "Page 45, shared by Ahlani Jackson"
+      },
+      "servings": 4,
+      "prep_minutes": 10,
+      "cook_minutes": 15,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "flatbreads",
+          "name": "naan flatbreads (or prepared flatbread crusts)",
+          "role": "starch",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "links",
+          "name": "hot Italian sausages, casings removed",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "cup",
+          "name": "pepperoni slices, chopped",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "cup",
+          "name": "pizza sauce or marinara",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "cup",
+          "name": "shredded mozzarella cheese",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "cup",
+          "name": "shredded parmesan cheese",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "leaves",
+          "name": "fresh basil, chopped",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Preheat the oven to 400\u00b0F (200\u00b0C) and line a large baking sheet with parchment paper or foil.",
+        "Heat 1 tablespoon olive oil in a skillet over medium heat. Add the sausage meat, breaking it up with a wooden spoon, and cook until browned and cooked through (5-7 minutes). Drain excess fat.",
+        "Brush both sides of the naan flatbreads lightly with the remaining olive oil and place them on the baking sheet.",
+        "Spread pizza sauce evenly over each flatbread, leaving a thin border around the edges.",
+        "Evenly distribute shredded mozzarella, cooked Italian sausage, and chopped pepperoni across the flatbreads.",
+        "Top with shredded parmesan cheese.",
+        "Bake in the preheated oven for 10 to 12 minutes until the edges are golden crisp and cheese is bubbly and melted.",
+        "Garnish with chopped fresh basil, slice into wedges, and serve."
+      ],
+      "source_temperatures": [],
+      "swaps": "Mild Italian sausage can be substituted for hot sausage; pita bread can be used in place of naan.",
+      "notes": "Equipment: Skillet, baking sheet, chef's knife or pizza cutter. Fast, flavorful dinner with balanced browning."
+    },
+    {
+      "id": "italian_sausage_002",
+      "title": "Creamy Tuscan Sausage Pasta",
+      "cuisine": "italian",
+      "format": "pot",
+      "source": {
+        "name": "Get Inspired Everyday!",
+        "location": "Source 9abf3d0f-35ab-455f-ac33-fc163010d54a"
+      },
+      "servings": 6,
+      "prep_minutes": 10,
+      "cook_minutes": 20,
+      "ingredients": [
+        {
+          "quantity": "8",
+          "unit": "oz",
+          "name": "mild bulk Italian sausage",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "12",
+          "unit": "oz",
+          "name": "penne, fettuccine, or gluten-free pasta",
+          "role": "starch",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "cups",
+          "name": "diced yellow onion",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "cloves",
+          "name": "garlic, minced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "Italian seasoning",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "cup",
+          "name": "sun-dried tomatoes in oil, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "cup",
+          "name": "dry white wine (or chicken broth with 1 tsp lemon juice)",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "Dijon mustard",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "cups",
+          "name": "heavy cream (or culinary coconut cream)",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "4",
+          "unit": "cups",
+          "name": "fresh baby spinach, roughly chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "cup",
+          "name": "freshly grated parmesan cheese",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "sea salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.25",
+          "unit": "tsp",
+          "name": "black pepper",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Bring a large pot of salted water to a boil for the pasta.",
+        "Heat a 10-inch skillet over medium-high heat. Add bulk Italian sausage, breaking it apart with a wooden spoon, and brown until cooked through (5-6 minutes). Remove sausage from skillet and set aside.",
+        "Add olive oil to the pan drippings if needed. Add diced onion and minced garlic; saut\u00e9 over medium heat for 3-4 minutes until golden brown.",
+        "Stir in Italian seasoning, chopped sun-dried tomatoes, white wine, and Dijon mustard. Simmer briskly until the liquid reduces almost completely.",
+        "Add pasta to boiling water and cook until al dente according to package directions, draining when ready.",
+        "Pour heavy cream into the skillet with the sun-dried tomato mixture. Bring to a gentle boil, then reduce heat to maintain a simmer for 6 to 8 minutes until lightly thickened.",
+        "Add chopped baby spinach to the skillet and stir just until wilted.",
+        "Return the cooked sausage to the pan, then fold in the drained hot pasta, simmering together for 1-2 minutes so the sauce clings to noodles.",
+        "Stir in grated parmesan cheese, season with salt and black pepper to taste, and serve immediately."
+      ],
+      "source_temperatures": [],
+      "swaps": "Spicy Italian sausage can replace mild sausage; coconut cream can replace heavy cream for dairy-free.",
+      "notes": "Equipment: Large pasta pot, 10-inch skillet, wooden spoon. Watch cream closely as it simmers to prevent boil-over."
+    }
+  ]
+}

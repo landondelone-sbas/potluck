@@ -1,0 +1,128 @@
+{
+  "theme": "eggs",
+  "count": 1,
+  "skipped_note": "Rules 2 and 3 relaxed. Sourced from NotebookLM. Breakfast Quesadilla with egg, sausage, and hash brown included. Excluded: Bacalhau \u00e0 Br\u00e1s (Boston.gov p. 20, salt cod dish with eggs cooked into potatoes, already categorized under fish), dessert custard/pudding mentions.",
+  "recipes": [
+    {
+      "id": "eggs_001",
+      "title": "Breakfast Quesadilla",
+      "cuisine": "mexican",
+      "format": "plate",
+      "source": {
+        "name": "ENGLISH - Boston.gov",
+        "location": "Page 17, shared by Ahlani Jackson"
+      },
+      "servings": 1,
+      "prep_minutes": 10,
+      "cook_minutes": 10,
+      "ingredients": [
+        {
+          "quantity": "1",
+          "unit": "tortilla",
+          "name": "small flour tortilla (8-inch)",
+          "role": "starch",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "large",
+          "name": "egg",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "milk",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "cooked breakfast sausage or breakfast meat, crumbled",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "patty",
+          "name": "hash brown patty, cooked and crumbled",
+          "role": "starch",
+          "optional": false
+        },
+        {
+          "quantity": "0.25",
+          "unit": "cup",
+          "name": "shredded cheddar cheese",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tbsp",
+          "name": "red onion, finely diced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tbsp",
+          "name": "tomato, diced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "0.25",
+          "unit": "tsp",
+          "name": "salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.25",
+          "unit": "tsp",
+          "name": "black pepper",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.125",
+          "unit": "tsp",
+          "name": "garlic powder",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.125",
+          "unit": "tsp",
+          "name": "onion powder",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "cooking oil or butter",
+          "role": "staple",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "In a small bowl, whisk the egg, milk, salt, black pepper, garlic powder, and onion powder until well blended.",
+        "Heat cooking oil or butter in a small nonstick skillet over medium-low heat.",
+        "Add the diced red onion and diced tomato, saut\u00e9ing for 1 minute until softened.",
+        "Pour in the whisked egg mixture, gently scramble until softly set, then remove from heat.",
+        "Lay the flour tortilla flat on a clean skillet or griddle over medium heat.",
+        "Scatter half of the shredded cheddar cheese over one half of the tortilla.",
+        "Layer on the scrambled eggs, crumbled breakfast sausage, and crumbled cooked hash brown.",
+        "Top with remaining cheddar cheese and fold the empty half of the tortilla over the filling to create a half-moon.",
+        "Cook for 2 to 3 minutes per side, pressing gently with a spatula, until the tortilla is golden-brown and crisp and the cheese is thoroughly melted.",
+        "Cut into wedges and serve warm with optional salsa."
+      ],
+      "source_temperatures": [],
+      "swaps": "Can substitute bacon or turkey sausage for pork sausage; pepper jack cheese can replace cheddar.",
+      "notes": "Equipment: Small nonstick skillet, spatula. Portable, satisfying egg-based meal."
+    }
+  ]
+}

@@ -1,0 +1,2806 @@
+{
+  "total_recipes": 100,
+  "category": "Salmon",
+  "recipes": [
+    {
+      "id": "salmon_001",
+      "title": "Crispy Skin Pan-Seared Salmon with Lemon Butter",
+      "cuisine": "Pan-Seared",
+      "protein_cut": "salmon fillets (skin-on)",
+      "cook_method": "pan-searing in cast-iron",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "4 skin-on salmon fillets",
+        "2 tbsp butter, 1 tbsp olive oil, lemon juice",
+        "Fresh dill, flaky sea salt"
+      ],
+      "instructions": [
+        "Pat the salmon fillets (skin-on) completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing in cast-iron until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "pan-seared-&-crispy-skin",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_002",
+      "title": "Garlic Butter Basted Pan-Seared Salmon",
+      "cuisine": "Pan-Seared",
+      "protein_cut": "salmon fillets (skin-on)",
+      "cook_method": "pan-searing in cast-iron",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "3 tbsp butter, 4 cloves smashed garlic",
+        "Fresh thyme, continuous spoon basting"
+      ],
+      "instructions": [
+        "Pat the salmon fillets (skin-on) completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing in cast-iron until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "pan-seared-&-crispy-skin",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_003",
+      "title": "Pan-Seared Salmon with White Wine Caper Sauce",
+      "cuisine": "Pan-Seared",
+      "protein_cut": "salmon fillets (skin-on)",
+      "cook_method": "pan-searing in cast-iron",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "1/2 cup white wine, 2 tbsp drained capers",
+        "Lemon juice, cold butter swirl, parsley"
+      ],
+      "instructions": [
+        "Pat the salmon fillets (skin-on) completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing in cast-iron until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "pan-seared-&-crispy-skin",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_004",
+      "title": "Cajun Blackened Pan-Seared Salmon",
+      "cuisine": "Pan-Seared",
+      "protein_cut": "salmon fillets (skin-on)",
+      "cook_method": "pan-searing in cast-iron",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "4 skin-on fillets",
+        "Cajun blackening spices, melted butter",
+        "Smoking hot cast-iron seared 3 mins per side"
+      ],
+      "instructions": [
+        "Pat the salmon fillets (skin-on) completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing in cast-iron until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "pan-seared-&-crispy-skin",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_005",
+      "title": "Crispy Pan-Seared Salmon with Herb Chimichurri",
+      "cuisine": "Pan-Seared",
+      "protein_cut": "salmon fillets (skin-on)",
+      "cook_method": "pan-searing in cast-iron",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Fresh parsley, oregano, garlic, red wine vinegar",
+        "Olive oil, spooned over crispy skin"
+      ],
+      "instructions": [
+        "Pat the salmon fillets (skin-on) completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing in cast-iron until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "pan-seared-&-crispy-skin",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_006",
+      "title": "Pan-Seared Salmon with Dill Cream Sauce",
+      "cuisine": "Pan-Seared",
+      "protein_cut": "salmon fillets (skin-on)",
+      "cook_method": "pan-searing in cast-iron",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "1/2 cup heavy cream, 1/4 cup chicken broth, Dijon",
+        "Fresh chopped dill, lemon zest"
+      ],
+      "instructions": [
+        "Pat the salmon fillets (skin-on) completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing in cast-iron until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "pan-seared-&-crispy-skin",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_007",
+      "title": "Brown Butter Pan-Seared Salmon with Almonds",
+      "cuisine": "Pan-Seared",
+      "protein_cut": "salmon fillets (skin-on)",
+      "cook_method": "pan-searing in cast-iron",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Nutty foaming brown butter, toasted slivered almonds",
+        "Fresh lemon juice, parsley"
+      ],
+      "instructions": [
+        "Pat the salmon fillets (skin-on) completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing in cast-iron until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "pan-seared-&-crispy-skin",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_008",
+      "title": "Pan-Seared Salmon with Avocado Mango Salsa",
+      "cuisine": "Pan-Seared",
+      "protein_cut": "salmon fillets (skin-on)",
+      "cook_method": "pan-searing in cast-iron",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Diced ripe mango, avocado, red onion, jalape\u00f1o",
+        "Cilantro, fresh lime juice"
+      ],
+      "instructions": [
+        "Pat the salmon fillets (skin-on) completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing in cast-iron until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "pan-seared-&-crispy-skin",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_009",
+      "title": "Crispy Salmon with Saut\u00e9ed Baby Spinach",
+      "cuisine": "Pan-Seared",
+      "protein_cut": "salmon fillets (skin-on)",
+      "cook_method": "pan-searing in cast-iron",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Baby spinach saut\u00e9ed in garlic and olive oil",
+        "Lemon wedges, cracked pepper"
+      ],
+      "instructions": [
+        "Pat the salmon fillets (skin-on) completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing in cast-iron until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "pan-seared-&-crispy-skin",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_010",
+      "title": "Pan-Seared Salmon with Lemon Garlic Aioli",
+      "cuisine": "Pan-Seared",
+      "protein_cut": "salmon fillets (skin-on)",
+      "cook_method": "pan-searing in cast-iron",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "4 skin-on salmon fillets",
+        "Garlic aioli: mayonnaise, garlic, lemon juice",
+        "Rosemary sprigs, cast-iron seared"
+      ],
+      "instructions": [
+        "Pat the salmon fillets (skin-on) completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing in cast-iron until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "pan-seared-&-crispy-skin",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_011",
+      "title": "Honey Garlic Glazed Salmon",
+      "cuisine": "Glazed",
+      "protein_cut": "salmon fillets or side",
+      "cook_method": "baked & broiled glaze",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "1/3 cup honey, 3 tbsp soy sauce, 4 cloves garlic",
+        "Lemon juice, broiled until bubbling"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baked & broiled glaze until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "glazed-&-sweet-savory",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_012",
+      "title": "Maple Dijon Glazed Baked Salmon",
+      "cuisine": "Glazed",
+      "protein_cut": "salmon fillets or side",
+      "cook_method": "baked & broiled glaze",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "3 tbsp pure maple syrup, 2 tbsp Dijon mustard",
+        "1 tbsp soy sauce, baked at 400\u00b0F"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baked & broiled glaze until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "glazed-&-sweet-savory",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_013",
+      "title": "Brown Sugar & Soy Glazed Salmon",
+      "cuisine": "Glazed",
+      "protein_cut": "salmon fillets or side",
+      "cook_method": "baked & broiled glaze",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "1/4 cup dark brown sugar, 3 tbsp soy sauce",
+        "1 tbsp rice vinegar, grated ginger, garlic"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baked & broiled glaze until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "glazed-&-sweet-savory",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_014",
+      "title": "Sweet Chili Lime Glazed Salmon",
+      "cuisine": "Glazed",
+      "protein_cut": "salmon fillets or side",
+      "cook_method": "baked & broiled glaze",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "1/3 cup Thai sweet chili sauce, 2 tbsp lime juice",
+        "1 tbsp soy sauce, cilantro"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baked & broiled glaze until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "glazed-&-sweet-savory",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_015",
+      "title": "Bourbon Brown Sugar Glazed Salmon",
+      "cuisine": "Glazed",
+      "protein_cut": "salmon fillets or side",
+      "cook_method": "baked & broiled glaze",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "2 tbsp bourbon, 3 tbsp brown sugar, 1 tbsp Dijon",
+        "Worcestershire sauce, glazed in skillet"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baked & broiled glaze until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "glazed-&-sweet-savory",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_016",
+      "title": "Honey Sriracha Glazed Salmon",
+      "cuisine": "Glazed",
+      "protein_cut": "salmon fillets or side",
+      "cook_method": "baked & broiled glaze",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "3 tbsp honey, 1.5 tbsp sriracha, 1 tbsp soy sauce",
+        "Lime juice, broiled sticky and spicy"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baked & broiled glaze until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "glazed-&-sweet-savory",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_017",
+      "title": "Orange Ginger Glazed Baked Salmon",
+      "cuisine": "Glazed",
+      "protein_cut": "salmon fillets or side",
+      "cook_method": "baked & broiled glaze",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "1/2 cup fresh orange juice, 1 tbsp grated ginger",
+        "2 tbsp honey, 1 tbsp soy sauce, cornstarch"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baked & broiled glaze until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "glazed-&-sweet-savory",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_018",
+      "title": "Balsamic Glazed Pan-Seared Salmon",
+      "cuisine": "Glazed",
+      "protein_cut": "salmon fillets or side",
+      "cook_method": "baked & broiled glaze",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "1/3 cup aged balsamic vinegar, 2 tbsp brown sugar",
+        "Simmered into glossy syrupy glaze"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baked & broiled glaze until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "glazed-&-sweet-savory",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_019",
+      "title": "Miso-Glazed Broiled Salmon (Nobu Style)",
+      "cuisine": "Glazed",
+      "protein_cut": "salmon fillets or side",
+      "cook_method": "baked & broiled glaze",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "3 tbsp white miso paste, 2 tbsp mirin, 2 tbsp sake",
+        "1.5 tbsp sugar, marinated 12 hours, broiled"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baked & broiled glaze until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "glazed-&-sweet-savory",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_020",
+      "title": "Pomegranate Molasses Glazed Salmon",
+      "cuisine": "Glazed",
+      "protein_cut": "salmon fillets or side",
+      "cook_method": "baked & broiled glaze",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "3 tbsp tart pomegranate molasses, 1 tbsp honey",
+        "Walnut oil, fresh pomegranate arils"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baked & broiled glaze until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "glazed-&-sweet-savory",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_021",
+      "title": "Sheet-Pan Lemon Herb Salmon & Asparagus",
+      "cuisine": "Oven-Baked",
+      "protein_cut": "salmon fillets or whole side",
+      "cook_method": "sheet-pan high-heat roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "1 lb fresh asparagus spears",
+        "Olive oil, lemon wheels, fresh dill, garlic"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using sheet-pan high-heat roasting until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "oven-baked-&-sheet-pan",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_022",
+      "title": "Sheet-Pan Teriyaki Salmon & Broccoli",
+      "cuisine": "Oven-Baked",
+      "protein_cut": "salmon fillets or whole side",
+      "cook_method": "sheet-pan high-heat roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "4 cups broccoli florets, teriyaki glaze",
+        "Sesame oil, toasted sesame seeds"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using sheet-pan high-heat roasting until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "oven-baked-&-sheet-pan",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_023",
+      "title": "Mediterranean Baked Salmon with Tomatoes & Feta",
+      "cuisine": "Oven-Baked",
+      "protein_cut": "salmon fillets or whole side",
+      "cook_method": "sheet-pan high-heat roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Cherry tomatoes, kalamata olives, red onion",
+        "Crumbled feta cheese, dried oregano, olive oil"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using sheet-pan high-heat roasting until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "oven-baked-&-sheet-pan",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_024",
+      "title": "Sheet-Pan Garlic Butter Salmon & Green Beans",
+      "cuisine": "Oven-Baked",
+      "protein_cut": "salmon fillets or whole side",
+      "cook_method": "sheet-pan high-heat roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "1 lb trimmed green beans, baby potatoes",
+        "Melted garlic butter, paprika"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using sheet-pan high-heat roasting until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "oven-baked-&-sheet-pan",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_025",
+      "title": "Herb-Crusted Whole Side of Baked Salmon",
+      "cuisine": "Oven-Baked",
+      "protein_cut": "salmon fillets or whole side",
+      "cook_method": "sheet-pan high-heat roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "1 whole side of salmon (3 lbs)",
+        "Fresh dill, parsley, chives, garlic, Dijon",
+        "Olive oil, baked at 375\u00b0F for 20 mins"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using sheet-pan high-heat roasting until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "oven-baked-&-sheet-pan",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_026",
+      "title": "Sheet-Pan Pesto Salmon with Baby Potatoes",
+      "cuisine": "Oven-Baked",
+      "protein_cut": "salmon fillets or whole side",
+      "cook_method": "sheet-pan high-heat roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "1.5 lbs halved baby potatoes, basil pesto",
+        "Cherry tomatoes, olive oil, parmesan"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using sheet-pan high-heat roasting until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "oven-baked-&-sheet-pan",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_027",
+      "title": "Baked Salmon with Lemon Wheels & Rosemary",
+      "cuisine": "Oven-Baked",
+      "protein_cut": "salmon fillets or whole side",
+      "cook_method": "sheet-pan high-heat roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Lemon slices layered on top, fresh rosemary sprigs",
+        "Garlic butter, baked in foil pouch"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using sheet-pan high-heat roasting until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "oven-baked-&-sheet-pan",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_028",
+      "title": "Sheet-Pan Fajita Spiced Salmon & Peppers",
+      "cuisine": "Oven-Baked",
+      "protein_cut": "salmon fillets or whole side",
+      "cook_method": "sheet-pan high-heat roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Sliced bell peppers and red onions",
+        "Fajita spices, lime juice, avocado"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using sheet-pan high-heat roasting until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "oven-baked-&-sheet-pan",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_029",
+      "title": "Sheet-Pan Honey Mustard Salmon & Zucchini",
+      "cuisine": "Oven-Baked",
+      "protein_cut": "salmon fillets or whole side",
+      "cook_method": "sheet-pan high-heat roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Sliced zucchini rounds, honey mustard glaze",
+        "Olive oil, baked golden at 400\u00b0F"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using sheet-pan high-heat roasting until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "oven-baked-&-sheet-pan",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_030",
+      "title": "Baked Dijon Crumb-Crusted Salmon Fillets",
+      "cuisine": "Oven-Baked",
+      "protein_cut": "salmon fillets or whole side",
+      "cook_method": "sheet-pan high-heat roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Dijon mustard brush, seasoned breadcrumbs",
+        "Melted butter, baked crispy on top"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole side completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using sheet-pan high-heat roasting until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "oven-baked-&-sheet-pan",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_031",
+      "title": "Japanese Teriyaki Salmon Fillets",
+      "cuisine": "Asian",
+      "protein_cut": "salmon fillets, cubed or whole",
+      "cook_method": "pan-seared / baked / raw",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Soy sauce, mirin, sake, sugar teriyaki glaze",
+        "Steamed jasmine rice, scallions"
+      ],
+      "instructions": [
+        "Pat the salmon fillets, cubed or whole completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-seared / baked / raw until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "asian-inspired-salmon",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_032",
+      "title": "Classic Salmon Sashimi Poke Bowls",
+      "cuisine": "Asian",
+      "protein_cut": "salmon fillets, cubed or whole",
+      "cook_method": "pan-seared / baked / raw",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sushi-grade salmon, cubed",
+        "Soy sauce, sesame oil, scallions, sweet onion",
+        "Sushi rice, avocado, edamame, furikake"
+      ],
+      "instructions": [
+        "Pat the salmon fillets, cubed or whole completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-seared / baked / raw until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "asian-inspired-salmon",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_033",
+      "title": "Spicy Salmon Poke Bowls with Sriracha Mayo",
+      "cuisine": "Asian",
+      "protein_cut": "salmon fillets, cubed or whole",
+      "cook_method": "pan-seared / baked / raw",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sushi-grade salmon cubes",
+        "Sriracha spicy mayonnaise, masago roe",
+        "Sushi rice, cucumber ribbons, crispy onions"
+      ],
+      "instructions": [
+        "Pat the salmon fillets, cubed or whole completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-seared / baked / raw until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "asian-inspired-salmon",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_034",
+      "title": "Thai Red Curry Salmon with Coconut Milk",
+      "cuisine": "Asian",
+      "protein_cut": "salmon fillets, cubed or whole",
+      "cook_method": "pan-seared / baked / raw",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Red curry paste, full-fat coconut milk",
+        "Bamboo shoots, bell peppers, Thai basil"
+      ],
+      "instructions": [
+        "Pat the salmon fillets, cubed or whole completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-seared / baked / raw until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "asian-inspired-salmon",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_035",
+      "title": "Vietnamese Caramelized Claypot Salmon (Ca Kho To)",
+      "cuisine": "Asian",
+      "protein_cut": "salmon fillets, cubed or whole",
+      "cook_method": "pan-seared / baked / raw",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon steaks",
+        "Caramel sauce, fish sauce, coconut water",
+        "Sliced shallots, black pepper, claypot simmered"
+      ],
+      "instructions": [
+        "Pat the salmon fillets, cubed or whole completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-seared / baked / raw until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "asian-inspired-salmon",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_036",
+      "title": "Korean Gochujang Glazed Salmon",
+      "cuisine": "Asian",
+      "protein_cut": "salmon fillets, cubed or whole",
+      "cook_method": "pan-seared / baked / raw",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Gochujang paste, soy sauce, honey, sesame oil",
+        "Broiled charred, toasted sesame seeds"
+      ],
+      "instructions": [
+        "Pat the salmon fillets, cubed or whole completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-seared / baked / raw until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "asian-inspired-salmon",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_037",
+      "title": "Chinese Ginger-Scallion Steamed Salmon",
+      "cuisine": "Asian",
+      "protein_cut": "salmon fillets, cubed or whole",
+      "cook_method": "pan-seared / baked / raw",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1 whole salmon fillet (1.5 lbs)",
+        "Julienned ginger, scallions, light soy sauce",
+        "Steamed in bamboo, sizzling hot oil pour"
+      ],
+      "instructions": [
+        "Pat the salmon fillets, cubed or whole completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-seared / baked / raw until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "asian-inspired-salmon",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_038",
+      "title": "Crispy Salmon Sushi Bowls with Furikake",
+      "cuisine": "Asian",
+      "protein_cut": "salmon fillets, cubed or whole",
+      "cook_method": "pan-seared / baked / raw",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "Cooked flaked crispy salmon",
+        "Seasoned sushi rice, nori strips, cucumber",
+        "Spicy mayo, avocado, sesame seeds"
+      ],
+      "instructions": [
+        "Pat the salmon fillets, cubed or whole completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-seared / baked / raw until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "asian-inspired-salmon",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_039",
+      "title": "Thai Sweet Chili Basil Salmon",
+      "cuisine": "Asian",
+      "protein_cut": "salmon fillets, cubed or whole",
+      "cook_method": "pan-seared / baked / raw",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Sweet chili sauce, fish sauce, fresh lime",
+        "Fresh Thai basil leaves, garlic"
+      ],
+      "instructions": [
+        "Pat the salmon fillets, cubed or whole completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-seared / baked / raw until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "asian-inspired-salmon",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_040",
+      "title": "Soy Ginger Poached Salmon with Bok Choy",
+      "cuisine": "Asian",
+      "protein_cut": "salmon fillets, cubed or whole",
+      "cook_method": "pan-seared / baked / raw",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Soy sauce, dashi, sliced ginger, scallions",
+        "Gently poached, tender baby bok choy"
+      ],
+      "instructions": [
+        "Pat the salmon fillets, cubed or whole completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-seared / baked / raw until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "asian-inspired-salmon",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_041",
+      "title": "Classic Cedar-Plank Grilled Salmon",
+      "cuisine": "Grilled",
+      "protein_cut": "salmon fillets or whole fillet",
+      "cook_method": "cedar-plank / charcoal grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "1 whole salmon side (2.5 lbs)",
+        "Untreated cedar plank soaked in water",
+        "Olive oil, lemon slices, fresh dill, sea salt"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole fillet completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using cedar-plank / charcoal grilling until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "grilled-&-cedar-plank",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_042",
+      "title": "Grilled Salmon with Lemon Herb Butter",
+      "cuisine": "Grilled",
+      "protein_cut": "salmon fillets or whole fillet",
+      "cook_method": "cedar-plank / charcoal grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "4 salmon fillets",
+        "Compound butter: lemon zest, parsley, tarragon",
+        "Charcoal grilled over direct heat"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole fillet completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using cedar-plank / charcoal grilling until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "grilled-&-cedar-plank",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_043",
+      "title": "Sweet Brown Sugar Cedar-Plank Salmon",
+      "cuisine": "Grilled",
+      "protein_cut": "salmon fillets or whole fillet",
+      "cook_method": "cedar-plank / charcoal grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "1 side of salmon",
+        "Soaked cedar plank, dark brown sugar rub",
+        "Dijon mustard base, smoked on grill"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole fillet completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using cedar-plank / charcoal grilling until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "grilled-&-cedar-plank",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_044",
+      "title": "Charcoal-Grilled Salmon with Mango Salsa",
+      "cuisine": "Grilled",
+      "protein_cut": "salmon fillets or whole fillet",
+      "cook_method": "cedar-plank / charcoal grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "4 salmon fillets",
+        "Fresh mango salsa: mango, red onion, jalape\u00f1o",
+        "Charred grill marks, lime juice"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole fillet completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using cedar-plank / charcoal grilling until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "grilled-&-cedar-plank",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_045",
+      "title": "Grilled Salmon Skewers with Lemon Wedges",
+      "cuisine": "Grilled",
+      "protein_cut": "salmon fillets or whole fillet",
+      "cook_method": "cedar-plank / charcoal grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs salmon cut in 1.5-inch cubes",
+        "Lemon slices threaded between cubes",
+        "Olive oil, oregano, bamboo skewers"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole fillet completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using cedar-plank / charcoal grilling until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "grilled-&-cedar-plank",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_046",
+      "title": "Grilled Blackened Salmon with Corn Relish",
+      "cuisine": "Grilled",
+      "protein_cut": "salmon fillets or whole fillet",
+      "cook_method": "cedar-plank / charcoal grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "4 salmon fillets",
+        "Cajun blackening spices, charred sweet corn relish",
+        "Grilled over white-hot coals"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole fillet completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using cedar-plank / charcoal grilling until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "grilled-&-cedar-plank",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_047",
+      "title": "Cedar-Plank Mustard Glazed Salmon",
+      "cuisine": "Grilled",
+      "protein_cut": "salmon fillets or whole fillet",
+      "cook_method": "cedar-plank / charcoal grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "1 salmon fillet side",
+        "Whole grain seeded mustard, honey, apple cider vinegar",
+        "Smoked gently on cedar plank"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole fillet completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using cedar-plank / charcoal grilling until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "grilled-&-cedar-plank",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_048",
+      "title": "Grilled Salmon with Garlic Scallion Oil",
+      "cuisine": "Grilled",
+      "protein_cut": "salmon fillets or whole fillet",
+      "cook_method": "cedar-plank / charcoal grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "4 salmon fillets",
+        "Vietnamese scallion oil: scallions, hot oil, fish sauce",
+        "Grilled skin-side down until crispy"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole fillet completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using cedar-plank / charcoal grilling until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "grilled-&-cedar-plank",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_049",
+      "title": "Grilled Salmon with Pineapple Jalape\u00f1o Salsa",
+      "cuisine": "Grilled",
+      "protein_cut": "salmon fillets or whole fillet",
+      "cook_method": "cedar-plank / charcoal grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "4 salmon fillets",
+        "Fresh diced pineapple, charred jalape\u00f1o, cilantro",
+        "Grilled over medium coals"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole fillet completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using cedar-plank / charcoal grilling until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "grilled-&-cedar-plank",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_050",
+      "title": "Foil-Packet Grilled Salmon with Herb Butter",
+      "cuisine": "Grilled",
+      "protein_cut": "salmon fillets or whole fillet",
+      "cook_method": "cedar-plank / charcoal grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "4 salmon fillets in individual foil packets",
+        "Butter pats, sliced zucchini, lemon, thyme",
+        "Sealed and steamed on hot grill"
+      ],
+      "instructions": [
+        "Pat the salmon fillets or whole fillet completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using cedar-plank / charcoal grilling until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "grilled-&-cedar-plank",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_051",
+      "title": "Creamy Tuscan Garlic Butter Salmon",
+      "cuisine": "Creamy",
+      "protein_cut": "salmon fillets",
+      "cook_method": "pan-searing & cream sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Heavy cream, chicken broth, grated parmesan",
+        "Sun-dried tomatoes, fresh baby spinach, garlic"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing & cream sauce until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "creamy-sauces-&-skillets",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_052",
+      "title": "Salmon Piccata with Lemon Butter & Capers",
+      "cuisine": "Creamy",
+      "protein_cut": "salmon fillets",
+      "cook_method": "pan-searing & cream sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "White wine, fresh lemon juice, brined capers",
+        "Cold butter swirl, fresh flat-leaf parsley"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing & cream sauce until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "creamy-sauces-&-skillets",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_053",
+      "title": "Creamy Spinach & Artichoke Baked Salmon",
+      "cuisine": "Creamy",
+      "protein_cut": "salmon fillets",
+      "cook_method": "pan-searing & cream sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Cream cheese, sour cream, marinated artichokes",
+        "Baby spinach, mozzarella, baked over salmon"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing & cream sauce until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "creamy-sauces-&-skillets",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_054",
+      "title": "Creamy Sun-Dried Tomato Basil Salmon",
+      "cuisine": "Creamy",
+      "protein_cut": "salmon fillets",
+      "cook_method": "pan-searing & cream sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Heavy cream, sun-dried tomato oil, fresh basil",
+        "Garlic, parmesan, pan-seared"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing & cream sauce until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "creamy-sauces-&-skillets",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_055",
+      "title": "Salmon with Velvety Lemon Dijon Cream",
+      "cuisine": "Creamy",
+      "protein_cut": "salmon fillets",
+      "cook_method": "pan-searing & cream sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Heavy cream, Dijon mustard, white wine, lemon",
+        "Simmered into luscious pan sauce"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing & cream sauce until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "creamy-sauces-&-skillets",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_056",
+      "title": "Creamy Garlic Parmesan Salmon Skillet",
+      "cuisine": "Creamy",
+      "protein_cut": "salmon fillets",
+      "cook_method": "pan-searing & cream sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Heavy cream, minced garlic, grated Parmigiano",
+        "Fresh thyme, cast-iron simmered"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing & cream sauce until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "creamy-sauces-&-skillets",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_057",
+      "title": "Salmon in White Wine Shallot Cream Sauce",
+      "cuisine": "Creamy",
+      "protein_cut": "salmon fillets",
+      "cook_method": "pan-searing & cream sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Dry white wine, minced shallots, heavy cream",
+        "Chives, pan-seared salmon rested in sauce"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing & cream sauce until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "creamy-sauces-&-skillets",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_058",
+      "title": "Creamy Cajun Salmon Skillet with Peppers",
+      "cuisine": "Creamy",
+      "protein_cut": "salmon fillets",
+      "cook_method": "pan-searing & cream sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 blackened salmon fillets",
+        "Heavy cream, Cajun spices, diced bell peppers",
+        "Simmered rich and spicy"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing & cream sauce until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "creamy-sauces-&-skillets",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_059",
+      "title": "Salmon with Creamy Cucumber Dill Sauce",
+      "cuisine": "Creamy",
+      "protein_cut": "salmon fillets",
+      "cook_method": "pan-searing & cream sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 pan-seared salmon fillets",
+        "Sour cream, grated cucumber, fresh dill, lemon",
+        "Served chilled atop warm salmon"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing & cream sauce until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "creamy-sauces-&-skillets",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_060",
+      "title": "Pan-Seared Salmon with Chive Butter Cream",
+      "cuisine": "Creamy",
+      "protein_cut": "salmon fillets",
+      "cook_method": "pan-searing & cream sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 18,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Cold butter, heavy cream, fresh snipped chives",
+        "Pan sauce spooned over crispy skin"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using pan-searing & cream sauce until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "creamy-sauces-&-skillets",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_061",
+      "title": "Crispy Parmesan Herb Crusted Salmon",
+      "cuisine": "Crusted",
+      "protein_cut": "salmon fillets",
+      "cook_method": "crusted & baked",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Panko breadcrumbs, grated parmesan, Italian herbs",
+        "Dijon mustard spread, baked at 425\u00b0F"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using crusted & baked until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "crusted-&-panko-breads",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_062",
+      "title": "Panko Garlic Crusted Baked Salmon",
+      "cuisine": "Crusted",
+      "protein_cut": "salmon fillets",
+      "cook_method": "crusted & baked",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Panko, minced garlic, melted butter, parsley",
+        "Baked crunchy and golden on top"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using crusted & baked until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "crusted-&-panko-breads",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_063",
+      "title": "Pecan-Crusted Salmon with Honey Dijon",
+      "cuisine": "Crusted",
+      "protein_cut": "salmon fillets",
+      "cook_method": "crusted & baked",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Finely chopped toasted pecans, honey, Dijon",
+        "Breadcrumb binder, baked until toasted"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using crusted & baked until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "crusted-&-panko-breads",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_064",
+      "title": "Walnut Rosemary Crusted Salmon Fillets",
+      "cuisine": "Crusted",
+      "protein_cut": "salmon fillets",
+      "cook_method": "crusted & baked",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Crushed English walnuts, minced fresh rosemary",
+        "Olive oil, sea salt, oven baked"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using crusted & baked until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "crusted-&-panko-breads",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_065",
+      "title": "Pistachio-Crusted Salmon with Lemon",
+      "cuisine": "Crusted",
+      "protein_cut": "salmon fillets",
+      "cook_method": "crusted & baked",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Shelled roasted pistachios, panko, lemon zest",
+        "Honey mustard binder, baked at 400\u00b0F"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using crusted & baked until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "crusted-&-panko-breads",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_066",
+      "title": "Everything Bagel Crusted Baked Salmon",
+      "cuisine": "Crusted",
+      "protein_cut": "salmon fillets",
+      "cook_method": "crusted & baked",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Everything bagel seasoning, cream cheese spread",
+        "Baked until topping is toasted and fragrant"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using crusted & baked until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "crusted-&-panko-breads",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_067",
+      "title": "Macadamia Nut Crusted Salmon with Honey",
+      "cuisine": "Crusted",
+      "protein_cut": "salmon fillets",
+      "cook_method": "crusted & baked",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Crushed Hawaiian macadamia nuts, panko, honey",
+        "Lime zest, oven baked until golden"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using crusted & baked until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "crusted-&-panko-breads",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_068",
+      "title": "Horseradish Panko Crusted Salmon Fillets",
+      "cuisine": "Crusted",
+      "protein_cut": "salmon fillets",
+      "cook_method": "crusted & baked",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Prepared horseradish, mayonnaise, panko breadcrumbs",
+        "Baked with zesty, crunchy crust"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using crusted & baked until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "crusted-&-panko-breads",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_069",
+      "title": "Almond-Crusted Salmon with Brown Butter",
+      "cuisine": "Crusted",
+      "protein_cut": "salmon fillets",
+      "cook_method": "crusted & baked",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "Sliced almonds, breadcrumbs, melted butter",
+        "Oven baked, finished with nutty brown butter"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using crusted & baked until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "crusted-&-panko-breads",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_070",
+      "title": "Sesame Seed Crusted Seared Salmon",
+      "cuisine": "Crusted",
+      "protein_cut": "salmon fillets",
+      "cook_method": "crusted & baked",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets",
+        "White and black sesame seeds, sesame oil",
+        "Cast-iron seared with crunchy sesame crust"
+      ],
+      "instructions": [
+        "Pat the salmon fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using crusted & baked until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "crusted-&-panko-breads",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_071",
+      "title": "Crispy Pan-Fried Salmon Cakes with Remoulade",
+      "cuisine": "Casseroles,",
+      "protein_cut": "salmon fillets / flaked cooked salmon",
+      "cook_method": "baking / pasta toss",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "3 cups flaked cooked salmon",
+        "Panko breadcrumbs, egg, mayonnaise, Dijon, celery",
+        "Pan-fried golden crispy, homemade remoulade"
+      ],
+      "instructions": [
+        "Pat the salmon fillets / flaked cooked salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baking / pasta toss until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "casseroles,-pastas-&-cakes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_072",
+      "title": "Creamy Garlic Salmon Fettuccine Alfredo",
+      "cuisine": "Casseroles,",
+      "protein_cut": "salmon fillets / flaked cooked salmon",
+      "cook_method": "baking / pasta toss",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "1 lb flaked salmon",
+        "Fettuccine pasta, heavy cream, butter, parmesan",
+        "Fresh garlic, black pepper, parsley"
+      ],
+      "instructions": [
+        "Pat the salmon fillets / flaked cooked salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baking / pasta toss until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "casseroles,-pastas-&-cakes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_073",
+      "title": "Smoked Salmon & Sweet Pea Carbonara",
+      "cuisine": "Casseroles,",
+      "protein_cut": "salmon fillets / flaked cooked salmon",
+      "cook_method": "baking / pasta toss",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "8 oz hot-smoked salmon",
+        "Spaghetti, egg yolks, grated Pecorino Romano",
+        "Sweet green peas, cracked black pepper"
+      ],
+      "instructions": [
+        "Pat the salmon fillets / flaked cooked salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baking / pasta toss until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "casseroles,-pastas-&-cakes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_074",
+      "title": "Baked Creamy Salmon & Spinach Casserole",
+      "cuisine": "Casseroles,",
+      "protein_cut": "salmon fillets / flaked cooked salmon",
+      "cook_method": "baking / pasta toss",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs cubed salmon",
+        "Wild rice blend, baby spinach, creamy mushroom sauce",
+        "Cheddar cheese topping, baked bubbly"
+      ],
+      "instructions": [
+        "Pat the salmon fillets / flaked cooked salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baking / pasta toss until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "casseroles,-pastas-&-cakes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_075",
+      "title": "Lemon Garlic Butter Salmon Pasta",
+      "cuisine": "Casseroles,",
+      "protein_cut": "salmon fillets / flaked cooked salmon",
+      "cook_method": "baking / pasta toss",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "Flaked pan-seared salmon",
+        "Linguine pasta, olive oil, butter, minced garlic",
+        "Fresh lemon juice, capers, parsley"
+      ],
+      "instructions": [
+        "Pat the salmon fillets / flaked cooked salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baking / pasta toss until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "casseroles,-pastas-&-cakes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_076",
+      "title": "Mediterranean Salmon & Orzo Skillet",
+      "cuisine": "Casseroles,",
+      "protein_cut": "salmon fillets / flaked cooked salmon",
+      "cook_method": "baking / pasta toss",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "4 seared salmon fillets",
+        "Orzo pasta, chicken broth, cherry tomatoes, spinach",
+        "Kalamata olives, crumbled feta cheese"
+      ],
+      "instructions": [
+        "Pat the salmon fillets / flaked cooked salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baking / pasta toss until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "casseroles,-pastas-&-cakes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_077",
+      "title": "Salmon & Broccoli Pasta Bake",
+      "cuisine": "Casseroles,",
+      "protein_cut": "salmon fillets / flaked cooked salmon",
+      "cook_method": "baking / pasta toss",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "Flaked salmon",
+        "Penne pasta, steamed broccoli florets",
+        "Gruy\u00e8re and cheddar cheese sauce, breadcrumbs"
+      ],
+      "instructions": [
+        "Pat the salmon fillets / flaked cooked salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baking / pasta toss until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "casseroles,-pastas-&-cakes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_078",
+      "title": "Cajun Salmon Pasta with Blackened Cream",
+      "cuisine": "Casseroles,",
+      "protein_cut": "salmon fillets / flaked cooked salmon",
+      "cook_method": "baking / pasta toss",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "Blackened salmon cubes",
+        "Fettuccine, heavy cream, Cajun spices, bell peppers",
+        "Parmesan cheese, spicy and rich"
+      ],
+      "instructions": [
+        "Pat the salmon fillets / flaked cooked salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baking / pasta toss until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "casseroles,-pastas-&-cakes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_079",
+      "title": "Salmon Pot Pie with Puff Pastry Crust",
+      "cuisine": "Casseroles,",
+      "protein_cut": "salmon fillets / flaked cooked salmon",
+      "cook_method": "baking / pasta toss",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "Cubed fresh salmon",
+        "Carrots, peas, leeks, creamy white wine sauce",
+        "Flaky puff pastry lid, baked golden"
+      ],
+      "instructions": [
+        "Pat the salmon fillets / flaked cooked salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baking / pasta toss until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "casseroles,-pastas-&-cakes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_080",
+      "title": "Classic British Salmon En Cro\u00fbte",
+      "cuisine": "Casseroles,",
+      "protein_cut": "salmon fillets / flaked cooked salmon",
+      "cook_method": "baking / pasta toss",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "1 whole salmon side (2 lbs)",
+        "Spinach and cream cheese filling, puff pastry sheet",
+        "Egg wash, baked golden-brown showstopper"
+      ],
+      "instructions": [
+        "Pat the salmon fillets / flaked cooked salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using baking / pasta toss until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "casseroles,-pastas-&-cakes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_081",
+      "title": "Pacific Northwest Salmon Corn Chowder",
+      "cuisine": "Soups,",
+      "protein_cut": "salmon cubes or fillets",
+      "cook_method": "soup simmering / en papillote",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs salmon cubes",
+        "Yukon gold potatoes, sweet corn, bacon lardons",
+        "Heavy cream, chicken stock, fresh dill"
+      ],
+      "instructions": [
+        "Pat the salmon cubes or fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using soup simmering / en papillote until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "soups,-chowders-&-parchment",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_082",
+      "title": "Finnish Creamy Salmon Soup (Lohikeitto)",
+      "cuisine": "Soups,",
+      "protein_cut": "salmon cubes or fillets",
+      "cook_method": "soup simmering / en papillote",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs fresh salmon cubes",
+        "Potatoes, leeks, carrots, fish or vegetable stock",
+        "Heavy cream, massive bunch fresh dill, rye bread"
+      ],
+      "instructions": [
+        "Pat the salmon cubes or fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using soup simmering / en papillote until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "soups,-chowders-&-parchment",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_083",
+      "title": "Salmon en Papillote with Herb Butter",
+      "cuisine": "Soups,",
+      "protein_cut": "salmon cubes or fillets",
+      "cook_method": "soup simmering / en papillote",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "4 salmon fillets in parchment paper hearts",
+        "Julienned zucchini, carrots, leeks",
+        "White wine splash, butter, fresh tarragon"
+      ],
+      "instructions": [
+        "Pat the salmon cubes or fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using soup simmering / en papillote until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "soups,-chowders-&-parchment",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_084",
+      "title": "French Salmon & Vegetable Paper Pouch",
+      "cuisine": "Soups,",
+      "protein_cut": "salmon cubes or fillets",
+      "cook_method": "soup simmering / en papillote",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "4 salmon fillets in parchment",
+        "Cherry tomatoes, asparagus, lemon wheels, thyme",
+        "Baked at 400\u00b0F until pouch puffs with steam"
+      ],
+      "instructions": [
+        "Pat the salmon cubes or fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using soup simmering / en papillote until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "soups,-chowders-&-parchment",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_085",
+      "title": "Thai Coconut Salmon Soup (Tom Kha)",
+      "cuisine": "Soups,",
+      "protein_cut": "salmon cubes or fillets",
+      "cook_method": "soup simmering / en papillote",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "1.25 lbs salmon cubes",
+        "Coconut milk, chicken broth, galangal, lemongrass",
+        "Kaffir lime leaves, oyster mushrooms, lime juice"
+      ],
+      "instructions": [
+        "Pat the salmon cubes or fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using soup simmering / en papillote until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "soups,-chowders-&-parchment",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_086",
+      "title": "Mediterranean Tomato Salmon Stew",
+      "cuisine": "Soups,",
+      "protein_cut": "salmon cubes or fillets",
+      "cook_method": "soup simmering / en papillote",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs salmon chunks",
+        "Crushed tomatoes, white wine, fennel, garlic",
+        "Kalamata olives, crusty sourdough bread"
+      ],
+      "instructions": [
+        "Pat the salmon cubes or fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using soup simmering / en papillote until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "soups,-chowders-&-parchment",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_087",
+      "title": "Salmon, Potato & Leek Chowder",
+      "cuisine": "Soups,",
+      "protein_cut": "salmon cubes or fillets",
+      "cook_method": "soup simmering / en papillote",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs salmon cubes",
+        "Saut\u00e9ed leeks, diced potatoes, chicken broth",
+        "Cream, fresh parsley, oyster crackers"
+      ],
+      "instructions": [
+        "Pat the salmon cubes or fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using soup simmering / en papillote until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "soups,-chowders-&-parchment",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_088",
+      "title": "Cajun Salmon Seafood Gumbo",
+      "cuisine": "Soups,",
+      "protein_cut": "salmon cubes or fillets",
+      "cook_method": "soup simmering / en papillote",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "Salmon chunks, andouille sausage, okra",
+        "Dark roux, Holy Trinity (onion, celery, bell pepper)",
+        "Spiced broth, steamed white rice"
+      ],
+      "instructions": [
+        "Pat the salmon cubes or fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using soup simmering / en papillote until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "soups,-chowders-&-parchment",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_089",
+      "title": "Italian Tomato Basil Salmon Soup",
+      "cuisine": "Soups,",
+      "protein_cut": "salmon cubes or fillets",
+      "cook_method": "soup simmering / en papillote",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs salmon chunks",
+        "San Marzano tomatoes, white wine, garlic, broth",
+        "Cannellini beans, fresh torn basil"
+      ],
+      "instructions": [
+        "Pat the salmon cubes or fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using soup simmering / en papillote until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "soups,-chowders-&-parchment",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_090",
+      "title": "Creamy Wild Salmon & Dill Chowder",
+      "cuisine": "Soups,",
+      "protein_cut": "salmon cubes or fillets",
+      "cook_method": "soup simmering / en papillote",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs wild sockeye salmon",
+        "Diced celery, onions, potatoes, heavy cream",
+        "Dry white wine, fresh dill sprigs"
+      ],
+      "instructions": [
+        "Pat the salmon cubes or fillets completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using soup simmering / en papillote until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "soups,-chowders-&-parchment",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_091",
+      "title": "Grilled Salmon Greek Salad with Feta",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked flaked or grilled salmon",
+      "cook_method": "chilled assembly / meal-prep",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Grilled salmon fillets",
+        "Romaine lettuce, cucumbers, cherry tomatoes",
+        "Kalamata olives, red onion, crumbled feta, oregano"
+      ],
+      "instructions": [
+        "Pat the cooked flaked or grilled salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using chilled assembly / meal-prep until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "salads,-bowls-&-cold-dishes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_092",
+      "title": "Classic Smoked Salmon Ni\u00e7oise Salad",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked flaked or grilled salmon",
+      "cook_method": "chilled assembly / meal-prep",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Hot-smoked salmon flakes",
+        "Baby potatoes, blanched green beans, boiled eggs",
+        "Ni\u00e7oise olives, butter lettuce, Dijon vinaigrette"
+      ],
+      "instructions": [
+        "Pat the cooked flaked or grilled salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using chilled assembly / meal-prep until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "salads,-bowls-&-cold-dishes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_093",
+      "title": "Crispy Salmon Caesar Salad with Croutons",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked flaked or grilled salmon",
+      "cook_method": "chilled assembly / meal-prep",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Crispy skin salmon fillets",
+        "Crisp romaine hearts, shaved parmesan, garlic croutons",
+        "Creamy Caesar dressing, cracked black pepper"
+      ],
+      "instructions": [
+        "Pat the cooked flaked or grilled salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using chilled assembly / meal-prep until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "salads,-bowls-&-cold-dishes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_094",
+      "title": "Avocado Salmon Salad with Citrus Dressing",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked flaked or grilled salmon",
+      "cook_method": "chilled assembly / meal-prep",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Flaked grilled salmon",
+        "Mixed baby greens, sliced avocado, grapefruit segments",
+        "Honey lime vinaigrette, toasted almonds"
+      ],
+      "instructions": [
+        "Pat the cooked flaked or grilled salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using chilled assembly / meal-prep until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "salads,-bowls-&-cold-dishes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_095",
+      "title": "Cold Poached Salmon with Lemon Herb Mayo",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked flaked or grilled salmon",
+      "cook_method": "chilled assembly / meal-prep",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Wine-poached cold salmon fillets",
+        "Homemade lemon-dill mayonnaise sauce",
+        "Thinly sliced English cucumbers, watercress"
+      ],
+      "instructions": [
+        "Pat the cooked flaked or grilled salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using chilled assembly / meal-prep until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "salads,-bowls-&-cold-dishes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_096",
+      "title": "Homemade Cured Salmon Gravlax with Mustard",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked flaked or grilled salmon",
+      "cook_method": "chilled assembly / meal-prep",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1 side fresh salmon (skin-on)",
+        "Coarse salt, sugar, cracked white peppercorns, fresh dill",
+        "Cured 48 hours, sliced paper-thin, hovm\u00e4stars\u00e5s"
+      ],
+      "instructions": [
+        "Pat the cooked flaked or grilled salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using chilled assembly / meal-prep until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "salads,-bowls-&-cold-dishes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_097",
+      "title": "Smoked Salmon Bagel Board with Capers",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked flaked or grilled salmon",
+      "cook_method": "chilled assembly / meal-prep",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Thinly sliced Nova smoked salmon",
+        "Toasted bagels, whipped cream cheese, capers",
+        "Thin red onion rings, sliced tomatoes, fresh dill"
+      ],
+      "instructions": [
+        "Pat the cooked flaked or grilled salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using chilled assembly / meal-prep until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "salads,-bowls-&-cold-dishes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_098",
+      "title": "Grilled Salmon & Quinoa Meal Prep Bowls",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked flaked or grilled salmon",
+      "cook_method": "chilled assembly / meal-prep",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Grilled salmon fillets",
+        "Cooked fluffy quinoa, steamed broccoli, sweet potatoes",
+        "Lemon tahini dressing drizzle"
+      ],
+      "instructions": [
+        "Pat the cooked flaked or grilled salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using chilled assembly / meal-prep until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "salads,-bowls-&-cold-dishes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_099",
+      "title": "Spicy Salmon Cucumber Salad Bites",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked flaked or grilled salmon",
+      "cook_method": "chilled assembly / meal-prep",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Cooked flaked salmon",
+        "Spicy mayo, sriracha, sesame oil, green onions",
+        "Spoon-filled hollowed cucumber rounds"
+      ],
+      "instructions": [
+        "Pat the cooked flaked or grilled salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using chilled assembly / meal-prep until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "salads,-bowls-&-cold-dishes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "salmon_100",
+      "title": "Salmon Salad Croissant Sandwiches",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked flaked or grilled salmon",
+      "cook_method": "chilled assembly / meal-prep",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Flaked cooked salmon",
+        "Mayonnaise, Dijon mustard, diced celery, fresh dill",
+        "Stuffed into buttery flaky croissants"
+      ],
+      "instructions": [
+        "Pat the cooked flaked or grilled salmon completely dry; season with salt, pepper, and signature regional aromatics.",
+        "Cook using chilled assembly / meal-prep until flesh turns opaque and flakes gently with a fork (125-130\u00b0F for medium).",
+        "Baste with lemon butter, glazes, or savory reductions during final cooking.",
+        "Garnish with fresh herbs and lemon wedges; serve hot or chilled."
+      ],
+      "potluck_tags": [
+        "salmon",
+        "salads,-bowls-&-cold-dishes",
+        "seafood",
+        "healthy-omega3",
+        "potluck-friendly"
+      ]
+    }
+  ]
+}

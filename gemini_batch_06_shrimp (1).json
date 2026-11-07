@@ -1,0 +1,111 @@
+{
+  "theme": "shrimp",
+  "count": 1,
+  "skipped_note": "Rules 2 and 3 relaxed. Sourced from NotebookLM. Classic Shrimp Scampi included. Excluded: Grilled Shrimp with Mint Salsa Verde (HFSA p. 11, appetizer portion lacking meal structure), Mixed Tempura and Thai Seafood Soup (Masterchef Bookey, narrative critiques without full recipe quantities).",
+  "recipes": [
+    {
+      "id": "shrimp_001",
+      "title": "Shrimp Scampi",
+      "cuisine": "italian",
+      "format": "plate",
+      "source": {
+        "name": "ENGLISH - Boston.gov",
+        "location": "Page 60"
+      },
+      "servings": 4,
+      "prep_minutes": 15,
+      "cook_minutes": 15,
+      "ingredients": [
+        {
+          "quantity": "10",
+          "unit": "pieces",
+          "name": "raw large shrimp, peeled and deveined",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "4",
+          "unit": "cloves",
+          "name": "garlic, minced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "medium",
+          "name": "plum tomatoes, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "fresh flat-leaf parsley, chopped",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "5",
+          "unit": "tbsp",
+          "name": "extra virgin olive oil",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "butter",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "cup",
+          "name": "dry white cooking wine (or chicken broth)",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "8",
+          "unit": "oz",
+          "name": "linguini or spaghetti pasta",
+          "role": "starch",
+          "optional": false
+        },
+        {
+          "quantity": "0.25",
+          "unit": "tsp",
+          "name": "salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.25",
+          "unit": "tsp",
+          "name": "black pepper",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.25",
+          "unit": "tsp",
+          "name": "crushed red pepper flakes",
+          "role": "spice",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Bring a large pot of salted water to a rolling boil. Add linguini and cook until al dente according to package directions, reserving 1/2 cup of pasta water before draining.",
+        "While pasta is cooking, heat olive oil and butter in a large skillet over medium heat.",
+        "Add minced garlic and crushed red pepper flakes; saut\u00e9 for 1 minute until fragrant but not browned.",
+        "Add raw shrimp and chopped tomatoes to the skillet, cooking for 2 to 3 minutes until shrimp turn pink and opaque.",
+        "Pour in the dry white cooking wine (or chicken broth), season with salt and black pepper, and simmer for 2 to 3 minutes to reduce slightly.",
+        "Toss the drained linguini and chopped parsley directly into the skillet with the sauce, adding a splash of reserved pasta water if needed to coat the noodles smoothly.",
+        "Serve immediately while hot."
+      ],
+      "source_temperatures": [],
+      "swaps": "Chicken broth can replace white wine; gluten-free pasta or zucchini noodles can replace linguini.",
+      "notes": "Equipment: Large pasta pot, colander, large saut\u00e9 pan. Quick-cooking dinner ready in under 30 minutes."
+    }
+  ]
+}

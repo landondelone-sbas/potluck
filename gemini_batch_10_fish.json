@@ -1,0 +1,124 @@
+{
+  "theme": "fish",
+  "count": 1,
+  "skipped_note": "Bacalhau à Brás (Boston.gov p. 20) excluded under Rule 5 (requires overnight soaking) and Rule 5 (eggs cooked directly into hot potatoes/fish). Baked Salmon with Lemon and Dill (Prime Women) excluded under Rule 7 (baked salmon blacklisted) and Rule 6 (lacks starch/veg). Crispy Pan-Seared Bass with Walnut Romesco (Harvard Nutrition Source) excluded under Rule 1 (link/blurb only). Crispy-Skin Rockfish & Graham's Halibut (Masterchef - Bookey) excluded under Rule 1 (editorial summary blurbs lacking quantities and directions).",
+  "recipes": [
+    {
+      "id": "fish_001",
+      "title": "Cod Fish Salad",
+      "cuisine": "caribbean",
+      "format": "plate",
+      "source": {
+        "name": "ENGLISH - Boston.gov",
+        "location": "Page 19"
+      },
+      "servings": 4,
+      "prep_minutes": 35,
+      "cook_minutes": 15,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "packages",
+          "name": "salt cod fish",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "medium",
+          "name": "green bell pepper, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "medium",
+          "name": "red bell pepper, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "medium",
+          "name": "green cabbage, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "medium",
+          "name": "tomatoes, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "4",
+          "unit": "cloves",
+          "name": "garlic, crushed",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "packet",
+          "name": "sazón seasoning",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "paprika",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "dried oregano",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "fresh parsley, chopped",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "cups",
+          "name": "cooked white rice",
+          "role": "starch",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "4",
+          "unit": "cups",
+          "name": "water for soaking and boiling",
+          "role": "staple",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Soak the salt cod fish in cold water for 30 minutes to draw out excess sodium.",
+        "Drain the salt cod, place it into a pot with clean water, bring to a boil, and simmer for several minutes.",
+        "Transfer the boiled cod into cold water to cool slightly, drain, flake into bite-sized pieces, and give it a final light rinse.",
+        "Heat the olive oil in a large skillet over low heat, add the crushed garlic, chopped cabbage, diced bell peppers, sazón, and paprika, and sauté for a few minutes while stirring.",
+        "Gently fold in the flaked cod fish, diced tomatoes, oregano, parsley, and an extra splash of olive oil, cooking briefly until the vegetables are tender.",
+        "Serve warm over portions of steamed white rice."
+      ],
+      "source_temperatures": [],
+      "swaps": "",
+      "notes": "Equipment: Large saucepan for boiling fish, large skillet for sautéing. Requires 30 minutes passive soaking time before cooking. White rice is prepared separately according to package directions before plating."
+    }
+  ]
+}

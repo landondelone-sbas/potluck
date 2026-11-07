@@ -1,0 +1,81 @@
+{
+  "theme": "salmon",
+  "count": 1,
+  "skipped_note": "Rules 2 and 3 relaxed. Sourced from NotebookLM. Baked Salmon with Lemon and Dill included. Excluded: Masterchef Bookey narrative mentions lacking quantities and preparation instructions.",
+  "recipes": [
+    {
+      "id": "salmon_001",
+      "title": "Baked Salmon with Lemon and Dill",
+      "cuisine": "med",
+      "format": "plate",
+      "source": {
+        "name": "Prime Women",
+        "location": "Source 1bdad113-cec3-48dc-a15a-6b07f0d8c482"
+      },
+      "servings": 4,
+      "prep_minutes": 5,
+      "cook_minutes": 20,
+      "ingredients": [
+        {
+          "quantity": "4",
+          "unit": "fillets",
+          "name": "salmon fillets (about 6 oz each)",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "extra virgin olive oil",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "medium",
+          "name": "fresh lemon, thinly sliced",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "fresh dill, finely chopped",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.25",
+          "unit": "tsp",
+          "name": "freshly ground black pepper",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Preheat the oven to 400\u00b0F (200\u00b0C) and line a rimmed baking sheet with parchment paper or foil.",
+        "Arrange salmon fillets skin-side down on the prepared baking sheet, leaving space between each fillet.",
+        "Drizzle olive oil evenly over each fillet, and season with salt and freshly ground black pepper.",
+        "Scatter chopped fresh dill over the top of the salmon.",
+        "Arrange thin slices of fresh lemon over each fillet to infuse flavor and retain moisture during baking.",
+        "Bake uncovered for 15 to 20 minutes, until the salmon flakes easily with a fork and reaches an internal temperature of 145\u00b0F.",
+        "Remove from the oven and serve immediately with pan juices spooned on top."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Baking salmon",
+          "target": "145\u00b0F internal temperature"
+        }
+      ],
+      "swaps": "Can substitute fresh parsley or tarragon for dill; lime slices can replace lemon.",
+      "notes": "Equipment: Rimmed baking sheet, parchment paper or foil. Light, clean preparation suitable for busy weeknights."
+    }
+  ]
+}
