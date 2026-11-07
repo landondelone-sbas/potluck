@@ -51,7 +51,9 @@ export function ResultCard({
       testID={`dish-${dish.id}`}
     >
       <Text style={[type.eyebrow, { color: colors.ink2 }]}>
-        {`${CUISINE_LABELS[dish.cuisine]} · ${strings.results.format[dish.format]} · ${strings.results.minutes(dish.minutes)} · ${dish.feel}`}
+        {card.freestyle
+          ? `${strings.results.freestyle} · ${strings.results.minutes(dish.minutes)}`
+          : `${CUISINE_LABELS[dish.cuisine]} · ${strings.results.format[dish.format]} · ${strings.results.minutes(dish.minutes)} · ${dish.feel}`}
       </Text>
       <Text accessibilityRole="header" style={[type.title, { color: colors.ink }]}>
         {card.title}

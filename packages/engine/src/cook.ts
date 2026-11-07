@@ -2,6 +2,7 @@ import { CATEGORIES, categoryIndex, type Category } from './categories';
 import { buildResult, type ChefPicks } from './results';
 import { evaluateDish, type DishEvaluation } from './score';
 import type { CookResult, Dish, PotItem } from './types';
+import { freestyle } from './freestyle';
 import { wildcardName } from './wildcard';
 
 /** A dish is a candidate when it scores at least this percent of the top dish. */
@@ -97,6 +98,7 @@ export function cook(
     potSize: pot.length,
     mode: candidates.length === 1 ? 'single' : 'multi',
     results: candidates.map((evaluation) => buildResult(evaluation, chefPicks.get(evaluation))),
+    freestyle: freestyle(pot),
     wildcard: pot.length >= 2 ? wildcardName(pot) : null,
   };
 }

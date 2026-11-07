@@ -2,6 +2,8 @@ import {
   buildResult,
   categoryIndex,
   evaluateDish,
+  freestyle,
+  FREESTYLE_ID,
   tagsFor,
   type Category,
   type ChefPicks,
@@ -71,6 +73,13 @@ export function makeLogEntry(
  * is no longer in the library, for example after an app update removed it.
  */
 export function rebuildResult(entry: CookLogEntry, library: readonly Dish[]): DishResult | null {
+  // A freestyle dinner is not in the library: it is made from the pot, so it is made from it again.
+  if (entry.dishId === FREESTYLE_ID) {
+    return freestyle(
+      entry.pot.map(({ name, category }) => ({ name, category, tags: tagsFor(category, name) })),
+    );
+  }
+
   const index = library.findIndex((dish) => dish.id === entry.dishId);
   const dish = library[index];
   if (!dish) return null;
