@@ -153,6 +153,10 @@ export const strings = {
     makeTonight: 'Make this tonight',
     makeTonightHint: 'Saves it to your cook log and opens the recipe.',
     openRecipe: 'Open the recipe',
+    freestyleTitle: 'Or cook exactly what you picked',
+    freestyleBody:
+      'No recipe needed. This one is built from your pot, so everything in it gets used.',
+    freestyle: 'Freestyle',
     wildcardEyebrow: 'Chef’s wildcard · AI preview',
     wildcardBody:
       'A template for now. Later, AI writes a full recipe around your exact pot, your diet and what is in your kitchen.',

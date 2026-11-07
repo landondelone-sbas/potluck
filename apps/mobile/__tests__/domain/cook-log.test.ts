@@ -140,3 +140,26 @@ describe('formatDay', () => {
     expect(formatDay(new Date(2026, 10, 3, 12).getTime(), 'en-US')).toBe('Tue, Nov 3');
   });
 });
+
+describe('a freestyle dinner in the cook log', () => {
+  const pot = potOf(
+    ['protein', 'Shrimp'],
+    ['veg', 'Spinach'],
+    ['veg', 'Asparagus'],
+    ['starch', 'Jasmine rice'],
+  );
+  const run = runFor(pot);
+
+  test('is made from the pot again, and equals the card that was shown', () => {
+    const card = run.result.freestyle!;
+    const entry = makeLogEntry(card, run, { id: 'e', now: 2 });
+    expect(entry.dishId).toBe('freestyle');
+    expect(rebuildResult(entry, dishes)).toEqual(card);
+  });
+
+  test('still rebuilds after the library loses every dish', () => {
+    const card = run.result.freestyle!;
+    const entry = makeLogEntry(card, run, { id: 'e', now: 2 });
+    expect(rebuildResult(entry, [])).toEqual(card);
+  });
+});

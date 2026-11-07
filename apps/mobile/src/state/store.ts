@@ -148,7 +148,10 @@ export function createPotluckStore(storage: StateStorage) {
         logCooked: (dishId) => {
           const { run, logged, cookLog } = get();
           if (!run) return null;
-          const card = run.result.results.find((r) => r.dish.id === dishId);
+          const { freestyle } = run.result;
+          const card =
+            run.result.results.find((r) => r.dish.id === dishId) ??
+            (freestyle?.dish.id === dishId ? freestyle : undefined);
           if (!card) return null;
           const key = `${run.runId}:${dishId}`;
           const existing = cookLog.find((entry) => entry.id === logged[key]);

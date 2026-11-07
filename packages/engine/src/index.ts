@@ -14,6 +14,7 @@ export { cook, isCloseEnough, CLOSE_PERCENT, MAX_RESULTS } from './cook';
 export { plateNudge, type PlateNudge } from './nudge';
 export { buildResult, type ChefPicks } from './results';
 export { donenessFor, type DonenessItem } from './doneness';
+export { FREESTYLE_ID, freestyle } from './freestyle';
 export { howToCook, type SideCategory, type SideItem } from './sides';
 export {
   evaluateDish,

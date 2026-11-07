@@ -77,7 +77,9 @@ export default function RecipeScreen() {
     >
       <Text style={[type.eyebrow, { color: colors.ink2 }]}>
         {recipe
-          ? `${strings.results.format[recipe.dish.format]} · ${strings.results.minutes(recipe.dish.minutes)} · ${recipe.dish.feel}`
+          ? recipe.freestyle
+            ? `${strings.results.freestyle} · ${strings.results.minutes(recipe.dish.minutes)}`
+            : `${strings.results.format[recipe.dish.format]} · ${strings.results.minutes(recipe.dish.minutes)} · ${recipe.dish.feel}`
           : formatDay(entry.cookedAt)}
       </Text>
       <Text accessibilityRole="header" style={[type.display, { color: colors.ink }]}>

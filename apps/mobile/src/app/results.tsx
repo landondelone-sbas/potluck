@@ -35,6 +35,32 @@ export default function ResultsScreen() {
 
   const { result } = run;
 
+  // The dinner made from exactly what was picked. It goes first when no dish in the library uses
+  // everything in the pot, and last when one does.
+  const freestyleBlock = result.freestyle ? (
+    <View style={styles.freestyle} testID="freestyle">
+      <Text accessibilityRole="header" style={[type.heading, { color: colors.ink }]}>
+        {strings.results.freestyleTitle}
+      </Text>
+      <Text style={[type.small, { color: colors.ink2 }]}>{strings.results.freestyleBody}</Text>
+      <ResultCard
+        card={result.freestyle}
+        hero={false}
+        onExplain={say}
+        onMakeTonight={() => {
+          const entry = logCooked(result.freestyle?.dish.id ?? '');
+          if (!entry) return;
+          dropped();
+          router.push(`/recipe/${entry.id}`);
+        }}
+        potSize={result.potSize}
+        saved={`${run.runId}:${result.freestyle.dish.id}` in logged}
+        stale={stale}
+      />
+    </View>
+  ) : null;
+  const freestyleFirst = result.results.every((card) => card.used.length < result.potSize);
+
   return (
     <View style={[styles.root, { backgroundColor: colors.bg }]}>
       <ScrollView contentContainerStyle={styles.content}>
@@ -71,6 +97,8 @@ export default function ResultsScreen() {
           </View>
         ) : null}
 
+        {freestyleFirst ? freestyleBlock : null}
+
         {result.results.map((card) => (
           <ResultCard
             key={card.dish.id}
@@ -89,7 +117,8 @@ export default function ResultsScreen() {
           />
         ))}
 
-        {result.wildcard ? (
+        {freestyleFirst ? null : freestyleBlock}
+        {!result.freestyle && result.wildcard ? (
           <View style={[styles.wildcard, { borderColor: colors.line }]} testID="wildcard">
             <Text style={[type.eyebrow, { color: colors.ink2 }]}>
               {strings.results.wildcardEyebrow}
@@ -111,6 +140,7 @@ const styles = StyleSheet.create({
   content: { padding: space.md, gap: space.md, paddingBottom: space.xxl },
   back: { alignSelf: 'flex-start' },
   staleNote: { borderWidth: 1.5, borderRadius: radius.md, padding: space.md },
+  freestyle: { gap: space.sm },
   wildcard: {
     borderWidth: 1.5,
     borderStyle: 'dashed',

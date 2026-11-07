@@ -26,7 +26,7 @@ beforeEach(() => {
 });
 
 describe('with several dishes', () => {
-  test('shows each dish with its title, a headline and the chef’s wildcard', async () => {
+  test('shows each dish with its title, a headline and the freestyle dinner', async () => {
     const run = cookWith(goldenPot);
     await renderScreen(<ResultsScreen />);
 
@@ -34,14 +34,47 @@ describe('with several dishes', () => {
     expect(screen.getByText('Chicken Thighs Fried Rice')).toBeTruthy();
     expect(screen.getByText('Glazed Chicken Thighs & Broccoli Bowl')).toBeTruthy();
     expect(screen.getByTestId('headline')).toHaveTextContent(/A few ways to go\./);
-    expect(screen.getByText(run?.result.wildcard ?? 'missing')).toBeTruthy();
+    expect(screen.getByText('Or cook exactly what you picked')).toBeTruthy();
+    expect(screen.getByText(run?.result.freestyle?.title ?? 'missing')).toBeTruthy();
+    expect(screen.queryByText(/AI preview/)).toBeNull();
+  });
+
+  test('the freestyle dinner comes last when a dish uses everything, and first when none does', async () => {
+    cookWith(goldenPot);
+    const { unmount } = await renderScreen(<ResultsScreen />);
+    const ids = screen.getAllByTestId(/^dish-/).map((node) => String(node.props.testID));
+    expect(ids[ids.length - 1]).toBe('dish-freestyle');
+    await unmount();
+
+    usePotluck.getState().clearPot();
+    cookWith(['Shrimp', 'Steak', 'Naan', 'Peanut sauce']);
+    await renderScreen(<ResultsScreen />);
+    const second = screen.getAllByTestId(/^dish-/).map((node) => String(node.props.testID));
+    expect(second[0]).toBe('dish-freestyle');
+  });
+
+  test('a pot of only a spice and a sauce has no freestyle dinner, so the wildcard shows', async () => {
+    cookWith(['Garlic', 'Soy sauce']);
+    await renderScreen(<ResultsScreen />);
+    expect(screen.queryByTestId('freestyle')).toBeNull();
     expect(screen.getByText(/AI preview/)).toBeTruthy();
+  });
+
+  test('the freestyle dinner can be made tonight and opens as a recipe', async () => {
+    cookWith(['Shrimp', 'Spinach', 'Asparagus', 'Jasmine rice']);
+    await renderScreen(<ResultsScreen />);
+    await fireEvent.press(screen.getByTestId('make-freestyle'));
+    expect(mockRouter.push).toHaveBeenCalledWith(expect.stringMatching(/^\/recipe\//));
+    const entry = usePotluck.getState().cookLog[0];
+    expect(entry?.dishId).toBe('freestyle');
+    expect(entry?.title).toBe('Shrimp with Spinach and Asparagus over Jasmine Rice');
   });
 
   test('says how much of the pot each dish used, and marks what was used', async () => {
     cookWith(goldenPot);
     await renderScreen(<ResultsScreen />);
-    expect(screen.getAllByText('Uses 5 of 5 picks')).toHaveLength(3);
+    // Three dishes and the freestyle dinner, which uses everything.
+    expect(screen.getAllByText('Uses 5 of 5 picks')).toHaveLength(4);
     expect(screen.getAllByLabelText('Ginger').length).toBeGreaterThan(0);
   });
 

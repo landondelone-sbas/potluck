@@ -52,6 +52,8 @@ export interface DishResult {
   chefAdds: readonly ChefAdd[];
   title: string;
   steps: readonly string[];
+  /** True for the card made from the pot itself, not from a dish in the library (ADR 0016). */
+  freestyle?: boolean | undefined;
 }
 
 export interface CookResult {
@@ -59,6 +61,11 @@ export interface CookResult {
   /** `single` when exactly one dish qualified: show it as the hero card. */
   mode: 'single' | 'multi';
   results: readonly DishResult[];
+  /**
+   * A dinner made from exactly what is in the pot, whether or not any dish fits it. Null only when
+   * the pot has no protein, vegetable or starch to cook.
+   */
+  freestyle: DishResult | null;
   /** Placeholder name for the AI step. Null when the pot has fewer than two items. */
   wildcard: string | null;
 }
