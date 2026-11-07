@@ -1,0 +1,171 @@
+{
+  "theme": "steak",
+  "count": 2,
+  "skipped_note": "Rules 2 and 3 relaxed. Sourced from NotebookLM. Added Perfect Sous Vide Steak (Fit Foodie Finds) alongside master Reverse-Sear Steak (Allen Brothers). Excluded: Masterchef PDF narrative mentions lacking measurements and cook directions.",
+  "recipes": [
+    {
+      "id": "steak_001",
+      "title": "How To Reverse Sear A Steak",
+      "cuisine": "comfort",
+      "format": "plate",
+      "source": {
+        "name": "Allen Brothers",
+        "location": "Source 6912d66b-52ea-406d-83f2-a109850d1142"
+      },
+      "servings": 2,
+      "prep_minutes": 15,
+      "cook_minutes": 45,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "steaks",
+          "name": "thick-cut steaks (ribeye, NY strip, or filet mignon, at least 1.5 to 2 inches thick)",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "kosher salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "freshly cracked black pepper",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "high smoke-point oil (canola, avocado, or grapeseed oil)",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "unsalted butter",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "cloves",
+          "name": "garlic, peeled and smashed",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "sprigs",
+          "name": "fresh rosemary or thyme",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Preheat the oven to 250\u00b0F (120\u00b0C).",
+        "Pat the steaks completely dry with paper towels, then season generously on all sides with kosher salt and cracked black pepper.",
+        "Set a wire rack inside a rimmed baking sheet and arrange steaks on top of the rack.",
+        "Bake in the preheated oven for 25 to 45 minutes, monitoring with an instant-read probe thermometer until target internal pull temperature is reached (110\u00b0F for rare, 120\u00b0F for medium-rare, 130\u00b0F for medium).",
+        "Heat high smoke-point cooking oil in a heavy cast iron skillet over high heat until smoking.",
+        "Transfer steaks to the hot skillet and sear for 1 minute on the first side.",
+        "Flip the steaks, immediately drop the butter, smashed garlic cloves, and herb sprigs into the pan.",
+        "Tilt the skillet and rapidly spoon the foaming herb butter over the tops of the steaks for 1 minute until a crisp, deep mahogany crust forms.",
+        "Sear the fat caps and edges with tongs for 30 seconds, then transfer steaks to a warm board to rest for 5 to 7 minutes before slicing."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Oven pull temp",
+          "target": "Rare: 110\u00b0F; Med-Rare: 120\u00b0F; Medium: 130\u00b0F; Med-Well: 140\u00b0F"
+        },
+        {
+          "step": "Final rested temp",
+          "target": "Rare: 120-125\u00b0F; Med-Rare: 130-135\u00b0F; Medium: 140-145\u00b0F; Med-Well: 150-155\u00b0F"
+        }
+      ],
+      "swaps": "Applicable to bone-in or boneless cuts; beef tallow can replace butter for high-heat basting.",
+      "notes": "Equipment: Rimmed baking sheet, wire roasting rack, cast iron skillet, instant-read probe thermometer. Ideal for cuts 1.5 inches thick or greater."
+    },
+    {
+      "id": "steak_002",
+      "title": "Perfect Sous Vide Steak with Cast-Iron Herb Butter Sear",
+      "cuisine": "comfort",
+      "format": "plate",
+      "source": {
+        "name": "Fit Foodie Finds",
+        "location": "Source cfaeb7de-69c4-4ef7-b6c9-1e7d2013c8f3"
+      },
+      "servings": 4,
+      "prep_minutes": 15,
+      "cook_minutes": 120,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "steaks",
+          "name": "New York strip steaks (1.5 inches thick, approx 1 lb each)",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "coarse sea salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "coarse black pepper",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "sprigs",
+          "name": "fresh rosemary or thyme",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "unsalted butter (divided)",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "high smoke-point olive oil or avocado oil",
+          "role": "staple",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Set up an immersion circulator in a large pot filled with water. Preheat the water bath to 130\u00b0F-134\u00b0F for medium-rare (or 135\u00b0F-144\u00b0F for medium).",
+        "Pat strip steaks thoroughly dry with paper towels, then season both sides generously with coarse sea salt and coarse black pepper.",
+        "Place each steak into its own vacuum seal or silicone bag, adding 1 tablespoon of butter and 1 fresh herb sprig on top of each steak.",
+        "Seal the bags, removing as much air as possible (using vacuum sealer or water displacement method).",
+        "Submerge bags in preheated water bath and cook for 2 hours (up to 4 hours maximum).",
+        "Remove steaks from bags, discard cooking juices and herb sprigs, and pat both sides completely dry with paper towels (dry meat ensures a rapid sear).",
+        "Heat a cast-iron skillet over medium-high heat until lightly smoking; add cooking oil.",
+        "Place steaks in the hot skillet and sear undisturbed for 1 minute on the first side.",
+        "Flip steaks and sear for 1 minute on the second side while spooning melted pan fat over top.",
+        "Transfer steaks to a cutting board, rest for 2 to 3 minutes, then slice against the grain and serve."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Sous vide bath",
+          "target": "Medium-Rare: 130\u00b0F-134\u00b0F; Medium: 135\u00b0F-144\u00b0F; Medium-Well: 145\u00b0F-155\u00b0F"
+        }
+      ],
+      "swaps": "Ribeye or filet mignon can replace NY strip steaks; beef tallow can replace butter for searing.",
+      "notes": "Equipment: Sous vide immersion circulator, large pot, sealable cooking bags, cast iron skillet, paper towels."
+    }
+  ]
+}

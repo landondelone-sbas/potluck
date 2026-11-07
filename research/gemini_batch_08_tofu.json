@@ -1,0 +1,6 @@
+{
+  "theme": "tofu",
+  "count": 0,
+  "skipped_note": "No qualifying recipes found in notebook sources meeting all criteria. Evaluated and skipped: 1. Recipes index from The Nutrition Source - Harvard (contains recipe titles such as Green Beans with Tofu and Crushed Peanuts, Mushroom Tofu Veggie Burger, and Spicy Lemongrass Tofu with Asian Basil as external links; full ingredient measurements, quantities, and cooking instructions are absent from notebook text per Rule 1). 2. Mapo Tofu and Sesame Tofu (referenced in general app exclusion list under Rule 7; also not present with full recipes in notebook). 3. White Bean Turkey Chili from ENGLISH - Boston.gov (excluded under Rule 7: chili and turkey chili are blacklisted). 4. Tortilla Soup from ENGLISH - Boston.gov (excluded under Rule 7: soups and stews are blacklisted). 5. Simple Ratatouille from HFSA (vegetarian side dish lacking starch and primary protein per Rule 6).",
+  "recipes": []
+}

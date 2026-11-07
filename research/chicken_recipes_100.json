@@ -1,0 +1,3348 @@
+{
+  "total_recipes": 100,
+  "generated_for": "Claude & Potluck",
+  "recipes": [
+    {
+      "id": "recipe_001",
+      "title": "Classic Southern Buttermilk Fried Chicken",
+      "cuisine": "Southern American",
+      "chicken_cut": "bone-in pieces (thighs, drumsticks, breasts)",
+      "cook_method": "deep-frying",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs chicken pieces (thighs, drumsticks, breasts)",
+        "2 cups buttermilk",
+        "1 tbsp hot sauce",
+        "2 cups all-purpose flour",
+        "1 tbsp smoked paprika",
+        "1 tbsp garlic powder",
+        "1 tbsp onion powder",
+        "1 tsp cayenne pepper",
+        "2 tsp kosher salt",
+        "1 tsp black pepper",
+        "Oil for frying"
+      ],
+      "instructions": [
+        "Marinate chicken in buttermilk, hot sauce, and salt for at least 4 hours.",
+        "Whisk flour and spices together in a shallow dish with 3 tbsp of buttermilk drizzled in to make flaky flakes.",
+        "Dredge chicken thoroughly in seasoned flour and rest on rack for 15 minutes.",
+        "Fry in 350\u00b0F oil in batches: dark meat 14-16 mins, white meat 10-12 mins until 165\u00b0F.",
+        "Drain on wire rack and serve warm."
+      ],
+      "potluck_tags": [
+        "potluck-favorite",
+        "comfort-food",
+        "crispy",
+        "crowd-pleaser"
+      ]
+    },
+    {
+      "id": "recipe_002",
+      "title": "Nashville Hot Chicken",
+      "cuisine": "American",
+      "chicken_cut": "bone-in thighs and drumsticks",
+      "cook_method": "deep-frying & spicy oil glaze",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "2.5 lbs chicken thighs and drumsticks",
+        "1.5 cups buttermilk",
+        "2 tbsp dill pickle juice",
+        "2 cups all-purpose flour",
+        "1/2 cup hot frying oil (reserved)",
+        "3 tbsp cayenne pepper",
+        "1 tbsp dark brown sugar",
+        "1 tsp chili powder",
+        "1 tsp garlic powder",
+        "1 tsp smoked paprika",
+        "White bread slices and pickle chips"
+      ],
+      "instructions": [
+        "Marinate chicken in buttermilk and pickle juice with salt for 4 hours.",
+        "Dredge in seasoned flour, dip in buttermilk, dredge again.",
+        "Fry at 325\u00b0F for 15-18 mins until 165\u00b0F.",
+        "Whisk hot frying oil into cayenne, brown sugar, chili powder, and spices to form paste.",
+        "Brush chicken generously with spicy oil glaze and serve over white bread with pickles."
+      ],
+      "potluck_tags": [
+        "spicy",
+        "nashville",
+        "crispy",
+        "bold-flavor"
+      ]
+    },
+    {
+      "id": "recipe_003",
+      "title": "Slow-Cooker BBQ Pulled Chicken",
+      "cuisine": "American BBQ",
+      "chicken_cut": "boneless skinless thighs or breasts",
+      "cook_method": "slow-cooker",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 240,
+      "servings": 8,
+      "ingredients": [
+        "3 lbs boneless skinless chicken thighs or breasts",
+        "1.5 cups barbecue sauce",
+        "1/3 cup apple cider vinegar",
+        "1/4 cup brown sugar",
+        "1 tbsp yellow mustard",
+        "1 tbsp Worcestershire sauce",
+        "1 tbsp smoked paprika",
+        "1 tbsp garlic powder",
+        "Slider buns and coleslaw"
+      ],
+      "instructions": [
+        "Place chicken into slow cooker.",
+        "Whisk BBQ sauce, vinegar, brown sugar, mustard, Worcestershire, and spices; pour over chicken.",
+        "Cover and cook on LOW 5-6 hours or HIGH 3-4 hours.",
+        "Shred chicken with two forks directly into juices and toss to coat.",
+        "Serve hot on slider buns with coleslaw."
+      ],
+      "potluck_tags": [
+        "slow-cooker",
+        "potluck-classic",
+        "bbq",
+        "sliders",
+        "easy-prep"
+      ]
+    },
+    {
+      "id": "recipe_004",
+      "title": "Homestyle Chicken Pot Pie",
+      "cuisine": "American Comfort",
+      "chicken_cut": "shredded cooked chicken breast",
+      "cook_method": "baking",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 40,
+      "servings": 6,
+      "ingredients": [
+        "3 cups cooked shredded chicken",
+        "1/3 cup butter",
+        "1 medium onion, diced",
+        "2 carrots, diced",
+        "2 celery stalks, sliced",
+        "1/3 cup flour",
+        "2 cups chicken broth",
+        "2/3 cup heavy cream",
+        "1 cup frozen peas",
+        "1 tbsp fresh thyme",
+        "1 double pie crust",
+        "1 egg for wash"
+      ],
+      "instructions": [
+        "Melt butter in skillet, saut\u00e9 onion, carrots, and celery 6-8 minutes.",
+        "Stir in flour and cook 1 minute, then whisk in broth and cream until thickened.",
+        "Stir in chicken, peas, thyme, salt, and pepper.",
+        "Pour into pie crust, top with second crust, crimp edges, vent, and brush with egg wash.",
+        "Bake at 400\u00b0F for 35-40 minutes until golden and bubbling."
+      ],
+      "potluck_tags": [
+        "comfort-food",
+        "casserole",
+        "flaky-crust",
+        "make-ahead"
+      ]
+    },
+    {
+      "id": "recipe_005",
+      "title": "Old-Fashioned Chicken and Dumplings",
+      "cuisine": "Southern American",
+      "chicken_cut": "bone-in chicken thighs and breasts",
+      "cook_method": "stovetop simmering",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 55,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs bone-in chicken",
+        "6 cups chicken stock",
+        "1 onion, diced",
+        "2 carrots, sliced",
+        "2 celery stalks, sliced",
+        "2 cups flour (dumplings)",
+        "1 tbsp baking powder",
+        "3/4 cup milk",
+        "4 tbsp melted butter",
+        "1/2 cup heavy cream",
+        "Fresh parsley"
+      ],
+      "instructions": [
+        "Simmer chicken, stock, onion, carrots, celery, and thyme for 30 minutes.",
+        "Remove chicken, shred meat, discard skin and bones, return meat with heavy cream.",
+        "Mix flour, baking powder, salt, milk, and melted butter into dumpling dough.",
+        "Drop spoonfuls of dough onto simmering stew, cover tightly, and simmer 15 minutes undisturbed.",
+        "Garnish with chopped parsley and cracked pepper."
+      ],
+      "potluck_tags": [
+        "stew",
+        "dumplings",
+        "comfort-food",
+        "hearty"
+      ]
+    },
+    {
+      "id": "recipe_006",
+      "title": "Crispy Baked Buffalo Chicken Wings",
+      "cuisine": "American Pub",
+      "chicken_cut": "chicken wings (flats & drumettes)",
+      "cook_method": "baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs chicken wings, patted dry",
+        "1 tbsp aluminum-free baking powder",
+        "1 tsp garlic powder",
+        "1 tsp kosher salt",
+        "1/2 cup Frank's RedHot sauce",
+        "1/3 cup melted butter",
+        "1 tbsp honey",
+        "Celery sticks and blue cheese dressing"
+      ],
+      "instructions": [
+        "Toss dried wings with baking powder, garlic powder, and salt.",
+        "Place wings on wire rack set in rimmed baking sheet.",
+        "Bake at 250\u00b0F for 20 mins, then 425\u00b0F for 30-35 mins until very crisp.",
+        "Whisk hot sauce, melted butter, and honey.",
+        "Toss hot wings in sauce and serve with celery and blue cheese."
+      ],
+      "potluck_tags": [
+        "appetizer",
+        "game-day",
+        "buffalo",
+        "party-wings"
+      ]
+    },
+    {
+      "id": "recipe_007",
+      "title": "Herb-Roasted Spatchcock Chicken",
+      "cuisine": "Classic Roast",
+      "chicken_cut": "whole chicken",
+      "cook_method": "roasting",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "1 whole chicken (4.5 lbs), butterflied flat",
+        "3 tbsp softened butter",
+        "2 tbsp olive oil",
+        "4 cloves minced garlic",
+        "1 tbsp fresh rosemary",
+        "1 tbsp fresh thyme",
+        "1 lemon, halved",
+        "Kosher salt and black pepper"
+      ],
+      "instructions": [
+        "Remove backbone from chicken and press flat.",
+        "Mix softened butter, garlic, rosemary, thyme, salt, and pepper.",
+        "Rub compound butter under skin and over outside of chicken.",
+        "Place on sheet pan with lemon halves; roast at 450\u00b0F for 40-45 mins until breast is 160\u00b0F and thighs 175\u00b0F.",
+        "Rest 10 minutes before carving."
+      ],
+      "potluck_tags": [
+        "whole-roast",
+        "crispy-skin",
+        "centerpiece",
+        "gluten-free"
+      ]
+    },
+    {
+      "id": "recipe_008",
+      "title": "Creamy Tuscan Garlic Chicken",
+      "cuisine": "Italian-American",
+      "chicken_cut": "boneless skinless chicken breasts",
+      "cook_method": "pan-searing & sauce reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "2 large chicken breasts, halved horizontally into cutlets",
+        "2 tbsp olive oil",
+        "1 tbsp Italian seasoning",
+        "4 cloves minced garlic",
+        "1/2 cup oil-packed sun-dried tomatoes",
+        "1 cup heavy cream",
+        "1/2 cup chicken broth",
+        "1/2 cup grated Parmesan",
+        "3 cups baby spinach"
+      ],
+      "instructions": [
+        "Season cutlets with Italian seasoning, salt, and pepper; sear in olive oil 4-5 mins per side until done, then remove.",
+        "Saut\u00e9 garlic and sun-dried tomatoes in same pan for 1 min.",
+        "Whisk in cream and broth, simmer 3 minutes, then stir in Parmesan until melted.",
+        "Stir in spinach until wilted, return chicken to skillet, and spoon sauce over top."
+      ],
+      "potluck_tags": [
+        "tuscan",
+        "creamy",
+        "keto-friendly",
+        "dinner-party"
+      ]
+    },
+    {
+      "id": "recipe_009",
+      "title": "Classic Chicken Piccata",
+      "cuisine": "Italian-American",
+      "chicken_cut": "thin chicken cutlets",
+      "cook_method": "pan-searing & pan sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 thin chicken cutlets (1.25 lbs)",
+        "1/3 cup flour",
+        "2 tbsp olive oil",
+        "3 tbsp butter",
+        "1/2 cup dry white wine",
+        "1/2 cup chicken stock",
+        "3 tbsp lemon juice",
+        "3 tbsp drained capers",
+        "1/4 cup chopped parsley"
+      ],
+      "instructions": [
+        "Dredge chicken cutlets lightly in flour; sear in oil and 1 tbsp butter for 3 mins per side until golden.",
+        "Deglaze pan with white wine and chicken stock, simmering 3 minutes until reduced.",
+        "Stir in lemon juice and capers, remove from heat, and swirl in remaining 2 tbsp cold butter.",
+        "Return chicken to warm through, top with parsley and serve."
+      ],
+      "potluck_tags": [
+        "quick",
+        "citrus",
+        "restaurant-quality",
+        "bright-flavors"
+      ]
+    },
+    {
+      "id": "recipe_010",
+      "title": "Southern Chicken Salad with Pecans & Grapes",
+      "cuisine": "Southern American",
+      "chicken_cut": "cooked cubed chicken breast",
+      "cook_method": "chilled assembly",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 0,
+      "servings": 6,
+      "ingredients": [
+        "4 cups cooked cubed chicken breast",
+        "1 cup halved red grapes",
+        "3/4 cup toasted chopped pecans",
+        "3 diced celery stalks",
+        "2 green onions, sliced",
+        "3/4 cup mayonnaise",
+        "1 tbsp Dijon mustard",
+        "1 tbsp lemon juice",
+        "Salt and pepper",
+        "Croissants for serving"
+      ],
+      "instructions": [
+        "Whisk mayonnaise, Dijon mustard, lemon juice, salt, and pepper in a large bowl.",
+        "Add cubed chicken, grapes, pecans, celery, and green onions.",
+        "Fold gently until thoroughly coated.",
+        "Refrigerate at least 1 hour before serving on croissants or lettuce cups."
+      ],
+      "potluck_tags": [
+        "cold-dish",
+        "potluck-classic",
+        "no-cook",
+        "picnic-ready"
+      ]
+    },
+    {
+      "id": "recipe_011",
+      "title": "Chicken Tinga (Tinga de Pollo)",
+      "cuisine": "Mexican",
+      "chicken_cut": "shredded cooked chicken breast",
+      "cook_method": "braising & simmering",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs shredded cooked chicken",
+        "3 canned chipotles in adobo plus 2 tbsp sauce",
+        "4 Roma tomatoes, core removed",
+        "1 large white onion, sliced",
+        "3 cloves garlic",
+        "1/2 tsp Mexican oregano",
+        "1 cup chicken broth",
+        "Tostada shells, refried beans, cotija cheese, crema"
+      ],
+      "instructions": [
+        "Blend tomatoes, chipotles, adobo sauce, garlic, oregano, and broth until smooth.",
+        "Saut\u00e9 sliced onion in oil until softened and lightly golden.",
+        "Pour chipotle-tomato sauce into onions and simmer for 10 minutes.",
+        "Add shredded chicken, simmer 8-10 minutes until thick and sauce clings to meat.",
+        "Serve over bean-spread tostadas with cotija and crema."
+      ],
+      "potluck_tags": [
+        "mexican",
+        "tinga",
+        "shredded-chicken",
+        "tostadas",
+        "tacos"
+      ]
+    },
+    {
+      "id": "recipe_012",
+      "title": "Authentic Pollo Asado (Citrus-Achiote Grilled Chicken)",
+      "cuisine": "Mexican",
+      "chicken_cut": "bone-in chicken thighs and drumsticks",
+      "cook_method": "charcoal grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs chicken thighs and drumsticks",
+        "3 tbsp achiote paste",
+        "1/2 cup fresh orange juice",
+        "1/4 cup lime juice",
+        "4 cloves garlic",
+        "1 tsp cumin",
+        "1 tsp Mexican oregano",
+        "2 tbsp olive oil",
+        "Warm corn tortillas and charred limes"
+      ],
+      "instructions": [
+        "Dissolve achiote paste in orange juice, lime juice, garlic, cumin, oregano, and olive oil with 1.5 tsp salt.",
+        "Marinate chicken in citrus-achiote marinade for at least 4 hours.",
+        "Grill over medium-hot coals or cast iron grill for 25-30 minutes, turning regularly, until charred and 165\u00b0F.",
+        "Rest 5 minutes, carve, and serve with warm tortillas and salsa."
+      ],
+      "potluck_tags": [
+        "grilled",
+        "citrus-marinade",
+        "mexican",
+        "summer-cookout"
+      ]
+    },
+    {
+      "id": "recipe_013",
+      "title": "Arroz con Pollo a la Criolla",
+      "cuisine": "Latin American",
+      "chicken_cut": "bone-in skin-on chicken thighs",
+      "cook_method": "one-pot braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs bone-in chicken thighs",
+        "2 cups long-grain white rice",
+        "1/2 cup sofrito (onion, bell pepper, garlic, cilantro)",
+        "1 packet Saz\u00f3n with achiote",
+        "1/4 cup alcaparrado (olives and capers)",
+        "3.5 cups chicken broth",
+        "1/2 cup tomato sauce",
+        "1 cup frozen peas"
+      ],
+      "instructions": [
+        "Season chicken with salt, pepper, and oregano; brown thighs in oil in a Dutch oven, then remove.",
+        "Saut\u00e9 sofrito, saz\u00f3n, and alcaparrado in rendered fat for 3 minutes.",
+        "Stir in tomato sauce and rinsed rice, coating grains for 2 minutes.",
+        "Add chicken broth, return chicken on top, bring to boil, then cover and simmer on low for 25 minutes.",
+        "Scatter peas over rice, cover for 5 minutes off heat, and fluff with a fork."
+      ],
+      "potluck_tags": [
+        "one-pot",
+        "rice-dish",
+        "latin-american",
+        "family-style"
+      ]
+    },
+    {
+      "id": "recipe_014",
+      "title": "Enchiladas Verdes con Pollo",
+      "cuisine": "Mexican",
+      "chicken_cut": "shredded cooked chicken breast",
+      "cook_method": "baking",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "3 cups shredded cooked chicken",
+        "12 corn tortillas",
+        "1 lb fresh tomatillos, husked",
+        "2 jalape\u00f1o or serrano peppers",
+        "1/2 white onion",
+        "2 cloves garlic",
+        "1/2 cup fresh cilantro",
+        "1.5 cups shredded Monterey Jack or Oaxaca cheese",
+        "Mexican crema"
+      ],
+      "instructions": [
+        "Boil tomatillos, peppers, onion, and garlic for 8 minutes until softened. Blend with cilantro, salt, and 1/2 cup cooking water.",
+        "Flash-fry tortillas in hot oil for 5 seconds per side to soften.",
+        "Roll shredded chicken inside tortillas and place seam-side down in baking dish.",
+        "Pour warm green salsa evenly over enchiladas and top with shredded cheese.",
+        "Bake at 375\u00b0F for 20 minutes until bubbly and cheese is melted."
+      ],
+      "potluck_tags": [
+        "enchiladas",
+        "salsa-verde",
+        "baked-casserole",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "recipe_015",
+      "title": "Peruvian Pollo a la Brasa with Aji Verde",
+      "cuisine": "Peruvian",
+      "chicken_cut": "whole chicken or quarters",
+      "cook_method": "roasting",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 50,
+      "servings": 4,
+      "ingredients": [
+        "1 whole chicken (4 lbs), quartered",
+        "4 tbsp soy sauce",
+        "2 tbsp dark beer or red wine vinegar",
+        "1 tbsp ground cumin",
+        "1 tbsp smoked paprika",
+        "4 cloves minced garlic",
+        "1 tbsp dried oregano",
+        "Aji Verde Sauce: 3 jalape\u00f1os, 1 cup cilantro, 1/2 cup mayo, 1/4 cup cotija, 1 clove garlic, 1 tbsp lime juice blended"
+      ],
+      "instructions": [
+        "Whisk soy sauce, beer/vinegar, cumin, paprika, garlic, oregano, and salt; rub thoroughly over chicken and marinate overnight.",
+        "Roast chicken on a wire rack at 425\u00b0F for 45-50 minutes until skin is crisp and internal temperature is 165\u00b0F.",
+        "Blend all Aji Verde ingredients in a food processor until smooth and creamy.",
+        "Carve chicken and serve with thick-cut fries and generous spoonfuls of spicy Aji Verde."
+      ],
+      "potluck_tags": [
+        "peruvian",
+        "rotisserie-style",
+        "aji-verde",
+        "bold-flavor"
+      ]
+    },
+    {
+      "id": "recipe_016",
+      "title": "Sizzling Chicken Fajitas with Peppers and Onions",
+      "cuisine": "Tex-Mex",
+      "chicken_cut": "boneless chicken breasts",
+      "cook_method": "cast-iron skillet searing",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs chicken breasts, cut into strips",
+        "1 red bell pepper, sliced",
+        "1 green bell pepper, sliced",
+        "1 large yellow onion, sliced",
+        "3 tbsp lime juice",
+        "2 tbsp olive oil",
+        "1 tbsp chili powder",
+        "1 tsp cumin",
+        "1 tsp garlic powder",
+        "Flour tortillas, guacamole, and salsa"
+      ],
+      "instructions": [
+        "Toss chicken strips in lime juice, 1 tbsp olive oil, chili powder, cumin, garlic powder, salt, and pepper.",
+        "Heat cast iron skillet smoking hot with 1 tbsp oil. Cook chicken 6-7 minutes until browned and cooked; transfer to plate.",
+        "Add peppers and onions to hot skillet with remaining oil; sear 4-5 minutes until blistered but crisp-tender.",
+        "Return chicken to skillet to sizzle together for 1 minute.",
+        "Serve family-style straight from the skillet with warm flour tortillas and toppings."
+      ],
+      "potluck_tags": [
+        "sizzling",
+        "fajitas",
+        "quick-weeknight",
+        "crowd-pleaser"
+      ]
+    },
+    {
+      "id": "recipe_017",
+      "title": "Pollo Guisado (Dominican Braised Chicken)",
+      "cuisine": "Caribbean Latin",
+      "chicken_cut": "bone-in chicken thighs and drumsticks",
+      "cook_method": "caramelized sugar braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs bone-in chicken, cut into small pieces",
+        "1 tbsp dark brown sugar",
+        "1 tbsp adobo seasoning",
+        "1 tbsp lime juice",
+        "1 diced bell pepper",
+        "1 diced red onion",
+        "4 cloves minced garlic",
+        "2 tbsp tomato paste",
+        "1/4 cup pimento-stuffed green olives",
+        "1 cup chicken broth"
+      ],
+      "instructions": [
+        "Season chicken with adobo, garlic, lime juice, salt, and pepper.",
+        "Heat 2 tbsp oil in a heavy caldero or Dutch oven; add brown sugar and let it caramelize to dark amber.",
+        "Immediately add chicken pieces, stirring to coat in caramelized sugar for a rich mahogany color.",
+        "Add onion, bell pepper, tomato paste, olives, and chicken broth.",
+        "Cover and simmer on low for 30 minutes until chicken is tender and gravy is rich and thick."
+      ],
+      "potluck_tags": [
+        "dominican",
+        "braised",
+        "caramelized",
+        "comfort-food"
+      ]
+    },
+    {
+      "id": "recipe_018",
+      "title": "Chicken Pozole Verde",
+      "cuisine": "Mexican",
+      "chicken_cut": "chicken thighs and breasts",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 60,
+      "servings": 8,
+      "ingredients": [
+        "2.5 lbs chicken thighs and breasts",
+        "2 cans (29 oz each) white hominy, drained and rinsed",
+        "1 lb tomatillos, husked and boiled",
+        "2 poblano peppers, roasted and seeded",
+        "2 jalape\u00f1os",
+        "1 cup cilantro",
+        "6 cups chicken broth",
+        "1 tbsp Mexican oregano",
+        "Shredded cabbage, radishes, lime wedges, tostadas"
+      ],
+      "instructions": [
+        "Simmer chicken in broth with onion and garlic for 25 minutes; shred meat and return to broth.",
+        "Blend boiled tomatillos, roasted poblanos, jalape\u00f1os, cilantro, and 1 cup broth into a vibrant green pur\u00e9e.",
+        "Pour green salsa and hominy into simmering broth. Stir in Mexican oregano and simmer 30 minutes.",
+        "Ladle into deep bowls and serve with shredded cabbage, sliced radishes, dried oregano, and limes."
+      ],
+      "potluck_tags": [
+        "soup",
+        "pozole",
+        "hominy",
+        "traditional",
+        "party-pot"
+      ]
+    },
+    {
+      "id": "recipe_019",
+      "title": "Chicken Quesadillas with Smoky Chipotle Crema",
+      "cuisine": "Tex-Mex",
+      "chicken_cut": "shredded cooked chicken",
+      "cook_method": "griddle / skillet",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "2 cups shredded chicken",
+        "8 large flour tortillas",
+        "2 cups shredded Monterey Jack and Cheddar cheese",
+        "1/2 cup diced onions and bell peppers",
+        "1 tsp cumin and smoked paprika",
+        "Chipotle crema: 1/2 cup sour cream, 1 chipotle in adobo minced, 1 tbsp lime juice"
+      ],
+      "instructions": [
+        "Season shredded chicken with cumin and smoked paprika.",
+        "Place tortillas on a warm griddle; sprinkle half of each tortilla with cheese, chicken, peppers, onions, and more cheese.",
+        "Fold tortillas in half and cook 3-4 minutes per side until golden brown and cheese is fully melted.",
+        "Whisk sour cream, minced chipotle, and lime juice.",
+        "Cut quesadillas into wedges and serve with chipotle crema and pico de gallo."
+      ],
+      "potluck_tags": [
+        "appetizer",
+        "quesadilla",
+        "finger-food",
+        "kid-friendly"
+      ]
+    },
+    {
+      "id": "recipe_020",
+      "title": "Colombian Ajiaco (Chicken, Corn & Potato Soup)",
+      "cuisine": "Colombian",
+      "chicken_cut": "bone-in chicken breasts",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 60,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs bone-in chicken breasts",
+        "6 cups chicken stock",
+        "3 ears sweet corn, cut into rounds",
+        "1 lb russet potatoes, peeled and diced (for thickening)",
+        "1 lb red potatoes, sliced",
+        "1 tbsp dried guascas herb (or marjoram/oregano)",
+        "Heavy cream, capers, and avocado cubes for garnish"
+      ],
+      "instructions": [
+        "Simmer chicken breasts in stock with green onions and garlic for 25 minutes; remove chicken, shred meat, and set aside.",
+        "Add diced russet potatoes and corn to broth; simmer 25 minutes until potatoes dissolve and thicken broth.",
+        "Add sliced red potatoes and guascas; simmer 15 minutes until tender.",
+        "Return shredded chicken to hot soup.",
+        "Serve in shallow bowls garnished with capers, a swirl of heavy cream, and diced avocado."
+      ],
+      "potluck_tags": [
+        "colombian",
+        "ajiaco",
+        "potato-soup",
+        "traditional"
+      ]
+    },
+    {
+      "id": "recipe_021",
+      "title": "Crispy Baked Chicken Parmigiana",
+      "cuisine": "Italian-American",
+      "chicken_cut": "chicken cutlets",
+      "cook_method": "pan-frying & baking",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "4 chicken cutlets (1.25 lbs)",
+        "1 cup Italian breadcrumbs",
+        "1/2 cup grated Parmesan",
+        "2 beaten eggs",
+        "1/2 cup flour",
+        "2 cups marinara sauce",
+        "1.5 cups shredded mozzarella cheese",
+        "Fresh basil leaves"
+      ],
+      "instructions": [
+        "Dredge chicken cutlets in flour, dip in beaten eggs, then coat in breadcrumb-Parmesan mixture.",
+        "Pan-fry cutlets in olive oil over medium-high heat for 3 minutes per side until golden; drain.",
+        "Spread 1/2 cup marinara in a 9x13 baking dish, arrange chicken cutlets, top with remaining marinara and mozzarella.",
+        "Bake at 400\u00b0F for 15-20 minutes until cheese is browned and bubbly.",
+        "Garnish with torn fresh basil and serve with pasta."
+      ],
+      "potluck_tags": [
+        "italian",
+        "chicken-parm",
+        "comfort-food",
+        "potluck-classic"
+      ]
+    },
+    {
+      "id": "recipe_022",
+      "title": "Rustic Chicken Cacciatore (Hunter's Stew)",
+      "cuisine": "Italian",
+      "chicken_cut": "bone-in skinless chicken thighs & drumsticks",
+      "cook_method": "braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chicken thighs and drumsticks",
+        "1 medium onion, sliced",
+        "1 bell pepper, sliced",
+        "8 oz sliced cremini mushrooms",
+        "3 cloves garlic",
+        "1/2 cup dry red wine",
+        "1 can (28 oz) crushed San Marzano tomatoes",
+        "1 tsp dried oregano",
+        "1/4 cup kalamata olives"
+      ],
+      "instructions": [
+        "Brown seasoned chicken pieces in olive oil in a Dutch oven, then transfer to a plate.",
+        "In same pot, saut\u00e9 onion, bell pepper, and mushrooms for 6 minutes until tender; stir in garlic.",
+        "Pour in red wine, scraping up browned bits, and simmer 2 minutes.",
+        "Add crushed tomatoes, oregano, and olives; return chicken and rested juices to pot.",
+        "Cover and simmer on low for 35 minutes until chicken is meltingly tender."
+      ],
+      "potluck_tags": [
+        "cacciatore",
+        "rustic-stew",
+        "braised",
+        "italian-classic"
+      ]
+    },
+    {
+      "id": "recipe_023",
+      "title": "Chicken Marsala with Cremini Mushrooms",
+      "cuisine": "Italian-American",
+      "chicken_cut": "chicken cutlets",
+      "cook_method": "pan-searing & wine reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "4 thin chicken cutlets (1.25 lbs)",
+        "1/3 cup all-purpose flour",
+        "8 oz cremini mushrooms, sliced",
+        "3/4 cup dry Marsala wine",
+        "1/2 cup chicken stock",
+        "3 tbsp butter",
+        "2 cloves minced garlic",
+        "Fresh parsley"
+      ],
+      "instructions": [
+        "Dredge cutlets in seasoned flour; sear in 2 tbsp oil and 1 tbsp butter for 3 mins per side; remove to plate.",
+        "Add sliced mushrooms to pan with 1 tbsp butter; saut\u00e9 5 minutes until browned.",
+        "Add garlic, cook 30 seconds, then pour in Marsala wine and chicken stock.",
+        "Simmer 4-5 minutes until sauce reduces by half; swirl in remaining 1 tbsp cold butter.",
+        "Return cutlets to sauce to glaze; garnish with parsley."
+      ],
+      "potluck_tags": [
+        "marsala",
+        "mushrooms",
+        "wine-sauce",
+        "elegant"
+      ]
+    },
+    {
+      "id": "recipe_024",
+      "title": "Greek Lemon Herb Chicken Souvlaki",
+      "cuisine": "Greek",
+      "chicken_cut": "boneless skinless chicken breasts or thighs, cubed",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs chicken breasts or thighs, cut into 1-inch cubes",
+        "1/3 cup olive oil",
+        "1/4 cup fresh lemon juice",
+        "4 cloves minced garlic",
+        "1.5 tbsp dried Greek oregano",
+        "1 tsp dried thyme",
+        "Wooden or metal skewers",
+        "Warm pita bread and tzatziki sauce"
+      ],
+      "instructions": [
+        "Whisk olive oil, lemon juice, garlic, oregano, thyme, 1.5 tsp salt, and pepper in a bowl.",
+        "Toss chicken cubes in marinade and refrigerate for 2-4 hours.",
+        "Thread chicken tightly onto skewers.",
+        "Grill over medium-high heat for 10-12 minutes, turning every 3 minutes, until lightly charred and 165\u00b0F.",
+        "Slide meat off skewers into warm pita pockets with tzatziki, tomatoes, and red onions."
+      ],
+      "potluck_tags": [
+        "greek",
+        "souvlaki",
+        "skewers",
+        "grilled",
+        "tzatziki"
+      ]
+    },
+    {
+      "id": "recipe_025",
+      "title": "Greek Lemon Potatoes and Roast Chicken",
+      "cuisine": "Greek",
+      "chicken_cut": "bone-in chicken thighs and drumsticks",
+      "cook_method": "baking / roasting",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 55,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs bone-in chicken thighs and drumsticks",
+        "2 lbs Yukon gold potatoes, cut into wedges",
+        "1/2 cup olive oil",
+        "1/2 cup chicken broth",
+        "1/3 cup fresh lemon juice",
+        "5 cloves minced garlic",
+        "2 tbsp dried oregano",
+        "Kosher salt and cracked pepper"
+      ],
+      "instructions": [
+        "Arrange potato wedges and chicken pieces in a large roasting pan.",
+        "Whisk olive oil, chicken broth, lemon juice, garlic, oregano, 2 tsp salt, and 1 tsp black pepper.",
+        "Pour marinade evenly over chicken and potatoes, tossing potatoes to coat.",
+        "Roast at 400\u00b0F for 50-55 minutes, basting once halfway through, until potatoes are tender with crispy edges and chicken skin is deep golden.",
+        "Spoon pan juices over top before serving."
+      ],
+      "potluck_tags": [
+        "greek",
+        "lemon-potatoes",
+        "one-pan",
+        "family-dinner"
+      ]
+    },
+    {
+      "id": "recipe_026",
+      "title": "Chicken Saltimbocca with Prosciutto and Sage",
+      "cuisine": "Italian",
+      "chicken_cut": "thin chicken cutlets",
+      "cook_method": "pan-searing & butter glaze",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "4 thin chicken cutlets",
+        "4 slices prosciutto di Parma",
+        "8 fresh sage leaves",
+        "1/3 cup flour",
+        "1/2 cup dry white wine",
+        "3 tbsp butter",
+        "Toothpicks to secure"
+      ],
+      "instructions": [
+        "Place 2 sage leaves on each chicken cutlet, cover with a slice of prosciutto, and pin securely with a toothpick.",
+        "Dust bottom side of cutlet lightly in flour.",
+        "Melt 1.5 tbsp butter with 1 tbsp olive oil in skillet over medium heat.",
+        "Cook chicken prosciutto-side down for 2 minutes until crisp, flip, and cook 3 minutes until done; transfer to warm plate.",
+        "Deglaze pan with white wine, simmer 2 minutes, remove from heat, and swirl in remaining butter; pour pan sauce over chicken."
+      ],
+      "potluck_tags": [
+        "saltimbocca",
+        "prosciutto",
+        "sage",
+        "dinner-party"
+      ]
+    },
+    {
+      "id": "recipe_027",
+      "title": "Caprese Stuffed Chicken Breast with Balsamic Glaze",
+      "cuisine": "Italian",
+      "chicken_cut": "thick chicken breasts",
+      "cook_method": "baking",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "4 thick chicken breasts",
+        "1 large ball fresh mozzarella, sliced",
+        "2 Roma tomatoes, sliced",
+        "1/4 cup fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1/3 cup balsamic glaze reduction"
+      ],
+      "instructions": [
+        "Cut a deep horizontal pocket into thick side of each chicken breast, taking care not to cut all the way through.",
+        "Season chicken inside and out with olive oil, garlic powder, salt, and pepper.",
+        "Stuff each pocket with alternating slices of tomato, fresh mozzarella, and whole basil leaves; seal with toothpicks.",
+        "Sear stuffed breasts in a hot oven-safe skillet for 2 minutes per side to brown.",
+        "Transfer to 375\u00b0F oven and bake 18-20 minutes until chicken reaches 165\u00b0F.",
+        "Drizzle generously with thick balsamic glaze before serving."
+      ],
+      "potluck_tags": [
+        "caprese",
+        "stuffed-chicken",
+        "balsamic",
+        "mozzarella"
+      ]
+    },
+    {
+      "id": "recipe_028",
+      "title": "Mediterranean Lemon Herb Sheet-Pan Chicken & Veggies",
+      "cuisine": "Mediterranean",
+      "chicken_cut": "boneless skinless thighs",
+      "cook_method": "sheet-pan roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs chicken thighs, cut in half",
+        "1 red onion, cut into wedges",
+        "1 zucchini, sliced",
+        "1 bell pepper, chopped",
+        "1 cup cherry tomatoes",
+        "1/2 cup pitted kalamata olives",
+        "1/3 cup olive oil",
+        "2 tbsp lemon juice",
+        "1 tbsp dried oregano",
+        "1/2 cup crumbled feta cheese"
+      ],
+      "instructions": [
+        "Toss chicken pieces and vegetables on a large rimmed sheet pan with olive oil, lemon juice, oregano, salt, and pepper.",
+        "Spread into a single even layer with chicken skin-side up.",
+        "Roast at 425\u00b0F for 25-30 minutes until chicken is cooked through and vegetables are caramelized.",
+        "Scatter crumbled feta cheese and fresh parsley over hot sheet pan immediately out of oven."
+      ],
+      "potluck_tags": [
+        "sheet-pan",
+        "mediterranean",
+        "healthy",
+        "easy-cleanup"
+      ]
+    },
+    {
+      "id": "recipe_029",
+      "title": "Chicken Milanese with Arugula Salad",
+      "cuisine": "Italian",
+      "chicken_cut": "pounded chicken cutlets",
+      "cook_method": "pan-frying",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "4 chicken cutlets, pounded 1/4-inch thin",
+        "1 cup panko or breadcrumbs",
+        "1/2 cup flour",
+        "2 beaten eggs",
+        "1/3 cup olive oil for shallow frying",
+        "3 cups baby arugula",
+        "1 cup cherry tomatoes, halved",
+        "Shaved Parmesan and lemon wedges"
+      ],
+      "instructions": [
+        "Dredge pounded cutlets in flour, beaten egg, then breadcrumbs, pressing to adhere.",
+        "Shallow-fry cutlets in hot olive oil for 2-3 minutes per side until golden and crispy; drain on paper towels.",
+        "Toss baby arugula and cherry tomatoes with olive oil, lemon juice, salt, and pepper.",
+        "Top each hot crispy cutlet with a generous mound of dressed arugula salad and shaved Parmesan."
+      ],
+      "potluck_tags": [
+        "milanese",
+        "crispy-cutlet",
+        "arugula",
+        "bistro-style"
+      ]
+    },
+    {
+      "id": "recipe_030",
+      "title": "Rosemary Garlic Chicken Roulade",
+      "cuisine": "Italian",
+      "chicken_cut": "butterflied chicken breasts",
+      "cook_method": "rolled & baked",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 35,
+      "servings": 4,
+      "ingredients": [
+        "2 large chicken breasts, butterflied and pounded flat",
+        "1/2 cup ricotta cheese",
+        "1/4 cup grated Parmesan",
+        "1 cup cooked chopped spinach, squeezed dry",
+        "2 cloves minced garlic",
+        "1 tbsp fresh rosemary, minced",
+        "Kitchen twine for tying"
+      ],
+      "instructions": [
+        "Mix ricotta, Parmesan, squeezed dry spinach, garlic, salt, and pepper.",
+        "Spread filling evenly across pounded chicken breasts, leaving a 1/2-inch border.",
+        "Roll chicken up tightly into cylindrical roulades and tie with kitchen twine at 1-inch intervals.",
+        "Sear rolled breasts in olive oil with rosemary sprigs for 4 minutes to brown outside.",
+        "Transfer to 375\u00b0F oven and bake 25-30 minutes until internal temperature hits 165\u00b0F; rest 10 minutes and slice into medallions."
+      ],
+      "potluck_tags": [
+        "roulade",
+        "stuffed",
+        "elegant",
+        "spinach-ricotta"
+      ]
+    },
+    {
+      "id": "recipe_031",
+      "title": "Japanese Chicken Teriyaki with Glazed Scallions",
+      "cuisine": "Japanese",
+      "chicken_cut": "boneless skin-on chicken thighs",
+      "cook_method": "pan-searing & tare reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs chicken thighs, skin-on",
+        "1/4 cup soy sauce",
+        "1/4 cup mirin",
+        "1/4 cup sake",
+        "2 tbsp sugar",
+        "1 bunch scallions, cut into 2-inch batons",
+        "1 tsp grated fresh ginger",
+        "Toasted sesame seeds and steamed rice"
+      ],
+      "instructions": [
+        "Score chicken meat lightly and pat skin completely dry.",
+        "Cook chicken skin-side down in a dry skillet over medium heat for 7-8 minutes until skin is deeply crisp and golden; flip and cook 3 minutes.",
+        "Pour off excess fat from pan; add scallion batons.",
+        "Combine soy sauce, mirin, sake, sugar, and grated ginger; pour into skillet.",
+        "Simmer vigorously for 3-4 minutes while continuously spooning bubbling glaze over chicken until glossy and thick. Slice and serve over rice."
+      ],
+      "potluck_tags": [
+        "japanese",
+        "teriyaki",
+        "sweet-savory",
+        "classic"
+      ]
+    },
+    {
+      "id": "recipe_032",
+      "title": "Crispy Japanese Chicken Karaage with Kewpie",
+      "cuisine": "Japanese",
+      "chicken_cut": "boneless skinless thighs, bite-sized pieces",
+      "cook_method": "double-frying",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs chicken thighs, cut into 1.5-inch pieces",
+        "2 tbsp soy sauce",
+        "2 tbsp sake",
+        "1 tbsp grated fresh ginger",
+        "2 cloves grated garlic",
+        "1 tsp sesame oil",
+        "1/2 cup potato starch (katakuriko)",
+        "Kewpie mayo and lemon wedges"
+      ],
+      "instructions": [
+        "Marinate chicken pieces in soy sauce, sake, ginger, garlic, and sesame oil for 30 minutes.",
+        "Dredge each piece generously in potato starch, shaking off excess.",
+        "Heat oil to 330\u00b0F (165\u00b0C); fry chicken for 3-4 minutes until pale golden; remove to rack and rest 4 minutes.",
+        "Increase oil temperature to 375\u00b0F (190\u00b0C); flash-fry chicken for 60-90 seconds until ultra-crisp and deep mahogany.",
+        "Drain and serve hot with lemon wedges and Japanese Kewpie mayonnaise."
+      ],
+      "potluck_tags": [
+        "karaage",
+        "crispy",
+        "japanese-pub",
+        "appetizer",
+        "finger-food"
+      ]
+    },
+    {
+      "id": "recipe_033",
+      "title": "Crispy Chicken Katsu with Tonkatsu Sauce",
+      "cuisine": "Japanese",
+      "chicken_cut": "pounded chicken breasts or cutlets",
+      "cook_method": "panko deep-frying",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "4 chicken cutlets (1.25 lbs)",
+        "1.5 cups Japanese panko breadcrumbs",
+        "1/2 cup flour",
+        "2 beaten eggs",
+        "Oil for frying",
+        "Shredded green cabbage and tonkatsu sauce"
+      ],
+      "instructions": [
+        "Season cutlets with salt and pepper; dredge in flour, dip in beaten eggs, then press firmly into panko for full coverage.",
+        "Heat 1/2 inch of oil in a wide skillet to 350\u00b0F (175\u00b0C).",
+        "Fry cutlets 3-4 minutes per side until deep golden and crisp; transfer to paper towel lined rack.",
+        "Slice crosswise into 1/2-inch strips.",
+        "Serve immediately over finely shredded green cabbage with sweet-savory tonkatsu sauce."
+      ],
+      "potluck_tags": [
+        "katsu",
+        "panko",
+        "crispy-cutlet",
+        "japanese-comfort"
+      ]
+    },
+    {
+      "id": "recipe_034",
+      "title": "Authentic Yakitori (Charred Chicken & Scallion Skewers)",
+      "cuisine": "Japanese",
+      "chicken_cut": "boneless chicken thighs & scallions",
+      "cook_method": "charcoal grilling & tare basting",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs chicken thighs, cut into 1-inch pieces",
+        "2 bunches thick scallions (negi), cut into 1-inch lengths",
+        "Tare Sauce: 1/2 cup soy sauce, 1/2 cup mirin, 1/4 cup sake, 2 tbsp brown sugar simmered until thickened",
+        "Bamboo skewers soaked in water"
+      ],
+      "instructions": [
+        "Thread chicken pieces and scallion lengths alternately onto soaked bamboo skewers.",
+        "Grill over high heat (preferably binchotan charcoal) for 3-4 minutes until lightly charred.",
+        "Dip skewers directly into warm tare sauce (or brush generously).",
+        "Return to grill for 2 minutes to caramelize sauce; dip in tare a second time and finish cooking until 165\u00b0F.",
+        "Dust with shichimi togarashi (seven spice) and serve hot."
+      ],
+      "potluck_tags": [
+        "yakitori",
+        "skewers",
+        "izakaya",
+        "grilled",
+        "party-food"
+      ]
+    },
+    {
+      "id": "recipe_035",
+      "title": "Korean Fried Chicken with Sweet & Spicy Yangnyeom Glaze",
+      "cuisine": "Korean",
+      "chicken_cut": "chicken wings or drumettes",
+      "cook_method": "double-frying & sticky glaze",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chicken wings, dried",
+        "1/2 cup potato starch",
+        "1/2 cup flour",
+        "1 egg",
+        "Yangnyeom Glaze: 3 tbsp gochujang, 3 tbsp ketchup, 2 tbsp honey, 2 tbsp brown sugar, 1 tbsp soy sauce, 1 tbsp minced garlic, 1 tbsp sesame oil",
+        "Toasted sesame seeds and crushed peanuts"
+      ],
+      "instructions": [
+        "Toss chicken wings with starch, flour, egg, and 1 tsp salt until a thin batter coats each wing.",
+        "First fry: cook in 325\u00b0F oil for 8-10 minutes until pale and cooked through; drain on wire rack.",
+        "Second fry: flash-fry at 375\u00b0F for 2-3 minutes until shatteringly crisp.",
+        "Simmer glaze ingredients together in a wok for 2 minutes until bubbly and glossy.",
+        "Toss hot double-fried wings in glaze until coated; top with sesame seeds and crushed peanuts."
+      ],
+      "potluck_tags": [
+        "korean-fried-chicken",
+        "yangnyeom",
+        "crispy",
+        "spicy-sweet",
+        "game-day"
+      ]
+    },
+    {
+      "id": "recipe_036",
+      "title": "Korean Chicken Bulgogi (Dak Bulgogi)",
+      "cuisine": "Korean",
+      "chicken_cut": "boneless chicken thighs, sliced thin",
+      "cook_method": "marinated grill / stir-fry",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs chicken thighs, sliced thin",
+        "3 tbsp soy sauce",
+        "2 tbsp brown sugar",
+        "1 tbsp toasted sesame oil",
+        "1/4 cup grated Asian pear (or apple)",
+        "4 cloves minced garlic",
+        "1 tbsp grated fresh ginger",
+        "1 tbsp gochugaru (Korean chili flakes)",
+        "1 sliced onion and sliced scallions"
+      ],
+      "instructions": [
+        "Whisk soy sauce, brown sugar, sesame oil, grated pear, garlic, ginger, and gochugaru.",
+        "Toss sliced chicken and onion in marinade; let rest 30 minutes in refrigerator.",
+        "Heat a wide cast iron pan or grill over high heat.",
+        "Sear chicken and onions in batches without crowding for 5-6 minutes until edges are caramelized and charred.",
+        "Garnish with scallions and sesame seeds; serve with steamed rice and lettuce wraps (ssam)."
+      ],
+      "potluck_tags": [
+        "korean",
+        "bulgogi",
+        "sweet-savory",
+        "lettuce-wraps"
+      ]
+    },
+    {
+      "id": "recipe_037",
+      "title": "Classic Kung Pao Chicken with Szechuan Peppercorns",
+      "cuisine": "Chinese (Szechuan)",
+      "chicken_cut": "boneless chicken breast or thighs, cubed",
+      "cook_method": "wok stir-fry",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs chicken breast or thighs, diced into 1/2-inch cubes",
+        "1/2 cup roasted unsalted peanuts",
+        "8-10 whole dried red chilies",
+        "1 tsp Szechuan peppercorns",
+        "3 green onions, white and green parts separated and sliced",
+        "Kung Pao Sauce: 2 tbsp Chinkiang black vinegar, 2 tbsp soy sauce, 1 tbsp dark soy, 1 tbsp sugar, 1 tsp cornstarch, 2 tbsp water"
+      ],
+      "instructions": [
+        "Marinate chicken cubes with 1 tbsp soy sauce, 1 tsp Shaoxing wine, and 1 tsp cornstarch for 15 minutes.",
+        "Heat wok over high heat with 2 tbsp oil; stir-fry dried chilies and Szechuan peppercorns for 20 seconds until fragrant.",
+        "Add chicken and sear 3-4 minutes until lightly browned.",
+        "Add white scallions, garlic, and ginger; stir-fry 1 minute.",
+        "Pour in Kung Pao sauce, toss until glossy and clinging to chicken, then fold in roasted peanuts and green scallions."
+      ],
+      "potluck_tags": [
+        "szechuan",
+        "spicy",
+        "kung-pao",
+        "peanuts",
+        "wok-tossed"
+      ]
+    },
+    {
+      "id": "recipe_038",
+      "title": "Authentic Chinese General Tso's Chicken",
+      "cuisine": "Chinese-American",
+      "chicken_cut": "boneless chicken thighs, cubed",
+      "cook_method": "crispy frying & glaze",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs chicken thighs, cut into bite-sized cubes",
+        "1 egg white",
+        "1/2 cup cornstarch",
+        "6 whole dried red chilies",
+        "General Tso Sauce: 3 tbsp soy sauce, 3 tbsp rice vinegar, 3 tbsp sugar, 2 tbsp hoisin, 1 tbsp tomato paste, 1/2 cup chicken stock, 1 tbsp cornstarch",
+        "Steamed broccoli crowns for serving"
+      ],
+      "instructions": [
+        "Coat chicken cubes in egg white, 1 tbsp soy sauce, and toss thoroughly in cornstarch to create a dry, craggy coating.",
+        "Fry in 375\u00b0F oil for 4-5 minutes until golden and very crisp; drain on wire rack.",
+        "In a clean wok, saut\u00e9 dried chilies, minced ginger, and garlic for 30 seconds.",
+        "Pour in sauce mixture and stir constantly until it thickens into a glossy glaze.",
+        "Toss hot crispy chicken in sauce for 30 seconds until coated; serve immediately surrounded by steamed broccoli."
+      ],
+      "potluck_tags": [
+        "general-tso",
+        "crispy",
+        "takeout-classic",
+        "sweet-tangy"
+      ]
+    },
+    {
+      "id": "recipe_039",
+      "title": "Traditional Hainanese Chicken Rice",
+      "cuisine": "Chinese / Singaporean",
+      "chicken_cut": "whole chicken",
+      "cook_method": "poaching & seasoned rice",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 50,
+      "servings": 6,
+      "ingredients": [
+        "1 whole chicken (4 lbs)",
+        "1 large knob ginger, sliced",
+        "4 scallions",
+        "2 cups jasmine rice, washed and drained",
+        "4 cloves minced garlic",
+        "1 tbsp sesame oil",
+        "Chili Sauce: fresh red chilies, garlic, ginger, lime juice, chicken broth blended",
+        "Ginger-Scallion Sauce: minced ginger, scallions, hot oil, salt"
+      ],
+      "instructions": [
+        "Stuff chicken cavity with ginger slices and scallions. Submerge in large pot of salted water; bring to boil, then immediately turn to lowest heat, cover, and gently poach for 45 minutes.",
+        "Plunge poached chicken into ice bath for 10 minutes to set skin and create gelatinous texture; rub skin with sesame oil.",
+        "In a saucepan, saut\u00e9 garlic and ginger in chicken fat/oil; add rice and toast 2 minutes.",
+        "Pour in 2.5 cups of poaching broth to cook the fragrant rice.",
+        "Carve chicken, serve over seasoned rice with side bowls of hot broth, chili sauce, and dark soy."
+      ],
+      "potluck_tags": [
+        "hainanese",
+        "poached-chicken",
+        "singapore",
+        "fragrant-rice",
+        "comfort-food"
+      ]
+    },
+    {
+      "id": "recipe_040",
+      "title": "Cantonese Soy Sauce Chicken (Si Yau Gai)",
+      "cuisine": "Chinese (Cantonese)",
+      "chicken_cut": "whole chicken",
+      "cook_method": "master stock poaching",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "1 whole chicken (3.5 to 4 lbs)",
+        "1.5 cups light soy sauce",
+        "1/2 cup dark soy sauce",
+        "1 cup Shaoxing wine",
+        "1 cup rock sugar",
+        "3 star anise pods",
+        "1 cinnamon stick",
+        "1 piece dried tangerine peel",
+        "Sliced ginger and scallions"
+      ],
+      "instructions": [
+        "In a deep pot, combine light soy, dark soy, Shaoxing wine, rock sugar, star anise, cinnamon, tangerine peel, ginger, scallions, and 2 cups water; bring to boil until sugar dissolves.",
+        "Lower whole chicken breast-side down into master stock. Reduce heat to very low, cover, and gently poach for 20 minutes.",
+        "Carefully flip chicken, cover, and poach another 20 minutes; turn off heat and let steep in warm liquid for 15 minutes.",
+        "Remove chicken, cool slightly, brush with sesame oil, and chop into traditional bone-in pieces.",
+        "Drizzle with a ladle of master poaching sauce and serve with ginger-scallion oil."
+      ],
+      "potluck_tags": [
+        "cantonese",
+        "soy-sauce-chicken",
+        "master-stock",
+        "banquet-style"
+      ]
+    },
+    {
+      "id": "recipe_041",
+      "title": "Thai Green Curry Chicken with Bamboo & Basil",
+      "cuisine": "Thai",
+      "chicken_cut": "boneless chicken thighs, sliced",
+      "cook_method": "coconut curry simmering",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs chicken thighs, sliced",
+        "3 tbsp authentic Thai green curry paste",
+        "1 can (13.5 oz) full-fat coconut milk",
+        "1/2 cup chicken stock",
+        "1 cup canned bamboo shoot strips",
+        "1 Japanese eggplant or zucchini, cubed",
+        "1 tbsp fish sauce",
+        "1 tbsp palm sugar or brown sugar",
+        "1 cup fresh Thai basil leaves"
+      ],
+      "instructions": [
+        "Skim 1/4 cup thick cream from top of coconut milk into saucepan; fry over medium heat until oil separates.",
+        "Add green curry paste and saut\u00e9 2 minutes until aromatic.",
+        "Add chicken slices and toss 2 minutes until outside changes color.",
+        "Pour in remaining coconut milk and chicken stock; add bamboo shoots and eggplant.",
+        "Simmer 10 minutes until chicken and vegetables are tender. Stir in fish sauce, palm sugar, and fresh Thai basil off heat. Serve with jasmine rice."
+      ],
+      "potluck_tags": [
+        "thai",
+        "green-curry",
+        "coconut-milk",
+        "fragrant",
+        "spicy"
+      ]
+    },
+    {
+      "id": "recipe_042",
+      "title": "Thai Basil Chicken (Pad Krapow Gai)",
+      "cuisine": "Thai",
+      "chicken_cut": "ground chicken or finely minced thighs",
+      "cook_method": "high-heat wok stir-fry",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1 lb ground chicken (or hand-minced thighs)",
+        "1.5 cups fresh holy basil or Thai basil leaves",
+        "6 Thai bird's eye chilies, pounded in mortar",
+        "5 cloves garlic, pounded",
+        "1 tbsp oyster sauce",
+        "1 tbsp soy sauce",
+        "1 tsp dark soy sauce",
+        "1 tsp fish sauce",
+        "Crispy fried eggs (kai dao) for topping"
+      ],
+      "instructions": [
+        "Pound chilies and garlic in mortar and pestle into a rough paste.",
+        "Heat 2 tbsp oil in wok smoking hot; add chili-garlic paste and stir-fry 20 seconds.",
+        "Add minced chicken, breaking up with spatula, and stir-fry over high heat for 3-4 minutes until cooked.",
+        "Add oyster sauce, soy sauce, dark soy, and fish sauce; toss 1 minute.",
+        "Turn off heat, toss in fresh basil leaves until wilted.",
+        "Serve immediately over jasmine rice topped with a crispy fried egg with runny yolk."
+      ],
+      "potluck_tags": [
+        "street-food",
+        "thai",
+        "pad-krapow",
+        "spicy",
+        "fast-dinner"
+      ]
+    },
+    {
+      "id": "recipe_043",
+      "title": "Classic Filipino Chicken Adobo",
+      "cuisine": "Filipino",
+      "chicken_cut": "bone-in chicken thighs and drumsticks",
+      "cook_method": "braising & reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs chicken thighs and drumsticks",
+        "1/2 cup cane vinegar (or distilled white vinegar)",
+        "1/2 cup soy sauce",
+        "1 whole head of garlic, peeled and crushed",
+        "1 tbsp whole black peppercorns",
+        "3 dried bay leaves",
+        "1 cup water",
+        "1 tbsp brown sugar (optional)"
+      ],
+      "instructions": [
+        "In a Dutch oven, combine chicken, soy sauce, vinegar, crushed garlic, peppercorns, bay leaves, and water.",
+        "Bring to a boil over medium-high heat, then lower heat, cover, and simmer for 30 minutes without stirring.",
+        "Uncover, turn chicken pieces, and simmer another 15 minutes until sauce reduces to a rich glaze.",
+        "Optional: sear chicken pieces in a separate pan for 2 minutes to crisp skin, then return to sauce.",
+        "Serve hot over mounds of warm garlic fried rice (sinangag)."
+      ],
+      "potluck_tags": [
+        "filipino",
+        "adobo",
+        "potluck-classic",
+        "tangy-savory",
+        "comfort-food"
+      ]
+    },
+    {
+      "id": "recipe_044",
+      "title": "Filipino Chicken Inasal (Calamansi & Lemongrass Grilled Chicken)",
+      "cuisine": "Filipino",
+      "chicken_cut": "bone-in chicken leg quarters",
+      "cook_method": "charcoal grilling & annatto glaze",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 35,
+      "servings": 4,
+      "ingredients": [
+        "4 chicken leg quarters",
+        "1/3 cup calamansi juice (or lime juice)",
+        "1/3 cup coconut vinegar",
+        "2 stalks lemongrass, bruised and minced",
+        "2 tbsp minced ginger",
+        "6 cloves garlic",
+        "Annatto Basting Oil: 1/4 cup neutral oil heated with 2 tbsp annatto seeds and 2 tbsp melted butter"
+      ],
+      "instructions": [
+        "Blend calamansi juice, coconut vinegar, lemongrass, ginger, garlic, brown sugar, and 1 tbsp salt.",
+        "Score chicken skin and marinate leg quarters in refrigerator for 4-6 hours.",
+        "Make annatto basting oil by warming seeds in oil until deep reddish-orange; strain out seeds and mix with butter.",
+        "Grill chicken over hot coals for 30-35 minutes, turning frequently and brushing liberally with annatto oil every 5 minutes until glossy reddish-gold and 165\u00b0F.",
+        "Serve with garlic rice and spicy vinegar dipping sauce (sinamak)."
+      ],
+      "potluck_tags": [
+        "filipino",
+        "inasal",
+        "grilled",
+        "lemongrass",
+        "annatto-oil"
+      ]
+    },
+    {
+      "id": "recipe_045",
+      "title": "Vietnamese Lemongrass Grilled Chicken (Ga Nuong Sa)",
+      "cuisine": "Vietnamese",
+      "chicken_cut": "boneless skinless chicken thighs",
+      "cook_method": "grilling / char-broiling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs chicken thighs",
+        "3 tbsp finely minced lemongrass",
+        "2 tbsp fish sauce",
+        "1 tbsp soy sauce",
+        "1.5 tbsp brown sugar",
+        "1 tbsp neutral oil",
+        "3 cloves minced garlic",
+        "1 minced shallot",
+        "Scallion oil and crushed roasted peanuts"
+      ],
+      "instructions": [
+        "Mix minced lemongrass, fish sauce, soy sauce, brown sugar, oil, garlic, and shallots.",
+        "Toss chicken thighs in marinade and let sit for at least 2 hours.",
+        "Grill over medium-high coals or cast iron grill pan for 6-7 minutes per side until charred on edges and fully cooked.",
+        "Brush with warm scallion oil and sprinkle with crushed peanuts.",
+        "Serve with vermicelli rice noodles (bun), fresh mint, cucumbers, and nuoc cham dipping sauce."
+      ],
+      "potluck_tags": [
+        "vietnamese",
+        "lemongrass",
+        "grilled",
+        "vermicelli-bowl"
+      ]
+    },
+    {
+      "id": "recipe_046",
+      "title": "Authentic Vietnamese Chicken Pho (Pho Ga)",
+      "cuisine": "Vietnamese",
+      "chicken_cut": "whole chicken or bone-in pieces",
+      "cook_method": "aromatic broth simmering",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "3.5 lbs whole chicken",
+        "8 cups water",
+        "1 large onion, charred in dry skillet",
+        "3-inch ginger knob, charred and sliced",
+        "2 star anise pods",
+        "1 cinnamon stick",
+        "1 tsp coriander seeds",
+        "2 tbsp fish sauce",
+        "Flat rice noodles, fresh cilantro, Thai basil, bean sprouts, lime"
+      ],
+      "instructions": [
+        "Char unpeeled onion and ginger in a dry skillet until blackened; toast star anise, cinnamon, and coriander seeds until fragrant.",
+        "In a stockpot, bring water to boil with charred aromatics, toasted spices, 1 tbsp salt, and chicken.",
+        "Simmer gently on low heat for 45 minutes skimming any impurities; remove chicken and let cool.",
+        "Shred meat from bones, return bones to stockpot, and simmer broth for another 45 minutes; season with fish sauce and rock sugar.",
+        "Place cooked rice noodles in bowls, top with shredded chicken, pour piping hot broth over, and garnish with fresh herbs."
+      ],
+      "potluck_tags": [
+        "pho",
+        "soup",
+        "vietnamese",
+        "aromatic-broth",
+        "comfort-food"
+      ]
+    },
+    {
+      "id": "recipe_047",
+      "title": "Balinese Chicken Satay with Spicy Peanut Sauce",
+      "cuisine": "Indonesian",
+      "chicken_cut": "chicken breast or thighs, cut into strips",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 12,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs chicken thighs, cut into long strips",
+        "2 tbsp sweet soy sauce (kecap manis)",
+        "1 tbsp coriander powder",
+        "1 tsp turmeric",
+        "3 cloves garlic",
+        "1 tbsp lime juice",
+        "Peanut Sauce: 3/4 cup creamy peanut butter, 1 cup coconut milk, 2 tbsp kecap manis, 1 tbsp red curry paste, 1 tbsp lime juice simmered 5 mins",
+        "Bamboo skewers"
+      ],
+      "instructions": [
+        "Thread chicken strips accordion-style onto soaked bamboo skewers.",
+        "Brush with marinade of kecap manis, coriander, turmeric, garlic, and lime juice.",
+        "Grill over hot coals for 8-10 minutes, turning frequently and brushing with kecap manis.",
+        "Simmer peanut sauce ingredients until smooth and fragrant.",
+        "Serve skewers warm with spicy peanut sauce, lime wedges, and compressed rice cakes (lontong)."
+      ],
+      "potluck_tags": [
+        "satay",
+        "skewers",
+        "peanut-sauce",
+        "indonesian",
+        "potluck-favorite"
+      ]
+    },
+    {
+      "id": "recipe_048",
+      "title": "Malaysian Chicken Rendang",
+      "cuisine": "Malaysian",
+      "chicken_cut": "boneless chicken thighs, cubed",
+      "cook_method": "slow dry-curry reduction",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 60,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs chicken thighs, cut into large chunks",
+        "1 can (13.5 oz) coconut milk",
+        "1/2 cup toasted grated coconut (kerisik)",
+        "Spice Paste: 6 shallots, 4 cloves garlic, 1-inch galangal, 1-inch ginger, 2 stalks lemongrass, 8 soaked dried chilies blended",
+        "2 kaffir lime leaves, shredded",
+        "1 piece turmeric leaf"
+      ],
+      "instructions": [
+        "Blend spice paste ingredients with a little oil until smooth.",
+        "Fry spice paste in Dutch oven for 8-10 minutes until fragrant and oil separates.",
+        "Add chicken chunks and toss 2 minutes to coat.",
+        "Pour in coconut milk, lime leaves, and turmeric leaf; bring to boil, then simmer on low heat uncovered for 45 minutes.",
+        "Stir in toasted coconut (kerisik), salt, and palm sugar; continue cooking until liquid evaporates and chicken is coated in dark, aromatic toasted spice paste."
+      ],
+      "potluck_tags": [
+        "malaysian",
+        "rendang",
+        "rich-curry",
+        "festive-dish"
+      ]
+    },
+    {
+      "id": "recipe_049",
+      "title": "Thai Coconut Chicken Soup (Tom Kha Gai)",
+      "cuisine": "Thai",
+      "chicken_cut": "boneless chicken breasts or thighs, sliced",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1 lb chicken breast or thighs, sliced thin",
+        "2 cans (13.5 oz each) coconut milk",
+        "2 cups chicken stock",
+        "6 slices fresh galangal",
+        "2 stalks lemongrass, bruised and cut in batons",
+        "4 kaffir lime leaves, torn",
+        "8 oz fresh oyster or straw mushrooms",
+        "3 tbsp fish sauce",
+        "2 tbsp lime juice",
+        "1 tbsp chili oil (nam prik pao)"
+      ],
+      "instructions": [
+        "Bring chicken stock and coconut milk to a gentle simmer in a pot with galangal, lemongrass, and kaffir lime leaves for 8 minutes to infuse flavors.",
+        "Add sliced chicken and mushrooms; simmer gently 6-8 minutes until chicken is cooked through.",
+        "Season with fish sauce and chili jam (nam prik pao).",
+        "Remove pot from heat and stir in fresh lime juice (adding off heat keeps coconut milk from curdling).",
+        "Ladle into bowls, discard tough stalks before eating, and garnish with cilantro."
+      ],
+      "potluck_tags": [
+        "tom-kha",
+        "soup",
+        "thai",
+        "coconut-soup",
+        "galangal"
+      ]
+    },
+    {
+      "id": "recipe_050",
+      "title": "Indonesian Ayam Goreng Lengkuas (Galangal Fried Chicken)",
+      "cuisine": "Indonesian",
+      "chicken_cut": "bone-in chicken pieces",
+      "cook_method": "braised & fried with spiced shreds",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs bone-in chicken pieces",
+        "1.5 cups grated fresh galangal (lengkuas)",
+        "4 shallots",
+        "4 cloves garlic",
+        "1 tbsp ground coriander",
+        "1 tsp turmeric",
+        "2 stalks lemongrass",
+        "2 bay leaves",
+        "Oil for frying"
+      ],
+      "instructions": [
+        "Blend shallots, garlic, coriander, turmeric, and 1 tsp salt into a paste; mix thoroughly with grated galangal.",
+        "In a wok, combine chicken pieces, galangal mixture, lemongrass, bay leaves, and 1.5 cups water; simmer covered for 25 minutes until chicken is tender.",
+        "Remove chicken and strain galangal shreds from remaining broth.",
+        "Deep fry chicken pieces in 375\u00b0F oil for 3-4 minutes until golden crisp; remove.",
+        "Fry the spiced galangal shreds in the hot oil until crispy and golden brown; scatter crisp aromatic galangal flakes over chicken before serving."
+      ],
+      "potluck_tags": [
+        "ayam-goreng",
+        "crispy",
+        "galangal",
+        "indonesian",
+        "traditional"
+      ]
+    },
+    {
+      "id": "recipe_051",
+      "title": "Restaurant-Style Butter Chicken (Murgh Makhani)",
+      "cuisine": "Indian",
+      "chicken_cut": "boneless chicken thighs, cubed",
+      "cook_method": "tandoori sear & makhani simmer",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs chicken thighs, cut into bite-sized pieces",
+        "1/2 cup Greek yogurt",
+        "2 tbsp lemon juice",
+        "1 tbsp garam masala",
+        "1 tbsp Kashmiri chili powder",
+        "Makhani Gravy: 4 tbsp butter, 1 large can (28 oz) crushed tomatoes, 1 tbsp ginger-garlic paste, 1 tsp fenugreek leaves (kasuri methi), 3/4 cup heavy cream"
+      ],
+      "instructions": [
+        "Marinate chicken in yogurt, lemon juice, ginger-garlic paste, chili powder, and garam masala for 2 hours.",
+        "Broil chicken pieces on high on a foil-lined baking sheet for 10-12 minutes until charred at edges; set aside.",
+        "Melt 2 tbsp butter in skillet, add ginger-garlic paste, then pour in crushed tomatoes; simmer 15 minutes, then blend smooth.",
+        "Return pur\u00e9e to skillet, add kasuri methi, remaining 2 tbsp butter, and heavy cream.",
+        "Add charred chicken and simmer gently for 8-10 minutes until sauce is velvety and rich. Serve with garlic naan."
+      ],
+      "potluck_tags": [
+        "indian",
+        "butter-chicken",
+        "creamy",
+        "curry",
+        "potluck-favorite"
+      ]
+    },
+    {
+      "id": "recipe_052",
+      "title": "Classic Chicken Tikka Masala",
+      "cuisine": "British-Indian",
+      "chicken_cut": "boneless skinless thighs or breasts, cubed",
+      "cook_method": "broiled tikka & spiced tomato gravy",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs chicken thighs, cubed",
+        "1/2 cup plain yogurt",
+        "2 tbsp lemon juice",
+        "1 tbsp ginger-garlic paste",
+        "1 tbsp cumin",
+        "1 tbsp coriander",
+        "1 tbsp smoked paprika",
+        "Masala Sauce: 1 diced onion, 3 cloves garlic, 1 tbsp ginger, 1 can (14 oz) tomato pur\u00e9e, 1 tbsp garam masala, 1/2 cup heavy cream"
+      ],
+      "instructions": [
+        "Marinate chicken in yogurt, lemon juice, ginger-garlic paste, and spices for at least 2 hours.",
+        "Thread onto skewers and broil on top oven rack at 500\u00b0F for 10 minutes until charred; remove meat from skewers.",
+        "In a large skillet, saut\u00e9 diced onion until golden brown; add minced garlic, ginger, and garam masala.",
+        "Add tomato pur\u00e9e and simmer 10 minutes; stir in heavy cream until sauce turns vibrant orange.",
+        "Fold in charred chicken tikka pieces and simmer 5 minutes. Garnish with cilantro."
+      ],
+      "potluck_tags": [
+        "tikka-masala",
+        "curry",
+        "creamy",
+        "crowd-pleaser",
+        "restaurant-style"
+      ]
+    },
+    {
+      "id": "recipe_053",
+      "title": "Hyderabadi Chicken Dum Biryani",
+      "cuisine": "Indian",
+      "chicken_cut": "bone-in chicken thighs and drumsticks",
+      "cook_method": "layered dum cooking",
+      "prep_time_minutes": 40,
+      "cook_time_minutes": 50,
+      "servings": 8,
+      "ingredients": [
+        "2.5 lbs bone-in chicken",
+        "3 cups aged Basmati rice, soaked 30 mins",
+        "1 cup plain yogurt",
+        "2 tbsp biryani masala",
+        "2 large onions, thinly sliced and fried crisp (birista)",
+        "1/2 cup fresh mint leaves",
+        "1/2 cup fresh cilantro",
+        "1/4 cup warm milk infused with saffron threads",
+        "4 tbsp ghee"
+      ],
+      "instructions": [
+        "Marinate chicken in yogurt, biryani masala, ginger-garlic paste, half the fried onions, mint, cilantro, and salt for 3 hours.",
+        "Parboil soaked Basmati rice in whole-spiced boiling water for 5 minutes until 70% cooked; drain.",
+        "In a heavy Dutch oven, spread marinated chicken across bottom in an even layer.",
+        "Top chicken with parboiled rice, drizzle with saffron milk and melted ghee, and scatter remaining fried onions and mint.",
+        "Seal pot tightly with foil and lid; cook on medium-high for 10 mins, then lowest heat for 35 mins (dum). Rest 10 mins and gently fluff layers."
+      ],
+      "potluck_tags": [
+        "biryani",
+        "rice-dish",
+        "hyderabadi",
+        "dum-cooking",
+        "party-centerpiece"
+      ]
+    },
+    {
+      "id": "recipe_054",
+      "title": "Authentic Tandoori Chicken Legs",
+      "cuisine": "Indian",
+      "chicken_cut": "chicken leg quarters, deeply scored",
+      "cook_method": "high-heat tandoor / oven roast",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 35,
+      "servings": 4,
+      "ingredients": [
+        "4 chicken leg quarters, skin removed and deeply slashed",
+        "1/2 cup thick hung curd or Greek yogurt",
+        "2 tbsp mustard oil",
+        "2 tbsp Kashmiri red chili powder",
+        "1 tbsp ginger-garlic paste",
+        "1 tbsp garam masala",
+        "1 tbsp kasuri methi (fenugreek leaves)",
+        "Sliced red onions and mint chutney"
+      ],
+      "instructions": [
+        "Slash chicken legs with deep cuts across bone.",
+        "Rub chicken with 1 tbsp lemon juice and salt; rest 15 minutes.",
+        "Mix yogurt, mustard oil, Kashmiri chili, ginger-garlic paste, garam masala, and crushed fenugreek into thick red marinade.",
+        "Coat chicken thoroughly inside cuts; marinate refrigerated for at least 6 hours.",
+        "Roast on a wire rack at 475\u00b0F (or outdoor grill) for 30-35 minutes, turning once and basting with ghee, until charred on edges and 165\u00b0F."
+      ],
+      "potluck_tags": [
+        "tandoori",
+        "grilled",
+        "charred",
+        "smoky",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "recipe_055",
+      "title": "Spicy Goan Chicken Vindaloo",
+      "cuisine": "Indian (Goan)",
+      "chicken_cut": "boneless chicken thighs, cubed",
+      "cook_method": "tangy vinegar & chili braise",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 35,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs chicken thighs, cut into chunks",
+        "Vindaloo Paste: 8 dried Kashmiri chilies, 1/4 cup white vinegar, 6 cloves garlic, 1-inch ginger, 1 tsp cumin, 1 tsp mustard seeds, 4 cloves, 1 cinnamon stick blended smooth",
+        "2 large onions, finely sliced",
+        "1 tbsp tomato paste",
+        "1 tbsp jaggery or brown sugar"
+      ],
+      "instructions": [
+        "Blend spices, garlic, ginger, and vinegar into a smooth, fiery red paste.",
+        "Coat chicken pieces in vindaloo paste and marinate for 2 hours.",
+        "Saut\u00e9 sliced onions in 3 tbsp oil over medium heat until deep brown and caramelized (15 mins).",
+        "Add marinated chicken with all paste; saut\u00e9 5 minutes until oil starts to separate.",
+        "Add tomato paste, 1 cup water, and jaggery; cover and simmer on low for 25 minutes until chicken is tender and sauce is thick and tangy."
+      ],
+      "potluck_tags": [
+        "vindaloo",
+        "goan",
+        "spicy",
+        "vinegar-based",
+        "tangy"
+      ]
+    },
+    {
+      "id": "recipe_056",
+      "title": "Creamy Chicken Korma with Cashews & Cardamom",
+      "cuisine": "Indian (Mughlai)",
+      "chicken_cut": "boneless chicken breasts or thighs, cubed",
+      "cook_method": "nut-paste braising",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs chicken, cubed",
+        "1/2 cup raw cashews soaked in warm water and blended to smooth paste",
+        "1/2 cup plain yogurt",
+        "2 large onions, sliced and fried golden brown",
+        "1 tsp ground green cardamom",
+        "1/2 tsp ground mace or nutmeg",
+        "1 tbsp ginger-garlic paste",
+        "1/4 cup heavy cream",
+        "Toasted slivered almonds"
+      ],
+      "instructions": [
+        "Blend fried onions and yogurt into a smooth paste.",
+        "Heat ghee in a pan, add whole cardamom pods and cloves, then saut\u00e9 ginger-garlic paste for 1 minute.",
+        "Add chicken and cook until exterior turns opaque white.",
+        "Add onion-yogurt pur\u00e9e, coriander powder, cumin, and cashew nut paste; simmer on low heat for 15 minutes.",
+        "Finish with ground cardamom, cream, and a splash of rose water; garnish with toasted almonds."
+      ],
+      "potluck_tags": [
+        "korma",
+        "mughlai",
+        "creamy",
+        "cashew-paste",
+        "mild-curry"
+      ]
+    },
+    {
+      "id": "recipe_057",
+      "title": "Homestyle North Indian Chicken Curry (Tariwala Murgh)",
+      "cuisine": "Indian",
+      "chicken_cut": "bone-in chicken pieces",
+      "cook_method": "stovetop braise",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs bone-in chicken",
+        "2 large onions, finely chopped",
+        "3 ripe tomatoes, pur\u00e9ed",
+        "1.5 tbsp ginger-garlic paste",
+        "1 tbsp coriander powder",
+        "1 tsp turmeric",
+        "1 tsp red chili powder",
+        "1 tsp garam masala",
+        "Fresh cilantro leaves"
+      ],
+      "instructions": [
+        "Heat oil in a heavy pot, add whole cumin seeds and bay leaf until sizzling.",
+        "Add chopped onions and fry on medium heat for 12-15 minutes until rich golden brown.",
+        "Add ginger-garlic paste, cook 2 minutes, then stir in powdered spices and tomato pur\u00e9e; cook until oil releases from masala.",
+        "Add chicken pieces, tossing vigorously to sear in spice base for 5 minutes.",
+        "Pour in 1.5 cups warm water, cover, and simmer for 25 minutes until chicken is tender. Garnish with fresh cilantro."
+      ],
+      "potluck_tags": [
+        "homestyle",
+        "everyday-curry",
+        "chicken-curry",
+        "tariwala",
+        "staple"
+      ]
+    },
+    {
+      "id": "recipe_058",
+      "title": "Kerala Pepper Chicken Fry (Kurumulaku Murgh)",
+      "cuisine": "Indian (Kerala)",
+      "chicken_cut": "bone-in chicken pieces, small cuts",
+      "cook_method": "dry-roast frying",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 30,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs chicken, cut into small bone-in pieces",
+        "2 tbsp freshly cracked black peppercorns",
+        "1 large onion, sliced",
+        "2 sprigs fresh curry leaves",
+        "1 tbsp ginger-garlic paste",
+        "1 tsp fennel seeds, crushed",
+        "1 tsp turmeric",
+        "3 tbsp coconut oil"
+      ],
+      "instructions": [
+        "Marinate chicken in turmeric, 1 tbsp cracked black pepper, ginger-garlic paste, and salt for 30 minutes.",
+        "Heat coconut oil in a cast iron kadai; splutter curry leaves and crushed fennel seeds.",
+        "Add sliced onions and saut\u00e9 until translucent.",
+        "Add chicken, cover, and cook in its own juices over medium-low heat for 20 minutes.",
+        "Remove lid, add remaining 1 tbsp cracked black pepper, and fry continuously on high heat for 8-10 minutes until chicken is dark, dry, and thoroughly coated in peppery masala."
+      ],
+      "potluck_tags": [
+        "kerala",
+        "pepper-chicken",
+        "curry-leaves",
+        "coconut-oil",
+        "spicy-dry-fry"
+      ]
+    },
+    {
+      "id": "recipe_059",
+      "title": "Smoky Chicken Chettinad with Roasted Spices",
+      "cuisine": "Indian (Tamil)",
+      "chicken_cut": "bone-in chicken pieces",
+      "cook_method": "roasted-masala curry",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 35,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chicken pieces",
+        "Chettinad Masala: dry-roast 6 dried red chilies, 1 tbsp coriander seeds, 1 tsp cumin, 1 tsp fennel, 1 tsp black peppercorns, 1 star anise, 2 tbsp freshly grated coconut; grind to fine paste",
+        "1 cup shallots (small onions), sliced",
+        "2 tomatoes, chopped",
+        "Fresh curry leaves"
+      ],
+      "instructions": [
+        "Dry roast all whole spices and coconut in a dry pan until deeply aromatic; grind with a splash of water into a thick paste.",
+        "Heat sesame or coconut oil in a pan; add curry leaves and sliced shallots, frying until golden.",
+        "Add chopped tomatoes and cook until soft and pulpy.",
+        "Add chicken pieces and ground Chettinad masala, tossing to coat meat thoroughly.",
+        "Add 1 cup water, cover, and simmer for 25 minutes until chicken is tender and oil floats to surface."
+      ],
+      "potluck_tags": [
+        "chettinad",
+        "south-indian",
+        "spicy",
+        "roasted-spices",
+        "complex-flavor"
+      ]
+    },
+    {
+      "id": "recipe_060",
+      "title": "Fragrant Kashmiri Chicken Rogan Josh",
+      "cuisine": "Indian (Kashmiri)",
+      "chicken_cut": "bone-in chicken pieces",
+      "cook_method": "yogurt & kashmiri chili braise",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 35,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chicken pieces",
+        "1 cup plain yogurt, whisked smooth",
+        "2 tbsp Kashmiri red chili powder (for vibrant red hue without burning heat)",
+        "1 tbsp fennel powder (saunf)",
+        "1 tsp dry ginger powder (sonth)",
+        "1 pinch asafoetida (hing)",
+        "4 cloves, 2 black cardamoms, 1 cinnamon stick",
+        "4 tbsp mustard oil"
+      ],
+      "instructions": [
+        "Heat mustard oil in a heavy pot until smoking point; cool slightly, then add whole spices and pinch of asafoetida.",
+        "Add chicken pieces and sear over high heat for 6-8 minutes until lightly browned on edges.",
+        "Whisk Kashmiri chili powder, fennel powder, and dry ginger powder into yogurt.",
+        "Reduce heat to low and pour spiced yogurt into pot, stirring continuously so yogurt doesn't curdle.",
+        "Cover and simmer on low for 25 minutes until chicken is meltingly tender and gravy is a deep ruby-red."
+      ],
+      "potluck_tags": [
+        "kashmiri",
+        "rogan-josh",
+        "fennel-ginger",
+        "fragrant",
+        "festive"
+      ]
+    },
+    {
+      "id": "recipe_061",
+      "title": "Spiced Chicken Shawarma with Garlic Toum",
+      "cuisine": "Middle Eastern",
+      "chicken_cut": "boneless skinless chicken thighs",
+      "cook_method": "broiling / roasting",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 25,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chicken thighs",
+        "1/4 cup olive oil",
+        "2 tbsp lemon juice",
+        "1 tbsp ground cumin",
+        "1 tbsp ground coriander",
+        "1 tbsp smoked paprika",
+        "1 tsp turmeric",
+        "1/2 tsp cinnamon",
+        "1/2 tsp ground cloves",
+        "Warm flatbreads, pickles, and garlic toum sauce"
+      ],
+      "instructions": [
+        "Mix olive oil, lemon juice, cumin, coriander, paprika, turmeric, cinnamon, cloves, 1.5 tsp salt, and pepper into marinade.",
+        "Toss chicken thighs to coat completely and marinate for at least 4 hours.",
+        "Layer chicken thighs tightly overlapping on a rimmed baking sheet.",
+        "Broil on HIGH 6 inches from heat source for 18-22 minutes until edges are crispy and charred.",
+        "Thinly slice chicken across grain and stuff into warm flatbreads with garlic toum and pickles."
+      ],
+      "potluck_tags": [
+        "shawarma",
+        "street-food",
+        "garlic-toum",
+        "spiced",
+        "crowd-pleaser"
+      ]
+    },
+    {
+      "id": "recipe_062",
+      "title": "Lebanese Shish Taouk (Garlic Lemon Chicken Skewers)",
+      "cuisine": "Lebanese",
+      "chicken_cut": "boneless chicken breasts or thighs, cubed",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs chicken breasts, cut into 1-inch cubes",
+        "1/2 cup plain yogurt",
+        "1/4 cup fresh lemon juice",
+        "6 cloves garlic, finely crushed",
+        "2 tbsp tomato paste",
+        "2 tbsp olive oil",
+        "1 tsp dried oregano",
+        "1/2 tsp allspice",
+        "Flatbread and pickled turnips"
+      ],
+      "instructions": [
+        "Whisk yogurt, lemon juice, crushed garlic, tomato paste, olive oil, oregano, allspice, salt, and pepper.",
+        "Toss chicken cubes in marinade and refrigerate for 4-8 hours.",
+        "Thread chicken onto skewers.",
+        "Grill over medium-high heat for 10-12 minutes, turning every 2-3 minutes, until lightly charred on edges and 165\u00b0F.",
+        "Slide hot chicken off skewers onto flatbread with garlic sauce, fries, and pickled turnips."
+      ],
+      "potluck_tags": [
+        "shish-taouk",
+        "skewers",
+        "lebanese",
+        "grilled",
+        "lemon-garlic"
+      ]
+    },
+    {
+      "id": "recipe_063",
+      "title": "Moroccan Chicken Tagine with Preserved Lemon & Green Olives",
+      "cuisine": "Moroccan",
+      "chicken_cut": "bone-in chicken thighs and drumsticks",
+      "cook_method": "tagine / Dutch oven braise",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs bone-in chicken",
+        "1 preserved lemon, peel finely diced (discard pulp)",
+        "1 cup cracked green olives",
+        "1 large onion, grated or finely minced",
+        "4 cloves garlic, minced",
+        "1 tsp ground ginger",
+        "1 tsp ground cumin",
+        "1/2 tsp ground turmeric",
+        "1/4 tsp saffron threads soaked in 1/4 cup warm water",
+        "Fresh cilantro and parsley"
+      ],
+      "instructions": [
+        "Mix grated onion, garlic, ginger, cumin, turmeric, saffron water, black pepper, and salt into marinade; rub onto chicken.",
+        "Heat olive oil in tagine or heavy Dutch oven; sear chicken pieces 5 minutes on each side.",
+        "Pour remaining marinade over chicken, cover tightly, and simmer on low heat for 35 minutes.",
+        "Stir in preserved lemon peel and green olives; simmer uncovered 10 minutes until sauce reduces to a rich, glossy gravy.",
+        "Garnish with fresh cilantro and serve with crusty bread or couscous."
+      ],
+      "potluck_tags": [
+        "moroccan",
+        "tagine",
+        "preserved-lemon",
+        "olives",
+        "saffron"
+      ]
+    },
+    {
+      "id": "recipe_064",
+      "title": "Palestinian Chicken Musakhan with Sumac & Caramelized Onions",
+      "cuisine": "Palestinian",
+      "chicken_cut": "bone-in chicken leg quarters",
+      "cook_method": "roasting & layered on taboon bread",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "4 chicken leg quarters",
+        "4 large red onions, thinly sliced (about 6 cups)",
+        "1/2 cup extra virgin olive oil",
+        "1/3 cup ground sumac",
+        "1 tsp ground allspice",
+        "1/2 tsp cinnamon",
+        "1/2 tsp cardamom",
+        "4 rounds taboon flatbread (or thick pita)",
+        "1/3 cup toasted pine nuts"
+      ],
+      "instructions": [
+        "Rub chicken legs with 2 tbsp sumac, allspice, cinnamon, cardamom, 1 tbsp olive oil, salt, and pepper; roast at 400\u00b0F for 40 minutes until golden.",
+        "In a wide skillet, cook sliced onions in remaining olive oil on low heat for 25 minutes until meltingly soft and sweet, but not browned.",
+        "Stir in remaining sumac and 1/2 tsp salt into onions until deep crimson.",
+        "Dip taboon flatbreads briefly into pan juices, arrange on a baking sheet, and spread thick layer of sumac onions over each bread.",
+        "Place a roasted chicken leg on each bread, scatter toasted pine nuts, and broil 3 minutes until edges of bread are crisp."
+      ],
+      "potluck_tags": [
+        "musakhan",
+        "palestinian",
+        "sumac",
+        "caramelized-onions",
+        "traditional-feast"
+      ]
+    },
+    {
+      "id": "recipe_065",
+      "title": "Persian Saffron Chicken with Barberries (Zereshk Polo ba Morgh)",
+      "cuisine": "Persian",
+      "chicken_cut": "bone-in chicken thighs",
+      "cook_method": "saffron & tomato braise",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chicken thighs",
+        "1/2 tsp saffron threads ground and steeped in 3 tbsp warm water",
+        "1 large onion, finely chopped",
+        "2 tbsp tomato paste",
+        "1/4 cup lemon juice",
+        "1 cup dried barberries (zereshk), rinsed",
+        "2 tbsp butter and 1 tbsp sugar (for barberries)",
+        "Steamed Persian basmati rice with tahdig"
+      ],
+      "instructions": [
+        "Season chicken thighs with turmeric, salt, and pepper; sear in oil in a Dutch oven until golden; transfer to plate.",
+        "In same pot, saut\u00e9 onions until golden brown; stir in tomato paste and cook 2 minutes.",
+        "Add half the steeped saffron water, lemon juice, 1.5 cups water, and salt.",
+        "Return chicken to pot, cover, and gently simmer for 35 minutes until sauce is glossy and chicken is tender.",
+        "Saut\u00e9 barberries in butter with sugar and remaining saffron water for 1-2 minutes until plump; spoon over steamed saffron rice alongside braised chicken."
+      ],
+      "potluck_tags": [
+        "persian",
+        "saffron",
+        "barberries",
+        "zereshk-polo",
+        "festive-centerpiece"
+      ]
+    },
+    {
+      "id": "recipe_066",
+      "title": "Turkish Tavuk Shish (Marinated Spiced Chicken Kebabs)",
+      "cuisine": "Turkish",
+      "chicken_cut": "boneless chicken thighs, cubed",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs chicken thighs, cut into 1.5-inch chunks",
+        "1/3 cup plain yogurt",
+        "2 tbsp Turkish red pepper paste (biber sal\u00e7as\u0131) or tomato paste",
+        "3 tbsp olive oil",
+        "4 cloves minced garlic",
+        "1 tbsp dried oregano",
+        "1 tsp ground cumin",
+        "1 tsp Aleppo pepper or paprika",
+        "Turkish pide bread and sumac onions"
+      ],
+      "instructions": [
+        "Whisk yogurt, pepper paste, olive oil, garlic, oregano, cumin, Aleppo pepper, salt, and black pepper.",
+        "Toss chicken cubes in marinade and refrigerate for at least 4 hours.",
+        "Thread chicken chunks onto metal skewers, packing loosely.",
+        "Grill over hot coals for 10-12 minutes, turning frequently, until charred on exterior and juicy inside.",
+        "Serve over warm Turkish flatbread with thinly sliced red onions tossed in sumac and parsley."
+      ],
+      "potluck_tags": [
+        "turkish",
+        "kebabs",
+        "tavuk-shish",
+        "grilled",
+        "charred"
+      ]
+    },
+    {
+      "id": "recipe_067",
+      "title": "Egyptian Molokhia with Garlic-Roasted Chicken",
+      "cuisine": "Egyptian",
+      "chicken_cut": "whole chicken cut into pieces",
+      "cook_method": "poaching & jute leaf stew",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 60,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs chicken pieces",
+        "1 bag (14 oz) frozen minced jute leaves (molokhia), thawed",
+        "6 cups rich chicken stock",
+        "8 cloves garlic, minced",
+        "1.5 tbsp ground dry coriander",
+        "2 tbsp ghee (clarified butter)",
+        "Cooked Egyptian short-grain rice with toasted vermicelli"
+      ],
+      "instructions": [
+        "Simmer chicken in water with onion, cardamom pods, and mastic for 40 minutes until tender; remove chicken, brush with butter, and broil to crisp skin.",
+        "Strain broth and bring 4 cups to a gentle simmer in a pot.",
+        "Whisk thawed minced molokhia into simmering broth; cook on lowest heat for 3-4 minutes without boiling.",
+        "Make the ta'sha: melt ghee in a small pan, add minced garlic and ground coriander, and fry until golden brown and intensely aromatic.",
+        "Pour sizzling ta'sha immediately into green molokhia pot (with the traditional gasp!); serve hot alongside the roasted chicken and vermicelli rice."
+      ],
+      "potluck_tags": [
+        "egyptian",
+        "molokhia",
+        "traditional",
+        "comfort-food",
+        "garlic-coriander"
+      ]
+    },
+    {
+      "id": "recipe_068",
+      "title": "North African Harissa Roasted Chicken Thighs",
+      "cuisine": "North African",
+      "chicken_cut": "bone-in skin-on chicken thighs",
+      "cook_method": "high-heat roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 35,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs bone-in chicken thighs",
+        "3 tbsp spicy North African harissa paste",
+        "3 tbsp olive oil",
+        "1 tbsp honey",
+        "3 cloves minced garlic",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1 lemon, sliced into rounds"
+      ],
+      "instructions": [
+        "Mix harissa paste, olive oil, honey, minced garlic, cumin, coriander, and 1 tsp kosher salt.",
+        "Toss chicken thighs thoroughly in spicy marinade.",
+        "Arrange lemon slices on a rimmed baking sheet; place chicken thighs on top skin-side up.",
+        "Roast at 425\u00b0F for 30-35 minutes until skin is crackling, caramelized at edges, and internal temperature reaches 175\u00b0F.",
+        "Garnish with fresh mint and cilantro; serve with fluffy couscous or roasted vegetables."
+      ],
+      "potluck_tags": [
+        "harissa",
+        "spicy",
+        "north-african",
+        "crispy-thighs",
+        "bold-flavor"
+      ]
+    },
+    {
+      "id": "recipe_069",
+      "title": "Iraqi Chicken Biryani with Vermicelli and Almonds",
+      "cuisine": "Iraqi",
+      "chicken_cut": "bone-in chicken pieces",
+      "cook_method": "layered spiced rice",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chicken pieces",
+        "2.5 cups Basmati rice, rinsed",
+        "1 cup thin vermicelli noodles, broken",
+        "1 medium potato, peeled and cubed",
+        "1/2 cup golden raisins (sultanas)",
+        "1/2 cup toasted blanched slivered almonds",
+        "1 tbsp Iraqi baharat spice blend (cumin, coriander, cinnamon, cardamom, black pepper, cloves)",
+        "3 tbsp ghee"
+      ],
+      "instructions": [
+        "Poach chicken with onions, bay leaves, and 1 tsp baharat for 25 minutes; drain and shred meat.",
+        "In a large pot, fry vermicelli in 2 tbsp ghee until deep golden brown; add soaked rice, 4 cups chicken broth, and 1 tsp baharat; cook until rice is tender and fluffy.",
+        "In a skillet, fry diced potatoes until golden; saut\u00e9 raisins until plump, and toast almonds.",
+        "Toss shredded chicken with half the potato, raisin, and almond mixture.",
+        "Layer fragrant spiced rice onto a massive communal platter, heap spiced chicken over top, and crown with crispy fried vermicelli, almonds, and raisins."
+      ],
+      "potluck_tags": [
+        "iraqi",
+        "biryani",
+        "vermicelli",
+        "baharat",
+        "family-feast"
+      ]
+    },
+    {
+      "id": "recipe_070",
+      "title": "Yemeni Chicken Mandi with Smoked Rice",
+      "cuisine": "Yemeni",
+      "chicken_cut": "whole chicken, halved",
+      "cook_method": "spiced roast & charcoal smoking",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 60,
+      "servings": 6,
+      "ingredients": [
+        "1 whole chicken (3.5 lbs), split in half lengthwise",
+        "Mandi Spice: 1 tbsp cumin, 1 tbsp coriander, 1 tsp turmeric, 1 tsp ground cardamom, 1/2 tsp cloves, 1/2 tsp cinnamon",
+        "2.5 cups Basmati rice, soaked",
+        "3 cloves garlic, 1 dried black lime (loomi)",
+        "1 lump natural lump charcoal and 1 tsp ghee for smoking"
+      ],
+      "instructions": [
+        "Rub chicken halves thoroughly with half the mandi spice blend, olive oil, and 1.5 tsp salt.",
+        "In a roasting pan, combine soaked rice, remaining mandi spices, crushed black lime, green chilies, and 4 cups hot water.",
+        "Place a wire rack directly over roasting pan and set spiced chicken halves on rack so seasoned juices drip into rice as it cooks.",
+        "Cover entire pan tightly with double layer of heavy foil; bake at 375\u00b0F for 55 minutes.",
+        "Uncover, broil chicken 5 minutes to crisp skin. Place a small foil cup with hot glowing charcoal into center of rice, drop 1 tsp ghee onto coal, and seal foil for 10 minutes to infuse deep desert smoke."
+      ],
+      "potluck_tags": [
+        "yemeni",
+        "mandi",
+        "smoked-rice",
+        "charcoal-infused",
+        "gulf-cuisine"
+      ]
+    },
+    {
+      "id": "recipe_071",
+      "title": "Authentic Jamaican Jerk Chicken",
+      "cuisine": "Jamaican",
+      "chicken_cut": "bone-in chicken leg quarters",
+      "cook_method": "charcoal pimento-smoked grilling",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "3.5 lbs chicken leg quarters, poked with fork",
+        "Jerk Marinade: 4 Scotch bonnet peppers, 6 scallions, 4 cloves garlic, 2-inch ginger, 2 tbsp fresh thyme leaves, 1 tbsp allspice berries ground (pimento), 1/4 cup soy sauce, 2 tbsp brown sugar, 2 tbsp lime juice, 1 tbsp neutral oil blended smooth",
+        "Allspice wood chips for smoking (optional)"
+      ],
+      "instructions": [
+        "Blend all marinade ingredients until smooth.",
+        "Score chicken leg quarters deeply and rub jerk paste all over, massaging into meat and under skin; marinate 12 to 24 hours.",
+        "Prepare grill for two-zone indirect cooking with wood chips.",
+        "Slowly cook chicken on cool side of grill with lid closed for 35 minutes, turning occasionally.",
+        "Move chicken directly over hot coals for final 10 minutes, brushing with reserved marinade, until deeply blistered and charred (175\u00b0F in thigh). Serve with rice and peas."
+      ],
+      "potluck_tags": [
+        "jamaican",
+        "jerk-chicken",
+        "scotch-bonnet",
+        "smoky",
+        "caribbean-classic"
+      ]
+    },
+    {
+      "id": "recipe_072",
+      "title": "Jamaican Brown Stew Chicken",
+      "cuisine": "Jamaican",
+      "chicken_cut": "bone-in chicken pieces, small cuts",
+      "cook_method": "browning & rich gravy simmer",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs bone-in chicken cut into small pieces",
+        "2 tbsp Jamaican browning sauce (or dark brown sugar caramelized in oil)",
+        "2 tbsp soy sauce",
+        "1 diced onion, 1 bell pepper, 3 scallions, 4 sprigs fresh thyme",
+        "1 Scotch bonnet pepper (whole, unpierced)",
+        "2 carrots, sliced into rounds",
+        "1 cup chicken stock"
+      ],
+      "instructions": [
+        "Season chicken with browning sauce, soy sauce, allspice, garlic, thyme, salt, and pepper; marinate 1 hour.",
+        "Sear chicken in hot oil in a heavy Dutch oven until deeply browned on all sides (8 mins); remove.",
+        "Saut\u00e9 onion, bell pepper, and carrots in rendered pan juices for 5 minutes.",
+        "Return chicken to pot with stock and whole Scotch bonnet pepper on top.",
+        "Cover and simmer on low for 30 minutes until chicken is meltingly tender and rich mahogany gravy clings to spoon."
+      ],
+      "potluck_tags": [
+        "brown-stew",
+        "jamaican",
+        "caribbean",
+        "comfort-food",
+        "rich-gravy"
+      ]
+    },
+    {
+      "id": "recipe_073",
+      "title": "Trinidadian Curry Chicken with Potatoes",
+      "cuisine": "Trinidadian",
+      "chicken_cut": "bone-in chicken pieces",
+      "cook_method": "bloomed curry braise",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 35,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chicken cut into small pieces",
+        "Green Seasoning: 1/2 cup culantro (shado beni) or cilantro, scallions, garlic, ginger, thyme blended",
+        "3 tbsp Caribbean curry powder (Chief or Betapac)",
+        "2 medium russet potatoes, peeled and cubed",
+        "1 Scotch bonnet pepper",
+        "1.5 cups water"
+      ],
+      "instructions": [
+        "Marinate chicken in 3 tbsp Trinidad green seasoning and salt for 1 hour.",
+        "In a heavy pot, mix curry powder with 3 tbsp water to form a smooth paste.",
+        "Heat 2 tbsp oil; cook curry paste on medium heat for 2-3 minutes until curry 'blooms' and oil separates.",
+        "Add marinated chicken pieces and toss vigorously in cooked curry for 5 minutes (bunjol).",
+        "Add potato cubes, Scotch bonnet, and water; cover and simmer for 25 minutes until potatoes are fork-tender and curry sauce is velvety. Serve with dhalpuri roti or rice."
+      ],
+      "potluck_tags": [
+        "trinidadian",
+        "curry-chicken",
+        "green-seasoning",
+        "roti",
+        "caribbean"
+      ]
+    },
+    {
+      "id": "recipe_074",
+      "title": "Ethiopian Doro Wat (Spicy Chicken Stew with Hard-Boiled Eggs)",
+      "cuisine": "Ethiopian",
+      "chicken_cut": "bone-in chicken pieces, skin removed",
+      "cook_method": "slow berbere braise",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 60,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chicken pieces, soaked in lemon water and patted dry",
+        "4 large red onions, finely minced in food processor",
+        "3 tbsp niter kibbeh (spiced clarified butter)",
+        "3 tbsp authentic berbere spice blend",
+        "1 tbsp garlic-ginger paste",
+        "1/2 cup chicken stock",
+        "6 hard-boiled eggs, peeled and pierced with fork",
+        "Warm injera flatbread for serving"
+      ],
+      "instructions": [
+        "Cook dry minced onions in a heavy pot over medium-low heat without oil for 25 minutes, stirring frequently until water evaporates and onions turn deep purple-brown.",
+        "Add niter kibbeh, ginger-garlic paste, and berbere; fry gently on low heat for 10 minutes to develop deep flavor.",
+        "Add chicken pieces and 1/2 cup broth; cover and simmer gently on low heat for 35 minutes until chicken is tender.",
+        "Gently lower peeled hard-boiled eggs into dark crimson sauce and simmer 10 minutes so eggs absorb flavor.",
+        "Serve family-style on a large round platter of spongy injera bread."
+      ],
+      "potluck_tags": [
+        "ethiopian",
+        "doro-wat",
+        "berbere",
+        "injera",
+        "festive-stew"
+      ]
+    },
+    {
+      "id": "recipe_075",
+      "title": "Senegalese Poulet Yassa (Caramelized Onion & Mustard Chicken)",
+      "cuisine": "Senegalese",
+      "chicken_cut": "bone-in chicken thighs and legs",
+      "cook_method": "caramelized onion & lime braise",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 45,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs chicken thighs and drumsticks",
+        "5 large onions, thinly sliced (about 8 cups)",
+        "1/2 cup fresh lime juice",
+        "3 tbsp Dijon mustard",
+        "1/4 cup peanut oil",
+        "4 cloves garlic, minced",
+        "1 habanero pepper, left whole",
+        "White rice for serving"
+      ],
+      "instructions": [
+        "Marinate chicken and half the sliced onions in lime juice, Dijon mustard, garlic, salt, and black pepper for 4 hours.",
+        "Remove chicken from marinade and grill or broil for 8 minutes until lightly charred on exterior.",
+        "Heat oil in a Dutch oven; cook all sliced onions on low heat for 25 minutes until golden brown and caramelized.",
+        "Pour remaining marinade, chicken stock, and whole habanero into onions.",
+        "Add charred chicken pieces, cover, and simmer for 25 minutes until chicken is tender and onion sauce is rich, tangy, and deeply savory."
+      ],
+      "potluck_tags": [
+        "senegalese",
+        "poulet-yassa",
+        "mustard-onion",
+        "west-african",
+        "tangy"
+      ]
+    },
+    {
+      "id": "recipe_076",
+      "title": "Nigerian Pepper Chicken (Spicy Party Chicken)",
+      "cuisine": "Nigerian",
+      "chicken_cut": "bone-in chicken, par-boiled and fried",
+      "cook_method": "fried & pepper-sauce tossed",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 35,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chicken pieces",
+        "Pepper Sauce: 3 red bell peppers, 3 habanero/scotch bonnet peppers, 1 large onion, 2 ripe tomatoes blended coarse",
+        "2 bouillon cubes (Maggi)",
+        "1 tbsp curry powder",
+        "1 tsp dried thyme",
+        "Oil for frying"
+      ],
+      "instructions": [
+        "Season chicken with Maggi cubes, curry powder, thyme, and salt; boil in 1 cup water for 15 minutes until tender; reserve cooking broth.",
+        "Deep fry chicken pieces in hot oil for 4-5 minutes until crispy and golden brown; drain.",
+        "Boil blended coarse pepper mixture in a saucepan until liquid reduces by half.",
+        "Heat 1/4 cup oil in skillet; fry cooked pepper sauce for 10 minutes until oil bubbles to surface.",
+        "Pour in 1/2 cup reserved chicken broth, add fried chicken pieces, and toss vigorously over high heat until spicy sauce coats every piece."
+      ],
+      "potluck_tags": [
+        "nigerian",
+        "pepper-chicken",
+        "party-food",
+        "spicy",
+        "west-african"
+      ]
+    },
+    {
+      "id": "recipe_077",
+      "title": "South African Peri-Peri Grilled Chicken",
+      "cuisine": "South African / Mozambican",
+      "chicken_cut": "whole chicken butterflied or pieces",
+      "cook_method": "charcoal grilling & bird's eye chili baste",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 35,
+      "servings": 4,
+      "ingredients": [
+        "1 whole chicken (3.5 lbs), spatchcocked",
+        "Peri-Peri Sauce: 8 African bird's eye chilies (or red chilies), 1 roasted red bell pepper, 4 cloves garlic, 1/3 cup olive oil, 1/4 cup red wine vinegar, 2 tbsp lemon juice, 1 tbsp smoked paprika, 1 tsp dried oregano blended smooth"
+      ],
+      "instructions": [
+        "Blend all peri-peri sauce ingredients into a smooth, fiery red sauce; simmer half of sauce for 5 minutes and reserve for table dipping.",
+        "Coat butterflied chicken thoroughly in remaining raw peri-peri marinade; refrigerate overnight.",
+        "Grill chicken over medium coals skin-side up for 20 minutes with lid closed.",
+        "Flip and grill skin-side down over hot coals for 15 minutes, brushing generously with peri-peri marinade, until skin is blistered and charred (165\u00b0F).",
+        "Serve with crispy potato wedges, charred lemon halves, and warm dipping sauce."
+      ],
+      "potluck_tags": [
+        "peri-peri",
+        "african",
+        "grilled",
+        "fiery",
+        "bbq"
+      ]
+    },
+    {
+      "id": "recipe_078",
+      "title": "Ghanaian Chicken Groundnut (Peanut) Soup",
+      "cuisine": "Ghanaian",
+      "chicken_cut": "bone-in chicken thighs and drumsticks",
+      "cook_method": "smooth peanut-butter soup",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 50,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chicken pieces",
+        "1 cup smooth natural peanut butter (no added sugar)",
+        "1 can (14 oz) tomato pur\u00e9e",
+        "1 large onion, chopped",
+        "2 habanero chilies",
+        "2-inch knob fresh ginger",
+        "4 cloves garlic",
+        "Cooked fufu, boiled yams, or rice balls (omotuo)"
+      ],
+      "instructions": [
+        "Steam chicken in a large pot with blended ginger, garlic, half the onion, salt, and 1/2 cup water for 15 minutes.",
+        "In a saucepan, whisk peanut butter and tomato pur\u00e9e with 2 cups warm water; simmer on medium heat for 12 minutes stirring constantly until red oil separates on surface.",
+        "Pour cooked peanut-tomato mixture into the chicken pot through a fine strainer.",
+        "Add remaining 3 cups water and whole habaneros; simmer gently on low heat for 35 minutes until chicken is tender and peanut soup is rich and velvety.",
+        "Serve hot with fufu or rice."
+      ],
+      "potluck_tags": [
+        "ghanaian",
+        "groundnut-soup",
+        "peanut-soup",
+        "comfort-food",
+        "fufu"
+      ]
+    },
+    {
+      "id": "recipe_079",
+      "title": "Moroccan Chicken Pastilla (Sweet & Savory Filo Pie)",
+      "cuisine": "Moroccan",
+      "chicken_cut": "shredded poached chicken thighs",
+      "cook_method": "filo pastry baking",
+      "prep_time_minutes": 40,
+      "cook_time_minutes": 40,
+      "servings": 8,
+      "ingredients": [
+        "2 lbs chicken thighs, cooked with saffron, ginger, cinnamon, and shredded",
+        "10 sheets filo pastry",
+        "4 large eggs beaten into chicken cooking juices",
+        "1 cup toasted almonds, crushed with 2 tbsp powdered sugar and 1 tsp cinnamon",
+        "1/2 cup melted butter",
+        "Powdered sugar and ground cinnamon for dusting"
+      ],
+      "instructions": [
+        "Cook chicken with saffron, cinnamon stick, ginger, and onions; shred meat.",
+        "Whisk beaten eggs into simmering onion-chicken broth until eggs curdle into soft scrambled sauce; strain excess liquid.",
+        "Layer 5 buttered filo sheets in a round pie dish with edges hanging over.",
+        "Layer shredded chicken, followed by egg-onion layer, topped with crunchy cinnamon-sugar almond layer.",
+        "Fold overhang filo sheets over, top with 3 more buttered filo sheets, tucking edges under.",
+        "Bake at 375\u00b0F for 30 minutes until deep golden brown and crisp; dust top with lattice pattern of powdered sugar and cinnamon."
+      ],
+      "potluck_tags": [
+        "pastilla",
+        "moroccan",
+        "filo-pie",
+        "sweet-and-savory",
+        "showstopper"
+      ]
+    },
+    {
+      "id": "recipe_080",
+      "title": "Cuban Mojo Roast Chicken Quarters",
+      "cuisine": "Cuban",
+      "chicken_cut": "chicken leg quarters",
+      "cook_method": "citrus-garlic roasting",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "4 chicken leg quarters",
+        "1/2 cup bitter sour orange juice (or equal parts orange and lime juice)",
+        "8 cloves garlic, mashed into paste with 1 tbsp coarse salt",
+        "1/4 cup extra virgin olive oil",
+        "1 tsp ground cumin",
+        "1 tsp dried oregano",
+        "1 large onion, sliced into rings"
+      ],
+      "instructions": [
+        "Pound garlic and salt in mortar to a paste; whisk with sour orange juice, olive oil, cumin, and oregano.",
+        "Pour mojo marinade over chicken leg quarters and sliced onion rings; marinate for 4-8 hours.",
+        "Spread onion rings across bottom of roasting pan; place chicken leg quarters on top.",
+        "Roast at 425\u00b0F for 40-45 minutes, spooning pan juices over chicken halfway through, until skin is crackling and meat is tender.",
+        "Serve with black beans, white rice, and sweet plantains (maduros)."
+      ],
+      "potluck_tags": [
+        "cuban",
+        "mojo",
+        "garlic-citrus",
+        "roast-chicken",
+        "latin"
+      ]
+    },
+    {
+      "id": "recipe_081",
+      "title": "Classic French Coq au Vin (Chicken in Red Wine)",
+      "cuisine": "French",
+      "chicken_cut": "bone-in chicken pieces (thighs & drumsticks)",
+      "cook_method": "red wine braising",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 50,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs bone-in chicken pieces",
+        "1 bottle (750 ml) dry red wine (Pinot Noir or Burgundy)",
+        "6 oz thick bacon or lardons, diced",
+        "8 oz pearl onions, peeled",
+        "8 oz cremini mushrooms, halved",
+        "2 carrots, sliced",
+        "3 cloves garlic",
+        "2 sprigs fresh thyme",
+        "2 tbsp butter kneaded with 2 tbsp flour (beurre mani\u00e9)"
+      ],
+      "instructions": [
+        "Fry diced bacon in a Dutch oven until crisp; remove bacon and leave rendered fat in pot.",
+        "Sear seasoned chicken pieces in bacon fat over medium-high heat until deep brown; remove chicken.",
+        "Saut\u00e9 pearl onions, mushrooms, and carrots for 5 minutes.",
+        "Pour in red wine, scraping up browned fond; add garlic, thyme, chicken, and crisp bacon.",
+        "Cover and simmer on low for 40 minutes until chicken is tender; whisk in beurre mani\u00e9 to thicken wine sauce into glossy satin glaze."
+      ],
+      "potluck_tags": [
+        "french-classic",
+        "coq-au-vin",
+        "wine-braised",
+        "dinner-party",
+        "bistro"
+      ]
+    },
+    {
+      "id": "recipe_082",
+      "title": "French Poulet au Vinaigre (Chicken in Vinegar Sauce)",
+      "cuisine": "French (Lyonnaise)",
+      "chicken_cut": "bone-in chicken thighs",
+      "cook_method": "vinegar reduction & butter pan sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs bone-in chicken thighs",
+        "1/3 cup red wine vinegar or sherry vinegar",
+        "1 cup low-sodium chicken stock",
+        "3 tbsp tomato paste",
+        "4 cloves garlic, unpeeled and smashed",
+        "4 tbsp cold unsalted butter, cubed",
+        "2 tbsp chopped fresh tarragon"
+      ],
+      "instructions": [
+        "Season chicken thighs with salt and pepper; sear in butter and oil in a stainless skillet skin-side down for 7-8 minutes until crisp and golden; flip and cook 4 minutes; remove.",
+        "Add smashed garlic cloves to pan, then pour in red wine vinegar, boiling vigorously to reduce by 80% until syrupy.",
+        "Whisk in tomato paste and chicken stock, scraping browned bits.",
+        "Return chicken to pan, cover, and simmer on low for 15 minutes until cooked through (165\u00b0F); transfer chicken to platter.",
+        "Over low heat, whisk cold butter cubes one at a time into pan sauce until glossy and thick; stir in tarragon and pour over chicken."
+      ],
+      "potluck_tags": [
+        "french",
+        "bistro",
+        "tarragon",
+        "vinegar-sauce",
+        "restaurant-style"
+      ]
+    },
+    {
+      "id": "recipe_083",
+      "title": "Hungarian Chicken Paprikash (Paprik\u00e1s Csirke)",
+      "cuisine": "Hungarian",
+      "chicken_cut": "bone-in chicken thighs and drumsticks",
+      "cook_method": "paprika & sour cream braise",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs chicken thighs and drumsticks",
+        "3 tbsp authentic sweet Hungarian paprika",
+        "2 medium onions, finely diced",
+        "1 cubanelle or green bell pepper, diced",
+        "1 ripe tomato, diced",
+        "1 cup chicken stock",
+        "3/4 cup sour cream",
+        "2 tbsp all-purpose flour",
+        "Fresh egg nokedli (spaetzle) or egg noodles"
+      ],
+      "instructions": [
+        "Saut\u00e9 finely diced onions in 2 tbsp oil or lard over medium heat for 8-10 minutes until soft.",
+        "Remove pot from heat and stir in sweet Hungarian paprika (taking off heat prevents paprika from burning bitter).",
+        "Return to heat; add chicken pieces, diced pepper, tomato, and chicken stock.",
+        "Cover and simmer gently for 35 minutes until chicken is fork tender.",
+        "In a bowl, whisk sour cream with flour and a ladle of hot cooking liquid; stir cream mixture into simmering sauce until smooth and thickened. Serve over egg dumplings."
+      ],
+      "potluck_tags": [
+        "hungarian",
+        "paprikash",
+        "sour-cream",
+        "comfort-food",
+        "spaetzle"
+      ]
+    },
+    {
+      "id": "recipe_084",
+      "title": "Spanish Pollo al Ajillo (Garlic Chicken)",
+      "cuisine": "Spanish",
+      "chicken_cut": "bone-in chicken pieces cut into small chunks",
+      "cook_method": "sizzling olive oil & garlic",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs chicken cut into small bite-sized bone-in pieces",
+        "15 cloves fresh garlic, peeled (10 sliced, 5 left whole)",
+        "1/2 cup extra virgin Spanish olive oil",
+        "1/2 cup dry white wine or dry sherry (Fino)",
+        "1 dried cayenne pepper",
+        "1 bay leaf",
+        "Fresh parsley and crusty bread"
+      ],
+      "instructions": [
+        "Season chicken pieces generously with salt and pepper.",
+        "Heat olive oil in a wide cazuela or skillet; fry sliced garlic and whole garlic cloves with cayenne pepper on medium-low until golden and fragrant; remove garlic to avoid burning.",
+        "Turn heat to high; sear chicken pieces in garlic-infused oil for 10-12 minutes until crispy and golden.",
+        "Add dry sherry or white wine and bay leaf, scraping bottom of pan.",
+        "Simmer 5-7 minutes until wine reduces to a rich glossy glaze; return fried garlic to pan, toss with chopped parsley, and serve sizzling with rustic bread."
+      ],
+      "potluck_tags": [
+        "tapas",
+        "spanish",
+        "pollo-al-ajillo",
+        "garlic",
+        "sizzling"
+      ]
+    },
+    {
+      "id": "recipe_085",
+      "title": "Spanish Arroz con Pollo with Saffron and Bell Peppers",
+      "cuisine": "Spanish",
+      "chicken_cut": "bone-in chicken thighs",
+      "cook_method": "paella-style rice",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs bone-in chicken thighs",
+        "2 cups Bomba or Valencia short-grain rice",
+        "1/2 tsp saffron threads steeped in warm water",
+        "1 red bell pepper, sliced into strips",
+        "1 medium onion, diced",
+        "3 cloves garlic",
+        "1 can (14 oz) diced tomatoes",
+        "4 cups chicken stock",
+        "1/2 cup green peas"
+      ],
+      "instructions": [
+        "Brown seasoned chicken thighs in olive oil in a wide paella pan for 10 minutes; remove.",
+        "Saut\u00e9 red bell pepper strips until blistered; remove half for garnish.",
+        "Add diced onion and garlic to pan; cook 5 minutes, then add tomatoes and cook to a thick sofrito.",
+        "Stir in rice, coating grains in oil and sofrito for 2 minutes.",
+        "Pour in hot chicken stock and saffron water; nestle browned chicken and bell peppers on top.",
+        "Simmer uncovered for 18-20 minutes without stirring to develop bottom crust (socarrat); scatter peas on top, rest 5 minutes, and serve."
+      ],
+      "potluck_tags": [
+        "spanish",
+        "paella-style",
+        "saffron",
+        "arroz-con-pollo",
+        "socarrat"
+      ]
+    },
+    {
+      "id": "recipe_086",
+      "title": "Georgian Chakhokhbili (Tomato, Herb & Garlic Braised Chicken)",
+      "cuisine": "Georgian",
+      "chicken_cut": "bone-in chicken thighs cut into pieces",
+      "cook_method": "dry-sear & aromatic herb braise",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 35,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chicken thighs, cut into bite-sized bone-in pieces",
+        "4 large ripe tomatoes, peeled and chopped",
+        "2 large onions, finely sliced",
+        "4 cloves garlic, minced",
+        "1 cup fresh cilantro, chopped",
+        "1/2 cup fresh purple basil or Italian basil",
+        "1/2 cup fresh dill",
+        "1 tsp ground coriander seeds",
+        "1 tsp blue fenugreek (utskho suneli)"
+      ],
+      "instructions": [
+        "Dry-sear chicken pieces in a hot heavy Dutch oven with NO added oil for 8-10 minutes, letting natural chicken fat render and brown meat; remove.",
+        "Cook sliced onions in rendered chicken fat until soft and translucent.",
+        "Add chopped fresh tomatoes, coriander powder, fenugreek, garlic, and salt; simmer 5 minutes.",
+        "Return seared chicken to pot, cover, and gently simmer for 20 minutes in the natural tomato juices.",
+        "Remove lid, stir in massive mound of fresh cilantro, basil, and dill; cook 2 minutes off heat. Serve with crusty shoti bread."
+      ],
+      "potluck_tags": [
+        "georgian",
+        "chakhokhbili",
+        "fresh-herbs",
+        "tomato-braised",
+        "caucasus"
+      ]
+    },
+    {
+      "id": "recipe_087",
+      "title": "Austrian Chicken Schnitzel with Lingonberry Jam",
+      "cuisine": "Austrian",
+      "chicken_cut": "thinly pounded chicken breasts",
+      "cook_method": "shallow frying in clarified butter",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "4 chicken cutlets, pounded 1/8-inch thin between plastic wrap",
+        "1.5 cups fine breadcrumbs",
+        "1/2 cup flour",
+        "2 eggs beaten with 1 tbsp heavy cream",
+        "Clarified butter or neutral oil for shallow frying",
+        "Lemon wheels and wild lingonberry jam"
+      ],
+      "instructions": [
+        "Season pounded cutlets with salt and pepper; dredge in flour, dip in egg-cream mixture, then coat gently in breadcrumbs without pressing down (light breading creates puffed wavy crust).",
+        "Heat 1/2 inch clarified butter in a large skillet to 340\u00b0F (170\u00b0C).",
+        "Slide schnitzel into hot fat; gently swirl pan back and forth continuously so hot butter washes over top of schnitzel, puffing the breading.",
+        "Flip after 2 minutes and cook 2 minutes more until pale golden and crisp; drain.",
+        "Serve immediately with a lemon wheel and a spoonful of tart lingonberry jam."
+      ],
+      "potluck_tags": [
+        "schnitzel",
+        "austrian",
+        "crispy-cutlet",
+        "fluffy-breading",
+        "vienna"
+      ]
+    },
+    {
+      "id": "recipe_088",
+      "title": "French Poulet R\u00f4ti (Classic Sunday Roast Chicken)",
+      "cuisine": "French",
+      "chicken_cut": "whole chicken",
+      "cook_method": "butter-basted slow roast",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 75,
+      "servings": 4,
+      "ingredients": [
+        "1 whole roasting chicken (4.5 lbs)",
+        "4 tbsp unsalted butter at room temperature",
+        "1 head of garlic, cut in half crosswise",
+        "4 sprigs fresh thyme, 2 sprigs tarragon",
+        "1 lemon, pierced",
+        "1 cup chicken stock for pan sauce"
+      ],
+      "instructions": [
+        "Pat whole chicken dry inside and out; season cavity with salt, pepper, half head of garlic, lemon, and fresh herbs.",
+        "Tie legs together with kitchen twine and tuck wing tips.",
+        "Smear softened butter generously over entire skin; season exterior liberally with kosher salt.",
+        "Place breast-side up on a V-rack in roasting pan.",
+        "Roast at 425\u00b0F for 15 minutes, then reduce oven to 375\u00b0F and roast for 55-60 minutes, basting with pan juices every 20 minutes until thigh reaches 175\u00b0F.",
+        "Rest 15 minutes; carve and serve with deglazed pan drippings."
+      ],
+      "potluck_tags": [
+        "poulet-roti",
+        "french-classic",
+        "sunday-roast",
+        "crispy-skin",
+        "herb-butter"
+      ]
+    },
+    {
+      "id": "recipe_089",
+      "title": "Portuguese Frango Piri Piri with Garlic Roast Potatoes",
+      "cuisine": "Portuguese",
+      "chicken_cut": "whole chicken butterflied flat",
+      "cook_method": "charcoal grilling & piri-piri basting",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 40,
+      "servings": 4,
+      "ingredients": [
+        "1 whole chicken (3.5 lbs), butterflied and flattened",
+        "1/3 cup piri-piri sauce (hot red chilies, garlic, olive oil, bay leaf, lemon juice blended)",
+        "1/4 cup white wine",
+        "2 tbsp butter, melted",
+        "Small Yukon gold potatoes, boiled and crushed"
+      ],
+      "instructions": [
+        "Marinate butterflied chicken in piri-piri sauce, white wine, and 1 tbsp salt for at least 6 hours.",
+        "Place on charcoal grill skin-side up over medium-low indirect heat for 25 minutes.",
+        "Flip over hot coals, brushing continuously with melted butter and piri-piri sauce every 3 minutes for 12-15 minutes until skin is crackling and charred.",
+        "Toss crushed boiled potatoes in piri-piri oil and crisp alongside chicken.",
+        "Carve into pieces and serve with fries or crushed potatoes and extra spicy sauce."
+      ],
+      "potluck_tags": [
+        "portuguese",
+        "frango-piri-piri",
+        "grilled",
+        "fiery",
+        "summer-bbq"
+      ]
+    },
+    {
+      "id": "recipe_090",
+      "title": "Russian Chicken Kiev with Herb Garlic Butter Center",
+      "cuisine": "Eastern European",
+      "chicken_cut": "whole chicken breasts, pounded",
+      "cook_method": "stuffed, breaded & fried",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 25,
+      "servings": 4,
+      "ingredients": [
+        "4 large chicken breasts",
+        "Compound Butter: 1/2 cup softened butter, 3 cloves minced garlic, 2 tbsp minced parsley, 1 tbsp minced dill, 1 tsp lemon juice rolled into a log and frozen solid",
+        "1/2 cup flour, 2 eggs beaten, 1.5 cups breadcrumbs",
+        "Oil for frying"
+      ],
+      "instructions": [
+        "Slice a frozen cylinder of herb garlic butter into 4 equal fingers.",
+        "Pound chicken breasts flat between plastic wrap.",
+        "Place a frozen butter finger in center of each pounded breast; roll chicken tightly around butter, tucking ends in securely so butter cannot leak during cooking.",
+        "Double bread: dredge in flour, egg, breadcrumbs, back into egg, and breadcrumbs again to ensure leak-proof crust; chill 30 minutes.",
+        "Fry in 350\u00b0F oil for 5 minutes until golden, then finish in 375\u00b0F oven for 12 minutes. Cut open tableside to let aromatic melted herb butter burst out."
+      ],
+      "potluck_tags": [
+        "chicken-kiev",
+        "stuffed-butter",
+        "crispy",
+        "classic-continental"
+      ]
+    },
+    {
+      "id": "recipe_091",
+      "title": "Sheet-Pan Lemon Rosemary Chicken Thighs & Baby Potatoes",
+      "cuisine": "Modern American",
+      "chicken_cut": "bone-in skin-on chicken thighs",
+      "cook_method": "sheet-pan high-heat roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 35,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs bone-in chicken thighs",
+        "1.5 lbs baby Yukon gold potatoes, halved",
+        "3 tbsp olive oil",
+        "2 tbsp fresh lemon juice",
+        "2 tbsp minced fresh rosemary",
+        "4 cloves minced garlic",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper"
+      ],
+      "instructions": [
+        "Toss halved potatoes with 1 tbsp olive oil, salt, and pepper; spread around edges of a rimmed baking sheet.",
+        "Mix remaining olive oil, lemon juice, minced rosemary, garlic, salt, and pepper; rub over chicken thighs.",
+        "Nestle chicken thighs skin-side up in center of baking sheet between potatoes.",
+        "Roast at 425\u00b0F for 35 minutes until potatoes are golden crisp on cut side and chicken skin is shatteringly crisp (175\u00b0F in thigh).",
+        "Drizzle pan juices over potatoes and chicken before serving."
+      ],
+      "potluck_tags": [
+        "sheet-pan",
+        "weeknight-meal",
+        "crispy-skin",
+        "lemon-rosemary",
+        "easy-cleanup"
+      ]
+    },
+    {
+      "id": "recipe_092",
+      "title": "Garlic Butter Pan-Seared Chicken Breasts",
+      "cuisine": "Weeknight Quick",
+      "chicken_cut": "boneless skinless chicken breasts (halved horizontally)",
+      "cook_method": "pan-searing & butter basting",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "2 large chicken breasts, halved horizontally into 4 cutlets",
+        "2 tbsp olive oil",
+        "4 tbsp unsalted butter",
+        "5 cloves garlic, smashed",
+        "3 sprigs fresh thyme",
+        "1 tsp smoked paprika",
+        "1 tsp garlic powder"
+      ],
+      "instructions": [
+        "Season cutlets with paprika, garlic powder, salt, and black pepper.",
+        "Heat olive oil in a heavy stainless or cast iron skillet over medium-high heat.",
+        "Sear cutlets 4-5 minutes on first side without moving until golden crust forms.",
+        "Flip cutlets, add butter, smashed garlic, and thyme sprigs to pan.",
+        "Tilt skillet and spoon foaming aromatic garlic butter continuously over chicken for 3-4 minutes until cooked through (165\u00b0F). Rest 5 minutes."
+      ],
+      "potluck_tags": [
+        "fast-dinner",
+        "garlic-butter",
+        "pan-seared",
+        "keto-friendly",
+        "basted"
+      ]
+    },
+    {
+      "id": "recipe_093",
+      "title": "Slow-Cooker Salsa Verde Shredded Chicken",
+      "cuisine": "Mexican / Healthy",
+      "chicken_cut": "boneless skinless chicken breasts or thighs",
+      "cook_method": "slow-cooker",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 240,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs boneless chicken thighs or breasts",
+        "1 jar (16 oz) quality salsa verde (tomatillo salsa)",
+        "1 diced medium onion",
+        "1 tbsp cumin",
+        "1 tbsp garlic powder",
+        "1 tsp dried oregano",
+        "Fresh lime juice and cilantro"
+      ],
+      "instructions": [
+        "Place chicken in slow cooker.",
+        "Scatter diced onions, cumin, garlic powder, oregano, and 1 tsp salt over chicken.",
+        "Pour jar of salsa verde evenly across top.",
+        "Cover and cook on LOW for 5-6 hours or HIGH for 3 hours until chicken shreds easily.",
+        "Shred chicken with two forks in the warm salsa verde juices; stir in fresh lime juice and chopped cilantro.",
+        "Use for burritos, tacos, salads, and rice bowls."
+      ],
+      "potluck_tags": [
+        "slow-cooker",
+        "salsa-verde",
+        "meal-prep",
+        "gluten-free",
+        "healthy"
+      ]
+    },
+    {
+      "id": "recipe_094",
+      "title": "Air-Fryer Crispy Parmesan Herb Chicken Tenders",
+      "cuisine": "Modern Healthy",
+      "chicken_cut": "chicken tenderloins",
+      "cook_method": "air-frying",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs chicken tenderloins, tendon removed",
+        "1 cup panko breadcrumbs",
+        "1/2 cup finely grated Parmesan",
+        "1 tbsp Italian herb seasoning",
+        "1/2 cup flour",
+        "2 beaten eggs",
+        "Avocado oil spray",
+        "Marinara or honey mustard for dipping"
+      ],
+      "instructions": [
+        "Dredge tenderloins in flour, dip in beaten eggs, and coat thoroughly in panko-Parmesan-herb mix.",
+        "Preheat air fryer to 400\u00b0F (200\u00b0C).",
+        "Arrange tenders in a single layer in air fryer basket with space between pieces; spray tops with avocado oil.",
+        "Air fry for 6 minutes, flip, spray other side, and air fry for 5-6 minutes more until golden brown and crunchy (165\u00b0F).",
+        "Serve hot with favorite dipping sauces."
+      ],
+      "potluck_tags": [
+        "air-fryer",
+        "kid-friendly",
+        "chicken-tenders",
+        "crispy",
+        "healthy"
+      ]
+    },
+    {
+      "id": "recipe_095",
+      "title": "Creamy Dijon Mustard & White Wine Chicken Skillet",
+      "cuisine": "French Country",
+      "chicken_cut": "boneless skinless chicken thighs",
+      "cook_method": "pan-searing & pan sauce",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs chicken thighs",
+        "2 tbsp olive oil",
+        "1 medium shallot, minced",
+        "1/2 cup dry white wine",
+        "1/2 cup chicken stock",
+        "3 tbsp Dijon mustard",
+        "1 tbsp whole grain seeded mustard",
+        "1/3 cup heavy cream",
+        "Fresh tarragon or chives"
+      ],
+      "instructions": [
+        "Season thighs with salt and pepper; sear in olive oil in a wide skillet for 5-6 minutes per side until browned and cooked; transfer to plate.",
+        "Add minced shallot to skillet; cook 1 minute.",
+        "Pour in white wine and chicken stock, scraping up browned bits, and simmer 3 minutes until reduced by half.",
+        "Whisk in smooth Dijon mustard, whole grain mustard, and heavy cream; simmer gently 2 minutes until creamy.",
+        "Return chicken and juices to skillet to glaze with sauce; garnish with fresh tarragon."
+      ],
+      "potluck_tags": [
+        "dijon-mustard",
+        "creamy-skillet",
+        "french-country",
+        "quick-dinner"
+      ]
+    },
+    {
+      "id": "recipe_096",
+      "title": "Healthy Honey Ginger Soy Glazed Chicken Breasts",
+      "cuisine": "Asian-Inspired Healthy",
+      "chicken_cut": "chicken breast cutlets",
+      "cook_method": "pan-searing & glaze",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 chicken breast cutlets (1.25 lbs)",
+        "1 tbsp olive oil",
+        "Honey Ginger Glaze: 3 tbsp honey, 3 tbsp low-sodium soy sauce, 1 tbsp grated fresh ginger, 3 cloves minced garlic, 1 tbsp rice vinegar, 1 tsp cornstarch whisked with 2 tbsp water",
+        "Steamed jasmine rice and sesame seeds"
+      ],
+      "instructions": [
+        "Season cutlets with salt and pepper; sear in olive oil over medium-high heat for 4 minutes per side until golden; transfer to plate.",
+        "In same pan, pour in honey, soy sauce, grated ginger, minced garlic, rice vinegar, and cornstarch slurry.",
+        "Simmer glaze for 1-2 minutes until thick and glossy.",
+        "Return chicken cutlets to skillet and turn repeatedly to coat in sticky honey-ginger glaze.",
+        "Garnish with toasted sesame seeds and sliced green onions."
+      ],
+      "potluck_tags": [
+        "honey-ginger",
+        "quick",
+        "meal-prep",
+        "sweet-savory",
+        "low-fat"
+      ]
+    },
+    {
+      "id": "recipe_097",
+      "title": "Smoky Chipotle Chicken Burrito Bowls",
+      "cuisine": "Meal-Prep / Healthy",
+      "chicken_cut": "boneless chicken thighs, cubed",
+      "cook_method": "pan-searing & bowl assembly",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs chicken thighs, cut into bite-sized pieces",
+        "2 tbsp olive oil",
+        "1 tbsp chipotle chili powder",
+        "1 tsp cumin",
+        "1 tsp garlic powder",
+        "Bowl Components: 3 cups cooked brown or cilantro-lime rice, 1 can black beans rinsed, 1 cup roasted corn, 1 diced avocado, pico de gallo, cilantro"
+      ],
+      "instructions": [
+        "Toss chicken pieces with olive oil, chipotle powder, cumin, garlic powder, salt, and pepper.",
+        "Sear in a hot skillet over medium-high heat for 6-8 minutes, stirring occasionally, until deeply charred and cooked through.",
+        "Assemble 4 meal-prep bowls: add a base of cilantro-lime rice and black beans.",
+        "Top each bowl with a portion of smoky chipotle chicken, sweet corn, fresh pico de gallo, and sliced avocado.",
+        "Serve with lime wedges and hot sauce."
+      ],
+      "potluck_tags": [
+        "meal-prep",
+        "burrito-bowl",
+        "chipotle",
+        "healthy",
+        "high-protein"
+      ]
+    },
+    {
+      "id": "recipe_098",
+      "title": "Cast-Iron Skillet Spiced Spatchcock Chicken with Chimichurri",
+      "cuisine": "Argentine",
+      "chicken_cut": "whole chicken, spatchcocked",
+      "cook_method": "cast-iron stovetop to oven roast",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "1 whole chicken (4 lbs), spatchcocked",
+        "2 tbsp olive oil",
+        "1 tbsp smoked paprika",
+        "1 tbsp garlic powder",
+        "1 tsp cumin",
+        "Chimichurri Sauce: 1 cup fresh flat-leaf parsley minced, 1/4 cup fresh oregano, 4 cloves garlic minced, 1/3 cup red wine vinegar, 1/2 cup extra virgin olive oil, 1/2 tsp red pepper flakes"
+      ],
+      "instructions": [
+        "Flatten spatchcocked chicken; rub with olive oil, paprika, garlic powder, cumin, salt, and pepper.",
+        "Heat a 12-inch cast iron skillet over medium-high heat with 1 tbsp oil.",
+        "Place chicken skin-side down in hot skillet; weigh down with a second heavy cast iron skillet to maximize skin contact.",
+        "Cook on stovetop for 6 minutes until skin is deeply browned and crisp.",
+        "Remove top skillet weight, flip chicken, and immediately transfer skillet to 425\u00b0F oven for 35 minutes until 165\u00b0F.",
+        "Rest 10 minutes, carve, and serve with fresh zesty chimichurri."
+      ],
+      "potluck_tags": [
+        "chimichurri",
+        "cast-iron",
+        "crispy-skin",
+        "argentine",
+        "bbq"
+      ]
+    },
+    {
+      "id": "recipe_099",
+      "title": "Creamy Sun-Dried Tomato & Basil Chicken Pesto Pasta",
+      "cuisine": "Italian-American",
+      "chicken_cut": "boneless chicken breasts, sliced",
+      "cook_method": "pan-searing & pasta toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs chicken breasts, sliced into strips",
+        "12 oz penne or rigatoni pasta, cooked al dente",
+        "2 tbsp olive oil",
+        "1/2 cup oil-packed sun-dried tomatoes, sliced",
+        "1/2 cup basil pesto (homemade or jarred)",
+        "3/4 cup heavy cream",
+        "1/2 cup freshly grated Parmesan cheese",
+        "Fresh basil"
+      ],
+      "instructions": [
+        "Cook pasta in salted boiling water until al dente; reserve 1/2 cup pasta cooking water; drain.",
+        "Season chicken strips with Italian herbs, salt, and pepper; sear in olive oil in a wide skillet for 5-6 minutes until golden; remove.",
+        "In same pan, add sun-dried tomatoes, heavy cream, and basil pesto; simmer on medium-low for 2 minutes.",
+        "Whisk in grated Parmesan until smooth and melted.",
+        "Add cooked pasta and chicken into creamy pesto sauce, tossing to coat (adding splashes of reserved pasta water if needed). Garnish with fresh basil."
+      ],
+      "potluck_tags": [
+        "pasta",
+        "pesto",
+        "potluck-classic",
+        "sun-dried-tomatoes",
+        "creamy"
+      ]
+    },
+    {
+      "id": "recipe_100",
+      "title": "One-Pot Lemon Orzo Chicken Thighs with Baby Spinach",
+      "cuisine": "Mediterranean",
+      "chicken_cut": "bone-in skin-on chicken thighs",
+      "cook_method": "one-pot braising",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 35,
+      "servings": 4,
+      "ingredients": [
+        "4 bone-in chicken thighs",
+        "1.5 cups dry orzo pasta",
+        "1 small yellow onion, finely diced",
+        "3 cloves minced garlic",
+        "3 cups low-sodium chicken broth",
+        "Zest and juice of 1 lemon",
+        "2 cups fresh baby spinach",
+        "1/3 cup crumbled feta cheese"
+      ],
+      "instructions": [
+        "Season chicken thighs with oregano, salt, and pepper; sear skin-side down in a Dutch oven for 7-8 minutes until golden crisp; flip and sear 3 minutes; transfer to plate.",
+        "Pour off all but 1 tbsp fat; saut\u00e9 diced onion and garlic for 3 minutes until softened.",
+        "Add dry orzo pasta and toast for 2 minutes, stirring continuously.",
+        "Pour in chicken broth, lemon zest, and lemon juice, scraping up browned bits from bottom of pot.",
+        "Nestle chicken thighs back on top of orzo; bring to simmer, cover, and cook on low heat for 15-18 minutes until orzo has absorbed liquid and chicken is cooked.",
+        "Stir baby spinach into hot orzo until wilted and scatter crumbled feta over top."
+      ],
+      "potluck_tags": [
+        "one-pot",
+        "orzo",
+        "lemon-herb",
+        "mediterranean",
+        "complete-meal"
+      ]
+    }
+  ]
+}

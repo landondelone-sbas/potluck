@@ -1,0 +1,6 @@
+{
+  "theme": "steak",
+  "count": 0,
+  "skipped_note": "No qualifying recipes found in notebook sources meeting all criteria. Evaluated and skipped: 1. Reverse Sear Steak from Allen Brothers (excluded under Rule 6: standalone protein technique lacking required vegetable and starch components). 2. Beef Cookery from NDBeef (reference cooking and doneness charts only; mentions stir-fries and flat iron steak which are blacklisted under Rule 7). 3. Ribeye Steaks with Whiskey-Chile Butter and Pan-Seared T-Bone Steaks from Masterchef summary (Bookey) (excluded under Rule 1: high-level editorial book summary blurbs lacking ingredient quantities, measurements, and structured step-by-step instructions). 4. Side dish pairing guides from Blossom Steakhouse and Steak School (excluded under Rule 6: standalone side dishes lacking steak protein dinner integration).",
+  "recipes": []
+}

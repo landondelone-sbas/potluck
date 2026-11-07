@@ -1,0 +1,2806 @@
+{
+  "total_recipes": 100,
+  "category": "Steak",
+  "recipes": [
+    {
+      "id": "steak_001",
+      "title": "Classic Cast-Iron Butter-Basted Ribeye",
+      "cuisine": "Steakhouse",
+      "protein_cut": "ribeye / NY strip / filet mignon",
+      "cook_method": "pan-searing & butter basting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "1.5 lb boneless ribeye (1.5 inches thick)",
+        "3 tbsp butter, 4 cloves garlic, thyme, rosemary",
+        "Coarse sea salt and cracked pepper"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / filet mignon to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & butter basting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steakhouse-cast-iron-classics",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_002",
+      "title": "Steak au Poivre with Cognac Cream Sauce",
+      "cuisine": "Steakhouse",
+      "protein_cut": "ribeye / NY strip / filet mignon",
+      "cook_method": "pan-searing & butter basting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 NY strip steaks",
+        "Coarse cracked green & black peppercorns",
+        "Cognac, beef broth, heavy cream"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / filet mignon to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & butter basting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steakhouse-cast-iron-classics",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_003",
+      "title": "Filet Mignon with Garlic Herb Compound Butter",
+      "cuisine": "Steakhouse",
+      "protein_cut": "ribeye / NY strip / filet mignon",
+      "cook_method": "pan-searing & butter basting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 center-cut filet mignons (8 oz each)",
+        "Compound butter: garlic, parsley, rosemary",
+        "Cast-iron seared medium-rare"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / filet mignon to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & butter basting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steakhouse-cast-iron-classics",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_004",
+      "title": "New York Strip with Truffle Butter",
+      "cuisine": "Steakhouse",
+      "protein_cut": "ribeye / NY strip / filet mignon",
+      "cook_method": "pan-searing & butter basting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 NY strip steaks (12 oz each)",
+        "Black truffle butter, flaky Maldon salt",
+        "High-heat cast-iron seared"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / filet mignon to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & butter basting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steakhouse-cast-iron-classics",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_005",
+      "title": "Classic Steak Frites with Garlic Herb Butter",
+      "cuisine": "Steakhouse",
+      "protein_cut": "ribeye / NY strip / filet mignon",
+      "cook_method": "pan-searing & butter basting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 ribeye or sirloin steaks",
+        "Thin crispy shoestring frites",
+        "Parsley garlic butter pan sauce"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / filet mignon to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & butter basting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steakhouse-cast-iron-classics",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_006",
+      "title": "Steak Diane with Flamb\u00e9ed Mushroom Cream",
+      "cuisine": "Steakhouse",
+      "protein_cut": "ribeye / NY strip / filet mignon",
+      "cook_method": "pan-searing & butter basting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 tenderloin steaks, pounded",
+        "Shallots, cremini mushrooms, cognac, Dijon",
+        "Heavy cream, Worcestershire, chives"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / filet mignon to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & butter basting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steakhouse-cast-iron-classics",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_007",
+      "title": "Cast-Iron T-Bone Steak with Rosemary Butter",
+      "cuisine": "Steakhouse",
+      "protein_cut": "ribeye / NY strip / filet mignon",
+      "cook_method": "pan-searing & butter basting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "1 large T-bone steak (18 oz)",
+        "Butter, fresh rosemary, garlic cloves",
+        "Seared golden crust, basted"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / filet mignon to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & butter basting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steakhouse-cast-iron-classics",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_008",
+      "title": "Bone-In Porterhouse for Two",
+      "cuisine": "Steakhouse",
+      "protein_cut": "ribeye / NY strip / filet mignon",
+      "cook_method": "pan-searing & butter basting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "1 thick porterhouse steak (24 oz)",
+        "Olive oil, coarse sea salt, black pepper",
+        "Carved strip and tenderloin sides"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / filet mignon to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & butter basting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steakhouse-cast-iron-classics",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_009",
+      "title": "Bacon-Wrapped Filet Mignon Medallions",
+      "cuisine": "Steakhouse",
+      "protein_cut": "ribeye / NY strip / filet mignon",
+      "cook_method": "pan-searing & butter basting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 filet mignons (6 oz each)",
+        "2 slices thick applewood bacon, toothpicks",
+        "Cast-iron seared, oven finished"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / filet mignon to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & butter basting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steakhouse-cast-iron-classics",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_010",
+      "title": "Blue Cheese Crusted New York Strip",
+      "cuisine": "Steakhouse",
+      "protein_cut": "ribeye / NY strip / filet mignon",
+      "cook_method": "pan-searing & butter basting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 NY strip steaks",
+        "Crumbled blue cheese, panko, butter crust",
+        "Broiled until bubbling and golden"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / filet mignon to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & butter basting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steakhouse-cast-iron-classics",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_011",
+      "title": "Reverse-Seared 2-Inch Cowboy Ribeye",
+      "cuisine": "Reverse-Sear",
+      "protein_cut": "thick ribeye / tomahawk / cowboy steak",
+      "cook_method": "reverse-sear (oven to cast iron)",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 50,
+      "servings": 4,
+      "ingredients": [
+        "1 thick bone-in cowboy ribeye (2.5 lbs)",
+        "Coarse salt, black pepper",
+        "Baked at 225\u00b0F to 115\u00b0F, screaming hot cast-iron sear"
+      ],
+      "instructions": [
+        "Bring the thick ribeye / tomahawk / cowboy steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using reverse-sear (oven to cast iron) over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "reverse-sear-&-thick-cuts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_012",
+      "title": "Reverse-Seared Tomahawk Ribeye",
+      "cuisine": "Reverse-Sear",
+      "protein_cut": "thick ribeye / tomahawk / cowboy steak",
+      "cook_method": "reverse-sear (oven to cast iron)",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 50,
+      "servings": 4,
+      "ingredients": [
+        "1 tomahawk ribeye with long bone (3 lbs)",
+        "Flaky sea salt, herb butter",
+        "Slow-roasted at 225\u00b0F, seared over direct coals"
+      ],
+      "instructions": [
+        "Bring the thick ribeye / tomahawk / cowboy steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using reverse-sear (oven to cast iron) over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "reverse-sear-&-thick-cuts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_013",
+      "title": "Reverse-Seared Thick-Cut NY Strip",
+      "cuisine": "Reverse-Sear",
+      "protein_cut": "thick ribeye / tomahawk / cowboy steak",
+      "cook_method": "reverse-sear (oven to cast iron)",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 50,
+      "servings": 4,
+      "ingredients": [
+        "2 thick NY strip steaks (1.5 lbs)",
+        "Kosher salt, cracked pepper",
+        "Slow-baked at 225\u00b0F, butter basted in skillet"
+      ],
+      "instructions": [
+        "Bring the thick ribeye / tomahawk / cowboy steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using reverse-sear (oven to cast iron) over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "reverse-sear-&-thick-cuts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_014",
+      "title": "Reverse-Seared Bone-In Prime Rib Steak",
+      "cuisine": "Reverse-Sear",
+      "protein_cut": "thick ribeye / tomahawk / cowboy steak",
+      "cook_method": "reverse-sear (oven to cast iron)",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 50,
+      "servings": 4,
+      "ingredients": [
+        "2 bone-in prime rib steaks",
+        "Garlic herb rub, au jus",
+        "Low temp oven roast, finished with roaring sear"
+      ],
+      "instructions": [
+        "Bring the thick ribeye / tomahawk / cowboy steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using reverse-sear (oven to cast iron) over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "reverse-sear-&-thick-cuts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_015",
+      "title": "Smoked & Reverse-Seared Ribeye",
+      "cuisine": "Reverse-Sear",
+      "protein_cut": "thick ribeye / tomahawk / cowboy steak",
+      "cook_method": "reverse-sear (oven to cast iron)",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 50,
+      "servings": 4,
+      "ingredients": [
+        "2 thick ribeyes",
+        "Hickory wood smoke at 225\u00b0F",
+        "Finished on cast-iron grill grates"
+      ],
+      "instructions": [
+        "Bring the thick ribeye / tomahawk / cowboy steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using reverse-sear (oven to cast iron) over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "reverse-sear-&-thick-cuts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_016",
+      "title": "Wood-Fired Reverse-Sear Porterhouse",
+      "cuisine": "Reverse-Sear",
+      "protein_cut": "thick ribeye / tomahawk / cowboy steak",
+      "cook_method": "reverse-sear (oven to cast iron)",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 50,
+      "servings": 4,
+      "ingredients": [
+        "1 giant porterhouse (2 lbs)",
+        "Sea salt, rosemary sprig brush",
+        "Indirect heat then raging flame sear"
+      ],
+      "instructions": [
+        "Bring the thick ribeye / tomahawk / cowboy steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using reverse-sear (oven to cast iron) over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "reverse-sear-&-thick-cuts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_017",
+      "title": "Garlic Butter Reverse-Sear Top Sirloin",
+      "cuisine": "Reverse-Sear",
+      "protein_cut": "thick ribeye / tomahawk / cowboy steak",
+      "cook_method": "reverse-sear (oven to cast iron)",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 50,
+      "servings": 4,
+      "ingredients": [
+        "2 thick top sirloin steaks",
+        "Garlic herb butter, salt, pepper",
+        "Oven baked to 115\u00b0F, pan-seared 1 min per side"
+      ],
+      "instructions": [
+        "Bring the thick ribeye / tomahawk / cowboy steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using reverse-sear (oven to cast iron) over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "reverse-sear-&-thick-cuts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_018",
+      "title": "Coffee-Chili Rubbed Reverse-Sear Ribeye",
+      "cuisine": "Reverse-Sear",
+      "protein_cut": "thick ribeye / tomahawk / cowboy steak",
+      "cook_method": "reverse-sear (oven to cast iron)",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 50,
+      "servings": 4,
+      "ingredients": [
+        "2 thick ribeyes",
+        "Finely ground dark roast coffee, chili powder, brown sugar",
+        "Slow-roasted, seared with crispy crust"
+      ],
+      "instructions": [
+        "Bring the thick ribeye / tomahawk / cowboy steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using reverse-sear (oven to cast iron) over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "reverse-sear-&-thick-cuts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_019",
+      "title": "Rosemary-Crusted Reverse-Sear Filet",
+      "cuisine": "Reverse-Sear",
+      "protein_cut": "thick ribeye / tomahawk / cowboy steak",
+      "cook_method": "reverse-sear (oven to cast iron)",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 50,
+      "servings": 4,
+      "ingredients": [
+        "2 thick-cut filet mignons",
+        "Fresh minced rosemary, garlic, butter",
+        "Gently cooked through, flash-seared"
+      ],
+      "instructions": [
+        "Bring the thick ribeye / tomahawk / cowboy steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using reverse-sear (oven to cast iron) over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "reverse-sear-&-thick-cuts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_020",
+      "title": "Brown Butter Basted Reverse-Sear Strip",
+      "cuisine": "Reverse-Sear",
+      "protein_cut": "thick ribeye / tomahawk / cowboy steak",
+      "cook_method": "reverse-sear (oven to cast iron)",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 50,
+      "servings": 4,
+      "ingredients": [
+        "2 thick NY strip steaks",
+        "Foaming nutty brown butter, thyme",
+        "Even edge-to-edge pink interior, deep crust"
+      ],
+      "instructions": [
+        "Bring the thick ribeye / tomahawk / cowboy steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using reverse-sear (oven to cast iron) over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "reverse-sear-&-thick-cuts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_021",
+      "title": "Grilled Flank Steak with Authentic Chimichurri",
+      "cuisine": "Flank",
+      "protein_cut": "skirt steak / flank steak",
+      "cook_method": "marinated high-heat grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs flank steak",
+        "Fresh parsley, oregano, garlic, red wine vinegar, olive oil chimichurri",
+        "Sliced thin across grain"
+      ],
+      "instructions": [
+        "Bring the skirt steak / flank steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using marinated high-heat grilling over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flank-&-skirt-steak-specialties",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_022",
+      "title": "Sizzling Steak Fajitas with Charred Peppers",
+      "cuisine": "Flank",
+      "protein_cut": "skirt steak / flank steak",
+      "cook_method": "marinated high-heat grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs skirt steak strips",
+        "Lime juice, chili powder, cumin",
+        "Bell peppers, onions, flour tortillas"
+      ],
+      "instructions": [
+        "Bring the skirt steak / flank steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using marinated high-heat grilling over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flank-&-skirt-steak-specialties",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_023",
+      "title": "Classic Carne Asada Skirt Steak Tacos",
+      "cuisine": "Flank",
+      "protein_cut": "skirt steak / flank steak",
+      "cook_method": "marinated high-heat grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs skirt steak",
+        "Orange juice, lime juice, soy sauce, garlic, cilantro",
+        "Charred over coals, corn tortillas"
+      ],
+      "instructions": [
+        "Bring the skirt steak / flank steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using marinated high-heat grilling over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flank-&-skirt-steak-specialties",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_024",
+      "title": "Balsamic Rosemary Marinated Flank Steak",
+      "cuisine": "Flank",
+      "protein_cut": "skirt steak / flank steak",
+      "cook_method": "marinated high-heat grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs flank steak",
+        "Aged balsamic vinegar, olive oil, fresh rosemary, garlic",
+        "Grilled medium-rare, rested, sliced"
+      ],
+      "instructions": [
+        "Bring the skirt steak / flank steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using marinated high-heat grilling over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flank-&-skirt-steak-specialties",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_025",
+      "title": "Soy Ginger Marinated Flank Steak",
+      "cuisine": "Flank",
+      "protein_cut": "skirt steak / flank steak",
+      "cook_method": "marinated high-heat grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs flank steak",
+        "Soy sauce, brown sugar, grated ginger, sesame oil",
+        "Grilled charred on exterior"
+      ],
+      "instructions": [
+        "Bring the skirt steak / flank steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using marinated high-heat grilling over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flank-&-skirt-steak-specialties",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_026",
+      "title": "Grilled Skirt Steak with Charred Scallion Relish",
+      "cuisine": "Flank",
+      "protein_cut": "skirt steak / flank steak",
+      "cook_method": "marinated high-heat grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs skirt steak",
+        "Charred grilled scallions, lime juice, jalape\u00f1o",
+        "Carved on sharp bias"
+      ],
+      "instructions": [
+        "Bring the skirt steak / flank steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using marinated high-heat grilling over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flank-&-skirt-steak-specialties",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_027",
+      "title": "Chili-Lime Marinated Flank Steak",
+      "cuisine": "Flank",
+      "protein_cut": "skirt steak / flank steak",
+      "cook_method": "marinated high-heat grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs flank steak",
+        "Chili powder, cumin, lime juice, garlic",
+        "High-heat seared, served with guacamole"
+      ],
+      "instructions": [
+        "Bring the skirt steak / flank steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using marinated high-heat grilling over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flank-&-skirt-steak-specialties",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_028",
+      "title": "Mojo Marinated Skirt Steak with Garlic Oil",
+      "cuisine": "Flank",
+      "protein_cut": "skirt steak / flank steak",
+      "cook_method": "marinated high-heat grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs skirt steak",
+        "Sour orange juice, mashed garlic, cumin, oregano",
+        "Hot cast-iron seared, black beans"
+      ],
+      "instructions": [
+        "Bring the skirt steak / flank steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using marinated high-heat grilling over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flank-&-skirt-steak-specialties",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_029",
+      "title": "Bourbon Brown Sugar Glazed Flank Steak",
+      "cuisine": "Flank",
+      "protein_cut": "skirt steak / flank steak",
+      "cook_method": "marinated high-heat grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs flank steak",
+        "Bourbon, dark brown sugar, Dijon mustard, Worcestershire",
+        "Grilled and glazed"
+      ],
+      "instructions": [
+        "Bring the skirt steak / flank steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using marinated high-heat grilling over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flank-&-skirt-steak-specialties",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_030",
+      "title": "Beer-Marinated Arrachera Skirt Steak",
+      "cuisine": "Flank",
+      "protein_cut": "skirt steak / flank steak",
+      "cook_method": "marinated high-heat grilling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs Mexican arrachera skirt steak",
+        "Mexican dark beer, lime juice, garlic, cilantro",
+        "Flash-grilled over direct flame"
+      ],
+      "instructions": [
+        "Bring the skirt steak / flank steak to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using marinated high-heat grilling over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flank-&-skirt-steak-specialties",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_031",
+      "title": "Cast-Iron Flat Iron Steak with Garlic Herb Butter",
+      "cuisine": "Flat",
+      "protein_cut": "flat iron / hanger / bavette",
+      "cook_method": "hot iron searing",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs flat iron steak",
+        "Garlic herb butter, flaky salt",
+        "Cast-iron seared 4 mins per side"
+      ],
+      "instructions": [
+        "Bring the flat iron / hanger / bavette to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using hot iron searing over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flat-iron,-hanger-&-bavette-steaks",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_032",
+      "title": "Bistro Hanger Steak with Red Wine Shallot Sauce",
+      "cuisine": "Flat",
+      "protein_cut": "flat iron / hanger / bavette",
+      "cook_method": "hot iron searing",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs hanger steak (onglet)",
+        "Shallots, red wine, beef stock, butter",
+        "Pan-seared medium-rare, sliced"
+      ],
+      "instructions": [
+        "Bring the flat iron / hanger / bavette to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using hot iron searing over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flat-iron,-hanger-&-bavette-steaks",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_033",
+      "title": "Pan-Seared Bavette Steak with Salsa Verde",
+      "cuisine": "Flat",
+      "protein_cut": "flat iron / hanger / bavette",
+      "cook_method": "hot iron searing",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs bavette steak (flank cut)",
+        "Italian salsa verde: parsley, capers, anchovy, lemon",
+        "Charred on high heat"
+      ],
+      "instructions": [
+        "Bring the flat iron / hanger / bavette to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using hot iron searing over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flat-iron,-hanger-&-bavette-steaks",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_034",
+      "title": "Grilled Flat Iron Steak with Romesco Sauce",
+      "cuisine": "Flat",
+      "protein_cut": "flat iron / hanger / bavette",
+      "cook_method": "hot iron searing",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs flat iron steak",
+        "Spanish romesco: roasted pepper, almonds, garlic",
+        "Grilled, sliced over sauce"
+      ],
+      "instructions": [
+        "Bring the flat iron / hanger / bavette to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using hot iron searing over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flat-iron,-hanger-&-bavette-steaks",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_035",
+      "title": "Marinated Hanger Steak with Salsa Criolla",
+      "cuisine": "Flat",
+      "protein_cut": "flat iron / hanger / bavette",
+      "cook_method": "hot iron searing",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs hanger steak",
+        "Peruvian salsa criolla: red onion, lime, aji amarillo",
+        "Seared juicy, served with fries"
+      ],
+      "instructions": [
+        "Bring the flat iron / hanger / bavette to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using hot iron searing over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flat-iron,-hanger-&-bavette-steaks",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_036",
+      "title": "Garlic Butter Basted Flat Iron Steak",
+      "cuisine": "Flat",
+      "protein_cut": "flat iron / hanger / bavette",
+      "cook_method": "hot iron searing",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs flat iron steak",
+        "Butter, smashed garlic, fresh thyme",
+        "Continuous butter spoon basting"
+      ],
+      "instructions": [
+        "Bring the flat iron / hanger / bavette to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using hot iron searing over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flat-iron,-hanger-&-bavette-steaks",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_037",
+      "title": "Bavette Steak with Chimichurri Butter",
+      "cuisine": "Flat",
+      "protein_cut": "flat iron / hanger / bavette",
+      "cook_method": "hot iron searing",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs bavette steak",
+        "Compound chimichurri butter",
+        "High-heat grill marks, rested and carved"
+      ],
+      "instructions": [
+        "Bring the flat iron / hanger / bavette to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using hot iron searing over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flat-iron,-hanger-&-bavette-steaks",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_038",
+      "title": "Spice-Rubbed Hanger Steak Tacos",
+      "cuisine": "Flat",
+      "protein_cut": "flat iron / hanger / bavette",
+      "cook_method": "hot iron searing",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs hanger steak",
+        "Cumin, smoked paprika, garlic, chipotle",
+        "Sliced thin for street tacos"
+      ],
+      "instructions": [
+        "Bring the flat iron / hanger / bavette to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using hot iron searing over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flat-iron,-hanger-&-bavette-steaks",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_039",
+      "title": "Flat Iron Steak Salad with Blue Cheese",
+      "cuisine": "Flat",
+      "protein_cut": "flat iron / hanger / bavette",
+      "cook_method": "hot iron searing",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "Grilled flat iron steak, sliced",
+        "Mixed greens, cherry tomatoes, pickled onions",
+        "Crumbled blue cheese, balsamic vinaigrette"
+      ],
+      "instructions": [
+        "Bring the flat iron / hanger / bavette to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using hot iron searing over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flat-iron,-hanger-&-bavette-steaks",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_040",
+      "title": "Pan-Roasted Bavette with Wild Mushrooms",
+      "cuisine": "Flat",
+      "protein_cut": "flat iron / hanger / bavette",
+      "cook_method": "hot iron searing",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs bavette steak",
+        "Saut\u00e9ed wild chanterelles and cremini",
+        "Thyme butter pan sauce"
+      ],
+      "instructions": [
+        "Bring the flat iron / hanger / bavette to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using hot iron searing over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "flat-iron,-hanger-&-bavette-steaks",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_041",
+      "title": "Santa Maria Style Grilled Tri-Tip with Salsa",
+      "cuisine": "Sirloin",
+      "protein_cut": "top sirloin / Santa Maria tri-tip",
+      "cook_method": "grilling / roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs tri-tip roast",
+        "Santa Maria rub: salt, pepper, garlic powder",
+        "Grilled over red oak, pinquito beans, fresh salsa"
+      ],
+      "instructions": [
+        "Bring the top sirloin / Santa Maria tri-tip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using grilling / roasting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sirloin-&-tri-tip-favorites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_042",
+      "title": "Garlic Butter Sirloin Steak Bites",
+      "cuisine": "Sirloin",
+      "protein_cut": "top sirloin / Santa Maria tri-tip",
+      "cook_method": "grilling / roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs top sirloin, cut in 1-inch cubes",
+        "4 tbsp butter, minced garlic, fresh parsley",
+        "High-heat skillet seared in 5 mins"
+      ],
+      "instructions": [
+        "Bring the top sirloin / Santa Maria tri-tip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using grilling / roasting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sirloin-&-tri-tip-favorites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_043",
+      "title": "Smoked & Seared Tri-Tip Roast",
+      "cuisine": "Sirloin",
+      "protein_cut": "top sirloin / Santa Maria tri-tip",
+      "cook_method": "grilling / roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs tri-tip",
+        "Coarse pepper rub, pecan wood smoke",
+        "Reverse-seared over coals"
+      ],
+      "instructions": [
+        "Bring the top sirloin / Santa Maria tri-tip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using grilling / roasting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sirloin-&-tri-tip-favorites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_044",
+      "title": "Top Sirloin Skewers with Peppers & Onions",
+      "cuisine": "Sirloin",
+      "protein_cut": "top sirloin / Santa Maria tri-tip",
+      "cook_method": "grilling / roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs top sirloin cubes",
+        "Bell peppers, red onion chunks",
+        "Skewered, grilled with garlic herb marinade"
+      ],
+      "instructions": [
+        "Bring the top sirloin / Santa Maria tri-tip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using grilling / roasting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sirloin-&-tri-tip-favorites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_045",
+      "title": "Cast-Iron Top Sirloin with Peppercorn Sauce",
+      "cuisine": "Sirloin",
+      "protein_cut": "top sirloin / Santa Maria tri-tip",
+      "cook_method": "grilling / roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "2 thick top sirloin steaks",
+        "Cracked green peppercorns, cream, brandy",
+        "Cast-iron seared to medium-rare"
+      ],
+      "instructions": [
+        "Bring the top sirloin / Santa Maria tri-tip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using grilling / roasting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sirloin-&-tri-tip-favorites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_046",
+      "title": "Coffee-Rubbed Grilled Tri-Tip",
+      "cuisine": "Sirloin",
+      "protein_cut": "top sirloin / Santa Maria tri-tip",
+      "cook_method": "grilling / roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs tri-tip roast",
+        "Dark ground coffee, brown sugar, chili powder",
+        "Charcoal grilled, sliced across grain"
+      ],
+      "instructions": [
+        "Bring the top sirloin / Santa Maria tri-tip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using grilling / roasting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sirloin-&-tri-tip-favorites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_047",
+      "title": "Honey Soy Glazed Sirloin Steak Strips",
+      "cuisine": "Sirloin",
+      "protein_cut": "top sirloin / Santa Maria tri-tip",
+      "cook_method": "grilling / roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs sirloin strips",
+        "Honey, soy sauce, garlic, ginger, sesame",
+        "Hot wok seared with scallions"
+      ],
+      "instructions": [
+        "Bring the top sirloin / Santa Maria tri-tip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using grilling / roasting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sirloin-&-tri-tip-favorites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_048",
+      "title": "Rosemary Garlic Tri-Tip in Cast Iron",
+      "cuisine": "Sirloin",
+      "protein_cut": "top sirloin / Santa Maria tri-tip",
+      "cook_method": "grilling / roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs tri-tip",
+        "Rosemary sprigs, garlic cloves, butter",
+        "Seared on stove, finished in oven at 375\u00b0F"
+      ],
+      "instructions": [
+        "Bring the top sirloin / Santa Maria tri-tip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using grilling / roasting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sirloin-&-tri-tip-favorites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_049",
+      "title": "Teriyaki Sirloin Steak Stir-Fry",
+      "cuisine": "Sirloin",
+      "protein_cut": "top sirloin / Santa Maria tri-tip",
+      "cook_method": "grilling / roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "1.25 lbs sirloin strips",
+        "Teriyaki sauce, broccoli florets, snap peas",
+        "Wok-tossed, toasted sesame seeds"
+      ],
+      "instructions": [
+        "Bring the top sirloin / Santa Maria tri-tip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using grilling / roasting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sirloin-&-tri-tip-favorites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_050",
+      "title": "Parmesan Crusted Top Sirloin Steak",
+      "cuisine": "Sirloin",
+      "protein_cut": "top sirloin / Santa Maria tri-tip",
+      "cook_method": "grilling / roasting",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30,
+      "servings": 6,
+      "ingredients": [
+        "2 sirloin steaks (8 oz each)",
+        "Parmesan cheese, panko, butter crust",
+        "Seared in skillet, broiled to golden crust"
+      ],
+      "instructions": [
+        "Bring the top sirloin / Santa Maria tri-tip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using grilling / roasting over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sirloin-&-tri-tip-favorites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_051",
+      "title": "Bistecca alla Fiorentina (Florentine Porterhouse)",
+      "cuisine": "International",
+      "protein_cut": "ribeye / sirloin / picanha",
+      "cook_method": "regional grilling & sauces",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1 thick porterhouse (2 lbs)",
+        "Extra virgin olive oil, coarse sea salt, rosemary branch brush",
+        "Seared over roaring charcoal, served rare with lemon"
+      ],
+      "instructions": [
+        "Bring the ribeye / sirloin / picanha to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using regional grilling & sauces over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "international-steak-traditions",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_052",
+      "title": "Brazilian Picanha on Skewers (Churrasco)",
+      "cuisine": "International",
+      "protein_cut": "ribeye / sirloin / picanha",
+      "cook_method": "regional grilling & sauces",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "2.5 lbs picanha (beef culotte with thick fat cap), sliced into C-shape steaks",
+        "Coarse rock salt (sal grosso)",
+        "Skewered on large metal sword, grilled over open coals"
+      ],
+      "instructions": [
+        "Bring the ribeye / sirloin / picanha to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using regional grilling & sauces over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "international-steak-traditions",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_053",
+      "title": "Korean Marinated Galbi Flanken Short Ribs",
+      "cuisine": "International",
+      "protein_cut": "ribeye / sirloin / picanha",
+      "cook_method": "regional grilling & sauces",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "2.5 lbs flanken-cut short ribs across bone",
+        "Soy sauce, brown sugar, asian pear, garlic, sesame oil",
+        "Charcoal grilled with caramelized char, lettuce wraps"
+      ],
+      "instructions": [
+        "Bring the ribeye / sirloin / picanha to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using regional grilling & sauces over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "international-steak-traditions",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_054",
+      "title": "French Entrec\u00f4te Caf\u00e9 de Paris",
+      "cuisine": "International",
+      "protein_cut": "ribeye / sirloin / picanha",
+      "cook_method": "regional grilling & sauces",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "2 ribeye steaks (12 oz each)",
+        "Caf\u00e9 de Paris compound butter: herbs, anchovy, Dijon, curry",
+        "Pan-seared, served with mountain of frites"
+      ],
+      "instructions": [
+        "Bring the ribeye / sirloin / picanha to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using regional grilling & sauces over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "international-steak-traditions",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_055",
+      "title": "Italian Tagliata di Manzo over Arugula",
+      "cuisine": "International",
+      "protein_cut": "ribeye / sirloin / picanha",
+      "cook_method": "regional grilling & sauces",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sirloin or ribeye, grilled medium-rare",
+        "Baby arugula bed, shaved Parmigiano-Reggiano",
+        "Aged balsamic glaze drizzle, extra virgin olive oil"
+      ],
+      "instructions": [
+        "Bring the ribeye / sirloin / picanha to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using regional grilling & sauces over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "international-steak-traditions",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_056",
+      "title": "Argentine Bife de Chorizo with Chimichurri",
+      "cuisine": "International",
+      "protein_cut": "ribeye / sirloin / picanha",
+      "cook_method": "regional grilling & sauces",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "2 thick-cut NY strip steaks",
+        "Coarse sea salt",
+        "Parrilla grilled over wood embers, authentic chimichurri"
+      ],
+      "instructions": [
+        "Bring the ribeye / sirloin / picanha to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using regional grilling & sauces over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "international-steak-traditions",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_057",
+      "title": "Spanish Chulet\u00f3n with Flaky Sea Salt",
+      "cuisine": "International",
+      "protein_cut": "ribeye / sirloin / picanha",
+      "cook_method": "regional grilling & sauces",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1 giant bone-in ribeye (2 lbs)",
+        "Flaky sea salt (sal de A\u00f1ana)",
+        "Seared over high heat, served on sizzling hot stone plate"
+      ],
+      "instructions": [
+        "Bring the ribeye / sirloin / picanha to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using regional grilling & sauces over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "international-steak-traditions",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_058",
+      "title": "Japanese Wagyu Ribeye with Wasabi & Soy",
+      "cuisine": "International",
+      "protein_cut": "ribeye / sirloin / picanha",
+      "cook_method": "regional grilling & sauces",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1 lb A5 Wagyu ribeye steak, cut into bite-sized cubes",
+        "Fresh grated wasabi, artisan soy sauce, flaky salt",
+        "Quickly seared on dry teppan grill 1 min per side"
+      ],
+      "instructions": [
+        "Bring the ribeye / sirloin / picanha to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using regional grilling & sauces over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "international-steak-traditions",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_059",
+      "title": "Mexican Tampique\u00f1a Steak with Enchiladas",
+      "cuisine": "International",
+      "protein_cut": "ribeye / sirloin / picanha",
+      "cook_method": "regional grilling & sauces",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 thin skirt steaks, marinated",
+        "2 cheese enchiladas with red sauce, refried beans, guacamole",
+        "Grilled skirt steak served alongside traditional sides"
+      ],
+      "instructions": [
+        "Bring the ribeye / sirloin / picanha to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using regional grilling & sauces over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "international-steak-traditions",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_060",
+      "title": "South African Braai Ribeye with Chakalaka",
+      "cuisine": "International",
+      "protein_cut": "ribeye / sirloin / picanha",
+      "cook_method": "regional grilling & sauces",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "2 thick ribeye steaks",
+        "Braai spice rub: coriander, pepper, paprika",
+        "Open-flame wood braai grilled, spicy chakalaka relish"
+      ],
+      "instructions": [
+        "Bring the ribeye / sirloin / picanha to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using regional grilling & sauces over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "international-steak-traditions",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_061",
+      "title": "Steakhouse Wedge Salad with Sliced Sirloin",
+      "cuisine": "Steak",
+      "protein_cut": "sliced grilled sirloin / flank",
+      "cook_method": "chilled greens & warm steak",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Grilled sirloin, sliced",
+        "Iceberg lettuce wedges, crispy bacon crumbles",
+        "Cherry tomatoes, chunky blue cheese dressing"
+      ],
+      "instructions": [
+        "Bring the sliced grilled sirloin / flank to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using chilled greens & warm steak over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steak-salads-&-warm-bowls",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_062",
+      "title": "Thai Grilled Steak Salad (Nam Tok Neua)",
+      "cuisine": "Steak",
+      "protein_cut": "sliced grilled sirloin / flank",
+      "cook_method": "chilled greens & warm steak",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs grilled sirloin, sliced",
+        "Fish sauce, fresh lime juice, chili flakes, mint",
+        "Toasted sticky rice powder, shallots, cabbage"
+      ],
+      "instructions": [
+        "Bring the sliced grilled sirloin / flank to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using chilled greens & warm steak over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steak-salads-&-warm-bowls",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_063",
+      "title": "Warm Chimichurri Steak & Potato Bowl",
+      "cuisine": "Steak",
+      "protein_cut": "sliced grilled sirloin / flank",
+      "cook_method": "chilled greens & warm steak",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Sliced grilled flank steak",
+        "Roasted baby potato halves, saut\u00e9ed corn",
+        "Arugula, generous spoonfuls of herb chimichurri"
+      ],
+      "instructions": [
+        "Bring the sliced grilled sirloin / flank to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using chilled greens & warm steak over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steak-salads-&-warm-bowls",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_064",
+      "title": "Steak Salad with Roasted Corn & Avocado",
+      "cuisine": "Steak",
+      "protein_cut": "sliced grilled sirloin / flank",
+      "cook_method": "chilled greens & warm steak",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Grilled skirt steak strips",
+        "Romaine lettuce, charred corn, black beans, avocado",
+        "Cilantro-lime vinaigrette, cotija cheese"
+      ],
+      "instructions": [
+        "Bring the sliced grilled sirloin / flank to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using chilled greens & warm steak over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steak-salads-&-warm-bowls",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_065",
+      "title": "Asian Sesame Sliced Steak Noodle Salad",
+      "cuisine": "Steak",
+      "protein_cut": "sliced grilled sirloin / flank",
+      "cook_method": "chilled greens & warm steak",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Sliced grilled sirloin",
+        "Chilled soba or rice noodles, shredded cabbage",
+        "Cucumbers, toasted sesame dressing, peanuts"
+      ],
+      "instructions": [
+        "Bring the sliced grilled sirloin / flank to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using chilled greens & warm steak over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steak-salads-&-warm-bowls",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_066",
+      "title": "Blackened Flank Steak Caesar Salad",
+      "cuisine": "Steak",
+      "protein_cut": "sliced grilled sirloin / flank",
+      "cook_method": "chilled greens & warm steak",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Blackened flank steak, sliced",
+        "Crisp romaine hearts, shaved parmesan, garlic croutons",
+        "Creamy Caesar dressing, cracked black pepper"
+      ],
+      "instructions": [
+        "Bring the sliced grilled sirloin / flank to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using chilled greens & warm steak over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steak-salads-&-warm-bowls",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_067",
+      "title": "Steak & Blue Cheese Salad with Balsamic",
+      "cuisine": "Steak",
+      "protein_cut": "sliced grilled sirloin / flank",
+      "cook_method": "chilled greens & warm steak",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Sliced grilled NY strip",
+        "Baby spinach, candied pecans, crumbled blue cheese",
+        "Aged balsamic glaze reduction"
+      ],
+      "instructions": [
+        "Bring the sliced grilled sirloin / flank to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using chilled greens & warm steak over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steak-salads-&-warm-bowls",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_068",
+      "title": "Mediterranean Grilled Steak Gyro Bowls",
+      "cuisine": "Steak",
+      "protein_cut": "sliced grilled sirloin / flank",
+      "cook_method": "chilled greens & warm steak",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Sliced grilled sirloin strips",
+        "Brown rice or quinoa, diced tomatoes, cucumbers",
+        "Kalamata olives, feta cheese, tzatziki"
+      ],
+      "instructions": [
+        "Bring the sliced grilled sirloin / flank to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using chilled greens & warm steak over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steak-salads-&-warm-bowls",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_069",
+      "title": "Grilled Steak Taco Salad with Chipotle Dressing",
+      "cuisine": "Steak",
+      "protein_cut": "sliced grilled sirloin / flank",
+      "cook_method": "chilled greens & warm steak",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Seasoned grilled flank steak",
+        "Crispy tortilla bowl, shredded romaine, pico de gallo",
+        "Black beans, cheddar cheese, chipotle ranch"
+      ],
+      "instructions": [
+        "Bring the sliced grilled sirloin / flank to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using chilled greens & warm steak over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steak-salads-&-warm-bowls",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_070",
+      "title": "Teriyaki Steak & Edamame Quinoa Bowls",
+      "cuisine": "Steak",
+      "protein_cut": "sliced grilled sirloin / flank",
+      "cook_method": "chilled greens & warm steak",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "Sliced grilled teriyaki steak",
+        "Cooked quinoa base, steamed edamame, shredded carrots",
+        "Sliced green onions, sesame seeds"
+      ],
+      "instructions": [
+        "Bring the sliced grilled sirloin / flank to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using chilled greens & warm steak over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "steak-salads-&-warm-bowls",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_071",
+      "title": "Classic Philly Cheesesteak with Cheez Whiz",
+      "cuisine": "Sandwiches,",
+      "protein_cut": "shaved ribeye / flank / skirt",
+      "cook_method": "seared & assembled",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1 lb thinly shaved ribeye steak",
+        "Cheez Whiz, caramelized yellow onions",
+        "Amoroso hearth-baked hoagie rolls"
+      ],
+      "instructions": [
+        "Bring the shaved ribeye / flank / skirt to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using seared & assembled over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sandwiches,-tacos-&-wraps",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_072",
+      "title": "Authentic Philly Cheesesteak with Provolone",
+      "cuisine": "Sandwiches,",
+      "protein_cut": "shaved ribeye / flank / skirt",
+      "cook_method": "seared & assembled",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1 lb thinly shaved ribeye",
+        "Provolone cheese slices, saut\u00e9ed mushrooms & onions",
+        "Toasted Italian hoagie rolls"
+      ],
+      "instructions": [
+        "Bring the shaved ribeye / flank / skirt to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using seared & assembled over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sandwiches,-tacos-&-wraps",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_073",
+      "title": "Grilled Flank Steak Ciabatta with Garlic Aioli",
+      "cuisine": "Sandwiches,",
+      "protein_cut": "shaved ribeye / flank / skirt",
+      "cook_method": "seared & assembled",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "Sliced grilled flank steak",
+        "Toasted ciabatta bread, roasted red peppers",
+        "Baby arugula, creamy roasted garlic aioli"
+      ],
+      "instructions": [
+        "Bring the shaved ribeye / flank / skirt to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using seared & assembled over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sandwiches,-tacos-&-wraps",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_074",
+      "title": "Carne Asada Street Tacos with Cilantro & Onion",
+      "cuisine": "Sandwiches,",
+      "protein_cut": "shaved ribeye / flank / skirt",
+      "cook_method": "seared & assembled",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "Charred chopped skirt steak",
+        "Warm small white corn tortillas",
+        "Finely diced white onion, fresh cilantro, salsa verde"
+      ],
+      "instructions": [
+        "Bring the shaved ribeye / flank / skirt to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using seared & assembled over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sandwiches,-tacos-&-wraps",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_075",
+      "title": "Open-Faced Steak Sandwich with Mushrooms",
+      "cuisine": "Sandwiches,",
+      "protein_cut": "shaved ribeye / flank / skirt",
+      "cook_method": "seared & assembled",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "Sliced grilled sirloin",
+        "Thick toasted sourdough bread, saut\u00e9ed cremini mushrooms",
+        "Melted Gruy\u00e8re cheese, fresh thyme"
+      ],
+      "instructions": [
+        "Bring the shaved ribeye / flank / skirt to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using seared & assembled over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sandwiches,-tacos-&-wraps",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_076",
+      "title": "Chimichurri Steak Baguette with Arugula",
+      "cuisine": "Sandwiches,",
+      "protein_cut": "shaved ribeye / flank / skirt",
+      "cook_method": "seared & assembled",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "Sliced grilled flank steak",
+        "Warm French baguette, homemade herb chimichurri",
+        "Crisp baby arugula, sliced tomatoes"
+      ],
+      "instructions": [
+        "Bring the shaved ribeye / flank / skirt to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using seared & assembled over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sandwiches,-tacos-&-wraps",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_077",
+      "title": "Steak and Caramelized Onion Panini",
+      "cuisine": "Sandwiches,",
+      "protein_cut": "shaved ribeye / flank / skirt",
+      "cook_method": "seared & assembled",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "Sliced grilled sirloin",
+        "Focaccia or rustic bread, sweet caramelized onions",
+        "Fontina or provolone cheese, pressed until melted"
+      ],
+      "instructions": [
+        "Bring the shaved ribeye / flank / skirt to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using seared & assembled over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sandwiches,-tacos-&-wraps",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_078",
+      "title": "Korean Bulgogi Steak Tacos with Slaw",
+      "cuisine": "Sandwiches,",
+      "protein_cut": "shaved ribeye / flank / skirt",
+      "cook_method": "seared & assembled",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "Thinly sliced bulgogi steak",
+        "Warm flour tortillas, sesame cabbage slaw",
+        "Gochujang crema, toasted sesame seeds"
+      ],
+      "instructions": [
+        "Bring the shaved ribeye / flank / skirt to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using seared & assembled over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sandwiches,-tacos-&-wraps",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_079",
+      "title": "Blackened Steak Wraps with Horseradish",
+      "cuisine": "Sandwiches,",
+      "protein_cut": "shaved ribeye / flank / skirt",
+      "cook_method": "seared & assembled",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "Blackened flank steak strips",
+        "Large flour tortillas, crisp romaine lettuce",
+        "Diced tomatoes, creamy horseradish mayo"
+      ],
+      "instructions": [
+        "Bring the shaved ribeye / flank / skirt to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using seared & assembled over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sandwiches,-tacos-&-wraps",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_080",
+      "title": "Steak Fajita Burrito Bowls with Guacamole",
+      "cuisine": "Sandwiches,",
+      "protein_cut": "shaved ribeye / flank / skirt",
+      "cook_method": "seared & assembled",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "Sizzling flank steak strips",
+        "Cilantro-lime white rice, saut\u00e9ed peppers and onions",
+        "Black beans, fresh guacamole, pico de gallo"
+      ],
+      "instructions": [
+        "Bring the shaved ribeye / flank / skirt to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using seared & assembled over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "sandwiches,-tacos-&-wraps",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_081",
+      "title": "Bone-In Ribeye with Black Garlic Butter",
+      "cuisine": "Compound",
+      "protein_cut": "ribeye / NY strip / tenderloin",
+      "cook_method": "pan-searing & gourmet toppings",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "1 bone-in ribeye steak (16 oz)",
+        "Black garlic compound butter, fresh thyme",
+        "Cast-iron seared, melted umami butter"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / tenderloin to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & gourmet toppings over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "compound-butters-&-gourmet-crusts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_082",
+      "title": "Strip Steak with Roasted Bone Marrow Butter",
+      "cuisine": "Compound",
+      "protein_cut": "ribeye / NY strip / tenderloin",
+      "cook_method": "pan-searing & gourmet toppings",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 NY strip steaks",
+        "Roasted bone marrow compound butter, parsley",
+        "Seared to medium-rare, crowned with butter"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / tenderloin to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & gourmet toppings over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "compound-butters-&-gourmet-crusts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_083",
+      "title": "Filet Mignon with Gorgonzola Herb Crust",
+      "cuisine": "Compound",
+      "protein_cut": "ribeye / NY strip / tenderloin",
+      "cook_method": "pan-searing & gourmet toppings",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 filet mignon steaks (8 oz each)",
+        "Gorgonzola cheese, panko breadcrumbs, butter",
+        "Seared in skillet, broiled to bubbling golden crust"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / tenderloin to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & gourmet toppings over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "compound-butters-&-gourmet-crusts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_084",
+      "title": "Ribeye with Bourbon Smoked Bacon Butter",
+      "cuisine": "Compound",
+      "protein_cut": "ribeye / NY strip / tenderloin",
+      "cook_method": "pan-searing & gourmet toppings",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 ribeye steaks",
+        "Compound butter: crispy bacon, bourbon, smoked paprika",
+        "Pan-seared and basted"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / tenderloin to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & gourmet toppings over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "compound-butters-&-gourmet-crusts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_085",
+      "title": "NY Strip with Horseradish Chive Butter",
+      "cuisine": "Compound",
+      "protein_cut": "ribeye / NY strip / tenderloin",
+      "cook_method": "pan-searing & gourmet toppings",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 NY strip steaks",
+        "Compound butter: prepared horseradish, fresh chives, lemon",
+        "Melted over hot resting steak"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / tenderloin to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & gourmet toppings over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "compound-butters-&-gourmet-crusts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_086",
+      "title": "Filet Mignon with Red Wine Shallot Butter",
+      "cuisine": "Compound",
+      "protein_cut": "ribeye / NY strip / tenderloin",
+      "cook_method": "pan-searing & gourmet toppings",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 center-cut filet mignons",
+        "Compound butter: reduced red wine, shallots, parsley",
+        "Cast-iron basted to perfection"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / tenderloin to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & gourmet toppings over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "compound-butters-&-gourmet-crusts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_087",
+      "title": "Ribeye with Classic Maitre d'Hotel Butter",
+      "cuisine": "Compound",
+      "protein_cut": "ribeye / NY strip / tenderloin",
+      "cook_method": "pan-searing & gourmet toppings",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 ribeye steaks",
+        "Classic French butter: fresh parsley, lemon juice, white pepper",
+        "Pan-seared, topped with cold butter wheel"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / tenderloin to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & gourmet toppings over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "compound-butters-&-gourmet-crusts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_088",
+      "title": "Strip Steak with Chili Lime Cilantro Butter",
+      "cuisine": "Compound",
+      "protein_cut": "ribeye / NY strip / tenderloin",
+      "cook_method": "pan-searing & gourmet toppings",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 NY strip steaks",
+        "Compound butter: lime zest, chili powder, fresh cilantro",
+        "Charcoal grilled, butter melted over top"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / tenderloin to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & gourmet toppings over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "compound-butters-&-gourmet-crusts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_089",
+      "title": "Filet Mignon Oscar with Crab & B\u00e9arnaise",
+      "cuisine": "Compound",
+      "protein_cut": "ribeye / NY strip / tenderloin",
+      "cook_method": "pan-searing & gourmet toppings",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 filet mignon steaks",
+        "Jumbo lump crab meat, steamed asparagus spears",
+        "Velvety tarragon b\u00e9arnaise sauce over top"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / tenderloin to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & gourmet toppings over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "compound-butters-&-gourmet-crusts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_090",
+      "title": "Ribeye with Crispy Fried Garlic Chips",
+      "cuisine": "Compound",
+      "protein_cut": "ribeye / NY strip / tenderloin",
+      "cook_method": "pan-searing & gourmet toppings",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "ingredients": [
+        "2 ribeye steaks",
+        "Thinly sliced garlic fried golden-crisp in olive oil",
+        "Garlic-infused oil sear, topped with crunchy chips"
+      ],
+      "instructions": [
+        "Bring the ribeye / NY strip / tenderloin to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using pan-searing & gourmet toppings over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "compound-butters-&-gourmet-crusts",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_091",
+      "title": "Cajun Butter Steak Bites with Potatoes",
+      "cuisine": "Quick",
+      "protein_cut": "sirloin / flank / strip",
+      "cook_method": "quick cast-iron saut\u00e9",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sirloin cubes",
+        "Baby gold potatoes, parboiled and halved",
+        "Cajun seasoning, butter, garlic, fresh parsley"
+      ],
+      "instructions": [
+        "Bring the sirloin / flank / strip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using quick cast-iron saut\u00e9 over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "quick-weeknight-skillets-&-bites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_092",
+      "title": "Sheet-Pan Steak Fajitas with Bell Peppers",
+      "cuisine": "Quick",
+      "protein_cut": "sirloin / flank / strip",
+      "cook_method": "quick cast-iron saut\u00e9",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs flank steak strips",
+        "3 bell peppers, 1 onion, sliced",
+        "Fajita spices, olive oil, flour tortillas"
+      ],
+      "instructions": [
+        "Bring the sirloin / flank / strip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using quick cast-iron saut\u00e9 over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "quick-weeknight-skillets-&-bites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_093",
+      "title": "Teriyaki Steak Bites with Toasted Sesame",
+      "cuisine": "Quick",
+      "protein_cut": "sirloin / flank / strip",
+      "cook_method": "quick cast-iron saut\u00e9",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sirloin steak cubes",
+        "Teriyaki glaze: soy sauce, brown sugar, ginger, garlic",
+        "Cast-iron seared 4 mins, sesame seeds"
+      ],
+      "instructions": [
+        "Bring the sirloin / flank / strip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using quick cast-iron saut\u00e9 over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "quick-weeknight-skillets-&-bites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_094",
+      "title": "Honey Balsamic Steak Bites with Mushrooms",
+      "cuisine": "Quick",
+      "protein_cut": "sirloin / flank / strip",
+      "cook_method": "quick cast-iron saut\u00e9",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sirloin cubes",
+        "8 oz cremini mushrooms, halved",
+        "Balsamic vinegar, honey, garlic butter"
+      ],
+      "instructions": [
+        "Bring the sirloin / flank / strip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using quick cast-iron saut\u00e9 over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "quick-weeknight-skillets-&-bites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_095",
+      "title": "Garlic Butter Steak & Asparagus Skillet",
+      "cuisine": "Quick",
+      "protein_cut": "sirloin / flank / strip",
+      "cook_method": "quick cast-iron saut\u00e9",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sirloin cubes",
+        "1 bunch fresh asparagus, cut in 2-inch pieces",
+        "Butter, minced garlic, lemon juice"
+      ],
+      "instructions": [
+        "Bring the sirloin / flank / strip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using quick cast-iron saut\u00e9 over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "quick-weeknight-skillets-&-bites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_096",
+      "title": "Sriracha Glazed Steak Strips with Broccoli",
+      "cuisine": "Quick",
+      "protein_cut": "sirloin / flank / strip",
+      "cook_method": "quick cast-iron saut\u00e9",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs flank steak strips",
+        "Broccoli florets, sriracha, honey, soy sauce",
+        "High-heat wok stir-fry in 8 mins"
+      ],
+      "instructions": [
+        "Bring the sirloin / flank / strip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using quick cast-iron saut\u00e9 over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "quick-weeknight-skillets-&-bites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_097",
+      "title": "Blackened Steak Bites with Garlic Butter",
+      "cuisine": "Quick",
+      "protein_cut": "sirloin / flank / strip",
+      "cook_method": "quick cast-iron saut\u00e9",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs top sirloin cubes",
+        "Spicy blackening seasoning, melted butter, garlic",
+        "Screaming hot cast-iron seared 3 mins"
+      ],
+      "instructions": [
+        "Bring the sirloin / flank / strip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using quick cast-iron saut\u00e9 over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "quick-weeknight-skillets-&-bites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_098",
+      "title": "Steak & Mushroom Stir-Fry in Oyster Sauce",
+      "cuisine": "Quick",
+      "protein_cut": "sirloin / flank / strip",
+      "cook_method": "quick cast-iron saut\u00e9",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs flank steak",
+        "Sliced cremini mushrooms, snow peas",
+        "Oyster sauce, garlic, ginger, scallions"
+      ],
+      "instructions": [
+        "Bring the sirloin / flank / strip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using quick cast-iron saut\u00e9 over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "quick-weeknight-skillets-&-bites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_099",
+      "title": "Korean BBQ Steak Bites over Rice",
+      "cuisine": "Quick",
+      "protein_cut": "sirloin / flank / strip",
+      "cook_method": "quick cast-iron saut\u00e9",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sirloin cubes",
+        "Korean BBQ marinade: soy, pear, sesame, garlic",
+        "Caramelized in hot skillet, served over rice"
+      ],
+      "instructions": [
+        "Bring the sirloin / flank / strip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using quick cast-iron saut\u00e9 over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "quick-weeknight-skillets-&-bites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "steak_100",
+      "title": "One-Pan Garlic Butter Steak & Green Beans",
+      "cuisine": "Quick",
+      "protein_cut": "sirloin / flank / strip",
+      "cook_method": "quick cast-iron saut\u00e9",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sirloin steak strips",
+        "Fresh green beans, trimmed",
+        "Butter, minced garlic, cracked black pepper"
+      ],
+      "instructions": [
+        "Bring the sirloin / flank / strip to room temperature 30 mins before cooking; pat completely dry.",
+        "Season generously on all sides with coarse kosher salt and cracked black pepper.",
+        "Cook using quick cast-iron saut\u00e9 over high heat to build a deep caramelized crust.",
+        "Baste with foaming butter, aromatics, or glazes during the final minutes of cooking.",
+        "Rest meat on cutting board 5-10 minutes before slicing across the grain."
+      ],
+      "potluck_tags": [
+        "steak",
+        "quick-weeknight-skillets-&-bites",
+        "steakhouse-quality",
+        "potluck-friendly"
+      ]
+    }
+  ]
+}

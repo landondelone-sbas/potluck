@@ -1,0 +1,97 @@
+{
+  "theme": "beans and chickpeas",
+  "count": 1,
+  "skipped_note": "Rules 2 and 3 relaxed. Sourced from NotebookLM. White Bean Turkey Chili included. Excluded: Tortilla Soup (Boston.gov p. 15, light broth soup), Mango Avocado Black Bean Salad (HFSA p. 7, cold salad lacking hot dinner structure), French Onion Beans (The Kitchn, editorial blurb lacking complete measurements).",
+  "recipes": [
+    {
+      "id": "beans_001",
+      "title": "White Bean Turkey Chili",
+      "cuisine": "mexican",
+      "format": "pot",
+      "source": {
+        "name": "ENGLISH - Boston.gov",
+        "location": "Page 33, shared by Karen M. Olevitz & Joseph P. Tynan"
+      },
+      "servings": 6,
+      "prep_minutes": 15,
+      "cook_minutes": 30,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "cans (15.5 oz each)",
+          "name": "cannellini beans, rinsed and drained",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "lbs",
+          "name": "ground turkey breast",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "jars (16 oz each)",
+          "name": "medium salsa verde",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "cups",
+          "name": "low-sodium chicken broth or stock",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "large",
+          "name": "sweet onion, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "cloves",
+          "name": "garlic, minced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "black pepper",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Heat olive oil in a large Dutch oven or stockpot over medium-high heat.",
+        "Add chopped sweet onion and minced garlic; saut\u00e9 for 3 to 4 minutes until onions become soft and translucent.",
+        "Add ground turkey breast, breaking it apart with a wooden spoon, and cook until browned and no longer pink (about 6 to 8 minutes).",
+        "Pour in the two jars of salsa verde and the chicken broth, stirring well to combine.",
+        "Add the drained cannellini beans, salt, and black pepper.",
+        "Bring the chili to a boil, then reduce heat to low, cover, and let simmer gently for 20 to 25 minutes to blend flavors.",
+        "Ladle into warm bowls and serve hot with desired garnishes like fresh cilantro, diced avocado, or tortilla chips."
+      ],
+      "source_temperatures": [],
+      "swaps": "Great Northern beans or navy beans can replace cannellini beans; ground chicken can replace ground turkey.",
+      "notes": "Equipment: Large Dutch oven or heavy stockpot, wooden spoon. Hearty, high-protein white bean dinner."
+    }
+  ]
+}

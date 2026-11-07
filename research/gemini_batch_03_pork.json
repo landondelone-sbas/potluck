@@ -1,0 +1,6 @@
+{
+  "theme": "pork",
+  "count": 0,
+  "skipped_note": "No qualifying recipes found in notebook sources meeting all criteria. Evaluated and skipped: 1. Pan-seared and skillet pork chops from Inspired Taste, Recipe Teacher, and Cookpad (excluded under Rule 7: pork chops are blacklisted). 2. Pork tenderloin methods from The Kitchn (excluded under Rule 7: pork tenderloin is blacklisted). 3. Baby back and spare ribs from Smithfield (excluded under Rule 7: BBQ ribs are blacklisted). 4. Pork Roast with Crispy Crackling from RecipeTin Eats (excluded under Rule 5: total cook time of 3 hours 35 minutes exceeds the 3-hour limit). 5. Slow Cooker Pulled Pork from Fifteen Spatulas (excluded under Rule 5: 6-8 hour slow cooker time exceeds the 3-hour limit; also excluded under Rule 7 as a sandwich/slider). 6. Slow-Roasted Pork Belly from Tasting Table (excluded under Rule 5: multi-hour slow roast exceeds time limits, and lacks starch/vegetable dinner components per Rule 6). 7. Know Your Pork Cuts reference sheet (chart/temperature guide only, lacking full 5-component recipe instructions per Rule 1).",
+  "recipes": []
+}

@@ -1,0 +1,2806 @@
+{
+  "total_recipes": 100,
+  "category": "Shrimp",
+  "recipes": [
+    {
+      "id": "shrimp_001",
+      "title": "Classic Garlic Butter Shrimp Scampi with White Wine",
+      "cuisine": "Garlic,",
+      "protein_cut": "large or jumbo shrimp (peeled & deveined)",
+      "cook_method": "pan-searing & butter reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp",
+        "4 tbsp butter, 2 tbsp olive oil, 6 cloves garlic",
+        "1/2 cup white wine, lemon juice, fresh parsley"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large or jumbo shrimp (peeled & deveined) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & butter reduction for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "garlic,-butter-&-scampi",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_002",
+      "title": "Lemon Herb Garlic Butter Shrimp",
+      "cuisine": "Garlic,",
+      "protein_cut": "large or jumbo shrimp (peeled & deveined)",
+      "cook_method": "pan-searing & butter reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Melted butter, minced garlic, fresh lemon juice",
+        "Thyme, oregano, cast-iron seared 4 mins"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large or jumbo shrimp (peeled & deveined) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & butter reduction for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "garlic,-butter-&-scampi",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_003",
+      "title": "Spanish Sizzling Garlic Shrimp (Gambas al Ajillo)",
+      "cuisine": "Garlic,",
+      "protein_cut": "large or jumbo shrimp (peeled & deveined)",
+      "cook_method": "pan-searing & butter reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs shrimp",
+        "10 cloves garlic, thinly sliced",
+        "1/2 cup Spanish olive oil, dry sherry, cayenne, crusty bread"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large or jumbo shrimp (peeled & deveined) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & butter reduction for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "garlic,-butter-&-scampi",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_004",
+      "title": "Creamy Garlic Parmesan Shrimp Skillet",
+      "cuisine": "Garlic,",
+      "protein_cut": "large or jumbo shrimp (peeled & deveined)",
+      "cook_method": "pan-searing & butter reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Heavy cream, chicken broth, grated parmesan",
+        "Garlic, butter, baby spinach"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large or jumbo shrimp (peeled & deveined) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & butter reduction for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "garlic,-butter-&-scampi",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_005",
+      "title": "Garlic Butter Shrimp with Angel Hair Pasta",
+      "cuisine": "Garlic,",
+      "protein_cut": "large or jumbo shrimp (peeled & deveined)",
+      "cook_method": "pan-searing & butter reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "12 oz angel hair pasta, garlic butter sauce",
+        "White wine, lemon zest, grated parmesan, parsley"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large or jumbo shrimp (peeled & deveined) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & butter reduction for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "garlic,-butter-&-scampi",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_006",
+      "title": "Lemon Butter Basil Shrimp",
+      "cuisine": "Garlic,",
+      "protein_cut": "large or jumbo shrimp (peeled & deveined)",
+      "cook_method": "pan-searing & butter reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs shrimp",
+        "Butter, fresh lemon juice, torn fresh basil leaves",
+        "Saut\u00e9ed fast over high heat, cracked pepper"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large or jumbo shrimp (peeled & deveined) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & butter reduction for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "garlic,-butter-&-scampi",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_007",
+      "title": "Spicy Tuscan Garlic Butter Shrimp with Spinach",
+      "cuisine": "Garlic,",
+      "protein_cut": "large or jumbo shrimp (peeled & deveined)",
+      "cook_method": "pan-searing & butter reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Sun-dried tomatoes, baby spinach, heavy cream",
+        "Garlic, crushed red pepper, parmesan"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large or jumbo shrimp (peeled & deveined) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & butter reduction for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "garlic,-butter-&-scampi",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_008",
+      "title": "Chili Garlic Butter Pan-Seared Shrimp",
+      "cuisine": "Garlic,",
+      "protein_cut": "large or jumbo shrimp (peeled & deveined)",
+      "cook_method": "pan-searing & butter reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Butter, sriracha, chili flakes, minced garlic",
+        "Honey, lime juice, seared 4 mins"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large or jumbo shrimp (peeled & deveined) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & butter reduction for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "garlic,-butter-&-scampi",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_009",
+      "title": "Brown Butter Herb Basted Shrimp",
+      "cuisine": "Garlic,",
+      "protein_cut": "large or jumbo shrimp (peeled & deveined)",
+      "cook_method": "pan-searing & butter reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp",
+        "Nutty foaming brown butter, fresh sage and thyme",
+        "Lemon juice, flaky sea salt"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large or jumbo shrimp (peeled & deveined) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & butter reduction for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "garlic,-butter-&-scampi",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_010",
+      "title": "Cast-Iron Sizzling Garlic Lemon Shrimp",
+      "cuisine": "Garlic,",
+      "protein_cut": "large or jumbo shrimp (peeled & deveined)",
+      "cook_method": "pan-searing & butter reduction",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs shrimp (tail-on)",
+        "Olive oil, butter, lemon wheels, garlic slices",
+        "Sizzling hot cast iron, rustic bread"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large or jumbo shrimp (peeled & deveined) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & butter reduction for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "garlic,-butter-&-scampi",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_011",
+      "title": "Authentic New Orleans BBQ Butter Shrimp",
+      "cuisine": "Southern",
+      "protein_cut": "jumbo shrimp",
+      "cook_method": "saut\u00e9ing / boiling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs head-on jumbo shrimp",
+        "1 cup butter, Worcestershire sauce, lemon juice",
+        "Cracked black pepper, rosemary, French bread"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using saut\u00e9ing / boiling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "southern-&-cajun-specialties",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_012",
+      "title": "Lowcountry Shrimp and Stone-Ground Grits",
+      "cuisine": "Southern",
+      "protein_cut": "jumbo shrimp",
+      "cook_method": "saut\u00e9ing / boiling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Creamy stone-ground cheddar grits",
+        "Bacon lardons, andouille sausage, scallions, lemon"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using saut\u00e9ing / boiling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "southern-&-cajun-specialties",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_013",
+      "title": "Classic Cajun Low Country Shrimp Boil",
+      "cuisine": "Southern",
+      "protein_cut": "jumbo shrimp",
+      "cook_method": "saut\u00e9ing / boiling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs large shell-on shrimp",
+        "Smoked andouille sausage, sweet corn rounds",
+        "Red potatoes, Zatarain's crab boil seasoning, lemon"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using saut\u00e9ing / boiling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "southern-&-cajun-specialties",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_014",
+      "title": "Blackened Cajun Shrimp Skillet",
+      "cuisine": "Southern",
+      "protein_cut": "jumbo shrimp",
+      "cook_method": "saut\u00e9ing / boiling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Cajun blackening rub, melted butter",
+        "Smoking hot cast-iron skillet, dirty rice"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using saut\u00e9ing / boiling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "southern-&-cajun-specialties",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_015",
+      "title": "New Orleans Shrimp Po' Boy with Remoulade",
+      "cuisine": "Southern",
+      "protein_cut": "jumbo shrimp",
+      "cook_method": "saut\u00e9ing / boiling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs fried cornmeal-crusted shrimp",
+        "French bread loaves, shredded lettuce, tomatoes",
+        "Zesty homemade remoulade sauce, pickles"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using saut\u00e9ing / boiling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "southern-&-cajun-specialties",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_016",
+      "title": "Shrimp and Andouille Sausage Jambalaya",
+      "cuisine": "Southern",
+      "protein_cut": "jumbo shrimp",
+      "cook_method": "saut\u00e9ing / boiling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1 lb large shrimp",
+        "Smoked andouille sausage, white rice, broth",
+        "Holy Trinity (onion, celery, pepper), tomatoes, spices"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using saut\u00e9ing / boiling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "southern-&-cajun-specialties",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_017",
+      "title": "Creamy Cajun Shrimp Pasta with Peppers",
+      "cuisine": "Southern",
+      "protein_cut": "jumbo shrimp",
+      "cook_method": "saut\u00e9ing / boiling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs shrimp",
+        "Fettuccine, heavy cream, bell peppers, onions",
+        "Cajun spices, parmesan cheese"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using saut\u00e9ing / boiling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "southern-&-cajun-specialties",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_018",
+      "title": "Shrimp \u00c9touff\u00e9e with Steamed Rice",
+      "cuisine": "Southern",
+      "protein_cut": "jumbo shrimp",
+      "cook_method": "saut\u00e9ing / boiling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Golden blond roux, onion, celery, bell pepper",
+        "Seafood stock, green onions, white rice"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using saut\u00e9ing / boiling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "southern-&-cajun-specialties",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_019",
+      "title": "Southern Fried Popcorn Shrimp with Cocktail Sauce",
+      "cuisine": "Southern",
+      "protein_cut": "jumbo shrimp",
+      "cook_method": "saut\u00e9ing / boiling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs bite-sized shrimp",
+        "Cornmeal and flour breading, cajun spices",
+        "Deep-fried golden crunchy, cocktail sauce"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using saut\u00e9ing / boiling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "southern-&-cajun-specialties",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_020",
+      "title": "Bacon-Wrapped Stuffed Gulf Shrimp",
+      "cuisine": "Southern",
+      "protein_cut": "jumbo shrimp",
+      "cook_method": "saut\u00e9ing / boiling",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "16 jumbo colossal shrimp, butterflied",
+        "Cream cheese & jalape\u00f1o stuffing",
+        "Bacon wrapped, baked until crisp and glazed"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using saut\u00e9ing / boiling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "southern-&-cajun-specialties",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_021",
+      "title": "Camarones a la Diabla (Spicy Red Chili Shrimp)",
+      "cuisine": "Mexican",
+      "protein_cut": "medium to large shrimp",
+      "cook_method": "skillet / chilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs shrimp",
+        "Guajillo, chipotle, and arbol chili sauce",
+        "Garlic, butter, served with rice and tortillas"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the medium to large shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skillet / chilled for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "mexican-&-latin-seafood",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_022",
+      "title": "Sizzling Chipotle Shrimp Fajitas with Peppers",
+      "cuisine": "Mexican",
+      "protein_cut": "medium to large shrimp",
+      "cook_method": "skillet / chilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Bell peppers, onions, chipotle chili powder",
+        "Lime juice, sizzling cast iron, flour tortillas"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the medium to large shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skillet / chilled for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "mexican-&-latin-seafood",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_023",
+      "title": "Crispy Baja Shrimp Tacos with Slaw",
+      "cuisine": "Mexican",
+      "protein_cut": "medium to large shrimp",
+      "cook_method": "skillet / chilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs beer-battered fried shrimp",
+        "Warm corn tortillas, shredded cabbage slaw",
+        "Chipotle crema, pico de gallo, lime wedges"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the medium to large shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skillet / chilled for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "mexican-&-latin-seafood",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_024",
+      "title": "Authentic Mexican Shrimp Ceviche with Avocado",
+      "cuisine": "Mexican",
+      "protein_cut": "medium to large shrimp",
+      "cook_method": "skillet / chilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs fresh raw shrimp, diced",
+        "Marinated in fresh lime juice to cure",
+        "Diced tomatoes, red onion, jalape\u00f1o, cilantro, avocado, tostadas"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the medium to large shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skillet / chilled for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "mexican-&-latin-seafood",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_025",
+      "title": "Mexican Shrimp Cocktail (Coctel de Camarones)",
+      "cuisine": "Mexican",
+      "protein_cut": "medium to large shrimp",
+      "cook_method": "skillet / chilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs boiled chilled shrimp",
+        "Clamato tomato broth, lime juice, hot sauce",
+        "Diced cucumber, avocado, onion, saltines"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the medium to large shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skillet / chilled for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "mexican-&-latin-seafood",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_026",
+      "title": "Camarones al Mojo de Ajo (Garlic Shrimp)",
+      "cuisine": "Mexican",
+      "protein_cut": "medium to large shrimp",
+      "cook_method": "skillet / chilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs shrimp",
+        "10 cloves garlic saut\u00e9ed in olive oil and butter",
+        "Lime juice, white wine, served over white rice"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the medium to large shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skillet / chilled for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "mexican-&-latin-seafood",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_027",
+      "title": "Cheesy Shrimp Quesadillas with Chipotle Crema",
+      "cuisine": "Mexican",
+      "protein_cut": "medium to large shrimp",
+      "cook_method": "skillet / chilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1 lb cooked seasoned shrimp",
+        "Flour tortillas, Monterey Jack and cheddar cheese",
+        "Saut\u00e9ed onions, chipotle crema dipping sauce"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the medium to large shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skillet / chilled for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "mexican-&-latin-seafood",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_028",
+      "title": "Shrimp Enchiladas with Creamy Green Sauce",
+      "cuisine": "Mexican",
+      "protein_cut": "medium to large shrimp",
+      "cook_method": "skillet / chilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs saut\u00e9ed shrimp",
+        "Corn tortillas, salsa verde, sour cream",
+        "Monterey Jack cheese, baked bubbly at 375\u00b0F"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the medium to large shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skillet / chilled for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "mexican-&-latin-seafood",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_029",
+      "title": "Grilled Cilantro-Lime Shrimp Skewers",
+      "cuisine": "Mexican",
+      "protein_cut": "medium to large shrimp",
+      "cook_method": "skillet / chilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp",
+        "Fresh lime juice, cilantro, garlic, cumin, olive oil",
+        "Grilled over high heat on skewers"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the medium to large shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skillet / chilled for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "mexican-&-latin-seafood",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_030",
+      "title": "Mexican Shrimp and Rice Skillet (Arroz con Camarones)",
+      "cuisine": "Mexican",
+      "protein_cut": "medium to large shrimp",
+      "cook_method": "skillet / chilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Long-grain white rice, tomato sofrito, chicken broth",
+        "Peas, corn, bell peppers, one-pan skillet"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the medium to large shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skillet / chilled for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "mexican-&-latin-seafood",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_031",
+      "title": "Classic Chinese Honey Walnut Shrimp",
+      "cuisine": "Asian",
+      "protein_cut": "large shrimp (tail-on)",
+      "cook_method": "wok stir-fry / frying",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp, cornstarch battered",
+        "Candied glazed walnuts, sweet condensed milk mayo sauce",
+        "Broccoli florets"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large shrimp (tail-on) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using wok stir-fry / frying for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "asian-wok-&-crispy-classics",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_032",
+      "title": "Szechuan Kung Pao Shrimp with Peanuts",
+      "cuisine": "Asian",
+      "protein_cut": "large shrimp (tail-on)",
+      "cook_method": "wok stir-fry / frying",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs large shrimp",
+        "Dried red chilies, Szechuan peppercorns, scallions",
+        "Roasted peanuts, savory sweet black vinegar sauce"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large shrimp (tail-on) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using wok stir-fry / frying for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "asian-wok-&-crispy-classics",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_033",
+      "title": "Crispy Coconut Shrimp with Sweet Chili Dip",
+      "cuisine": "Asian",
+      "protein_cut": "large shrimp (tail-on)",
+      "cook_method": "wok stir-fry / frying",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp, butterflied",
+        "Sweetened shredded coconut, panko breadcrumbs",
+        "Fried golden crispy, sweet Thai chili dipping sauce"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large shrimp (tail-on) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using wok stir-fry / frying for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "asian-wok-&-crispy-classics",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_034",
+      "title": "Authentic Pad Thai with Jumbo Shrimp",
+      "cuisine": "Asian",
+      "protein_cut": "large shrimp (tail-on)",
+      "cook_method": "wok stir-fry / frying",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1 lb jumbo shrimp",
+        "Flat rice noodles, eggs, bean sprouts, garlic chives",
+        "Tamarind pad thai sauce, crushed peanuts, lime"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large shrimp (tail-on) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using wok stir-fry / frying for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "asian-wok-&-crispy-classics",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_035",
+      "title": "Cantonese Shrimp Fried Rice with Scallions",
+      "cuisine": "Asian",
+      "protein_cut": "large shrimp (tail-on)",
+      "cook_method": "wok stir-fry / frying",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1 lb small to medium shrimp",
+        "Cold cooked day-old jasmine rice, scrambled eggs",
+        "Green peas, scallions, light soy sauce, sesame oil"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large shrimp (tail-on) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using wok stir-fry / frying for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "asian-wok-&-crispy-classics",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_036",
+      "title": "Chinese Shrimp in Lobster Sauce (Egg White Sauce)",
+      "cuisine": "Asian",
+      "protein_cut": "large shrimp (tail-on)",
+      "cook_method": "wok stir-fry / frying",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs large shrimp",
+        "Ground pork, garlic, fermented black beans",
+        "Chicken broth, whisked egg white ribbons"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large shrimp (tail-on) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using wok stir-fry / frying for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "asian-wok-&-crispy-classics",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_037",
+      "title": "General Tso's Crispy Glazed Shrimp",
+      "cuisine": "Asian",
+      "protein_cut": "large shrimp (tail-on)",
+      "cook_method": "wok stir-fry / frying",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs crispy battered shrimp",
+        "Sweet, tangy, spicy General Tso sauce, dried chilies",
+        "Steamed broccoli crowns, white rice"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large shrimp (tail-on) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using wok stir-fry / frying for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "asian-wok-&-crispy-classics",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_038",
+      "title": "Thai Green Curry Shrimp with Coconut Milk",
+      "cuisine": "Asian",
+      "protein_cut": "large shrimp (tail-on)",
+      "cook_method": "wok stir-fry / frying",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs large shrimp",
+        "Green curry paste, full-fat coconut milk",
+        "Bamboo shoots, Thai basil, red bell peppers"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large shrimp (tail-on) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using wok stir-fry / frying for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "asian-wok-&-crispy-classics",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_039",
+      "title": "Salt and Pepper Crispy Jumbo Shrimp",
+      "cuisine": "Asian",
+      "protein_cut": "large shrimp (tail-on)",
+      "cook_method": "wok stir-fry / frying",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs shell-on jumbo shrimp",
+        "Tossed in cornstarch, fried shatteringly crisp",
+        "Saut\u00e9ed jalape\u00f1o slices, garlic, scallions, white pepper"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large shrimp (tail-on) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using wok stir-fry / frying for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "asian-wok-&-crispy-classics",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_040",
+      "title": "Japanese Tempura Shrimp with Dashi Dip",
+      "cuisine": "Asian",
+      "protein_cut": "large shrimp (tail-on)",
+      "cook_method": "wok stir-fry / frying",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 4,
+      "ingredients": [
+        "12 colossal shrimp, straightened with slits",
+        "Ice-cold tempura batter, deep-fried light and lacy",
+        "Tentsuyu dashi dipping sauce with grated daikon"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the large shrimp (tail-on) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using wok stir-fry / frying for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "asian-wok-&-crispy-classics",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_041",
+      "title": "Garlic Herb Grilled Shrimp Skewers",
+      "cuisine": "Grilled",
+      "protein_cut": "jumbo or colossal shrimp",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp",
+        "Olive oil, lemon juice, minced garlic, parsley, oregano",
+        "Grilled 2-3 mins per side on skewers"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo or colossal shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skewered grilling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "grilled-&-skewered",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_042",
+      "title": "Sweet Chili Lime Grilled Shrimp Skewers",
+      "cuisine": "Grilled",
+      "protein_cut": "jumbo or colossal shrimp",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp",
+        "Thai sweet chili sauce, fresh lime juice, soy sauce",
+        "Glazed on grill over high heat"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo or colossal shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skewered grilling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "grilled-&-skewered",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_043",
+      "title": "Jamaican Jerk Spiced Grilled Shrimp",
+      "cuisine": "Grilled",
+      "protein_cut": "jumbo or colossal shrimp",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Authentic Jamaican jerk paste, brown sugar, allspice",
+        "Charred over coals, fresh lime juice"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo or colossal shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skewered grilling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "grilled-&-skewered",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_044",
+      "title": "Hawaiian Pineapple & BBQ Shrimp Skewers",
+      "cuisine": "Grilled",
+      "protein_cut": "jumbo or colossal shrimp",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp",
+        "Fresh pineapple chunks, sweet Hawaiian BBQ glaze",
+        "Grilled charred on bamboo skewers"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo or colossal shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skewered grilling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "grilled-&-skewered",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_045",
+      "title": "Cajun Spiced Grilled Shrimp on Skewers",
+      "cuisine": "Grilled",
+      "protein_cut": "jumbo or colossal shrimp",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Spicy Cajun spice blend, melted butter baste",
+        "High-heat grill marks in 5 mins"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo or colossal shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skewered grilling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "grilled-&-skewered",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_046",
+      "title": "Mediterranean Lemon Oregano Shrimp Skewers",
+      "cuisine": "Grilled",
+      "protein_cut": "jumbo or colossal shrimp",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp",
+        "Extra virgin olive oil, lemon zest, Greek oregano",
+        "Grilled, served with tzatziki and warm pita"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo or colossal shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skewered grilling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "grilled-&-skewered",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_047",
+      "title": "Honey Sriracha Glazed Grilled Shrimp",
+      "cuisine": "Grilled",
+      "protein_cut": "jumbo or colossal shrimp",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Honey, sriracha, soy sauce, lime juice glaze",
+        "Basted on grill until sticky and caramelized"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo or colossal shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skewered grilling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "grilled-&-skewered",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_048",
+      "title": "Lemon Pepper Charred Shrimp Skewers",
+      "cuisine": "Grilled",
+      "protein_cut": "jumbo or colossal shrimp",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp",
+        "Coarse black pepper, lemon zest, butter",
+        "Grilled fast over direct flame"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo or colossal shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skewered grilling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "grilled-&-skewered",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_049",
+      "title": "Bacon-Wrapped Grilled Jumbo Shrimp",
+      "cuisine": "Grilled",
+      "protein_cut": "jumbo or colossal shrimp",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "16 colossal shrimp",
+        "Thin bacon slices wrapped around each shrimp",
+        "Glazed with BBQ sauce on grill until bacon is crisp"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo or colossal shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skewered grilling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "grilled-&-skewered",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_050",
+      "title": "Rosemary Garlic Butter Grilled Shrimp",
+      "cuisine": "Grilled",
+      "protein_cut": "jumbo or colossal shrimp",
+      "cook_method": "skewered grilling",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 8,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs colossal shrimp",
+        "Skewered with fresh rosemary sprigs, garlic butter",
+        "Wood-fired grill flavor"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo or colossal shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using skewered grilling for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "grilled-&-skewered",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_051",
+      "title": "Creamy Garlic Shrimp Fettuccine Alfredo",
+      "cuisine": "Pastas",
+      "protein_cut": "peeled deveined shrimp",
+      "cook_method": "pan-searing & pasta toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Fettuccine pasta, heavy cream, butter, parmesan",
+        "Minced garlic, fresh black pepper, parsley"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the peeled deveined shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & pasta toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "pastas-&-creamy-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_052",
+      "title": "Spicy Cajun Shrimp & Sausage Penne",
+      "cuisine": "Pastas",
+      "protein_cut": "peeled deveined shrimp",
+      "cook_method": "pan-searing & pasta toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1 lb shrimp, 1/2 lb smoked andouille",
+        "Penne pasta, heavy cream, Cajun spices",
+        "Diced bell peppers, parmesan cheese"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the peeled deveined shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & pasta toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "pastas-&-creamy-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_053",
+      "title": "Tomato Basil Shrimp Linguine",
+      "cuisine": "Pastas",
+      "protein_cut": "peeled deveined shrimp",
+      "cook_method": "pan-searing & pasta toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Linguine pasta, San Marzano cherry tomatoes",
+        "White wine, garlic, fresh torn basil leaves"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the peeled deveined shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & pasta toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "pastas-&-creamy-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_054",
+      "title": "Creamy Pesto Penne with Saut\u00e9ed Shrimp",
+      "cuisine": "Pastas",
+      "protein_cut": "peeled deveined shrimp",
+      "cook_method": "pan-searing & pasta toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Penne pasta, basil pesto, heavy cream",
+        "Sun-dried tomatoes, grated parmesan"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the peeled deveined shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & pasta toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "pastas-&-creamy-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_055",
+      "title": "Lemon Ricotta & Spinach Shrimp Pasta",
+      "cuisine": "Pastas",
+      "protein_cut": "peeled deveined shrimp",
+      "cook_method": "pan-searing & pasta toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs shrimp",
+        "Short pasta, whole milk ricotta, lemon zest",
+        "Baby spinach, garlic, parmesan, pasta water"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the peeled deveined shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & pasta toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "pastas-&-creamy-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_056",
+      "title": "Shrimp Fra Diavolo with Spicy Marinara",
+      "cuisine": "Pastas",
+      "protein_cut": "peeled deveined shrimp",
+      "cook_method": "pan-searing & pasta toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp",
+        "Spaghetti pasta, spicy marinara sauce",
+        "Crushed red pepper flakes, white wine, garlic"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the peeled deveined shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & pasta toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "pastas-&-creamy-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_057",
+      "title": "Sun-Dried Tomato & Creamy Garlic Shrimp",
+      "cuisine": "Pastas",
+      "protein_cut": "peeled deveined shrimp",
+      "cook_method": "pan-searing & pasta toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Rigatoni pasta, sun-dried tomatoes, cream",
+        "Garlic butter, fresh basil ribbons"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the peeled deveined shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & pasta toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "pastas-&-creamy-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_058",
+      "title": "Shrimp & Orzo Skillet with Feta & Lemon",
+      "cuisine": "Pastas",
+      "protein_cut": "peeled deveined shrimp",
+      "cook_method": "pan-searing & pasta toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Orzo pasta, chicken broth, baby spinach, tomatoes",
+        "Crumbled feta cheese, fresh dill, lemon juice"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the peeled deveined shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & pasta toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "pastas-&-creamy-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_059",
+      "title": "Creamy White Wine Shells with Saut\u00e9ed Shrimp",
+      "cuisine": "Pastas",
+      "protein_cut": "peeled deveined shrimp",
+      "cook_method": "pan-searing & pasta toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs shrimp",
+        "Medium pasta shells, dry white wine, cream",
+        "Garlic, parmesan, green peas"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the peeled deveined shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & pasta toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "pastas-&-creamy-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_060",
+      "title": "Garlic Butter Shrimp Spaghetti with Capers",
+      "cuisine": "Pastas",
+      "protein_cut": "peeled deveined shrimp",
+      "cook_method": "pan-searing & pasta toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Spaghetti, olive oil, butter, minced garlic",
+        "Brined capers, lemon juice, parsley"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the peeled deveined shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using pan-searing & pasta toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "pastas-&-creamy-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_061",
+      "title": "Thai Hot & Sour Shrimp Soup (Tom Yum Goong)",
+      "cuisine": "Soups,",
+      "protein_cut": "shrimp / shell stock",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs head-on shrimp",
+        "Shrimp stock, lemongrass, galangal, kaffir lime",
+        "Thai chilies, straw mushrooms, fish sauce, lime"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp / shell stock dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using soup simmering for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "soups,-chowders-&-curries",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_062",
+      "title": "Thai Coconut Shrimp Soup (Tom Kha Goong)",
+      "cuisine": "Soups,",
+      "protein_cut": "shrimp / shell stock",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Coconut milk, chicken broth, galangal, lemongrass",
+        "Mushrooms, chili jam (nam prik pao), lime juice"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp / shell stock dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using soup simmering for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "soups,-chowders-&-curries",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_063",
+      "title": "Creamy Corn and Shrimp Chowder",
+      "cuisine": "Soups,",
+      "protein_cut": "shrimp / shell stock",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Sweet corn kernels, diced potatoes, bacon lardons",
+        "Heavy cream, chicken stock, fresh thyme"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp / shell stock dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using soup simmering for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "soups,-chowders-&-curries",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_064",
+      "title": "Brazilian Moqueca de Camar\u00e3o (Coconut Shrimp Stew)",
+      "cuisine": "Soups,",
+      "protein_cut": "shrimp / shell stock",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs large shrimp",
+        "Coconut milk, dende palm oil, tomatoes, bell peppers",
+        "Onions, garlic, cilantro, lime juice, white rice"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp / shell stock dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using soup simmering for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "soups,-chowders-&-curries",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_065",
+      "title": "Spanish Seafood Paella with Jumbo Shrimp",
+      "cuisine": "Soups,",
+      "protein_cut": "shrimp / shell stock",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp, clams, mussels",
+        "Bomba rice, saffron threads, bell peppers",
+        "Chicken broth, socarrat crust, lemon wedges"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp / shell stock dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using soup simmering for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "soups,-chowders-&-curries",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_066",
+      "title": "Cajun Shrimp & Corn Bisque",
+      "cuisine": "Soups,",
+      "protein_cut": "shrimp / shell stock",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Sweet corn pur\u00e9e, heavy cream, blond roux",
+        "Cajun spices, green onions, crusty bread"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp / shell stock dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using soup simmering for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "soups,-chowders-&-curries",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_067",
+      "title": "Indian Goan Coconut Shrimp Curry",
+      "cuisine": "Soups,",
+      "protein_cut": "shrimp / shell stock",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Coconut milk, tamarind pulp, Kashmiri chilies",
+        "Coriander, cumin, turmeric, steamed basmati"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp / shell stock dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using soup simmering for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "soups,-chowders-&-curries",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_068",
+      "title": "Mexican Sopa de Mariscos (Shrimp Soup)",
+      "cuisine": "Soups,",
+      "protein_cut": "shrimp / shell stock",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs shrimp with shells",
+        "Guajillo tomato broth, carrots, potatoes, celery",
+        "Fresh epazote or cilantro, lime wedges, tortillas"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp / shell stock dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using soup simmering for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "soups,-chowders-&-curries",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_069",
+      "title": "Vietnamese Sweet & Sour Shrimp Soup (Canh Chua)",
+      "cuisine": "Soups,",
+      "protein_cut": "shrimp / shell stock",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1 lb large shrimp",
+        "Tamarind broth, pineapple chunks, tomatoes, bean sprouts",
+        "Elephant ear stalks (bac ha), fresh rice paddy herbs"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp / shell stock dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using soup simmering for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "soups,-chowders-&-curries",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_070",
+      "title": "Malaysian Curry Laksa with Shrimp",
+      "cuisine": "Soups,",
+      "protein_cut": "shrimp / shell stock",
+      "cook_method": "soup simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 20,
+      "servings": 6,
+      "ingredients": [
+        "1 lb large shrimp, tofu puffs",
+        "Coconut curry laksa broth, lemongrass, sambal",
+        "Rice vermicelli and egg noodles, bean sprouts, egg"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp / shell stock dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using soup simmering for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "soups,-chowders-&-curries",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_071",
+      "title": "Classic Chilled Jumbo Shrimp Cocktail with Sauce",
+      "cuisine": "Appetizers",
+      "protein_cut": "jumbo shrimp (cocktail or fried)",
+      "cook_method": "chilled / baked / fried",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 8,
+      "ingredients": [
+        "2 lbs colossal shrimp, court-bouillon poached",
+        "Chilled ice bath, classic cocktail sauce (ketchup, horseradish, lemon)",
+        "Lemon wedges"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp (cocktail or fried) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled / baked / fried for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "appetizers-&-finger-foods",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_072",
+      "title": "Crispy Bang Bang Shrimp with Sweet Spicy Mayo",
+      "cuisine": "Appetizers",
+      "protein_cut": "jumbo shrimp (cocktail or fried)",
+      "cook_method": "chilled / baked / fried",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 8,
+      "ingredients": [
+        "1.5 lbs shrimp, cornstarch breaded",
+        "Fried crispy, tossed in sweet-spicy mayo (mayo, sweet chili, sriracha)",
+        "Shredded cabbage"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp (cocktail or fried) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled / baked / fried for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "appetizers-&-finger-foods",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_073",
+      "title": "Bacon-Wrapped Cream Cheese Stuffed Shrimp",
+      "cuisine": "Appetizers",
+      "protein_cut": "jumbo shrimp (cocktail or fried)",
+      "cook_method": "chilled / baked / fried",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 8,
+      "ingredients": [
+        "16 jumbo colossal shrimp, butterflied",
+        "Cream cheese & jalape\u00f1o stuffing",
+        "Wrapped in thin bacon, baked until crisp and glazed"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp (cocktail or fried) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled / baked / fried for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "appetizers-&-finger-foods",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_074",
+      "title": "Spicy Garlic Shrimp Tapas Skewers",
+      "cuisine": "Appetizers",
+      "protein_cut": "jumbo shrimp (cocktail or fried)",
+      "cook_method": "chilled / baked / fried",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 8,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Olive oil, smoked paprika, garlic, sherry vinegar",
+        "Seared hot, served with toothpicks and bread"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp (cocktail or fried) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled / baked / fried for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "appetizers-&-finger-foods",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_075",
+      "title": "Crispy Panko Butterfly Fried Shrimp",
+      "cuisine": "Appetizers",
+      "protein_cut": "jumbo shrimp (cocktail or fried)",
+      "cook_method": "chilled / baked / fried",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 8,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp, butterflied",
+        "Dredged in flour, egg, and Japanese panko",
+        "Deep-fried golden crunchy, tartar sauce"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp (cocktail or fried) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled / baked / fried for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "appetizers-&-finger-foods",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_076",
+      "title": "Creamy Shrimp Salad Dip with Crackers",
+      "cuisine": "Appetizers",
+      "protein_cut": "jumbo shrimp (cocktail or fried)",
+      "cook_method": "chilled / baked / fried",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 8,
+      "ingredients": [
+        "1 lb cooked chopped shrimp",
+        "Cream cheese, sour cream, mayo, celery, dill",
+        "Lemon juice, served with buttery crackers"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp (cocktail or fried) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled / baked / fried for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "appetizers-&-finger-foods",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_077",
+      "title": "Mini Shrimp Tostada Bites with Guacamole",
+      "cuisine": "Appetizers",
+      "protein_cut": "jumbo shrimp (cocktail or fried)",
+      "cook_method": "chilled / baked / fried",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 8,
+      "ingredients": [
+        "Cooked chili-lime shrimp",
+        "Mini round tortilla chip cups, guacamole",
+        "Pico de gallo, cotija cheese, cilantro"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp (cocktail or fried) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled / baked / fried for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "appetizers-&-finger-foods",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_078",
+      "title": "Garlic Butter Shrimp Crostini with Herbs",
+      "cuisine": "Appetizers",
+      "protein_cut": "jumbo shrimp (cocktail or fried)",
+      "cook_method": "chilled / baked / fried",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 8,
+      "ingredients": [
+        "Saut\u00e9ed garlic butter shrimp",
+        "Toasted baguette slices, whipped ricotta spread",
+        "Fresh basil, cracked black pepper"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp (cocktail or fried) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled / baked / fried for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "appetizers-&-finger-foods",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_079",
+      "title": "Asian Shrimp Wontons with Chili Oil",
+      "cuisine": "Appetizers",
+      "protein_cut": "jumbo shrimp (cocktail or fried)",
+      "cook_method": "chilled / baked / fried",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 8,
+      "ingredients": [
+        "1 lb minced shrimp filling, ginger, scallions",
+        "Wonton wrappers, boiled tender",
+        "Tossed in Szechuan chili oil and black vinegar"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp (cocktail or fried) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled / baked / fried for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "appetizers-&-finger-foods",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_080",
+      "title": "Crispy Coconut Fried Shrimp with Mango Dip",
+      "cuisine": "Appetizers",
+      "protein_cut": "jumbo shrimp (cocktail or fried)",
+      "cook_method": "chilled / baked / fried",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 10,
+      "servings": 8,
+      "ingredients": [
+        "1.5 lbs jumbo shrimp",
+        "Coconut flake breading, fried golden",
+        "Homemade sweet mango habanero dipping sauce"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the jumbo shrimp (cocktail or fried) dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled / baked / fried for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "appetizers-&-finger-foods",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_081",
+      "title": "Southern Shrimp Salad with Celery & Dill",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked peeled shrimp",
+      "cook_method": "chilled assembly / salad toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs cooked chilled shrimp",
+        "Mayonnaise, Dijon mustard, diced celery, fresh dill",
+        "Old Bay seasoning, served on buttery croissants"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the cooked peeled shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled assembly / salad toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "salads,-wraps-&-chilled-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_082",
+      "title": "Grilled Shrimp Caesar Salad with Parmesan",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked peeled shrimp",
+      "cook_method": "chilled assembly / salad toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "servings": 4,
+      "ingredients": [
+        "Grilled jumbo shrimp skewers",
+        "Crisp romaine hearts, shaved parmesan, garlic croutons",
+        "Creamy Caesar dressing, cracked black pepper"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the cooked peeled shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled assembly / salad toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "salads,-wraps-&-chilled-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_083",
+      "title": "Avocado & Shrimp Salad with Citrus Dressing",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked peeled shrimp",
+      "cook_method": "chilled assembly / salad toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "servings": 4,
+      "ingredients": [
+        "Cooked peeled shrimp",
+        "Diced ripe avocado, cherry tomatoes, cucumbers",
+        "Red onion, honey-lime vinaigrette, cilantro"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the cooked peeled shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled assembly / salad toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "salads,-wraps-&-chilled-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_084",
+      "title": "Thai Glass Noodle Shrimp Salad (Yum Woon Sen)",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked peeled shrimp",
+      "cook_method": "chilled assembly / salad toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "servings": 4,
+      "ingredients": [
+        "1 lb poached shrimp",
+        "Mung bean glass noodles, cherry tomatoes, celery",
+        "Spicy fish sauce, lime juice, chili dressing, peanuts"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the cooked peeled shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled assembly / salad toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "salads,-wraps-&-chilled-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_085",
+      "title": "Vietnamese Fresh Spring Rolls with Shrimp (Goi Cuon)",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked peeled shrimp",
+      "cook_method": "chilled assembly / salad toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "servings": 4,
+      "ingredients": [
+        "Boiled shrimp halves, rice vermicelli",
+        "Fresh mint, Thai basil, cucumber strips, rice paper",
+        "Hoisin peanut dipping sauce with crushed peanuts"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the cooked peeled shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled assembly / salad toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "salads,-wraps-&-chilled-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_086",
+      "title": "Mediterranean Shrimp Salad with Feta & Cucumbers",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked peeled shrimp",
+      "cook_method": "chilled assembly / salad toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "servings": 4,
+      "ingredients": [
+        "Cooked shrimp, kalamata olives, cucumbers",
+        "Cherry tomatoes, crumbled feta cheese, red onion",
+        "Lemon oregano vinaigrette, warm pita"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the cooked peeled shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled assembly / salad toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "salads,-wraps-&-chilled-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_087",
+      "title": "Shrimp & Mango Avocado Summer Salad",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked peeled shrimp",
+      "cook_method": "chilled assembly / salad toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "servings": 4,
+      "ingredients": [
+        "Poached or grilled shrimp",
+        "Diced fresh mango, avocado, mixed baby greens",
+        "Citrus vinaigrette, toasted pumpkin seeds"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the cooked peeled shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled assembly / salad toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "salads,-wraps-&-chilled-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_088",
+      "title": "Cilantro Lime Shrimp Rice Bowls",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked peeled shrimp",
+      "cook_method": "chilled assembly / salad toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "servings": 4,
+      "ingredients": [
+        "Saut\u00e9ed cilantro lime shrimp",
+        "Brown rice or cauliflower rice base, black beans",
+        "Roasted corn, pico de gallo, avocado slices"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the cooked peeled shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled assembly / salad toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "salads,-wraps-&-chilled-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_089",
+      "title": "Crispy Shrimp Lettuce Wraps with Hoisin",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked peeled shrimp",
+      "cook_method": "chilled assembly / salad toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "servings": 4,
+      "ingredients": [
+        "Crispy cooked shrimp",
+        "Bibb lettuce cups, shredded carrots, cucumber",
+        "Hoisin drizzle, crushed peanuts, scallions"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the cooked peeled shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled assembly / salad toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "salads,-wraps-&-chilled-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_090",
+      "title": "Shrimp Salad Croissants with Chives",
+      "cuisine": "Salads,",
+      "protein_cut": "cooked peeled shrimp",
+      "cook_method": "chilled assembly / salad toss",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 5,
+      "servings": 4,
+      "ingredients": [
+        "Chopped cooked shrimp",
+        "Mayonnaise, fresh lemon juice, snipped chives, celery",
+        "Stuffed into warm flaky bakery croissants"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the cooked peeled shrimp dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using chilled assembly / salad toss for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "salads,-wraps-&-chilled-bowls",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_091",
+      "title": "Sheet-Pan Lemon Garlic Butter Shrimp & Asparagus",
+      "cuisine": "Quick",
+      "protein_cut": "shrimp with quick vegetables",
+      "cook_method": "sheet-pan / skillet",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "1 lb fresh asparagus, lemon wheels",
+        "Melted butter, minced garlic, roasted at 400\u00b0F in 8 mins"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp with quick vegetables dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using sheet-pan / skillet for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "quick-sheet-pan-&-fast-weeknight",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_092",
+      "title": "Sheet-Pan Shrimp Fajitas with Onions & Peppers",
+      "cuisine": "Quick",
+      "protein_cut": "shrimp with quick vegetables",
+      "cook_method": "sheet-pan / skillet",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Sliced bell peppers and red onions",
+        "Fajita spices, olive oil, flour tortillas"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp with quick vegetables dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using sheet-pan / skillet for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "quick-sheet-pan-&-fast-weeknight",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_093",
+      "title": "Sheet-Pan Honey Sriracha Shrimp & Broccoli",
+      "cuisine": "Quick",
+      "protein_cut": "shrimp with quick vegetables",
+      "cook_method": "sheet-pan / skillet",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Broccoli florets, honey sriracha glaze",
+        "Sesame seeds, baked on sheet pan in 10 mins"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp with quick vegetables dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using sheet-pan / skillet for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "quick-sheet-pan-&-fast-weeknight",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_094",
+      "title": "10-Minute Garlic Butter Shrimp with Rice",
+      "cuisine": "Quick",
+      "protein_cut": "shrimp with quick vegetables",
+      "cook_method": "sheet-pan / skillet",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "4 tbsp butter, 5 cloves minced garlic",
+        "Fresh lemon juice, parsley, served over white rice"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp with quick vegetables dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using sheet-pan / skillet for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "quick-sheet-pan-&-fast-weeknight",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_095",
+      "title": "Sheet-Pan Cajun Shrimp, Sausage & Corn",
+      "cuisine": "Quick",
+      "protein_cut": "shrimp with quick vegetables",
+      "cook_method": "sheet-pan / skillet",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1 lb shrimp, 1/2 lb smoked andouille coins",
+        "Corn on the cob rounds, baby potatoes (pre-boiled)",
+        "Cajun seasoning, melted butter, roasted 12 mins"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp with quick vegetables dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using sheet-pan / skillet for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "quick-sheet-pan-&-fast-weeknight",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_096",
+      "title": "Sheet-Pan Teriyaki Shrimp with Snow Peas",
+      "cuisine": "Quick",
+      "protein_cut": "shrimp with quick vegetables",
+      "cook_method": "sheet-pan / skillet",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs shrimp",
+        "Snow peas, red bell pepper slices, teriyaki sauce",
+        "Sesame seeds, baked at 400\u00b0F for 8 mins"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp with quick vegetables dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using sheet-pan / skillet for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "quick-sheet-pan-&-fast-weeknight",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_097",
+      "title": "Air-Fryer Crispy Coconut Shrimp",
+      "cuisine": "Quick",
+      "protein_cut": "shrimp with quick vegetables",
+      "cook_method": "sheet-pan / skillet",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1 lb jumbo shrimp",
+        "Coconut flake and panko breading",
+        "Air-fried at 390\u00b0F for 7 mins until crunchy golden"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp with quick vegetables dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using sheet-pan / skillet for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "quick-sheet-pan-&-fast-weeknight",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_098",
+      "title": "Air-Fryer Blackened Cajun Shrimp",
+      "cuisine": "Quick",
+      "protein_cut": "shrimp with quick vegetables",
+      "cook_method": "sheet-pan / skillet",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs peeled shrimp",
+        "Olive oil, spicy Cajun blackening seasoning",
+        "Air-fried at 400\u00b0F for 5 mins"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp with quick vegetables dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using sheet-pan / skillet for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "quick-sheet-pan-&-fast-weeknight",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_099",
+      "title": "Sweet Chili Pineapple Sheet-Pan Shrimp",
+      "cuisine": "Quick",
+      "protein_cut": "shrimp with quick vegetables",
+      "cook_method": "sheet-pan / skillet",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large shrimp",
+        "Fresh pineapple chunks, sweet chili glaze, scallions",
+        "Baked at 400\u00b0F for 8 mins until glazed"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp with quick vegetables dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using sheet-pan / skillet for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "quick-sheet-pan-&-fast-weeknight",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "shrimp_100",
+      "title": "One-Pan Garlic Butter Shrimp and Zucchini",
+      "cuisine": "Quick",
+      "protein_cut": "shrimp with quick vegetables",
+      "cook_method": "sheet-pan / skillet",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs shrimp",
+        "Sliced zucchini half-moons, garlic butter",
+        "Fresh lemon juice, skillet seared in 8 mins"
+      ],
+      "instructions": [
+        "Peel, devein, and pat the shrimp with quick vegetables dry with paper towels.",
+        "Season with kosher salt, black pepper, and signature spices.",
+        "Cook hot and fast using sheet-pan / skillet for 3-5 minutes just until pink and curled into a C-shape.",
+        "Toss with fresh lemon butter, pan sauces, or herb glazes and serve immediately."
+      ],
+      "potluck_tags": [
+        "shrimp",
+        "quick-sheet-pan-&-fast-weeknight",
+        "seafood",
+        "quick-cooking",
+        "potluck-friendly"
+      ]
+    }
+  ]
+}

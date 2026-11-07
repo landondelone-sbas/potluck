@@ -1,0 +1,2722 @@
+{
+  "total_recipes": 100,
+  "category": "Beef",
+  "recipes": [
+    {
+      "id": "beef_001",
+      "title": "Classic Slow-Braised Pot Roast",
+      "cuisine": "Comfort",
+      "protein_cut": "chuck roast / brisket",
+      "cook_method": "slow-braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 210,
+      "servings": 8,
+      "ingredients": [
+        "3.5 lbs beef chuck roast",
+        "2 cups beef broth",
+        "1 cup red wine",
+        "4 carrots",
+        "1 lb baby potatoes",
+        "Fresh rosemary and thyme"
+      ],
+      "instructions": [
+        "Prepare and season the chuck roast / brisket with kosher salt, cracked pepper, and signature spices.",
+        "Cook using slow-braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 210 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "comfort-braises-&-roasts",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_002",
+      "title": "Southern Country Beef Stew",
+      "cuisine": "Comfort",
+      "protein_cut": "chuck roast / brisket",
+      "cook_method": "slow-braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 210,
+      "servings": 8,
+      "ingredients": [
+        "2.5 lbs beef chuck cubes",
+        "4 cups beef stock",
+        "1 onion",
+        "3 potatoes",
+        "1 cup corn",
+        "1 can diced tomatoes"
+      ],
+      "instructions": [
+        "Prepare and season the chuck roast / brisket with kosher salt, cracked pepper, and signature spices.",
+        "Cook using slow-braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 210 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "comfort-braises-&-roasts",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_003",
+      "title": "Texas Smoked Beef Brisket",
+      "cuisine": "Comfort",
+      "protein_cut": "chuck roast / brisket",
+      "cook_method": "slow-braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 210,
+      "servings": 8,
+      "ingredients": [
+        "5 lbs beef brisket flat",
+        "2 tbsp coarse black pepper",
+        "2 tbsp kosher salt",
+        "1 tbsp garlic powder",
+        "Apple cider vinegar spritz"
+      ],
+      "instructions": [
+        "Prepare and season the chuck roast / brisket with kosher salt, cracked pepper, and signature spices.",
+        "Cook using slow-braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 210 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "comfort-braises-&-roasts",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_004",
+      "title": "Cabernet Braised Short Ribs",
+      "cuisine": "Comfort",
+      "protein_cut": "chuck roast / brisket",
+      "cook_method": "slow-braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 210,
+      "servings": 8,
+      "ingredients": [
+        "4 lbs bone-in English short ribs",
+        "1 bottle Cabernet Sauvignon",
+        "2 cups beef stock",
+        "Carrots, celery, onions, tomato paste"
+      ],
+      "instructions": [
+        "Prepare and season the chuck roast / brisket with kosher salt, cracked pepper, and signature spices.",
+        "Cook using slow-braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 210 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "comfort-braises-&-roasts",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_005",
+      "title": "Balsamic Glazed Short Ribs",
+      "cuisine": "Comfort",
+      "protein_cut": "chuck roast / brisket",
+      "cook_method": "slow-braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 210,
+      "servings": 8,
+      "ingredients": [
+        "3 lbs boneless short ribs",
+        "3/4 cup aged balsamic vinegar",
+        "2 cups beef broth",
+        "1/3 cup brown sugar",
+        "Fresh rosemary"
+      ],
+      "instructions": [
+        "Prepare and season the chuck roast / brisket with kosher salt, cracked pepper, and signature spices.",
+        "Cook using slow-braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 210 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "comfort-braises-&-roasts",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_006",
+      "title": "Belgian Carbonnade Flamande",
+      "cuisine": "Comfort",
+      "protein_cut": "chuck roast / brisket",
+      "cook_method": "slow-braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 210,
+      "servings": 8,
+      "ingredients": [
+        "3 lbs beef chuck cubes",
+        "2 bottles Belgian brown ale",
+        "2 slices bread with Dijon mustard",
+        "3 onions",
+        "Thyme"
+      ],
+      "instructions": [
+        "Prepare and season the chuck roast / brisket with kosher salt, cracked pepper, and signature spices.",
+        "Cook using slow-braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 210 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "comfort-braises-&-roasts",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_007",
+      "title": "German Sauerbraten Pot Roast",
+      "cuisine": "Comfort",
+      "protein_cut": "chuck roast / brisket",
+      "cook_method": "slow-braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 210,
+      "servings": 8,
+      "ingredients": [
+        "3.5 lbs rump roast",
+        "1 cup red wine vinegar",
+        "1 cup red wine",
+        "Crushed gingersnaps",
+        "Cloves, bay leaf"
+      ],
+      "instructions": [
+        "Prepare and season the chuck roast / brisket with kosher salt, cracked pepper, and signature spices.",
+        "Cook using slow-braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 210 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "comfort-braises-&-roasts",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_008",
+      "title": "French Daube de Boeuf",
+      "cuisine": "Comfort",
+      "protein_cut": "chuck roast / brisket",
+      "cook_method": "slow-braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 210,
+      "servings": 8,
+      "ingredients": [
+        "3 lbs chuck cubes",
+        "1 bottle red wine",
+        "2 strips orange peel",
+        "1 cup black olives",
+        "Carrots, garlic, thyme"
+      ],
+      "instructions": [
+        "Prepare and season the chuck roast / brisket with kosher salt, cracked pepper, and signature spices.",
+        "Cook using slow-braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 210 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "comfort-braises-&-roasts",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_009",
+      "title": "Beef Shank in Porter Ale Gravy",
+      "cuisine": "Comfort",
+      "protein_cut": "chuck roast / brisket",
+      "cook_method": "slow-braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 210,
+      "servings": 8,
+      "ingredients": [
+        "4 beef shanks with marrow",
+        "1 bottle dark porter beer",
+        "2 cups beef stock",
+        "Carrots, onions, butter"
+      ],
+      "instructions": [
+        "Prepare and season the chuck roast / brisket with kosher salt, cracked pepper, and signature spices.",
+        "Cook using slow-braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 210 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "comfort-braises-&-roasts",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_010",
+      "title": "Chicago Italian Shredded Beef",
+      "cuisine": "Comfort",
+      "protein_cut": "chuck roast / brisket",
+      "cook_method": "slow-braising",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 210,
+      "servings": 8,
+      "ingredients": [
+        "3.5 lbs chuck roast",
+        "1 jar pepperoncinis with brine",
+        "1 packet Italian dressing mix",
+        "2 cups beef broth",
+        "Giardiniera"
+      ],
+      "instructions": [
+        "Prepare and season the chuck roast / brisket with kosher salt, cracked pepper, and signature spices.",
+        "Cook using slow-braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 210 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "comfort-braises-&-roasts",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_011",
+      "title": "Authentic Beef Birria de Res",
+      "cuisine": "Mexican",
+      "protein_cut": "flank / skirt / chuck",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs chuck roast",
+        "1.5 lbs short ribs",
+        "4 dried guajillos",
+        "3 dried anchos",
+        "Cinnamon, oregano, cloves"
+      ],
+      "instructions": [
+        "Prepare and season the flank / skirt / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / grilled to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "mexican-&-latin-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_012",
+      "title": "Crispy Quesabirria Tacos",
+      "cuisine": "Mexican",
+      "protein_cut": "flank / skirt / chuck",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "3 cups shredded birria beef",
+        "2 cups birria consomm\u00e9",
+        "12 corn tortillas",
+        "2 cups Oaxaca cheese",
+        "Onion, cilantro"
+      ],
+      "instructions": [
+        "Prepare and season the flank / skirt / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / grilled to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "mexican-&-latin-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_013",
+      "title": "Carne Asada with Charred Limes",
+      "cuisine": "Mexican",
+      "protein_cut": "flank / skirt / chuck",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs skirt steak",
+        "1/3 cup orange juice",
+        "1/4 cup lime juice",
+        "1/4 cup soy sauce",
+        "Garlic, jalape\u00f1o, cumin"
+      ],
+      "instructions": [
+        "Prepare and season the flank / skirt / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / grilled to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "mexican-&-latin-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_014",
+      "title": "Mexican Picadillo con Papas",
+      "cuisine": "Mexican",
+      "protein_cut": "flank / skirt / chuck",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "2 potatoes, diced",
+        "1 can tomato sauce",
+        "Cumin, oregano, garlic",
+        "Warm tortillas"
+      ],
+      "instructions": [
+        "Prepare and season the flank / skirt / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / grilled to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "mexican-&-latin-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_015",
+      "title": "Peruvian Lomo Saltado",
+      "cuisine": "Mexican",
+      "protein_cut": "flank / skirt / chuck",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "1.25 lbs sirloin strips",
+        "1 lb crispy french fries",
+        "1 red onion wedges",
+        "2 tomatoes",
+        "Soy sauce, vinegar, aji amarillo"
+      ],
+      "instructions": [
+        "Prepare and season the flank / skirt / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / grilled to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "mexican-&-latin-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_016",
+      "title": "Argentine Baked Beef Empanadas",
+      "cuisine": "Mexican",
+      "protein_cut": "flank / skirt / chuck",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs hand-diced beef",
+        "12 empanada dough discs",
+        "2 onions",
+        "Hard-boiled eggs, green olives, cumin, paprika"
+      ],
+      "instructions": [
+        "Prepare and season the flank / skirt / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / grilled to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "mexican-&-latin-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_017",
+      "title": "Cuban Ropa Vieja",
+      "cuisine": "Mexican",
+      "protein_cut": "flank / skirt / chuck",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs flank steak",
+        "Bell peppers, onions",
+        "1 can crushed tomatoes",
+        "White wine, green olives, capers, cumin"
+      ],
+      "instructions": [
+        "Prepare and season the flank / skirt / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / grilled to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "mexican-&-latin-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_018",
+      "title": "Mexican Barbacoa Beef",
+      "cuisine": "Mexican",
+      "protein_cut": "flank / skirt / chuck",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "3.5 lbs chuck roast",
+        "4 chipotles in adobo",
+        "Apple cider vinegar, lime juice",
+        "Cumin, oregano, cloves"
+      ],
+      "instructions": [
+        "Prepare and season the flank / skirt / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / grilled to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "mexican-&-latin-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_019",
+      "title": "Mexican Caldo de Res Soup",
+      "cuisine": "Mexican",
+      "protein_cut": "flank / skirt / chuck",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs beef shanks",
+        "Corn on the cob rounds",
+        "Carrots, zucchini, cabbage",
+        "Potatoes, cilantro, lime"
+      ],
+      "instructions": [
+        "Prepare and season the flank / skirt / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / grilled to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "mexican-&-latin-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_020",
+      "title": "Crispy Beef Taquitos (Flautas)",
+      "cuisine": "Mexican",
+      "protein_cut": "flank / skirt / chuck",
+      "cook_method": "braised / grilled",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "2.5 cups shredded seasoned beef",
+        "16 corn tortillas",
+        "Cotija cheese, shredded lettuce, crema, guacamole"
+      ],
+      "instructions": [
+        "Prepare and season the flank / skirt / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / grilled to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "mexican-&-latin-classics",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_021",
+      "title": "Classic Beef Stroganoff",
+      "cuisine": "Steakhouse",
+      "protein_cut": "sirloin / ribeye / tenderloin",
+      "cook_method": "pan-searing & sauces",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sirloin strips",
+        "8 oz mushrooms",
+        "1.5 cups beef broth",
+        "1/2 cup sour cream",
+        "Wide egg noodles, chives"
+      ],
+      "instructions": [
+        "Prepare and season the sirloin / ribeye / tenderloin with kosher salt, cracked pepper, and signature spices.",
+        "Cook using pan-searing & sauces to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "steakhouse-&-skillet-favorites",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_022",
+      "title": "Garlic Butter Steak Bites",
+      "cuisine": "Steakhouse",
+      "protein_cut": "sirloin / ribeye / tenderloin",
+      "cook_method": "pan-searing & sauces",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sirloin cubes",
+        "4 tbsp butter",
+        "5 cloves garlic",
+        "Fresh rosemary, thyme",
+        "Lemon juice"
+      ],
+      "instructions": [
+        "Prepare and season the sirloin / ribeye / tenderloin with kosher salt, cracked pepper, and signature spices.",
+        "Cook using pan-searing & sauces to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "steakhouse-&-skillet-favorites",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_023",
+      "title": "Beef Au Poivre (Peppercorn)",
+      "cuisine": "Steakhouse",
+      "protein_cut": "sirloin / ribeye / tenderloin",
+      "cook_method": "pan-searing & sauces",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "2 NY strip steaks",
+        "2 tbsp cracked green & black peppercorns",
+        "1/3 cup cognac",
+        "1/2 cup heavy cream",
+        "Beef broth"
+      ],
+      "instructions": [
+        "Prepare and season the sirloin / ribeye / tenderloin with kosher salt, cracked pepper, and signature spices.",
+        "Cook using pan-searing & sauces to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "steakhouse-&-skillet-favorites",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_024",
+      "title": "Salisbury Steak with Onion Gravy",
+      "cuisine": "Steakhouse",
+      "protein_cut": "sirloin / ribeye / tenderloin",
+      "cook_method": "pan-searing & sauces",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "Breadcrumbs, egg",
+        "Mushroom onion brown gravy",
+        "Mashed potatoes"
+      ],
+      "instructions": [
+        "Prepare and season the sirloin / ribeye / tenderloin with kosher salt, cracked pepper, and signature spices.",
+        "Cook using pan-searing & sauces to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "steakhouse-&-skillet-favorites",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_025",
+      "title": "Philly Cheesesteak Skillet",
+      "cuisine": "Steakhouse",
+      "protein_cut": "sirloin / ribeye / tenderloin",
+      "cook_method": "pan-searing & sauces",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1 lb shaved ribeye",
+        "Bell peppers, onions, mushrooms",
+        "Provolone cheese slices",
+        "Toasted hoagie rolls"
+      ],
+      "instructions": [
+        "Prepare and season the sirloin / ribeye / tenderloin with kosher salt, cracked pepper, and signature spices.",
+        "Cook using pan-searing & sauces to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "steakhouse-&-skillet-favorites",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_026",
+      "title": "Mongolian Crispy Beef",
+      "cuisine": "Steakhouse",
+      "protein_cut": "sirloin / ribeye / tenderloin",
+      "cook_method": "pan-searing & sauces",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs flank steak",
+        "1/2 cup cornstarch",
+        "Soy sauce, dark brown sugar, garlic, ginger",
+        "Scallions"
+      ],
+      "instructions": [
+        "Prepare and season the sirloin / ribeye / tenderloin with kosher salt, cracked pepper, and signature spices.",
+        "Cook using pan-searing & sauces to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "steakhouse-&-skillet-favorites",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_027",
+      "title": "Szechuan Cumin Beef",
+      "cuisine": "Steakhouse",
+      "protein_cut": "sirloin / ribeye / tenderloin",
+      "cook_method": "pan-searing & sauces",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs flank steak",
+        "2 tbsp toasted cumin seeds",
+        "Chili flakes, scallions, bell peppers",
+        "Soy sauce, wine"
+      ],
+      "instructions": [
+        "Prepare and season the sirloin / ribeye / tenderloin with kosher salt, cracked pepper, and signature spices.",
+        "Cook using pan-searing & sauces to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "steakhouse-&-skillet-favorites",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_028",
+      "title": "Hunan Spicy Beef",
+      "cuisine": "Steakhouse",
+      "protein_cut": "sirloin / ribeye / tenderloin",
+      "cook_method": "pan-searing & sauces",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs flank steak",
+        "Fermented black beans",
+        "Chili bean paste, garlic, bell peppers",
+        "Soy sauce"
+      ],
+      "instructions": [
+        "Prepare and season the sirloin / ribeye / tenderloin with kosher salt, cracked pepper, and signature spices.",
+        "Cook using pan-searing & sauces to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "steakhouse-&-skillet-favorites",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_029",
+      "title": "Beef with Broccoli in Brown Sauce",
+      "cuisine": "Steakhouse",
+      "protein_cut": "sirloin / ribeye / tenderloin",
+      "cook_method": "pan-searing & sauces",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs flank steak",
+        "4 cups broccoli florets",
+        "Oyster sauce, soy sauce, garlic, ginger",
+        "Sesame oil"
+      ],
+      "instructions": [
+        "Prepare and season the sirloin / ribeye / tenderloin with kosher salt, cracked pepper, and signature spices.",
+        "Cook using pan-searing & sauces to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "steakhouse-&-skillet-favorites",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_030",
+      "title": "Vietnamese Shaking Beef (Bo Luc Lac)",
+      "cuisine": "Steakhouse",
+      "protein_cut": "sirloin / ribeye / tenderloin",
+      "cook_method": "pan-searing & sauces",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs tenderloin cubes",
+        "Soy sauce, fish sauce, oyster sauce",
+        "Watercress, red onion salad",
+        "Lime pepper dip"
+      ],
+      "instructions": [
+        "Prepare and season the sirloin / ribeye / tenderloin with kosher salt, cracked pepper, and signature spices.",
+        "Cook using pan-searing & sauces to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "steakhouse-&-skillet-favorites",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_031",
+      "title": "Traditional Rag\u00f9 alla Bolognese",
+      "cuisine": "Italian",
+      "protein_cut": "top round / ground beef / chuck",
+      "cook_method": "braised / baked",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "1/2 lb pork",
+        "Pancetta, carrots, celery, onion",
+        "White wine, milk, crushed tomatoes"
+      ],
+      "instructions": [
+        "Prepare and season the top round / ground beef / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / baked to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "italian-&-mediterranean-beef",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_032",
+      "title": "Italian Beef Braciole in Marinara",
+      "cuisine": "Italian",
+      "protein_cut": "top round / ground beef / chuck",
+      "cook_method": "braised / baked",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs top round cutlets",
+        "Prosciutto, pecorino, breadcrumbs, garlic",
+        "Red wine, marinara sauce",
+        "Rigatoni"
+      ],
+      "instructions": [
+        "Prepare and season the top round / ground beef / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / baked to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "italian-&-mediterranean-beef",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_033",
+      "title": "Osso Buco-Style Beef Shanks",
+      "cuisine": "Italian",
+      "protein_cut": "top round / ground beef / chuck",
+      "cook_method": "braised / baked",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "4 beef shanks with bone",
+        "White wine, beef broth, tomatoes",
+        "Carrots, celery, onion",
+        "Lemon garlic gremolata"
+      ],
+      "instructions": [
+        "Prepare and season the top round / ground beef / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / baked to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "italian-&-mediterranean-beef",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_034",
+      "title": "Greek Beef Stifado",
+      "cuisine": "Italian",
+      "protein_cut": "top round / ground beef / chuck",
+      "cook_method": "braised / baked",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chuck chunks",
+        "1.5 lbs whole pearl onions",
+        "Red wine, vinegar, crushed tomatoes",
+        "Cinnamon stick, allspice"
+      ],
+      "instructions": [
+        "Prepare and season the top round / ground beef / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / baked to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "italian-&-mediterranean-beef",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_035",
+      "title": "Italian Sunday Meatballs in Marinara",
+      "cuisine": "Italian",
+      "protein_cut": "top round / ground beef / chuck",
+      "cook_method": "braised / baked",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "1/2 lb pork",
+        "Breadcrumbs, milk, pecorino, garlic",
+        "Slow-cooked marinara, spaghetti"
+      ],
+      "instructions": [
+        "Prepare and season the top round / ground beef / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / baked to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "italian-&-mediterranean-beef",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_036",
+      "title": "Cheesy Baked Beef Ziti",
+      "cuisine": "Italian",
+      "protein_cut": "top round / ground beef / chuck",
+      "cook_method": "braised / baked",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "1 lb ziti pasta",
+        "Marinara sauce, ricotta cheese",
+        "Mozzarella and parmesan"
+      ],
+      "instructions": [
+        "Prepare and season the top round / ground beef / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / baked to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "italian-&-mediterranean-beef",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_037",
+      "title": "Greek Beef Moussaka",
+      "cuisine": "Italian",
+      "protein_cut": "top round / ground beef / chuck",
+      "cook_method": "braised / baked",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "2 eggplants, sliced",
+        "Potatoes, crushed tomatoes, cinnamon",
+        "Golden b\u00e9chamel sauce"
+      ],
+      "instructions": [
+        "Prepare and season the top round / ground beef / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / baked to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "italian-&-mediterranean-beef",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_038",
+      "title": "Beef Carpaccio with Arugula",
+      "cuisine": "Italian",
+      "protein_cut": "top round / ground beef / chuck",
+      "cook_method": "braised / baked",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "1/2 lb beef tenderloin, paper-thin",
+        "Baby arugula, shaved parmesan",
+        "Extra virgin olive oil, lemon juice, capers"
+      ],
+      "instructions": [
+        "Prepare and season the top round / ground beef / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / baked to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "italian-&-mediterranean-beef",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_039",
+      "title": "Italian Slow-Cooker Beef Ragu",
+      "cuisine": "Italian",
+      "protein_cut": "top round / ground beef / chuck",
+      "cook_method": "braised / baked",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chuck roast",
+        "San Marzano tomatoes, red wine",
+        "Carrots, garlic, herbs",
+        "Fresh pappardelle pasta"
+      ],
+      "instructions": [
+        "Prepare and season the top round / ground beef / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / baked to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "italian-&-mediterranean-beef",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_040",
+      "title": "Spanish Beef Albondigas Tapas",
+      "cuisine": "Italian",
+      "protein_cut": "top round / ground beef / chuck",
+      "cook_method": "braised / baked",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 90,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "Breadcrumbs, egg, garlic",
+        "Smoked paprika tomato sauce",
+        "White wine, crusty bread"
+      ],
+      "instructions": [
+        "Prepare and season the top round / ground beef / chuck with kosher salt, cracked pepper, and signature spices.",
+        "Cook using braised / baked to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 90 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "italian-&-mediterranean-beef",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_041",
+      "title": "Japanese Gyudon Beef Rice Bowl",
+      "cuisine": "Asian",
+      "protein_cut": "shaved ribeye / flank / shank",
+      "cook_method": "stir-fry / soup",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "1 lb shaved ribeye",
+        "1 large sweet onion",
+        "Dashi stock, soy sauce, mirin, sake, sugar",
+        "Steamed rice, pickled ginger"
+      ],
+      "instructions": [
+        "Prepare and season the shaved ribeye / flank / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using stir-fry / soup to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 45 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "asian-noodle-&-rice-specialties",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_042",
+      "title": "Korean Beef Bulgogi",
+      "cuisine": "Asian",
+      "protein_cut": "shaved ribeye / flank / shank",
+      "cook_method": "stir-fry / soup",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs sliced ribeye",
+        "Soy sauce, brown sugar, asian pear, garlic",
+        "Sesame oil, scallions",
+        "Lettuce wraps, ssamjang"
+      ],
+      "instructions": [
+        "Prepare and season the shaved ribeye / flank / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using stir-fry / soup to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 45 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "asian-noodle-&-rice-specialties",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_043",
+      "title": "Taiwanese Beef Noodle Soup",
+      "cuisine": "Asian",
+      "protein_cut": "shaved ribeye / flank / shank",
+      "cook_method": "stir-fry / soup",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "3 lbs beef shank",
+        "Spicy bean paste, star anise, ginger",
+        "Shaoxing wine, soy sauce, rock sugar",
+        "Thick noodles, bok choy"
+      ],
+      "instructions": [
+        "Prepare and season the shaved ribeye / flank / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using stir-fry / soup to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 45 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "asian-noodle-&-rice-specialties",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_044",
+      "title": "Vietnamese Beef Pho (Pho Bo)",
+      "cuisine": "Asian",
+      "protein_cut": "shaved ribeye / flank / shank",
+      "cook_method": "stir-fry / soup",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "4 lbs marrow bones, brisket",
+        "Charred ginger and onion, star anise, cinnamon",
+        "Fish sauce, rock sugar",
+        "Rice noodles, herbs"
+      ],
+      "instructions": [
+        "Prepare and season the shaved ribeye / flank / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using stir-fry / soup to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 45 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "asian-noodle-&-rice-specialties",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_045",
+      "title": "Cantonese Beef Chow Fun",
+      "cuisine": "Asian",
+      "protein_cut": "shaved ribeye / flank / shank",
+      "cook_method": "stir-fry / soup",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "1 lb flank steak",
+        "1 lb fresh wide rice noodles (ho fun)",
+        "Bean sprouts, scallions, light & dark soy",
+        "Shaoxing wine"
+      ],
+      "instructions": [
+        "Prepare and season the shaved ribeye / flank / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using stir-fry / soup to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 45 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "asian-noodle-&-rice-specialties",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_046",
+      "title": "Korean Beef Japchae",
+      "cuisine": "Asian",
+      "protein_cut": "shaved ribeye / flank / shank",
+      "cook_method": "stir-fry / soup",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "1/2 lb sirloin matchsticks",
+        "Sweet potato glass noodles",
+        "Spinach, carrots, shiitake mushrooms",
+        "Sesame soy dressing"
+      ],
+      "instructions": [
+        "Prepare and season the shaved ribeye / flank / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using stir-fry / soup to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 45 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "asian-noodle-&-rice-specialties",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_047",
+      "title": "Korean Yukgaejang (Spicy Soup)",
+      "cuisine": "Asian",
+      "protein_cut": "shaved ribeye / flank / shank",
+      "cook_method": "stir-fry / soup",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs shredded brisket",
+        "Gochugaru chili paste, scallions",
+        "Bean sprouts, glass noodles, egg ribbons",
+        "Rice"
+      ],
+      "instructions": [
+        "Prepare and season the shaved ribeye / flank / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using stir-fry / soup to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 45 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "asian-noodle-&-rice-specialties",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_048",
+      "title": "Szechuan Boiled Beef in Chili Oil",
+      "cuisine": "Asian",
+      "protein_cut": "shaved ribeye / flank / shank",
+      "cook_method": "stir-fry / soup",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "1 lb velveted flank steak",
+        "Spicy bean paste, Napa cabbage",
+        "Szechuan peppercorns, dried chilies",
+        "Sizzling oil pour"
+      ],
+      "instructions": [
+        "Prepare and season the shaved ribeye / flank / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using stir-fry / soup to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 45 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "asian-noodle-&-rice-specialties",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_049",
+      "title": "Cantonese Beef Brisket & Daikon",
+      "cuisine": "Asian",
+      "protein_cut": "shaved ribeye / flank / shank",
+      "cook_method": "stir-fry / soup",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "2.5 lbs brisket and tendon",
+        "1 large daikon radish",
+        "Star anise, dried tangerine peel, ginger",
+        "Rock sugar broth"
+      ],
+      "instructions": [
+        "Prepare and season the shaved ribeye / flank / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using stir-fry / soup to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 45 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "asian-noodle-&-rice-specialties",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_050",
+      "title": "Thai Waterfall Beef Salad (Nam Tok)",
+      "cuisine": "Asian",
+      "protein_cut": "shaved ribeye / flank / shank",
+      "cook_method": "stir-fry / soup",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 45,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs grilled sirloin",
+        "Fish sauce, lime juice, chili flakes",
+        "Toasted sticky rice powder",
+        "Mint, cilantro, shallots"
+      ],
+      "instructions": [
+        "Prepare and season the shaved ribeye / flank / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using stir-fry / soup to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 45 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "asian-noodle-&-rice-specialties",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_051",
+      "title": "Indonesian Beef Rendang",
+      "cuisine": "Curries",
+      "protein_cut": "chuck / shank / short ribs",
+      "cook_method": "spiced curry simmer",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs chuck cubes",
+        "2 cans coconut milk",
+        "Galangal, lemongrass, chilies, shallots",
+        "Toasted coconut (kerisik), lime leaf"
+      ],
+      "instructions": [
+        "Prepare and season the chuck / shank / short ribs with kosher salt, cracked pepper, and signature spices.",
+        "Cook using spiced curry simmer to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 120 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "curries-&-spiced-stews",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_052",
+      "title": "Thai Massaman Beef Curry",
+      "cuisine": "Curries",
+      "protein_cut": "chuck / shank / short ribs",
+      "cook_method": "spiced curry simmer",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chuck chunks",
+        "Massaman curry paste, coconut milk",
+        "Potatoes, roasted peanuts, tamarind, palm sugar",
+        "Jasmine rice"
+      ],
+      "instructions": [
+        "Prepare and season the chuck / shank / short ribs with kosher salt, cracked pepper, and signature spices.",
+        "Cook using spiced curry simmer to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 120 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "curries-&-spiced-stews",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_053",
+      "title": "Pakistani Beef Nihari",
+      "cuisine": "Curries",
+      "protein_cut": "chuck / shank / short ribs",
+      "cook_method": "spiced curry simmer",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "3.5 lbs shank with marrow",
+        "Ghee, ginger-garlic",
+        "Fennel, cumin, coriander nihari masala",
+        "Wheat flour slurry, fresh ginger"
+      ],
+      "instructions": [
+        "Prepare and season the chuck / shank / short ribs with kosher salt, cracked pepper, and signature spices.",
+        "Cook using spiced curry simmer to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 120 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "curries-&-spiced-stews",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_054",
+      "title": "Pakistani Beef Haleem",
+      "cuisine": "Curries",
+      "protein_cut": "chuck / shank / short ribs",
+      "cook_method": "spiced curry simmer",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs shredded beef",
+        "Cracked wheat, five lentils",
+        "Fried onions, ghee, garam masala",
+        "Fresh mint, chaat masala"
+      ],
+      "instructions": [
+        "Prepare and season the chuck / shank / short ribs with kosher salt, cracked pepper, and signature spices.",
+        "Cook using spiced curry simmer to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 120 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "curries-&-spiced-stews",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_055",
+      "title": "Kerala Beef Fry (Ularthiyathu)",
+      "cuisine": "Curries",
+      "protein_cut": "chuck / shank / short ribs",
+      "cook_method": "spiced curry simmer",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs chuck cubes",
+        "Fresh coconut slices",
+        "Curry leaves, cracked black pepper, turmeric",
+        "Coconut oil, fennel"
+      ],
+      "instructions": [
+        "Prepare and season the chuck / shank / short ribs with kosher salt, cracked pepper, and signature spices.",
+        "Cook using spiced curry simmer to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 120 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "curries-&-spiced-stews",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_056",
+      "title": "Indian Beef Keema Matar",
+      "cuisine": "Curries",
+      "protein_cut": "chuck / shank / short ribs",
+      "cook_method": "spiced curry simmer",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "Green peas, onions, tomatoes",
+        "Coriander, cumin, turmeric, garam masala",
+        "Cilantro, warm naan"
+      ],
+      "instructions": [
+        "Prepare and season the chuck / shank / short ribs with kosher salt, cracked pepper, and signature spices.",
+        "Cook using spiced curry simmer to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 120 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "curries-&-spiced-stews",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_057",
+      "title": "Japanese Kar\u0113 Beef Curry",
+      "cuisine": "Curries",
+      "protein_cut": "chuck / shank / short ribs",
+      "cook_method": "spiced curry simmer",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs chuck cubes",
+        "Japanese curry roux blocks",
+        "Carrots, potatoes, onions, grated apple",
+        "Steamed short-grain rice"
+      ],
+      "instructions": [
+        "Prepare and season the chuck / shank / short ribs with kosher salt, cracked pepper, and signature spices.",
+        "Cook using spiced curry simmer to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 120 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "curries-&-spiced-stews",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_058",
+      "title": "Thai Red Beef Curry",
+      "cuisine": "Curries",
+      "protein_cut": "chuck / shank / short ribs",
+      "cook_method": "spiced curry simmer",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "1.25 lbs flank steak",
+        "Red curry paste, coconut milk",
+        "Bamboo shoots, red bell pepper",
+        "Fish sauce, Thai basil"
+      ],
+      "instructions": [
+        "Prepare and season the chuck / shank / short ribs with kosher salt, cracked pepper, and signature spices.",
+        "Cook using spiced curry simmer to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 120 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "curries-&-spiced-stews",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_059",
+      "title": "Moroccan Beef & Prune Tagine",
+      "cuisine": "Curries",
+      "protein_cut": "chuck / shank / short ribs",
+      "cook_method": "spiced curry simmer",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chuck chunks",
+        "Dried prunes, honey, cinnamon",
+        "Ginger, turmeric, saffron water",
+        "Sesame seeds, fried almonds"
+      ],
+      "instructions": [
+        "Prepare and season the chuck / shank / short ribs with kosher salt, cracked pepper, and signature spices.",
+        "Cook using spiced curry simmer to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 120 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "curries-&-spiced-stews",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_060",
+      "title": "Turkish Kuru Fasulye with Beef",
+      "cuisine": "Curries",
+      "protein_cut": "chuck / shank / short ribs",
+      "cook_method": "spiced curry simmer",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 120,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs chuck cubes",
+        "Dried white beans, soaked",
+        "Turkish red pepper paste, tomato paste",
+        "Butter, green chilies, rice"
+      ],
+      "instructions": [
+        "Prepare and season the chuck / shank / short ribs with kosher salt, cracked pepper, and signature spices.",
+        "Cook using spiced curry simmer to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 120 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "curries-&-spiced-stews",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_061",
+      "title": "Diner-Style Double Smash Burgers",
+      "cuisine": "Burgers,",
+      "protein_cut": "ground beef (80/20 chuck)",
+      "cook_method": "griddling / baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs ground chuck, 8 balls",
+        "American cheese slices",
+        "Brioche buns, toasted",
+        "Special sauce, pickles, onions"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef (80/20 chuck) with kosher salt, cracked pepper, and signature spices.",
+        "Cook using griddling / baking to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "burgers,-melts-&-sliders",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_062",
+      "title": "Classic Patty Melt on Marble Rye",
+      "cuisine": "Burgers,",
+      "protein_cut": "ground beef (80/20 chuck)",
+      "cook_method": "griddling / baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs ground chuck patties",
+        "Caramelized onions in butter",
+        "Swiss cheese slices",
+        "Grilled marble rye, thousand island"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef (80/20 chuck) with kosher salt, cracked pepper, and signature spices.",
+        "Cook using griddling / baking to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "burgers,-melts-&-sliders",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_063",
+      "title": "Old-Fashioned Glazed Meatloaf",
+      "cuisine": "Burgers,",
+      "protein_cut": "ground beef (80/20 chuck)",
+      "cook_method": "griddling / baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs ground beef, 1/2 lb pork",
+        "Panko, milk, saut\u00e9ed onion, eggs",
+        "Worcestershire, parsley",
+        "Brown sugar ketchup glaze"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef (80/20 chuck) with kosher salt, cracked pepper, and signature spices.",
+        "Cook using griddling / baking to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "burgers,-melts-&-sliders",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_064",
+      "title": "Bacon-Wrapped BBQ Meatballs",
+      "cuisine": "Burgers,",
+      "protein_cut": "ground beef (80/20 chuck)",
+      "cook_method": "griddling / baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "Breadcrumbs, egg, garlic",
+        "Bacon slices, halved",
+        "Sweet smoky BBQ glaze"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef (80/20 chuck) with kosher salt, cracked pepper, and signature spices.",
+        "Cook using griddling / baking to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "burgers,-melts-&-sliders",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_065",
+      "title": "Short Rib BBQ Sliders with Slaw",
+      "cuisine": "Burgers,",
+      "protein_cut": "ground beef (80/20 chuck)",
+      "cook_method": "griddling / baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "3 lbs boneless short ribs, braised",
+        "Stout beer, BBQ sauce",
+        "12 brioche slider buns",
+        "Pickled cabbage slaw"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef (80/20 chuck) with kosher salt, cracked pepper, and signature spices.",
+        "Cook using griddling / baking to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "burgers,-melts-&-sliders",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_066",
+      "title": "Philly Cheesesteak Sloppy Joes",
+      "cuisine": "Burgers,",
+      "protein_cut": "ground beef (80/20 chuck)",
+      "cook_method": "griddling / baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "Bell peppers, onions, mushrooms",
+        "Beef broth, Worcestershire",
+        "Provolone cheese, buns"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef (80/20 chuck) with kosher salt, cracked pepper, and signature spices.",
+        "Cook using griddling / baking to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "burgers,-melts-&-sliders",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_067",
+      "title": "French Dip Sandwiches with Au Jus",
+      "cuisine": "Burgers,",
+      "protein_cut": "ground beef (80/20 chuck)",
+      "cook_method": "griddling / baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "3 lbs chuck roast, slow-cooked",
+        "Beef broth, soy sauce, French onion soup",
+        "Provolone, baguette rolls",
+        "Warm au jus dip"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef (80/20 chuck) with kosher salt, cracked pepper, and signature spices.",
+        "Cook using griddling / baking to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "burgers,-melts-&-sliders",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_068",
+      "title": "Sweet & Tangy Cocktail Meatballs",
+      "cuisine": "Burgers,",
+      "protein_cut": "ground beef (80/20 chuck)",
+      "cook_method": "griddling / baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "2 lbs cocktail meatballs",
+        "Chili sauce (Heinz)",
+        "Grape jelly, Dijon mustard",
+        "Slow-cooker glaze, toothpicks"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef (80/20 chuck) with kosher salt, cracked pepper, and signature spices.",
+        "Cook using griddling / baking to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "burgers,-melts-&-sliders",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_069",
+      "title": "Hawaiian Loco Moco with Gravy",
+      "cuisine": "Burgers,",
+      "protein_cut": "ground beef (80/20 chuck)",
+      "cook_method": "griddling / baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs ground chuck patties",
+        "4 cups steamed white rice",
+        "Rich brown mushroom beef gravy",
+        "Sunny-side up fried eggs"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef (80/20 chuck) with kosher salt, cracked pepper, and signature spices.",
+        "Cook using griddling / baking to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "burgers,-melts-&-sliders",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_070",
+      "title": "Pepper-Crusted Deli Pastrami",
+      "cuisine": "Burgers,",
+      "protein_cut": "ground beef (80/20 chuck)",
+      "cook_method": "griddling / baking",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 4,
+      "ingredients": [
+        "4 lbs cured brisket flat",
+        "Cracked coriander and black pepper rub",
+        "Applewood smoke, steam finish",
+        "Rye bread, spicy deli mustard"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef (80/20 chuck) with kosher salt, cracked pepper, and signature spices.",
+        "Cook using griddling / baking to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 15 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "burgers,-melts-&-sliders",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_071",
+      "title": "Homestyle Beef Chili with Beans",
+      "cuisine": "Hearty",
+      "protein_cut": "ground beef / chuck / shank",
+      "cook_method": "simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 60,
+      "servings": 8,
+      "ingredients": [
+        "2 lbs ground beef",
+        "Kidney beans, crushed tomatoes",
+        "Chili powder, cumin, smoked paprika",
+        "Cheddar, sour cream, scallions"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef / chuck / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using simmering to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 60 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "hearty-soups-&-chilis",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_072",
+      "title": "Creamy Beef and Shells Skillet",
+      "cuisine": "Hearty",
+      "protein_cut": "ground beef / chuck / shank",
+      "cook_method": "simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 60,
+      "servings": 8,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "Medium pasta shells, dry",
+        "Tomato sauce, beef broth",
+        "Heavy cream, sharp cheddar cheese"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef / chuck / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using simmering to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 60 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "hearty-soups-&-chilis",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_073",
+      "title": "Unstuffed Cabbage Roll Skillet",
+      "cuisine": "Hearty",
+      "protein_cut": "ground beef / chuck / shank",
+      "cook_method": "simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 60,
+      "servings": 8,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "Chopped green cabbage",
+        "Crushed tomatoes, tomato sauce",
+        "Cooked white rice, sour cream"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef / chuck / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using simmering to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 60 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "hearty-soups-&-chilis",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_074",
+      "title": "Mexican Beef Taco Skillet",
+      "cuisine": "Hearty",
+      "protein_cut": "ground beef / chuck / shank",
+      "cook_method": "simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 60,
+      "servings": 8,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "White rice, black beans, salsa",
+        "Taco seasoning, beef broth",
+        "Colby jack cheese, avocado"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef / chuck / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using simmering to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 60 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "hearty-soups-&-chilis",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_075",
+      "title": "Loaded Tater Tot Beef Casserole",
+      "cuisine": "Hearty",
+      "protein_cut": "ground beef / chuck / shank",
+      "cook_method": "simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 60,
+      "servings": 8,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "Frozen tater tots",
+        "Cream of mushroom soup, sour cream",
+        "Cheddar cheese, crumbled bacon"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef / chuck / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using simmering to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 60 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "hearty-soups-&-chilis",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_076",
+      "title": "Sheet-Pan Loaded Beef Nachos",
+      "cuisine": "Hearty",
+      "protein_cut": "ground beef / chuck / shank",
+      "cook_method": "simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 60,
+      "servings": 8,
+      "ingredients": [
+        "1 lb taco seasoned beef",
+        "Tortilla chips, black beans",
+        "Colby jack cheese, jalape\u00f1os",
+        "Pico de gallo, guacamole, crema"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef / chuck / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using simmering to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 60 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "hearty-soups-&-chilis",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_077",
+      "title": "American Chili Macaroni Skillet",
+      "cuisine": "Hearty",
+      "protein_cut": "ground beef / chuck / shank",
+      "cook_method": "simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 60,
+      "servings": 8,
+      "ingredients": [
+        "1.25 lbs ground beef",
+        "Elbow macaroni, kidney beans",
+        "Chili spices, tomato sauce, broth",
+        "Melted cheddar cheese"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef / chuck / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using simmering to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 60 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "hearty-soups-&-chilis",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_078",
+      "title": "Korean Short Rib Soup (Galbitang)",
+      "cuisine": "Hearty",
+      "protein_cut": "ground beef / chuck / shank",
+      "cook_method": "simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 60,
+      "servings": 8,
+      "ingredients": [
+        "3 lbs bone-in short ribs",
+        "Daikon radish, glass noodles",
+        "Clear aromatic broth, soup soy sauce",
+        "Scallions, black pepper"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef / chuck / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using simmering to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 60 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "hearty-soups-&-chilis",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_079",
+      "title": "Georgian Beef Kharcho Soup",
+      "cuisine": "Hearty",
+      "protein_cut": "ground beef / chuck / shank",
+      "cook_method": "simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 60,
+      "servings": 8,
+      "ingredients": [
+        "2 lbs brisket cubes",
+        "Ground walnuts, long-grain rice",
+        "Sour cherry plum paste (tkemali)",
+        "Khmeli suneli spices, cilantro"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef / chuck / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using simmering to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 60 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "hearty-soups-&-chilis",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_080",
+      "title": "Indonesian Oxtail Soup (Sop Buntut)",
+      "cuisine": "Hearty",
+      "protein_cut": "ground beef / chuck / shank",
+      "cook_method": "simmering",
+      "prep_time_minutes": 20,
+      "cook_time_minutes": 60,
+      "servings": 8,
+      "ingredients": [
+        "3.5 lbs oxtails, blanched",
+        "Nutmeg, cinnamon, cloves broth",
+        "Carrots, potatoes, tomatoes",
+        "Fried shallots, emping crackers"
+      ],
+      "instructions": [
+        "Prepare and season the ground beef / chuck / shank with kosher salt, cracked pepper, and signature spices.",
+        "Cook using simmering to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 60 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "hearty-soups-&-chilis",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_081",
+      "title": "Classic Beef Bourguignon",
+      "cuisine": "European",
+      "protein_cut": "tenderloin / chuck / round",
+      "cook_method": "roasting / braising",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 150,
+      "servings": 6,
+      "ingredients": [
+        "3 lbs chuck cubes",
+        "Dry red Burgundy wine, beef stock",
+        "Bacon lardons, pearl onions, mushrooms",
+        "Beurre mani\u00e9"
+      ],
+      "instructions": [
+        "Prepare and season the tenderloin / chuck / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using roasting / braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 150 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "european-showstoppers",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_082",
+      "title": "Traditional Beef Wellington",
+      "cuisine": "European",
+      "protein_cut": "tenderloin / chuck / round",
+      "cook_method": "roasting / braising",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 150,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs center-cut tenderloin",
+        "Mushroom duxelles, prosciutto",
+        "Puff pastry, egg wash",
+        "Flaky sea salt"
+      ],
+      "instructions": [
+        "Prepare and season the tenderloin / chuck / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using roasting / braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 150 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "european-showstoppers",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_083",
+      "title": "Hungarian Beef Goulash",
+      "cuisine": "European",
+      "protein_cut": "tenderloin / chuck / round",
+      "cook_method": "roasting / braising",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 150,
+      "servings": 6,
+      "ingredients": [
+        "2.5 lbs chuck cubes",
+        "Sweet Hungarian paprika, caraway",
+        "Carrots, potatoes, egg dumplings",
+        "Beef broth, onions"
+      ],
+      "instructions": [
+        "Prepare and season the tenderloin / chuck / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using roasting / braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 150 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "european-showstoppers",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_084",
+      "title": "British Cottage Pie with Cheddar",
+      "cuisine": "European",
+      "protein_cut": "tenderloin / chuck / round",
+      "cook_method": "roasting / braising",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 150,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground beef",
+        "Peas, carrots, onions, Worcestershire",
+        "Beef gravy",
+        "Sharp cheddar mashed potatoes"
+      ],
+      "instructions": [
+        "Prepare and season the tenderloin / chuck / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using roasting / braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 150 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "european-showstoppers",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_085",
+      "title": "German Rouladen with Bacon & Pickles",
+      "cuisine": "European",
+      "protein_cut": "tenderloin / chuck / round",
+      "cook_method": "roasting / braising",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 150,
+      "servings": 6,
+      "ingredients": [
+        "4 top round cutlets",
+        "German mustard, bacon, onions, pickles",
+        "Red wine braising gravy",
+        "Spaetzle, red cabbage"
+      ],
+      "instructions": [
+        "Prepare and season the tenderloin / chuck / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using roasting / braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 150 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "european-showstoppers",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_086",
+      "title": "Portuguese Bife a Cavalo",
+      "cuisine": "European",
+      "protein_cut": "tenderloin / chuck / round",
+      "cook_method": "roasting / braising",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 150,
+      "servings": 6,
+      "ingredients": [
+        "4 sirloin steaks",
+        "Garlic, white wine, bay leaf butter sauce",
+        "Sunny-side fried eggs",
+        "Shoestring french fries"
+      ],
+      "instructions": [
+        "Prepare and season the tenderloin / chuck / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using roasting / braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 150 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "european-showstoppers",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_087",
+      "title": "Swedish Meatballs with Cream Gravy",
+      "cuisine": "European",
+      "protein_cut": "tenderloin / chuck / round",
+      "cook_method": "roasting / braising",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 150,
+      "servings": 6,
+      "ingredients": [
+        "1 lb beef, 1/2 lb pork",
+        "Allspice, nutmeg, cream-soaked breadcrumbs",
+        "Velvety cream pan gravy",
+        "Lingonberry jam, mash"
+      ],
+      "instructions": [
+        "Prepare and season the tenderloin / chuck / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using roasting / braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 150 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "european-showstoppers",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_088",
+      "title": "South African Bobotie with Custard",
+      "cuisine": "European",
+      "protein_cut": "tenderloin / chuck / round",
+      "cook_method": "roasting / braising",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 150,
+      "servings": 6,
+      "ingredients": [
+        "2 lbs lean ground beef",
+        "Curry powder, apricot jam, sultanas",
+        "Milk and egg savory custard top",
+        "Bay leaves, yellow rice"
+      ],
+      "instructions": [
+        "Prepare and season the tenderloin / chuck / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using roasting / braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 150 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "european-showstoppers",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_089",
+      "title": "Ethiopian Minchet Abish",
+      "cuisine": "European",
+      "protein_cut": "tenderloin / chuck / round",
+      "cook_method": "roasting / braising",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 150,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs extra-lean ground beef",
+        "Berbere spice, niter kibbeh spiced butter",
+        "Fenugreek, garlic, ginger",
+        "Hard-boiled eggs, injera"
+      ],
+      "instructions": [
+        "Prepare and season the tenderloin / chuck / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using roasting / braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 150 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "european-showstoppers",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_090",
+      "title": "Middle Eastern Beef Kofta Kebabs",
+      "cuisine": "European",
+      "protein_cut": "tenderloin / chuck / round",
+      "cook_method": "roasting / braising",
+      "prep_time_minutes": 30,
+      "cook_time_minutes": 150,
+      "servings": 6,
+      "ingredients": [
+        "1.5 lbs ground beef, 1/2 lb lamb",
+        "Grated onion, parsley, cumin, coriander",
+        "Flat metal skewers",
+        "Hummus, warm pita, tahini"
+      ],
+      "instructions": [
+        "Prepare and season the tenderloin / chuck / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using roasting / braising to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 150 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "european-showstoppers",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_091",
+      "title": "Chipotle Beef Barbacoa Bowls",
+      "cuisine": "Modern",
+      "protein_cut": "lean sirloin / flank / round",
+      "cook_method": "sheet-pan / bowl assembly",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "Shredded barbacoa beef",
+        "Cilantro lime brown rice",
+        "Black beans, roasted corn",
+        "Avocado, chipotle crema"
+      ],
+      "instructions": [
+        "Prepare and season the lean sirloin / flank / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using sheet-pan / bowl assembly to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "modern-healthy-&-bowls",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_092",
+      "title": "Korean Ground Beef Rice Bowls",
+      "cuisine": "Modern",
+      "protein_cut": "lean sirloin / flank / round",
+      "cook_method": "sheet-pan / bowl assembly",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs lean ground beef",
+        "Soy sauce, brown sugar, sesame oil",
+        "Cucumbers, scallions, sesame seeds",
+        "Fried sunny-side eggs"
+      ],
+      "instructions": [
+        "Prepare and season the lean sirloin / flank / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using sheet-pan / bowl assembly to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "modern-healthy-&-bowls",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_093",
+      "title": "Asian Beef Lettuce Wraps",
+      "cuisine": "Modern",
+      "protein_cut": "lean sirloin / flank / round",
+      "cook_method": "sheet-pan / bowl assembly",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.25 lbs lean ground beef",
+        "Diced water chestnuts, scallions",
+        "Hoisin, soy, rice vinegar, sriracha",
+        "Crisp iceberg lettuce cups"
+      ],
+      "instructions": [
+        "Prepare and season the lean sirloin / flank / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using sheet-pan / bowl assembly to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "modern-healthy-&-bowls",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_094",
+      "title": "Philly Cheesesteak Stuffed Peppers",
+      "cuisine": "Modern",
+      "protein_cut": "lean sirloin / flank / round",
+      "cook_method": "sheet-pan / bowl assembly",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1 lb shaved ribeye",
+        "4 bell peppers, halved",
+        "Caramelized onions and mushrooms",
+        "Provolone cheese slices"
+      ],
+      "instructions": [
+        "Prepare and season the lean sirloin / flank / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using sheet-pan / bowl assembly to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "modern-healthy-&-bowls",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_095",
+      "title": "Korean Beef Bulgogi Tacos",
+      "cuisine": "Modern",
+      "protein_cut": "lean sirloin / flank / round",
+      "cook_method": "sheet-pan / bowl assembly",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "Thinly sliced bulgogi beef",
+        "Warm tortillas, sesame cabbage slaw",
+        "Gochujang crema",
+        "Scallions, sesame seeds"
+      ],
+      "instructions": [
+        "Prepare and season the lean sirloin / flank / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using sheet-pan / bowl assembly to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "modern-healthy-&-bowls",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_096",
+      "title": "Szechuan Scallion Pancake Rolls",
+      "cuisine": "Modern",
+      "protein_cut": "lean sirloin / flank / round",
+      "cook_method": "sheet-pan / bowl assembly",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "Sliced braised beef shank",
+        "Crispy scallion pancakes",
+        "Sweet bean sauce, cucumber matchsticks",
+        "Fresh cilantro"
+      ],
+      "instructions": [
+        "Prepare and season the lean sirloin / flank / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using sheet-pan / bowl assembly to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "modern-healthy-&-bowls",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_097",
+      "title": "Crispy Korean Beef Wontons",
+      "cuisine": "Modern",
+      "protein_cut": "lean sirloin / flank / round",
+      "cook_method": "sheet-pan / bowl assembly",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1 lb ground beef, cabbage, garlic",
+        "24 wonton wrappers",
+        "Pan-fried crispy bottoms",
+        "Soy chili dipping sauce"
+      ],
+      "instructions": [
+        "Prepare and season the lean sirloin / flank / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using sheet-pan / bowl assembly to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "modern-healthy-&-bowls",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_098",
+      "title": "Egyptian Hawawshi Stuffed Pita",
+      "cuisine": "Modern",
+      "protein_cut": "lean sirloin / flank / round",
+      "cook_method": "sheet-pan / bowl assembly",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1 lb ground beef with spices",
+        "4 round pita breads",
+        "Onions, bell pepper, allspice",
+        "Ghee brushed, crisped in skillet"
+      ],
+      "instructions": [
+        "Prepare and season the lean sirloin / flank / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using sheet-pan / bowl assembly to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "modern-healthy-&-bowls",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_099",
+      "title": "Sheet-Pan Chimichurri Steak & Peppers",
+      "cuisine": "Modern",
+      "protein_cut": "lean sirloin / flank / round",
+      "cook_method": "sheet-pan / bowl assembly",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs flank steak strips",
+        "Bell peppers, red onion wedges",
+        "Olive oil, cumin, oregano",
+        "Fresh herb chimichurri"
+      ],
+      "instructions": [
+        "Prepare and season the lean sirloin / flank / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using sheet-pan / bowl assembly to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "modern-healthy-&-bowls",
+        "potluck-friendly"
+      ]
+    },
+    {
+      "id": "beef_100",
+      "title": "Cheesy Beef Enchilada Dip",
+      "cuisine": "Modern",
+      "protein_cut": "lean sirloin / flank / round",
+      "cook_method": "sheet-pan / bowl assembly",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 20,
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs ground beef with taco spices",
+        "Enchilada sauce, cream cheese, black beans",
+        "Colby jack cheese",
+        "Tortilla chips"
+      ],
+      "instructions": [
+        "Prepare and season the lean sirloin / flank / round with kosher salt, cracked pepper, and signature spices.",
+        "Cook using sheet-pan / bowl assembly to achieve optimal tenderness, rich sear, or savory reduction.",
+        "Incorporate regional aromatics and sauces, simmering 20 mins until flavors meld.",
+        "Rest if needed, adjust seasoning, and serve hot with traditional accompaniments."
+      ],
+      "potluck_tags": [
+        "beef",
+        "modern-healthy-&-bowls",
+        "potluck-friendly"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "theme": "pork",
+  "count": 3,
+  "skipped_note": "Rules 2 and 3 relaxed. Sourced from NotebookLM. Added Best Juicy Pork Tenderloin (Inspired Taste). Excluded: BBQ ribs (Smithfield), Slow Cooker Pulled Pork (Fifteen Spatulas, 6-8 hrs exceeds realistic dinner limits), Pork Roast with Crispy Crackling (RecipeTin Eats, 3h35m), and Know Your Pork Cuts reference sheet (chart/temperature guide only).",
+  "recipes": [
+    {
+      "id": "pork_001",
+      "title": "The Best Juicy Skillet Pork Chops",
+      "cuisine": "comfort",
+      "format": "plate",
+      "source": {
+        "name": "Inspired Taste",
+        "location": "Source 3ad8f7cc-b551-4c0e-92b9-8a0a1e2e776a"
+      },
+      "servings": 4,
+      "prep_minutes": 30,
+      "cook_minutes": 15,
+      "ingredients": [
+        {
+          "quantity": "4",
+          "unit": "chops",
+          "name": "bone-in or boneless pork chops (about 1 inch thick, 6 to 7 oz each)",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "fine sea salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "freshly ground black pepper",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "chili powder",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "garlic powder",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "onion powder",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "smoked paprika",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "all-purpose flour",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "avocado oil (or high smoke-point cooking oil)",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "cup",
+          "name": "low-sodium chicken stock or broth",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "apple cider vinegar",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "honey",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "unsalted butter",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "fresh parsley, chopped",
+          "role": "spice",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Take pork chops out of the refrigerator and let rest at room temperature for 30 minutes.",
+        "In a small bowl, combine salt, black pepper, chili powder, garlic powder, onion powder, and smoked paprika. Rub the spice blend evenly over all sides of the chops.",
+        "Dust both sides of each pork chop lightly with all-purpose flour, tapping off any excess.",
+        "Heat avocado oil in a large skillet (cast iron or stainless steel) over medium-high heat until shimmering.",
+        "Add the pork chops to the skillet and sear undisturbed for 3 to 4 minutes until a deep golden-brown crust forms.",
+        "Flip the chops and cook the other side for an additional 3 to 4 minutes, or until an instant-read meat thermometer inserted into the thickest part reads 135\u00b0F for medium.",
+        "Transfer pork chops to a warm plate and tent loosely with foil to rest for 5 minutes (internal temperature will carry over to 145\u00b0F).",
+        "Pour off any excess grease from the skillet, leaving about 1 tablespoon. Lower heat to medium, then pour in the chicken stock, apple cider vinegar, and honey, scraping up browned bits from the pan bottom.",
+        "Simmer the sauce until reduced by half, about 3 to 5 minutes.",
+        "Remove skillet from heat, swirl in unsalted butter until melted and glossy, and stir in chopped parsley.",
+        "Drizzle the pan sauce over the rested pork chops and serve."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Searing chops",
+          "target": "135\u00b0F internal pull (carries over to 145\u00b0F rested)"
+        }
+      ],
+      "swaps": "Can use boneless or bone-in thick chops; vegetable or canola oil can replace avocado oil.",
+      "notes": "Equipment: Large skillet (cast iron or heavy stainless steel), tongs, instant-read thermometer. Resting for 30 minutes before cooking ensures even browning."
+    },
+    {
+      "id": "pork_002",
+      "title": "Best Damn Pan Seared Pork Chops",
+      "cuisine": "comfort",
+      "format": "plate",
+      "source": {
+        "name": "Recipe Teacher",
+        "location": "Source 6ce7e13d-03d6-4a70-bd12-334d7922ec75"
+      },
+      "servings": 2,
+      "prep_minutes": 5,
+      "cook_minutes": 15,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "chops",
+          "name": "bone-in pork chops (at least 1 inch thick)",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "kosher salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "freshly cracked black pepper",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "avocado oil (or high smoke-point cooking oil)",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "tbsp",
+          "name": "unsalted butter",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "cloves",
+          "name": "garlic, peeled and gently crushed",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "sprigs",
+          "name": "fresh thyme",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "sprigs",
+          "name": "fresh rosemary",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Pat the pork chops completely dry with paper towels on both sides.",
+        "Season generously with kosher salt and freshly cracked black pepper all over.",
+        "Heat avocado oil in a cast iron skillet over medium-high heat until smoking lightly.",
+        "Carefully place pork chops in the skillet and sear for 4 to 5 minutes without moving until a golden-brown sear develops.",
+        "Flip the chops and cook for 3 minutes on the second side.",
+        "Turn heat to medium-low, add unsalted butter, crushed garlic cloves, thyme sprigs, and rosemary sprigs to the skillet.",
+        "Tilt the pan slightly and continuously spoon the foaming melted butter over the pork chops for 2 to 3 minutes until internal temperature reaches 140\u00b0F.",
+        "Remove chops from skillet and place on a cutting board or plate to rest for 5 minutes before serving (resting brings temperature to FDA-recommended 145\u00b0F)."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Pan basting",
+          "target": "140\u00b0F internal pull (carries over to 145\u00b0F rested)"
+        }
+      ],
+      "swaps": "Can use olive oil if heat is carefully managed; dried herbs can be used in a pinch (1/2 tsp each).",
+      "notes": "Equipment: Cast iron skillet, metal spoon for basting, instant-read thermometer. Continuous butter basting infuses aromatics and keeps the meat tender."
+    },
+    {
+      "id": "pork_003",
+      "title": "Best Juicy Pork Tenderloin",
+      "cuisine": "comfort",
+      "format": "plate",
+      "source": {
+        "name": "Inspired Taste",
+        "location": "Source 68429d5e-abd1-4397-9c24-b5f093402267"
+      },
+      "servings": 6,
+      "prep_minutes": 10,
+      "cook_minutes": 20,
+      "ingredients": [
+        {
+          "quantity": "2",
+          "unit": "tenderloins",
+          "name": "pork tenderloins (1 to 1.5 lbs each), trimmed of silver skin",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tsp",
+          "name": "kosher salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "freshly ground black pepper",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "tbsp",
+          "name": "canola or avocado oil",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "1.5",
+          "unit": "tbsp",
+          "name": "steak seasoning or dried herb blend (rosemary and thyme)",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.75",
+          "unit": "cup",
+          "name": "dry white wine or chicken broth",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "unsalted butter",
+          "role": "sauce",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Preheat the oven to 425\u00b0F (218\u00b0C).",
+        "Trim each pork tenderloin, using a sharp knife to slide under and remove any tough white silver skin. Pat completely dry with paper towels, then season generously with salt.",
+        "Heat 1 tablespoon of cooking oil in a large cast-iron skillet or heavy oven-safe pan over medium heat.",
+        "Add the tenderloins and cook, turning occasionally, until browned on all sides, about 2 minutes per side.",
+        "Remove skillet from direct heat and scatter the seasoning blend or herbs evenly over the pork.",
+        "Transfer skillet to the preheated oven and roast for 10 to 20 minutes, until an instant-read meat thermometer inserted into the thickest part reads 145\u00b0F to 150\u00b0F (63\u00b0C).",
+        "Transfer the pork to a cutting board and let rest for 5 to 10 minutes before slicing.",
+        "While the pork rests, return the skillet to medium heat on the stovetop. Pour in the wine or broth, scraping up browned bits from the pan bottom, and simmer until reduced by half.",
+        "Turn off the heat, swirl in the butter until silky, and spoon the warm pan sauce over the sliced pork to serve."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Oven roasting",
+          "target": "145\u00b0F to 150\u00b0F internal temperature"
+        }
+      ],
+      "swaps": "Vegetable broth can substitute for chicken broth or wine; dried thyme and rosemary can replace steak seasoning.",
+      "notes": "Equipment: Large cast-iron skillet or oven-safe pan, instant-read thermometer. Resting 5-10 minutes preserves internal juices."
+    }
+  ]
+}

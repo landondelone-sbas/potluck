@@ -1,0 +1,105 @@
+{
+  "theme": "beef",
+  "count": 1,
+  "skipped_note": "The notebook contains only 1 qualifying beef dinner recipe that satisfies all constraints. Other beef candidates in notebook sources were excluded based on strict rules: (1) 'Slow Cooker Harvest Beef Stew' (Heart Healthy Recipe Guide - HFSA) was excluded under Rule 5 (cook time exceeds 3 hours: 5-6 hours on high, 10-12 hours on low) and Rule 7 (stews are blacklisted); (2) 'Hamburgers' (Ultimate Guide to Beef | Burgers' Smokehouse) was excluded under Rule 7 (burgers are blacklisted); (3) 'Oven-Baked Brisket' (Ultimate Guide to Beef | Burgers' Smokehouse) was excluded under Rule 5 (cook time of 3 hours plus prep/rest exceeds the 3-hour limit) and Rule 6 (missing vegetable and starch components); (4) 'One-Pan Cheesy Ground Beef and Potatoes' (The Kitchn) was excluded under Rule 1 (source text is an editorial roundup linking out externally; full ingredient quantities and preparation steps are absent from the notebook); (5) 'Korean Beef Bowls' (The Kitchn) was excluded under Rule 7 (grain/burrito bowls are blacklisted) and Rule 1 (external link only); (6) 'Stone Soup with beef broth' (ENGLISH - Boston.gov) was excluded under Rule 7 (soups are blacklisted); and (7) 'Beef Kabobs / Steaks / Stir-fries' (BEEF COOKERY - NDBeef) contained only temperature and grilling time reference charts rather than full 5-component dinner recipes.",
+  "recipes": [
+    {
+      "id": "beef_001",
+      "title": "Slow-Cooked Pot Roast",
+      "cuisine": "comfort",
+      "format": "pot",
+      "source": {
+        "name": "Heart Healthy Recipe Guide - HFSA",
+        "location": "Complete Meals & Main Dishes, Slow-Cooked Pot Roast"
+      },
+      "servings": 6,
+      "prep_minutes": 20,
+      "cook_minutes": 120,
+      "ingredients": [
+        {
+          "quantity": "1.5",
+          "unit": "lb",
+          "name": "beef top round roast, trimmed of fat and brought to room temperature",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "medium",
+          "name": "potatoes, unpeeled and cut into 2-inch chunks",
+          "role": "starch",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "medium",
+          "name": "carrots, sliced crosswise into 1-inch pieces",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "medium ribs",
+          "name": "celery, cut into 1-inch pieces",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "medium",
+          "name": "yellow onion, thinly sliced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "cloves",
+          "name": "garlic, coarsely chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1/4",
+          "unit": "tsp",
+          "name": "salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "to taste",
+          "unit": "",
+          "name": "black pepper",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "cup",
+          "name": "water (for braising pan juices)",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "olive oil",
+          "role": "staple",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Preheat the oven to 325°F.",
+        "Heat the olive oil over medium heat in a large, heavy oven-safe pot, tilting to coat the bottom.",
+        "Add the beef roast and sear for 2 to 3 minutes on each side until evenly browned.",
+        "Season the seared beef with the salt and freshly cracked black pepper.",
+        "Scatter the chopped garlic, celery, potatoes, carrots, and sliced onion around the roast, then pour in the water.",
+        "Cover the pot tightly with its lid and transfer to the oven to bake for 2 hours.",
+        "Remove the beef to a cutting board, tent loosely with aluminum foil, and let rest for 15 minutes before thinly slicing.",
+        "Arrange the sliced beef on a serving platter, transfer the braised vegetables alongside using a slotted spoon, and spoon the warm pan juices over the meat."
+      ],
+      "source_temperatures": [],
+      "swaps": "",
+      "notes": "Equipment: large, heavy ovenproof pot with tight-fitting lid. Passive time: 1 hour resting at room temperature before searing, and 15 minutes resting under foil after cooking. The pan drippings and braising water create the natural pan sauce drizzled over the roast."
+    }
+  ]
+}

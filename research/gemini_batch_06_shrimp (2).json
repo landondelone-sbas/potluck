@@ -1,0 +1,208 @@
+{
+  "theme": "shrimp",
+  "count": 2,
+  "skipped_note": "Rules 2 and 3 relaxed. Sourced from NotebookLM. Added Garlic Prawns (Shrimp) from RecipeTin Eats alongside Classic Shrimp Scampi (Boston.gov). Excluded: Grilled Shrimp with Mint Salsa Verde (HFSA p. 11, appetizer portion lacking meal structure), Mixed Tempura and Thai Seafood Soup (Masterchef Bookey, narrative critiques without full recipe quantities).",
+  "recipes": [
+    {
+      "id": "shrimp_001",
+      "title": "Shrimp Scampi",
+      "cuisine": "italian",
+      "format": "plate",
+      "source": {
+        "name": "ENGLISH - Boston.gov",
+        "location": "Page 60"
+      },
+      "servings": 4,
+      "prep_minutes": 15,
+      "cook_minutes": 15,
+      "ingredients": [
+        {
+          "quantity": "10",
+          "unit": "pieces",
+          "name": "raw large shrimp, peeled and deveined",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "4",
+          "unit": "cloves",
+          "name": "garlic, minced",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "2",
+          "unit": "medium",
+          "name": "plum tomatoes, chopped",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "fresh flat-leaf parsley, chopped",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "5",
+          "unit": "tbsp",
+          "name": "extra virgin olive oil",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "butter",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "cup",
+          "name": "dry white cooking wine (or chicken broth)",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "8",
+          "unit": "oz",
+          "name": "linguini or spaghetti pasta",
+          "role": "starch",
+          "optional": false
+        },
+        {
+          "quantity": "0.25",
+          "unit": "tsp",
+          "name": "salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.25",
+          "unit": "tsp",
+          "name": "black pepper",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.25",
+          "unit": "tsp",
+          "name": "crushed red pepper flakes",
+          "role": "spice",
+          "optional": true
+        }
+      ],
+      "steps": [
+        "Bring a large pot of salted water to a rolling boil. Add linguini and cook until al dente according to package directions, reserving 1/2 cup of pasta water before draining.",
+        "While pasta is cooking, heat olive oil and butter in a large skillet over medium heat.",
+        "Add minced garlic and crushed red pepper flakes; saut\u00e9 for 1 minute until fragrant but not browned.",
+        "Add raw shrimp and chopped tomatoes to the skillet, cooking for 2 to 3 minutes until shrimp turn pink and opaque.",
+        "Pour in the dry white cooking wine (or chicken broth), season with salt and black pepper, and simmer for 2 to 3 minutes to reduce slightly.",
+        "Toss the drained linguini and chopped parsley directly into the skillet with the sauce, adding a splash of reserved pasta water if needed to coat the noodles smoothly.",
+        "Serve immediately while hot."
+      ],
+      "source_temperatures": [],
+      "swaps": "Chicken broth can replace white wine; gluten-free pasta or zucchini noodles can replace linguini.",
+      "notes": "Equipment: Large pasta pot, colander, large saut\u00e9 pan. Quick-cooking dinner ready in under 30 minutes."
+    },
+    {
+      "id": "shrimp_002",
+      "title": "Garlic Prawns (Shrimp)",
+      "cuisine": "med",
+      "format": "plate",
+      "source": {
+        "name": "RecipeTin Eats",
+        "location": "Source f952c625-c6bf-4dcf-a43a-a4962159039b"
+      },
+      "servings": 4,
+      "prep_minutes": 10,
+      "cook_minutes": 6,
+      "ingredients": [
+        {
+          "quantity": "1",
+          "unit": "lb",
+          "name": "raw large shrimp (prawns), peeled and deveined, tail-on",
+          "role": "protein",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "tbsp",
+          "name": "extra virgin olive oil, divided",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "4",
+          "unit": "cloves",
+          "name": "garlic, finely chopped with a knife",
+          "role": "veg",
+          "optional": false
+        },
+        {
+          "quantity": "0.25",
+          "unit": "cup",
+          "name": "dry white wine (Chardonnay or Pinot Grigio)",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "3",
+          "unit": "tbsp",
+          "name": "unsalted butter, cubed",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "fresh lemon juice",
+          "role": "sauce",
+          "optional": false
+        },
+        {
+          "quantity": "1",
+          "unit": "tbsp",
+          "name": "fresh parsley, finely chopped",
+          "role": "spice",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "salt",
+          "role": "staple",
+          "optional": false
+        },
+        {
+          "quantity": "0.5",
+          "unit": "tsp",
+          "name": "black pepper",
+          "role": "spice",
+          "optional": false
+        }
+      ],
+      "steps": [
+        "Pat shrimp thoroughly dry with paper towels to ensure a crisp sear.",
+        "Toss shrimp in a bowl with 1 tablespoon olive oil, salt, and black pepper. Let rest 10 to 15 minutes.",
+        "Heat 1 tablespoon olive oil in a large non-stick skillet over high heat until shimmering.",
+        "Add half of the shrimp in a single layer without crowding; sear undisturbed for 45 seconds per side until golden pink, then transfer to a plate.",
+        "Add the remaining tablespoon of olive oil to the skillet and sear the second batch of shrimp for 45 seconds per side.",
+        "Return the first batch of shrimp to the skillet, scatter in the chopped garlic, and stir-fry for 30 seconds until fragrant.",
+        "Pour in the white wine; it will steam and sizzle vigorously. Simmer for 30 seconds while scraping up browned bits until the wine mostly evaporates.",
+        "Scatter the butter cubes and drizzle lemon juice into the pan. Swirl the skillet until the butter melts into an emulsified sauce, then toss through the fresh parsley.",
+        "Immediately transfer shrimp and garlic butter sauce to a warm serving platter and serve with crusty bread or over rice."
+      ],
+      "source_temperatures": [
+        {
+          "step": "Visual doneness",
+          "target": "Curled into a 'C' shape, pink and opaque throughout (under 6 minutes total)"
+        }
+      ],
+      "swaps": "Low-sodium chicken broth can replace white wine; cilantro can substitute for parsley.",
+      "notes": "Equipment: Large skillet, tongs. Do not use a garlic press as minced garlic will burn at high heat; chop with a knife."
+    }
+  ]
+}
