@@ -3,7 +3,7 @@ import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
-import { Appearance, Platform } from 'react-native';
+import { Appearance, Image, Platform } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import { PotHeaderActions } from '@/components/pot-header-actions';
@@ -12,6 +12,8 @@ import { usePotluck } from '@/state/store';
 import { useHydrated } from '@/state/use-hydrated';
 import { fontAssets, fonts } from '@/theme/fonts';
 import { useTheme } from '@/theme/use-theme';
+
+const touchIcon: number = require('../../assets/images/apple-touch-icon.png');
 
 // Keep the splash screen up until the fonts and the saved data are ready.
 void SplashScreen.preventAutoHideAsync();
@@ -40,6 +42,14 @@ export default function RootLayout() {
     if (Platform.OS === 'web') {
       document.documentElement.style.colorScheme =
         appearance === 'system' ? 'light dark' : appearance;
+      // The icon for "Add to Home Screen" in iOS Safari. The favicon comes from app.json.
+      const href = Image.resolveAssetSource(touchIcon)?.uri;
+      if (href && !document.querySelector('link[rel="apple-touch-icon"]')) {
+        const link = document.createElement('link');
+        link.rel = 'apple-touch-icon';
+        link.href = href;
+        document.head.appendChild(link);
+      }
     }
     if (typeof Appearance.setColorScheme !== 'function') return;
     Appearance.setColorScheme(appearance === 'system' ? 'auto' : appearance);
