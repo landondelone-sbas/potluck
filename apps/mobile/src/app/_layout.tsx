@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import { Appearance, Image, Platform } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
+import { HeaderLogo } from '@/components/header-logo';
 import { PotHeaderActions } from '@/components/pot-header-actions';
 import { strings } from '@/content/strings';
 import { usePotluck } from '@/state/store';
@@ -75,7 +76,11 @@ export default function RootLayout() {
         <Stack.Protected guard={onboardingComplete}>
           <Stack.Screen
             name="index"
-            options={{ title: strings.appName, headerRight: () => <PotHeaderActions /> }}
+            options={{
+              title: strings.appName,
+              headerTitle: () => <HeaderLogo />,
+              headerRight: () => <PotHeaderActions />,
+            }}
           />
           <Stack.Screen name="results" options={{ title: strings.results.title }} />
           <Stack.Screen name="recipe/[id]" options={{ title: strings.recipe.title }} />
