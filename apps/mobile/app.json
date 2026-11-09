@@ -8,13 +8,12 @@
     "scheme": "tonightspot",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "bundleIdentifier": "com.landondelone.tonightspot",
-      "icon": "./assets/expo.icon"
+      "bundleIdentifier": "com.landondelone.tonightspot"
     },
     "android": {
       "package": "com.landondelone.tonightspot",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#FFF4E5",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
@@ -26,15 +25,26 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#FFF4E5",
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "imageWidth": 200,
+          "dark": {
+            "backgroundColor": "#0F1514",
+            "image": "./assets/images/splash-icon.png"
+          }
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png",
+      "backgroundColor": "#FFF4E5",
+      "themeColor": "#D9531E",
+      "name": "Tonight's Pot",
+      "shortName": "Tonight's Pot"
     }
   }
 }

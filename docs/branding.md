@@ -46,3 +46,12 @@ Per PRD HLT-3, no medical, weight-loss or nutritional claims in the app or the s
 - Icon and logo (owner).
 - Google Play, domain and trademark checks.
 - Bundle identifier. It is set to `com.landondelone.tonightspot` as a placeholder in `app.json`. It becomes permanent at the first store upload, so confirm it matches the developer account names first.
+
+## Logo and icons
+
+The mark is the orange pot (no text). The banner pairs it with the script wordmark and the line
+"Dinner from the food you already have." for store listings and the web page header.
+Sources are in `docs/brand/`. The app icons in `apps/mobile/assets/images/` were generated from the
+icon source: the steam is darkened so it holds up small, the background is flattened to cream
+(#FFF4E5), and the pot is sized for the iOS square, the Android adaptive safe zone, the splash and
+the favicon. Splash is cream in light mode and the app's dark background in dark mode.
