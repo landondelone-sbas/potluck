@@ -14,7 +14,7 @@ import { useHydrated } from '@/state/use-hydrated';
 import { fontAssets, fonts } from '@/theme/fonts';
 import { useTheme } from '@/theme/use-theme';
 
-const touchIcon: number = require('../../assets/images/apple-touch-icon.png');
+const touchIcon: number | { uri: string } = require('../../assets/images/apple-touch-icon.png');
 
 // Keep the splash screen up until the fonts and the saved data are ready.
 void SplashScreen.preventAutoHideAsync();
@@ -44,7 +44,9 @@ export default function RootLayout() {
       document.documentElement.style.colorScheme =
         appearance === 'system' ? 'light dark' : appearance;
       // The icon for "Add to Home Screen" in iOS Safari. The favicon comes from app.json.
-      const href = Image.resolveAssetSource(touchIcon)?.uri;
+      // On the web a required image is already { uri }; on native it is an id.
+      const href =
+        typeof touchIcon === 'object' ? touchIcon.uri : Image.resolveAssetSource?.(touchIcon)?.uri;
       if (href && !document.querySelector('link[rel="apple-touch-icon"]')) {
         const link = document.createElement('link');
         link.rel = 'apple-touch-icon';
